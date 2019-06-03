@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>CFR</masterLabel>
+        <translation>Costes y flete</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CIF</masterLabel>
+        <translation>Costes, seguro y flete</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CIP</masterLabel>
+        <translation>Porte pagado y seguro</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CPT</masterLabel>
+        <translation>Porte pagado</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DAF</masterLabel>
+        <translation>Entrega en frontera - NO USAR</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DAP</masterLabel>
+        <translation>Entrega en lugar</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DAT</masterLabel>
+        <translation>Entrega en terminal</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DDP</masterLabel>
+        <translation>Entrega con aduana</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DDU</masterLabel>
+        <translation>Entrega sin aduana - NO USAR</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DEQ</masterLabel>
+        <translation>Entrega ex-muelle - NO USAR</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DES</masterLabel>
+        <translation>Entrega ex-buque - NO USAR</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>EXW</masterLabel>
+        <translation>Ex-fábrica</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FAS</masterLabel>
+        <translation>Franco al costado del buque</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FCA</masterLabel>
+        <translation>Franco transportista</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FH</masterLabel>
+        <translation>Franco domicilio - NO USAR</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FOB</masterLabel>
+        <translation>Franco a bordo</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UN</masterLabel>
+        <translation>Sin franquear</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZEC</masterLabel>
+        <translation>Ex-fábrica China</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZEE</masterLabel>
+        <translation>Ex-fábrica Europa</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZEI</masterLabel>
+        <translation>Ex-fábrica India</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZFC</masterLabel>
+        <translation>FOB - Franco a bordo China/HK</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZFE</masterLabel>
+        <translation>FOB - Franco a bordo Europa</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZFG</masterLabel>
+        <translation>FOB - Franco a bordo Egipto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZFI</masterLabel>
+        <translation>FOB - Franco a bordo India</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZFM</masterLabel>
+        <translation>FOB - Franco a bordo Marruecos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZFU</masterLabel>
+        <translation>FOB - Franco a bordo EE.UU.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZPC</masterLabel>
+        <translation>Portes Pagados por Cliente</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZPD</masterLabel>
+        <translation>Portes Debidos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZPP</masterLabel>
+        <translation>Portes Pagados</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZZ</masterLabel>
+        <translation><!-- ZZZ --></translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>No codificado</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>No codificados</value>
+    </caseValues>
+    <fields>
+        <label><!-- Activo --></label>
+        <name>KS_Activo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cableado o Kit --></label>
+        <name>KS_Cableado_o_Kit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cliente --></label>
+        <name>KS_Cliente__c</name>
+        <relationshipLabel><!-- No codificados --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Comentarios --></label>
+        <name>KS_Comentarios__c</name>
+    </fields>
+    <fields>
+        <label><!-- Etapa --></label>
+        <name>KS_Etapa__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nombre No Codificado --></label>
+        <name>KS_Nombre_No_Codificado__c</name>
+    </fields>
+    <fields>
+        <label><!-- Num. de líneas eléctricas --></label>
+        <name>KS_Num_de_lineas_electricas__c</name>
+    </fields>
+    <fields>
+        <label><!-- Obra --></label>
+        <name>KS_Obra__c</name>
+        <relationshipLabel><!-- No codificados --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Observaciones --></label>
+        <name>KS_Observaciones__c</name>
+    </fields>
+    <fields>
+        <help><!-- Plazo de entrega a partir de la recepción del pedido --></help>
+        <label><!-- Plazo de entrega --></label>
+        <name>KS_Plazo_de_entrega__c</name>
+    </fields>
+    <fields>
+        <help><!-- Solicitud de plazo de entrega --></help>
+        <label><!-- Plazo de entrega --></label>
+        <name>KS_Plazo_de_entrega_solicitud__c</name>
+    </fields>
+    <fields>
+        <label><!-- Precio Total --></label>
+        <name>KS_Precio_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Precio muestra --></label>
+        <name>KS_Precio_muestra__c</name>
+    </fields>
+    <fields>
+        <label><!-- Precio pieza --></label>
+        <name>KS_Precio_pieza__c</name>
+    </fields>
+    <fields>
+        <help><!-- Cantidad prevista de venta --></help>
+        <label><!-- Previsión unidades de venta --></label>
+        <name>KS_Prevision_unidades_de_venta__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sobrecoste Modulos --></label>
+        <name>KS_Sobrecoste_Modulos__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total --></label>
+        <name>KS_Total__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>No Codificado D1</layout>
+        <sections>
+            <label><!-- Gestión de Ventas --></label>
+            <section>Gestión de Ventas</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>No Codificado D2</layout>
+        <sections>
+            <label><!-- Gestión de Ventas --></label>
+            <section>Gestión de Ventas</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- No codificados tipo D1 --></description>
+        <label><!-- D1 --></label>
+        <name>KS_D1</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- No Codificado tipo D2 --></description>
+        <label><!-- D2 --></label>
+        <name>KS_D2</name>
+    </recordTypes>
+</CustomObjectTranslation>

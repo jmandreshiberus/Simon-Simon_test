@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>KAIZENSTEP. ACTIVO. Objeto que contiene las operaciones que componen los productos no codificados</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>KS_Accion_1__c</fullName>
+        <externalId>false</externalId>
+        <label>Acción 1</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>KS_Accion</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>KS_Accion_2__c</fullName>
+        <externalId>false</externalId>
+        <label>Acción 2</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>KS_Accion</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>KS_Color__c</fullName>
+        <externalId>false</externalId>
+        <label>Color</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>KS_No_codificado__c</fullName>
+        <externalId>false</externalId>
+        <label>No codificado</label>
+        <referenceTo>KS_No_codificado__c</referenceTo>
+        <relationshipLabel>Componentes</relationshipLabel>
+        <relationshipName>Componentes</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>KS_Num_m_dulos_adicionales__c</fullName>
+        <externalId>false</externalId>
+        <label>Num. módulos adicionales</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>KS_PVP_Tarifa__c</fullName>
+        <externalId>false</externalId>
+        <label>PVP Tarifa</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>KS_PVR_Final__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(TEXT(KS_Accion_1__c )=&apos;3. Dimensiones y corte&apos;, KS_PVP_Tarifa__c*1.1,
+  IF(TEXT(KS_Accion_1__c)=&apos;4. Pintado&apos;,KS_PVP_Tarifa__c*1.5,
+     IF(TEXT(KS_Accion_1__c)=&apos;5. Serigrafiado B/N&apos;,KS_PVP_Tarifa__c*1.7,
+        IF(TEXT(KS_Accion_1__c)=&apos;6. Serigrafiado Color&apos;,KS_PVP_Tarifa__c*2,
+           IF(TEXT(KS_Accion_1__c)=&apos;7. Pintado y serigrafiado B/N&apos;,KS_PVP_Tarifa__c*2,
+              IF(TEXT(KS_Accion_1__c)=&apos;8. Pintado y serigrafiado Color&apos;,KS_PVP_Tarifa__c*2.5,KS_PVP_Tarifa__c))))))+
+IF(TEXT(KS_Accion_2__c )=&apos;3. Dimensiones y corte&apos;, KS_PVP_Tarifa__c*1.1,
+  IF(TEXT(KS_Accion_2__c)=&apos;4. Pintado&apos;,KS_PVP_Tarifa__c*1.5,
+     IF(TEXT(KS_Accion_2__c)=&apos;5. Serigrafiado B/N&apos;,KS_PVP_Tarifa__c*1.7,
+        IF(TEXT(KS_Accion_2__c)=&apos;6. Serigrafiado Color&apos;,KS_PVP_Tarifa__c*2,
+           IF(TEXT(KS_Accion_2__c)=&apos;7. Pintado y serigrafiado B/N&apos;,KS_PVP_Tarifa__c*2,
+              IF(TEXT(KS_Accion_2__c)=&apos;8. Pintado y serigrafiado Color&apos;,KS_PVP_Tarifa__c*2.5,KS_PVP_Tarifa__c))))))-KS_PVP_Tarifa__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>PVR Final</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>KS_PVR_Total__c</fullName>
+        <externalId>false</externalId>
+        <formula>KS_Unidades__c * KS_PVR_Final__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>PVR Total</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>KS_Producto__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Producto</label>
+        <referenceTo>Product2</referenceTo>
+        <relationshipLabel>Componentes</relationshipLabel>
+        <relationshipName>Componentes</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>KS_Producto_no_codificado__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Producto no codificado</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Product2.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>No Codificados D1</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Product2</referenceTo>
+        <relationshipLabel>Componentes (Producto no codificado)</relationshipLabel>
+        <relationshipName>Componentes1</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>KS_Sobrecoste_Modulos__c</fullName>
+        <externalId>false</externalId>
+        <formula>(KS_PVP_Tarifa__c * KS_Num_m_dulos_adicionales__c *0.10)+KS_PVP_Tarifa__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Sobrecoste Modulos</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>KS_Tamano__c</fullName>
+        <externalId>false</externalId>
+        <label>Tamaño</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>KS_Unidad_de_medida__c</fullName>
+        <externalId>false</externalId>
+        <label>Unidad de medida</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>KS_Unidad_de_medida</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>KS_Unidades__c</fullName>
+        <externalId>false</externalId>
+        <label>Unidades</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <gender>Masculine</gender>
+    <label>Componente</label>
+    <nameField>
+        <displayFormat>CTE-{000000}</displayFormat>
+        <label>id Componente</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Componentes</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>Control_color_pintura</fullName>
+        <active>true</active>
+        <errorConditionFormula>OR(TEXT(KS_Accion_1__c)=&apos;4. Pintado&apos;,TEXT(KS_Accion_2__c)=&apos;4. Pintado&apos;) &amp;&amp;  KS_Color__c =&apos;&apos;</errorConditionFormula>
+        <errorMessage>Si se requeire trabajo de pintura, debe de indicarse el color</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

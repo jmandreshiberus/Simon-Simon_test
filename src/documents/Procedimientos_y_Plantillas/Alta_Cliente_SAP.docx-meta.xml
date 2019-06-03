@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Planrta alta Clientes en SAP 2017</description>
+    <internalUseOnly>true</internalUseOnly>
+    <keywords>Solicitud alta clientes SAP 2017 Plantilla</keywords>
+    <name>1701 Alta Cliente SAP</name>
+    <public>false</public>
+</Document>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>LF</masterLabel>
+        <translation>Livraison sortante</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LR</masterLabel>
+        <translation>Livraison retour</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBR1</masterLabel>
+        <translation>Livraison sortante</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBR2</masterLabel>
+        <translation>Livraison retour</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBR3</masterLabel>
+        <translation>Livraison sortante</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBR5</masterLabel>
+        <translation>Livraison sortante</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBRO</masterLabel>
+        <translation>Livraison retour</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBRP</masterLabel>
+        <translation>Livraison sortante</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBV0</masterLabel>
+        <translation>Vente au comptant</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZDTR</masterLabel>
+        <translation>Transfert central</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZESP</masterLabel>
+        <translation>SortieSpeciaux(comp)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZHIC</masterLabel>
+        <translation>Livr.entrante</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZHID</masterLabel>
+        <translation>Livr.entrante</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZHMD</masterLabel>
+        <translation>Livr.entrante</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZHOD</masterLabel>
+        <translation>Livr. entr. mvmt SM</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZIN1</masterLabel>
+        <translation>Livraison sortante</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZIN2</masterLabel>
+        <translation>Livraison sortante</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZIN3</masterLabel>
+        <translation>Livraison retour</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZLC0</masterLabel>
+        <translation>Livraison sortante</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZLCC</masterLabel>
+        <translation>Réappro Inter-Sté</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZLF</masterLabel>
+        <translation>Livraison consigne</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZLG</masterLabel>
+        <translation>Livraison gratuite</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZLR</masterLabel>
+        <translation>Retour consigne</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZNL</masterLabel>
+        <translation>Livr.réappro.Magasin</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZNL1</masterLabel>
+        <translation>Livraison réappro.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZTC</masterLabel>
+        <translation><!-- ZTC --></translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

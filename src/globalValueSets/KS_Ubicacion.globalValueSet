@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Polígono Industrial</fullName>
+        <default>false</default>
+        <label>Polígono Industrial</label>
+    </customValue>
+    <customValue>
+        <fullName>Urbano</fullName>
+        <default>false</default>
+        <label>Urbano</label>
+    </customValue>
+    <customValue>
+        <fullName>Rural</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Rural</label>
+    </customValue>
+    <customValue>
+        <fullName>Hotel</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Hotel</label>
+    </customValue>
+    <customValue>
+        <fullName>Playa</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Playa</label>
+    </customValue>
+    <description>SEGMENTACIÓN. Usado como variable de segmentación en cuentas</description>
+    <masterLabel>Ubicación</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

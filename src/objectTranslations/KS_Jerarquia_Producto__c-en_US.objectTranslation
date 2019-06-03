@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Product hierarchy</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Products hierarchy</value>
+    </caseValues>
+    <fields>
+        <label><!-- Denominacion DE --></label>
+        <name>KS_Denominacion_DE__c</name>
+    </fields>
+    <fields>
+        <label><!-- Denominacion EN --></label>
+        <name>KS_Denominacion_EN__c</name>
+    </fields>
+    <fields>
+        <label><!-- Denominacion ES --></label>
+        <name>KS_Denominacion_ES__c</name>
+    </fields>
+    <fields>
+        <label><!-- Denominacion FR --></label>
+        <name>KS_Denominacion_FR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Denominacion IT --></label>
+        <name>KS_Denominacion_IT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Denominacion PT --></label>
+        <name>KS_Denominacion_PT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Denominacion RU --></label>
+        <name>KS_Denominacion_RU__c</name>
+    </fields>
+    <fields>
+        <label><!-- Denominacion ZH --></label>
+        <name>KS_Denominacion_ZH__c</name>
+    </fields>
+    <fields>
+        <label><!-- Id SAP --></label>
+        <name>KS_Id_SAP__c</name>
+    </fields>
+    <fields>
+        <label><!-- Migration Id --></label>
+        <name>KS_Migration_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Número Nivel Jerarquia --></label>
+        <name>KS_Numero_Nivel_Jerarquia__c</name>
+    </fields>
+    <layouts>
+        <layout>Formato Jerarquia Producto</layout>
+        <sections>
+            <label><!-- Denominaciones --></label>
+            <section>Denominaciones</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Product hierarchy</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

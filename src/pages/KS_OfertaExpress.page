@@ -1,0 +1,273 @@
+<apex:page standardController="KS_Oferta_express__c" extensions="KS_OfertaExpress_Controller" docType="html-5.0" id="oferta_page" standardStylesheets="true">
+    
+    <apex:messages />
+    <apex:includeScript value="{!$Resource.KS_jquery1}"/>
+    <apex:sectionheader title="{!$Label.oferta_xpress_calc_title}"/>    
+    <apex:stylesheet value="{!URLFOR($Resource.bootstrapSF1, 'css/bootstrap.min.css')}"/>
+    <apex:stylesheet value="{!URLFOR($Resource.bootstrapSF1, 'css/bootstrap-namespaced.min.css')}"/>
+    <apex:stylesheet value="{!$Resource.bootstrapSF1_custom}"/>
+    
+    <apex:form id="oferta_form" >
+    
+        <div id="oferta_block" class="container-fluid kaizen-container">
+            <br/>
+            <div class="row form-group" style="width:100%;">
+                
+                <div class="col-md-1">
+                    <apex:outputLabel value="{!$ObjectType.KS_Oferta_express__c.fields.KS_Importe_bruto__c.Label}" for="importe_bruto"/>
+                </div>                
+                <div class="col-md-2">
+                    <input type="number" step="any" value="{!oferta.KS_Importe_bruto__c}" id="importe_bruto" class="importe_bruto"/>
+                </div>
+                <div class="col-md-9">
+                    <!--<input type="button" value="{!$Label.ks_btn_calcular}" class="btn btnBruto" onclick='calcularBruto();'/>-->
+                </div>
+                
+            </div>
+            
+            <br/>
+            
+            <div class="row form-group" style="width:100%;">
+            
+                <div class="col-md-1">
+                    <apex:outputLabel value="{!$ObjectType.KS_Oferta_express__c.fields.KS_Dto_base_1__c.Label}" for="dtobase1"/>
+                </div>
+                <div class="col-md-2">
+                    <input type="number" step="any" value="{!oferta.KS_Dto_base_1__c}" id="dtobase1" class="dtobase1"/>
+                </div>
+                
+                <div class="col-md-1">
+                    <apex:outputLabel value="{!$ObjectType.KS_Oferta_express__c.fields.KS_Dto_base_2__c.Label}" for="dtobase2"/>
+                </div>
+                <div class="col-md-2">
+                    <input type="number" step="any" value="{!oferta.KS_Dto_base_2__c}" id="dtobase2" class="dtobase2"/>
+                </div>                  
+
+                <div class="col-md-1">
+                    <apex:outputLabel value="{!$ObjectType.KS_Oferta_express__c.fields.KS_Dto_adicional_1__c.Label}" for="dtoadic1"/>
+                </div>
+                <div class="col-md-2">
+                    <input type="number" step="any" value="{!oferta.KS_Dto_adicional_1__c}" id="dtoadic1" class="dtoadic1"/>
+                </div> 
+                <div class="col-md-3"></div>
+                
+            </div>
+            
+            <div class="row form-group" style="width:100%;">
+  
+                <div class="col-md-1">
+                    <apex:outputLabel value="{!$ObjectType.KS_Oferta_express__c.fields.KS_Dto_adicional_2__c.Label}" for="dtoadic2"/>
+                </div>
+                <div class="col-md-2">
+                    <input type="number" step="any" value="{!oferta.KS_Dto_adicional_2__c}" id="dtoadic2" class="dtoadic2"/>
+                </div>                
+
+                <div class="col-md-1">
+                    <apex:outputLabel value="{!$ObjectType.KS_Oferta_express__c.fields.KS_Dto_Instalador__c.Label}" for="dtoinstalador"/>
+                </div>
+                <div class="col-md-2">
+                    <input type="number" step="any" value="{!oferta.KS_Dto_Instalador__c}" id="dtoinstalador" class="dtoinstalador"/>
+                </div>                
+                
+                <div class="col-md-1">
+                    <apex:outputLabel value="{!$ObjectType.KS_Oferta_express__c.fields.KS_Dto_Cliente_final__c.Label}" for="dtocliefinal"/>
+                </div>
+                <div class="col-md-2">
+                    <input type="number" step="any" value="{!oferta.KS_Dto_Cliente_final__c}" id="dtocliefinal" class="dtocliefinal"/>
+                </div>  
+
+                <div class="col-md-3"></div>
+                
+            </div>  
+            
+            <br/>
+            
+            <div class="row form-group" style="width:100%;">
+            
+                <div class="col-md-1">
+                    <apex:outputLabel value="{!$ObjectType.KS_Oferta_express__c.fields.KS_Dto_total__c.Label}" for="dtototal"/>
+                </div>
+                <div class="col-md-11">
+                    <input type="number" step="any" value="{!oferta.KS_Dto_total__c}" id="dtototal" class="dtototal" readonly="true"/>
+                </div>  
+                
+            </div>
+            <div class="row form-group" style="width:100%;">
+            
+                <div class="col-md-1">
+                    <apex:outputLabel value="{!$ObjectType.KS_Oferta_express__c.fields.KS_Margen__c.Label}" for="margen"/>
+                </div>
+                <div class="col-md-11">
+                    <input type="number" step="any" value="{!oferta.KS_Margen__c}" id="margen" class="margen" readonly="true"/>
+                </div>  
+                
+            </div>
+            
+            <br/>
+            
+            <div class="row form-group" style="width:100%;">
+                
+                <div class="col-md-1">
+                    <apex:outputLabel value="{!$ObjectType.KS_Oferta_express__c.fields.KS_Importe_neto__c.Label}" for="importe_neto_dist"/>
+                </div>
+                <div class="col-md-2">
+                    <input type="number" step="any" value="{!oferta.KS_Importe_neto__c}" id="importe_neto_dist" class="importe_neto_dist"/>
+                </div>
+                <div class="col-md-1">
+                    <apex:outputLabel value="{!$ObjectType.KS_Oferta_express__c.fields.KS_Importe_instalador__c.Label}" for="importe_neto_inst"/>
+                </div>
+                <div class="col-md-2">
+                    <input type="number" step="any" value="{!oferta.KS_Importe_instalador__c}" id="importe_neto_inst" class="importe_neto_inst"/>
+                </div>   
+                <div class="col-md-1">
+                    <apex:outputLabel value="{!$ObjectType.KS_Oferta_express__c.fields.KS_Importe_clientefinal__c.Label}" for="importe_neto_clie"/>
+                </div>
+                <div class="col-md-2">
+                    <input type="number" step="any" value="{!oferta.KS_Importe_clientefinal__c}" id="importe_neto_clie" class="importe_neto_clie"/>
+                </div>                
+                <div class="col-md-3"></div>
+                
+            </div>            
+            
+            <br/>
+            
+            <div class="row form-group" style="width:100%;">
+                
+                <div class="col-md-12" style="text-align:center;">
+                    <input type="button" value="{!$Label.ks_btn_calcular} {!$Label.ks_importeneto}" class="btn btnNeto" onclick='calcularNeto();'/>
+                    <input type="button" value="{!$Label.ks_btn_calcular} {!$Label.ks_descuento}" class="btn btnDto" onclick='calcularDto();'/>
+                    <input type="button" value="{!$Label.ks_btn_reset}" class="btn btnReset" onclick='reiniciar();'/>
+                </div>
+                
+            </div>
+            
+        </div>
+    
+    </apex:form>
+
+    <script type="text/javascript">
+    
+    // Inputs del formulario
+    var inputBrto = $('.importe_bruto');
+    var inputNeto = $('.importe_neto_dist');
+    var inputNetoClFn = $('.importe_neto_clie');
+    var inputNetoInst = $('.importe_neto_inst');
+    
+    var inputDtoInst = $('.dtoinstalador');
+    var inputDtoClFn = $('.dtocliefinal');
+    
+    var inputDtoB1 = $('.dtobase1');
+    var inputDtoB2 = $('.dtobase2');
+    
+    var inputDtoA1 = $('.dtoadic1');
+    var inputDtoA2 = $('.dtoadic2');
+    
+    var inputDtoTTL = $('.dtototal');
+    var inputMrgn = $('.margen');
+    
+    function isNum(value) {
+        return $.isNumeric(value);
+    }
+    function calcularNeto() {
+        
+        // Recogida de valores y comprobaciones, si BRUTO no es numérico, se cancela el cálculo
+        var bruto = $(inputBrto).val(); 
+        if (!isNum(bruto)) { alert('{!$Label.ks_invalidvalor} {!$Label.ks_importebruto}');return; }
+        var dtb1 = $(inputDtoB1).val();
+        var dtb2 = $(inputDtoB2).val();
+        var dta1 = $(inputDtoA1).val();
+        var dta2 = $(inputDtoA2).val();
+        var dtIn = $(inputDtoInst).val();
+        var dtCF = $(inputDtoClFn).val();
+        
+        // Se suman los descuentos
+        var totalDT = 1;
+        if (isNum(dtb1)) { totalDT = 1-(Number(dtb1)/100); }
+        if (isNum(dtb2)) { totalDT = totalDT * (1-(Number(dtb2)/100)); }
+        if (isNum(dta1)) { totalDT = totalDT * (1-(Number(dta1)/100)); }
+        if (isNum(dta2)) { totalDT = totalDT * (1-(Number(dta2)/100)); }
+        //if (isNum(dtIn)) { totalDT = totalDT * (1-(Number(dtIn)/100)); }
+        //if (isNum(dtCF)) { totalDT = totalDT * (1-(Number(dtCF)/100)); }
+        totalDT = 1 - totalDT;
+        
+        $(inputDtoTTL).prop('value', Number(totalDT).toFixed(2)*100);
+        var resta = bruto*(totalDT);
+        var neto = bruto - resta;
+        $(inputMrgn).prop('value', Number(resta).toFixed(2));
+        $(inputNeto).prop('value', Number(neto).toFixed(2));
+        
+        var dtoClFn = 0;
+        if (isNum(dtCF)) { dtoClFn = (Number(dtCF)/100); }
+        var restaClFn = bruto*(dtoClFn);
+        var netoClFn = bruto - restaClFn;  
+        $(inputNetoClFn).prop('value', Number(netoClFn).toFixed(2));
+        
+        var dtoInst = 0;
+        if (isNum(dtIn)) { dtoInst = (Number(dtIn)/100); }
+        var restaInst = bruto*(dtoInst);
+        var netoInst = bruto - restaInst;
+        $(inputNetoInst).prop('value', Number(netoInst).toFixed(2));
+    }
+    function calcularDto() {
+        
+        // Recogida de valores y comprobaciones, si BRUTO no es numérico, se cancela el cálculo
+        var bruto = $(inputBrto).val();
+        var neto = $(inputNeto).val();
+        var margen =  Number(bruto) -  Number(neto);
+        
+        var dtb1 = $(inputDtoB1).val();
+        var dtb2 = $(inputDtoB2).val();
+        var dta1 = $(inputDtoA1).val();
+        var dta2 = $(inputDtoA2).val();
+        var dtIn = $(inputDtoInst).val();
+        var dtCF = $(inputDtoClFn).val();        
+        
+        if ( margen < bruto ) {
+
+            $(inputMrgn).prop('value', Number(margen).toFixed(2));
+            if (!isNum(bruto)) { alert('{!$Label.ks_invalidvalor} {!$Label.ks_importebruto}');return; }
+            //if (!isNum(neto)) { alert('{!$Label.ks_invalidvalor} {!$Label.ks_importeneto}');return; }
+            
+
+            
+            var totalDT = 1;
+            if (isNum(dtb1)) { totalDT = 1-(Number(dtb1)/100); }
+            if (isNum(dtb2)) { totalDT = totalDT * (1-(Number(dtb2)/100)); }
+            if (isNum(dta1)) { totalDT = totalDT * (1-(Number(dta1)/100)); }
+            totalDT = 1 - totalDT;
+            var restaBase = bruto*(totalDT);
+            var netoBase = bruto - restaBase;
+            
+            var resta =  Number(netoBase) -  Number(neto);
+            
+            var totalDTDist = (resta/Number(netoBase))*100;
+            $(inputDtoTTL).prop('value', Number(totalDTDist).toFixed(2));
+            
+            totalDT = totalDT * (1-(Number(totalDTDist)/100));
+            var dta2 = $(inputDtoA2).val(Number(totalDTDist).toFixed(2));
+        }
+        
+        var inputNetoInstVal = $(inputNetoInst).val();
+        if (isNum(inputNetoInstVal)) {
+            var restaInst = bruto - Number(inputNetoInstVal);
+            var totalDTInst = (restaInst/Number(bruto))*100;
+            $(inputDtoInst).val(Number(totalDTInst).toFixed(2));
+        }
+        
+        var inputNetoClFnVal = $(inputNetoClFn).val();
+        if (isNum(inputNetoClFnVal)) {
+            var restaClFn = bruto - Number(inputNetoClFnVal);
+            var totalDTClFn = (restaClFn/Number(bruto))*100;
+            $(inputDtoClFn).val(Number(totalDTClFn).toFixed(2));            
+        }
+    }
+    function reiniciar() { 
+        $("input").each(function(){
+            if (!$(this).hasClass('btn')) {
+                $(this).val('');
+            }
+        });
+    }
+    </script>
+    
+</apex:page>

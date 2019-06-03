@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Header_Simon</letterhead>
+    <name>MailReportesMKT</name>
+    <style>formalLetter</style>
+    <subject>Reporte creado con información de interés para Marketing</subject>
+    <textOnly>El reporte {!KS_Reporte__c.Name} creado por {!KS_Reporte__c.CreatedBy} el {!KS_Reporte__c.CreatedDate} tiene la siguiente información que se ha considerado de interés:  
+Cuenta: {!KS_Reporte__c.KS_Cuenta__c}
+Fecha de inicio:{!KS_Reporte__c.KS_Fecha_de_inicio__c}
+Fecha de fin:{!KS_Reporte__c.KS_Fecha_de_fin__c}
+Tipo de Visita: {!KS_Reporte__c.KS_Tipo_de_visita__c}
+Objetivo de la Visita: {!KS_Reporte__c.KS_objetivo_de_la_visita__c}
+Comentarios: {!KS_Reporte__c.KS_Comentarios__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

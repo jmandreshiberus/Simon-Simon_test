@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>G2</masterLabel>
+        <translation>Sol.abono</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KL</masterLabel>
+        <translation>Entrega gratuita</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>L2</masterLabel>
+        <translation>Solicitud nota cargo</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>RE</masterLabel>
+        <translation>Devolución</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TA</masterLabel>
+        <translation>Pedido estándar</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZC01</masterLabel>
+        <translation>Reposic. Consigna</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZC02</masterLabel>
+        <translation>Consumo Domótica</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZC03</masterLabel>
+        <translation>Devolución Consigna</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZC04</masterLabel>
+        <translation>Consumo Consigna</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZC05</masterLabel>
+        <translation>Consum Consign Autof</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZC06</masterLabel>
+        <translation>Devol.art.consigna</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZG1</masterLabel>
+        <translation>Abono Dto. Periodico</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZG2</masterLabel>
+        <translation>Abono por Dif Precio</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZG3</masterLabel>
+        <translation>Abonos internos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZGA</masterLabel>
+        <translation>Abono Arrendamiento</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZGF</masterLabel>
+        <translation>Abono Financiero</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZGF2</masterLabel>
+        <translation>Abono Rectific. IVA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZKL</masterLabel>
+        <translation>Entrega gratuita</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZKLI</masterLabel>
+        <translation>Env. Interno</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZL1</masterLabel>
+        <translation>Cargo Dto. Periodico</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZL2</masterLabel>
+        <translation>Cargo por Dif Precio</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZL3</masterLabel>
+        <translation>Cargo Fra. Periódica</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZLF</masterLabel>
+        <translation>Cargo Financiero</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZRE</masterLabel>
+        <translation>Devolución</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZREC</masterLabel>
+        <translation>Devolución Chatarra</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZTA</masterLabel>
+        <translation>Pedido estándar</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZTA0</masterLabel>
+        <translation>Pedido estándar</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZTA1</masterLabel>
+        <translation>Pedido estándar</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

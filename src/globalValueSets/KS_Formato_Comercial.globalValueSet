@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Cadena Nacional</fullName>
+        <default>false</default>
+        <label>Cadena Nacional</label>
+    </customValue>
+    <customValue>
+        <fullName>Cadena Regional</fullName>
+        <default>false</default>
+        <label>Cadena Regional</label>
+    </customValue>
+    <customValue>
+        <fullName>Independiente</fullName>
+        <default>false</default>
+        <label>Independiente</label>
+    </customValue>
+    <customValue>
+        <fullName>Empresa ambito local</fullName>
+        <default>false</default>
+        <label>Empresa ambito local</label>
+    </customValue>
+    <customValue>
+        <fullName>Nacional</fullName>
+        <default>false</default>
+        <label>Nacional</label>
+    </customValue>
+    <customValue>
+        <fullName>Internacional</fullName>
+        <default>false</default>
+        <label>Internacional</label>
+    </customValue>
+    <customValue>
+        <fullName>Cadena Internacional</fullName>
+        <default>false</default>
+        <label>Cadena Internacional</label>
+    </customValue>
+    <description>SEGMENTACIÓN. Usado como variable de segmentación Cuenta</description>
+    <masterLabel>Alcance</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

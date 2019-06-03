@@ -1,0 +1,89 @@
+<apex:page standardController="KS_Obra__c" extensions="KS_OfertasObra_Controller" docType="html-5.0" id="obra_page" standardStylesheets="true">
+    
+    <apex:includeScript value="{!$Resource.KS_jquery1}"/>
+    <style type="text/css">
+        .clickhere {
+        cursor:pointer;
+        }
+        .clickhere:hover {
+        color:#015BA7;
+        }
+    </style>    
+    <apex:form id="obra_form" styleClass="formulario">
+        
+        <apex:pageBlock mode="detail">
+        
+            <apex:pageBlockButtons location="top">
+                <apex:commandbutton value="{!$Label.ks_btn_new_fem} {!$Label.oferta_min}" action="{!gotoNewOferta}" onclick="gotoNewOferta();"/>
+            </apex:pageBlockButtons>
+            
+            <apex:pageBlock rendered="{!haveOfertas}">
+            
+                <table class="list" border="0" cellpadding="0" cellspacing="0">
+                    
+                    <thead>
+                        <tr class="headerRow">
+                            <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.Opportunity.fields.KS_Oferta_ID__c.Label}</span></th>
+                            <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.Opportunity.fields.Name.Label}</span></th>
+                            <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.Opportunity.fields.CloseDate.Label}</span></th>
+                            <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.Opportunity.fields.KS_Protected__c.Label}</span></th>
+                            <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.Opportunity.fields.KS_Contabiliza__c.Label}</span></th>
+                            <th class="headerRow" scope="col" colspan="2"><span>{!$ObjectType.Opportunity.fields.KS_Agente_de_contabilizacion__c.Label}</span></th>
+                            <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.Opportunity.fields.StageName.Label}</span></th>
+                            <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.Opportunity.fields.KS_Subetapa__c.Label}</span></th>
+                            <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.Opportunity.fields.KS_Importe_total_fichas__c.Label}</span></th>
+                            <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.Opportunity.fields.KS_Estado_de_aprobacion__c.Label}</span></th>
+                            <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.Opportunity.fields.KS_Nivel_de_aprobacion_de_4__c.Label}</span></th>
+                            <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.Opportunity.fields.CreatedById.Label}</span></th>
+                        </tr>
+                    </thead>
+                    
+                    <tbody>
+                        <apex:repeat var="oferta" value="{!ofertas}">
+                            <tr class="dataRow">
+                                <td class="dataCell" width="10%">
+                                    <strong class="clickhere" onclick="gotoID('{!oferta.idopp}');">{!oferta.cod}</strong>
+                                </td>
+                                <td class="dataCell" width="10%"><apex:outputText value="{!oferta.name}"/></td>
+                                <td class="dataCell" width="10%"><apex:outputText value="{!oferta.fecha}"/></td>
+                                <td class="dataCell" width="10%"><apex:inputCheckbox value="{!oferta.protegido}" disabled="true"/></td>
+                                <td class="dataCell" width="10%"><apex:inputCheckbox value="{!oferta.contabiliza}" disabled="true"/></td>
+                                <td class="dataCell" width="8%"><apex:outputText value="{!oferta.contabilizador}"/></td>
+                                <td class="dataCell" width="12%">
+                                    <span class="clickhere" onclick="gotoID('{!oferta.contabilizadorID}');">{!oferta.contabilizadorName}</span>
+                                </td>
+                                <td class="dataCell" width="10%"><apex:outputText value="{!oferta.etapa}"/></td>
+                                <td class="dataCell" width="10%"><apex:outputText value="{!oferta.subetapa}"/></td>
+                                <td class="dataCell" width="10%"><apex:outputText value="{!oferta.importe}"/></td>
+                                <td class="dataCell" width="10%">
+                                    <apex:image url="{!$Resource.flag_green_png}" alt="OK" rendered="{!oferta.aprobacion}"/>
+                                    <apex:image url="{!$Resource.flag_red_png}" alt="KO" rendered="{!not(oferta.aprobacion)}"/>
+                                </td>
+                                <td class="dataCell" width="10%"><apex:outputText value="{!oferta.aprobacionNivel}"/></td>
+                                <td class="dataCell" width="10%"><apex:outputText value="{!oferta.creator}"/></td>
+                            </tr>
+                        </apex:repeat>
+                    </tbody>
+                    
+                </table>
+                
+            </apex:pageBlock>
+        
+        </apex:pageBlock>
+        
+    </apex:form> 
+    
+    <script type="text/javascript">
+    function gotoNewOferta() {
+        //window.open('/{!ofertaKeyPrefix}/e?KS_Obra={!obra.ID}');
+        window.open('{!newOfertaURL}');
+        
+        
+        //navigateToUrl('/setup/ui/recordtypeselect.jsp?ent=Opportunity&retURL=%2Fa004E000008Ox6n&save_new_url=%2F006%2Fe%3FCF00N58000009JIpt%3DPrueba%2B19J%26CF00N58000009JIpt_lkid%3Da004E000008Ox6n%26retURL%3D%252Fa004E000008Ox6n','RELATED_LIST','new00N58000009JIpt');        
+    }    
+    function gotoID(id) {
+        window.open('/'+id,'_blank');
+    }    
+    </script>    
+    
+</apex:page>

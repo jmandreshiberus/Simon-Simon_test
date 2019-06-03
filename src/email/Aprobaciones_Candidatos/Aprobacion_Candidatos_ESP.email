@@ -1,0 +1,14 @@
+<table border="0" cellpadding="5" width="600" cellspacing="5" height="400" >
+<tr valign="top" height="50" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[]]></td>
+</tr>
+<tr valign="top" height="300" >
+<td tEditID="c1r2" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r2" locked="0" >
+<![CDATA[A su atención,<br><br>Se ha solicitado la aprobación del siguiente candidato:<br>Nombre: {!Account.Name}<br>Fecha de creación: {!Account.CreatedDate}<br>Creado por: {!Account.CreatedBy}<br><br>Puede consultar los detalles completos del candidato en el siguiente enlace: {!Account.Link}<br><br>Puede acceder también a la página de aprobación consultando el siguiente enlace: {!ApprovalRequest.Internal_URL}<br><br>Atentamente, <br>]]></td>
+</tr>
+<tr valign="top" height="50" >
+<td tEditID="c1r3" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r3" locked="0" >
+<![CDATA[]]></td>
+</tr>
+</table>

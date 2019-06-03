@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Distribuidores CRM</fullName>
+        <default>false</default>
+        <label>Distribuidores CRM</label>
+    </customValue>
+    <customValue>
+        <fullName>Instalador</fullName>
+        <default>false</default>
+        <label>Instalador</label>
+    </customValue>
+    <customValue>
+        <fullName>Prescriptores</fullName>
+        <default>false</default>
+        <label>Prescriptores</label>
+    </customValue>
+    <customValue>
+        <fullName>Clientes finales</fullName>
+        <default>false</default>
+        <label>Clientes finales</label>
+    </customValue>
+    <customValue>
+        <fullName>Asociaciones</fullName>
+        <default>false</default>
+        <label>Asociaciones</label>
+    </customValue>
+    <customValue>
+        <fullName>Distribuidores SAP</fullName>
+        <default>false</default>
+        <label>Distribuidores SAP</label>
+    </customValue>
+    <customValue>
+        <fullName>Varios</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Varios</label>
+    </customValue>
+    <description>SEGMENTACIÓN. Usado como variable de segmentación en Cuentas</description>
+    <masterLabel>Canal</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

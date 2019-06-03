@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Punto de venta</fullName>
+        <default>false</default>
+        <label>Punto de venta</label>
+    </customValue>
+    <customValue>
+        <fullName>Punto de compra</fullName>
+        <default>false</default>
+        <label>Punto de compra</label>
+    </customValue>
+    <customValue>
+        <fullName>Central compras</fullName>
+        <default>false</default>
+        <label>Central compras</label>
+    </customValue>
+    <customValue>
+        <fullName>Público</fullName>
+        <default>false</default>
+        <label>Público</label>
+    </customValue>
+    <customValue>
+        <fullName>Privado</fullName>
+        <default>false</default>
+        <label>Privado</label>
+    </customValue>
+    <customValue>
+        <fullName>Explotación</fullName>
+        <default>false</default>
+        <label>Explotación</label>
+    </customValue>
+    <description>SEGMENTACIÓN. Variable usada en segmentación de cuentas.</description>
+    <masterLabel>Tipo</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

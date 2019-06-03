@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dashboard xmlns="http://soap.sforce.com/2006/04/metadata">
+    <backgroundEndColor>#FFFFFF</backgroundEndColor>
+    <backgroundFadeDirection>Diagonal</backgroundFadeDirection>
+    <backgroundStartColor>#FFFFFF</backgroundStartColor>
+    <dashboardFilters>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Alberto Martos Ferra</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Alberto Ibarz Bayona</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Eduardo Mosquera</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Lluís Torrecabota Masmitja</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Melcior Selma Lomas</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Sergi Cervantes Elías</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Oriol Terradas Magrans </values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Pau Samo Guerra</values>
+        </dashboardFilterOptions>
+        <name>Cliente/Jerarquia: Propietario de la cuenta</name>
+    </dashboardFilters>
+    <dashboardFilters>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>S02</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>C87</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>S03</values>
+        </dashboardFilterOptions>
+        <name>Familia</name>
+    </dashboardFilters>
+    <dashboardFilters>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>I11</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>I10</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>F00</values>
+        </dashboardFilterOptions>
+        <name>Serie</name>
+    </dashboardFilters>
+    <dashboardType>SpecifiedUser</dashboardType>
+    <isGridLayout>false</isGridLayout>
+    <leftSection>
+        <columnSize>Medium</columnSize>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <dashboardFilterColumns>
+                <column>FK_ACC_OWNER_NAME</column>
+            </dashboardFilterColumns>
+            <dashboardFilterColumns>
+                <column>KS_Condicion_Comercial__c.KS_Familia__c</column>
+            </dashboardFilterColumns>
+            <dashboardFilterColumns>
+                <column>KS_Condicion_Comercial__c.KS_Serie_single__c</column>
+            </dashboardFilterColumns>
+            <dashboardTableColumn>
+                <column>FK_NAME</column>
+            </dashboardTableColumn>
+            <dashboardTableColumn>
+                <calculatePercent>false</calculatePercent>
+                <column>RowCount</column>
+                <showTotal>true</showTotal>
+            </dashboardTableColumn>
+            <dashboardTableColumn>
+                <calculatePercent>false</calculatePercent>
+                <column>KS_Condicion_Comercial__c.KS_Fecha_Fin__c</column>
+                <showTotal>false</showTotal>
+            </dashboardTableColumn>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <indicatorHighColor>#54C254</indicatorHighColor>
+            <indicatorLowColor>#C25454</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <report>CATCD/CC_2017_CAT</report>
+            <showPicturesOnTables>true</showPicturesOnTables>
+            <title>CC CAT</title>
+        </components>
+    </leftSection>
+    <middleSection>
+        <columnSize>Medium</columnSize>
+    </middleSection>
+    <rightSection>
+        <columnSize>Medium</columnSize>
+    </rightSection>
+    <runningUser>jlorenzo@simon.es</runningUser>
+    <textColor>#000000</textColor>
+    <title>CC CAT</title>
+    <titleColor>#000000</titleColor>
+    <titleSize>12</titleSize>
+</Dashboard>

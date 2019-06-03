@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Depuración</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Depuraciones</value>
+    </caseValues>
+    <fields>
+        <label><!-- Campo --></label>
+        <name>KS_Campo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Clase --></label>
+        <name>KS_Clase__c</name>
+    </fields>
+    <fields>
+        <label><!-- Código --></label>
+        <name>KS_Codigo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Descripción --></label>
+        <name>KS_Descripcion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cuenta Maestra --></label>
+        <name>KS_Master_Account__c</name>
+        <relationshipLabel><!-- Histórico Merge --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contacto Maestro --></label>
+        <name>KS_Master_Contact__c</name>
+        <relationshipLabel><!-- Histórico Merge --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Marca Maestra --></label>
+        <name>KS_Master_Marca__c</name>
+        <relationshipLabel><!-- Histórico Merge --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Propietario Maestro --></label>
+        <name>KS_Master_Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cuenta, Actividad --></label>
+        <name>KS_Merge_Actividad__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dirección, calle --></label>
+        <name>KS_Merge_Calle__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cuenta, Canal --></label>
+        <name>KS_Merge_Canal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dirección, ciudad --></label>
+        <name>KS_Merge_Ciudad__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dirección, país --></label>
+        <name>KS_Merge_CodPais__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dirección, cod. postal --></label>
+        <name>KS_Merge_CodPostal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email --></label>
+        <name>KS_Merge_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contacto, Función --></label>
+        <name>KS_Merge_Funcion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contacto, Idioma --></label>
+        <name>KS_Merge_Idioma__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dirección, provincia --></label>
+        <name>KS_Merge_Provincia__c</name>
+    </fields>
+    <fields>
+        <label><!-- Marca, Recurrencia --></label>
+        <name>KS_Merge_Recurrencia__c</name>
+    </fields>
+    <fields>
+        <label><!-- Marca, Responsable --></label>
+        <name>KS_Merge_Responsable__c</name>
+    </fields>
+    <fields>
+        <label><!-- Marca, Scoring Actividad --></label>
+        <name>KS_Merge_ScoringA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Marca, Scoring IF --></label>
+        <name>KS_Merge_ScoringIF__c</name>
+    </fields>
+    <fields>
+        <label><!-- Marca, Scoring Negocio --></label>
+        <name>KS_Merge_ScoringN__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cuenta, Sector --></label>
+        <name>KS_Merge_Sector__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cuenta, Subactividad --></label>
+        <name>KS_Merge_Subactividad__c</name>
+    </fields>
+    <fields>
+        <label><!-- Teléfono --></label>
+        <name>KS_Merge_Telf1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Teléfono 2 / Móvil --></label>
+        <name>KS_Merge_Telf2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Teléfono 3 / Particular --></label>
+        <name>KS_Merge_Telf3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Método Origen --></label>
+        <name>KS_Origen_Metodo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Origen --></label>
+        <name>KS_Origen__c</name>
+    </fields>
+    <fields>
+        <help><!-- La depuración no se borrará --></help>
+        <label><!-- PIN --></label>
+        <name>KS_PIN__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valor --></label>
+        <name>KS_Valor__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Formato Depuración</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato Merge Contacto</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato Merge Cuenta</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato Merge Marca</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Resultado Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- ERROR --></label>
+        <name>KS_DEBUG_ERROR</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- KS MERGE CONTACTO --></label>
+        <name>KS_MERGE_CONTACTO</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- KS MERGE CUENTA --></label>
+        <name>KS_MERGE_CUENTA</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- KS MERGE MARCA --></label>
+        <name>KS_MERGE_MARCA</name>
+    </recordTypes>
+</CustomObjectTranslation>

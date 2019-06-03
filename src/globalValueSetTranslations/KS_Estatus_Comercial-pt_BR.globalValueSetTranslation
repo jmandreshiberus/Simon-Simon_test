@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>1</masterLabel>
+        <translation><!-- 1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>B0</masterLabel>
+        <translation>SD:Bloqueio comercia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>B1</masterLabel>
+        <translation>SD:Bloqueio Pedidos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>B2</masterLabel>
+        <translation>SD:Bloqueio Entregas</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V1</masterLabel>
+        <translation>SD:Invest/ Estudo</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V5</masterLabel>
+        <translation>SD: Mudança Vers.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V6</masterLabel>
+        <translation>SD:Substituto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V7</masterLabel>
+        <translation>SD:Em Observação</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V8</masterLabel>
+        <translation>SD:Por desaparecer</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V9</masterLabel>
+        <translation>SD:Passivo</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VA</masterLabel>
+        <translation>SD:Ativo</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VB</masterLabel>
+        <translation><!-- VB --></translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

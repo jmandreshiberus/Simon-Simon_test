@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>0001</masterLabel>
+        <translation>Solicitante Nacional</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>0002</masterLabel>
+        <translation>Destinatarios mercancías</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>0003</masterLabel>
+        <translation>Pagador</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>0004</masterLabel>
+        <translation>Receptores de factura</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>0012</masterLabel>
+        <translation>Nodos de jerarquía</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>1</masterLabel>
+        <translation><!-- 1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z001</masterLabel>
+        <translation>Punto de Venta</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z009</masterLabel>
+        <translation>Excepción Punto de Venta</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z010</masterLabel>
+        <translation>Solicitante Nacional sin NIF</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z011</masterLabel>
+        <translation>Cliente INDIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z012</masterLabel>
+        <translation>BR: Cltes Nacionales (P.Jurid)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z013</masterLabel>
+        <translation>BR: Cltes Nacionales (P.Físic)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z014</masterLabel>
+        <translation>Direcciones de Cobro</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z015</masterLabel>
+        <translation>MX: Solicitante Nacional</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZE01</masterLabel>
+        <translation>BR: Clientes Export</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZEXT</masterLabel>
+        <translation>Solicitante Extranjero</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZINT</masterLabel>
+        <translation>Solicitante Intragrupo</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

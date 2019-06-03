@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Proyecto</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Proyectos</value>
+    </caseValues>
+    <fields>
+        <label><!-- Cliente solicitante --></label>
+        <name>KS_Cliente_solicitante__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comentarios --></label>
+        <name>KS_Comentarios__c</name>
+    </fields>
+    <fields>
+        <label><!-- Familia subserie --></label>
+        <name>KS_Familia_subserie__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha prevista de entrega a cliente --></label>
+        <name>KS_Fecha_prevista_de_entrega_a_cliente__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formato --></label>
+        <name>KS_Formato__c</name>
+    </fields>
+    <fields>
+        <label><!-- Horas acumuladas --></label>
+        <name>KS_Horas_acumuladas__c</name>
+    </fields>
+    <fields>
+        <label><!-- Obra --></label>
+        <name>KS_Obra__c</name>
+        <relationshipLabel><!-- Proyectos --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Oferta --></label>
+        <name>KS_Oferta__c</name>
+        <relationshipLabel><!-- Proyectos --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Revisiones --></label>
+        <name>KS_Revisiones__c</name>
+    </fields>
+    <fields>
+        <label><!-- Segmento --></label>
+        <name>KS_Segmento__c</name>
+    </fields>
+    <fields>
+        <label><!-- Solicitante --></label>
+        <name>KS_Solicitante__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tipo de proyecto --></label>
+        <name>KS_Tipo_de_proyecto__c</name>
+    </fields>
+    <fields>
+        <label><!-- id Obra --></label>
+        <name>KS_id_Obra__c</name>
+    </fields>
+    <fields>
+        <label><!-- Asignado a --></label>
+        <name>SI_Asignado_a__c</name>
+        <relationshipLabel><!-- Proyectos --></relationshipLabel>
+    </fields>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Formato Proyecto</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

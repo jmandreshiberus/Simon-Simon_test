@@ -1,0 +1,290 @@
+<apex:page standardController="Opportunity" extensions="KS_ProductosOferta_Controller" docType="html-5.0" id="productosOferta_page" standardStylesheets="true" showHeader="false">
+
+    <apex:includeScript value="{!$Resource.KS_jquery1}"/>
+    <apex:form id="productosOferta_form" styleClass="formulario">
+        <style type="text/css">
+            .clickhere {
+                cursor:pointer;
+            }
+            .clickhere:hover {
+                color:#015BA7;
+            }            
+        </style>
+        <script type="text/javascript">
+        $(".formulario").hide();
+        </script>
+        <apex:pageBlock mode="maindetail">
+            
+            <apex:pageBlock title="ERROR" mode="detail" rendered="{!haveError}">
+                <apex:pageBlockSection columns="1">
+                    <apex:outputText value="{!errorText}" styleclass="warning"/>
+                </apex:pageBlockSection> 
+            </apex:pageBlock>
+            
+            <apex:pageBlock title="FUNCIONAMIENTO" mode="detail" rendered="{!haveEdit}">
+                <apex:pageBlockSection columns="1">
+                    <apex:pageBlockSectionItem >
+                        Para cambiar los productos de FICHA, selecciona la nueva ficha en la lista de selección bajo CAMBIAR FICHA.
+                    </apex:pageBlockSectionItem>
+                    <apex:pageBlockSectionItem >
+                        Para borrar un producto de la OFERTA, marca la casilla correspondiente bajo BORRAR.
+                    </apex:pageBlockSectionItem>
+                    <apex:pageBlockSectionItem >
+                        Una vez estén todos los cambios deseados, pulsa GUARDAR para llevarlos a cabo.
+                    </apex:pageBlockSectionItem>
+                </apex:pageBlockSection>
+            </apex:pageBlock>
+            
+            <div class="fichaInput"><apex:inputHidden value="{!fichaToEdit}"/></div>
+            <script type="text/javascript">
+            function selectFicha(fichaName) {
+                $(".fichaInput").find("input").val(fichaName);//alert($(".fichaInput").find("input").val());
+            }
+            </script>
+            
+            <apex:repeat var="ficha" value="{!fichas}" rendered="{!hasProductos}">
+                
+                <apex:pageBlock title="FICHA {!ficha}" mode="detail" rendered="{!not(isEdit[ficha])}">
+                    
+                    <apex:pageBlockButtons location="top">
+                        <apex:commandButton value="Modificar" action="{!enableEdit}" onclick="selectFicha('{!ficha}')"/>
+                        <apex:commandButton value="Añadir" action="{!addProductsToFicha}" onclick="selectFicha('{!ficha}')"/>
+                        <apex:commandButton value="Duplicar" action="{!duplicar}" onclick="selectFicha('{!ficha}')"/>
+                        <apex:commandButton value="Borrar" action="{!deleteFicha}" onclick="selectFicha('{!ficha}')"/>
+                    </apex:pageBlockButtons>
+                    
+                    <table class="list ficha{!ficha}" border="0" cellpadding="0" cellspacing="0">
+                        <thead>
+                            <tr class="headerRow">
+                                <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.OpportunityLineItem.fields.ProductCode.Label}</span></th>
+                                <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.OpportunityLineItem.fields.UnitPrice.Label}</span></th>
+                                <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.OpportunityLineItem.fields.Quantity.Label}</span></th>
+                                <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.OpportunityLineItem.fields.KS_Dto_base_1__c.Label}</span></th>
+                                <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.OpportunityLineItem.fields.KS_Dto_base_2__c.Label}</span></th>
+                                <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.OpportunityLineItem.fields.KS_Dto_adicional_1__c.Label}</span></th>
+                                <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.OpportunityLineItem.fields.KS_Dto_adicional_2__c.Label}</span></th>
+                                <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.OpportunityLineItem.fields.KS_Dto_Instalador__c.Label}</span></th>
+                                <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.OpportunityLineItem.fields.KS_Dto_cliente_final__c.Label}</span></th>
+                                <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.OpportunityLineItem.fields.KS_Dto_logistico__c.Label}</span></th>
+                                <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.OpportunityLineItem.fields.KS_Prescrito__c.Label}</span></th>
+                                <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.OpportunityLineItem.fields.KS_Material_sin_cargo__c.Label}</span></th>
+                                <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.OpportunityLineItem.fields.KS_Destinatario__c.Label}</span></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <apex:repeat var="producto" value="{!productosOferta[ficha]}">
+                                <tr class="dataRow">
+                                    <td class="dataCell" width="10%">
+                                        <strong class="clickhere" onclick="gotoID('{!producto.Product2Id}');">{!producto.KS_Material__c}</strong>
+                                    </td>
+                                    <td class="dataCell" width="10%"><apex:outputField value="{!producto.UnitPrice}"/></td>
+                                    <td class="dataCell" width="10%"><apex:outputField value="{!producto.KS_Cantidad__c}"/></td>
+                                    <td class="dataCell" width="5%"><apex:outputField value="{!producto.KS_Dto_base_1__c}"/></td>
+                                    <td class="dataCell" width="5%"><apex:outputField value="{!producto.KS_Dto_base_2__c}"/></td>
+                                    <td class="dataCell" width="5%"><apex:outputField value="{!producto.KS_Dto_adicional_1__c}"/></td>
+                                    <td class="dataCell" width="5%"><apex:outputField value="{!producto.KS_Dto_adicional_2__c}"/></td>
+                                    <td class="dataCell" width="5%"><apex:outputField value="{!producto.KS_Dto_Instalador__c}"/></td>
+                                    <td class="dataCell" width="5%"><apex:outputField value="{!producto.KS_Dto_cliente_final__c}"/></td>
+                                    <td class="dataCell" width="5%"><apex:outputField value="{!producto.KS_Dto_logistico__c}"/></td>
+                                    <td class="dataCell" width="5%"><apex:outputField value="{!producto.KS_Prescrito__c}"/></td>
+                                    <td class="dataCell" width="5%"><apex:outputField value="{!producto.KS_Material_sin_cargo__c}"/></td>
+                                    <td class="dataCell" width="5%"><apex:outputField value="{!producto.KS_Destinatario__c}"/></td>
+                                </tr>
+                            </apex:repeat>
+                        </tbody>
+                        <tfoot>
+                            <tr class="dataRow">
+                                <th class="labelcol" style="border-width:3px 0 0 0;">Totales:</th>
+                                <td class="datacol" style="border-width:3px 0 0 0;"><strong><apex:outputText value="{!totalImporte[ficha]}"/></strong></td>
+                                <td class="datacol" style="border-width:3px 0 0 0;" colspan="2">
+                                    <strong><apex:outputText value="{!totalCantidad[ficha]}"/></strong>
+                                </td>
+                                <td colspan="9" style="border-width:3px 0 0 0;"></td>
+                            </tr>
+                            <tr class="dataRow">
+                                <th class="labelcol" style="border-width:3px 0 0 0;" colspan="2">{!$ObjectType.OpportunityLineItem.fields.KS_Cantidad_Ficha__c.Label}:</th>
+                                <td class="datacol" style="border-width:3px 0 0 0;" colspan="2">
+                                    <span>x<apex:outputText style="width:20%;" value="{!totalCantidadFicha[ficha]}"/></span>
+                                </td>
+                                <td colspan="9" style="border-width:3px 0 0 0;"></td>
+                            </tr>
+                            <tr class="dataRow">
+                                <th class="labelcol" style="border-width:3px 0 0 0;" colspan="2">{!$ObjectType.OpportunityLineItem.fields.KS_Competencia__c.Label}:</th>
+                                <td class="datacol" style="border-width:3px 0 0 0;" colspan="1">
+                                    <span><apex:outputText style="width:20%;" value="{!fichaCompetencia[ficha]}"/></span>
+                                </td>
+                                <td colspan="10" style="border-width:3px 0 0 0;"></td>
+                            </tr>
+                            <tr class="dataRow">
+                                <th class="labelcol" style="border-width:3px 0 0 0;" colspan="2">{!$ObjectType.OpportunityLineItem.fields.KS_Comentarios__c.Label}:</th>
+                                <td class="datacol" style="border-width:3px 0 0 0;" colspan="11">
+                                    <span><apex:outputText style="width:20%;" value="{!fichaComentarios[ficha]}"/></span>
+                                </td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                    
+                </apex:pageBlock>
+                
+                <apex:pageBlock title="FICHA {!ficha}" mode="detail" rendered="{!isEdit[ficha]}">
+                    
+                    <apex:pageBlockButtons rendered="{!haveEdit}" location="top">
+                        <apex:commandButton value="Guardar" action="{!save}"/>
+                    </apex:pageBlockButtons>
+                    
+                    <div style="width:100%;display:inline;">
+                        <table class="list ficha{!ficha}" border="0" cellpadding="0" cellspacing="0">
+                            <thead>
+                                <tr class="headerRow">
+                                    <th class="headerRow" scope="col" colspan="1" width="7%">
+                                        <span>BORRAR&nbsp;</span>
+                                        <span>(<input class="borrartodos{!ficha}" type="checkbox" onclick="marcarTodos(this, 'borrar', '{!ficha}')"/>)</span>                                    
+                                    </th>
+                                    <th class="headerRow" scope="col" colspan="1" width="7%"><span>CAMBIAR FICHA</span></th>
+                                    <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.OpportunityLineItem.fields.ProductCode.Label}</span></th>
+                                    <th class="headerRow" scope="col" colspan="1" width="7%"><span>{!$ObjectType.OpportunityLineItem.fields.UnitPrice.Label}</span></th>
+                                    <th class="headerRow" scope="col" colspan="1" width="7%"><span>{!$ObjectType.OpportunityLineItem.fields.Quantity.Label}</span></th>
+                                    <th class="headerRow" scope="col" colspan="1" width="7%"><span>{!$ObjectType.OpportunityLineItem.fields.KS_Dto_base_1__c.Label}</span></th>
+                                    <th class="headerRow" scope="col" colspan="1" width="7%"><span>{!$ObjectType.OpportunityLineItem.fields.KS_Dto_base_2__c.Label}</span></th>
+                                    <th class="headerRow" scope="col" colspan="1" width="7%"><span>{!$ObjectType.OpportunityLineItem.fields.KS_Dto_adicional_1__c.Label}</span></th>
+                                    <th class="headerRow" scope="col" colspan="1" width="7%"><span>{!$ObjectType.OpportunityLineItem.fields.KS_Dto_adicional_2__c.Label}</span></th>
+                                    <th class="headerRow" scope="col" colspan="1" width="7%"><span>{!$ObjectType.OpportunityLineItem.fields.KS_Dto_Instalador__c.Label}</span></th>
+                                    <th class="headerRow" scope="col" colspan="1" width="7%"><span>{!$ObjectType.OpportunityLineItem.fields.KS_Dto_cliente_final__c.Label}</span></th>
+                                    <th class="headerRow" scope="col" colspan="1" width="7%">
+                                        <div>
+                                            <span>{!$ObjectType.OpportunityLineItem.fields.KS_Prescrito__c.Label}&nbsp;</span>
+                                            <span>(<input class="prescritotodos{!ficha}" type="checkbox" onclick="marcarTodos(this, 'prescrito', '{!ficha}')"/>)</span>
+                                        </div>
+                                    </th>
+                                    <th class="headerRow" scope="col" colspan="1" width="7%">
+                                        <div>
+                                            <span>{!$ObjectType.OpportunityLineItem.fields.KS_Material_sin_cargo__c.Label}&nbsp;</span>
+                                            <span>(<input class="sincargotodos{!ficha}" type="checkbox" onclick="marcarTodos(this, 'sincargo', '{!ficha}')"/>)</span>
+                                        </div>
+                                    </th>
+                                    <th class="headerRow" scope="col" colspan="1" width="7%"><span>{!$ObjectType.OpportunityLineItem.fields.KS_Destinatario__c.Label}</span></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <apex:repeat var="producto" value="{!productosOferta[ficha]}">
+                                    <tr class="dataRow">
+                                        <td class="dataCell" width="5%">
+                                            <apex:inputCheckbox value="{!isDelete[producto.ID]}" style="width:50%;"
+                                                             styleclass="borrar{!ficha}" onclick="marcarGlobal('borrar', 'borrartodos', '{!ficha}')"/>
+                                        </td>
+                                        <td class="dataCell" width="10%">
+                                            <apex:inputHidden value="{!producto.KS_Ficha__c}"/>
+                                            <apex:selectList value="{!producto.KS_Ficha__c}" size="1"><!--onchange="changeTipo(this)"-->
+                                                <apex:selectOptions value="{!fichaSelect}"/>
+                                            </apex:selectList>
+                                        </td>
+                                        <td class="dataCell" width="10%">
+                                            <strong class="clickhere" onclick="gotoID('{!producto.Product2Id}');">{!producto.KS_Material__c}</strong>
+                                        </td>
+                                        <td class="dataCell" width="10%"><apex:inputField value="{!producto.UnitPrice}" style="width:50%;"/></td>
+                                        <td class="dataCell" width="10%"><apex:inputField value="{!producto.KS_Cantidad__c}" style="width:50%;"/></td>
+                                        <td class="dataCell" width="1%"><apex:inputField value="{!producto.KS_Dto_base_1__c}" style="width:50%;"/></td>
+                                        <td class="dataCell" width="1%"><apex:inputField value="{!producto.KS_Dto_base_2__c}" style="width:50%;"/></td>
+                                        <td class="dataCell" width="1%"><apex:inputField value="{!producto.KS_Dto_adicional_1__c}" style="width:50%;"/></td>
+                                        <td class="dataCell" width="1%"><apex:inputField value="{!producto.KS_Dto_adicional_2__c}" style="width:50%;"/></td>
+                                        <td class="dataCell" width="5%"><apex:inputField value="{!producto.KS_Dto_Instalador__c}" style="width:50%;"/></td>
+                                        <td class="dataCell" width="5%"><apex:inputField value="{!producto.KS_Dto_cliente_final__c}" style="width:50%;"/></td>
+                                        <td class="dataCell" width="5%">
+                                            <apex:inputField value="{!producto.KS_Prescrito__c}" style="width:50%;"
+                                                             styleclass="prescrito{!ficha}" onclick="marcarGlobal('prescrito', 'prescritotodos', '{!ficha}')"/>
+                                        </td>
+                                        <td class="dataCell" width="5%">
+                                            <apex:inputField value="{!producto.KS_Material_sin_cargo__c}" style="width:50%;"
+                                                             styleclass="sincargo{!ficha}" onclick="marcarGlobal('sincargo', 'sincargotodos', '{!ficha}')"/></td>
+                                        <td class="dataCell" width="5%"><apex:inputField value="{!producto.KS_Destinatario__c}" style="width:75%;"/></td>
+                                        
+                                    </tr>
+                                </apex:repeat>
+                                <script type="text/javascript">
+                                $(".prescritotodos{!ficha}").prop('checked', true);
+                                $(".prescrito{!ficha}").each(function(){
+                                    var ischecked = this.checked;
+                                    if (!ischecked) { $(".prescritotodos{!ficha}").prop('checked', false); }
+                                });
+                                $(".sincargotodos{!ficha}").prop('checked', true);
+                                $(".sincargo{!ficha}").each(function(){
+                                    var ischecked = this.checked;
+                                    if (!ischecked) { $(".sincargotodos{!ficha}").prop('checked', false); }
+                                });
+                                </script>
+                            </tbody>
+                            <tfoot>
+                                <tr class="dataRow">
+                                    <th class="labelcol" style="border-width:3px 0 0 0;">{!$ObjectType.OpportunityLineItem.fields.KS_Cantidad_Ficha__c.Label}:</th>
+                                    <td class="datacol" style="border-width:3px 0 0 0;" colspan="1"></td>
+                                    <td class="datacol" style="border-width:3px 0 0 0;" colspan="2" >
+                                        <span>x<apex:inputText style="width:20%;" maxlength="3" value="{!totalCantidadFicha[ficha]}"/></span>
+                                    </td>
+                                    <td colspan="10" style="border-width:3px 0 0 0;"></td>
+                                </tr>
+                                <tr class="dataRow">
+                                    <th class="labelcol" style="border-width:3px 0 0 0;" colspan="2">{!$ObjectType.OpportunityLineItem.fields.KS_Competencia__c.Label}:</th>
+                                    <td class="datacol" style="border-width:3px 0 0 0;" colspan="1">
+                                        <apex:selectList value="{!fichaCompetencia[ficha]}" size="1">
+                                            <apex:selectOptions value="{!competencias}"/>
+                                        </apex:selectList>
+                                    </td>
+                                    <td colspan="11" style="border-width:3px 0 0 0;"></td>
+                                </tr>
+                                <tr class="dataRow">
+                                    <th class="labelcol" style="border-width:3px 0 0 0;" colspan="2">{!$ObjectType.OpportunityLineItem.fields.KS_Comentarios__c.Label}:</th>
+                                    <td class="datacol" style="border-width:3px 0 0 0;" colspan="12">
+                                        <span><apex:inputTextarea style="width:20%;" value="{!fichaComentarios[ficha]}" styleClass="comentarios{!ficha}"/></span>
+                                    </td>
+                                </tr>                                
+                            </tfoot>                            
+                        </table>    
+                    </div>
+
+                </apex:pageBlock>
+
+            </apex:repeat>
+
+            <apex:pageBlockButtons rendered="{!haveEdit}" location="top">
+                <apex:commandButton value="Guardar" action="{!save}"/>
+                <apex:commandButton value="Cancelar" action="{!cancel}"/>
+            </apex:pageBlockButtons>
+            <apex:pageBlockButtons rendered="{!not(haveEdit)}" location="top">
+                <apex:commandButton value="Nueva" action="{!addproducts}"/><!-- onclick="redirectToAdd();"/>-->
+            </apex:pageBlockButtons>
+            
+        </apex:pageBlock>
+    </apex:form>
+    <script type="text/javascript">
+    function marcarTodos(checkput, className, ficha) {
+        var clase = '.'+className+ficha;
+        var ischecked = checkput.checked;
+        $(clase).each(function(){
+            if (ischecked != this.checked) {
+                $(this).trigger( "click" );
+            }
+        });
+    }
+    function marcarGlobal(singleCheckN, globalCheckN, ficha) {
+        var claseS = '.'+singleCheckN+ficha;
+        var claseG = '.'+globalCheckN+ficha;
+        $(claseG).prop('checked', true);
+        $(claseS).each(function(){
+            var ischecked = this.checked;
+            if (!ischecked) { $(claseG).prop('checked', false); }
+        });
+    } 
+    if ({!redirectToAdd}) {
+        var url = "/apex/KS_ProductosOfertaAdd?id={!oferta.Id}"
+        if ({!addToFicha}) { url+= "&ficha={!fichaToEdit}"; }
+        location.href = url;
+    } else {
+        $(".formulario").show();
+    }
+    if ({!haveEdit}) { $(".comentarios{!fichaToEdit}")[0].focus(); }
+    function gotoID(id) {
+        window.open('/'+id,'_blank');
+    }
+    selectFicha(""); // reset de ficha seleccionada, lo hará al acabar de cargar la VF
+    </script>
+</apex:page>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>ILU</fullName>
+        <default>false</default>
+        <label>ILU</label>
+    </customValue>
+    <customValue>
+        <fullName>VEH</fullName>
+        <default>false</default>
+        <label>VEH</label>
+    </customValue>
+    <customValue>
+        <fullName>RES</fullName>
+        <default>false</default>
+        <label>RES</label>
+    </customValue>
+    <customValue>
+        <fullName>SIS</fullName>
+        <default>false</default>
+        <label>SIS</label>
+    </customValue>
+    <customValue>
+        <fullName>CON</fullName>
+        <default>false</default>
+        <label>CON</label>
+    </customValue>
+    <description>En Uso --&gt; Para definir la responsabilidad de los usuarios (objeto usuario)</description>
+    <masterLabel>Responsable Nivel 3</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

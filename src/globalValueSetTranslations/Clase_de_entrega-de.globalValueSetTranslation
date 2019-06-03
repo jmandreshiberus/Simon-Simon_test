@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>LF</masterLabel>
+        <translation>Auslieferung</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LR</masterLabel>
+        <translation>Retourenanlieferung</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBR1</masterLabel>
+        <translation>Auslieferung</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBR2</masterLabel>
+        <translation>Retourenanlieferung</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBR3</masterLabel>
+        <translation>Auslieferung</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBR5</masterLabel>
+        <translation>Auslieferung</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBRO</masterLabel>
+        <translation>Retourenanlieferung</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBRP</masterLabel>
+        <translation>Auslieferung</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBV0</masterLabel>
+        <translation>Barverkauf</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZDTR</masterLabel>
+        <translation>Umbuchung zentral</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZESP</masterLabel>
+        <translation>Lieferung ohne Ref.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZHIC</masterLabel>
+        <translation>Anlief. HU Bewegung</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZHID</masterLabel>
+        <translation>Anlief. HU Bewegung</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZHMD</masterLabel>
+        <translation>Anlief. HU Bewegung</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZHOD</masterLabel>
+        <translation>Auslief. WA-Bewegung</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZIN1</masterLabel>
+        <translation>Auslieferung</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZIN2</masterLabel>
+        <translation>Auslieferung</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZIN3</masterLabel>
+        <translation>Retourenanlieferung</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZLC0</masterLabel>
+        <translation>Auslieferung</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZLCC</masterLabel>
+        <translation>Nachschub Crosscomp.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZLF</masterLabel>
+        <translation><!-- ZLF --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZLG</masterLabel>
+        <translation><!-- ZLG --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZLR</masterLabel>
+        <translation><!-- ZLR --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZNL</masterLabel>
+        <translation>Nachschublieferung</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZNL1</masterLabel>
+        <translation>Nachschublieferung</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZTC</masterLabel>
+        <translation><!-- ZTC --></translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

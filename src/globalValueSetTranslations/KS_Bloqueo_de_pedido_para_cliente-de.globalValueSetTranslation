@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>01</masterLabel>
+        <translation>allgemeine Sperre</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>02</masterLabel>
+        <translation>alles kostenlos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>03</masterLabel>
+        <translation>Testsperre</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>04</masterLabel>
+        <translation><!-- 04 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>99</masterLabel>
+        <translation><!-- 99 --></translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Distribuidor</fullName>
+        <default>false</default>
+        <label>Distribuidor</label>
+    </customValue>
+    <customValue>
+        <fullName>Instalador</fullName>
+        <default>false</default>
+        <label>Instalador</label>
+    </customValue>
+    <customValue>
+        <fullName>Cliente final</fullName>
+        <default>false</default>
+        <label>Cliente final</label>
+    </customValue>
+    <description>Uso --&gt; En líneas de oportunidad para indicar destino de material promocional</description>
+    <masterLabel>Destinatario</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

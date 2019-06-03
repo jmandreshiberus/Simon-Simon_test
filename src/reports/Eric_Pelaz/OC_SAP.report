@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>FK_ACC_OWNER_NAME</field>
+    </columns>
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>FK_$Account.KS_Id_Salesforce__c</field>
+    </columns>
+    <columns>
+        <field>FK_NAME</field>
+    </columns>
+    <columns>
+        <field>FK_ACC_ADDR1_CITY</field>
+    </columns>
+    <columns>
+        <field>FK_ACC_ADDR1_STREET</field>
+    </columns>
+    <currency>EUR</currency>
+    <filter>
+        <booleanFilter>(1 AND (2 OR 3)) AND 4</booleanFilter>
+        <criteriaItems>
+            <column>KS_Organizacion_Cliente__c.KS_Organizacion_de_ventas__c</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>SI10,FL31</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FK_ACC_OWNER_NAME</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Alberto Martos Ferra</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FK_ACC_OWNER_NAME</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Eduardo Mosquera</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>KS_Organizacion_Cliente__c.KS_Tipologia_Solicitante__c</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Distribuidores SAP</value>
+        </criteriaItems>
+        <language>es</language>
+    </filter>
+    <format>Matrix</format>
+    <groupingsAcross>
+        <dateGranularity>Day</dateGranularity>
+        <field>KS_Organizacion_Cliente__c.KS_Organizacion_de_ventas__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsAcross>
+        <dateGranularity>Day</dateGranularity>
+        <field>KS_Organizacion_Cliente__c.KS_Scoring_IF__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>KS_Organizacion_Cliente__c.KS_Coordinador__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>OC SAP</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$KS_Organizacion_Cliente__c@KS_Organizacion_Cliente__c.KS_Cliente_solicitante__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CUST_CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

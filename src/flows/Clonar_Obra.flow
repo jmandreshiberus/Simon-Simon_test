@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <assignments>
+        <name>Asignar_Linea_de_negocio</name>
+        <label>Asignar Linea de negocio</label>
+        <locationX>474</locationX>
+        <locationY>563</locationY>
+        <assignmentItems>
+            <assignToReference>SObjVar_Obra.KS_L_nea_de_negocio__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Tipo_de_obra</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>SObjVar_Obra.KS_Obra_matriz__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Var_ObraId</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Crear_Nueva_Obra</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Asignar_linea_de_negocio_y_parent_2</name>
+        <label>Asignar linea de negocio y parent 2</label>
+        <locationX>713</locationX>
+        <locationY>792</locationY>
+        <assignmentItems>
+            <assignToReference>SObjVar_Obra.KS_L_nea_de_negocio__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Tipo_de_obra</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>SObjVar_Obra.KS_Obra_matriz__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>SObjVar_Obra.KS_Obra_matriz__c</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Crear_Nueva_Obra</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Asignar_linea_de_negocio_y_parent_2_0</name>
+        <label>Asignar linea de negocio y parent 2</label>
+        <locationX>710</locationX>
+        <locationY>925</locationY>
+        <assignmentItems>
+            <assignToReference>SObjVar_Obra.KS_L_nea_de_negocio__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Tipo_de_obra</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>SObjVar_Obra.KS_Obra_matriz__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Var_ObraParentId</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Crear_Nueva_Obra</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Compose_List</name>
+        <label>Compose List</label>
+        <locationX>1342</locationX>
+        <locationY>17</locationY>
+        <assignmentItems>
+            <assignToReference>ListObras</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>NombreObra</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>LimitLoop</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <name>Comparar_obra_y_selecci_n</name>
+        <label>Comparar obra y selección</label>
+        <locationX>922</locationX>
+        <locationY>521</locationY>
+        <defaultConnector>
+            <targetReference>Comparar_Lineas_de_Negocio</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>No es la misma</defaultConnectorLabel>
+        <rules>
+            <name>Es_la_misma_l_nea_de_negocio</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>SObjLoop_Obras.KS_L_nea_de_negocio__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>Tipo_de_obra</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>L_nea_de_negocio_repetida</targetReference>
+            </connector>
+            <label>Es la misma línea de negocio</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Dependencia_incorrecta</name>
+        <label>Dependencia incorrecta</label>
+        <locationX>482</locationX>
+        <locationY>30</locationY>
+        <defaultConnector>
+            <targetReference>Get_construction_sites_alike</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Las dependencias son correctas</defaultConnectorLabel>
+        <rules>
+            <name>Tiene_dependencia_incorrecta</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>SObjVar_Obra.KS_Fase__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>Abandonada / Desestimada</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>SObjVar_Obra.KS_Motivos__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Datos_incorrectos</targetReference>
+            </connector>
+            <label>Tiene dependencia incorrecta</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Has_parent</name>
+        <label>Has parent</label>
+        <locationX>654</locationX>
+        <locationY>264</locationY>
+        <defaultConnector>
+            <targetReference>Asignar_Linea_de_negocio</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>No tiene parent</defaultConnectorLabel>
+        <rules>
+            <name>Tiene_parent</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>SObjVar_Obra.KS_Obra_matriz__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Search_for_parent</targetReference>
+            </connector>
+            <label>Tiene parent</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>hay_nivel_superior</name>
+        <label>Hay nivel superior?</label>
+        <locationX>1306</locationX>
+        <locationY>920</locationY>
+        <defaultConnector>
+            <targetReference>Asignar_linea_de_negocio_y_parent_2_0</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>No tiene parent en nivel 2</defaultConnectorLabel>
+        <rules>
+            <name>Tiene_parent_en_nivel_3</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>Var_ObraParen2Id</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Buscar_matriz</targetReference>
+            </connector>
+            <label>Tiene parent en nivel 3</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>LimitLoop</name>
+        <label>LimitLoop</label>
+        <locationX>1334</locationX>
+        <locationY>265</locationY>
+        <defaultConnector>
+            <targetReference>Identificar_l_nea_de_negocio</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>[Resultado predeterminado]</defaultConnectorLabel>
+        <rules>
+            <name>Menos_de_6</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>obrasCount</leftValueReference>
+                <operator>LessThan</operator>
+                <rightValue>
+                    <numberValue>6.0</numberValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Print_all_obras</targetReference>
+            </connector>
+            <label>Menos de 6</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Missing_Data</name>
+        <label>Missing Data</label>
+        <locationX>182</locationX>
+        <locationY>200</locationY>
+        <defaultConnector>
+            <targetReference>Dependencia_incorrecta</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Obra con datos necesarios</defaultConnectorLabel>
+        <rules>
+            <name>Obra_sin_datos_necesarios</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>SObjVar_Obra.KS_L_nea_de_negocio__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>SObjVar_Obra.KS_L_nea_de_negocio__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue></stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Datos_insuficientes</targetReference>
+            </connector>
+            <label>Obra sin datos necesarios</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>No_hay_nivel_superior</name>
+        <label>No hay nivel superior</label>
+        <locationX>1040</locationX>
+        <locationY>688</locationY>
+        <defaultConnector>
+            <targetReference>Asignar_linea_de_negocio_y_parent_2</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>No tiene parent en nivel 2</defaultConnectorLabel>
+        <rules>
+            <name>Tiene_parent_en_nivel_2</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>Var_ObraParentId</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Search_for_parent_0</targetReference>
+            </connector>
+            <label>Tiene parent en nivel 2</label>
+        </rules>
+    </decisions>
+    <dynamicChoiceSets>
+        <name>Linea</name>
+        <dataType>Picklist</dataType>
+        <displayField xsi:nil="true"/>
+        <object xsi:nil="true"/>
+        <picklistField>KS_L_nea_de_negocio__c</picklistField>
+        <picklistObject>KS_Obra__c</picklistObject>
+        <sortOrder>Asc</sortOrder>
+    </dynamicChoiceSets>
+    <formulas>
+        <name>NombreObra</name>
+        <dataType>String</dataType>
+        <expression>{!SObjLoop_Obras.KS_Id_Obra__c}&amp;&quot; - &quot;&amp;{!SObjLoop_Obras.Name}&amp;&quot; - &quot;&amp;TEXT({!SObjLoop_Obras.KS_L_nea_de_negocio__c})&amp;substitute({!br},&quot;-&quot;,&quot;&quot;)</expression>
+    </formulas>
+    <interviewLabel>Clonar Obra {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Clonar Obra</label>
+    <loops>
+        <name>Comparar_Lineas_de_Negocio</name>
+        <label>Comparar Lineas de Negocio</label>
+        <locationX>922</locationX>
+        <locationY>261</locationY>
+        <assignNextValueToReference>SObjLoop_Obras</assignNextValueToReference>
+        <collectionReference>SObjColl_Obras</collectionReference>
+        <iterationOrder>Asc</iterationOrder>
+        <nextValueConnector>
+            <targetReference>Comparar_obra_y_selecci_n</targetReference>
+        </nextValueConnector>
+        <noMoreValuesConnector>
+            <targetReference>Has_parent</targetReference>
+        </noMoreValuesConnector>
+    </loops>
+    <loops>
+        <name>Print_all_obras</name>
+        <label>Print all obras</label>
+        <locationX>970</locationX>
+        <locationY>28</locationY>
+        <assignNextValueToReference>SObjLoop_Obras</assignNextValueToReference>
+        <collectionReference>SObjColl_Obras</collectionReference>
+        <iterationOrder>Asc</iterationOrder>
+        <nextValueConnector>
+            <targetReference>Compose_List</targetReference>
+        </nextValueConnector>
+        <noMoreValuesConnector>
+            <targetReference>Identificar_l_nea_de_negocio</targetReference>
+        </noMoreValuesConnector>
+    </loops>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <recordCreates>
+        <name>Crear_Nueva_Obra</name>
+        <label>Crear Nueva Obra</label>
+        <locationX>474</locationX>
+        <locationY>800</locationY>
+        <connector>
+            <targetReference>End</targetReference>
+        </connector>
+        <inputReference>SObjVar_Obra</inputReference>
+    </recordCreates>
+    <recordLookups>
+        <name>Get_Construction_Site_Details</name>
+        <label>Get Construction Site Details</label>
+        <locationX>190</locationX>
+        <locationY>52</locationY>
+        <assignNullValuesIfNoRecordsFound>true</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Missing_Data</targetReference>
+        </connector>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Var_ObraId</elementReference>
+            </value>
+        </filters>
+        <object>KS_Obra__c</object>
+        <outputReference>SObjVar_Obra</outputReference>
+        <queriedFields>Descriptivo_Obra__c</queriedFields>
+        <queriedFields>KS_L_nea_de_negocio__c</queriedFields>
+        <queriedFields>KS_Obra_matriz__c</queriedFields>
+        <queriedFields>Name</queriedFields>
+        <queriedFields>RecordTypeId</queriedFields>
+        <queriedFields>KS_Marca__c</queriedFields>
+        <queriedFields>KS_Fecha_de_inicio__c</queriedFields>
+        <queriedFields>KS_Fecha_Inaguracion__c</queriedFields>
+        <queriedFields>KS_Duracion_meses_oportunidades__c</queriedFields>
+        <queriedFields>KS_Superficie_oportunidades__c</queriedFields>
+        <queriedFields>KS_Numero_de_viviendas_oportunidades__c</queriedFields>
+        <queriedFields>KS_Origen_de_la_Obra__c</queriedFields>
+        <queriedFields>KS_Coordinador__c</queriedFields>
+        <queriedFields>KS_URL_plataforma_contratacion__c</queriedFields>
+        <queriedFields>KS_Direccion_oportunidad__c</queriedFields>
+        <queriedFields>KS_Poblacion_oportunidad__c</queriedFields>
+        <queriedFields>KS_Codigo_postal_oportunidad__c</queriedFields>
+        <queriedFields>KS_Provincia_oportunidad__c</queriedFields>
+        <queriedFields>KS_Pais_oportunidad__c</queriedFields>
+        <queriedFields>KS_Fase__c</queriedFields>
+        <queriedFields>KS_Motivos__c</queriedFields>
+        <queriedFields>KS_agente_mas_influyente__c</queriedFields>
+        <queriedFields>KS_Tipo_de_edificio__c</queriedFields>
+        <queriedFields>KS_Scoring__c</queriedFields>
+        <queriedFields>KS_Sub_Segmento__c</queriedFields>
+        <queriedFields>KS_Segmento__c</queriedFields>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_construction_sites_alike</name>
+        <label>Get construction sites alike</label>
+        <locationX>792</locationX>
+        <locationY>28</locationY>
+        <assignNullValuesIfNoRecordsFound>true</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Print_all_obras</targetReference>
+        </connector>
+        <filters>
+            <field>Descriptivo_Obra__c</field>
+            <operator>Contains</operator>
+            <value>
+                <elementReference>SObjVar_Obra.Descriptivo_Obra__c</elementReference>
+            </value>
+        </filters>
+        <object>KS_Obra__c</object>
+        <outputReference>SObjColl_Obras</outputReference>
+        <queriedFields>Id</queriedFields>
+        <queriedFields>Name</queriedFields>
+        <queriedFields>KS_L_nea_de_negocio__c</queriedFields>
+        <queriedFields>KS_Id_Obra__c</queriedFields>
+    </recordLookups>
+    <recordLookups>
+        <name>Search_for_parent</name>
+        <label>Search for parent</label>
+        <locationX>695</locationX>
+        <locationY>563</locationY>
+        <assignNullValuesIfNoRecordsFound>true</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>No_hay_nivel_superior</targetReference>
+        </connector>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>SObjVar_Obra.KS_Obra_matriz__c</elementReference>
+            </value>
+        </filters>
+        <object>KS_Obra__c</object>
+        <outputAssignments>
+            <assignToReference>Var_ObraParentId</assignToReference>
+            <field>KS_Obra_matriz__c</field>
+        </outputAssignments>
+    </recordLookups>
+    <recordLookups>
+        <name>Search_for_parent_0</name>
+        <label>Search for parent</label>
+        <locationX>1314</locationX>
+        <locationY>688</locationY>
+        <assignNullValuesIfNoRecordsFound>true</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>hay_nivel_superior</targetReference>
+        </connector>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Var_ObraParentId</elementReference>
+            </value>
+        </filters>
+        <object>KS_Obra__c</object>
+        <outputAssignments>
+            <assignToReference>Var_ObraParen2Id</assignToReference>
+            <field>KS_Obra_matriz__c</field>
+        </outputAssignments>
+    </recordLookups>
+    <screens>
+        <name>Buscar_matriz</name>
+        <label>Buscar matriz</label>
+        <locationX>1316</locationX>
+        <locationY>1179</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <fields>
+            <name>MsgUsuario</name>
+            <fieldText>La obra que está clonando tiene dependencias con otra obra dos niveles por encima de ella. Por favor si quiere duplicar la obra navegue hasta la obra superior (usando el campo Obra Matriz) hasta encontrar la obra que no tiene un registro superior vinculado y lance el proceso de clonación desde allí.
+
+El Administrador</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>Datos_incorrectos</name>
+        <label>Datos incorrectos</label>
+        <locationX>492</locationX>
+        <locationY>242</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <fields>
+            <name>MsgUser2_0</name>
+            <fieldText>La obra que pretende ser duplicada tiene datos informados incorrectos. 
+
+La fase de la obra no es igual a &quot;Abandonada/Desestimada&quot; pero en cambio Sí tiene motivo de pérdida informado. [{!SObjVar_Obra.KS_Motivos__c}].
+
+Por favor edite la obra para modificar esos valores antes de proseguir con la duplicación.</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>Datos_insuficientes</name>
+        <label>Datos insuficientes</label>
+        <locationX>189</locationX>
+        <locationY>398</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <fields>
+            <name>MsgUser2</name>
+            <fieldText>La obra que pretende ser duplicada no dispone de los datos mínimos necesarios:
+* Nombre
+* Línea de Negocio</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>End</name>
+        <label>End</label>
+        <locationX>277</locationX>
+        <locationY>800</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <fields>
+            <name>eF</name>
+            <fieldText>&lt;DIV ALIGN=&quot;LEFT&quot;&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;Se ha duplicado la obra indicada con la nueva línea de negocio: {!Tipo_de_obra}.&lt;/FONT&gt;&lt;/DIV&gt;&lt;DIV ALIGN=&quot;LEFT&quot;&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;&lt;/FONT&gt;&lt;/DIV&gt;&lt;DIV ALIGN=&quot;LEFT&quot;&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;Puede consutar el nuevo registro creado en: &lt;A HREF=&quot;/{!SObjVar_Obra.Id}&quot; TARGET=&quot;_blank&quot;&gt;{!SObjVar_Obra.KS_L_nea_de_negocio__c} - {!SObjVar_Obra.Descriptivo_Obra__c}&lt;/A&gt;&lt;/FONT&gt;&lt;/DIV&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>Identificar_l_nea_de_negocio</name>
+        <label>Identificar línea de negocio</label>
+        <locationX>1135</locationX>
+        <locationY>378</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>false</allowFinish>
+        <allowPause>false</allowPause>
+        <connector>
+            <targetReference>Comparar_Lineas_de_Negocio</targetReference>
+        </connector>
+        <fields>
+            <name>ObraOrigen</name>
+            <fieldText>Datos de la Obra origen:
+
+Nombre: {!SObjVar_Obra.Descriptivo_Obra__c}
+Tipo de obra: {!SObjVar_Obra.KS_L_nea_de_negocio__c}
+
+Obras duplicadas:
+{!ListObras}
+
+Indique la nueva línea de negocio a asignar a la obra a duplicar:</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>Tipo_de_obra</name>
+            <choiceReferences>Linea</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Tipo de obra</fieldText>
+            <fieldType>DropdownBox</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>L_nea_de_negocio_repetida</name>
+        <label>Línea de negocio repetida</label>
+        <locationX>1134</locationX>
+        <locationY>519</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>false</allowFinish>
+        <allowPause>false</allowPause>
+        <connector>
+            <targetReference>Identificar_l_nea_de_negocio</targetReference>
+        </connector>
+        <fields>
+            <name>MsgUser</name>
+            <fieldText>La línea de negocio seleccionada [{!Tipo_de_obra}] ya figura en una obra duplicada.
+
+{!NombreObra}
+
+Por favor seleccione otra línea de negocio para duplicar la obra.</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <startElementReference>Get_Construction_Site_Details</startElementReference>
+    <status>Active</status>
+    <textTemplates>
+        <name>br</name>
+        <text>-
+-</text>
+    </textTemplates>
+    <variables>
+        <name>ListObras</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <value>
+            <stringValue></stringValue>
+        </value>
+    </variables>
+    <variables>
+        <name>obraCount</name>
+        <dataType>Number</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <scale>2</scale>
+        <value>
+            <numberValue>0.0</numberValue>
+        </value>
+    </variables>
+    <variables>
+        <name>obrasCount</name>
+        <dataType>Number</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <scale>2</scale>
+    </variables>
+    <variables>
+        <name>SObjColl_Obras</name>
+        <dataType>SObject</dataType>
+        <isCollection>true</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <objectType>KS_Obra__c</objectType>
+    </variables>
+    <variables>
+        <name>SObjLoop_Obras</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <objectType>KS_Obra__c</objectType>
+    </variables>
+    <variables>
+        <name>SObjVar_Obra</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <objectType>KS_Obra__c</objectType>
+    </variables>
+    <variables>
+        <description>Obra de prueba: a005800000VGnUM</description>
+        <name>Var_ObraId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <value>
+            <stringValue></stringValue>
+        </value>
+    </variables>
+    <variables>
+        <name>Var_ObraParen2Id</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <value>
+            <stringValue></stringValue>
+        </value>
+    </variables>
+    <variables>
+        <name>Var_ObraParentId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <value>
+            <stringValue></stringValue>
+        </value>
+    </variables>
+</Flow>

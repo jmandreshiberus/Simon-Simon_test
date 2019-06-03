@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Marca 1</fullName>
+        <default>false</default>
+        <label>Marca 1</label>
+    </customValue>
+    <customValue>
+        <fullName>Marca 2</fullName>
+        <default>false</default>
+        <label>Marca 2</label>
+    </customValue>
+    <customValue>
+        <fullName>Marca 3</fullName>
+        <default>false</default>
+        <label>Marca 3</label>
+    </customValue>
+    <customValue>
+        <fullName>Marca 4</fullName>
+        <default>false</default>
+        <label>Marca 4</label>
+    </customValue>
+    <customValue>
+        <fullName>Marca 5</fullName>
+        <default>false</default>
+        <label>Marca 5</label>
+    </customValue>
+    <description>Uso --&gt; Usado en seguimiento de proyectos</description>
+    <masterLabel>Marca</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

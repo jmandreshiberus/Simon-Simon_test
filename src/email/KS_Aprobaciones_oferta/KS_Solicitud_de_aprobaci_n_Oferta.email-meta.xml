@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Solicitud de aprobación Oferta</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Header_Simon</letterhead>
+    <name>Solicitud de aprobación Oferta</name>
+    <style>freeForm</style>
+    <subject>Solicitud aprobación: {!ApprovalRequest.Process_Step_Name} - {!Opportunity.KS_Oferta_ID__c}</subject>
+    <textOnly>A la atención de {!ApprovalRequest.Process_Assignee}, {!ApprovalRequest.Process_Approver}
+
+{!Opportunity.OwnerFullName} ha solicitado aprobación sobre la oferta: {!Opportunity.Name} - Id Oferta: {!Opportunity.KS_Oferta_ID__c}.
+
+Los detalles de dicha oferta son:
+Propietario: {!Opportunity.OwnerFullName}
+Fecha de creación: {!Opportunity.CreatedDate}
+Distribuidor: {!Opportunity.Account}
+Instalador/Prescriptor: {!Opportunity.KS_Instalador__c}
+Cliente final: {!Opportunity.KS_Cliente_final__c}
+Obra asociada: {!Opportunity.KS_Obra__c}
+Etapa: {!Opportunity.StageName}
+Subetapa: {!Opportunity.KS_Subetapa__c}
+Probabilidad: {!Opportunity.KS_Probabilidad__c}
+Marca asociada a la oferta: {!Opportunity.KS_Organizacion__c}
+Divisa: {!Opportunity.CurrencyIsoCode}
+Importe PVP: {!Opportunity.Amount}
+
+Para poder ver el registro, a aprobar, puede dirigirse a la siguiente URL:
+{!ApprovalRequest.External_URL}
+
+Fecha de solicitud: {!Today}
+Persona designada para aprobación: {!ApprovalRequest.Process_Approver}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

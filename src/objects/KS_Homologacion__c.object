@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>KAIZENSTEP. ACTIVO. Relaciona las homologaciones con sus propietario (cliente) y sus productos que lo componen</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>true</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>KS_Cliente__c</fullName>
+        <externalId>false</externalId>
+        <label>Cliente</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Homologaciones</relationshipLabel>
+        <relationshipName>Homologaciones</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>KS_Fecha_calculo_tarifa__c</fullName>
+        <description>Fecha que indentifica la tarifa que se usará para el cálculo de la tarifa</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Fecha que indentifica la tarifa que se usará para el cálculo de la tarifa</inlineHelpText>
+        <label>Fecha cálculo tarifa</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>KS_Fecha_de_caducidad__c</fullName>
+        <externalId>false</externalId>
+        <label>Fecha de caducidad</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>KS_Nombre_de_la_homologacion__c</fullName>
+        <externalId>false</externalId>
+        <label>Nombre de la Homologación</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>KS_PVP_Tarifa__c</fullName>
+        <externalId>false</externalId>
+        <label>PVP Tarifa</label>
+        <summarizedField>KS_Componente__c.KS_Importe__c</summarizedField>
+        <summaryForeignKey>KS_Componente__c.KS_homologacion__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>KS_PVP_manual__c</fullName>
+        <externalId>false</externalId>
+        <label>PVP manual</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>KS_Producto__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Producto</label>
+        <referenceTo>Product2</referenceTo>
+        <relationshipLabel>Homologaciones</relationshipLabel>
+        <relationshipName>Homologaciones</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <gender>Feminine</gender>
+    <label>Homologación</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>Todos</label>
+    </listViews>
+    <nameField>
+        <displayFormat>H-{00000}</displayFormat>
+        <label>Id Homologacion</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Homologaciones</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>Control_Fecha_tarifa</fullName>
+        <active>true</active>
+        <description>Controla que la fecha de Tarifa no sea nunca superior a la actual</description>
+        <errorConditionFormula>KS_Fecha_calculo_tarifa__c &lt;= TODAY()</errorConditionFormula>
+        <errorMessage>La fecha de tarifa debe de ser igual o inferior al día de hoy</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

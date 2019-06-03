@@ -1,0 +1,28 @@
+<table border="0" cellpadding="5" width="600" cellspacing="5" height="400" >
+<tr valign="top" height="50" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[Hola {!Contact.FirstName}<span style="white-space:pre">	</span>]]></td>
+</tr>
+<tr valign="top" height="300" >
+<td tEditID="c1r2" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r2" locked="0" >
+<![CDATA[<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify"><span style="font-family: Arial, sans-serif;">Con
+el fin de manteneros informados en relación a las novedades de Simon, y
+ofreceros asesoramiento en cualquier cuestión de proyecto relacionada con
+nuestra gama de productos, he intentado ponerme en contacto con vosotros en
+varias ocasiones pero hasta ahora sin éxito; por lo que me gustaría que me
+indicarais en qué horario y de qué manera sería posible que contactáramos y
+concertáramos una cita. <o:p></o:p></span></p><p class="MsoNormal"><span style="font-family: Arial, sans-serif;">Espero vuestra respuesta y
+espero ser de ayuda, <o:p></o:p></span></p><p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify">
+
+
+
+<span style="font-size: 12pt; font-family: Arial, sans-serif;">Un cordial saludo!</span></p><p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify"><span style="font-size: 12pt; font-family: Arial, sans-serif;"><br></span></p>]]></td>
+</tr>
+<tr valign="top" height="50" >
+<td tEditID="c1r3" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r3" locked="0" >
+<![CDATA[<font face="arial" style="font-size: 12pt;">{!User.FirstName}&nbsp;{!User.LastName}</font><br><div style="font-size: 12pt; color: rgb(0, 0, 0); font-family: arial;"><font face="arial"><i>{!User.Department}</i></font></div><div style=""><font face="arial" style="">{!User.Email}</font></div><div style="color: rgb(0, 0, 0); font-family: arial;"><font face="arial" style="">{!User.MobilePhone}</font></div>]]></td>
+</tr>
+</table>

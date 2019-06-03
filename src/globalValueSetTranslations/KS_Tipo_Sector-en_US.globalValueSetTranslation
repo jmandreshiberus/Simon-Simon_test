@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>1</masterLabel>
+        <translation><!-- 1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>10</masterLabel>
+        <translation>Switches,Plugs,Sock.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>2</masterLabel>
+        <translation><!-- 2 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>20</masterLabel>
+        <translation>Indoor Lighting</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>3</masterLabel>
+        <translation><!-- 3 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>30</masterLabel>
+        <translation>Services-Projects</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>40</masterLabel>
+        <translation>Metalics</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>50</masterLabel>
+        <translation>Electronics</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>60</masterLabel>
+        <translation>General</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>70</masterLabel>
+        <translation>Lighting</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

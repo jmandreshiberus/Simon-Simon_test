@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Scena</fullName>
+        <default>false</default>
+        <label>Scena</label>
+    </customValue>
+    <customValue>
+        <fullName>Maxlon</fullName>
+        <default>false</default>
+        <label>Maxlon</label>
+    </customValue>
+    <customValue>
+        <fullName>Sistema de Avisos</fullName>
+        <default>false</default>
+        <label>Sistema de Avisos</label>
+    </customValue>
+    <customValue>
+        <fullName>Control de accesos</fullName>
+        <default>false</default>
+        <label>Control de accesos</label>
+    </customValue>
+    <customValue>
+        <fullName>S100iO</fullName>
+        <default>false</default>
+        <label>S100iO</label>
+    </customValue>
+    <customValue>
+        <fullName>Variante  Solucion Competidor</fullName>
+        <default>false</default>
+        <label>Variante  Solucion Competidor</label>
+    </customValue>
+    <customValue>
+        <fullName>DIALUX</fullName>
+        <default>false</default>
+        <label>DIALUX</label>
+    </customValue>
+    <customValue>
+        <fullName>DIALUX + CAD</fullName>
+        <default>false</default>
+        <label>DIALUX + CAD</label>
+    </customValue>
+    <customValue>
+        <fullName>DIALUX + CAD + A. ENERGÉTICO</fullName>
+        <default>false</default>
+        <label>DIALUX + CAD + A. ENERGÉTICO</label>
+    </customValue>
+    <customValue>
+        <fullName>DIALUX + CAD + FOTOMONTAJE</fullName>
+        <default>false</default>
+        <label>DIALUX + CAD + FOTOMONTAJE</label>
+    </customValue>
+    <customValue>
+        <fullName>DIALUX + CAD + MEMORIA</fullName>
+        <default>false</default>
+        <label>DIALUX + CAD + MEMORIA</label>
+    </customValue>
+    <customValue>
+        <fullName>DIALUX + CAD + FICHA EE</fullName>
+        <default>false</default>
+        <label>DIALUX + CAD + FICHA EE</label>
+    </customValue>
+    <customValue>
+        <fullName>DIALUX + FICHA EE</fullName>
+        <default>false</default>
+        <label>DIALUX + FICHA EE</label>
+    </customValue>
+    <customValue>
+        <fullName>FICHA AY. BARCELONA</fullName>
+        <default>false</default>
+        <label>FICHA AY. BARCELONA</label>
+    </customValue>
+    <customValue>
+        <fullName>DIALUX + CAD + SOLAR + MEMOR</fullName>
+        <default>false</default>
+        <label>DIALUX + CAD + SOLAR + MEMOR</label>
+    </customValue>
+    <customValue>
+        <fullName>DIALUX + A. ENERGÉTICO</fullName>
+        <default>false</default>
+        <label>DIALUX + A. ENERGÉTICO</label>
+    </customValue>
+    <customValue>
+        <fullName>FOTOMONTAJE</fullName>
+        <default>false</default>
+        <label>FOTOMONTAJE</label>
+    </customValue>
+    <customValue>
+        <fullName>FICHA AY. BARCELONA + FICHA</fullName>
+        <default>false</default>
+        <label>FICHA AY. BARCELONA + FICHA</label>
+    </customValue>
+    <customValue>
+        <fullName>DIALUX + CAD + FICHA AYTO B</fullName>
+        <default>false</default>
+        <label>DIALUX + CAD + FICHA AYTO B</label>
+    </customValue>
+    <customValue>
+        <fullName>CALCULO RAPIDO</fullName>
+        <default>false</default>
+        <label>CALCULO RAPIDO</label>
+    </customValue>
+    <customValue>
+        <fullName>CAD</fullName>
+        <default>false</default>
+        <label>CAD</label>
+    </customValue>
+    <customValue>
+        <fullName>Proyecto</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Proyecto</label>
+    </customValue>
+    <customValue>
+        <fullName>Proyecto de iluminación</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Proyecto de iluminación</label>
+    </customValue>
+    <description>Uso --&gt; Usado en objeto proyectos</description>
+    <masterLabel>Tipo de proyecto</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

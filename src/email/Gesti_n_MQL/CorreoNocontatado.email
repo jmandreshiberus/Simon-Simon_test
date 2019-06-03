@@ -1,0 +1,43 @@
+<table border="0" cellpadding="5" width="600" cellspacing="5" height="400" >
+<tr valign="top" height="50" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[Hola {!Contact.FirstName}<span style="white-space:pre">	</span>]]></td>
+</tr>
+<tr valign="top" height="300" >
+<td tEditID="c1r2" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r2" locked="0" >
+<![CDATA[<p class="MsoNormal"><span style="background-color: rgb(255, 255, 255); font-size: 12pt;">Soy {!User.FirstName}</span><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;
+font-family:&quot;Arial&quot;,sans-serif">, de Consultoría de Interiorismo de
+SIMON. Me notifican que nos solicita información gratuita y personalizada a
+través de nuestro blog Detailerssimon.com. Me encantará ayudarle en su
+proyecto. Hemos llamado en varias ocasiones pero no hemos conseguido contactar.<o:p></o:p></span></p><p class="MsoNormal"><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;
+font-family:&quot;Arial&quot;,sans-serif">&nbsp;</span></p><p class="MsoNormal"><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;
+font-family:&quot;Arial&quot;,sans-serif"><b>Necesito que me facilite un horario y que nos confirme su número de teléfono</b> para poder llamarle, comentar sus necesidades y planificar el
+asesoramiento más adecuado (muestras, catálogos, una posible visita, etc.)<o:p></o:p></span></p><p class="MsoNormal"><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;
+font-family:&quot;Arial&quot;,sans-serif">&nbsp;</span></p><p class="MsoNormal"><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;
+font-family:&quot;Arial&quot;,sans-serif">Quedo a la espera de su respuesta para poder seguir adelante
+con el asesoramiento.<o:p></o:p></span></p><p class="MsoNormal"><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;
+font-family:&quot;Arial&quot;,sans-serif">&nbsp;</span></p><p class="MsoNormal">
+
+
+
+
+
+
+
+
+
+
+
+<span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;font-family:&quot;Arial&quot;,sans-serif;
+mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-ansi-language:
+ES;mso-fareast-language:EN-US;mso-bidi-language:AR-SA">Un placer saludarle y
+poder colaborar.</span><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;
+font-family:&quot;Calibri&quot;,sans-serif;mso-fareast-font-family:Calibri;mso-fareast-theme-font:
+minor-latin;mso-ansi-language:ES;mso-fareast-language:EN-US;mso-bidi-language:
+AR-SA"> </span></p>]]></td>
+</tr>
+<tr valign="top" height="50" >
+<td tEditID="c1r3" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r3" locked="0" >
+<![CDATA[<font face="arial" style="font-size: 12pt;">{!User.FirstName}&nbsp;{!User.LastName}</font><br><div style="font-size: 12pt; color: rgb(0, 0, 0); font-family: arial;"><font face="arial"><i>{!User.Department}</i></font></div><div style=""><font face="arial" style="">{!User.Email}</font></div><div style="color: rgb(0, 0, 0); font-family: arial;"><font face="arial" style="">{!User.MobilePhone}</font></div>]]></td>
+</tr>
+</table>

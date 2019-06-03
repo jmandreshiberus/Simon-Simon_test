@@ -1,0 +1,37 @@
+<table border="0" cellpadding="5" width="600" cellspacing="5" height="400" >
+<tr valign="top" height="50" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[Hola {!Contact.FirstName}<span style="white-space:pre">	</span>]]></td>
+</tr>
+<tr valign="top" height="300" >
+<td tEditID="c1r2" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r2" locked="0" >
+<![CDATA[<p class="MsoNormal"><span style="font-family: Arial, sans-serif;">Tal como hemos comentado en
+la última visita te remito a nuestra página web donde encontrarás toda la
+documentación sobre nuestras colecciones de mecanismos, iluminación interior
+Simon y Fluvia, sistemas de control, puestos de trabajo, puntos de recarga para
+vehículo eléctrico e iluminación exterior:<o:p></o:p></span></p><p class="MsoNormal"><a href="https://www.simonelectric.com/productos"><span style="font-family:&quot;Arial&quot;,sans-serif">https://www.simonelectric.com/productos</span></a><span style="font-family: Arial, sans-serif;"><o:p></o:p></span></p><p class="MsoNormal"><span style="font-family: Arial, sans-serif;">&nbsp;</span></p><p class="MsoNormal"><span style="font-family: Arial, sans-serif;">En nuestra área de descargas
+encontraras catálogos, tarifas, fichas técnicas, bases para tus presupuestos
+así como bibliotecas de materiales en Revit, AutoCAD y Dialux:<o:p></o:p></span></p><p class="MsoNormal"><a href="https://www.simonelectric.com/descargas"><span style="font-family:&quot;Arial&quot;,sans-serif">https://www.simonelectric.com/descargas</span></a><span style="font-family: Arial, sans-serif;"><o:p></o:p></span></p><p class="MsoNormal"><span style="font-family: Arial, sans-serif;">&nbsp;</span></p><p class="MsoNormal"><span style="font-family: Arial, sans-serif;">Espero que te sea de ayuda y
+no dudes en contactar conmigo si necesitas cualquier aclaración.<o:p></o:p></span></p><p class="MsoNormal"><span style="font-family: Arial, sans-serif;">&nbsp;</span></p><p class="MsoNormal">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<span style="font-size: 12pt; font-family: Arial, sans-serif;">Un cordial saludo!</span></p>]]></td>
+</tr>
+<tr valign="top" height="50" >
+<td tEditID="c1r3" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r3" locked="0" >
+<![CDATA[<font face="arial" style="font-size: 12pt;">{!User.FirstName}&nbsp;{!User.LastName}</font><br><div style="font-size: 12pt; color: rgb(0, 0, 0); font-family: arial;"><font face="arial"><i>{!User.Department}</i></font></div><div style=""><font face="arial" style="">{!User.Email}</font></div><div style="color: rgb(0, 0, 0); font-family: arial;"><font face="arial" style="">{!User.MobilePhone}</font></div>]]></td>
+</tr>
+</table>

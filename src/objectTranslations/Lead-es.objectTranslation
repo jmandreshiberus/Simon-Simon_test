@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Lead</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Leads</value>
+    </caseValues>
+    <fields>
+        <label><!-- Actividad Lead Integracion --></label>
+        <name>KS_Actividad_Lead_Integracion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actividad Lead Otros --></label>
+        <name>KS_Actividad_Lead_Otros__c</name>
+    </fields>
+    <fields>
+        <help><!-- Este campo es obligatorio para la conversion --></help>
+        <label><!-- Actividad Lead --></label>
+        <name>KS_Actividad_Lead__c</name>
+    </fields>
+    <fields>
+        <help><!-- Este campo es obligatorio para la conversión --></help>
+        <label><!-- Código_Postal --></label>
+        <name>KS_C_digo_Postal__c</name>
+    </fields>
+    <fields>
+        <help><!-- Este campo es obligatorio para la conversión --></help>
+        <label><!-- Nombre de la vía --></label>
+        <name>KS_Calle__c</name>
+    </fields>
+    <fields>
+        <help><!-- Este campo es obligatorio para la conversión --></help>
+        <label><!-- Ciudad --></label>
+        <name>KS_Ciudad__c</name>
+    </fields>
+    <fields>
+        <help><!-- Uno de los campos de tratamiento es obligatorio para poder convertir --></help>
+        <label><!-- Consentimiento --></label>
+        <name>KS_Consentimiento__c</name>
+    </fields>
+    <fields>
+        <help><!-- Este campo es obligatorio para la conversión --></help>
+        <label><!-- Estado / Provincia --></label>
+        <name>KS_Estado_o_Provincia__c</name>
+    </fields>
+    <fields>
+        <help><!-- Este campo es obligatorio para la conversión --></help>
+        <label><!-- Núm, portal, piso, puerta y resto dom. --></label>
+        <name>KS_N_m_portal_piso_puerta_y_resto_domici__c</name>
+    </fields>
+    <fields>
+        <label><!-- Número de empleados empresa --></label>
+        <name>KS_Numero_de_empleados_empresa__c</name>
+    </fields>
+    <fields>
+        <label><!-- Número de proyectos --></label>
+        <name>KS_Numero_de_proyectos__c</name>
+    </fields>
+    <fields>
+        <label><!-- Otro producto prescrito Lead --></label>
+        <name>KS_Otro_producto_prescrito_Lead__c</name>
+    </fields>
+    <fields>
+        <help><!-- Este campo es obligatorio para la conversión --></help>
+        <label><!-- Pais --></label>
+        <name>KS_Pais__c</name>
+    </fields>
+    <fields>
+        <label><!-- Prescribe --></label>
+        <name>KS_Prescribe__c</name>
+    </fields>
+    <fields>
+        <label><!-- Productos prescritos lead --></label>
+        <name>KS_Productos_prescritos_lead__c</name>
+    </fields>
+    <fields>
+        <help><!-- Uno de los campos de tratamiento es obligatorio para poder convertir --></help>
+        <label><!-- Rechazo de comunicaciones --></label>
+        <name>KS_RechazoComunicaciones__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sector Lead Otros --></label>
+        <name>KS_Sector_Lead_Otros__c</name>
+    </fields>
+    <fields>
+        <help><!-- Este campo es obligatorio para la conversion --></help>
+        <label><!-- Sector Lead --></label>
+        <name>KS_Sector_Lead__c</name>
+    </fields>
+    <fields>
+        <label><!-- Situación Laboral --></label>
+        <name>KS_Situacion_Laboral__c</name>
+    </fields>
+    <fields>
+        <label><!-- Suscrito al blog - Hubspot - --></label>
+        <name>KS_Suscrito_al_blog_hubspot__c</name>
+    </fields>
+    <fields>
+        <help><!-- Este campo es obligatorio para la conversión --></help>
+        <label><!-- Tipo de vía --></label>
+        <name>KS_Tipo_de_via__c</name>
+    </fields>
+    <fields>
+        <label><!-- BANT --></label>
+        <name>SI_BANT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Propietario --></label>
+        <name>SI_ControlPropietario__c</name>
+    </fields>
+    <fields>
+        <label><!-- Descripción proyecto --></label>
+        <name>SI_Descripcion_proyecto__c</name>
+    </fields>
+    <fields>
+        <help><!-- Este campo es obligatorio para la conversion --></help>
+        <label><!-- Email Cuenta --></label>
+        <name>SI_Email_Cuenta__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estado --></label>
+        <name>SI_Estado__c</name>
+        <picklistValues>
+            <masterLabel>A revisar</masterLabel>
+            <translation><!-- A revisar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Activo</masterLabel>
+            <translation><!-- Activo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pasivo</masterLabel>
+            <translation><!-- Pasivo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Standby</masterLabel>
+            <translation><!-- Standby --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Interés Legítimo --></label>
+        <name>SI_Interes_Legitimo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mail Valido --></label>
+        <name>SI_Mail_Valido__c</name>
+        <picklistValues>
+            <masterLabel>NO</masterLabel>
+            <translation><!-- NO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SI</masterLabel>
+            <translation><!-- SI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Motivo de descarte --></label>
+        <name>SI_Motivo_descarte__c</name>
+        <picklistValues>
+            <masterLabel>Contacto Fallido</masterLabel>
+            <translation><!-- Contacto Fallido --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fuera de target</masterLabel>
+            <translation><!-- Fuera de target --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fuera de zona COIN</masterLabel>
+            <translation><!-- Fuera de zona COIN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No cumple BANT</masterLabel>
+            <translation><!-- No cumple BANT --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Productos prescritos Lead --></label>
+        <name>SI_Productos_prescritos_Lead__c</name>
+        <picklistValues>
+            <masterLabel>Conectividad</masterLabel>
+            <translation><!-- Conectividad --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cuadros eléctricos</masterLabel>
+            <translation><!-- Cuadros eléctricos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Iluminación</masterLabel>
+            <translation><!-- Iluminación --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Iluminación exterior</masterLabel>
+            <translation><!-- Iluminación exterior --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mecanismos</masterLabel>
+            <translation><!-- Mecanismos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Otros</masterLabel>
+            <translation><!-- Otros --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Porteros automáticos</masterLabel>
+            <translation><!-- Porteros automáticos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seguridad</masterLabel>
+            <translation><!-- Seguridad --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sistemas de control</masterLabel>
+            <translation><!-- Sistemas de control --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vehículo Eléctrico</masterLabel>
+            <translation><!-- Vehículo Eléctrico --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Este campo es obligatorio para la conversión --></help>
+        <label><!-- Teléfono Móvil --></label>
+        <name>SI_Telefono_Movil__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tratamiento Datos Lead --></label>
+        <name>SI_Tratamiento_Datos_Lead__c</name>
+        <picklistValues>
+            <masterLabel>Freely given consent from contact</masterLabel>
+            <translation><!-- Freely given consent from contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Legitimate interest - existing customer</masterLabel>
+            <translation><!-- Legitimate interest - existing customer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Legitimate interest - prospect/lead</masterLabel>
+            <translation><!-- Legitimate interest - prospect/lead --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not applicable</masterLabel>
+            <translation><!-- Not applicable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Performance of a contract</masterLabel>
+            <translation><!-- Performance of a contract --></translation>
+        </picklistValues>
+    </fields>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Candidatos_Convertir</layout>
+        <sections>
+            <label><!-- Actividad en Hubspot --></label>
+            <section>Actividad en Hubspot</section>
+        </sections>
+        <sections>
+            <label><!-- BANT Proyecto --></label>
+            <section>BANT Proyecto</section>
+        </sections>
+        <sections>
+            <label><!-- Dirección Postal --></label>
+            <section>Dirección Postal</section>
+        </sections>
+        <sections>
+            <label><!-- Información de cuenta --></label>
+            <section>Información de cuenta</section>
+        </sections>
+        <sections>
+            <label><!-- Información del contacto --></label>
+            <section>Información del contacto</section>
+        </sections>
+        <sections>
+            <label><!-- Prescripción --></label>
+            <section>Prescripción</section>
+        </sections>
+        <sections>
+            <label><!-- RGPD --></label>
+            <section>RGPD</section>
+        </sections>
+        <sections>
+            <label><!-- Segmentación --></label>
+            <section>Segmentación</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Candidatos_NoConvertir</layout>
+        <sections>
+            <label><!-- Actividad en Hubspot --></label>
+            <section>Actividad en Hubspot</section>
+        </sections>
+        <sections>
+            <label><!-- BANT Proyecto --></label>
+            <section>BANT Proyecto</section>
+        </sections>
+        <sections>
+            <label><!-- Dirección Postal --></label>
+            <section>Dirección Postal</section>
+        </sections>
+        <sections>
+            <label><!-- Información de cuenta --></label>
+            <section>Información de cuenta</section>
+        </sections>
+        <sections>
+            <label><!-- Información del contacto --></label>
+            <section>Información del contacto</section>
+        </sections>
+        <sections>
+            <label><!-- Prescripción --></label>
+            <section>Prescripción</section>
+        </sections>
+        <sections>
+            <label><!-- RGPD --></label>
+            <section>RGPD</section>
+        </sections>
+        <sections>
+            <label><!-- Segmentación --></label>
+            <section>Segmentación</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Crear nueva Cita --></label>
+        <name>Nueva_Cita</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Tratamiento de datos --></label>
+        <name>RGPD_Lead</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Convertir --></label>
+        <name>Convertir</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- El candidato aun no tiene datos suficientes para convertir --></description>
+        <label><!-- Nuevo --></label>
+        <name>Nuevo</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Una vez dado el consentimiento, no puede quitarse. --></errorMessage>
+        <name>CHANGE_Consentimiento</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Una vez rechazada la comunicación, no puede aceptarse. --></errorMessage>
+        <name>CHANGE_Rechazo</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Antes de reasignar el candidato debes rellenar el campo BANT --></errorMessage>
+        <name>Cambio_BANT</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Debes indicar un motivo de descarte. --></errorMessage>
+        <name>Descartados</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Debe de indicarse al menos una división (Simon, Fluvia o Lighting) a la que pertenece el candidato --></errorMessage>
+        <name>Informar_area_de_Negocio</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No pueden seleccionarse a la vez consentimiento y rechazo de comunicaciones. --></errorMessage>
+        <name>Rechazo_sin_consentimiento</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- AltavistaNews --></label>
+        <name>AltavistaNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Convertir --></label>
+        <name>Convertir</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Convertir_2 --></label>
+        <name>Convertir_2</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleNews --></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- HooversProfile --></label>
+        <name>HooversProfile</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- RGPD_Lead_Button --></label>
+        <name>RGPD_Lead_Button</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SI_Nueva_Obra --></label>
+        <name>SI_Nueva_Obra</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SendGmail --></label>
+        <name>SendGmail</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooMaps --></label>
+        <name>YahooMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Add_Emails_to_List --></label>
+        <name>wbsendit__Add_Emails_to_List</name>
+    </webLinks>
+</CustomObjectTranslation>

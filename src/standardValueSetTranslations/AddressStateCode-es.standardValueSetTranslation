@@ -1,0 +1,1651 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>A Coruña</masterLabel>
+        <translation>A CORUÑA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Acre</masterLabel>
+        <translation>ACRE</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Agrigento</masterLabel>
+        <translation>AGRIGENTO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Aguascalientes</masterLabel>
+        <translation><!-- Aguascalientes --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Alabama</masterLabel>
+        <translation><!-- Alabama --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Alagoas</masterLabel>
+        <translation>ALAGOAS</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Alaska</masterLabel>
+        <translation><!-- Alaska --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Albacete</masterLabel>
+        <translation>ALBACETE</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Alberta</masterLabel>
+        <translation>ALBERTA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Alessandria</masterLabel>
+        <translation>ALESSANDRIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Alicante</masterLabel>
+        <translation>ALICANTE</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Almería</masterLabel>
+        <translation>ALMERÍA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Amapá</masterLabel>
+        <translation>AMAPÁ</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Amazonas</masterLabel>
+        <translation>AMAZONAS</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Ancona</masterLabel>
+        <translation>ANCONA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Andhra Pradesh</masterLabel>
+        <translation>ANDHRA PRADESH</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Andorra la Vella</masterLabel>
+        <translation><!-- Andorra la Vella --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Anhui</masterLabel>
+        <translation>ANHUI</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Aosta</masterLabel>
+        <translation>AOSTA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Arezzo</masterLabel>
+        <translation>AREZZO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Arizona</masterLabel>
+        <translation><!-- Arizona --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Arkansas</masterLabel>
+        <translation><!-- Arkansas --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Arunachal Pradesh</masterLabel>
+        <translation>ARUNACHAL PRADESH</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Ascoli Piceno</masterLabel>
+        <translation>ASCOLI PICENO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Assam</masterLabel>
+        <translation>ASSAM</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Asti</masterLabel>
+        <translation>ASTI</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Asturias</masterLabel>
+        <translation>ASTURIAS</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Australia del Oeste</masterLabel>
+        <translation>AUSTRALIA DEL OESTE</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Australia del Sur</masterLabel>
+        <translation>AUSTRALIA DEL SUR</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Avellino</masterLabel>
+        <translation>AVELLINO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Badajoz</masterLabel>
+        <translation>BADAJOZ</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Bahia</masterLabel>
+        <translation>BAHIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Baja California</masterLabel>
+        <translation><!-- Baja California --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Baja California Sur</masterLabel>
+        <translation><!-- Baja California Sur --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Baleares</masterLabel>
+        <translation>BALEARES</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Barcelona</masterLabel>
+        <translation>BARCELONA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Bari</masterLabel>
+        <translation>BARI</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Barletta-Andria-Trani</masterLabel>
+        <translation>BARLETTA-ANDRIA-TRANI</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Beja</masterLabel>
+        <translation><!-- Beja --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Belluno</masterLabel>
+        <translation>BELLUNO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Benevento</masterLabel>
+        <translation>BENEVENTO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Bengala Occidental</masterLabel>
+        <translation>BENGALA OCCIDENTAL</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Biella</masterLabel>
+        <translation>BIELLA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Bihar</masterLabel>
+        <translation>BIHAR</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Bizkaia</masterLabel>
+        <translation>BIZKAIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Bolonia</masterLabel>
+        <translation>BOLONIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Bolzano</masterLabel>
+        <translation>BOLZANO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Braga</masterLabel>
+        <translation><!-- Braga --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Bragança</masterLabel>
+        <translation><!-- Bragança --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Brescia</masterLabel>
+        <translation>BRESCIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Brindisi</masterLabel>
+        <translation>BRINDISI</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Burgos</masterLabel>
+        <translation>BURGOS</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Bérgamo</masterLabel>
+        <translation>BÉRGAMO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Cagliari</masterLabel>
+        <translation>CAGLIARI</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>California</masterLabel>
+        <translation><!-- California --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Caltanissetta</masterLabel>
+        <translation>CALTANISSETTA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Campeche</masterLabel>
+        <translation><!-- Campeche --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Campobasso</masterLabel>
+        <translation>CAMPOBASSO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Canillo</masterLabel>
+        <translation><!-- Canillo --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Cantabria</masterLabel>
+        <translation>CANTABRIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Carbonia-Iglesias</masterLabel>
+        <translation>CARBONIA-IGLESIAS</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Carlow</masterLabel>
+        <translation>CARLOW</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Caserta</masterLabel>
+        <translation>CASERTA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Castellón</masterLabel>
+        <translation>CASTELLÓN</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Castelo Branco</masterLabel>
+        <translation><!-- Castelo Branco --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Catania</masterLabel>
+        <translation>CATANIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Catanzaro</masterLabel>
+        <translation>CATANZARO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Cavan</masterLabel>
+        <translation>CAVAN</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Ceará</masterLabel>
+        <translation>CEARÁ</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Ceuta</masterLabel>
+        <translation>CEUTA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Chandigarh</masterLabel>
+        <translation>CHANDIGARH</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Chhattisgarh</masterLabel>
+        <translation>CHHATTISGARH</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Chiapas</masterLabel>
+        <translation><!-- Chiapas --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Chieti</masterLabel>
+        <translation>CHIETI</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Chihuahua</masterLabel>
+        <translation><!-- Chihuahua --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Chongqing</masterLabel>
+        <translation>CHONGQING</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Ciudad Real</masterLabel>
+        <translation>CIUDAD REAL</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Clare</masterLabel>
+        <translation>CLARE</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Coahuila</masterLabel>
+        <translation><!-- Coahuila --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Coimbra</masterLabel>
+        <translation><!-- Coimbra --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Colima</masterLabel>
+        <translation><!-- Colima --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Colorado</masterLabel>
+        <translation><!-- Colorado --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Columbia Británica</masterLabel>
+        <translation>COLUMBIA BRITÁNICA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Como</masterLabel>
+        <translation>COMO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Connecticut</masterLabel>
+        <translation><!-- Connecticut --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Cork</masterLabel>
+        <translation>CORK</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Cosenza</masterLabel>
+        <translation>COSENZA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Cremona</masterLabel>
+        <translation>CREMONA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Crotone</masterLabel>
+        <translation><!-- Crotone --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Cuenca</masterLabel>
+        <translation>CUENCA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Cuneo</masterLabel>
+        <translation>CUNEO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Cáceres</masterLabel>
+        <translation>CÁCERES</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Cádiz</masterLabel>
+        <translation>CÁDIZ</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Córdoba</masterLabel>
+        <translation>CÓRDOBA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Dadra and Nagar Haveli</masterLabel>
+        <translation>DADRA AND NAGAR HAVELI</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Daman and Diu</masterLabel>
+        <translation>DAMAN AND DIU</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Delaware</masterLabel>
+        <translation><!-- Delaware --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Delhi</masterLabel>
+        <translation>DELHI</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>District of Columbia</masterLabel>
+        <translation><!-- District of Columbia --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Distrito Federal Brasileño</masterLabel>
+        <translation>DISTRITO FEDERAL BRASILEÑO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Distrito Federal Mexicano</masterLabel>
+        <translation><!-- Distrito Federal Mexicano --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Donegal</masterLabel>
+        <translation>DONEGAL</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Dublin</masterLabel>
+        <translation>DUBLIN</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Durango</masterLabel>
+        <translation><!-- Durango --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Encamp</masterLabel>
+        <translation><!-- Encamp --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Enna</masterLabel>
+        <translation>ENNA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Escaldes-Engordany</masterLabel>
+        <translation><!-- Escaldes-Engordany --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Espírito Santo</masterLabel>
+        <translation>ESPÍRITO SANTO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Estado de México</masterLabel>
+        <translation><!-- Estado de México --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Faro</masterLabel>
+        <translation><!-- Faro --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Fermo</masterLabel>
+        <translation>FERMO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Ferrara</masterLabel>
+        <translation>FERRARA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Florencia</masterLabel>
+        <translation>FLORENCIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Florida</masterLabel>
+        <translation><!-- Florida --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Foggia</masterLabel>
+        <translation>FOGGIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Forlì-Cesena</masterLabel>
+        <translation>FORLÌ-CESENA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Frosinone</masterLabel>
+        <translation>FROSINONE</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Fujian</masterLabel>
+        <translation>FUJIAN</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Galway</masterLabel>
+        <translation>GALWAY</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Gansu</masterLabel>
+        <translation>GANSU</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Genoa</masterLabel>
+        <translation>GENOA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Georgia</masterLabel>
+        <translation><!-- Georgia --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Gipuzkoa</masterLabel>
+        <translation>GIPUZKOA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Girona</masterLabel>
+        <translation>GIRONA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Goa</masterLabel>
+        <translation>GOA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Goiás</masterLabel>
+        <translation>GOIÁS</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Gorizia</masterLabel>
+        <translation>GORIZIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Granada</masterLabel>
+        <translation>GRANADA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Grosseto</masterLabel>
+        <translation>GROSSETO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Guadalajara</masterLabel>
+        <translation>GUADALAJARA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Guanajuato</masterLabel>
+        <translation><!-- Guanajuato --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Guangdong</masterLabel>
+        <translation>GUANGDONG</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Guangxi</masterLabel>
+        <translation>GUANGXI</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Guarda</masterLabel>
+        <translation><!-- Guarda --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Guerrero</masterLabel>
+        <translation><!-- Guerrero --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Guizhou</masterLabel>
+        <translation>GUIZHOU</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Gujarat</masterLabel>
+        <translation>GUJARAT</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Hainan</masterLabel>
+        <translation>HAINAN</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Haryana</masterLabel>
+        <translation>HARYANA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Hawaii</masterLabel>
+        <translation><!-- Hawaii --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Hebei</masterLabel>
+        <translation>HEBEI</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Heilongjiang</masterLabel>
+        <translation>HEILONGJIANG</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Henan</masterLabel>
+        <translation>HENAN</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Hidalgo</masterLabel>
+        <translation><!-- Hidalgo --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Himachal Pradesh</masterLabel>
+        <translation>HIMACHAL PRADESH</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Hong Kong</masterLabel>
+        <translation>HONG KONG</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Hubei</masterLabel>
+        <translation>HUBEI</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Huelva</masterLabel>
+        <translation>HUELVA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Huesca</masterLabel>
+        <translation>HUESCA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Hunan</masterLabel>
+        <translation>HUNAN</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Idaho</masterLabel>
+        <translation><!-- Idaho --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Illinois</masterLabel>
+        <translation><!-- Illinois --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Imperia</masterLabel>
+        <translation>IMPERIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Indiana</masterLabel>
+        <translation><!-- Indiana --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Iowa</masterLabel>
+        <translation><!-- Iowa --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Isernia</masterLabel>
+        <translation>ISERNIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Isla del Príncipe Eduardo</masterLabel>
+        <translation>ISLA DEL PRÍNCIPE EDUARDO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Islas Andaman y Nicobar</masterLabel>
+        <translation>ISLAS ANDAMAN Y NICOBAR</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Jalisco</masterLabel>
+        <translation><!-- Jalisco --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Jammu and Kashmir</masterLabel>
+        <translation>JAMMU AND KASHMIR</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Jaén</masterLabel>
+        <translation>JAÉN</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Jharkhand</masterLabel>
+        <translation>JHARKHAND</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Jiangsu</masterLabel>
+        <translation>JIANGSU</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Jiangxi</masterLabel>
+        <translation>JIANGXI</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Jilin</masterLabel>
+        <translation>JILIN</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Kansas</masterLabel>
+        <translation><!-- Kansas --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Karnataka</masterLabel>
+        <translation>KARNATAKA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Kentucky</masterLabel>
+        <translation><!-- Kentucky --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Kerala</masterLabel>
+        <translation>KERALA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Kerry</masterLabel>
+        <translation>KERRY</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Kildare</masterLabel>
+        <translation>KILDARE</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Kilkenny</masterLabel>
+        <translation>KILKENNY</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>L&apos;Aquila</masterLabel>
+        <translation>L&apos;AQUILA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>La Massana</masterLabel>
+        <translation><!-- La Massana --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>La Rioja</masterLabel>
+        <translation>LA RIOJA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>La Spezia</masterLabel>
+        <translation><!-- La Spezia --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Lakshadweep</masterLabel>
+        <translation>LAKSHADWEEP</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Laois</masterLabel>
+        <translation>LAOIS</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Las Palmas</masterLabel>
+        <translation>LAS PALMAS</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Latina</masterLabel>
+        <translation><!-- Latina --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Lecce</masterLabel>
+        <translation><!-- Lecce --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Lecco</masterLabel>
+        <translation><!-- Lecco --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Leiria</masterLabel>
+        <translation><!-- Leiria --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Leitrim</masterLabel>
+        <translation>LEITRIM</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>León</masterLabel>
+        <translation>LEÓN</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Liaoning</masterLabel>
+        <translation>LIAONING</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Limerick</masterLabel>
+        <translation>LIMERICK</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Lisboa</masterLabel>
+        <translation><!-- Lisboa --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Livorno</masterLabel>
+        <translation><!-- Livorno --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Lleida</masterLabel>
+        <translation>LLEIDA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Lodi</masterLabel>
+        <translation><!-- Lodi --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Longford</masterLabel>
+        <translation>LONGFORD</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Louisiana</masterLabel>
+        <translation><!-- Louisiana --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Louth</masterLabel>
+        <translation>LOUTH</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Lucca</masterLabel>
+        <translation><!-- Lucca --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Lugo</masterLabel>
+        <translation>LUGO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Macao</masterLabel>
+        <translation>MACAO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Macerata</masterLabel>
+        <translation><!-- Macerata --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Madhya Pradesh</masterLabel>
+        <translation>MADHYA PRADESH</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Madrid</masterLabel>
+        <translation>MADRID</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Maharashtra</masterLabel>
+        <translation>MAHARASHTRA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Maine</masterLabel>
+        <translation><!-- Maine --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Manipur</masterLabel>
+        <translation>MANIPUR</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Manitoba</masterLabel>
+        <translation>MANITOBA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mantua</masterLabel>
+        <translation><!-- Mantua --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Maranhão</masterLabel>
+        <translation>MARANHÃO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Maryland</masterLabel>
+        <translation><!-- Maryland --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Massa y Carrara</masterLabel>
+        <translation><!-- Massa y Carrara --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Massachusetts</masterLabel>
+        <translation><!-- Massachusetts --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Matera</masterLabel>
+        <translation><!-- Matera --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mato Grosso</masterLabel>
+        <translation>MATO GROSSO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mato Grosso do Sul</masterLabel>
+        <translation>MATO GROSSO DO SUL</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mayo</masterLabel>
+        <translation>MAYO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Meath</masterLabel>
+        <translation>MEATH</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Medio Campidano</masterLabel>
+        <translation><!-- Medio Campidano --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Meghalaya</masterLabel>
+        <translation>MEGHALAYA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Melilla</masterLabel>
+        <translation>MELILLA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Messina</masterLabel>
+        <translation><!-- Messina --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Michigan</masterLabel>
+        <translation><!-- Michigan --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Michoacán</masterLabel>
+        <translation><!-- Michoacán --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Milán</masterLabel>
+        <translation><!-- Milán --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Minas Gerais</masterLabel>
+        <translation>MINAS GERAIS</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Minnesota</masterLabel>
+        <translation><!-- Minnesota --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mississippi</masterLabel>
+        <translation><!-- Mississippi --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Missouri</masterLabel>
+        <translation><!-- Missouri --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mizoram</masterLabel>
+        <translation>MIZORAM</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Monaghan</masterLabel>
+        <translation>MONAGHAN</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Montana</masterLabel>
+        <translation><!-- Montana --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Monza and Brianza</masterLabel>
+        <translation><!-- Monza and Brianza --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Morelos</masterLabel>
+        <translation><!-- Morelos --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Murcia</masterLabel>
+        <translation>MURCIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Málaga</masterLabel>
+        <translation>MÁLAGA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Módena</masterLabel>
+        <translation><!-- Módena --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Nagaland</masterLabel>
+        <translation>NAGALAND</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Navarra</masterLabel>
+        <translation>NAVARRA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Nayarit</masterLabel>
+        <translation><!-- Nayarit --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Nebraska</masterLabel>
+        <translation><!-- Nebraska --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Nei Mongol</masterLabel>
+        <translation>NEI MONGOL</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Nevada</masterLabel>
+        <translation><!-- Nevada --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>New Hampshire</masterLabel>
+        <translation><!-- New Hampshire --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>New Mexico</masterLabel>
+        <translation><!-- New Mexico --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>New York</masterLabel>
+        <translation><!-- New York --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Newfoundland y Labrador</masterLabel>
+        <translation>NEWFOUNDLAND Y LABRADOR</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Ningxia</masterLabel>
+        <translation>NINGXIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>North Carolina</masterLabel>
+        <translation><!-- North Carolina --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>North Dakota</masterLabel>
+        <translation><!-- North Dakota --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Novara</masterLabel>
+        <translation><!-- Novara --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Nueva Escocia</masterLabel>
+        <translation>NUEVA ESCOCIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Nueva Gales del Sur</masterLabel>
+        <translation>NUEVA GALES DEL SUR</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Nueva Jersey</masterLabel>
+        <translation><!-- Nueva Jersey --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Nuevo Brunswick</masterLabel>
+        <translation>NUEVO BRUNSWICK</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Nuevo León</masterLabel>
+        <translation><!-- Nuevo León --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Nunavut</masterLabel>
+        <translation>NUNAVUT</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Nuoro</masterLabel>
+        <translation><!-- Nuoro --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Nápoles</masterLabel>
+        <translation><!-- Nápoles --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Oaxaca</masterLabel>
+        <translation><!-- Oaxaca --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Odisha</masterLabel>
+        <translation>ODISHA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Offaly</masterLabel>
+        <translation>OFFALY</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Ogliastra</masterLabel>
+        <translation><!-- Ogliastra --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Ohio</masterLabel>
+        <translation><!-- Ohio --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Oklahoma</masterLabel>
+        <translation><!-- Oklahoma --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Olbia-Tempio</masterLabel>
+        <translation><!-- Olbia-Tempio --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Ontario</masterLabel>
+        <translation>ONTARIO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Ordino</masterLabel>
+        <translation><!-- Ordino --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Oregon</masterLabel>
+        <translation><!-- Oregon --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Oristano</masterLabel>
+        <translation><!-- Oristano --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Ourense</masterLabel>
+        <translation>OURENSE</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Padua</masterLabel>
+        <translation><!-- Padua --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Palencia</masterLabel>
+        <translation>PALENCIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Palermo</masterLabel>
+        <translation><!-- Palermo --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Paraná</masterLabel>
+        <translation>PARANÁ</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Paraíba</masterLabel>
+        <translation>PARAÍBA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Parma</masterLabel>
+        <translation><!-- Parma --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pará</masterLabel>
+        <translation>PARÁ</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pavia</masterLabel>
+        <translation><!-- Pavia --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pekín</masterLabel>
+        <translation>PEKÍN</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pennsylvania</masterLabel>
+        <translation><!-- Pennsylvania --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pernambuco</masterLabel>
+        <translation>PERNAMBUCO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Perugia</masterLabel>
+        <translation><!-- Perugia --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pesaro y Urbino</masterLabel>
+        <translation><!-- Pesaro y Urbino --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pescara</masterLabel>
+        <translation><!-- Pescara --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Piacenza</masterLabel>
+        <translation><!-- Piacenza --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Piauí</masterLabel>
+        <translation>PIAUÍ</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pisa</masterLabel>
+        <translation><!-- Pisa --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pistoia</masterLabel>
+        <translation><!-- Pistoia --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pontevedra</masterLabel>
+        <translation>PONTEVEDRA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pordenone</masterLabel>
+        <translation><!-- Pordenone --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Portalegre</masterLabel>
+        <translation><!-- Portalegre --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Porto</masterLabel>
+        <translation><!-- Porto --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Potenza</masterLabel>
+        <translation><!-- Potenza --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Prato</masterLabel>
+        <translation><!-- Prato --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Puducherry</masterLabel>
+        <translation>PUDUCHERRY</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Puebla</masterLabel>
+        <translation><!-- Puebla --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Punjab</masterLabel>
+        <translation>PUNJAB</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Qinghai</masterLabel>
+        <translation>QINGHAI</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Quebec</masterLabel>
+        <translation>QUEBEC</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Queensland</masterLabel>
+        <translation>QUEENSLAND</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Querétaro</masterLabel>
+        <translation><!-- Querétaro --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Quintana Roo</masterLabel>
+        <translation><!-- Quintana Roo --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Ragusa</masterLabel>
+        <translation><!-- Ragusa --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Rajasthan</masterLabel>
+        <translation>RAJASTHAN</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Ravenna</masterLabel>
+        <translation><!-- Ravenna --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Reggio Calabria</masterLabel>
+        <translation><!-- Reggio Calabria --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Reggio Emilia</masterLabel>
+        <translation><!-- Reggio Emilia --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Rhode Island</masterLabel>
+        <translation><!-- Rhode Island --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Rieti</masterLabel>
+        <translation><!-- Rieti --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Rimini</masterLabel>
+        <translation><!-- Rimini --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Rio Grande do Norte</masterLabel>
+        <translation>RIO GRANDE DO NORTE</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Rio Grande do Sul</masterLabel>
+        <translation>RIO GRANDE DO SUL</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Rio de Janeiro</masterLabel>
+        <translation>RIO DE JANEIRO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Roma</masterLabel>
+        <translation><!-- Roma --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Rondônia</masterLabel>
+        <translation>RONDÔNIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Roraima</masterLabel>
+        <translation>RORAIMA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Roscommon</masterLabel>
+        <translation>ROSCOMMON</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Rovigo</masterLabel>
+        <translation><!-- Rovigo --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Salamanca</masterLabel>
+        <translation>SALAMANCA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Salerno</masterLabel>
+        <translation><!-- Salerno --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>San Julià de Loira</masterLabel>
+        <translation><!-- San Julià de Loira --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>San Luis Potosí</masterLabel>
+        <translation><!-- San Luis Potosí --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Santa Catarina</masterLabel>
+        <translation>SANTA CATARINA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Santa Cruz de Tenerife</masterLabel>
+        <translation>SANTA CRUZ DE TENERIFE</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Santarém</masterLabel>
+        <translation><!-- Santarém --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Saskatchewan</masterLabel>
+        <translation>SASKATCHEWAN</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Sassari</masterLabel>
+        <translation><!-- Sassari --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Savona</masterLabel>
+        <translation><!-- Savona --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Segovia</masterLabel>
+        <translation>SEGOVIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Sergipe</masterLabel>
+        <translation>SERGIPE</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Setúbal</masterLabel>
+        <translation><!-- Setúbal --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Sevilla</masterLabel>
+        <translation>SEVILLA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Shaanxi</masterLabel>
+        <translation>SHAANXI</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Shandong</masterLabel>
+        <translation>SHANDONG</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Shanghái</masterLabel>
+        <translation>SHANGHÁI</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Shanxi</masterLabel>
+        <translation>SHANXI</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Sichuan</masterLabel>
+        <translation>SICHUAN</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Siena</masterLabel>
+        <translation><!-- Siena --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Sikkim</masterLabel>
+        <translation>SIKKIM</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Sinaloa</masterLabel>
+        <translation><!-- Sinaloa --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Sligo</masterLabel>
+        <translation>SLIGO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Sondrio</masterLabel>
+        <translation><!-- Sondrio --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Sonora</masterLabel>
+        <translation><!-- Sonora --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Soria</masterLabel>
+        <translation>SORIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>South Carolina</masterLabel>
+        <translation><!-- South Carolina --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>South Dakota</masterLabel>
+        <translation><!-- South Dakota --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Syracuse</masterLabel>
+        <translation><!-- Syracuse --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>São Paulo</masterLabel>
+        <translation>SÃO PAULO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Tabasco</masterLabel>
+        <translation><!-- Tabasco --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Taiwán</masterLabel>
+        <translation>TAIWÁN</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Tamaulipas</masterLabel>
+        <translation><!-- Tamaulipas --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Tamil Nadu</masterLabel>
+        <translation>TAMIL NADU</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Taranto</masterLabel>
+        <translation><!-- Taranto --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Tarragona</masterLabel>
+        <translation>TARRAGONA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Tasmania</masterLabel>
+        <translation>TASMANIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Tennessee</masterLabel>
+        <translation><!-- Tennessee --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Teramo</masterLabel>
+        <translation><!-- Teramo --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Terni</masterLabel>
+        <translation><!-- Terni --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Territorio de la Capital Australiana</masterLabel>
+        <translation>TERRITORIO DE LA CAPITAL AUSTRALIANA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Territorio del Norte</masterLabel>
+        <translation>TERRITORIO DEL NORTE</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Territorios del Noroeste</masterLabel>
+        <translation>TERRITORIOS DEL NOROESTE</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Teruel</masterLabel>
+        <translation>TERUEL</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Texas</masterLabel>
+        <translation><!-- Texas --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Tianjín</masterLabel>
+        <translation>TIANJÍN</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Tipperary</masterLabel>
+        <translation>TIPPERARY</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Tlaxcala</masterLabel>
+        <translation><!-- Tlaxcala --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Tocantins</masterLabel>
+        <translation>TOCANTINS</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Toledo</masterLabel>
+        <translation>TOLEDO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Trapani</masterLabel>
+        <translation><!-- Trapani --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Trento</masterLabel>
+        <translation><!-- Trento --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Treviso</masterLabel>
+        <translation><!-- Treviso --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Trieste</masterLabel>
+        <translation><!-- Trieste --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Tripura</masterLabel>
+        <translation>TRIPURA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Turín</masterLabel>
+        <translation><!-- Turín --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Udine</masterLabel>
+        <translation><!-- Udine --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Utah</masterLabel>
+        <translation><!-- Utah --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Uttar Pradesh</masterLabel>
+        <translation>UTTAR PRADESH</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Uttarakhand</masterLabel>
+        <translation>UTTARAKHAND</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Valencia</masterLabel>
+        <translation>VALENCIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Valladolid</masterLabel>
+        <translation>VALLADOLID</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Varese</masterLabel>
+        <translation><!-- Varese --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Venecia</masterLabel>
+        <translation><!-- Venecia --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Veracruz</masterLabel>
+        <translation><!-- Veracruz --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Verbano-Cusio-Ossola</masterLabel>
+        <translation><!-- Verbano-Cusio-Ossola --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Vercelli</masterLabel>
+        <translation><!-- Vercelli --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Vermont</masterLabel>
+        <translation><!-- Vermont --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Verona</masterLabel>
+        <translation><!-- Verona --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Viana do Castelo</masterLabel>
+        <translation><!-- Viana do Castelo --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Vibo Valentia</masterLabel>
+        <translation><!-- Vibo Valentia --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Vicenza</masterLabel>
+        <translation><!-- Vicenza --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Victoria</masterLabel>
+        <translation>VICTORIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Vila Real</masterLabel>
+        <translation><!-- Vila Real --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Virginia</masterLabel>
+        <translation><!-- Virginia --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Viseu</masterLabel>
+        <translation><!-- Viseu --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Viterbo</masterLabel>
+        <translation><!-- Viterbo --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Washington</masterLabel>
+        <translation><!-- Washington --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Waterford</masterLabel>
+        <translation>WATERFORD</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>West Virginia</masterLabel>
+        <translation><!-- West Virginia --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Westmeath</masterLabel>
+        <translation>WESTMEATH</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Wexford</masterLabel>
+        <translation>WEXFORD</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Wicklow</masterLabel>
+        <translation>WICKLOW</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Wisconsin</masterLabel>
+        <translation><!-- Wisconsin --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Wyoming</masterLabel>
+        <translation><!-- Wyoming --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Xinjiang</masterLabel>
+        <translation>XINJIANG</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Xizang</masterLabel>
+        <translation>XIZANG</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Yucatán</masterLabel>
+        <translation><!-- Yucatán --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Yukón</masterLabel>
+        <translation>YUKÓN</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Yunnan</masterLabel>
+        <translation>YUNNAN</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Zacatecas</masterLabel>
+        <translation><!-- Zacatecas --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Zamora</masterLabel>
+        <translation>ZAMORA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Zaragoza</masterLabel>
+        <translation>ZARAGOZA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Zhejiang</masterLabel>
+        <translation>ZHEJIANG</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Álava</masterLabel>
+        <translation>ÁLAVA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Ávila</masterLabel>
+        <translation>ÁVILA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Évora</masterLabel>
+        <translation><!-- Évora --></translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

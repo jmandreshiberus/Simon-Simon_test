@@ -1,0 +1,6 @@
+<apex:page standardController="Account">
+  <flow:interview name="SolicitudClienteSAP" finishLocation="/{!Account.ID}">
+      <apex:param name="AccID" value="{!Account.ID}"/>
+      <apex:param name="UserID" value="{!$User.Id}"/>
+  </flow:interview>
+</apex:page>

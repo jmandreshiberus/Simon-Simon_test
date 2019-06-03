@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>00</masterLabel>
+        <translation>Rechazado</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>01</masterLabel>
+        <translation>En Curso</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>02</masterLabel>
+        <translation>Parc.Entregado / NO Facturado</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>03</masterLabel>
+        <translation>Parc.Entregado/Parc. Facturado</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>04</masterLabel>
+        <translation>Entregado /NO Facturado</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>05</masterLabel>
+        <translation>Entregado/Parc. Facturado</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>06</masterLabel>
+        <translation>Parcialmente Facturado</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>07</masterLabel>
+        <translation>Totalmente Facturado</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>08</masterLabel>
+        <translation>NO Entregado/NO Facturado</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

@@ -1,0 +1,783 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>B1</masterLabel>
+        <translation>Nota crédito bônus</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>B2</masterLabel>
+        <translation>Correção de bônus</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>B3</masterLabel>
+        <translation>Liq.parcial bônus</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>B4</masterLabel>
+        <translation>Bônus provis.manuais</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BV</masterLabel>
+        <translation><!-- BV --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CHFK</masterLabel>
+        <translation><!-- CHFK --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CHFX</masterLabel>
+        <translation><!-- CHFX --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>F1</masterLabel>
+        <translation><!-- F1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>F2</masterLabel>
+        <translation>Fatura</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>F2B</masterLabel>
+        <translation><!-- F2B --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>F5</masterLabel>
+        <translation>Pro-forma p/ordem</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>F8</masterLabel>
+        <translation>Pro-forma p/remessa</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FA</masterLabel>
+        <translation><!-- FA --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FADP</masterLabel>
+        <translation><!-- FADP --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FAR</masterLabel>
+        <translation><!-- FAR --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FAS</masterLabel>
+        <translation>Estorno sol.adiant.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FAZ</masterLabel>
+        <translation>Solicit.adiantamento</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FC</masterLabel>
+        <translation><!-- FC --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FCR</masterLabel>
+        <translation><!-- FCR --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FP</masterLabel>
+        <translation><!-- FP --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FR</masterLabel>
+        <translation><!-- FR --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FST</masterLabel>
+        <translation><!-- FST --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FTB</masterLabel>
+        <translation><!-- FTB --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FV</masterLabel>
+        <translation><!-- FV --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FX</masterLabel>
+        <translation><!-- FX --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FXG</masterLabel>
+        <translation><!-- FXG --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FXL</masterLabel>
+        <translation><!-- FXL --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FXS</masterLabel>
+        <translation><!-- FXS --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G2</masterLabel>
+        <translation>Nota de crédito</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G2B</masterLabel>
+        <translation><!-- G2B --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G2S</masterLabel>
+        <translation><!-- G2S --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HR</masterLabel>
+        <translation><!-- HR --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IG</masterLabel>
+        <translation><!-- IG --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IV</masterLabel>
+        <translation>Faturamento interno</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>L2</masterLabel>
+        <translation>Nota de débito</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>L2B</masterLabel>
+        <translation><!-- L2B --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LG</masterLabel>
+        <translation><!-- LG --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LGS</masterLabel>
+        <translation><!-- LGS --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LR</masterLabel>
+        <translation>Lista de faturas</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LRS</masterLabel>
+        <translation><!-- LRS --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>RE</masterLabel>
+        <translation>Crédito devolução</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>REB</masterLabel>
+        <translation><!-- REB --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S1</masterLabel>
+        <translation>Estorno fatura (S1)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S2</masterLabel>
+        <translation>Estorno nota crédito</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S3</masterLabel>
+        <translation>Estorno fatura (S3)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SHR</masterLabel>
+        <translation><!-- SHR --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SV</masterLabel>
+        <translation><!-- SV --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>WIA</masterLabel>
+        <translation><!-- WIA --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>YG24</masterLabel>
+        <translation><!-- YG24 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>YG2I</masterLabel>
+        <translation><!-- YG2I --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>YG2S</masterLabel>
+        <translation><!-- YG2S --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>YG34</masterLabel>
+        <translation><!-- YG34 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>YG3B</masterLabel>
+        <translation><!-- YG3B --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>YG3I</masterLabel>
+        <translation><!-- YG3I --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>YG3S</masterLabel>
+        <translation><!-- YG3S --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>YG44</masterLabel>
+        <translation><!-- YG44 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>YG4I</masterLabel>
+        <translation><!-- YG4I --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>YG4S</masterLabel>
+        <translation><!-- YG4S --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>YGAS</masterLabel>
+        <translation><!-- YGAS --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>YGF4</masterLabel>
+        <translation><!-- YGF4 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>YH24</masterLabel>
+        <translation><!-- YH24 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>YH2I</masterLabel>
+        <translation><!-- YH2I --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>YH2S</masterLabel>
+        <translation><!-- YH2S --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>YL24</masterLabel>
+        <translation><!-- YL24 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>YL2I</masterLabel>
+        <translation><!-- YL2I --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>YL2S</masterLabel>
+        <translation><!-- YL2S --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>YLA4</masterLabel>
+        <translation><!-- YLA4 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>YLAI</masterLabel>
+        <translation><!-- YLAI --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>YLAS</masterLabel>
+        <translation><!-- YLAS --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>YLFI</masterLabel>
+        <translation><!-- YLFI --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>YLFS</masterLabel>
+        <translation><!-- YLFS --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>YM24</masterLabel>
+        <translation><!-- YM24 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>YM2I</masterLabel>
+        <translation><!-- YM2I --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>YM2S</masterLabel>
+        <translation><!-- YM2S --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>YRE4</masterLabel>
+        <translation><!-- YRE4 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>YREI</masterLabel>
+        <translation><!-- YREI --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>YRES</masterLabel>
+        <translation><!-- YRES --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>YRT4</masterLabel>
+        <translation><!-- YRT4 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>YRTI</masterLabel>
+        <translation><!-- YRTI --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>YRTS</masterLabel>
+        <translation><!-- YRTS --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZAR</masterLabel>
+        <translation>Nota de crédito</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBID</masterLabel>
+        <translation>Estorno NC internaBR</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBIG</masterLabel>
+        <translation><!-- ZBIG --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBIS</masterLabel>
+        <translation>Estorno fatur.intBR</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBIV</masterLabel>
+        <translation>Fatura interna BR</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBR0</masterLabel>
+        <translation>Fatura Venda Serviço</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBR1</masterLabel>
+        <translation>Fatura Venda Normal</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBR4</masterLabel>
+        <translation><!-- ZBR4 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBR5</masterLabel>
+        <translation><!-- ZBR5 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBR6</masterLabel>
+        <translation>Ret.Bon./Doa./Brinde</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBR7</masterLabel>
+        <translation>Fat. Amostra</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBRA</masterLabel>
+        <translation>N.Crédit(Dto.Homec.)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBRB</masterLabel>
+        <translation>N.Débito(Dto.Homec.)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBRC</masterLabel>
+        <translation>N.Débito(Dto.Homec.)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBRD</masterLabel>
+        <translation>Ret.Bon./Doa./Brinde</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBRE</masterLabel>
+        <translation>Fatura Dev/Ret Venda</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBRF</masterLabel>
+        <translation>Fat.Simp.Fat.Ent.Fut</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBRG</masterLabel>
+        <translation>N.Crédit(Dto.Homec.)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBRH</masterLabel>
+        <translation>Fat.Rem.Consignação</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBRI</masterLabel>
+        <translation><!-- ZBRI --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBRJ</masterLabel>
+        <translation>Fat.Dev.Rem.Consig.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBRL</masterLabel>
+        <translation><!-- ZBRL --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBRM</masterLabel>
+        <translation><!-- ZBRM --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBRN</masterLabel>
+        <translation>Fat.NC Desf.Fat.EF</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBRO</masterLabel>
+        <translation>Rem.Conserto(EM)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBRP</masterLabel>
+        <translation>Rem.Conserto(SM)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBRQ</masterLabel>
+        <translation>Fat.Dev.Rem.Consig.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBRR</masterLabel>
+        <translation>Fat.Simp.Rem.Ent.Fut</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBRV</masterLabel>
+        <translation>Rem.Industr.(EM)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBRW</masterLabel>
+        <translation>Rem.Industr.(SM)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBRX</masterLabel>
+        <translation>Fatura Exportação</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBRZ</masterLabel>
+        <translation>Fat. NF Complementar</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBS0</masterLabel>
+        <translation>Fat. Amostra Retorno</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBS1</masterLabel>
+        <translation>Fat.Dev.DemosNFCl</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBS2</masterLabel>
+        <translation>Fat.Dev.DemosNFPr</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBS3</masterLabel>
+        <translation>Remessa (TradComp)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBS4</masterLabel>
+        <translation>Fatura Venda Normal</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBS5</masterLabel>
+        <translation>Fatura Dev/Ret Venda</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBS6</masterLabel>
+        <translation>Estorno Ret.Amostra</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBS7</masterLabel>
+        <translation>Estorno Amostra</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBS8</masterLabel>
+        <translation>Fat. Envío Feiras</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBSI</masterLabel>
+        <translation>Est.fatura consig BR</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBSO</masterLabel>
+        <translation>Est.Abo (s/contab)S2</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBSP</masterLabel>
+        <translation>Est.Fra (s/contab)S1</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBV0</masterLabel>
+        <translation>Venda à vista</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZCN1</masterLabel>
+        <translation><!-- ZCN1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZCN2</masterLabel>
+        <translation><!-- ZCN2 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZCN3</masterLabel>
+        <translation><!-- ZCN3 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZCN4</masterLabel>
+        <translation><!-- ZCN4 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZCN5</masterLabel>
+        <translation><!-- ZCN5 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZCN6</masterLabel>
+        <translation><!-- ZCN6 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZCN7</masterLabel>
+        <translation><!-- ZCN7 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZCNB</masterLabel>
+        <translation><!-- ZCNB --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZCNC</masterLabel>
+        <translation><!-- ZCNC --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZCND</masterLabel>
+        <translation><!-- ZCND --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZCNE</masterLabel>
+        <translation><!-- ZCNE --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZCNH</masterLabel>
+        <translation><!-- ZCNH --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZCNM</masterLabel>
+        <translation><!-- ZCNM --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZCR</masterLabel>
+        <translation>Nota de débito</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZCS1</masterLabel>
+        <translation><!-- ZCS1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZCS2</masterLabel>
+        <translation><!-- ZCS2 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZCS3</masterLabel>
+        <translation><!-- ZCS3 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZCSM</masterLabel>
+        <translation><!-- ZCSM --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZF2</masterLabel>
+        <translation>Fatura</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZF8</masterLabel>
+        <translation>Pro-forma p/remessa</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZFAU</masterLabel>
+        <translation>Fatura</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZFC</masterLabel>
+        <translation>Fatura</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZFLP</masterLabel>
+        <translation>Nota de débito</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZFM</masterLabel>
+        <translation>Fatura</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZFPM</masterLabel>
+        <translation>Pro-forma p/remessa</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZG1</masterLabel>
+        <translation><!-- ZG1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZG2</masterLabel>
+        <translation>Nota de crédito</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZG2S</masterLabel>
+        <translation>Nota de crédito</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZG3</masterLabel>
+        <translation>Nota de crédito</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZG4</masterLabel>
+        <translation><!-- ZG4 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZGA</masterLabel>
+        <translation>Nota de crédito</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZGF</masterLabel>
+        <translation>Nota de crédito</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZGF2</masterLabel>
+        <translation>Nota de crédito</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZGS2</masterLabel>
+        <translation>Estorno nota crédito</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZGST</masterLabel>
+        <translation><!-- ZGST --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZIN1</masterLabel>
+        <translation>Fatura</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZIN2</masterLabel>
+        <translation>Fatura</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZIN3</masterLabel>
+        <translation>Crédito devolução</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZIV</masterLabel>
+        <translation>Faturamento interno</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZIVS</masterLabel>
+        <translation>Estorno faturam.int.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZL1</masterLabel>
+        <translation><!-- ZL1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZL2</masterLabel>
+        <translation><!-- ZL2 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZLA</masterLabel>
+        <translation>Nota de débito</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZLAU</masterLabel>
+        <translation>Nota de débito</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZLF</masterLabel>
+        <translation>Nota de débito</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZLF2</masterLabel>
+        <translation>Nota de débito</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZLS2</masterLabel>
+        <translation>Estorno fatura (S1)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZMS1</masterLabel>
+        <translation><!-- ZMS1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZMS2</masterLabel>
+        <translation><!-- ZMS2 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZMSA</masterLabel>
+        <translation><!-- ZMSA --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZMX1</masterLabel>
+        <translation><!-- ZMX1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZMX2</masterLabel>
+        <translation><!-- ZMX2 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZMX3</masterLabel>
+        <translation><!-- ZMX3 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZMX4</masterLabel>
+        <translation><!-- ZMX4 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZMX9</masterLabel>
+        <translation><!-- ZMX9 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZMXA</masterLabel>
+        <translation><!-- ZMXA --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZMXB</masterLabel>
+        <translation><!-- ZMXB --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZMXD</masterLabel>
+        <translation><!-- ZMXD --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZMXM</masterLabel>
+        <translation><!-- ZMXM --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZMXN</masterLabel>
+        <translation><!-- ZMXN --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZMXP</masterLabel>
+        <translation><!-- ZMXP --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZRC</masterLabel>
+        <translation>Crédito devolução</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZRET</masterLabel>
+        <translation>Nota de débito</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZRO1</masterLabel>
+        <translation><!-- ZRO1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZROC</masterLabel>
+        <translation><!-- ZROC --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZROD</masterLabel>
+        <translation><!-- ZROD --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZRS1</masterLabel>
+        <translation><!-- ZRS1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZRS2</masterLabel>
+        <translation><!-- ZRS2 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZS1</masterLabel>
+        <translation>Estorno fatura (S1)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZSAU</masterLabel>
+        <translation>Estorno fatura (S1)</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

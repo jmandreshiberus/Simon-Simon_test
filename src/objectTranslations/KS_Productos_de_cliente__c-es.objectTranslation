@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Producto de cliente</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Productos de clientes</value>
+    </caseValues>
+    <fields>
+        <label><!-- Distribuidor --></label>
+        <name>KS_Distribuidor__c</name>
+        <relationshipLabel><!-- Productos de clientes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Nombre producto --></label>
+        <name>KS_Nombre_producto__c</name>
+    </fields>
+    <fields>
+        <label><!-- Producto --></label>
+        <name>KS_Producto__c</name>
+        <relationshipLabel><!-- Productos de clientes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Relación con producto --></label>
+        <name>KS_Relacion_con_producto__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Formato Producto de cliente</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

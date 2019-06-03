@@ -1,0 +1,7 @@
+<apex:page standardController="Opportunity" extensions="KS_OfertaEdit_Controller" docType="html-5.0" id="oferta_page" standardStylesheets="true">
+    
+    <apex:includeScript value="{!$Resource.KS_jquery1}"/>
+    <script type="text/javascript">
+    location.href = "apex/KS_Oferta?id={!oferta.ID}&edit=true";
+    </script>    
+</apex:page>

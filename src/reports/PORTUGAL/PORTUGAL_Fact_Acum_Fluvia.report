@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_81646229</developerName>
+        <masterLabel>Area</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>CUST_OWNER_NAME</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Melcior Selma Lomas</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Sergi Cervantes Elías</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Alberto Martos Ferra</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Lluís Torrecabota Masmitja</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Pau Samo Guerra</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Gabriel Riba Barea</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Eduardo Mosquera</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Admin Simon</sourceValue>
+            </sourceValues>
+            <value>CAT</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Ana Bascoy Rodriguez</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Guillermo Corral Pena</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Jose Luis Sousa Grueiro</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Juan Campos Fernandez</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Manuel Martinez Delgado</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Paulo Jorge Pereira De Jesus</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Sara Serrano Mato</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Luis Aldehuelo Rodriguez</sourceValue>
+            </sourceValues>
+            <value>NOROESTE</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Oscar Lodeiro Mendez</sourceValue>
+            </sourceValues>
+            <value>PORTUGAL</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>CUST_OWNER_NAME</field>
+    </columns>
+    <columns>
+        <field>FK_NAME</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>KS_Factura__c.KS_Valor_neto_en_moneda_de_documento__c.CONVERT</field>
+    </columns>
+    <currency>EUR</currency>
+    <filter>
+        <criteriaItems>
+            <column>KS_Factura__c.KS_Organizacion_de_ventas__c</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>FL31</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>KS_Factura__c.KS_Canal_de_distribucion__c</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>10,Nacional</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FK_ACC_OWNER_ALIAS</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>CDo,JFre,MMoi,PPer,NAlv,ncout</value>
+        </criteriaItems>
+        <language>es</language>
+    </filter>
+    <format>Matrix</format>
+    <groupingsAcross>
+        <dateGranularity>Month</dateGranularity>
+        <field>KS_Factura__c.KS_Fecha_de_factura_para_el_indice__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>KS_Factura__c.KS_Organizacion_de_ventas__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>KS_Factura__c.KS_Destinatario__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>PORTUGAL - Fact. Acum Fluvia</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$KS_Factura__c@KS_Factura__c.KS_Solicitante__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>KS_Factura__c.KS_Fecha_de_factura_para_el_indice__c</dateColumn>
+        <interval>INTERVAL_CURFY</interval>
+    </timeFrameFilter>
+</Report>

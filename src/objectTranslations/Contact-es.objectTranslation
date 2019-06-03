@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Dirección personal</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>other_address_contact</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>ciudad de contacto</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>other_city_contact</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Código de país de contacto</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>other_country_code_contact</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>País de contacto</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>other_country_contact</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Latitud de contacto</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>other_latitude_contact</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Longitud de contacto</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>other_longitude_contact</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Estado o provincia de contacto</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>other_state_contact</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Calle de contacto</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>other_street_contact</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Código postal de contacto</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>other_zip_contact</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Cargo</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>title_contact</name>
+    </fields>
+    <fields>
+        <label><!-- Activo --></label>
+        <name>KS_Activo__c</name>
+    </fields>
+    <fields>
+        <label><!-- C-Level --></label>
+        <name>KS_C_Level__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Si</masterLabel>
+            <translation><!-- Si --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Calle --></label>
+        <name>KS_Calle__c</name>
+    </fields>
+    <fields>
+        <label><!-- Canal de publicidad --></label>
+        <name>KS_Canal_de_publicidad__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ciudad --></label>
+        <name>KS_Ciudad__c</name>
+    </fields>
+    <fields>
+        <label><!-- CloudExplorer2 --></label>
+        <name>KS_CloudExplorer2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Código postal --></label>
+        <name>KS_Codigo_postal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comentarios valoración --></label>
+        <name>KS_Comentarios_valoracion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Control Parenting --></label>
+        <name>KS_Control_Parenting__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dirección de envío publicidad --></label>
+        <name>KS_Direcci_n_de_env_o_publicidad__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha de baja --></label>
+        <name>KS_Fecha_de_baja__c</name>
+    </fields>
+    <fields>
+        <label><!-- Función en empresa --></label>
+        <name>KS_Funcion_en_empresa__c</name>
+    </fields>
+    <fields>
+        <label><!-- Grado de satisfacción --></label>
+        <name>KS_Grado_de_satisfaccion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Id CRM Contacto --></label>
+        <name>KS_Id_CRM_Contacto__c</name>
+    </fields>
+    <fields>
+        <label><!-- Id Cibor Contacto --></label>
+        <name>KS_Id_Cibor_Contacto__c</name>
+    </fields>
+    <fields>
+        <label><!-- Id-Salesforce cuenta --></label>
+        <name>KS_Id_Salesforce_cuenta__c</name>
+    </fields>
+    <fields>
+        <label><!-- Idioma --></label>
+        <name>KS_Idioma__c</name>
+    </fields>
+    <fields>
+        <label><!-- Interes en (NO USAR) --></label>
+        <name>KS_Interes_en_del__c</name>
+    </fields>
+    <fields>
+        <label><!-- Migration Id --></label>
+        <name>KS_Migration_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- País --></label>
+        <name>KS_Pais__c</name>
+    </fields>
+    <fields>
+        <label><!-- Provincia --></label>
+        <name>KS_Provincia__c</name>
+    </fields>
+    <fields>
+        <label><!-- Telf_contact --></label>
+        <name>KS_Telf_contact__c</name>
+    </fields>
+    <fields>
+        <help><!-- Persona influyente (en compra / prescripción) --></help>
+        <label><!-- Decisor --></label>
+        <name>KS_decisor__c</name>
+    </fields>
+    <fields>
+        <label><!-- id_cuenta_intern --></label>
+        <name>KS_id_cuenta_intern__c</name>
+    </fields>
+    <fields>
+        <label><!-- Acepta envío postal --></label>
+        <name>SI_Acepta_envio_postal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actividad_Cuenta --></label>
+        <name>SI_Actividad_Cuenta__c</name>
+    </fields>
+    <fields>
+        <label><!-- Calidad Dirección --></label>
+        <name>SI_CalidadDireccion__c</name>
+        <picklistValues>
+            <masterLabel>A Revisar</masterLabel>
+            <translation><!-- A Revisar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ok</masterLabel>
+            <translation><!-- Ok --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rechazo Postal</masterLabel>
+            <translation><!-- Rechazo Postal --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Causa Pasivado Contacto --></label>
+        <name>SI_Causa_Pasivado_Contacto__c</name>
+        <picklistValues>
+            <masterLabel>Fuera de target</masterLabel>
+            <translation><!-- Fuera de target --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pasivado permanentemente</masterLabel>
+            <translation><!-- Pasivado permanentemente --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pide baja de la BBDD</masterLabel>
+            <translation><!-- Pide baja de la BBDD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sin actividad o trabajo</masterLabel>
+            <translation><!-- Sin actividad o trabajo --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ClaveAlfaNum --></label>
+        <name>SI_ClaveAlfaNum__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consentimiento --></label>
+        <name>SI_Consiente_tratamiento_de_datos__c</name>
+    </fields>
+    <fields>
+        <label><!-- Descripción proyecto --></label>
+        <name>SI_Descripcion_proyecto_c__c</name>
+    </fields>
+    <fields>
+        <label><!-- Correo Electrónico Personal --></label>
+        <name>SI_Email_Personal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estado Duplicado --></label>
+        <name>SI_EstadoDuplicado__c</name>
+        <picklistValues>
+            <masterLabel>Duplicado 100%</masterLabel>
+            <translation><!-- Duplicado 100% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Duplicado</masterLabel>
+            <translation><!-- No Duplicado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nuevo</masterLabel>
+            <translation><!-- Nuevo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Posible Duplicado</masterLabel>
+            <translation><!-- Posible Duplicado --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Interés Legítimo --></label>
+        <name>SI_Interes_Legitimo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Interes en --></label>
+        <name>SI_Interes_en__c</name>
+        <picklistValues>
+            <masterLabel>Conectividad</masterLabel>
+            <translation><!-- Conectividad --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cuadros eléctricos</masterLabel>
+            <translation><!-- Cuadros eléctricos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Iluminación</masterLabel>
+            <translation><!-- Iluminación --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Iluminación exterior</masterLabel>
+            <translation><!-- Iluminación exterior --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mecanismos</masterLabel>
+            <translation><!-- Mecanismos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Otros</masterLabel>
+            <translation><!-- Otros --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Porteros automáticos</masterLabel>
+            <translation><!-- Porteros automáticos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seguridad</masterLabel>
+            <translation><!-- Seguridad --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sistemas de control</masterLabel>
+            <translation><!-- Sistemas de control --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vehículo Eléctrico</masterLabel>
+            <translation><!-- Vehículo Eléctrico --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Mail Válido --></label>
+        <name>SI_Mail_ValidadoContacto__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Si</masterLabel>
+            <translation><!-- Si --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Rechaza comunicaciones --></label>
+        <name>SI_Rechaza_comunicaciones__c</name>
+    </fields>
+    <fields>
+        <label><!-- Teléfono Móvil --></label>
+        <name>SI_Telofono_Movil__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tratamiento Datos Lead --></label>
+        <name>SI_Tratamiento_Datos_Contacto__c</name>
+        <picklistValues>
+            <masterLabel>Freely given consent from contact</masterLabel>
+            <translation><!-- Freely given consent from contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Legitimate interest - existing customer</masterLabel>
+            <translation><!-- Legitimate interest - existing customer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Legitimate interest - prospect/lead</masterLabel>
+            <translation><!-- Legitimate interest - prospect/lead --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not applicable</masterLabel>
+            <translation><!-- Not applicable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Performance of a contract</masterLabel>
+            <translation><!-- Performance of a contract --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Formato de contactos</layout>
+        <sections>
+            <label><!-- Dirección de la cuenta --></label>
+            <section>Dirección de la cuenta</section>
+        </sections>
+        <sections>
+            <label><!-- HubSpot intelligence --></label>
+            <section>HubSpot intelligence</section>
+        </sections>
+        <sections>
+            <label><!-- RGPD --></label>
+            <section>RGPD</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato de contactos - sys</layout>
+        <sections>
+            <label><!-- Dirección de la cuenta --></label>
+            <section>Dirección de la cuenta</section>
+        </sections>
+        <sections>
+            <label><!-- HubSpot intelligence --></label>
+            <section>HubSpot intelligence</section>
+        </sections>
+        <sections>
+            <label><!-- RGPD --></label>
+            <section>RGPD</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Nueva cita --></label>
+        <name>PruebaCita</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- SI_TratamientoDatos --></label>
+        <name>RGPD_Contacto</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Actualizacion Duplicado --></label>
+        <name>SI_ActualizacionDuplicado</name>
+    </quickActions>
+    <validationRules>
+        <errorMessage><!-- Una vez dado el consentimiento, no puede quitarse. --></errorMessage>
+        <name>CHANGE_Consentimiento</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Una vez rechazada la comunicación, no puede aceptarse. --></errorMessage>
+        <name>CHANGE_Rechazo_OLD</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Un contacto no puede aceptar y rechazar el consentimiento del tratamiento de sus datos a la vez --></errorMessage>
+        <name>Change_RPGD</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se pueden crear nuevos contactos, debes seguir el procedimiento de creación de LEADS --></errorMessage>
+        <name>NoNewContact</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El tratamiento, nombre y apellido del contacto son obligatorios --></errorMessage>
+        <name>NombreObligatorio</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- RGPD_Contacto_Button --></label>
+        <name>RGPD_Contacto_Button</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SendGmail --></label>
+        <name>SendGmail</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooMaps --></label>
+        <name>YahooMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooWeather --></label>
+        <name>YahooWeather</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Add_Emails_to_List --></label>
+        <name>wbsendit__Add_Emails_to_List</name>
+    </webLinks>
+</CustomObjectTranslation>

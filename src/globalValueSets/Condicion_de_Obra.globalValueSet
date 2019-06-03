@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>BASIC</fullName>
+        <default>false</default>
+        <label>BASIC</label>
+    </customValue>
+    <customValue>
+        <fullName>PEQUEÑO MATERIAL</fullName>
+        <default>false</default>
+        <label>PEQUEÑO MATERIAL</label>
+    </customValue>
+    <customValue>
+        <fullName>LIGHTING</fullName>
+        <default>false</default>
+        <label>LIGHTING</label>
+    </customValue>
+    <description>En Uso --&gt; Objeto Condicion de obra, para indicar su tipología</description>
+    <masterLabel>Condicion de Obra</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dashboard xmlns="http://soap.sforce.com/2006/04/metadata">
+    <backgroundEndColor>#FFFFFF</backgroundEndColor>
+    <backgroundFadeDirection>Diagonal</backgroundFadeDirection>
+    <backgroundStartColor>#FFFFFF</backgroundStartColor>
+    <dashboardFilters>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Alfonso Jimenez Roldan</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Ana Ezpeleta Bielsa</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Angel Lorenzo Gracia Frau</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Angel Mauro Celdran De Castro Garcia</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Francisco Garrigos Belda</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Francisco Javier Colome Latorre</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Jose Garcia Fenoll</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Jose Miguel Molina Gonzalez</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Jose Navarro Rausell</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Jose Salcedo Lopez</values>
+        </dashboardFilterOptions>
+        <name>Gestor de cuenta</name>
+    </dashboardFilters>
+    <dashboardFilters>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Jose Victor Ortiz Muñoz</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Juan Callejas Gil</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Juan Tolosa Caballero</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Maria Jose Mateo Belmonte</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Mariano Moreno Santos</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Pascual Benito Fernandez</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Pedro Antonio Calatayud Campos</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Raquel Sotomayor</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Vanessa Dueña Asenjo</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Alfonso Jimenez Roldan,Ana Ezpeleta Bielsa,Angel Lorenzo Gracia Frau,Angel Mauro Celdran De Castro Garcia,Francisco Garrigos Belda,Francisco Javier Colome Latorre,Jose Garcia Fenoll,Jose Miguel Molina Gonzalez,Jose Navarro Rausell,Jose Salcedo Lopez,Jose Victor Ortiz Muñoz,Juan Callejas Gil,Juan Tolosa Caballero,Maria Jose Mateo Belmonte,Mariano Moreno Santos,Pascual Benito Fernandez,Pedro Antonio Calatayud Campos,Raquel Sotomayor,Vanessa Dueña Asenjo</values>
+        </dashboardFilterOptions>
+        <name>Gestor de cuenta</name>
+    </dashboardFilters>
+    <dashboardType>SpecifiedUser</dashboardType>
+    <isGridLayout>false</isGridLayout>
+    <leftSection>
+        <columnSize>Medium</columnSize>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>Donut</componentType>
+            <dashboardFilterColumns>
+                <column>KS_Organizacion_Cliente__c.KS_Coordinador__c</column>
+            </dashboardFilterColumns>
+            <dashboardFilterColumns>
+                <column>KS_Organizacion_Cliente__c.KS_Coordinador__c</column>
+            </dashboardFilterColumns>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>true</enableHover>
+            <expandOthers>false</expandOthers>
+            <header>Marcas Comerciales - Universo Cuenta</header>
+            <legendPosition>Bottom</legendPosition>
+            <report>Marcas_Comerciales/UC_Scoring_IF</report>
+            <showPercentage>true</showPercentage>
+            <showTotal>true</showTotal>
+            <showValues>false</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>Scoring IF</title>
+            <useReportChart>false</useReportChart>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>Donut</componentType>
+            <dashboardFilterColumns>
+                <column>KS_Organizacion_Cliente__c.KS_Coordinador__c</column>
+            </dashboardFilterColumns>
+            <dashboardFilterColumns>
+                <column>KS_Organizacion_Cliente__c.KS_Coordinador__c</column>
+            </dashboardFilterColumns>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>true</enableHover>
+            <expandOthers>false</expandOthers>
+            <header>Marcas Comerciales - Universo Cuenta</header>
+            <legendPosition>Bottom</legendPosition>
+            <report>Marcas_Comerciales/UC_Recurrencia</report>
+            <showPercentage>true</showPercentage>
+            <showTotal>true</showTotal>
+            <showValues>true</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>Recurrencia</title>
+            <useReportChart>false</useReportChart>
+        </components>
+    </leftSection>
+    <middleSection>
+        <columnSize>Medium</columnSize>
+        <components>
+            <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <chartSummary>
+                <axisBinding>y</axisBinding>
+                <column>RowCount</column>
+            </chartSummary>
+            <componentType>Donut</componentType>
+            <dashboardFilterColumns>
+                <column>KS_Organizacion_Cliente__c.KS_Coordinador__c</column>
+            </dashboardFilterColumns>
+            <dashboardFilterColumns>
+                <column>KS_Organizacion_Cliente__c.KS_Coordinador__c</column>
+            </dashboardFilterColumns>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>true</enableHover>
+            <expandOthers>true</expandOthers>
+            <groupingColumn>FK_$Account.KS_Scoring_Negocio__c</groupingColumn>
+            <header>Marcas Comerciales - Universo Cuenta</header>
+            <legendPosition>Bottom</legendPosition>
+            <report>Marcas_Comerciales/UC_Scoring_Negocio</report>
+            <showPercentage>true</showPercentage>
+            <showTotal>true</showTotal>
+            <showValues>true</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>Scoring Negocio</title>
+            <useReportChart>false</useReportChart>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>Donut</componentType>
+            <dashboardFilterColumns>
+                <column>KS_Organizacion_Cliente__c.KS_Coordinador__c</column>
+            </dashboardFilterColumns>
+            <dashboardFilterColumns>
+                <column>KS_Organizacion_Cliente__c.KS_Coordinador__c</column>
+            </dashboardFilterColumns>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>true</enableHover>
+            <expandOthers>true</expandOthers>
+            <header>Marcas Comerciales - Universo Cuenta</header>
+            <legendPosition>Bottom</legendPosition>
+            <report>Marcas_Comerciales/UCScoringActividadComercial</report>
+            <showPercentage>true</showPercentage>
+            <showTotal>true</showTotal>
+            <showValues>true</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>Scoring AC</title>
+            <useReportChart>false</useReportChart>
+        </components>
+    </middleSection>
+    <rightSection>
+        <columnSize>Medium</columnSize>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <dashboardFilterColumns>
+                <column>KS_Organizacion_Cliente__c.KS_Coordinador__c</column>
+            </dashboardFilterColumns>
+            <dashboardFilterColumns>
+                <column>KS_Organizacion_Cliente__c.KS_Coordinador__c</column>
+            </dashboardFilterColumns>
+            <dashboardTableColumn>
+                <column>FK_ACC_OWNER_NAME</column>
+                <sortBy>RowLabelAscending</sortBy>
+            </dashboardTableColumn>
+            <dashboardTableColumn>
+                <calculatePercent>false</calculatePercent>
+                <column>RowCount</column>
+                <showTotal>true</showTotal>
+            </dashboardTableColumn>
+            <dashboardTableColumn>
+                <calculatePercent>false</calculatePercent>
+                <column>KS_Organizacion_Cliente__c.KS_Organizacion_de_ventas__c</column>
+                <showTotal>false</showTotal>
+            </dashboardTableColumn>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <header>Marcas Comerciales - Universo Cuenta</header>
+            <indicatorHighColor>#54C254</indicatorHighColor>
+            <indicatorLowColor>#C25454</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <report>Marcas_Comerciales/UC_Marcas_Cliente</report>
+            <showPicturesOnTables>true</showPicturesOnTables>
+            <title>Gestor de Cuenta</title>
+        </components>
+    </rightSection>
+    <runningUser>jlorenzo@simon.es</runningUser>
+    <textColor>#000000</textColor>
+    <title>LEV UC Marcas Comerciales</title>
+    <titleColor>#000000</titleColor>
+    <titleSize>12</titleSize>
+</Dashboard>

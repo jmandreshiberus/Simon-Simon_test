@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>01</masterLabel>
+        <translation>Normal (ZPP)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>02</masterLabel>
+        <translation>Tte. especial Urgent</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>03</masterLabel>
+        <translation>Sus Medios (ZPD)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>04</masterLabel>
+        <translation>Recoge Cliente</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>05</masterLabel>
+        <translation>Nuestros Medios</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>06</masterLabel>
+        <translation>P.Debidos Automátic.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>07</masterLabel>
+        <translation>Normal Marítimo</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>08</masterLabel>
+        <translation>Normal Aéreo</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>09</masterLabel>
+        <translation>Correo</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>97</masterLabel>
+        <translation><!-- 97 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>98</masterLabel>
+        <translation>Devoluc. Consigna</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>99</masterLabel>
+        <translation>Devoluciones</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>9C</masterLabel>
+        <translation>Devol.Caldes (Brico)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C1</masterLabel>
+        <translation>Castellbisbal-Brico</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C2</masterLabel>
+        <translation>Prepar.Especiales</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CC</masterLabel>
+        <translation><!-- CC --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GB</masterLabel>
+        <translation>Gran. Sup. Bricolaje</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>OF</masterLabel>
+        <translation>Public. Oficinas</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>OU</masterLabel>
+        <translation>Outlet</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PU</masterLabel>
+        <translation>Publicidad</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TR</masterLabel>
+        <translation>Traslados y Cesiones</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TW</masterLabel>
+        <translation>TW - Relés (SMEE)</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

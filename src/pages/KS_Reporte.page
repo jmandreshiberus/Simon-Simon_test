@@ -1,0 +1,13 @@
+<apex:page standardController="Event" extensions="KS_Reporte_Controller" docType="html-5.0" id="reporte_page" standardStylesheets="true">
+    <script>
+    var URL = '/a0V/e?retURL=%2F{!evento.ID}%2Fo&CF00N58000009KaHe_lkid={!evento.WhoId}&CF00N58000009KaHe={!evento.Who.Name}&CF00N5800000Bfefr_lkid={!evento.WhatId}&CF00N5800000Bfefr={!evento.What.Name}&CF00N58000009KaHh_lkid={!evento.KS_ObraId__c}&CF00N58000009KaHh={!evento.KS_Obra__r.Name}&CF00N58000009KaHi_lkid={!evento.KS_OfertaId__c}&CF00N58000009KaHi={!evento.KS_Oferta__r.Name}&00N58000009KaHg_lkid={!strDate}&00N58000009KaHg={!strDate}&00N5800000BDF9W_lkid={!evento.Subject}&00N5800000BDF9W={!evento.Subject}&00N58000009KaHf_lkid={!endDate}&00N58000009KaHf={!endDate}&00N58000009KaHd_lkid={!evento.Description}&00N58000009KaHd={!evento.Description}&00N5800000BDF9g_lkid={!evento.KS_Objetivo_de_la_visita__c}&00N5800000BDF9g={!evento.KS_Objetivo_de_la_visita__c}&CF00N5800000AiNH8_lkid={!evento.KS_CampanaId__c}&CF00N5800000AiNH8={!evento.KS_Campana__c}&00N58000009KaHk_lkid={!evento.KS_Tipo_de_visita__c}&00N58000009KaHk={!evento.KS_Tipo_de_visita__c}';    
+    if ((typeof sforce != 'undefined') && (sforce != null) ) {
+        //alert('SF1'); alert(URL);
+        sforce.one.navigateToURL(URL, true);
+    } else {
+        //alert('VISUALFORCE'); alert(URL);
+        //window.open(URL, '{!$ObjectType.Event.Label}', 'width=1000,height=1000');
+        location.href = URL;//'/{!evento.Id}';
+    }    
+    </script>    
+</apex:page>

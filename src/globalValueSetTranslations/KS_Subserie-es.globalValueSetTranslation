@@ -1,0 +1,1419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>001</masterLabel>
+        <translation>100 EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>002</masterLabel>
+        <translation>101 EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>003</masterLabel>
+        <translation>110 EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>004</masterLabel>
+        <translation>1T EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>005</masterLabel>
+        <translation>200 EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>006</masterLabel>
+        <translation>201 EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>007</masterLabel>
+        <translation>210 EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>008</masterLabel>
+        <translation>2T EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>009</masterLabel>
+        <translation>300 EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>010</masterLabel>
+        <translation>A EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>011</masterLabel>
+        <translation>ABIERTO EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>012</masterLabel>
+        <translation>AL EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>013</masterLabel>
+        <translation>ALTA EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>014</masterLabel>
+        <translation>ALTO EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>015</masterLabel>
+        <translation>AMB EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>016</masterLabel>
+        <translation>AR EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>017</masterLabel>
+        <translation>ARO EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>018</masterLabel>
+        <translation>AS EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>019</masterLabel>
+        <translation>AV40 EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>020</masterLabel>
+        <translation>AWB EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>021</masterLabel>
+        <translation>B EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>022</masterLabel>
+        <translation>BAJA EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>023</masterLabel>
+        <translation>BAJA S EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>024</masterLabel>
+        <translation>BAJA SL EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>025</masterLabel>
+        <translation>BAJO EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>026</masterLabel>
+        <translation>BP EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>027</masterLabel>
+        <translation>BS EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>028</masterLabel>
+        <translation>BW EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>029</masterLabel>
+        <translation>CARR EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>030</masterLabel>
+        <translation>CERRADO EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>031</masterLabel>
+        <translation>CI EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>032</masterLabel>
+        <translation>CIERRE EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>033</masterLabel>
+        <translation>CIRCUL EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>034</masterLabel>
+        <translation>CL EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>035</masterLabel>
+        <translation>CM EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>036</masterLabel>
+        <translation>COLUM EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>037</masterLabel>
+        <translation>CREJ EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>038</masterLabel>
+        <translation>CT EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>039</masterLabel>
+        <translation>CUERPO EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>040</masterLabel>
+        <translation>CUERPO M EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>041</masterLabel>
+        <translation>DP AL EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>042</masterLabel>
+        <translation>EMG EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>043</masterLabel>
+        <translation>EMPOT EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>044</masterLabel>
+        <translation>ESP</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>045</masterLabel>
+        <translation>EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>046</masterLabel>
+        <translation>FA EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>047</masterLabel>
+        <translation>GP EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>048</masterLabel>
+        <translation>GW EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>049</masterLabel>
+        <translation>H CUERPO EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>050</masterLabel>
+        <translation>H CUERPO M EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>051</masterLabel>
+        <translation>HG EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>052</masterLabel>
+        <translation>L EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>053</masterLabel>
+        <translation>LD EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>054</masterLabel>
+        <translation>LL EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>055</masterLabel>
+        <translation>LP EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>056</masterLabel>
+        <translation>LX EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>057</masterLabel>
+        <translation>MC EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>058</masterLabel>
+        <translation>MD EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>059</masterLabel>
+        <translation>MP EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>060</masterLabel>
+        <translation>MURAL EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>061</masterLabel>
+        <translation>MX EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>062</masterLabel>
+        <translation>NG EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>063</masterLabel>
+        <translation>OC EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>064</masterLabel>
+        <translation>OF EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>065</masterLabel>
+        <translation>OL EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>066</masterLabel>
+        <translation>OM EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>067</masterLabel>
+        <translation>OP EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>068</masterLabel>
+        <translation>OS EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>069</masterLabel>
+        <translation>OVAL EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>070</masterLabel>
+        <translation>OVAL EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>071</masterLabel>
+        <translation>PARED EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>072</masterLabel>
+        <translation>PC EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>073</masterLabel>
+        <translation>PEB EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>074</masterLabel>
+        <translation>PL EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>075</masterLabel>
+        <translation>PMMA EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>076</masterLabel>
+        <translation>PPF EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>077</masterLabel>
+        <translation>PT EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>078</masterLabel>
+        <translation>R1 EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>079</masterLabel>
+        <translation>R2 EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>080</masterLabel>
+        <translation>R3 EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>081</masterLabel>
+        <translation>RC EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>082</masterLabel>
+        <translation>RD EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>083</masterLabel>
+        <translation>RE EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>084</masterLabel>
+        <translation>REF EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>085</masterLabel>
+        <translation>REFLEC EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>086</masterLabel>
+        <translation>REFLECT EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>087</masterLabel>
+        <translation>RF EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>088</masterLabel>
+        <translation>S20 EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>089</masterLabel>
+        <translation>SC EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>090</masterLabel>
+        <translation>SE EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>091</masterLabel>
+        <translation>SF EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>092</masterLabel>
+        <translation>SL EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>093</masterLabel>
+        <translation>SMB EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>094</masterLabel>
+        <translation>SNB EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>095</masterLabel>
+        <translation>SP EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>096</masterLabel>
+        <translation>SREJ EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>097</masterLabel>
+        <translation>SS EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>098</masterLabel>
+        <translation>SUSP EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>099</masterLabel>
+        <translation>SUSPEN EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>1</masterLabel>
+        <translation><!-- 1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>100</masterLabel>
+        <translation>SW EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>101</masterLabel>
+        <translation>SWB EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>102</masterLabel>
+        <translation>TIPO1 EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>103</masterLabel>
+        <translation>TIPO2 EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>104</masterLabel>
+        <translation>TIPO3 EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>105</masterLabel>
+        <translation>TIPO4 EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>106</masterLabel>
+        <translation>U EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>107</masterLabel>
+        <translation>V CUERPO EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>108</masterLabel>
+        <translation>V CUERPO M EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>109</masterLabel>
+        <translation>WB EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>110</masterLabel>
+        <translation>WL EST</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>111</masterLabel>
+        <translation>SYRMA/AP-101</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>112</masterLabel>
+        <translation>HEKA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>113</masterLabel>
+        <translation>BORA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>114</masterLabel>
+        <translation>SPICA/AP-3</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>115</masterLabel>
+        <translation>NAVI/FO-6</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>116</masterLabel>
+        <translation>ZANIAH LX</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>117</masterLabel>
+        <translation>ZANIAH MX</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ACC</masterLabel>
+        <translation>Sseg Accesos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C00</masterLabel>
+        <translation>**(NO USAR) KITS</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C01</masterLabel>
+        <translation>Ssc5 Canal PVC</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C02</masterLabel>
+        <translation>Ssc6 Canal Aluminio</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C03</masterLabel>
+        <translation>**(NO USAR) Accesorios</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C04</masterLabel>
+        <translation>**(NO USAR) Fibra Optica</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C05</masterLabel>
+        <translation>**(NO USAR) Cobre</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C06</masterLabel>
+        <translation>Ssc1 Cima</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C07</masterLabel>
+        <translation>Ssc93 Basis</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C08</masterLabel>
+        <translation>**(NO USAR) CANALIZACION</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C09</masterLabel>
+        <translation>**(NO USAR) TELECOMUNICACIONES</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C10</masterLabel>
+        <translation>Ssc3 K45</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C11</masterLabel>
+        <translation>Ssc4 Sistema cableado eléctrico</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C12</masterLabel>
+        <translation>**(NO USAR) Seguridad Puesto Trabajo</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C13</masterLabel>
+        <translation>Ssc92 Suelo Tecnico</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C14</masterLabel>
+        <translation>MM Dataelectric</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C15</masterLabel>
+        <translation>Simon</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C16</masterLabel>
+        <translation>Electro Liaison</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C17</masterLabel>
+        <translation>Ssc2 Cima PRO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C18</masterLabel>
+        <translation>Ssc7 Canal Suelo</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C19</masterLabel>
+        <translation>Ssc8 Sistema Cableado Estructurado</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C20</masterLabel>
+        <translation>Ssc9 Bandeja Metalica</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C21</masterLabel>
+        <translation>Ssc91 Rejilla Metalica</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C22</masterLabel>
+        <translation>Electraplan</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C23</masterLabel>
+        <translation>Ssc41 Serie 500</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C24</masterLabel>
+        <translation><!-- C24 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>COM</masterLabel>
+        <translation>Serie Com</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E01</masterLabel>
+        <translation>Reguladores Convencionales</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E02</masterLabel>
+        <translation>Reguladores Electrónicos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E03</masterLabel>
+        <translation>Interruptores Electrónicos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E04</masterLabel>
+        <translation>Pulsadores Electrónicos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E05</masterLabel>
+        <translation>Radio Frecuencia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E06</masterLabel>
+        <translation>Infrarrojos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E07</masterLabel>
+        <translation>Vox</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E08</masterLabel>
+        <translation>Vit@</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E09</masterLabel>
+        <translation>Accesorios Iluminacion Auxiliar</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E10</masterLabel>
+        <translation>Botonera Multifuncional</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E11</masterLabel>
+        <translation>Complementos Electrónicos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E12</masterLabel>
+        <translation>Comunicaciones</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E13</masterLabel>
+        <translation>Diferenciales</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E14</masterLabel>
+        <translation>Controladores Electrónicos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E15</masterLabel>
+        <translation>Simtone</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E16</masterLabel>
+        <translation>Musicam</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E17</masterLabel>
+        <translation>ParkHelp</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E18</masterLabel>
+        <translation>ALMED</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E19</masterLabel>
+        <translation>Expositor Simulador Timbres</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E20</masterLabel>
+        <translation>Libre</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E21</masterLabel>
+        <translation>Prepago</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E22</masterLabel>
+        <translation>M2M</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E23</masterLabel>
+        <translation>Software</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E24</masterLabel>
+        <translation>Radio Frecuencia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E25</masterLabel>
+        <translation>Ventas Proyectos I+D</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E26</masterLabel>
+        <translation>Ventas Proyectos Industria</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E27</masterLabel>
+        <translation>Ventas Subcontratación</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E28</masterLabel>
+        <translation>Ventas Comercial Elva</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E29</masterLabel>
+        <translation>Comercializados Prepago</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E30</masterLabel>
+        <translation>Comercializados M2M</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E31</masterLabel>
+        <translation>Comercializados HiTECHnologies</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E32</masterLabel>
+        <translation>Reparaciones</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>F00</masterLabel>
+        <translation>Flu Slim</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>F01</masterLabel>
+        <translation>Flu System Slim</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>F02</masterLabel>
+        <translation>Flu Flat</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>F03</masterLabel>
+        <translation>Flu Cool</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>F04</masterLabel>
+        <translation>Flu Point</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>F05</masterLabel>
+        <translation>Flu Arch</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>F06</masterLabel>
+        <translation>Flu Lane</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>F07</masterLabel>
+        <translation>Flu Carril</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>F08</masterLabel>
+        <translation><!-- F08 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>F09</masterLabel>
+        <translation><!-- F09 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>F10</masterLabel>
+        <translation><!-- F10 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>F11</masterLabel>
+        <translation><!-- F11 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G06</masterLabel>
+        <translation>Luxform</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G07</masterLabel>
+        <translation>Cable</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G08</masterLabel>
+        <translation>Cortacéspedes</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G09</masterLabel>
+        <translation>Cortabordes y Cortasetos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G10</masterLabel>
+        <translation>Desbrozadoras</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G11</masterLabel>
+        <translation>Electrobombas</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G12</masterLabel>
+        <translation>Generadores</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G13</masterLabel>
+        <translation>Motoazadas</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G14</masterLabel>
+        <translation>Motobombas</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G15</masterLabel>
+        <translation>Motosierras</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G16</masterLabel>
+        <translation>Sopladores - Aspiradores</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G17</masterLabel>
+        <translation>Vareadoras</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G18</masterLabel>
+        <translation>LIMPIADORAS</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G19</masterLabel>
+        <translation>S15- Simon 15</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G20</masterLabel>
+        <translation>SAK - Simon Akord</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G21</masterLabel>
+        <translation>SCS - Simon Classic</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G22</masterLabel>
+        <translation>SAQ-Simon Aquarius</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G23</masterLabel>
+        <translation>MULTIFIX</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I00</masterLabel>
+        <translation>Ilu Proyector 601</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I01</masterLabel>
+        <translation>Ilu Proyecto Lineal 610</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I02</masterLabel>
+        <translation>Ilu Proyector 620</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I03</masterLabel>
+        <translation>Ilu Downlight 701</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I04</masterLabel>
+        <translation>Ilu Downlight 710</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I05</masterLabel>
+        <translation>Ilu Proyector Suspendido 801</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I06</masterLabel>
+        <translation>Ilum LedFlex 810</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I07</masterLabel>
+        <translation>Ilum Ledstrip 811</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I08</masterLabel>
+        <translation>Ilu Fuentes Alimentación</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I09</masterLabel>
+        <translation>Ilu Carril</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I11</masterLabel>
+        <translation>Ilum Downlight 705</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I12</masterLabel>
+        <translation>Ilum Downlight 706</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I13</masterLabel>
+        <translation>Ilum Downlight 725</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I14</masterLabel>
+        <translation>Ilum Luminaria Modular 726</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I15</masterLabel>
+        <translation>Ilum Proyector Suspendido 805</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I16</masterLabel>
+        <translation>Ilum Kit Mini Proyector 820</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I17</masterLabel>
+        <translation>Ilum Luminaria Exposición 821</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I18</masterLabel>
+        <translation>Ilum KitMinibaliza 830</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I19</masterLabel>
+        <translation>Ilum Baliza 850</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I20</masterLabel>
+        <translation>Ilu luminaria modular 720</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I21</masterLabel>
+        <translation>Ilu Proyector 630</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I22</masterLabel>
+        <translation>Ilum 707 luminaria pared</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I23</masterLabel>
+        <translation>Ilum Ledline 815</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I24</masterLabel>
+        <translation>Ilum Baliza 835</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I25</masterLabel>
+        <translation>Ilu Proyector 640</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I26</masterLabel>
+        <translation>Ilu luminaria suspendida 806</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I27</masterLabel>
+        <translation>Ilum Downlight 715</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I28</masterLabel>
+        <translation>Ilu Downlight 735 </translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I29</masterLabel>
+        <translation>Ilum luminaria estanca 840</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I30</masterLabel>
+        <translation>Ilum Aplique 717</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I31</masterLabel>
+        <translation>Ilu Luminaria suspendida 816</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I32</masterLabel>
+        <translation><!-- I32 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I33</masterLabel>
+        <translation><!-- I33 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I34</masterLabel>
+        <translation><!-- I34 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I35</masterLabel>
+        <translation><!-- I35 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I36</masterLabel>
+        <translation><!-- I36 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I37</masterLabel>
+        <translation><!-- I37 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IN0</masterLabel>
+        <translation>HAUSMANN</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IN1</masterLabel>
+        <translation>S82 INDIOS</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LIN</masterLabel>
+        <translation>LINK-IT</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M00</masterLabel>
+        <translation>Metalics</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M01</masterLabel>
+        <translation>Serie 21</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M02</masterLabel>
+        <translation>Serie 215 CATALUNIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M03</masterLabel>
+        <translation>Serie 52</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M04</masterLabel>
+        <translation>Serie 67</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M05</masterLabel>
+        <translation>Serie BRI</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M06</masterLabel>
+        <translation>Serie LUXEFORM</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M07</masterLabel>
+        <translation>Serie ANTI-INDESIRABLE</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M08</masterLabel>
+        <translation>Serie MULTIPRISES</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M09</masterLabel>
+        <translation>Serie SN</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M10</masterLabel>
+        <translation>Serie 07exo</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M11</masterLabel>
+        <translation>Serie C45</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M12</masterLabel>
+        <translation>Serie VDP</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M13</masterLabel>
+        <translation>ILUMINACIÓN EXTERIOR</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M14</masterLabel>
+        <translation>Serie CL</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M15</masterLabel>
+        <translation>Serie EL</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M16</masterLabel>
+        <translation>Serie ARGANA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M17</masterLabel>
+        <translation>Serie VDP-U</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M18</masterLabel>
+        <translation>Serie 54M</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M19</masterLabel>
+        <translation>Serie 54C</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M20</masterLabel>
+        <translation>Serie FLEXA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MAD</masterLabel>
+        <translation>Serie Material Diverso</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S01</masterLabel>
+        <translation>Serie 27 Centralización</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S02</masterLabel>
+        <translation>Serie 27 Neos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S03</masterLabel>
+        <translation>Serie 73 Loft</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S04</masterLabel>
+        <translation>Serie 82 Nature</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S05</masterLabel>
+        <translation>Serie 82 Centralización</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S06</masterLabel>
+        <translation>Serie 61 .</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S07</masterLabel>
+        <translation>Serie 63 .</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S08</masterLabel>
+        <translation>Serie 65 .</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S09</masterLabel>
+        <translation>Serie 44 Aqua</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S10</masterLabel>
+        <translation>Serie 27 Escudo</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S11</masterLabel>
+        <translation>Serie 27 Play</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S12</masterLabel>
+        <translation>Serie 28 Aluminio</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S13</masterLabel>
+        <translation>Serie 31 Aluminio</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S14</masterLabel>
+        <translation>Serie 14 .</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S15</masterLabel>
+        <translation>Serie Sonido</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S16</masterLabel>
+        <translation>Serie E-Music</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S17</masterLabel>
+        <translation>Serie 17 .</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S18</masterLabel>
+        <translation>**(NO USAR) Serie 08 .</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S19</masterLabel>
+        <translation>Serie 09  (obsoleta)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S20</masterLabel>
+        <translation>**(NO USAR) Serie 07 .</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S21</masterLabel>
+        <translation>Serie 11 .</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S22</masterLabel>
+        <translation>Serie 22  (obsoleta)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S23</masterLabel>
+        <translation>Serie 12 .</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S24</masterLabel>
+        <translation>Serie Simon Vox 2</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S25</masterLabel>
+        <translation>Serie Simon Basic</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S26</masterLabel>
+        <translation>Serie 26 .</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S27</masterLabel>
+        <translation>Serie 27 .</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S28</masterLabel>
+        <translation>Serie 28 .</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S29</masterLabel>
+        <translation>Cab Sin Gases</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S30</masterLabel>
+        <translation>Cab Con Gases</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S31</masterLabel>
+        <translation>Serie 31 .</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S32</masterLabel>
+        <translation>Serie 32 .</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S33</masterLabel>
+        <translation>Serie Maxlon</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S34</masterLabel>
+        <translation>Serie 82 Detail</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S35</masterLabel>
+        <translation>Sci Scena</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S36</masterLabel>
+        <translation>Serie KNX</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S37</masterLabel>
+        <translation>Serie Interface</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S38</masterLabel>
+        <translation>Serie Simon 24</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S39</masterLabel>
+        <translation>Serie DMX Scena</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S40</masterLabel>
+        <translation>Serie LON</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S41</masterLabel>
+        <translation>Sve RB Autónomas</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S42</masterLabel>
+        <translation>Sve Cables</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S43</masterLabel>
+        <translation>Preseries</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S44</masterLabel>
+        <translation>Serie 44 .</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S45</masterLabel>
+        <translation>Sve RB Básicas</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S46</masterLabel>
+        <translation>Sve RB Inteligentes</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S47</masterLabel>
+        <translation>Sve ICT</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S48</masterLabel>
+        <translation>Sve MB</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S49</masterLabel>
+        <translation>Sve CK</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S50</masterLabel>
+        <translation>Sve RD</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S51</masterLabel>
+        <translation>Sve Planos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S52</masterLabel>
+        <translation>Sve Puesta en marcha</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S53</masterLabel>
+        <translation>Sve Formación</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S54</masterLabel>
+        <translation>Sve Integración</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S55</masterLabel>
+        <translation>Sve Vinilado y Xerografiado</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S56</masterLabel>
+        <translation>Serie 100</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S57</masterLabel>
+        <translation>Serie 38</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S58</masterLabel>
+        <translation>Sve RB Básicas CIMA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S68</masterLabel>
+        <translation>Serie 68 .</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S69</masterLabel>
+        <translation>Serie 69 .</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S73</masterLabel>
+        <translation>Serie 73 .</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S75</masterLabel>
+        <translation>Serie 75 .</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S76</masterLabel>
+        <translation>**(NO USAR) Serie 76 .</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S77</masterLabel>
+        <translation>Serie 77 .</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S78</masterLabel>
+        <translation>Serie 78 .</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S79</masterLabel>
+        <translation>Serie 79 .</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S82</masterLabel>
+        <translation>Serie 82 .</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S88</masterLabel>
+        <translation>Serie 88 .</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S89</masterLabel>
+        <translation>Serie S22FRANCE</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S90</masterLabel>
+        <translation>Serie S27C</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S91</masterLabel>
+        <translation>Serie S27H</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S92</masterLabel>
+        <translation>Serie S27M</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S93</masterLabel>
+        <translation>Serie S27N</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S94</masterLabel>
+        <translation>Serie S27P</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S95</masterLabel>
+        <translation>Serie S75M</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S96</masterLabel>
+        <translation>S44 encastré IP54</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S97</masterLabel>
+        <translation>S44 IP55 + IP44</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S98</masterLabel>
+        <translation>S44 AQUA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SER</masterLabel>
+        <translation>Servicios</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S_C</masterLabel>
+        <translation>Componentes</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S_N</masterLabel>
+        <translation>**(NO USAR) Serie Simon &gt;N&lt;</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VID</masterLabel>
+        <translation>Sseg Videovigilancia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VIS</masterLabel>
+        <translation>Serie Vis</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VIT</masterLabel>
+        <translation>Serie Vit@</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VOX</masterLabel>
+        <translation>Serie Vox</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

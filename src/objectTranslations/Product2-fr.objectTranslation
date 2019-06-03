@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Cableado o Kit --></label>
+        <name>KS_Cableado_o_Kit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cliente --></label>
+        <name>KS_Cliente__c</name>
+        <relationshipLabel><!-- Productos --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Código EAN Material --></label>
+        <name>KS_Codigo_EAN_Material__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comentarios --></label>
+        <name>KS_Comentarios__c</name>
+    </fields>
+    <fields>
+        <label><!-- Competidor --></label>
+        <name>KS_Competidor__c</name>
+        <relationshipLabel><!-- Productos (Competidor) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Descripción corta DE --></label>
+        <name>KS_Descripcion_corta_DE__c</name>
+    </fields>
+    <fields>
+        <label>Brève Description EN</label>
+        <name>KS_Descripcion_corta_EN__c</name>
+    </fields>
+    <fields>
+        <label>Brève Description ES</label>
+        <name>KS_Descripcion_corta_ES__c</name>
+    </fields>
+    <fields>
+        <label><!-- Descripción corta IT --></label>
+        <name>KS_Descripcion_corta_IT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Descripción corta PT --></label>
+        <name>KS_Descripcion_corta_PT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Descripción corta RU --></label>
+        <name>KS_Descripcion_corta_RU__c</name>
+    </fields>
+    <fields>
+        <label><!-- Descripción corta ZH --></label>
+        <name>KS_Descripcion_corta_ZH__c</name>
+    </fields>
+    <fields>
+        <label><!-- Etapa --></label>
+        <name>KS_Etapa__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fabricante --></label>
+        <name>KS_Fabricante__c</name>
+    </fields>
+    <fields>
+        <label><!-- Id Producto SF --></label>
+        <name>KS_Id_Producto_SF__c</name>
+    </fields>
+    <fields>
+        <label>Id SAP</label>
+        <name>KS_Id_SAP__c</name>
+    </fields>
+    <fields>
+        <label><!-- Migration Id --></label>
+        <name>KS_Migration_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nombre Producto DE --></label>
+        <name>KS_Nombre_Producto_DE__c</name>
+    </fields>
+    <fields>
+        <label>Nom du produit EN</label>
+        <name>KS_Nombre_Producto_EN__c</name>
+    </fields>
+    <fields>
+        <label>Nom du produit ES</label>
+        <name>KS_Nombre_Producto_ES__c</name>
+    </fields>
+    <fields>
+        <label>Nom du produit FR</label>
+        <name>KS_Nombre_Producto_FR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nombre Producto IT --></label>
+        <name>KS_Nombre_Producto_IT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nombre Producto PT --></label>
+        <name>KS_Nombre_Producto_PT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nombre Producto RU --></label>
+        <name>KS_Nombre_Producto_RU__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nombre Producto ZH --></label>
+        <name>KS_Nombre_Producto_ZH__c</name>
+    </fields>
+    <fields>
+        <label>Nom du produit</label>
+        <name>KS_Nombre_producto__c</name>
+    </fields>
+    <fields>
+        <label><!-- Num. de líneas eléctricas --></label>
+        <name>KS_Num_de_lineas_electricas__c</name>
+    </fields>
+    <fields>
+        <label><!-- OP Fluvia Exportacion --></label>
+        <name>KS_OP_Fluvia_Exportacion__c</name>
+    </fields>
+    <fields>
+        <label><!-- OP Fluvia Nacional --></label>
+        <name>KS_OP_Fluvia_Nacional__c</name>
+    </fields>
+    <fields>
+        <label><!-- OP Simon Exportacion --></label>
+        <name>KS_OP_Simon_Exportacion__c</name>
+    </fields>
+    <fields>
+        <label><!-- OP Simon Nacional --></label>
+        <name>KS_OP_Simon_Nacional__c</name>
+    </fields>
+    <fields>
+        <label><!-- Obra --></label>
+        <name>KS_Obra__c</name>
+        <relationshipLabel><!-- Productos --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Peso bruto --></label>
+        <name>KS_Peso_bruto__c</name>
+    </fields>
+    <fields>
+        <label><!-- Peso neto --></label>
+        <name>KS_Peso_neto__c</name>
+    </fields>
+    <fields>
+        <label><!-- Plazo de entrega --></label>
+        <name>KS_Plazo_de_entrega__c</name>
+    </fields>
+    <fields>
+        <label><!-- Plazo de entrega --></label>
+        <name>KS_Plazo_de_entrega_solicitud__c</name>
+    </fields>
+    <fields>
+        <label><!-- Precio muestra --></label>
+        <name>KS_Precio_muestra__c</name>
+    </fields>
+    <fields>
+        <label><!-- Precio pieza --></label>
+        <name>KS_Precio_pieza__c</name>
+    </fields>
+    <fields>
+        <label><!-- Precio total --></label>
+        <name>KS_Precio_total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Previsión unidades de venta --></label>
+        <name>KS_Prevision_unidades_de_venta__c</name>
+    </fields>
+    <fields>
+        <label><!-- Producto --></label>
+        <name>KS_Producto__c</name>
+        <relationshipLabel><!-- Productos --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Serie (competidor) --></label>
+        <name>KS_Serie_competidor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sobrecoste Modulos --></label>
+        <name>KS_Sobrecoste_Modulos__c</name>
+    </fields>
+    <fields>
+        <label><!-- Solución (competidor) --></label>
+        <name>KS_Soluci_n_competidor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tipo de material --></label>
+        <name>KS_Tipo_de_material__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total --></label>
+        <name>KS_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unidad de peso neto --></label>
+        <name>KS_Unidad_de_peso_neto__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unidad peso neto --></label>
+        <name>KS_Unidad_peso_neto__c</name>
+    </fields>
+    <fields>
+        <label>Brève Description FR</label>
+        <name>KS_descripcion_corta_FR__c</name>
+    </fields>
+    <fields>
+        <label>Brève Description</label>
+        <name>KS_descripcion_corta__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unidad peso bruto --></label>
+        <name>KS_unidad_peso_bruto__c</name>
+    </fields>
+    <layouts>
+        <layout>Format de productos de competidores</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato No Codificados D1</layout>
+        <sections>
+            <label><!-- Gestión de ventas --></label>
+            <section>Gestión de ventas</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato No Codificados D2</layout>
+        <sections>
+            <label><!-- Gestión de ventas --></label>
+            <section>Gestión de ventas</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato Operaciones</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato de productos</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato de productos-sys</layout>
+        <sections>
+            <label><!-- Control Org-Productos --></label>
+            <section>Control Org-Productos</section>
+        </sections>
+        <sections>
+            <label><!-- Traducciones --></label>
+            <section>Traducciones</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- Homologaciones --></description>
+        <label><!-- Homologaciones --></label>
+        <name>KS_Homologaciones</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- No codificados tipo D1 --></description>
+        <label><!-- No Codificados D1 --></label>
+        <name>KS_No_Codificados_D1</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- No codificados tipo D2 --></description>
+        <label><!-- No Codificados D2 --></label>
+        <name>KS_No_Codificados_D2</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Productos de competidores --></description>
+        <label><!-- Productos de competidores --></label>
+        <name>KS_Productos_de_competidores</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Productos estándard --></label>
+        <name>KS_Productos_estndard</name>
+    </recordTypes>
+</CustomObjectTranslation>

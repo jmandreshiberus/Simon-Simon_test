@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>1</masterLabel>
+        <translation><!-- 1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>B0</masterLabel>
+        <translation>SD: Commercial Lock</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>B1</masterLabel>
+        <translation>SD: Blocking Orders</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>B2</masterLabel>
+        <translation>SD: Blocking Deliver</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V1</masterLabel>
+        <translation>SD: Research / Study</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V5</masterLabel>
+        <translation>SD: Active</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V6</masterLabel>
+        <translation>SD: Substitute</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V7</masterLabel>
+        <translation>SD: In Observation</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V8</masterLabel>
+        <translation>SD: A Disappearing</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V9</masterLabel>
+        <translation>SD: Passive</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VA</masterLabel>
+        <translation>SD: Active</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VB</masterLabel>
+        <translation><!-- VB --></translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>CE</fullName>
+        <default>false</default>
+        <label>CE</label>
+    </customValue>
+    <customValue>
+        <fullName>NR</fullName>
+        <default>false</default>
+        <label>NR</label>
+    </customValue>
+    <description>Uso --&gt; Usado en seguimiento de proyecto</description>
+    <masterLabel>Estado</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

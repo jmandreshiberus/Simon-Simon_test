@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Email</fullName>
+        <default>false</default>
+        <label>Email</label>
+    </customValue>
+    <customValue>
+        <fullName>Catálogo</fullName>
+        <default>false</default>
+        <label>Catálogo</label>
+    </customValue>
+    <description>ACTIVO. Se usa en el objeto contacto</description>
+    <masterLabel>Tipo de publicidad</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

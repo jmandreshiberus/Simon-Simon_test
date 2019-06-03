@@ -1,0 +1,1419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>001</masterLabel>
+        <translation><!-- 001 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>002</masterLabel>
+        <translation><!-- 002 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>003</masterLabel>
+        <translation><!-- 003 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>004</masterLabel>
+        <translation><!-- 004 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>005</masterLabel>
+        <translation><!-- 005 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>006</masterLabel>
+        <translation><!-- 006 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>007</masterLabel>
+        <translation><!-- 007 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>008</masterLabel>
+        <translation><!-- 008 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>009</masterLabel>
+        <translation><!-- 009 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>010</masterLabel>
+        <translation><!-- 010 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>011</masterLabel>
+        <translation><!-- 011 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>012</masterLabel>
+        <translation><!-- 012 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>013</masterLabel>
+        <translation><!-- 013 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>014</masterLabel>
+        <translation><!-- 014 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>015</masterLabel>
+        <translation><!-- 015 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>016</masterLabel>
+        <translation><!-- 016 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>017</masterLabel>
+        <translation><!-- 017 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>018</masterLabel>
+        <translation><!-- 018 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>019</masterLabel>
+        <translation><!-- 019 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>020</masterLabel>
+        <translation><!-- 020 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>021</masterLabel>
+        <translation><!-- 021 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>022</masterLabel>
+        <translation><!-- 022 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>023</masterLabel>
+        <translation><!-- 023 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>024</masterLabel>
+        <translation><!-- 024 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>025</masterLabel>
+        <translation><!-- 025 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>026</masterLabel>
+        <translation><!-- 026 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>027</masterLabel>
+        <translation><!-- 027 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>028</masterLabel>
+        <translation><!-- 028 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>029</masterLabel>
+        <translation><!-- 029 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>030</masterLabel>
+        <translation><!-- 030 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>031</masterLabel>
+        <translation><!-- 031 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>032</masterLabel>
+        <translation><!-- 032 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>033</masterLabel>
+        <translation><!-- 033 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>034</masterLabel>
+        <translation><!-- 034 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>035</masterLabel>
+        <translation><!-- 035 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>036</masterLabel>
+        <translation><!-- 036 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>037</masterLabel>
+        <translation><!-- 037 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>038</masterLabel>
+        <translation><!-- 038 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>039</masterLabel>
+        <translation><!-- 039 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>040</masterLabel>
+        <translation><!-- 040 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>041</masterLabel>
+        <translation><!-- 041 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>042</masterLabel>
+        <translation><!-- 042 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>043</masterLabel>
+        <translation><!-- 043 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>044</masterLabel>
+        <translation><!-- 044 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>045</masterLabel>
+        <translation><!-- 045 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>046</masterLabel>
+        <translation><!-- 046 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>047</masterLabel>
+        <translation><!-- 047 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>048</masterLabel>
+        <translation><!-- 048 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>049</masterLabel>
+        <translation><!-- 049 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>050</masterLabel>
+        <translation><!-- 050 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>051</masterLabel>
+        <translation><!-- 051 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>052</masterLabel>
+        <translation><!-- 052 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>053</masterLabel>
+        <translation><!-- 053 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>054</masterLabel>
+        <translation><!-- 054 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>055</masterLabel>
+        <translation><!-- 055 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>056</masterLabel>
+        <translation><!-- 056 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>057</masterLabel>
+        <translation><!-- 057 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>058</masterLabel>
+        <translation><!-- 058 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>059</masterLabel>
+        <translation><!-- 059 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>060</masterLabel>
+        <translation><!-- 060 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>061</masterLabel>
+        <translation><!-- 061 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>062</masterLabel>
+        <translation><!-- 062 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>063</masterLabel>
+        <translation><!-- 063 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>064</masterLabel>
+        <translation><!-- 064 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>065</masterLabel>
+        <translation><!-- 065 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>066</masterLabel>
+        <translation><!-- 066 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>067</masterLabel>
+        <translation><!-- 067 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>068</masterLabel>
+        <translation><!-- 068 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>069</masterLabel>
+        <translation><!-- 069 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>070</masterLabel>
+        <translation><!-- 070 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>071</masterLabel>
+        <translation><!-- 071 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>072</masterLabel>
+        <translation><!-- 072 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>073</masterLabel>
+        <translation><!-- 073 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>074</masterLabel>
+        <translation><!-- 074 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>075</masterLabel>
+        <translation><!-- 075 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>076</masterLabel>
+        <translation><!-- 076 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>077</masterLabel>
+        <translation><!-- 077 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>078</masterLabel>
+        <translation><!-- 078 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>079</masterLabel>
+        <translation><!-- 079 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>080</masterLabel>
+        <translation><!-- 080 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>081</masterLabel>
+        <translation><!-- 081 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>082</masterLabel>
+        <translation><!-- 082 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>083</masterLabel>
+        <translation><!-- 083 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>084</masterLabel>
+        <translation><!-- 084 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>085</masterLabel>
+        <translation><!-- 085 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>086</masterLabel>
+        <translation><!-- 086 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>087</masterLabel>
+        <translation><!-- 087 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>088</masterLabel>
+        <translation><!-- 088 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>089</masterLabel>
+        <translation><!-- 089 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>090</masterLabel>
+        <translation><!-- 090 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>091</masterLabel>
+        <translation><!-- 091 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>092</masterLabel>
+        <translation><!-- 092 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>093</masterLabel>
+        <translation><!-- 093 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>094</masterLabel>
+        <translation><!-- 094 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>095</masterLabel>
+        <translation><!-- 095 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>096</masterLabel>
+        <translation><!-- 096 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>097</masterLabel>
+        <translation><!-- 097 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>098</masterLabel>
+        <translation><!-- 098 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>099</masterLabel>
+        <translation><!-- 099 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>1</masterLabel>
+        <translation><!-- 1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>100</masterLabel>
+        <translation><!-- 100 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>101</masterLabel>
+        <translation><!-- 101 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>102</masterLabel>
+        <translation><!-- 102 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>103</masterLabel>
+        <translation><!-- 103 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>104</masterLabel>
+        <translation><!-- 104 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>105</masterLabel>
+        <translation><!-- 105 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>106</masterLabel>
+        <translation><!-- 106 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>107</masterLabel>
+        <translation><!-- 107 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>108</masterLabel>
+        <translation><!-- 108 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>109</masterLabel>
+        <translation><!-- 109 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>110</masterLabel>
+        <translation><!-- 110 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>111</masterLabel>
+        <translation><!-- 111 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>112</masterLabel>
+        <translation><!-- 112 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>113</masterLabel>
+        <translation><!-- 113 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>114</masterLabel>
+        <translation><!-- 114 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>115</masterLabel>
+        <translation><!-- 115 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>116</masterLabel>
+        <translation><!-- 116 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>117</masterLabel>
+        <translation><!-- 117 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ACC</masterLabel>
+        <translation><!-- ACC --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C00</masterLabel>
+        <translation><!-- C00 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C01</masterLabel>
+        <translation><!-- C01 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C02</masterLabel>
+        <translation><!-- C02 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C03</masterLabel>
+        <translation><!-- C03 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C04</masterLabel>
+        <translation><!-- C04 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C05</masterLabel>
+        <translation><!-- C05 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C06</masterLabel>
+        <translation><!-- C06 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C07</masterLabel>
+        <translation><!-- C07 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C08</masterLabel>
+        <translation><!-- C08 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C09</masterLabel>
+        <translation><!-- C09 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C10</masterLabel>
+        <translation><!-- C10 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C11</masterLabel>
+        <translation><!-- C11 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C12</masterLabel>
+        <translation><!-- C12 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C13</masterLabel>
+        <translation><!-- C13 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C14</masterLabel>
+        <translation><!-- C14 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C15</masterLabel>
+        <translation><!-- C15 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C16</masterLabel>
+        <translation><!-- C16 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C17</masterLabel>
+        <translation><!-- C17 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C18</masterLabel>
+        <translation><!-- C18 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C19</masterLabel>
+        <translation><!-- C19 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C20</masterLabel>
+        <translation><!-- C20 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C21</masterLabel>
+        <translation><!-- C21 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C22</masterLabel>
+        <translation><!-- C22 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C23</masterLabel>
+        <translation>Serie 500</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C24</masterLabel>
+        <translation><!-- C24 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>COM</masterLabel>
+        <translation><!-- COM --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E01</masterLabel>
+        <translation><!-- E01 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E02</masterLabel>
+        <translation><!-- E02 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E03</masterLabel>
+        <translation><!-- E03 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E04</masterLabel>
+        <translation><!-- E04 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E05</masterLabel>
+        <translation><!-- E05 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E06</masterLabel>
+        <translation><!-- E06 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E07</masterLabel>
+        <translation><!-- E07 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E08</masterLabel>
+        <translation><!-- E08 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E09</masterLabel>
+        <translation><!-- E09 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E10</masterLabel>
+        <translation><!-- E10 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E11</masterLabel>
+        <translation><!-- E11 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E12</masterLabel>
+        <translation><!-- E12 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E13</masterLabel>
+        <translation><!-- E13 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E14</masterLabel>
+        <translation><!-- E14 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E15</masterLabel>
+        <translation><!-- E15 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E16</masterLabel>
+        <translation><!-- E16 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E17</masterLabel>
+        <translation><!-- E17 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E18</masterLabel>
+        <translation><!-- E18 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E19</masterLabel>
+        <translation><!-- E19 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E20</masterLabel>
+        <translation><!-- E20 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E21</masterLabel>
+        <translation><!-- E21 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E22</masterLabel>
+        <translation><!-- E22 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E23</masterLabel>
+        <translation><!-- E23 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E24</masterLabel>
+        <translation><!-- E24 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E25</masterLabel>
+        <translation><!-- E25 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E26</masterLabel>
+        <translation><!-- E26 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E27</masterLabel>
+        <translation><!-- E27 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E28</masterLabel>
+        <translation><!-- E28 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E29</masterLabel>
+        <translation><!-- E29 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E30</masterLabel>
+        <translation><!-- E30 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E31</masterLabel>
+        <translation><!-- E31 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E32</masterLabel>
+        <translation><!-- E32 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>F00</masterLabel>
+        <translation><!-- F00 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>F01</masterLabel>
+        <translation><!-- F01 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>F02</masterLabel>
+        <translation><!-- F02 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>F03</masterLabel>
+        <translation><!-- F03 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>F04</masterLabel>
+        <translation>Flu Point</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>F05</masterLabel>
+        <translation>Flu Arch</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>F06</masterLabel>
+        <translation>Flu Lane</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>F07</masterLabel>
+        <translation>Flu Carril</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>F08</masterLabel>
+        <translation><!-- F08 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>F09</masterLabel>
+        <translation><!-- F09 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>F10</masterLabel>
+        <translation><!-- F10 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>F11</masterLabel>
+        <translation><!-- F11 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G06</masterLabel>
+        <translation><!-- G06 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G07</masterLabel>
+        <translation><!-- G07 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G08</masterLabel>
+        <translation><!-- G08 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G09</masterLabel>
+        <translation><!-- G09 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G10</masterLabel>
+        <translation><!-- G10 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G11</masterLabel>
+        <translation><!-- G11 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G12</masterLabel>
+        <translation><!-- G12 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G13</masterLabel>
+        <translation><!-- G13 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G14</masterLabel>
+        <translation><!-- G14 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G15</masterLabel>
+        <translation><!-- G15 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G16</masterLabel>
+        <translation><!-- G16 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G17</masterLabel>
+        <translation><!-- G17 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G18</masterLabel>
+        <translation><!-- G18 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G19</masterLabel>
+        <translation><!-- G19 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G20</masterLabel>
+        <translation><!-- G20 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G21</masterLabel>
+        <translation><!-- G21 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G22</masterLabel>
+        <translation><!-- G22 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G23</masterLabel>
+        <translation><!-- G23 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I00</masterLabel>
+        <translation><!-- I00 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I01</masterLabel>
+        <translation><!-- I01 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I02</masterLabel>
+        <translation><!-- I02 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I03</masterLabel>
+        <translation><!-- I03 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I04</masterLabel>
+        <translation><!-- I04 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I05</masterLabel>
+        <translation><!-- I05 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I06</masterLabel>
+        <translation><!-- I06 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I07</masterLabel>
+        <translation><!-- I07 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I08</masterLabel>
+        <translation><!-- I08 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I09</masterLabel>
+        <translation><!-- I09 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I11</masterLabel>
+        <translation><!-- I11 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I12</masterLabel>
+        <translation><!-- I12 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I13</masterLabel>
+        <translation><!-- I13 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I14</masterLabel>
+        <translation><!-- I14 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I15</masterLabel>
+        <translation><!-- I15 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I16</masterLabel>
+        <translation><!-- I16 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I17</masterLabel>
+        <translation><!-- I17 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I18</masterLabel>
+        <translation><!-- I18 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I19</masterLabel>
+        <translation><!-- I19 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I20</masterLabel>
+        <translation><!-- I20 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I21</masterLabel>
+        <translation><!-- I21 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I22</masterLabel>
+        <translation><!-- I22 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I23</masterLabel>
+        <translation><!-- I23 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I24</masterLabel>
+        <translation><!-- I24 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I25</masterLabel>
+        <translation><!-- I25 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I26</masterLabel>
+        <translation><!-- I26 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I27</masterLabel>
+        <translation><!-- I27 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I28</masterLabel>
+        <translation><!-- I28 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I29</masterLabel>
+        <translation><!-- I29 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I30</masterLabel>
+        <translation><!-- I30 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I31</masterLabel>
+        <translation><!-- I31 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I32</masterLabel>
+        <translation><!-- I32 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I33</masterLabel>
+        <translation><!-- I33 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I34</masterLabel>
+        <translation><!-- I34 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I35</masterLabel>
+        <translation><!-- I35 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I36</masterLabel>
+        <translation><!-- I36 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I37</masterLabel>
+        <translation><!-- I37 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IN0</masterLabel>
+        <translation><!-- IN0 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IN1</masterLabel>
+        <translation>INDIOS</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LIN</masterLabel>
+        <translation><!-- LIN --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M00</masterLabel>
+        <translation><!-- M00 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M01</masterLabel>
+        <translation><!-- M01 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M02</masterLabel>
+        <translation><!-- M02 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M03</masterLabel>
+        <translation><!-- M03 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M04</masterLabel>
+        <translation><!-- M04 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M05</masterLabel>
+        <translation><!-- M05 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M06</masterLabel>
+        <translation><!-- M06 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M07</masterLabel>
+        <translation><!-- M07 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M08</masterLabel>
+        <translation><!-- M08 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M09</masterLabel>
+        <translation><!-- M09 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M10</masterLabel>
+        <translation><!-- M10 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M11</masterLabel>
+        <translation><!-- M11 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M12</masterLabel>
+        <translation><!-- M12 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M13</masterLabel>
+        <translation><!-- M13 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M14</masterLabel>
+        <translation><!-- M14 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M15</masterLabel>
+        <translation><!-- M15 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M16</masterLabel>
+        <translation><!-- M16 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M17</masterLabel>
+        <translation><!-- M17 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M18</masterLabel>
+        <translation>Série 54M</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M19</masterLabel>
+        <translation>Série 54C</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M20</masterLabel>
+        <translation>Série FLEXA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MAD</masterLabel>
+        <translation>MISCELLANEOUS MATERIAL</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S01</masterLabel>
+        <translation>Serie 27 Centralization</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S02</masterLabel>
+        <translation><!-- S02 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S03</masterLabel>
+        <translation><!-- S03 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S04</masterLabel>
+        <translation><!-- S04 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S05</masterLabel>
+        <translation>Serie 82 Centralization</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S06</masterLabel>
+        <translation><!-- S06 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S07</masterLabel>
+        <translation><!-- S07 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S08</masterLabel>
+        <translation><!-- S08 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S09</masterLabel>
+        <translation><!-- S09 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S10</masterLabel>
+        <translation><!-- S10 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S11</masterLabel>
+        <translation><!-- S11 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S12</masterLabel>
+        <translation>Serie 28 Aluminium</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S13</masterLabel>
+        <translation>Serie 31 Aluminium</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S14</masterLabel>
+        <translation><!-- S14 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S15</masterLabel>
+        <translation>Serie Sound</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S16</masterLabel>
+        <translation><!-- S16 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S17</masterLabel>
+        <translation><!-- S17 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S18</masterLabel>
+        <translation>**(NOT USE) Serie 08 .</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S19</masterLabel>
+        <translation>Serie 09  (obsolete)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S20</masterLabel>
+        <translation>**(NOT USE) Serie 07 .</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S21</masterLabel>
+        <translation><!-- S21 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S22</masterLabel>
+        <translation>Serie 22</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S23</masterLabel>
+        <translation><!-- S23 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S24</masterLabel>
+        <translation><!-- S24 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S25</masterLabel>
+        <translation><!-- S25 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S26</masterLabel>
+        <translation><!-- S26 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S27</masterLabel>
+        <translation>Serie 27</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S28</masterLabel>
+        <translation><!-- S28 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S29</masterLabel>
+        <translation>**(NOT USE)***</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S30</masterLabel>
+        <translation>Serie 32 .</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S31</masterLabel>
+        <translation><!-- S31 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S32</masterLabel>
+        <translation><!-- S32 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S33</masterLabel>
+        <translation><!-- S33 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S34</masterLabel>
+        <translation><!-- S34 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S35</masterLabel>
+        <translation><!-- S35 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S36</masterLabel>
+        <translation><!-- S36 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S37</masterLabel>
+        <translation><!-- S37 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S38</masterLabel>
+        <translation><!-- S38 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S39</masterLabel>
+        <translation><!-- S39 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S40</masterLabel>
+        <translation><!-- S40 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S41</masterLabel>
+        <translation><!-- S41 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S42</masterLabel>
+        <translation><!-- S42 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S43</masterLabel>
+        <translation><!-- S43 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S44</masterLabel>
+        <translation><!-- S44 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S45</masterLabel>
+        <translation>Sve RB Basique</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S46</masterLabel>
+        <translation>Sve RB Smarts</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S47</masterLabel>
+        <translation><!-- S47 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S48</masterLabel>
+        <translation><!-- S48 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S49</masterLabel>
+        <translation><!-- S49 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S50</masterLabel>
+        <translation><!-- S50 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S51</masterLabel>
+        <translation>Sve Planes</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S52</masterLabel>
+        <translation>Sve Start</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S53</masterLabel>
+        <translation>Sve Formation</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S54</masterLabel>
+        <translation>Sve Integration</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S55</masterLabel>
+        <translation>Sve vinylated and Xerografiated</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S56</masterLabel>
+        <translation>Sve Integration</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S57</masterLabel>
+        <translation><!-- S57 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S58</masterLabel>
+        <translation>Sve RB Basique</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S68</masterLabel>
+        <translation><!-- S68 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S69</masterLabel>
+        <translation><!-- S69 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S73</masterLabel>
+        <translation><!-- S73 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S75</masterLabel>
+        <translation><!-- S75 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S76</masterLabel>
+        <translation>**(NOTUSE) Serie 76 .</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S77</masterLabel>
+        <translation><!-- S77 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S78</masterLabel>
+        <translation><!-- S78 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S79</masterLabel>
+        <translation><!-- S79 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S82</masterLabel>
+        <translation><!-- S82 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S88</masterLabel>
+        <translation><!-- S88 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S89</masterLabel>
+        <translation><!-- S89 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S90</masterLabel>
+        <translation><!-- S90 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S91</masterLabel>
+        <translation><!-- S91 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S92</masterLabel>
+        <translation><!-- S92 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S93</masterLabel>
+        <translation><!-- S93 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S94</masterLabel>
+        <translation><!-- S94 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S95</masterLabel>
+        <translation><!-- S95 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S96</masterLabel>
+        <translation>S44 embed IP54</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S97</masterLabel>
+        <translation><!-- S97 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S98</masterLabel>
+        <translation><!-- S98 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SER</masterLabel>
+        <translation>Services</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S_C</masterLabel>
+        <translation>Components</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S_N</masterLabel>
+        <translation>**(NOT USE) Serie Simon &gt;N&lt;</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VID</masterLabel>
+        <translation>Sseg CCTV</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VIS</masterLabel>
+        <translation><!-- VIS --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VIT</masterLabel>
+        <translation><!-- VIT --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VOX</masterLabel>
+        <translation>VOX</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

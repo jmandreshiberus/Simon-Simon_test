@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Encuesta</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Encuestas</value>
+    </caseValues>
+    <fields>
+        <label><!-- Campaña --></label>
+        <name>Campana__c</name>
+        <relationshipLabel><!-- Encuestas --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Cometarios --></label>
+        <name>Cometarios__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contacto --></label>
+        <name>Contacto__c</name>
+        <relationshipLabel><!-- Encuestas --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Pregunta 1 --></label>
+        <name>KS_Pregunta_1__c</name>
+        <picklistValues>
+            <masterLabel>Opción 1</masterLabel>
+            <translation><!-- Opción 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opción 2</masterLabel>
+            <translation><!-- Opción 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opción 3</masterLabel>
+            <translation><!-- Opción 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opción 4</masterLabel>
+            <translation><!-- Opción 4 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Pregunta 2 opción A --></label>
+        <name>KS_Pregunta_2_opci_n_A__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pregunta 2 opcion b --></label>
+        <name>KS_Pregunta_2_opcion_b__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pregunta 3 --></label>
+        <name>Pregunta_3__c</name>
+        <picklistValues>
+            <masterLabel>Opción Preg3-A</masterLabel>
+            <translation><!-- Opción Preg3-A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opción Preg3-B</masterLabel>
+            <translation><!-- Opción Preg3-B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opción Preg3-C</masterLabel>
+            <translation><!-- Opción Preg3-C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opción Preg3-D</masterLabel>
+            <translation><!-- Opción Preg3-D --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opción Preg3-E</masterLabel>
+            <translation><!-- Opción Preg3-E --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Pregunta 4 --></label>
+        <name>Pregunta_4__c</name>
+        <picklistValues>
+            <masterLabel>Opción A-preg4</masterLabel>
+            <translation><!-- Opción A-preg4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opción B-preg4</masterLabel>
+            <translation><!-- Opción B-preg4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opción C-preg4</masterLabel>
+            <translation><!-- Opción C-preg4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opción D-preg4</masterLabel>
+            <translation><!-- Opción D-preg4 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Pregunta 5A --></label>
+        <name>Pregunta_5A__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pregunta 5B --></label>
+        <name>Pregunta_5B__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Encuesta 1</layout>
+        <sections>
+            <label><!-- Comentarios --></label>
+            <section>Comentarios</section>
+        </sections>
+        <sections>
+            <label><!-- Preguntas --></label>
+            <section>Preguntas</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Encuesta 2</layout>
+        <sections>
+            <label><!-- Preguntas --></label>
+            <section>Preguntas</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Encuesta 3</layout>
+        <sections>
+            <label><!-- Comentarios --></label>
+            <section>Comentarios</section>
+        </sections>
+        <sections>
+            <label><!-- Preguntas --></label>
+            <section>Preguntas</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Encuesta 4</layout>
+        <sections>
+            <label><!-- Preguntas --></label>
+            <section>Preguntas</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato Encuesta</layout>
+        <sections>
+            <label><!-- Comentarios --></label>
+            <section>Comentarios</section>
+        </sections>
+        <sections>
+            <label><!-- Preguntas --></label>
+            <section>Preguntas</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- Encuesta tipo 1 --></description>
+        <label><!-- Encuesta tipo 1 --></label>
+        <name>Encuesta_tipo_1</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Encuesta tipo 2 --></description>
+        <label><!-- Encuesta tipo 2 --></label>
+        <name>Encuesta_tipo_2</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Encuesta tipo 3 --></description>
+        <label><!-- Encuesta tipo 3 --></label>
+        <name>Encuesta_tipo_3</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Encuesta tipo 4 --></description>
+        <label><!-- Encuesta tipo 4 --></label>
+        <name>Encuesta_tipo_4</name>
+    </recordTypes>
+</CustomObjectTranslation>

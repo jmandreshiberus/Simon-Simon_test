@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>LF</masterLabel>
+        <translation>Outbound Delivery</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LR</masterLabel>
+        <translation>Returns Delivery</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBR1</masterLabel>
+        <translation>Outbound Delivery</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBR2</masterLabel>
+        <translation>Returns Delivery</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBR3</masterLabel>
+        <translation>Outbound Delivery</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBR5</masterLabel>
+        <translation>Outbound Delivery</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBRO</masterLabel>
+        <translation>Returns Delivery</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBRP</masterLabel>
+        <translation>Outbound Delivery</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBV0</masterLabel>
+        <translation>Cash Sales</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZDTR</masterLabel>
+        <translation>Central Postng Chnge</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZESP</masterLabel>
+        <translation>Delivery w/o Ref.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZHIC</masterLabel>
+        <translation>Inbnd Dlv. HU Mvmnt</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZHID</masterLabel>
+        <translation>Inbnd Dlv. HU Mvmnt</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZHMD</masterLabel>
+        <translation>Inbnd Dlv. HU Mvmnt</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZHOD</masterLabel>
+        <translation>Outb.Deliv.GI Mvmnt</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZIN1</masterLabel>
+        <translation>Out.Delivery Factory</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZIN2</masterLabel>
+        <translation>Out.Delivery Depot</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZIN3</masterLabel>
+        <translation><!-- ZIN3 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZLC0</masterLabel>
+        <translation>Outbound Delivery</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZLCC</masterLabel>
+        <translation>Replen.Cross-Company</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZLF</masterLabel>
+        <translation><!-- ZLF --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZLG</masterLabel>
+        <translation><!-- ZLG --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZLR</masterLabel>
+        <translation><!-- ZLR --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZNL</masterLabel>
+        <translation>Replenishment Dlv.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZNL1</masterLabel>
+        <translation>Replenishment Dlv.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZTC</masterLabel>
+        <translation><!-- ZTC --></translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

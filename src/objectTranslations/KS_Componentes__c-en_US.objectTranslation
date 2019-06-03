@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Component</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Components</value>
+    </caseValues>
+    <fields>
+        <label><!-- Acción 1 --></label>
+        <name>KS_Accion_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Acción 2 --></label>
+        <name>KS_Accion_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Color --></label>
+        <name>KS_Color__c</name>
+    </fields>
+    <fields>
+        <label><!-- No codificado --></label>
+        <name>KS_No_codificado__c</name>
+        <relationshipLabel><!-- Componentes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Num. módulos adicionales --></label>
+        <name>KS_Num_m_dulos_adicionales__c</name>
+    </fields>
+    <fields>
+        <label><!-- PVP Tarifa --></label>
+        <name>KS_PVP_Tarifa__c</name>
+    </fields>
+    <fields>
+        <label><!-- PVR Final --></label>
+        <name>KS_PVR_Final__c</name>
+    </fields>
+    <fields>
+        <label><!-- PVR Total --></label>
+        <name>KS_PVR_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Producto --></label>
+        <name>KS_Producto__c</name>
+        <relationshipLabel><!-- Componentes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Producto no codificado --></label>
+        <name>KS_Producto_no_codificado__c</name>
+        <relationshipLabel><!-- Componentes (Producto no codificado) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sobrecoste Modulos --></label>
+        <name>KS_Sobrecoste_Modulos__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tamaño --></label>
+        <name>KS_Tamano__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unidad de medida --></label>
+        <name>KS_Unidad_de_medida__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unidades --></label>
+        <name>KS_Unidades__c</name>
+    </fields>
+    <layouts>
+        <layout>Formato Componente</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Component ID</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Si se requeire trabajo de pintura, debe de indicarse el color --></errorMessage>
+        <name>Control_color_pintura</name>
+    </validationRules>
+</CustomObjectTranslation>

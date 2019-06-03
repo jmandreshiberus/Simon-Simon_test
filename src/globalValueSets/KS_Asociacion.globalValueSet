@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Grudilec</fullName>
+        <default>false</default>
+        <label>Grudilec</label>
+    </customValue>
+    <customValue>
+        <fullName>Fegime</fullName>
+        <default>false</default>
+        <label>Fegime</label>
+    </customValue>
+    <customValue>
+        <fullName>Electroclub</fullName>
+        <default>false</default>
+        <label>Electroclub</label>
+    </customValue>
+    <customValue>
+        <fullName>Alda grupo</fullName>
+        <default>false</default>
+        <label>Alda grupo</label>
+    </customValue>
+    <customValue>
+        <fullName>Nou grup</fullName>
+        <default>false</default>
+        <label>Nou grup</label>
+    </customValue>
+    <customValue>
+        <fullName>Unase</fullName>
+        <default>false</default>
+        <label>Unase</label>
+    </customValue>
+    <customValue>
+        <fullName>Colegio arquitectos</fullName>
+        <default>false</default>
+        <label>Colegio arquitectos</label>
+    </customValue>
+    <customValue>
+        <fullName>Gremios</fullName>
+        <default>false</default>
+        <label>Gremios</label>
+    </customValue>
+    <customValue>
+        <fullName>ITH</fullName>
+        <default>false</default>
+        <label>ITH</label>
+    </customValue>
+    <description>SEGMENTACIÓN. Lista de valores para segmentación de cuentas</description>
+    <masterLabel>Asociacion</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

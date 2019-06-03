@@ -1,0 +1,300 @@
+<apex:page standardController="Opportunity" extensions="KS_ProductosOfertaAdd_Controller" 
+           docType="html-5.0" id="productosOfertaAdd_page" standardStylesheets="true" showHeader="true">
+    
+    <apex:includeScript value="{!$Resource.KS_jquery1}"/>
+    <apex:outputPanel >    
+        <apex:form >
+            <style type="text/css">
+                .clickhere {
+                cursor:pointer;
+                }
+                .clickhere:hover {
+                color:#015BA7;
+                }            
+            </style>
+            <apex:pageBlock title="{!$Label.oferta_ficha_error}" mode="detail" rendered="{!haveErrorFicha}">
+                <apex:pageBlockSection columns="1">
+                    <apex:outputText value="{!errorTextFicha}" styleclass="warning"/>
+                </apex:pageBlockSection> 
+            </apex:pageBlock>            
+            
+           <!-- PANEL SELECT PRODUCT -->
+            <apex:outputPanel rendered="{!isPanelSelectProduct}" >
+            <apex:sectionHeader title="{!$Label.ks_btn_select} {!$Label.Productos}:" subtitle="{!$Label.Oferta}: {!oferta.Name}" />
+           
+                <apex:panelGrid width="100%" style="text-align: center;" columns="2" >
+                    <apex:outputText >
+                        <apex:commandButton value="{!$Label.ks_btn_select}" action="{!saveSelectList}"/>
+                        <apex:commandButton value="{!$Label.ks_btn_cancel}" action="{!Cancel}"/>                
+                    </apex:outputText>
+                </apex:panelGrid>
+                
+                <apex:pageBlock mode="edit" rendered="{!haveSelected}" id="selectList">
+                    <apex:pageBlockSection columns="1" title="{!$Label.ks_selectedproducts}" rendered="{!haveSelected}">
+                        <apex:pageblockTable columns="4" value="{!mapIdProductSelect}" var="prodID" rendered="{!haveSelected}">
+                            <apex:column headerValue="{!$ObjectType.Product2.fields.ProductCode.Label}" styleClass="column">
+                                <strong class="clickhere" onclick="gotoID('{!prodID}');">{!mapIdProductSelect[prodID].KS_Id_SAP__c}</strong>
+                            </apex:column>
+                            <apex:column headerValue="{!$ObjectType.Product2.fields.KS_Nombre_producto__c.Label}" styleClass="column"  >
+                                <!-- <apex:outputField value="{!prod.product.Name}" styleclass="container" style="width:40px"/> -->
+                                <apex:outputField value="{!mapIdProductSelect[prodID].KS_Nombre_Producto__c}" styleclass="container" style="width:60px"/>
+                            </apex:column>                      
+                            <apex:column headerValue="{!$ObjectType.Product2.fields.KS_descripcion_corta__c.Label}" styleClass="column" >
+                                <!-- <apex:outputField value="{!prod.product.KS_Description__c}" styleclass="container" style="width:50px"/> -->
+                                <apex:outputField value="{!mapIdProductSelect[prodID].KS_Descripcion_corta__c}" styleclass="container" style="width:60px"/>
+                            </apex:column> 
+                            <apex:column headerValue="{!$ObjectType.Product2.fields.KS_Tipo_de_material__c.Label}" styleClass="column" >
+                                <apex:outputField value="{!mapIdProductSelect[prodID].KS_Tipo_de_material__c}" styleclass="container" style="width:50px"/>
+                            </apex:column>
+                        </apex:pageblockTable>
+                    </apex:pageBlockSection> 
+                </apex:pageBlock>
+                <br/>
+                
+                <apex:pageBlock title="{!$Label.oferta_addprod_searchprod}" mode="edit" >
+                    <apex:panelGrid width="100%" style="text-align: left;" columns="1">
+                        <apex:pageBlockSection columns="1">
+                            
+                            <apex:inputField value="{!seleccion.KS_Org_Ventas__c}" styleClass="orgventasField"/>
+                            <script type="text/javascript">
+                            $('.orgventasField').parent().parent().hide();
+                            </script>
+                            <apex:pageBlockSectionItem >
+                                <apex:outputText >{!$Label.oferta_addprod_searchprod_1}</apex:outputText>
+                                <apex:inputText value="{!searchKey.name}"/>
+                            </apex:pageBlockSectionItem>
+                            <apex:pageBlockSectionItem >
+                                <apex:outputText >{!$Label.oferta_addprod_searchprod_2}</apex:outputText>
+                                <apex:inputText value="{!searchKey.code}"/>
+                            </apex:pageBlockSectionItem>
+                            <apex:pageBlockSectionItem >
+                                <apex:outputText >{!$Label.oferta_addprod_searchprod_5}</apex:outputText>
+                                <apex:inputField value="{!seleccion.KS_Familia__c}"/>
+                                <!--<apex:selectList value="{!searchKey.famy}" size="1">
+                                    <apex:selectOptions value="{!selectFamilia}"/>
+                                </apex:selectList>-->
+                            </apex:pageBlockSectionItem>                            
+                            <apex:pageBlockSectionItem >
+                                <apex:outputText >{!$Label.oferta_addprod_searchprod_3}</apex:outputText>
+                                <apex:inputField value="{!seleccion.KS_Serie__c}"/>
+                                <!--<apex:selectList value="{!searchKey.gama}" size="1">
+                                    <apex:selectOptions value="{!selectSerie}"/>
+                                </apex:selectList>-->
+                            </apex:pageBlockSectionItem>
+                            <apex:pageBlockSectionItem >
+                                <apex:outputText >{!$Label.oferta_addprod_searchprod_4}</apex:outputText>
+                                <apex:inputField value="{!seleccion.KS_Subserie__c}"/>
+                                <!--<apex:selectList value="{!searchKey.subs}" size="1">
+                                    <apex:selectOptions value="{!selectSubSerie}"/>
+                                </apex:selectList>-->                              
+                            </apex:pageBlockSectionItem>
+                        </apex:pageBlockSection>
+                        <apex:actionFunction action="{!getProductosFilter}" name="callBuscar" />
+                        <apex:commandButton value="{!$Label.ks_btn_buscar}" action="{!getProductosFilter}" tabindex="0"/>
+                    </apex:panelGrid>
+                </apex:pageBlock>    
+                <br/>
+                
+                <apex:pageBlock id="showList" >
+                    <apex:pageBlockSection columns="3" >
+                        <apex:outputText style="text-align: right;">
+                            <apex:commandButton action="{!setCon.first}" image="{!$Resource.Sync}" style="width:13px; height=8px;"  reRender="showList"/>
+                            <apex:commandButton action="{!getProductosFilter}" value="{!$Label.ks_btn_select}" style="text-align: right; float: left;"/>
+                        </apex:outputText>
+                        <apex:outputText >
+                            <apex:commandButton action="{!saveProdSelect_Previous}" value="{!$Label.ks_btn_prev}" rendered="{!setCon.hasPrevious}" reRender="showList"/>
+                            <apex:commandButton action="{!saveProdSelect_Next}" value="{!$Label.ks_btn_next}" rendered="{!setCon.hasNext}" reRender="showList"/>
+                        </apex:outputText>
+                        <apex:outputText >
+                            <apex:commandLink action="{!getProductosFilter}" value="A" reRender="showList"><apex:param assignTo="{!letraClave}" value="A" /></apex:commandLink> |&nbsp;
+                            <apex:commandLink action="{!getProductosFilter}" value="B" reRender="showList"><apex:param assignTo="{!letraClave}" value="B"/></apex:commandLink> |&nbsp;
+                            <apex:commandLink action="{!getProductosFilter}" value="C" reRender="showList"><apex:param assignTo="{!letraClave}" value="C"/></apex:commandLink> |&nbsp;
+                            <apex:commandLink action="{!getProductosFilter}" value="D" reRender="showList"><apex:param assignTo="{!letraClave}" value="D"/></apex:commandLink> |&nbsp;
+                            <apex:commandLink action="{!getProductosFilter}" value="E" reRender="showList"><apex:param assignTo="{!letraClave}" value="E"/></apex:commandLink> |&nbsp;
+                            <apex:commandLink action="{!getProductosFilter}" value="F" reRender="showList"><apex:param assignTo="{!letraClave}" value="F"/></apex:commandLink> |&nbsp;
+                            <apex:commandLink action="{!getProductosFilter}" value="G" reRender="showList"><apex:param assignTo="{!letraClave}" value="G"/></apex:commandLink> |&nbsp;
+                            <apex:commandLink action="{!getProductosFilter}" value="H" reRender="showList"><apex:param assignTo="{!letraClave}" value="H"/></apex:commandLink> |&nbsp;
+                            <apex:commandLink action="{!getProductosFilter}" value="I" reRender="showList"><apex:param assignTo="{!letraClave}" value="I"/></apex:commandLink> |&nbsp;
+                            <apex:commandLink action="{!getProductosFilter}" value="J" reRender="showList"><apex:param assignTo="{!letraClave}" value="J"/></apex:commandLink> |&nbsp;
+                            <apex:commandLink action="{!getProductosFilter}" value="K" reRender="showList"><apex:param assignTo="{!letraClave}" value="K"/></apex:commandLink> |&nbsp;
+                            <apex:commandLink action="{!getProductosFilter}" value="L" reRender="showList"><apex:param assignTo="{!letraClave}" value="L"/></apex:commandLink> |&nbsp;
+                            <apex:commandLink action="{!getProductosFilter}" value="M" reRender="showList"><apex:param assignTo="{!letraClave}" value="M"/></apex:commandLink> |&nbsp;
+                            <apex:commandLink action="{!getProductosFilter}" value="N" reRender="showList"><apex:param assignTo="{!letraClave}" value="N"/></apex:commandLink> |&nbsp;
+                            <apex:commandLink action="{!getProductosFilter}" value="Ñ" reRender="showList"><apex:param assignTo="{!letraClave}" value="Ñ"/></apex:commandLink> |&nbsp;
+                            <apex:commandLink action="{!getProductosFilter}" value="O" reRender="showList"><apex:param assignTo="{!letraClave}" value="O"/></apex:commandLink> |&nbsp;
+                            <apex:commandLink action="{!getProductosFilter}" value="P" reRender="showList"><apex:param assignTo="{!letraClave}" value="P"/></apex:commandLink> |&nbsp;
+                            <apex:commandLink action="{!getProductosFilter}" value="Q" reRender="showList"><apex:param assignTo="{!letraClave}" value="Q"/></apex:commandLink> |&nbsp;       
+                            <apex:commandLink action="{!getProductosFilter}" value="R" reRender="showList"><apex:param assignTo="{!letraClave}" value="R"/></apex:commandLink> |&nbsp;
+                            <apex:commandLink action="{!getProductosFilter}" value="S" reRender="showList"><apex:param assignTo="{!letraClave}" value="S"/></apex:commandLink> |&nbsp;
+                            <apex:commandLink action="{!getProductosFilter}" value="T" reRender="showList"><apex:param assignTo="{!letraClave}" value="T"/></apex:commandLink> |&nbsp;
+                            <apex:commandLink action="{!getProductosFilter}" value="U" reRender="showList"><apex:param assignTo="{!letraClave}" value="U"/></apex:commandLink> |&nbsp;
+                            <apex:commandLink action="{!getProductosFilter}" value="V" reRender="showList"><apex:param assignTo="{!letraClave}" value="V"/></apex:commandLink> |&nbsp;
+                            <apex:commandLink action="{!getProductosFilter}" value="W" reRender="showList"><apex:param assignTo="{!letraClave}" value="W"/></apex:commandLink> |&nbsp;
+                            <apex:commandLink action="{!getProductosFilter}" value="X" reRender="showList"><apex:param assignTo="{!letraClave}" value="X"/></apex:commandLink> |&nbsp;
+                            <apex:commandLink action="{!getProductosFilter}" value="Y" reRender="showList"><apex:param assignTo="{!letraClave}" value="Y"/></apex:commandLink> |&nbsp;
+                            <apex:commandLink action="{!getProductosFilter}" value="Z" reRender="showList"><apex:param assignTo="{!letraClave}" value="Z"/></apex:commandLink> |&nbsp;
+                            <!-- <apex:commandLink action="{!getProductosFilter}" value="{!$Label.KS_AddProduct_Link1}" reRender="showList"><apex:param assignTo="{!letraClave}" value="Otros"/></apex:commandLink> |&nbsp; -->
+                            <apex:commandLink action="{!getProductosFilter}" value="{!$Label.ks_btn_todos}" reRender="showList"><apex:param assignTo="{!palabraClave}" value=""/></apex:commandLink>
+                        </apex:outputText>
+                    </apex:pageBlockSection>
+                    
+                    
+                    <apex:pageblockTable columns="8" value="{!productos}" var="prod" >
+                        <apex:column headerValue="" styleClass="column" >
+                            <apex:facet name="header">
+                                <apex:inputCheckbox styleclass="container selectProdAll" style="width:10px" onchange="marcarTodos(this,'selectProd');"/>
+                            </apex:facet>
+                            <apex:inputCheckbox value="{!prod.isSelect}" styleclass="container selectProd" style="width:10px" onchange="marcarGlobal('selectProd', 'selectProdAll');"/>
+                        </apex:column>
+                        <apex:column headerValue="{!$ObjectType.Product2.fields.ProductCode.Label}" styleClass="column"  >
+                            <strong class="clickhere" onclick="gotoID('{!prod.product.ID}');">{!prod.product.KS_Id_SAP__c}</strong>
+                        </apex:column>
+                        <apex:column headerValue="{!$ObjectType.Product2.fields.KS_Nombre_producto__c.Label}" styleClass="column"  >
+                            <!-- <apex:outputField value="{!prod.product.Name}" styleclass="container" style="width:40px"/> -->
+                            <apex:outputField value="{!prod.product.KS_Nombre_producto__c}" styleclass="container" style="width:60px"/>
+                        </apex:column>
+                        <apex:column headerValue="{!$ObjectType.Product2.fields.KS_descripcion_corta__c.Label}" styleClass="column" >
+                            <!-- <apex:outputField value="{!prod.product.KS_Description__c}" styleclass="container" style="width:50px"/> -->
+                            <apex:outputField value="{!prod.product.KS_descripcion_corta__c}" styleclass="container" style="width:60px"/>
+                        </apex:column> 
+                        <apex:column headerValue="{!$ObjectType.Product2.fields.KS_Tipo_de_material__c.Label}" styleClass="column" >
+                            <apex:outputField value="{!prod.product.KS_Tipo_de_material__c}" styleclass="container" style="width:50px"/>
+                        </apex:column>
+                        <apex:column headerValue="{!$ObjectType.KS_Organizacion_Producto__c.fields.KS_Familia__c.Label}" styleClass="column" >
+                            <apex:outputField value="{!prod.orgProduct.KS_Familia__c}" styleclass="container" style="width:50px"/>
+                        </apex:column>
+                        <apex:column headerValue="{!$ObjectType.KS_Organizacion_Producto__c.fields.KS_Serie_Gama__c.Label}" styleClass="column" >
+                            <apex:outputField value="{!prod.orgProduct.KS_Serie_Gama__c}" styleclass="container" style="width:50px"/>
+                        </apex:column>
+                        <apex:column headerValue="{!$ObjectType.KS_Organizacion_Producto__c.fields.KS_Subserie__c.Label}" styleClass="column" >
+                            <apex:outputField value="{!prod.orgProduct.KS_Subserie__c}" styleclass="container" style="width:50px"/>
+                        </apex:column>
+                    </apex:pageblockTable>
+                </apex:pageBlock>
+            </apex:outputPanel>
+            
+            
+            
+            <!-- PANEL PRICE PRODUCT -->
+            <apex:outputPanel rendered="{!not(isPanelSelectProduct)}" id="tablaProductos" >
+                <apex:sectionHeader title="{!$Label.oferta_addprod_addprodto}:" subtitle="{!oferta.Name}" />
+                
+                <apex:pageBlock mode="edit" >
+                    <apex:pageBlockButtons >
+                        <apex:commandButton value="{!$Label.ks_btn_guardar}" action="{!savePrice}" /> <!-- reRender="tablaProductos"  -->
+                        <apex:commandButton value="{!$Label.ks_btn_cancel}" action="{!cancel}" />
+                    </apex:pageBlockButtons>
+                    
+                    <apex:pagemessages id="errmsg"/>
+                    
+                    <div style="width:100%;display:inline;">
+                        <table class="list" border="0" cellpadding="0" cellspacing="0">
+                            
+                            <thead>
+                                <tr class="headerRow">
+                                    
+                                    <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.OpportunityLineItem.fields.ProductCode.Label}</span></th>
+                                    <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.OpportunityLineItem.fields.Name.Label}</span></th>
+                                    <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.OpportunityLineItem.fields.UnitPrice.Label}</span></th>
+                                    <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.OpportunityLineItem.fields.Quantity.Label}</span></th>
+                                    <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.OpportunityLineItem.fields.KS_Dto_base_1__c.Label}</span></th>
+                                    <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.OpportunityLineItem.fields.KS_Dto_base_2__c.Label}</span></th>
+                                    <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.OpportunityLineItem.fields.KS_Dto_adicional_1__c.Label}</span></th>
+                                    <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.OpportunityLineItem.fields.KS_Dto_adicional_2__c.Label}</span></th>
+                                    <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.OpportunityLineItem.fields.KS_Dto_Instalador__c.Label}</span></th>
+                                    <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.OpportunityLineItem.fields.KS_Dto_cliente_final__c.Label}</span></th>
+                                    <th class="headerRow" scope="col" colspan="1">
+                                        <div>
+                                            <span>{!$ObjectType.OpportunityLineItem.fields.KS_Prescrito__c.Label}&nbsp;</span>
+                                            <span>(<input class="prescritotodos" type="checkbox" onclick="marcarTodos(this, 'prescrito')"/>)</span>
+                                        </div>
+                                    </th>
+                                    <th class="headerRow" scope="col" colspan="1">
+                                        <div>
+                                            <span>{!$ObjectType.OpportunityLineItem.fields.KS_Material_sin_cargo__c.Label}&nbsp;</span>
+                                            <span>(<input class="sincargotodos" type="checkbox" onclick="marcarTodos(this, 'sincargo')"/>)</span>
+                                        </div>
+                                    </th>
+                                    <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.OpportunityLineItem.fields.KS_Destinatario__c.Label}</span></th>
+                                    
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <apex:repeat value="{!lstWrOli}" var="wrOli" >
+                                    <tr class="dataRow">
+                                        <td class="dataCell">
+                                            <strong class="clickhere" onclick="gotoID('{!prodSAPSF[wrOli.codeProduct]}');">{!wrOli.codeProduct}</strong>
+                                        </td>
+                                        <td class="dataCell">
+                                            <apex:outputText value="{!wrOli.nameProduct}" styleclass="container" />
+                                        </td>
+                                        <td class="dataCell">
+                                            <apex:outputText value="{!wrOli.oppLineItem.UnitPrice}" styleclass="container" style="width:90%" rendered="{!(wrOli.oppLineItem.UnitPrice!=null)}"/>
+                                            <apex:inputField value="{!wrOli.oppLineItem.UnitPrice}" styleclass="container" style="width:90%" rendered="{!(wrOli.oppLineItem.UnitPrice==null)}"/>
+                                        </td>
+                                        <td class="dataCell" width="1%">
+                                            <apex:inputField value="{!wrOli.oppLineItem.KS_Cantidad__c}" styleclass="container" style="width:90%" />
+                                        </td>
+                                        <td class="dataCell" width="1%">
+                                            <apex:inputField value="{!wrOli.oppLineItem.KS_Dto_base_1__c}" styleclass="container" style="width:90%" />
+                                        </td>
+                                        <td class="dataCell" width="1%">
+                                            <apex:inputField value="{!wrOli.oppLineItem.KS_Dto_base_2__c}" styleclass="container" style="width:90%"/>
+                                        </td>
+                                        <td class="dataCell" width="1%">
+                                            <apex:inputField value="{!wrOli.oppLineItem.KS_Dto_adicional_1__c}" styleclass="container" style="width:90%"/>
+                                        </td>
+                                        <td class="dataCell" width="1%">
+                                            <apex:inputField value="{!wrOli.oppLineItem.KS_Dto_adicional_2__c}" styleclass="container" style="width:90%" />
+                                        </td>
+                                        <td class="dataCell" width="1%">
+                                            <apex:inputField value="{!wrOli.oppLineItem.KS_Dto_Instalador__c}" styleclass="container" style="width:90%" />
+                                        </td>
+                                        <td class="dataCell" width="1%">
+                                            <apex:inputField value="{!wrOli.oppLineItem.KS_Dto_cliente_final__c}" styleclass="container" style="width:90%" />
+                                        </td>
+                                        <td class="dataCell">
+                                            <apex:inputField value="{!wrOli.oppLineItem.KS_Prescrito__c}"
+                                                             styleclass="container prescrito" onclick="marcarGlobal('prescrito', 'prescritotodos')"/>
+                                        </td>
+                                        <td class="dataCell">
+                                            <apex:inputField value="{!wrOli.oppLineItem.KS_Material_sin_cargo__c}"
+                                                             styleclass="container sincargo" onclick="marcarGlobal('sincargo', 'sincargotodos')"/>
+                                        </td>
+                                        <td class="dataCell">
+                                            <apex:inputField value="{!wrOli.oppLineItem.KS_Destinatario__c}" styleclass="container" />
+                                        </td>
+                                    </tr>
+                                </apex:repeat>
+                            </tbody>
+                        </table>                    
+                    </div>             
+                </apex:pageBlock>                
+                
+            </apex:outputPanel>
+        </apex:form>    
+    </apex:outputPanel>
+    <script type="text/javascript">
+    function marcarTodos(checkput, className) {
+        var clase = '.'+className;
+        var ischecked = checkput.checked;
+        $(clase).each(function(){
+            if (ischecked != this.checked) {
+                $(this).trigger( "click" );
+            }
+        });
+    }
+    function marcarGlobal(singleCheckN, globalCheckN) {
+        var claseS = '.'+singleCheckN;
+        var claseG = '.'+globalCheckN;
+        $(claseG).prop('checked', true);
+        $(claseS).each(function(){
+            var ischecked = this.checked;
+            if (!ischecked) { $(claseG).prop('checked', false); }
+        });
+    }
+    function gotoID(id) {
+        window.open('/'+id,'_blank');
+    }
+    </script>
+</apex:page>

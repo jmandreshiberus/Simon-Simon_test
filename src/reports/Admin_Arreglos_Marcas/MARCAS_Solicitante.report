@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>FK_NAME</field>
+    </columns>
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>KS_Organizacion_Cliente__c.KS_ID_Organizacion_Cliente__c</field>
+    </columns>
+    <columns>
+        <field>FK_$Account.KS_CountOC_SI10__c</field>
+    </columns>
+    <columns>
+        <field>FK_$Account.KS_CountOC_FL31__c</field>
+    </columns>
+    <currency>EUR</currency>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>KS_Organizacion_Cliente__c.KS_Id_Salesforce_Solicitante__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>MARCAS Solicitante</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$KS_Organizacion_Cliente__c@KS_Organizacion_Cliente__c.KS_Cliente_solicitante__c</reportType>
+    <scope>user</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CUST_CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

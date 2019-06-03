@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DuplicateRule xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <actionOnInsert>Block</actionOnInsert>
+    <actionOnUpdate>Allow</actionOnUpdate>
+    <alertText>Está creando un registro duplicado. Le recomendamos utilizar en su lugar un registro existente.</alertText>
+    <description xsi:nil="true"/>
+    <duplicateRuleFilter>
+        <booleanFilter xsi:nil="true"/>
+        <duplicateRuleFilterItems>
+            <field>KS_Id_SAP__c</field>
+            <operation>equals</operation>
+            <value></value>
+            <sortOrder>1</sortOrder>
+            <table>Account</table>
+        </duplicateRuleFilterItems>
+    </duplicateRuleFilter>
+    <duplicateRuleMatchRules>
+        <matchRuleSObjectType>Account</matchRuleSObjectType>
+        <matchingRule>regla_de_coincidencia_de_Cuenta_Nombre_CP</matchingRule>
+        <objectMapping xsi:nil="true"/>
+    </duplicateRuleMatchRules>
+    <isActive>true</isActive>
+    <masterLabel>Cuenta_Nombre_CP</masterLabel>
+    <securityOption>BypassSharingRules</securityOption>
+    <sortOrder>2</sortOrder>
+</DuplicateRule>

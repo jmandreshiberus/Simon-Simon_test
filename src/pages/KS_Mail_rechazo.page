@@ -1,0 +1,125 @@
+<apex:page >
+<style>
+    p {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+</style>
+
+<body class="setupTab" style=" background-color:#FFFFFF; bEditID:b1st1; bLabel:body;">
+    <center>
+        <table cellpadding="0" width="500" cellspacing="0" id="topTable" height="450">
+            <tr valign="top">
+                <td style=" background-color:#FFFFFF; bEditID:r1st1; bLabel:header; vertical-align:middle; height:100; text-align:center;">
+                    <img border="0" bEditID="r1sp1" bLabel="headerImage" id="r1sp1" src="https://cs87.salesforce.com/servlet/servlet.ImageServer?id=01558000003jWCl&oid=00D8E0000000jPl"></img>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td style=" background-color:#FFFFFF; bEditID:r2st1; bLabel:accent1; height:0;"></td>
+            </tr>
+            <tr valign="top">
+                <td styleInsert="1" height="300" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;">
+                    <table border="0" cellpadding="5" width="600" cellspacing="5" height="400">
+                        <tr valign="top" height="50">
+                            <td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;"
+                                aEditID="c1r1" locked="0">
+                                <span style="white-space:pre"> </span>
+                            </td>
+                        </tr>
+                        <tr valign="top" height="300">
+                            <td tEditID="c1r2" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;"
+                                aEditID="c1r2" locked="0">
+                                <p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">
+                                    <font face="Arial, sans-serif">Estimado cliente,&nbsp;</font>
+                                </p>
+                                <p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">
+                                    <font face="Arial, sans-serif">
+                                        <br/>
+                                    </font>
+                                </p>
+                                <p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">
+                                    <font face="Arial, sans-serif">A través de este comunicado, le informamos que sus datos personales (datos de contacto
+                                        y datos profesionales) serán tratados por
+                                        <b>SIMON, S.A.U</b>. (en adelante SIMON), con domicilio en Diputación 390-392, 08013,
+                                        Barcelona, con la finalidad de gestionar la relación comercial existente entre las
+                                        partes. La base jurídica para dicho tratamiento de datos es el desarrollo de dicha
+                                        relación.</font>
+                                </p>
+                                <p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">
+                                    <font face="Arial, sans-serif">
+                                        <br/>
+                                    </font>
+                                </p>
+                                <p class="MsoNormal" style="">
+                                    <font face="Arial, sans-serif">Tal y como ha indicado, sus datos no serán tratados con la finalidad de remitirle, por
+                                        cualquier medio incluyendo el electrónico, información sobre los productos y/o servicios
+                                        prestados por las empresas de Grupo SIMON. Esto es, novedades y catálogos de productos, promociones, información sobre nuestra actividad.
+                                        Podrá oponerse, en cualquier momento,
+                                        mediante correo electrónico a
+                                        <a href="dpo@simonelectric.com">dpo@simonelectric.com</a>.&nbsp;</font>
+                                </p>
+                                <p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">
+                                    <font face="Arial, sans-serif">
+                                        <br/>
+                                    </font>
+                                </p>
+                                <p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">
+                                    <font face="Arial, sans-serif">Sus datos serán conservados durante el periodo de vigencia de la relación entre las partes
+                                        y, una vez finalizada, en caso de ser necesario, se conservarán, debidamente bloqueados,
+                                        durante todo el tiempo en que resulte necesaria su conservación para atender a los
+                                        requerimientos legales aplicables.&nbsp;</font>
+                                </p>
+                                <p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">
+                                    <font face="Arial, sans-serif">
+                                        <br/>
+                                    </font>
+                                </p>
+                                <p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">
+                                    <font face="Arial, sans-serif">Sus datos únicamente podrán ser comunicados a las empresas de Grupo Simon con sede en
+                                        el Espacio Económico Europeo (
+                                        <a href="www.simonelectric.com">www.simonelectric.com</a>) exclusivamente para las finalidades que han sido anteriormente
+                                        informadas, dado que dicha cesión puede ser necesaria para el desarrollo de la relación
+                                        comercial en función de los productos o servicios que puedan ser de su interés.&nbsp;</font>
+                                </p>
+                                <p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">
+                                    <font face="Arial, sans-serif">
+                                        <br/>
+                                    </font>
+                                </p>
+                                <p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">
+                                    <font face="Arial, sans-serif">Podrá ejercer sus derechos dirigiéndose al Delegado de Protección de Datos, en la dirección
+                                        postal o electrónica mencionada. También le informamos de la opción de presentar
+                                        una reclamación ante la Agencia Española de Protección de Datos, en caso de considerar
+                                        que se ha cometido una infracción de la legislación respecto al tratamiento de sus
+                                        datos personales.</font>
+                                </p>
+                                <div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">
+                                    <br/>
+                                </div>
+                                <div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">Un saludo cordial.</div>
+                            </td>
+                        </tr>
+                        <tr valign="top" height="50">
+                            <td tEditID="c1r3" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;"
+                                aEditID="c1r3" locked="0">
+                                <br/>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td style=" background-color:#FFFFFF; bEditID:r4st1; bLabel:accent2; height:0;"></td>
+            </tr>
+            <tr valign="top">
+                <td style=" background-color:#FFFFFF; bEditID:r5st1; bLabel:footer; vertical-align:top; height:100; text-align:left;"></td>
+            </tr>
+            <tr valign="top">
+                <td style=" background-color:#FFFFFF; bEditID:r6st1; bLabel:accent3; height:0;"></td>
+            </tr>
+        </table>
+    </center>
+    </body>
+  
+  
+</apex:page>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>01</fullName>
+        <default>false</default>
+        <label>01</label>
+    </customValue>
+    <customValue>
+        <fullName>02</fullName>
+        <default>false</default>
+        <label>02</label>
+    </customValue>
+    <customValue>
+        <fullName>03</fullName>
+        <default>false</default>
+        <label>03</label>
+    </customValue>
+    <customValue>
+        <fullName>99</fullName>
+        <default>false</default>
+        <label>99</label>
+    </customValue>
+    <customValue>
+        <fullName>04</fullName>
+        <default>false</default>
+        <label>04</label>
+    </customValue>
+    <description>SAP. Uso --&gt; Organizaciones Cliente --&gt; CARGADO</description>
+    <masterLabel>Bloqueo de pedido para cliente</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

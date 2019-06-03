@@ -1,0 +1,3457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customApplications>
+        <label><!-- Simon --></label>
+        <name>Simon</name>
+    </customApplications>
+    <customLabels>
+        <label><!-- KS_Estado_Avisos_autom_ticos__c --></label>
+        <name>KS_Estado_Avisos_autom_ticos_c</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- KS_Recurrencia__c --></label>
+        <name>KS_Recurrencia_c</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- LOPD_Consiento --></label>
+        <name>LOPD_Consiento</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- LOPD_Foot_A --></label>
+        <name>LOPD_Foot_A</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- LOPD_Foot_B --></label>
+        <name>LOPD_Foot_B</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- LOPD_Head --></label>
+        <name>LOPD_Head</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- LOPD_Rechazo --></label>
+        <name>LOPD_Rechazo</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Obra --></label>
+        <name>Obra</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Oferta --></label>
+        <name>Oferta</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Oferta_Ficha --></label>
+        <name>Oferta_Ficha</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Oferta_Ficha_of --></label>
+        <name>Oferta_Ficha_of</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Oferta_Fichas --></label>
+        <name>Oferta_Fichas</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PVP --></label>
+        <name>PVP</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Productos --></label>
+        <name>Productos</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Totales --></label>
+        <name>Totales</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- fflib_security_error_field_not_insertable --></label>
+        <name>dlrs__fflib_security_error_field_not_insertable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- fflib_security_error_field_not_readable --></label>
+        <name>dlrs__fflib_security_error_field_not_readable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- fflib_security_error_field_not_updateable --></label>
+        <name>dlrs__fflib_security_error_field_not_updateable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- fflib_security_error_object_not_deletable --></label>
+        <name>dlrs__fflib_security_error_object_not_deletable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- fflib_security_error_object_not_insertable --></label>
+        <name>dlrs__fflib_security_error_object_not_insertable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- fflib_security_error_object_not_readable --></label>
+        <name>dlrs__fflib_security_error_object_not_readable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- fflib_security_error_object_not_updateable --></label>
+        <name>dlrs__fflib_security_error_object_not_updateable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ks_areusure --></label>
+        <name>ks_areusure</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ks_btn_add --></label>
+        <name>ks_btn_add</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ks_btn_aprob --></label>
+        <name>ks_btn_aprob</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ks_btn_aprobtest --></label>
+        <name>ks_btn_aprobtest</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ks_btn_buscar --></label>
+        <name>ks_btn_buscar</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ks_btn_calcular --></label>
+        <name>ks_btn_calcular</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ks_btn_cambiar --></label>
+        <name>ks_btn_cambiar</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ks_btn_cancel --></label>
+        <name>ks_btn_cancel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ks_btn_compartir --></label>
+        <name>ks_btn_compartir</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ks_btn_delete --></label>
+        <name>ks_btn_delete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ks_btn_duplicar --></label>
+        <name>ks_btn_duplicar</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ks_btn_edit --></label>
+        <name>ks_btn_edit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ks_btn_editEtapa --></label>
+        <name>ks_btn_editEtapa</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ks_btn_generar --></label>
+        <name>ks_btn_generar</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ks_btn_gestion --></label>
+        <name>ks_btn_gestion</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ks_btn_guardar --></label>
+        <name>ks_btn_guardar</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ks_btn_import --></label>
+        <name>ks_btn_import</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ks_btn_new --></label>
+        <name>ks_btn_new</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ks_btn_new_fem --></label>
+        <name>ks_btn_new_fem</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ks_btn_next --></label>
+        <name>ks_btn_next</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ks_btn_prev --></label>
+        <name>ks_btn_prev</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ks_btn_reset --></label>
+        <name>ks_btn_reset</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ks_btn_salir --></label>
+        <name>ks_btn_salir</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ks_btn_select --></label>
+        <name>ks_btn_select</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ks_btn_todos --></label>
+        <name>ks_btn_todos</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ks_btn_unlock --></label>
+        <name>ks_btn_unlock</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ks_btn_volver --></label>
+        <name>ks_btn_volver</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ks_descuento --></label>
+        <name>ks_descuento</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ks_guardar_doing --></label>
+        <name>ks_guardar_doing</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ks_importante --></label>
+        <name>ks_importante</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ks_importebruto --></label>
+        <name>ks_importebruto</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ks_importeneto --></label>
+        <name>ks_importeneto</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ks_invalidvalor --></label>
+        <name>ks_invalidvalor</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ks_marcascomerciales --></label>
+        <name>ks_marcascomerciales</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ks_navegarto --></label>
+        <name>ks_navegarto</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ks_nombre --></label>
+        <name>ks_nombre</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ks_notsaved --></label>
+        <name>ks_notsaved</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ks_saved --></label>
+        <name>ks_saved</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ks_selected --></label>
+        <name>ks_selected</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ks_selectedproducts --></label>
+        <name>ks_selectedproducts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ks_sinregistros --></label>
+        <name>ks_sinregistros</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ks_territorio --></label>
+        <name>ks_territorio</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ks_volver_doing --></label>
+        <name>ks_volver_doing</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oferta_addprod_addprodto --></label>
+        <name>oferta_addprod_addprodto</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oferta_addprod_header --></label>
+        <name>oferta_addprod_header</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oferta_addprod_help --></label>
+        <name>oferta_addprod_help</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oferta_addprod_importar --></label>
+        <name>oferta_addprod_importar</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oferta_addprod_importar_1 --></label>
+        <name>oferta_addprod_importar_1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oferta_addprod_importar_2 --></label>
+        <name>oferta_addprod_importar_2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oferta_addprod_importar_3 --></label>
+        <name>oferta_addprod_importar_3</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oferta_addprod_importar_textarea --></label>
+        <name>oferta_addprod_importar_textarea</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oferta_addprod_searchprod --></label>
+        <name>oferta_addprod_searchprod</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oferta_addprod_searchprod_1 --></label>
+        <name>oferta_addprod_searchprod_1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oferta_addprod_searchprod_2 --></label>
+        <name>oferta_addprod_searchprod_2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oferta_addprod_searchprod_3 --></label>
+        <name>oferta_addprod_searchprod_3</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oferta_addprod_searchprod_4 --></label>
+        <name>oferta_addprod_searchprod_4</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oferta_addprod_searchprod_5 --></label>
+        <name>oferta_addprod_searchprod_5</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oferta_alert_delficha --></label>
+        <name>oferta_alert_delficha</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oferta_alert_delprod --></label>
+        <name>oferta_alert_delprod</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oferta_alert_errores --></label>
+        <name>oferta_alert_errores</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oferta_alert_lineas --></label>
+        <name>oferta_alert_lineas</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oferta_alert_navegar --></label>
+        <name>oferta_alert_navegar</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oferta_enviada_title --></label>
+        <name>oferta_enviada_title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oferta_ficha_descuentoDistr --></label>
+        <name>oferta_ficha_descuentoDistr</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oferta_ficha_error --></label>
+        <name>oferta_ficha_error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oferta_ficha_howto --></label>
+        <name>oferta_ficha_howto</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oferta_ficha_howto_1 --></label>
+        <name>oferta_ficha_howto_1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oferta_ficha_howto_2 --></label>
+        <name>oferta_ficha_howto_2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oferta_ficha_howto_3 --></label>
+        <name>oferta_ficha_howto_3</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oferta_ficha_lineas_more --></label>
+        <name>oferta_ficha_lineas_more</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oferta_ficha_margenDistr --></label>
+        <name>oferta_ficha_margenDistr</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oferta_ficha_sumaPVP --></label>
+        <name>oferta_ficha_sumaPVP</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oferta_field_cantidad --></label>
+        <name>oferta_field_cantidad</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oferta_field_cantidad_min --></label>
+        <name>oferta_field_cantidad_min</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oferta_field_desc --></label>
+        <name>oferta_field_desc</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oferta_field_detalle --></label>
+        <name>oferta_field_detalle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oferta_field_distribuidor --></label>
+        <name>oferta_field_distribuidor</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oferta_field_material --></label>
+        <name>oferta_field_material</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oferta_min --></label>
+        <name>oferta_min</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oferta_pdf_contacto_1 --></label>
+        <name>oferta_pdf_contacto_1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oferta_pdf_contacto_1fluvia --></label>
+        <name>oferta_pdf_contacto_1fluvia</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oferta_pdf_contacto_2 --></label>
+        <name>oferta_pdf_contacto_2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oferta_pdf_contacto_2fluvia --></label>
+        <name>oferta_pdf_contacto_2fluvia</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oferta_pdf_contacto_3 --></label>
+        <name>oferta_pdf_contacto_3</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oferta_pdf_contacto_3fluvia --></label>
+        <name>oferta_pdf_contacto_3fluvia</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oferta_pdf_contacto_4 --></label>
+        <name>oferta_pdf_contacto_4</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oferta_pdf_contacto_4fluvia --></label>
+        <name>oferta_pdf_contacto_4fluvia</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oferta_pdf_field_adress --></label>
+        <name>oferta_pdf_field_adress</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oferta_pdf_field_asunto --></label>
+        <name>oferta_pdf_field_asunto</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oferta_pdf_field_company --></label>
+        <name>oferta_pdf_field_company</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oferta_pdf_field_fecha --></label>
+        <name>oferta_pdf_field_fecha</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oferta_pdf_field_from --></label>
+        <name>oferta_pdf_field_from</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oferta_pdf_field_pages --></label>
+        <name>oferta_pdf_field_pages</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oferta_pdf_field_to --></label>
+        <name>oferta_pdf_field_to</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oferta_pdf_gestionventas_0 --></label>
+        <name>oferta_pdf_gestionventas_0</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oferta_pdf_gestionventas_1 --></label>
+        <name>oferta_pdf_gestionventas_1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oferta_pdf_gestionventas_1fluvia --></label>
+        <name>oferta_pdf_gestionventas_1fluvia</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oferta_pdf_gestionventas_2 --></label>
+        <name>oferta_pdf_gestionventas_2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oferta_pdf_info_01 --></label>
+        <name>oferta_pdf_info_01</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oferta_pdf_info_02 --></label>
+        <name>oferta_pdf_info_02</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oferta_pdf_info_11 --></label>
+        <name>oferta_pdf_info_11</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oferta_pdf_info_12 --></label>
+        <name>oferta_pdf_info_12</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oferta_pdf_info_13 --></label>
+        <name>oferta_pdf_info_13</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oferta_pdf_info_14 --></label>
+        <name>oferta_pdf_info_14</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oferta_searchprod_header --></label>
+        <name>oferta_searchprod_header</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oferta_section_aprob --></label>
+        <name>oferta_section_aprob</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oferta_section_desc --></label>
+        <name>oferta_section_desc</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oferta_section_info --></label>
+        <name>oferta_section_info</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oferta_section_infoadd --></label>
+        <name>oferta_section_infoadd</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oferta_section_infoother --></label>
+        <name>oferta_section_infoother</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oferta_section_opdetail --></label>
+        <name>oferta_section_opdetail</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oferta_section_simulation --></label>
+        <name>oferta_section_simulation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oferta_xpress_calc_title --></label>
+        <name>oferta_xpress_calc_title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- total --></label>
+        <name>total</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- total_lower --></label>
+        <name>total_lower</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- unidad --></label>
+        <name>unidad</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- unidad_lower --></label>
+        <name>unidad_lower</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- unidad_lower_min --></label>
+        <name>unidad_lower_min</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- unidad_plrl --></label>
+        <name>unidad_plrl</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Add Field Based On --></label>
+        <name>wbsendit__Add_Field_Based_On</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Add Row --></label>
+        <name>wbsendit__Add_Row</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Advanced Settings Account Triiger --></label>
+        <name>wbsendit__Advanced_Settings_Account_Trigger</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Advanced Settings Add Page Layouts --></label>
+        <name>wbsendit__Advanced_Settings_Add_Page_Layouts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Advanced Settings All Actions --></label>
+        <name>wbsendit__Advanced_Settings_All_Actions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Advanced Settings Bulk Actions --></label>
+        <name>wbsendit__Advanced_Settings_Bulk_Actions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Advanced Settings Bulk Autoresponders --></label>
+        <name>wbsendit__Advanced_Settings_Bulk_Autoresponders</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Advanced Settings Clean Page Layouts --></label>
+        <name>wbsendit__Advanced_Settings_Clean_Page_Layouts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Advanced Settings Configuration Data --></label>
+        <name>wbsendit__Advanced_Settings_Configuration_Data</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Advanced Settings Header --></label>
+        <name>wbsendit__Advanced_Settings_Header</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Advanced Settings Members --></label>
+        <name>wbsendit__Advanced_Settings_Members</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Advanced Settings No --></label>
+        <name>wbsendit__Advanced_Settings_No</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Advanced Settings Remove Page Layouts --></label>
+        <name>wbsendit__Advanced_Settings_Remove_Page_Layouts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Advanced Settings Run --></label>
+        <name>wbsendit__Advanced_Settings_Run</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Advanced Settings Tracking Data --></label>
+        <name>wbsendit__Advanced_Settings_Tracking_Data</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Advanced Settings Unavailable --></label>
+        <name>wbsendit__Advanced_Settings_Unavailable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Advanced Settings Updating Page Layouts --></label>
+        <name>wbsendit__Advanced_Settings_Updating_Page_Layouts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Advanced Settings Yes --></label>
+        <name>wbsendit__Advanced_Settings_Yes</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Apply Lists --></label>
+        <name>wbsendit__Apply_Lists</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Premium Message --></label>
+        <name>wbsendit__AutoSubs_Premium_Message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Upgrade Now --></label>
+        <name>wbsendit__AutoSubs_Upgrade_Now</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Back --></label>
+        <name>wbsendit__Back</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- $1000 USD --></label>
+        <name>wbsendit__Billing_1000_USD</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- $100 USD --></label>
+        <name>wbsendit__Billing_100_USD</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- $150 USD --></label>
+        <name>wbsendit__Billing_150_USD</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- $15 USD --></label>
+        <name>wbsendit__Billing_15_USD</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- $200 USD --></label>
+        <name>wbsendit__Billing_200_USD</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- $250 USD --></label>
+        <name>wbsendit__Billing_250_USD</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- $25 USD --></label>
+        <name>wbsendit__Billing_25_USD</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- $300 USD --></label>
+        <name>wbsendit__Billing_300_USD</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- $40 USD --></label>
+        <name>wbsendit__Billing_40_USD</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- $450 USD --></label>
+        <name>wbsendit__Billing_450_USD</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- $550 USD --></label>
+        <name>wbsendit__Billing_550_USD</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- $650 USD --></label>
+        <name>wbsendit__Billing_650_USD</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- $65 USD --></label>
+        <name>wbsendit__Billing_65_USD</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- $775 USD --></label>
+        <name>wbsendit__Billing_775_USD</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- $875 USD --></label>
+        <name>wbsendit__Billing_875_USD</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- $8 USD --></label>
+        <name>wbsendit__Billing_8_USD</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Active Subscribers --></label>
+        <name>wbsendit__Billing_Active_Subscribers</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Annual Cost --></label>
+        <name>wbsendit__Billing_Annual_Cost</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Band 10000 --></label>
+        <name>wbsendit__Billing_Band_10000</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Band 100000 --></label>
+        <name>wbsendit__Billing_Band_100000</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Band 15000 --></label>
+        <name>wbsendit__Billing_Band_15000</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Band 150000 --></label>
+        <name>wbsendit__Billing_Band_150000</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Band 200000 --></label>
+        <name>wbsendit__Billing_Band_200000</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Band 2500 --></label>
+        <name>wbsendit__Billing_Band_2500</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Band 25000 --></label>
+        <name>wbsendit__Billing_Band_25000</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Band 250000 --></label>
+        <name>wbsendit__Billing_Band_250000</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Band 300000 --></label>
+        <name>wbsendit__Billing_Band_300000</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Band 350000 --></label>
+        <name>wbsendit__Billing_Band_350000</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Band 400000 --></label>
+        <name>wbsendit__Billing_Band_400000</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Band 500 --></label>
+        <name>wbsendit__Billing_Band_500</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Band 5000 --></label>
+        <name>wbsendit__Billing_Band_5000</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Band 50000 --></label>
+        <name>wbsendit__Billing_Band_50000</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Band 500000 --></label>
+        <name>wbsendit__Billing_Band_500000</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Band 550000 --></label>
+        <name>wbsendit__Billing_Band_550000</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Band 75000 --></label>
+        <name>wbsendit__Billing_Band_75000</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Billing Contact --></label>
+        <name>wbsendit__Billing_Contact</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Contact Us --></label>
+        <name>wbsendit__Billing_Contact_Us</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Current Band --></label>
+        <name>wbsendit__Billing_Current_Band</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Billing Header --></label>
+        <name>wbsendit__Billing_Header</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Action --></label>
+        <name>wbsendit__Billing_Invoice_Action</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Amount --></label>
+        <name>wbsendit__Billing_Invoice_Amount</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Invoice Date --></label>
+        <name>wbsendit__Billing_Invoice_Date</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Invoice Number --></label>
+        <name>wbsendit__Billing_Invoice_Number</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Recipient --></label>
+        <name>wbsendit__Billing_Invoice_Recipient</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Licence Type --></label>
+        <name>wbsendit__Billing_Licence_Type</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Monthly Cost --></label>
+        <name>wbsendit__Billing_Monthly_Cost</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Resend Invoice --></label>
+        <name>wbsendit__Billing_Resend_Invoice</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Trial Message --></label>
+        <name>wbsendit__Billing_Trial</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CM Campaign Processing --></label>
+        <name>wbsendit__CM_Campaign_Processing</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CM Campaign Refresh Processing --></label>
+        <name>wbsendit__CM_Campaign_Refresh_Processing</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CM Campaign Refresh Start --></label>
+        <name>wbsendit__CM_Campaign_Refresh_Start</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CM Campaign Start --></label>
+        <name>wbsendit__CM_Campaign_Start</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CM Campaign Stats Processing --></label>
+        <name>wbsendit__CM_Campaign_Stats_Processing</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CM Campaign Stats Start --></label>
+        <name>wbsendit__CM_Campaign_Stats_Start</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CM Config Processing --></label>
+        <name>wbsendit__CM_Config_Processing</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CM Config Start --></label>
+        <name>wbsendit__CM_Config_Start</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CM Email Opt Out Processing --></label>
+        <name>wbsendit__CM_Email_Opt_Out_Processing</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CM Email Opt Out Start --></label>
+        <name>wbsendit__CM_Email_Opt_Out_Start</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CM Subscriber Processing --></label>
+        <name>wbsendit__CM_Subscriber_Processing</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CM Subscriber Start --></label>
+        <name>wbsendit__CM_Subscriber_Start</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CM Subscriber Stats Processing --></label>
+        <name>wbsendit__CM_Subscriber_Stats_Processing</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CM Subscriber Stats Start --></label>
+        <name>wbsendit__CM_Subscriber_Stats_Start</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Campaign Settings Always --></label>
+        <name>wbsendit__Campaign_Settings_Always</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Campaign Settings Auto Create --></label>
+        <name>wbsendit__Campaign_Settings_Auto_Create</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Campaign Settings CM Activity --></label>
+        <name>wbsendit__Campaign_Settings_CM_Activity</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Campaign Settings Header --></label>
+        <name>wbsendit__Campaign_Settings_Header</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Campaign Settings Never --></label>
+        <name>wbsendit__Campaign_Settings_Never</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Campaign Settings No --></label>
+        <name>wbsendit__Campaign_Settings_No</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Campaign Settings Once --></label>
+        <name>wbsendit__Campaign_Settings_Once</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Campaign Settings Refresh --></label>
+        <name>wbsendit__Campaign_Settings_Refresh</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Campaign Settings Responded --></label>
+        <name>wbsendit__Campaign_Settings_Responded</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Campaign Settings SFDC Status --></label>
+        <name>wbsendit__Campaign_Settings_SFDC_Status</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Campaign Settings Update Campaigns --></label>
+        <name>wbsendit__Campaign_Settings_Update_Campaigns</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Campaign Settings Yes --></label>
+        <name>wbsendit__Campaign_Settings_Yes</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cancel --></label>
+        <name>wbsendit__Cancel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Contact --></label>
+        <name>wbsendit__Contact</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Only create subscribers, do not update --></label>
+        <name>wbsendit__Create_Only</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Default Contact --></label>
+        <name>wbsendit__Default_Contact</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Default Field Too Long --></label>
+        <name>wbsendit__Default_Field_Too_Long</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Default Lead --></label>
+        <name>wbsendit__Default_Lead</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Delete Field --></label>
+        <name>wbsendit__Delete_Field</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Delete Field Mapping --></label>
+        <name>wbsendit__Delete_Field_Mapping</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Edit Link --></label>
+        <name>wbsendit__Edit_Link</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Email Activity Clicked --></label>
+        <name>wbsendit__Email_Activity_Clicked</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Email Activity Clicked Assistive --></label>
+        <name>wbsendit__Email_Activity_Clicked_Assistive</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Email Activity IPAddress --></label>
+        <name>wbsendit__Email_Activity_IPAddress</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Email Activity Location --></label>
+        <name>wbsendit__Email_Activity_Location</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Email Activity Location Unknown --></label>
+        <name>wbsendit__Email_Activity_Location_Unknown</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Email Activity No Message --></label>
+        <name>wbsendit__Email_Activity_No_Mesage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Email Activity Opened --></label>
+        <name>wbsendit__Email_Activity_Opened</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Email Activity Opened Assistive --></label>
+        <name>wbsendit__Email_Activity_Opened_Assistive</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Email Activity Sent --></label>
+        <name>wbsendit__Email_Activity_Sent</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Email Activity Sent Assistive --></label>
+        <name>wbsendit__Email_Activity_Sent_Assistive</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Email System --></label>
+        <name>wbsendit__Email_System</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error Creating Field --></label>
+        <name>wbsendit__Error_Creating_Field</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error Data Storage --></label>
+        <name>wbsendit__Error_Data_Storage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error Generic --></label>
+        <name>wbsendit__Error_Generic</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Example Contact --></label>
+        <name>wbsendit__Example_Contact</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Example Lead --></label>
+        <name>wbsendit__Example_Lead</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Failed --></label>
+        <name>wbsendit__Failed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Failed Report Import --></label>
+        <name>wbsendit__Failed_Import_Report</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Campaign Monitor Field --></label>
+        <name>wbsendit__FieldMapping_CampaignMonitorField</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Clone Mappings --></label>
+        <name>wbsendit__FieldMapping_CloneHeader</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Field Mappings Clone header tagline --></label>
+        <name>wbsendit__FieldMapping_CloneHeaderTagline</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Contact --></label>
+        <name>wbsendit__FieldMapping_Contact</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Contact Field --></label>
+        <name>wbsendit__FieldMapping_ContactField</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Create Campaign Monitor Field --></label>
+        <name>wbsendit__FieldMapping_CreateCampaignMonitorField</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Default Value --></label>
+        <name>wbsendit__FieldMapping_Default_Value</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Delete unmapped fields from Campaign Monitor --></label>
+        <name>wbsendit__FieldMapping_DeleteUnmappedFields</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Email Label --></label>
+        <name>wbsendit__FieldMapping_Email_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Full Name --></label>
+        <name>wbsendit__FieldMapping_Full_Name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Header --></label>
+        <name>wbsendit__FieldMapping_Header</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Help for this Page --></label>
+        <name>wbsendit__FieldMapping_Help_for_this_Page</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Lead --></label>
+        <name>wbsendit__FieldMapping_Lead</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Lead Field --></label>
+        <name>wbsendit__FieldMapping_LeadField</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Name Label --></label>
+        <name>wbsendit__FieldMapping_Name_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Next --></label>
+        <name>wbsendit__FieldMapping_Next</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Premium Message --></label>
+        <name>wbsendit__FieldMapping_Premium_Message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Setup Free Integration --></label>
+        <name>wbsendit__FieldMapping_Setup_Free_Integration</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Subscriber List --></label>
+        <name>wbsendit__FieldMapping_Subscriber_List</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Subscriber Lists --></label>
+        <name>wbsendit__FieldMapping_Subscriber_Lists</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Sync Direction --></label>
+        <name>wbsendit__FieldMapping_SyncDirection</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Upgrade Now --></label>
+        <name>wbsendit__FieldMapping_Upgrade_Now</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- General Setting Account Contact Trigger --></label>
+        <name>wbsendit__General_Setting_AccountContactTrigger</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- General Setting Chatter --></label>
+        <name>wbsendit__General_Setting_Chatter</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- General Settings All Lists Opt Out --></label>
+        <name>wbsendit__General_Settings_All_Lists_Opt_Out</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- General Settings All Lists Opt Out --></label>
+        <name>wbsendit__General_Settings_All_Lists_Opt_Out_Exclude_Deleted</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- General Settings All Lists Opt Out --></label>
+        <name>wbsendit__General_Settings_All_Lists_Opt_Out_Only_Use_Unsubscribed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- General Settings CM Tabs --></label>
+        <name>wbsendit__General_Settings_CM_Tabs</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- General Settings Delete --></label>
+        <name>wbsendit__General_Settings_Delete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- General Settings Delete on Empty Email --></label>
+        <name>wbsendit__General_Settings_Delete_Empty_Email</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- General Settings Header --></label>
+        <name>wbsendit__General_Settings_Header</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Enable support for Non-Profit Pack --></label>
+        <name>wbsendit__General_Settings_NP</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- General Settings No --></label>
+        <name>wbsendit__General_Settings_No</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- General Settings Opt Out No Add --></label>
+        <name>wbsendit__General_Settings_Opt_Out_No_Add</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- General Settings Opt Out Unsubscribe --></label>
+        <name>wbsendit__General_Settings_Opt_Out_Unsubscribe</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Resubscribe Deleted Subscribers when using the Import Wizard --></label>
+        <name>wbsendit__General_Settings_Reenable_Delete_On_Imports</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- General Settings Yes --></label>
+        <name>wbsendit__General_Settings_Yes</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Help Header --></label>
+        <name>wbsendit__Help_Header</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Help Url Advanced Settings --></label>
+        <name>wbsendit__Help_Url_Advanced_Settings</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Help Url Billing Settings --></label>
+        <name>wbsendit__Help_Url_Billing_Settings</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Help Url General Options --></label>
+        <name>wbsendit__Help_Url_General_Options</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Help Url Messages --></label>
+        <name>wbsendit__Help_Url_Messages</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Help Url Salesforce Campaigns --></label>
+        <name>wbsendit__Help_Url_Salesforce_Campaigns</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Help Url Smart Email --></label>
+        <name>wbsendit__Help_Url_Smart_Email</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Help Url Smart Email Template --></label>
+        <name>wbsendit__Help_Url_Smart_Email_Template</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Help Url Smart Email View --></label>
+        <name>wbsendit__Help_Url_Smart_Email_View</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Help Url Sync Settings --></label>
+        <name>wbsendit__Help_Url_Sync_Settings</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Help Url Tracking Data --></label>
+        <name>wbsendit__Help_Url_Tracking_Data</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Invalid Date --></label>
+        <name>wbsendit__Invalid_Date</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Invalid ID --></label>
+        <name>wbsendit__Invalid_ID</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Invalid Number --></label>
+        <name>wbsendit__Invalid_Number</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Lead --></label>
+        <name>wbsendit__Lead</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Premium Package Link --></label>
+        <name>wbsendit__Link_Premium_Package_Link</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Load Mappings --></label>
+        <name>wbsendit__Load_Mappings</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Loading --></label>
+        <name>wbsendit__Loading</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Map MS to SF --></label>
+        <name>wbsendit__Map_MS_to_SF</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Map SF to MS --></label>
+        <name>wbsendit__Map_SF_to_MS</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message Detail --></label>
+        <name>wbsendit__Message_Detail</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message Settings Code --></label>
+        <name>wbsendit__Message_Settings_Code</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message Settings Date --></label>
+        <name>wbsendit__Message_Settings_Date</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message Settings Message --></label>
+        <name>wbsendit__Message_Settings_Message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message Header --></label>
+        <name>wbsendit__Messages_Header</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Modal Cancel Label --></label>
+        <name>wbsendit__Modal_Cancel_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Okay --></label>
+        <name>wbsendit__Modal_OK_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Multiple Clients Premium Message --></label>
+        <name>wbsendit__Multiple_Clients_Premium_Message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- New Sub Contact --></label>
+        <name>wbsendit__New_Sub_Contact</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- New Sub Lead --></label>
+        <name>wbsendit__New_Sub_Lead</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- New Sub None --></label>
+        <name>wbsendit__New_Sub_None</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- New Subscriber Rule --></label>
+        <name>wbsendit__New_Subscriber_Rule</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- None Selected --></label>
+        <name>wbsendit__None</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Reached Custom Field Limit --></label>
+        <name>wbsendit__Reached_Custom_Field_Limit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Refresh Subscribers Processing --></label>
+        <name>wbsendit__Refresh_Subscribers_Processing</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Refresh Subscribers Start --></label>
+        <name>wbsendit__Refresh_Subscribers_Start</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Related Field Update --></label>
+        <name>wbsendit__Related_Field_Update</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Required Mapping Field --></label>
+        <name>wbsendit__Required_Mapping_Field</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Restricted Mapping Field --></label>
+        <name>wbsendit__Restricted_Mapping_Field</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Retrospective Save --></label>
+        <name>wbsendit__Retrospective_Save</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Save --></label>
+        <name>wbsendit__Save</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Select --></label>
+        <name>wbsendit__Select</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Select Link --></label>
+        <name>wbsendit__Select_Link</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Select a Field --></label>
+        <name>wbsendit__Select_a_Field</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Campaign Monitor for Salesforce --></label>
+        <name>wbsendit__SendIT_Header</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Campaign Monitor for Salesforce Settings --></label>
+        <name>wbsendit__SendIT_Settings_Header</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Settings Add Page Layouts --></label>
+        <name>wbsendit__Settings_Add_Page_Layouts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Settings No Permissions --></label>
+        <name>wbsendit__Settings_No_Permissions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Settings Not Saved --></label>
+        <name>wbsendit__Settings_Not_Saved</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Settings Remove Page Layouts --></label>
+        <name>wbsendit__Settings_Remove_Page_Layouts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Settings Reset Config --></label>
+        <name>wbsendit__Settings_Reset_Config</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Settings Reset Subscribers --></label>
+        <name>wbsendit__Settings_Reset_Subscribers</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Settings Reset Tracking Data --></label>
+        <name>wbsendit__Settings_Reset_Tracking_Data</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- All Done Message --></label>
+        <name>wbsendit__SetupWizard_All_Done_Message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Auto Add Components --></label>
+        <name>wbsendit__SetupWizard_Auto_Add_Components</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- By Label --></label>
+        <name>wbsendit__SetupWizard_By_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Connect --></label>
+        <name>wbsendit__SetupWizard_Connect</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Connect to Salesforce --></label>
+        <name>wbsendit__SetupWizard_Connect_to_Salesforce</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Disable Sync --></label>
+        <name>wbsendit__SetupWizard_Disable_Sync</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Enable Sync --></label>
+        <name>wbsendit__SetupWizard_Enable_Sync</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Finalising Connection --></label>
+        <name>wbsendit__SetupWizard_Finalising_Connection</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Finish --></label>
+        <name>wbsendit__SetupWizard_Finish</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Next --></label>
+        <name>wbsendit__SetupWizard_Next</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Setup Free Integration --></label>
+        <name>wbsendit__SetupWizard_Setup_Free_Integration</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Skip --></label>
+        <name>wbsendit__SetupWizard_Skip</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Start --></label>
+        <name>wbsendit__SetupWizard_Start</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Sync Data --></label>
+        <name>wbsendit__SetupWizard_Sync_Data</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Update Page Layouts --></label>
+        <name>wbsendit__SetupWizard_Update_Page_Layouts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Updating Page Layouts --></label>
+        <name>wbsendit__SetupWizard_Updating_Page_Layouts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Smart Contains --></label>
+        <name>wbsendit__Smart_Contains</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Smart Email Action Clone --></label>
+        <name>wbsendit__Smart_Email_Action_Clone</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Smart Email Action Copy Id --></label>
+        <name>wbsendit__Smart_Email_Action_Copy_Id</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Smart Email Action Delete --></label>
+        <name>wbsendit__Smart_Email_Action_Delete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Smart Email Action Delete Confirm --></label>
+        <name>wbsendit__Smart_Email_Action_Delete_Confirm</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Smart Email Action Edit --></label>
+        <name>wbsendit__Smart_Email_Action_Edit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Smart Email Action Label --></label>
+        <name>wbsendit__Smart_Email_Action_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Smart Email Action Send --></label>
+        <name>wbsendit__Smart_Email_Action_Send</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Smart Email Action Send More --></label>
+        <name>wbsendit__Smart_Email_Action_Send_More</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Smart Email Action Sent --></label>
+        <name>wbsendit__Smart_Email_Action_Sent</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Smart Email Add Recipient --></label>
+        <name>wbsendit__Smart_Email_Add_Recipient</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Smart Email Ascending --></label>
+        <name>wbsendit__Smart_Email_Ascending</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Smart Email DateTime Placeholder --></label>
+        <name>wbsendit__Smart_Email_DateTime_Placeholder</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Smart Email Date Placeholder --></label>
+        <name>wbsendit__Smart_Email_Date_Placeholder</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Smart Email Descending --></label>
+        <name>wbsendit__Smart_Email_Descending</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Smart Email False --></label>
+        <name>wbsendit__Smart_Email_False</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Smart Email Field Mappings --></label>
+        <name>wbsendit__Smart_Email_Field_Mappings</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Smart Email Filter Filter --></label>
+        <name>wbsendit__Smart_Email_Filter_Filter</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Smart Email Filter Header --></label>
+        <name>wbsendit__Smart_Email_Filter_Header</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Smart Email Filter Logic --></label>
+        <name>wbsendit__Smart_Email_Filter_Logic</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Smart Email Filter Row --></label>
+        <name>wbsendit__Smart_Email_Filter_Row</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Smart Email Filter Sort --></label>
+        <name>wbsendit__Smart_Email_Filter_Sort</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Smart Email Header Email Field --></label>
+        <name>wbsendit__Smart_Email_Header_Email_Field</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Smart Email header Example --></label>
+        <name>wbsendit__Smart_Email_Header_Example</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Smart Email Header Field --></label>
+        <name>wbsendit__Smart_Email_Header_SF_Field</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Smart Email Id Copy --></label>
+        <name>wbsendit__Smart_Email_Id_Copy</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Smart Email Premium Message --></label>
+        <name>wbsendit__Smart_Email_Premium_Message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Smart Email Recipient Type Reference --></label>
+        <name>wbsendit__Smart_Email_Recipient_Type_Reference</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Smart Email Recipient Type Text --></label>
+        <name>wbsendit__Smart_Email_Recipient_Type_Text</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Smart Email Recipients Category --></label>
+        <name>wbsendit__Smart_Email_Recipients_Category</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Smart Email Recipients Title --></label>
+        <name>wbsendit__Smart_Email_Recipients_Title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Smart Email Recipients Type --></label>
+        <name>wbsendit__Smart_Email_Recipients_Type</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Smart Email Recipients Value --></label>
+        <name>wbsendit__Smart_Email_Recipients_Value</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Smart Email Recipients Value BCC --></label>
+        <name>wbsendit__Smart_Email_Recipients_Value_BCC</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Smart Email Recipients Value CC --></label>
+        <name>wbsendit__Smart_Email_Recipients_Value_CC</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Smart Email Recipients Value To --></label>
+        <name>wbsendit__Smart_Email_Recipients_Value_To</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Smart Email Select Object --></label>
+        <name>wbsendit__Smart_Email_Select_Object</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Smart Email Template Action Delete --></label>
+        <name>wbsendit__Smart_Email_Template_Action_Delete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Smart Email Template Action Edit --></label>
+        <name>wbsendit__Smart_Email_Template_Action_Edit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Smart Email Template Action Header --></label>
+        <name>wbsendit__Smart_Email_Template_Action_Header</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Smart Email Template New Mappings --></label>
+        <name>wbsendit__Smart_Email_Template_New_Mappings</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Smart Email True --></label>
+        <name>wbsendit__Smart_Email_True</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Smart Email Upgrade Now --></label>
+        <name>wbsendit__Smart_Email_Upgrade_Now</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Smart Ends With --></label>
+        <name>wbsendit__Smart_Ends_With</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Smart Equals --></label>
+        <name>wbsendit__Smart_Equals</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Smart Greater --></label>
+        <name>wbsendit__Smart_Greater</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Smart Greater Equals --></label>
+        <name>wbsendit__Smart_Greater_Equals</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Smart Less --></label>
+        <name>wbsendit__Smart_Less</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Smart Less Equals --></label>
+        <name>wbsendit__Smart_Less_Equals</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Smart Not Equals --></label>
+        <name>wbsendit__Smart_Not_Equals</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Smart Null --></label>
+        <name>wbsendit__Smart_Null</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Smart Refresh Processing --></label>
+        <name>wbsendit__Smart_Refresh_Processing</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Smart Refresh Start --></label>
+        <name>wbsendit__Smart_Refresh_Start</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Smart Select One --></label>
+        <name>wbsendit__Smart_Select_One</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Smart Starts With --></label>
+        <name>wbsendit__Smart_Starts_With</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Standard Mapped Field --></label>
+        <name>wbsendit__Standard_Mapped_Field</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Subscriber_List_Detail --></label>
+        <name>wbsendit__Subscriber_List_Detail</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Subscriber List Does Not Exist --></label>
+        <name>wbsendit__Subscriber_List_Does_Not_Exist</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Subscriber_List_Header --></label>
+        <name>wbsendit__Subscriber_List_Header</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Subscriber_List_New --></label>
+        <name>wbsendit__Subscriber_List_New</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Subscriber List Not Setup --></label>
+        <name>wbsendit__Subscriber_List_Not_Setup</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Active --></label>
+        <name>wbsendit__Subscriber_Status_Active</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Unsubscribed --></label>
+        <name>wbsendit__Subscriber_Status_Unsubscribed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Success --></label>
+        <name>wbsendit__Success</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Add Contacts or Leads --></label>
+        <name>wbsendit__SupportLink_Add_Contacts_or_Leads</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Campaign Monitor for Salesforce admin console --></label>
+        <name>wbsendit__SupportLink_Admin_Settings</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Campaign Monitor for Salesforce admin console - Advanced Settings --></label>
+        <name>wbsendit__SupportLink_Admin_Settings_Advanced</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Campaign Monitor for Salesforce admin console - Billing --></label>
+        <name>wbsendit__SupportLink_Admin_Settings_Billing</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Campaign Monitor for Salesforce admin console - General Settings --></label>
+        <name>wbsendit__SupportLink_Admin_Settings_General</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Bulk Import Subscriber --></label>
+        <name>wbsendit__SupportLink_Bulk_Import_Subscriber</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Campaign Settings --></label>
+        <name>wbsendit__SupportLink_Campaign_Settings</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Connect --></label>
+        <name>wbsendit__SupportLink_Connect</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Create Lead or Contact --></label>
+        <name>wbsendit__SupportLink_Create_Lead_or_Contact</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Field Mappings Help Link --></label>
+        <name>wbsendit__SupportLink_Field_Mappings_Help_Link</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- General Setup --></label>
+        <name>wbsendit__SupportLink_General_Setup</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Generic Support --></label>
+        <name>wbsendit__SupportLink_Generic_Support</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Link Campaign --></label>
+        <name>wbsendit__SupportLink_Link_Campaign</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Maintenance Settings --></label>
+        <name>wbsendit__SupportLink_Maintenance_Settings</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Map Statuses --></label>
+        <name>wbsendit__SupportLink_Map_Statuses</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Membership Detail --></label>
+        <name>wbsendit__SupportLink_Membership_Detail</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Premium Features Link --></label>
+        <name>wbsendit__SupportLink_Premium_Features_Link</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Setup Auto Subscriptions --></label>
+        <name>wbsendit__SupportLink_Setup_Auto_Subscriptions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Setup a Subscriber List --></label>
+        <name>wbsendit__SupportLink_Setup_a_Subscriber_List</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Help Url Smart Email --></label>
+        <name>wbsendit__SupportLink_Smart_Email</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Help Url Sync Settings --></label>
+        <name>wbsendit__SupportLink_Sync_Settings</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Help Url Tracking Data --></label>
+        <name>wbsendit__SupportLink_Tracking_Data</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Troubleshooting Campaign Monitor for Salesforce --></label>
+        <name>wbsendit__SupportLink_Trouble_Shooting</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Unsubscribe --></label>
+        <name>wbsendit__SupportLink_Unsubscribe</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Upgrade Help --></label>
+        <name>wbsendit__SupportLink_Upgrade_Help</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Switch Mapping Message --></label>
+        <name>wbsendit__Switch_Mapping_Warning</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Sync Settings Connect --></label>
+        <name>wbsendit__Sync_Settings_Connect</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Sync Settings Connected As --></label>
+        <name>wbsendit__Sync_Settings_Connected_As</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Sync Settings Disable All Actions --></label>
+        <name>wbsendit__Sync_Settings_Disable_All_Actions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Sync Settings Disconnect --></label>
+        <name>wbsendit__Sync_Settings_Disconnect</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Sync Settings Frequency Daily --></label>
+        <name>wbsendit__Sync_Settings_Frequency_Daily</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Sync Settings Frequency Hourly --></label>
+        <name>wbsendit__Sync_Settings_Frequency_Hourly</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Sync Settings Frequency Monthly --></label>
+        <name>wbsendit__Sync_Settings_Frequency_Monthly</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Sync Settings Frequency Never --></label>
+        <name>wbsendit__Sync_Settings_Frequency_Never</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Sync Settings Frequency Weekly --></label>
+        <name>wbsendit__Sync_Settings_Frequency_Weekly</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Sync_Settings_Header --></label>
+        <name>wbsendit__Sync_Settings_Header</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Sync Settings Last Run Header --></label>
+        <name>wbsendit__Sync_Settings_Last_Run_Header</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Sync Settings Never Run --></label>
+        <name>wbsendit__Sync_Settings_Never_Run</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Sync Settings Next Run Header --></label>
+        <name>wbsendit__Sync_Settings_Next_Run_Header</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Sync Settings Not Scheduled --></label>
+        <name>wbsendit__Sync_Settings_Not_Scheduled</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Sync Settings Run --></label>
+        <name>wbsendit__Sync_Settings_Run</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Sync Settings Subscriber Header --></label>
+        <name>wbsendit__Sync_Settings_Subscriber_Header</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Sync Settings Subscriber Header Premium --></label>
+        <name>wbsendit__Sync_Settings_Subscriber_Header_Premium</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Sync Settings Too Many Jobs --></label>
+        <name>wbsendit__Sync_Settings_Too_Many_Jobs</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Sync Smart Emails --></label>
+        <name>wbsendit__Sync_Smart_Emails</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Sync Smart Emails Close --></label>
+        <name>wbsendit__Sync_Smart_Emails_Close</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Too many schedules running. Unable to start another scheduler. --></label>
+        <name>wbsendit__Too_Many_Schedules</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Tooltip Apply Lists --></label>
+        <name>wbsendit__Tooltip_Apply_Lists</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Tooltip Delete Field --></label>
+        <name>wbsendit__Tooltip_Delete_Field</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Tooltip New Sub Rules --></label>
+        <name>wbsendit__Tooltip_New_Sub_Rules</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Tracking Data Bounced --></label>
+        <name>wbsendit__Tracking_Data_Bounced</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Tracking Data Clicked --></label>
+        <name>wbsendit__Tracking_Data_Clicked</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Tracking Data Days To Keep --></label>
+        <name>wbsendit__Tracking_Data_Days_To_Keep</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Tracking Data Free --></label>
+        <name>wbsendit__Tracking_Data_Free</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Tracking Data Header --></label>
+        <name>wbsendit__Tracking_Data_Header</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Tracking Data Opened --></label>
+        <name>wbsendit__Tracking_Data_Opened</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Tracking Data Other Data --></label>
+        <name>wbsendit__Tracking_Data_Other_Data</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Tracking Data Premium Message --></label>
+        <name>wbsendit__Tracking_Data_Premium_Message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Tracking Data Restrict By Type --></label>
+        <name>wbsendit__Tracking_Data_Restrict_By_Type</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Tracking Data Sent --></label>
+        <name>wbsendit__Tracking_Data_Sent</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Tracking Data Sync Everything --></label>
+        <name>wbsendit__Tracking_Data_Sync_Everything</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Tracking Data Sync Nothing --></label>
+        <name>wbsendit__Tracking_Data_Sync_Nothing</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Tracking Data Sync Selective --></label>
+        <name>wbsendit__Tracking_Data_Sync_Selective</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Tracking Data Total Space --></label>
+        <name>wbsendit__Tracking_Data_Total_Space</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Tracking Data sendIT Data --></label>
+        <name>wbsendit__Tracking_Data_sendIT_Data</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Buy Now --></label>
+        <name>wbsendit__UpgradeWizard_Buy_Now</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Help for this Page --></label>
+        <name>wbsendit__UpgradeWizard_Help_for_this_Page</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Install Package Permissions --></label>
+        <name>wbsendit__UpgradeWizard_Install_Package_Permissions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Install Step --></label>
+        <name>wbsendit__UpgradeWizard_Install_Step</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Installing premium --></label>
+        <name>wbsendit__UpgradeWizard_Installing_premium</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Premium Features --></label>
+        <name>wbsendit__UpgradeWizard_Premium_Features</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Premium Tooltip --></label>
+        <name>wbsendit__UpgradeWizard_Premium_Tooltip</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Preparing Installation --></label>
+        <name>wbsendit__UpgradeWizard_Preparing_Installation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Purchase Step --></label>
+        <name>wbsendit__UpgradeWizard_Purchase_Step</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Read More Here --></label>
+        <name>wbsendit__UpgradeWizard_Read_More_Here</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Refresh --></label>
+        <name>wbsendit__UpgradeWizard_Refresh</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SFDC Confirmation Email --></label>
+        <name>wbsendit__UpgradeWizard_SFDC_Confirmation_Email</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Thanks for Purchasing --></label>
+        <name>wbsendit__UpgradeWizard_Thanks_for_Purchasing</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Upgrade --></label>
+        <name>wbsendit__UpgradeWizard_Upgrade</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Upgrade to Premium Header --></label>
+        <name>wbsendit__UpgradeWizard_Upgrade_to_Premium_Header</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- fflib_security_error_field_not_insertable --></label>
+        <name>wbsendit__fflib_security_error_field_not_insertable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- fflib_security_error_field_not_readable --></label>
+        <name>wbsendit__fflib_security_error_field_not_readable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- fflib_security_error_field_not_updateable --></label>
+        <name>wbsendit__fflib_security_error_field_not_updateable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- fflib_security_error_object_not_deletable --></label>
+        <name>wbsendit__fflib_security_error_object_not_deletable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- fflib_security_error_object_not_insertable --></label>
+        <name>wbsendit__fflib_security_error_object_not_insertable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- fflib_security_error_object_not_readable --></label>
+        <name>wbsendit__fflib_security_error_object_not_readable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- fflib_security_error_object_not_updateable --></label>
+        <name>wbsendit__fflib_security_error_object_not_updateable</name>
+    </customLabels>
+    <customTabs>
+        <label><!-- Dupon --></label>
+        <name>Dupon</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Herramienta Merge --></label>
+        <name>Herramienta_Merge</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Distribuidores --></label>
+        <name>KS_Distribuidores</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Procesos --></label>
+        <name>Procesos</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Calculadora --></label>
+        <name>Quotes_express_Calculator</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Videotutorial --></label>
+        <name>Videotutorial</name>
+    </customTabs>
+    <flowDefinitions>
+        <flows>
+            <fullName>KS_EmailSendTest-1</fullName>
+            <textTemplates>
+                <name>Aceptacion</name>
+            </textTemplates>
+            <textTemplates>
+                <name>Rechazo</name>
+            </textTemplates>
+        </flows>
+        <fullName>KS_EmailSendTest</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>CambioPropietario-12</fullName>
+        </flows>
+        <fullName>CambioPropietario</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>PropietarioContactoCuenta-3</fullName>
+        </flows>
+        <fullName>PropietarioContactoCuenta</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>Generador_de_Visitas_365_TRUE-3</fullName>
+        </flows>
+        <fullName>Generador_de_Visitas_365_TRUE</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>ScoringIFCuentaOC-9</fullName>
+        </flows>
+        <fullName>ScoringIFCuentaOC</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>SIMON_Copiar_Nombre_Comercial_a_nombre_fiscal-3</fullName>
+        </flows>
+        <fullName>SIMON_Copiar_Nombre_Comercial_a_nombre_fiscal</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>Generador_de_Visitas-8</fullName>
+        </flows>
+        <fullName>Generador_de_Visitas</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>SIMON_Alinear_Propietario_Contactos_Cuenta-2</fullName>
+        </flows>
+        <fullName>SIMON_Alinear_Propietario_Contactos_Cuenta</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>LEAD_Actualizar_Direcci_n-6</fullName>
+        </flows>
+        <fullName>LEAD_Actualizar_Direcci_n</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>Generador_de_Visitas_30_TRUE-3</fullName>
+        </flows>
+        <fullName>Generador_de_Visitas_30_TRUE</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>Avanzar_Lead_a_Cuenta-3</fullName>
+        </flows>
+        <fullName>Avanzar_Lead_a_Cuenta</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>PasivarContacto-7</fullName>
+        </flows>
+        <fullName>PasivarContacto</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>MassUpdateOCs-1</fullName>
+            <screens>
+                <fields>
+                    <name>ErrorMessage</name>
+                </fields>
+                <name>ErrorMSG</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>Success_message</name>
+                </fields>
+                <name>SuccessMSG</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>Marca</name>
+                </fields>
+                <fields>
+                    <name>Message</name>
+                </fields>
+                <fields>
+                    <name>Organizaci_n_de_Ventas</name>
+                </fields>
+                <fields>
+                    <name>Sociedad</name>
+                </fields>
+                <fields>
+                    <name>TextValueforOC</name>
+                </fields>
+                <name>Marcas_a_Actualizar</name>
+            </screens>
+        </flows>
+        <fullName>MassUpdateOCs</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>Generador_de_Visitas_30_FALSE-4</fullName>
+        </flows>
+        <fullName>Generador_de_Visitas_30_FALSE</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <choices>
+                <name>GRANADA</name>
+            </choices>
+            <choices>
+                <name>GUADALAJARA</name>
+            </choices>
+            <choices>
+                <name>FARO</name>
+            </choices>
+            <choices>
+                <name>GERONA</name>
+            </choices>
+            <choices>
+                <name>HUELVA</name>
+            </choices>
+            <choices>
+                <name>ViaOriginal</name>
+            </choices>
+            <choices>
+                <name>HUESCA</name>
+            </choices>
+            <choices>
+                <name>GUARDA</name>
+            </choices>
+            <choices>
+                <name>GUIP_ZCOA</name>
+            </choices>
+            <choices>
+                <name>CIUDAD_REAL</name>
+            </choices>
+            <choices>
+                <name>COIMBRA</name>
+            </choices>
+            <choices>
+                <name>CEUTA</name>
+            </choices>
+            <choices>
+                <name>ENCAMP</name>
+            </choices>
+            <choices>
+                <name>ESCALDES_ENGORDANY</name>
+            </choices>
+            <choices>
+                <name>CORU_A</name>
+            </choices>
+            <choices>
+                <name>CUENCA</name>
+            </choices>
+            <choices>
+                <name>CASTELL_N</name>
+            </choices>
+            <choices>
+                <name>CASTELO_BRANCO</name>
+            </choices>
+            <choices>
+                <name>BURGOS</name>
+            </choices>
+            <choices>
+                <name>C_CERES</name>
+            </choices>
+            <choices>
+                <name>BRAGA</name>
+            </choices>
+            <choices>
+                <name>BRAGAN_A</name>
+            </choices>
+            <choices>
+                <name>CANILLO</name>
+            </choices>
+            <choices>
+                <name>CANTABRIA</name>
+            </choices>
+            <choices>
+                <name>C_DIZ</name>
+            </choices>
+            <choices>
+                <name>C_RDOBA</name>
+            </choices>
+            <choices>
+                <name>BEJA</name>
+            </choices>
+            <choices>
+                <name>BALEARES</name>
+            </choices>
+            <choices>
+                <name>BARCELONA</name>
+            </choices>
+            <choices>
+                <name>VIANA_DO_CASTELO</name>
+            </choices>
+            <choices>
+                <name>ALICANTE</name>
+            </choices>
+            <choices>
+                <name>ALMER_A</name>
+            </choices>
+            <choices>
+                <name>ALAVA</name>
+            </choices>
+            <choices>
+                <name>VALENCIA</name>
+            </choices>
+            <choices>
+                <name>VALLADOLID</name>
+            </choices>
+            <choices>
+                <name>ALBACETE</name>
+            </choices>
+            <choices>
+                <name>AVEIRO</name>
+            </choices>
+            <choices>
+                <name>BADAJOZ</name>
+            </choices>
+            <choices>
+                <name>ANDORRA_LA_VELLA</name>
+            </choices>
+            <choices>
+                <name>ASTURIAS</name>
+            </choices>
+            <choices>
+                <name>SET_BAL</name>
+            </choices>
+            <choices>
+                <name>SEVILLA</name>
+            </choices>
+            <choices>
+                <name>SANTAR_M</name>
+            </choices>
+            <choices>
+                <name>SEGOVIA</name>
+            </choices>
+            <choices>
+                <name>TERUEL</name>
+            </choices>
+            <choices>
+                <name>TOLEDO</name>
+            </choices>
+            <choices>
+                <name>SORIA</name>
+            </choices>
+            <choices>
+                <name>TARRAGONA</name>
+            </choices>
+            <choices>
+                <name>PORTALEGRE</name>
+            </choices>
+            <choices>
+                <name>PORTO</name>
+            </choices>
+            <choices>
+                <name>PALENCIA</name>
+            </choices>
+            <choices>
+                <name>PONTEVEDRA</name>
+            </choices>
+            <choices>
+                <name>SAN_JULI_DE_LOIRA</name>
+            </choices>
+            <choices>
+                <name>SANTA_CRUZ_DE_TENERIFE</name>
+            </choices>
+            <choices>
+                <name>preloaded_value_state</name>
+            </choices>
+            <choices>
+                <name>SALAMANCA</name>
+            </choices>
+            <choices>
+                <name>MURCIA</name>
+            </choices>
+            <choices>
+                <name>NAVARRA</name>
+            </choices>
+            <choices>
+                <name>MELILLA</name>
+            </choices>
+            <choices>
+                <name>ORENSE</name>
+            </choices>
+            <choices>
+                <name>PaisOrigen</name>
+            </choices>
+            <choices>
+                <name>No_disponible</name>
+            </choices>
+            <choices>
+                <name>ORDINO</name>
+            </choices>
+            <choices>
+                <name>MADRID</name>
+            </choices>
+            <choices>
+                <name>LUGO</name>
+            </choices>
+            <choices>
+                <name>M_LAGA</name>
+            </choices>
+            <choices>
+                <name>LA_MASSANA</name>
+            </choices>
+            <choices>
+                <name>VISEU</name>
+            </choices>
+            <choices>
+                <name>LA_RIOJA</name>
+            </choices>
+            <choices>
+                <name>VIZCAYA</name>
+            </choices>
+            <choices>
+                <name>JAEN</name>
+            </choices>
+            <choices>
+                <name>VILA</name>
+            </choices>
+            <choices>
+                <name>L_RIDA</name>
+            </choices>
+            <choices>
+                <name>VILA_REAL</name>
+            </choices>
+            <choices>
+                <name>ZARAGOZA</name>
+            </choices>
+            <choices>
+                <name>LEON</name>
+            </choices>
+            <choices>
+                <name>LISBOA</name>
+            </choices>
+            <choices>
+                <name>LAS_PALMAS</name>
+            </choices>
+            <choices>
+                <name>VORA</name>
+            </choices>
+            <choices>
+                <name>LEIRIA</name>
+            </choices>
+            <choices>
+                <name>ZAMORA</name>
+            </choices>
+            <fullName>Direccion-61</fullName>
+            <screens>
+                <fields>
+                    <name>Confirmar</name>
+                </fields>
+                <fields>
+                    <name>Msg1</name>
+                </fields>
+                <fields>
+                    <name>Msg2</name>
+                </fields>
+                <name>Confirmaci_n</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>C_digo_Postal</name>
+                </fields>
+                <fields>
+                    <name>C_digo_Postal_original</name>
+                </fields>
+                <fields>
+                    <name>Calle</name>
+                </fields>
+                <fields>
+                    <name>Calle_original</name>
+                </fields>
+                <fields>
+                    <name>Ciudad</name>
+                </fields>
+                <fields>
+                    <name>Ciudad_original</name>
+                </fields>
+                <fields>
+                    <name>Estado_o_provincia</name>
+                </fields>
+                <fields>
+                    <name>N_mero_portal_piso_puerta_y_resto_de_domicilio</name>
+                </fields>
+                <fields>
+                    <name>N_mero_portal_piso_puerta_y_resto_de_domicilio_original</name>
+                </fields>
+                <fields>
+                    <name>Pa_s</name>
+                </fields>
+                <fields>
+                    <name>PaisLista</name>
+                </fields>
+                <fields>
+                    <name>RangoComparacion</name>
+                </fields>
+                <fields>
+                    <name>Tipo_de_via</name>
+                </fields>
+                <fields>
+                    <name>Tipo_de_via_original</name>
+                </fields>
+                <fields>
+                    <name>nuevos</name>
+                </fields>
+                <fields>
+                    <name>originales</name>
+                </fields>
+                <fields>
+                    <name>state</name>
+                </fields>
+                <name>Campos_Direccion</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>owner</name>
+                </fields>
+                <name>Error_propietario</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>Error</name>
+                </fields>
+                <name>error_msg</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>errorMSG</name>
+                </fields>
+                <name>Error_fault</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>zipcode</name>
+                </fields>
+                <name>Error_c_digo_postal</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>Final</name>
+                </fields>
+                <name>Finalizado</name>
+            </screens>
+        </flows>
+        <fullName>Direccion</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>PRESCRITO_Oferta_Obra-1</fullName>
+        </flows>
+        <fullName>PRESCRITO_Oferta_Obra</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>SolicitudClienteSAP-3</fullName>
+            <screens>
+                <fields>
+                    <name>Mensaje</name>
+                </fields>
+                <name>SolicitudEND</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>Comentarios2SAP</name>
+                    <validationRule/>
+                </fields>
+                <name>Solicitud_Comentarios</name>
+            </screens>
+        </flows>
+        <fullName>SolicitudClienteSAP</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>OBRA_Renombrado_en_base_a_l_nea_de_negocio-7</fullName>
+        </flows>
+        <fullName>OBRA_Renombrado_en_base_a_l_nea_de_negocio</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>Clonar_Obra-12</fullName>
+            <screens>
+                <fields>
+                    <name>ObraOrigen</name>
+                </fields>
+                <fields>
+                    <name>Tipo_de_obra</name>
+                </fields>
+                <name>Identificar_l_nea_de_negocio</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>eF</name>
+                </fields>
+                <name>End</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>MsgUser2</name>
+                </fields>
+                <name>Datos_insuficientes</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>MsgUser2_0</name>
+                </fields>
+                <name>Datos_incorrectos</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>MsgUser</name>
+                </fields>
+                <name>L_nea_de_negocio_repetida</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>MsgUsuario</name>
+                </fields>
+                <name>Buscar_matriz</name>
+            </screens>
+            <textTemplates>
+                <name>br</name>
+            </textTemplates>
+        </flows>
+        <fullName>Clonar_Obra</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>RPGD_candidato-5</fullName>
+        </flows>
+        <fullName>RPGD_candidato</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>KS_Flow_Merge_Cuentas-1</fullName>
+            <screens>
+                <fields>
+                    <name>cuenta_superviviente</name>
+                </fields>
+                <name>ADVERTENCIA</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>cuenta_superviviente_0</name>
+                </fields>
+                <name>ADVERTENCIA_0</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>correcto</name>
+                </fields>
+                <name>Creaci_n_del_registro</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>Seleccione_la_cuenta</name>
+                </fields>
+                <name>Cuentas</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>Seleccione_la_cuenta_2</name>
+                </fields>
+                <name>Cuentas_2</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>error_final</name>
+                </fields>
+                <name>ErrorFinal</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>Id_de_la_cuenta</name>
+                </fields>
+                <fields>
+                    <name>Nombre_de_la_cuenta</name>
+                </fields>
+                <fields>
+                    <name>Opciones</name>
+                </fields>
+                <name>Fusi_n_de_cuentas</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>Id_de_la_cuenta_2</name>
+                </fields>
+                <fields>
+                    <name>Nombre_de_la_cuenta_2</name>
+                </fields>
+                <fields>
+                    <name>Opciones_0</name>
+                </fields>
+                <name>Fusi_n_de_cuentas_2</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>error</name>
+                </fields>
+                <name>No_se_ha_introducido_ning_n_valor</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>error_1</name>
+                </fields>
+                <name>No_se_ha_introducido_ning_n_valor_1</name>
+            </screens>
+        </flows>
+        <fullName>KS_Flow_Merge_Cuentas</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>EmailSend-7</fullName>
+            <textTemplates>
+                <name>Aceptacion</name>
+            </textTemplates>
+            <textTemplates>
+                <name>Rechazo</name>
+            </textTemplates>
+        </flows>
+        <fullName>EmailSend</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>Generador_de_Visitas_180_FALSE-3</fullName>
+        </flows>
+        <fullName>Generador_de_Visitas_180_FALSE</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>Generador_de_Visitas_90_TRUE-3</fullName>
+        </flows>
+        <fullName>Generador_de_Visitas_90_TRUE</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>CONTACT_RGPD_Contacto-9</fullName>
+        </flows>
+        <fullName>CONTACT_RGPD_Contacto</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>Generador_de_Visitas_90_FALSE-3</fullName>
+        </flows>
+        <fullName>Generador_de_Visitas_90_FALSE</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>Make_a_Table-1</fullName>
+        </flows>
+        <fullName>Make_a_Table</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>SIMON_Cuenta_de_Contacto_en_Reporte-2</fullName>
+        </flows>
+        <fullName>SIMON_Cuenta_de_Contacto_en_Reporte</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>CreateAccountHierarchies-1</fullName>
+            <screens>
+                <fields>
+                    <name>Aviso</name>
+                </fields>
+                <fields>
+                    <name>KS_confirmar</name>
+                </fields>
+                <name>Confirmacion</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>MensajeNo</name>
+                </fields>
+                <name>Final</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>MensageFinal</name>
+                </fields>
+                <name>KS_Finalizacion</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>id</name>
+                </fields>
+                <name>mostrar</name>
+            </screens>
+            <textTemplates>
+                <name>AccountHasHierarchies</name>
+            </textTemplates>
+            <textTemplates>
+                <name>Message</name>
+            </textTemplates>
+        </flows>
+        <fullName>CreateAccountHierarchies</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>Generador_de_Visitas_15_TRUE-7</fullName>
+        </flows>
+        <fullName>Generador_de_Visitas_15_TRUE</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>Simon_Obras_fecha_de_notificacion-6</fullName>
+        </flows>
+        <fullName>Simon_Obras_fecha_de_notificacion</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>Apply_Hierarchy_to_Account-16</fullName>
+            <screens>
+                <fields>
+                    <name>IdSalesforce_Name</name>
+                </fields>
+                <fields>
+                    <name>SelectAccount</name>
+                </fields>
+                <fields>
+                    <name>SelectMsg</name>
+                </fields>
+                <name>Account_to_Mirror_Hierarchy</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>Blank</name>
+                </fields>
+                <fields>
+                    <name>ConfirmBody</name>
+                </fields>
+                <fields>
+                    <name>ConfirmButton</name>
+                </fields>
+                <fields>
+                    <name>Confirmar</name>
+                </fields>
+                <fields>
+                    <name>MsgDetailsHierarchy</name>
+                </fields>
+                <name>ConfirmationHierarchy</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>error_no_hierarchy</name>
+                </fields>
+                <name>Cuenta_sin_jerarqu_a</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>ErrorHierarchyCancel</name>
+                </fields>
+                <fields>
+                    <name>Error_HierarchyEnd</name>
+                </fields>
+                <name>End_of_Hierarchy_Request</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>ErrorAccountNotHierarchyable</name>
+                </fields>
+                <fields>
+                    <name>ErrorBody</name>
+                </fields>
+                <name>Error_Account_is_not_CRM</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>ErrorAccountNotHierarchyable_0</name>
+                </fields>
+                <fields>
+                    <name>ErrorBody_hierarchies</name>
+                </fields>
+                <name>Error_Account_is_not_CRM_hierarchies</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>marcacomercial</name>
+                </fields>
+                <name>error_org</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>OKBody</name>
+                </fields>
+                <fields>
+                    <name>OKConfirm</name>
+                </fields>
+                <name>HierarchySentConfirmation</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>AccountLstOptions</name>
+                </fields>
+                <fields>
+                    <name>MatchingAccountLst</name>
+                </fields>
+                <name>MatchingAccounts</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>AccountLstOptions_byId</name>
+                </fields>
+                <fields>
+                    <name>MatchingAccountLst_0</name>
+                </fields>
+                <name>MatchingAccounts_byId</name>
+            </screens>
+            <textTemplates>
+                <name>Comma</name>
+            </textTemplates>
+            <textTemplates>
+                <name>EmailMessage</name>
+            </textTemplates>
+            <textTemplates>
+                <name>EmailNotficacion</name>
+            </textTemplates>
+            <textTemplates>
+                <name>NewLine</name>
+            </textTemplates>
+        </flows>
+        <fullName>Apply_Hierarchy_to_Account</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <choices>
+                <name>Ningun_Scoring</name>
+            </choices>
+            <choices>
+                <name>Ningun_Pais</name>
+            </choices>
+            <choices>
+                <name>Ningun_Tipo_de_Edificio</name>
+            </choices>
+            <choices>
+                <name>Ningun_Segmento</name>
+            </choices>
+            <choices>
+                <name>Ninguna_Linea_de_negocio</name>
+            </choices>
+            <choices>
+                <name>Ninguna_Fase</name>
+            </choices>
+            <choices>
+                <name>DosEstrellas</name>
+            </choices>
+            <choices>
+                <name>UnaEstrella</name>
+            </choices>
+            <choices>
+                <name>cuatroestrellas</name>
+            </choices>
+            <choices>
+                <name>TresEstrellas</name>
+            </choices>
+            <choices>
+                <name>cincoestrellas</name>
+            </choices>
+            <fullName>Conversor_de_Obra_de_Construdato_a_Oportunidad-6</fullName>
+            <screens>
+                <fields>
+                    <name>MsgError1</name>
+                </fields>
+                <name>Datos_por_defecto_incorrectos</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>MsgUser2</name>
+                </fields>
+                <name>Conversi_n_finalizada</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>C_digo_Postal</name>
+                </fields>
+                <fields>
+                    <name>Fase</name>
+                </fields>
+                <fields>
+                    <name>L_nea_de_negocio</name>
+                </fields>
+                <fields>
+                    <name>Pa_s</name>
+                </fields>
+                <fields>
+                    <name>Scoring</name>
+                </fields>
+                <fields>
+                    <name>Segmento</name>
+                </fields>
+                <fields>
+                    <name>Tipo_de_edificio</name>
+                </fields>
+                <name>Datos_de_la_obra</name>
+            </screens>
+            <textTemplates>
+                <name>MensajeDeError</name>
+            </textTemplates>
+        </flows>
+        <fullName>Conversor_de_Obra_de_Construdato_a_Oportunidad</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>SIMON_NombreIntervinienteObra-2</fullName>
+        </flows>
+        <fullName>SIMON_NombreIntervinienteObra</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>NewReport-13</fullName>
+            <screens>
+                <fields>
+                    <name>KS_Comentarios</name>
+                    <validationRule/>
+                </fields>
+                <fields>
+                    <name>KS_Objetivo_de_la_visita</name>
+                    <validationRule/>
+                </fields>
+                <fields>
+                    <name>KS_Privado</name>
+                </fields>
+                <fields>
+                    <name>ReportMSG</name>
+                </fields>
+                <name>ReportFill</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>MensajeReporteCreado</name>
+                </fields>
+                <name>KS_ReporteCreado</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>MsgError</name>
+                </fields>
+                <name>KS_YaExisteReporte</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>ContactoNullPantallaTexto</name>
+                </fields>
+                <name>ContactoNullPantalla</name>
+            </screens>
+            <textTemplates>
+                <name>MensajeDeError</name>
+            </textTemplates>
+        </flows>
+        <fullName>NewReport</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>SIMON_Actividad_del_Lead-2</fullName>
+        </flows>
+        <fullName>SIMON_Actividad_del_Lead</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>KS_Proyecto-2</fullName>
+        </flows>
+        <fullName>KS_Proyecto</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>Generador_de_Visitas_365_FALSE-3</fullName>
+        </flows>
+        <fullName>Generador_de_Visitas_365_FALSE</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>Org_Cliente_Coordinador-7</fullName>
+        </flows>
+        <fullName>Org_Cliente_Coordinador</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>Obra-5</fullName>
+        </flows>
+        <fullName>Obra</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>Generador_de_Visitas_180_TRUE-3</fullName>
+        </flows>
+        <fullName>Generador_de_Visitas_180_TRUE</fullName>
+    </flowDefinitions>
+    <quickActions>
+        <label><!-- LogACall --></label>
+        <name>LogACall</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewAccount --></label>
+        <name>NewAccount</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewCase --></label>
+        <name>NewCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewContact --></label>
+        <name>NewContact</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewEvent --></label>
+        <name>NewEvent</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewGroup --></label>
+        <name>NewGroup</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewLead --></label>
+        <name>NewLead</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewNote --></label>
+        <name>NewNote</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewOpportunity --></label>
+        <name>NewOpportunity</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewTask --></label>
+        <name>NewTask</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- SendEmail --></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <reportTypes>
+        <description><!-- Actividades con campaña personalizada --></description>
+        <label><!-- Actividades con campaña personalizada --></label>
+        <name>Actividades_con_campana_personalizada</name>
+        <sections>
+            <label><!-- Actividades --></label>
+            <name>Actividades</name>
+        </sections>
+        <sections>
+            <label><!-- Campañas --></label>
+            <name>Campañas</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Cuenta --></description>
+        <label><!-- Cuenta --></label>
+        <name>Cuenta</name>
+        <sections>
+            <label><!-- Cuentas --></label>
+            <name>Cuentas</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Cuentas con Homologaciones con Componentes --></description>
+        <label><!-- Cuentas con Homologaciones con Componentes --></label>
+        <name>Cuentas_con_Homologaciones_con_Componentes</name>
+        <sections>
+            <label><!-- Componentes --></label>
+            <name>Componentes</name>
+        </sections>
+        <sections>
+            <label><!-- Cuentas --></label>
+            <name>Cuentas</name>
+        </sections>
+        <sections>
+            <label><!-- Homologaciones --></label>
+            <name>Homologaciones</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Cuentas con Marca Comercial --></description>
+        <label><!-- Cuentas con Marca Comercial --></label>
+        <name>Cuentas_con_Marca_Comercial</name>
+        <sections>
+            <label><!-- Cuentas --></label>
+            <name>Cuentas</name>
+        </sections>
+        <sections>
+            <label><!-- Marcas Comerciales --></label>
+            <name>Marcas Comerciales</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Cuentas con No codificados con Componentes --></description>
+        <label><!-- Cuentas con No codificados con Componentes --></label>
+        <name>Cuentas_con_No_codificados_con_Componentes</name>
+        <sections>
+            <label><!-- Componentes --></label>
+            <name>Componentes</name>
+        </sections>
+        <sections>
+            <label><!-- Cuentas --></label>
+            <name>Cuentas</name>
+        </sections>
+        <sections>
+            <label><!-- No codificados --></label>
+            <name>No codificados</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Cuentas con Organizaciones Cliente con Jerarquia Clientes --></description>
+        <label><!-- Cuentas con Organizaciones Cliente con Jerarquia Clientes --></label>
+        <name>Cuentas_con_Organizaciones_Cliente_con_Jerarquia_Clientes</name>
+        <sections>
+            <label><!-- Cuentas --></label>
+            <name>Cuentas</name>
+        </sections>
+        <sections>
+            <label><!-- Organizaciones Cliente (Cliente Distribución) --></label>
+            <name>Organizaciones Cliente (Cliente Distribución)</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Cuentas con Territorios y usuarios --></description>
+        <label><!-- Cuentas con Territorios y usuarios --></label>
+        <name>Cuentas_con_Territorios_y_usuarios</name>
+        <sections>
+            <label><!-- Cuentas --></label>
+            <name>Cuentas</name>
+        </sections>
+        <sections>
+            <label><!-- Territorios --></label>
+            <name>Territorios</name>
+        </sections>
+        <sections>
+            <label><!-- Usuarios --></label>
+            <name>Usuarios</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Cuentas y Contactos con Visitas --></description>
+        <label><!-- Cuentas y Contactos con Visitas --></label>
+        <name>Cuentas_y_Contactos_con_Visitas</name>
+        <sections>
+            <label><!-- Actividades --></label>
+            <name>Actividades</name>
+        </sections>
+        <sections>
+            <label><!-- Contactos --></label>
+            <name>Contactos</name>
+        </sections>
+        <sections>
+            <label><!-- Cuentas --></label>
+            <name>Cuentas</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Cuentas con Territorios --></description>
+        <label><!-- Cuentas con Territorios --></label>
+        <name>KS_Cuentas_con_Territorios</name>
+        <sections>
+            <label><!-- Cuentas --></label>
+            <name>Cuentas</name>
+        </sections>
+        <sections>
+            <label><!-- Territorios --></label>
+            <name>Territorios</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Cuentas y Organizaciones de Cliente --></description>
+        <label><!-- Cuentas y Organizaciones de Cliente --></label>
+        <name>KS_Cuentas_y_Organizaciones_de_Cliente</name>
+        <sections>
+            <label><!-- Cuentas --></label>
+            <name>Cuentas</name>
+        </sections>
+        <sections>
+            <label><!-- Marcas Comerciales --></label>
+            <name>Marcas Comerciales</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Obras con ofertas --></description>
+        <label><!-- Obras con ofertas --></label>
+        <name>KS_Obras_con_ofertas</name>
+        <sections>
+            <label><!-- Obras --></label>
+            <name>Obras</name>
+        </sections>
+        <sections>
+            <label><!-- Ofertas --></label>
+            <name>Ofertas</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Obras y Ubicaciones --></description>
+        <label><!-- Obras y Ubicaciones --></label>
+        <name>KS_Obras_y_Ubicaciones</name>
+        <sections>
+            <label><!-- Obras --></label>
+            <name>Obras</name>
+        </sections>
+        <sections>
+            <label><!-- Ubicaciones Obra --></label>
+            <name>Ubicaciones Obra</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Obras con ofertas con prescripción --></description>
+        <label><!-- Obras con ofertas con prescripción --></label>
+        <name>Obras_con_ofertas</name>
+        <sections>
+            <label><!-- Obras --></label>
+            <name>Obras</name>
+        </sections>
+        <sections>
+            <label><!-- Ofertas --></label>
+            <name>Ofertas</name>
+        </sections>
+        <sections>
+            <label><!-- Soluciones prescritas --></label>
+            <name>Soluciones prescritas</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Ofertas con cuentas --></description>
+        <label><!-- Ofertas con cuentas --></label>
+        <name>Ofertas_con_cuentas</name>
+        <sections>
+            <label><!-- Cuentas --></label>
+            <name>Cuentas</name>
+        </sections>
+        <sections>
+            <label><!-- Oportunidades --></label>
+            <name>Oportunidades</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Ofertas e Instaladores --></description>
+        <label><!-- Ofertas e Instaladores --></label>
+        <name>Ofertas_e_Instaladores</name>
+        <sections>
+            <label><!-- Cuentas --></label>
+            <name>Cuentas</name>
+        </sections>
+        <sections>
+            <label><!-- Ofertas (Instalador) --></label>
+            <name>Ofertas (Instalador)</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Org-Prod-Ofer-Cliente --></description>
+        <label><!-- Org-Prod-Ofer-Cliente --></label>
+        <name>Org_Prod_Ofer_Cliente</name>
+        <sections>
+            <label><!-- Cuentas --></label>
+            <name>Cuentas</name>
+        </sections>
+        <sections>
+            <label><!-- Oportunidades --></label>
+            <name>Oportunidades</name>
+        </sections>
+        <sections>
+            <label><!-- Productos --></label>
+            <name>Productos</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Productos y condiciones comerciales --></description>
+        <label><!-- Productos y condiciones comerciales --></label>
+        <name>Productos_y_condiciones_comerciales</name>
+        <sections>
+            <label><!-- Condiciones Comerciales --></label>
+            <name>Condiciones Comerciales</name>
+        </sections>
+        <sections>
+            <label><!-- Productos --></label>
+            <name>Productos</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Productos y organización de producto --></description>
+        <label><!-- Productos y organización de producto --></label>
+        <name>Productos_y_organizaci_n_de_producto</name>
+        <sections>
+            <label><!-- Organizaciones Producto --></label>
+            <name>Organizaciones Producto</name>
+        </sections>
+        <sections>
+            <label><!-- Productos --></label>
+            <name>Productos</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Territory --></description>
+        <label><!-- Territory --></label>
+        <name>Territory</name>
+        <sections>
+            <label><!-- Modelos territoriales --></label>
+            <name>Modelos territoriales</name>
+        </sections>
+        <sections>
+            <label><!-- Territorios --></label>
+            <name>Territorios</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- productos_materiales_v2 --></description>
+        <label><!-- productos_materiales_v2 --></label>
+        <name>productos_materiales_v2</name>
+        <sections>
+            <label><!-- Componentes (Producto no codificado) --></label>
+            <name>Componentes (Producto no codificado)</name>
+        </sections>
+        <sections>
+            <label><!-- Productos --></label>
+            <name>Productos</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- pruebaDuplicados --></description>
+        <label><!-- pruebaDuplicados --></label>
+        <name>pruebaDuplicados</name>
+        <sections>
+            <label><!-- Construction Sites --></label>
+            <name>Construction Sites</name>
+        </sections>
+        <sections>
+            <label><!-- Duplicate Record Items --></label>
+            <name>Duplicate Record Items</name>
+        </sections>
+    </reportTypes>
+</Translations>

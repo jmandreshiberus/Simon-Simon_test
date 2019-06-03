@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Plantilla para la Solicitud de Muestras de iluminacion</description>
+    <internalUseOnly>true</internalUseOnly>
+    <keywords>Plantilla Solicitud Muestras iluminacion</keywords>
+    <name>1702 Solicitud Muestras iluminacion 2017</name>
+    <public>false</public>
+</Document>

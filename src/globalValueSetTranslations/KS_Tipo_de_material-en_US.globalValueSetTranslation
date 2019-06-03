@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>1</masterLabel>
+        <translation><!-- 1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DIEN</masterLabel>
+        <translation>DIEN - Service</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FERT</masterLabel>
+        <translation>FERT - Finished Product</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HALB</masterLabel>
+        <translation>HALB Semifinished Product</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZEMB</masterLabel>
+        <translation><!-- ZEMB --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZMAF</masterLabel>
+        <translation><!-- ZMAF --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZMKI</masterLabel>
+        <translation>ZMKI- Marketing industry</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZMKT</masterLabel>
+        <translation>ZMKT -Marketing Materials</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZPUB</masterLabel>
+        <translation>ZPUB -Advertising Mat.</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

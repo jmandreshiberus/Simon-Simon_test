@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>01</masterLabel>
+        <translation>Calculation Missing</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>02</masterLabel>
+        <translation>Compl Confirm Missng</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>03</masterLabel>
+        <translation>Prices Incomplete</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>04</masterLabel>
+        <translation>Check Terms of Paymt</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>05</masterLabel>
+        <translation>Check Terms of Dlv</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>08</masterLabel>
+        <translation>Check Credit Memo</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>09</masterLabel>
+        <translation>Check Debit Memo</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>1</masterLabel>
+        <translation><!-- 1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>10</masterLabel>
+        <translation>Manual Invoicing</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>11</masterLabel>
+        <translation>Block Carriage Due</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z1</masterLabel>
+        <translation>Do not use</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z4</masterLabel>
+        <translation>Do not use</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z5</masterLabel>
+        <translation>Do not use</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZA</masterLabel>
+        <translation>Do not use</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZD</masterLabel>
+        <translation>Blocked Inv. DIEN</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZE</masterLabel>
+        <translation>Do not use</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZP</masterLabel>
+        <translation>Do not use</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

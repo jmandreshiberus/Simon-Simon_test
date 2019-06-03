@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>00</masterLabel>
+        <translation><!-- 00 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>01</masterLabel>
+        <translation>Commandes Urgentes</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>02</masterLabel>
+        <translation>Priorité 2</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>03</masterLabel>
+        <translation>Priorité 3</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>04</masterLabel>
+        <translation>Priorité 4</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>05</masterLabel>
+        <translation>Priorité 5</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>06</masterLabel>
+        <translation>Priorité 6</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>07</masterLabel>
+        <translation>Priorité 7</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>08</masterLabel>
+        <translation>Priorité 8</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>09</masterLabel>
+        <translation>Priorité 9</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>10</masterLabel>
+        <translation>Priorité 10</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>11</masterLabel>
+        <translation>Priorité 11</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>12</masterLabel>
+        <translation>Priorité 12</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>13</masterLabel>
+        <translation>Priorité 13</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>14</masterLabel>
+        <translation>Priorité 14</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>15</masterLabel>
+        <translation>Priorité 15</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>16</masterLabel>
+        <translation>Priorité 16</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>17</masterLabel>
+        <translation>Priorité 17</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>18</masterLabel>
+        <translation>Priorité 18</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>19</masterLabel>
+        <translation>Priorité 19</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>20</masterLabel>
+        <translation>Priorité 20</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>21</masterLabel>
+        <translation>Priorité 21</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>22</masterLabel>
+        <translation>Priorité 22</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>23</masterLabel>
+        <translation>Priorité 23</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>24</masterLabel>
+        <translation>Priorité 24</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>25</masterLabel>
+        <translation>Priorité 25</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>26</masterLabel>
+        <translation>Priorité 26</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>27</masterLabel>
+        <translation>Priorité 27</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>28</masterLabel>
+        <translation>Priorité 28</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>29</masterLabel>
+        <translation>Priorité 29</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>30</masterLabel>
+        <translation>Priorité 30</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>99</masterLabel>
+        <translation>Sans priorité</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

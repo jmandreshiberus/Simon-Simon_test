@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>0001</masterLabel>
+        <translation>Donneur d&apos;ordre</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>0002</masterLabel>
+        <translation>Réceptionnaire</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>0003</masterLabel>
+        <translation>Payeur</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>0004</masterLabel>
+        <translation>Destinataire facture</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>0012</masterLabel>
+        <translation>Noeud de hiérarchie</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>1</masterLabel>
+        <translation><!-- 1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z001</masterLabel>
+        <translation>Point de vente</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z009</masterLabel>
+        <translation><!-- Z009 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z010</masterLabel>
+        <translation>Donneur d&apos;ordre sans TVA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z011</masterLabel>
+        <translation>Clients INDIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z012</masterLabel>
+        <translation>Clients BRASIL (P.Jurídica)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z013</masterLabel>
+        <translation>Clients BRASIL (P.Física)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z014</masterLabel>
+        <translation>Payeur</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z015</masterLabel>
+        <translation>Clients INDIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZE01</masterLabel>
+        <translation>Donneur d&apos;ordre étranger</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZEXT</masterLabel>
+        <translation>Donneur d&apos;ordre étranger</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZINT</masterLabel>
+        <translation>Donneur d&apos;ordre étranger</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

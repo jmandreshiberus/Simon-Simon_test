@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>0001</masterLabel>
+        <translation>Sold-to party</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>0002</masterLabel>
+        <translation>Goods recipient</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>0003</masterLabel>
+        <translation>Payer</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>0004</masterLabel>
+        <translation>Bill-to party</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>0012</masterLabel>
+        <translation>Hierarchy Node</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>1</masterLabel>
+        <translation><!-- 1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z001</masterLabel>
+        <translation>Sales Point</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z009</masterLabel>
+        <translation>Special Sales Point</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z010</masterLabel>
+        <translation>Sold-to party (wo/VAT)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z011</masterLabel>
+        <translation>INDIA Sold-to party</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z012</masterLabel>
+        <translation><!-- Z012 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z013</masterLabel>
+        <translation><!-- Z013 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z014</masterLabel>
+        <translation>Payer</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z015</masterLabel>
+        <translation>INDIA Sold-to party</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZE01</masterLabel>
+        <translation>Export Sold-to party</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZEXT</masterLabel>
+        <translation>Export Sold-to party</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZINT</masterLabel>
+        <translation>Export Sold-to party</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

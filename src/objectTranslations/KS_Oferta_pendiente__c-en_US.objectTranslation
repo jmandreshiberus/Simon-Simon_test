@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Sent Quotes Record</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Sent Quotes Record</value>
+    </caseValues>
+    <fields>
+        <label>Customer Name</label>
+        <name>KS_Cliente_Name__c</name>
+    </fields>
+    <fields>
+        <label>Contact Name</label>
+        <name>KS_Contacto_Name__c</name>
+    </fields>
+    <fields>
+        <label>Contact</label>
+        <name>KS_Contacto__c</name>
+        <relationshipLabel><!-- Registros de ofertas enviadas --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Creator Name</label>
+        <name>KS_Creador_Name__c</name>
+    </fields>
+    <fields>
+        <label>Customer Address</label>
+        <name>KS_Cuenta_Direccion__c</name>
+    </fields>
+    <fields>
+        <label>Customer</label>
+        <name>KS_Cuenta__c</name>
+        <relationshipLabel><!-- Registros de ofertas enviadas --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Imprimir detalles --></label>
+        <name>KS_Detalle__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha de impresión --></label>
+        <name>KS_Fecha_de_impresion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Migration Id --></label>
+        <name>KS_Migration_Id__c</name>
+    </fields>
+    <fields>
+        <label>Job Name</label>
+        <name>KS_Obra_Name__c</name>
+    </fields>
+    <fields>
+        <label>Job</label>
+        <name>KS_Obra__c</name>
+        <relationshipLabel><!-- Registros de ofertas enviadas --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Quote</label>
+        <name>KS_Oferta__c</name>
+        <relationshipLabel><!-- Registros de ofertas enviadas --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Formato Destinatario</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Code --></nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Generar_PDF --></label>
+        <name>Generar_PDF</name>
+    </webLinks>
+</CustomObjectTranslation>

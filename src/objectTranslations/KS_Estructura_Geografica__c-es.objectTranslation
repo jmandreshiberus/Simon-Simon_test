@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Estructura Geografica</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Estructuras Geograficas</value>
+    </caseValues>
+    <fields>
+        <label><!-- Área --></label>
+        <name>KS_Area__c</name>
+    </fields>
+    <fields>
+        <label><!-- CPDesde --></label>
+        <name>KS_CPDesde__c</name>
+    </fields>
+    <fields>
+        <label><!-- CPHasta --></label>
+        <name>KS_CPHasta__c</name>
+    </fields>
+    <fields>
+        <label><!-- CountryCode --></label>
+        <name>KS_CountryCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delegación --></label>
+        <name>KS_Delegacion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Migration Id --></label>
+        <name>KS_Migration_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Organización de ventas --></label>
+        <name>KS_Organizacion_de_ventas__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zona --></label>
+        <name>KS_Zona__c</name>
+    </fields>
+    <gender>Feminine</gender>
+</CustomObjectTranslation>

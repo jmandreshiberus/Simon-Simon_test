@@ -1,0 +1,6 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[A su atención,<div><br></div><div>Acaban de crearse tareas recurrentes de seguimiento sobre la cuenta: {!KS_Organizacion_Cliente__c.KS_Cliente_solicitante__c}</div><div><br></div><div>Se le serán generadas tareas cada {!KS_Organizacion_Cliente__c.KS_Recurrencia__c} días, para agendar visitas al cliente indicado.</div><div><br></div><div>En caso de querer desactivar el regimen de visitas, puede hacerlo pulsando <a href="https://eu6.salesforce.com/{!KS_Organizacion_Cliente__c.Id}">aqui</a>.</div><div><br></div><div>Atentamente,&nbsp;</div>]]></td>
+</tr>
+</table>

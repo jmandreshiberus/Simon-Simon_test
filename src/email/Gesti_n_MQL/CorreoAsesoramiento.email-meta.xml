@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Esta plantilla se utilizará en el envío de enlaces a la web para descarga de catálogos.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Header_Simon</letterhead>
+    <name>CorreoAsesoramiento</name>
+    <style>formalLetter</style>
+    <subject>{!Contact.FirstName}, le envío los enlaces a nuestra gama de productos.</subject>
+    <textOnly>Hola {!Contact.FirstName}
+Agradecemos tu cordialidad y la confianza depositada en SIMON para tu próximo proyecto. Tal como hemos comentado te remito a nuestra área de descargas donde encontrarás toda la documentación para elaborarlo.
+
+Encontraras catálogos, tarifas, fichas técnicas, así como bibliotecas de materiales en Revit, AutoCAD y Dialux.
+
+Aquí encontrarás nuestras colecciones de mecanismos:
+
+https://www.simonelectric.com/coleccion-mecanismos
+
+Aquí encontrarás nuestras gamas de iluminación interior Simon y Fluvia:
+
+https://www.simonelectric.com/iluminacion-interior
+
+https://www.simonelectric.com/fluvia
+
+Aquí encontrarás información sobre sistemas de control:
+
+https://www.simonelectric.com/sistemas-de-control
+
+Estos son nuestros puestos de trabajo:
+
+https://www.simonelectric.com/conectividad
+
+Y nuestros puntos de recarga para vehículo eléctrico:
+
+https://www.simonelectric.com/vehiculo-electrico
+
+Si lo que buscas es información más técnica sobre cualquier referencia este es el lugar adecuado:
+
+
+https://www.simonelectric.com/explorar-catalogo
+
+
+Espero que te sea de ayuda y no dudes en contactar con nosotros  si necesitas cualquier aclaración.
+
+
+
+Un cordial saludo!
+{!User.FirstName} {!User.LastName}
+{!User.Department}
+{!User.Email}
+{!User.MobilePhone}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

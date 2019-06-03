@@ -1,0 +1,987 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>001</masterLabel>
+        <translation>Visite du représentant</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>002</masterLabel>
+        <translation>Contact lors d&apos;une foire</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>003</masterLabel>
+        <translation>Pubilicité à la télévision</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>004</masterLabel>
+        <translation>Recommandation par un client</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>005</masterLabel>
+        <translation>Annonce dans le journal</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>006</masterLabel>
+        <translation>Prix avantageux</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>007</masterLabel>
+        <translation>Livraison rapide</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>008</masterLabel>
+        <translation>Excellent service après-vente</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>100</masterLabel>
+        <translation>Diff. de prix: le prix était trop élevé</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>101</masterLabel>
+        <translation>Mauvaise qualité</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>102</masterLabel>
+        <translation>Dommage subi au cours du transport</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>103</masterLabel>
+        <translation>Ecart quantité</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>104</masterLabel>
+        <translation>Marchandise endommagée</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>105</masterLabel>
+        <translation>Echantillon gratuit</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>106</masterLabel>
+        <translation>Diff. de prix: le prix était trop élevé</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>107</masterLabel>
+        <translation>Mauvaise qualité</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>108</masterLabel>
+        <translation>Dommage subi au cours du transport</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>109</masterLabel>
+        <translation>Ecart quantité</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>110</masterLabel>
+        <translation>Marchandise endommagée</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>111</masterLabel>
+        <translation>Echantillon gratuit</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>200</masterLabel>
+        <translation>Diff. de prix: Le prix était trop faible</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>300</masterLabel>
+        <translation>Publicité</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>301</masterLabel>
+        <translation>Renvoi gratuit</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>302</masterLabel>
+        <translation>Cadeau</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>303</masterLabel>
+        <translation>Échantillon client</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>304</masterLabel>
+        <translation>Commande chantier</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>305</masterLabel>
+        <translation>Commande hôtel</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>306</masterLabel>
+        <translation>Commande stock</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>307</masterLabel>
+        <translation>Commande ouverture</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>308</masterLabel>
+        <translation>Commande ferraile</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>309</masterLabel>
+        <translation>Commande ferraile</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>310</masterLabel>
+        <translation>Commande brochure</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>311</masterLabel>
+        <translation>Commande programmée</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>312</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>313</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>314</masterLabel>
+        <translation><!-- 314 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>315</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>316</masterLabel>
+        <translation>Commande PVC</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>317</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>318</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>319</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>320</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>321</masterLabel>
+        <translation>Commande ouverture</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>322</masterLabel>
+        <translation>Commande nouvel client</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>323</masterLabel>
+        <translation>Commande compensation</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>324</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>325</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>326</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>327</masterLabel>
+        <translation>Apport non prévu</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>328</masterLabel>
+        <translation>Prom: 15 JOURS pour GAGNER</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>350</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>351</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>352</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>353</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>354</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>355</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>356</masterLabel>
+        <translation>Cde PIRAMIDE</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>357</masterLabel>
+        <translation>Cde. PODIUM</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>358</masterLabel>
+        <translation>Illumination intérieure</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>359</masterLabel>
+        <translation>Cde. Nouveau tarif</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>360</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>361</masterLabel>
+        <translation>Campagne chauffage</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>362</masterLabel>
+        <translation>Campagne chauffage</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>363</masterLabel>
+        <translation>Commande GS</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>364</masterLabel>
+        <translation>CHAIN ​​EXPO VIRTUELLE</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>365</masterLabel>
+        <translation><!-- 365 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>366</masterLabel>
+        <translation><!-- 366 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>367</masterLabel>
+        <translation><!-- 367 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>368</masterLabel>
+        <translation><!-- 368 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>369</masterLabel>
+        <translation><!-- 369 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>370</masterLabel>
+        <translation>Coomande PROMOBOOK</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>372</masterLabel>
+        <translation><!-- 372 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>400</masterLabel>
+        <translation>Prix avantageux</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>401</masterLabel>
+        <translation>Livraison rapide</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>402</masterLabel>
+        <translation>Excellent service après-vente</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>403</masterLabel>
+        <translation>Pubilicité à la télévision</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>404</masterLabel>
+        <translation>Recommandation par un client</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>405</masterLabel>
+        <translation>Annonce dans le journal</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>406</masterLabel>
+        <translation>Prix avantageux</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>407</masterLabel>
+        <translation>Livraison rapide</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>408</masterLabel>
+        <translation>Excellent service après-vente</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>A00</masterLabel>
+        <translation>DAA1-Crédit pour annuler un débit</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>A01</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>A02</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>A03</masterLabel>
+        <translation>DAA3 – Crédit pour débit acceptée</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>A50</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>A51</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>A52</masterLabel>
+        <translation>Note Débit pour vente d&apos;immobilisation</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>A53</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>A54</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>A55</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>A56</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>A57</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>A58</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>A59</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>A60</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>A61</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>A62</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AD0</masterLabel>
+        <translation><!-- AD0 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AD1</masterLabel>
+        <translation><!-- AD1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AD2</masterLabel>
+        <translation><!-- AD2 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AD3</masterLabel>
+        <translation><!-- AD3 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AD4</masterLabel>
+        <translation><!-- AD4 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AD5</masterLabel>
+        <translation><!-- AD5 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AD6</masterLabel>
+        <translation><!-- AD6 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AD7</masterLabel>
+        <translation><!-- AD7 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AD8</masterLabel>
+        <translation><!-- AD8 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AD9</masterLabel>
+        <translation><!-- AD9 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ADA</masterLabel>
+        <translation><!-- ADA --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ADB</masterLabel>
+        <translation><!-- ADB --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ADC</masterLabel>
+        <translation><!-- ADC --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ADD</masterLabel>
+        <translation><!-- ADD --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>B00</masterLabel>
+        <translation><!-- B00 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>B01</masterLabel>
+        <translation><!-- B01 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CR0</masterLabel>
+        <translation><!-- CR0 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>D00</masterLabel>
+        <translation><!-- D00 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>D01</masterLabel>
+        <translation><!-- D01 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>D02</masterLabel>
+        <translation><!-- D02 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>D03</masterLabel>
+        <translation><!-- D03 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>D04</masterLabel>
+        <translation><!-- D04 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>D05</masterLabel>
+        <translation><!-- D05 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>D06</masterLabel>
+        <translation><!-- D06 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DP0</masterLabel>
+        <translation><!-- DP0 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DP1</masterLabel>
+        <translation><!-- DP1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DP2</masterLabel>
+        <translation><!-- DP2 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>EDI</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>EP0</masterLabel>
+        <translation><!-- EP0 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>EP1</masterLabel>
+        <translation><!-- EP1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>EP2</masterLabel>
+        <translation><!-- EP2 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>EP3</masterLabel>
+        <translation><!-- EP3 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>EP4</masterLabel>
+        <translation><!-- EP4 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ES0</masterLabel>
+        <translation><!-- ES0 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ES1</masterLabel>
+        <translation><!-- ES1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ES2</masterLabel>
+        <translation><!-- ES2 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ES3</masterLabel>
+        <translation><!-- ES3 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>F00</masterLabel>
+        <translation><!-- F00 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>F01</masterLabel>
+        <translation><!-- F01 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>F02</masterLabel>
+        <translation><!-- F02 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>F03</masterLabel>
+        <translation><!-- F03 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>F04</masterLabel>
+        <translation><!-- F04 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G00</masterLabel>
+        <translation><!-- G00 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G01</masterLabel>
+        <translation><!-- G01 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G02</masterLabel>
+        <translation><!-- G02 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G03</masterLabel>
+        <translation><!-- G03 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G04</masterLabel>
+        <translation><!-- G04 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G05</masterLabel>
+        <translation><!-- G05 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G06</masterLabel>
+        <translation><!-- G06 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G07</masterLabel>
+        <translation><!-- G07 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G08</masterLabel>
+        <translation><!-- G08 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G09</masterLabel>
+        <translation><!-- G09 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G10</masterLabel>
+        <translation><!-- G10 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G11</masterLabel>
+        <translation><!-- G11 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G12</masterLabel>
+        <translation><!-- G12 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G13</masterLabel>
+        <translation><!-- G13 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I00</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I01</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I02</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I03</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I04</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I05</masterLabel>
+        <translation>Retour: erreur client</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I06</masterLabel>
+        <translation>Annulation client</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I07</masterLabel>
+        <translation>Incident QUALITÉ</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I08</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I09</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I10</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I11</masterLabel>
+        <translation>Incident QUALITÉ</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I12</masterLabel>
+        <translation>Incident TRANSPORT</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I13</masterLabel>
+        <translation>Échantillon commerciale</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I14</masterLabel>
+        <translation>Échantillon prototype</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I15</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I16</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I17</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I18</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I19</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I20</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I21</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IC0</masterLabel>
+        <translation><!-- IC0 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>POA</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>POC</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Q00</masterLabel>
+        <translation><!-- Q00 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Q01</masterLabel>
+        <translation><!-- Q01 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Q02</masterLabel>
+        <translation><!-- Q02 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>QBI</masterLabel>
+        <translation>SBWAP : compensation différ. (qté/val.)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>QOI</masterLabel>
+        <translation>SBWAP : nv postes en cours (qté/valeur)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>R00</masterLabel>
+        <translation><!-- R00 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>T00</masterLabel>
+        <translation><!-- T00 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>T01</masterLabel>
+        <translation><!-- T01 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>T02</masterLabel>
+        <translation><!-- T02 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>T03</masterLabel>
+        <translation><!-- T03 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V00</masterLabel>
+        <translation>AVP1-Crédit par différence prix/remise</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V01</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V02</masterLabel>
+        <translation>AVP7-Crédit des Ports</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V03</masterLabel>
+        <translation>AVP3-Crédit par escompte contant</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V04</masterLabel>
+        <translation>AVP4-Crédit par remise extra</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V05</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V06</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V07</masterLabel>
+        <translation>AVP8-Crédit par cadeau</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V08</masterLabel>
+        <translation>Remise financière</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V09</masterLabel>
+        <translation>AVR2-Remise Fin d&apos;Année</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V10</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V19</masterLabel>
+        <translation>Retour: excédant chantier</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V20</masterLabel>
+        <translation>AVQ1-Retour: erreur/ annulation</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V21</masterLabel>
+        <translation>AVQ2-Retour: régularisation stock</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V22</masterLabel>
+        <translation>AVQ3-Retour: erreur transport</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V23</masterLabel>
+        <translation>AVQ4-Retour: erreur saisie cde</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V24</masterLabel>
+        <translation>Retour: erreur entrepôt</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V25</masterLabel>
+        <translation>AVQ6-Retour: retard livraison</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V26</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V27</masterLabel>
+        <translation>AVQ8-Retour: matériel défectueux</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V28</masterLabel>
+        <translation>Retour: matériel casse</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V29</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V30</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V31</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V32</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V33</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V34</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V35</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V36</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V37</masterLabel>
+        <translation>AVQ12-Avoir pour annuller facture/debit</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V38</masterLabel>
+        <translation>AVQ13-Crédit pour matériaux cassés</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V39</masterLabel>
+        <translation>AV1-Crédit pour contribution publicitair</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V40</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V41</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V42</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V43</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V44</masterLabel>
+        <translation>Retour par questions crédit</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V45</masterLabel>
+        <translation>Retour par érreur du Service Technique</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V46</masterLabel>
+        <translation>AVQ14- Retour (Promotions)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V47</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V48</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V50</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V51</masterLabel>
+        <translation>CVP2-Debit pour annuller escompte compta</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V52</masterLabel>
+        <translation>CVP3-Debit par différence de prix/remise</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V53</masterLabel>
+        <translation>CV4-Debit par Services</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V54</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V60</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V61</masterLabel>
+        <translation>CVQ2-Debit par annulation de crédit</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V62</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V63</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V64</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V65</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VBI</masterLabel>
+        <translation>SBWAP: compensation différences (valeur)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VOI</masterLabel>
+        <translation>SBWAP : nv postes en cours (valeur)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZAR</masterLabel>
+        <translation><!-- ZAR --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZS1</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZSD</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

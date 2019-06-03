@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>01</masterLabel>
+        <translation>Kalkulation fehlt</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>02</masterLabel>
+        <translation>Rückmeldung fehlt</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>03</masterLabel>
+        <translation>Preise unvollständig</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>04</masterLabel>
+        <translation>Zahlungsbed. prüfen</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>05</masterLabel>
+        <translation>Lieferbeding. prüfen</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>08</masterLabel>
+        <translation>Gutschrift prüfen</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>09</masterLabel>
+        <translation>Lastschrift prüfen</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>1</masterLabel>
+        <translation><!-- 1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>10</masterLabel>
+        <translation><!-- 10 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>11</masterLabel>
+        <translation>Kalkulation fehlt</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z1</masterLabel>
+        <translation>Rückmeldung fehlt</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z4</masterLabel>
+        <translation><!-- Z4 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z5</masterLabel>
+        <translation><!-- Z5 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZA</masterLabel>
+        <translation>Rückmeldung fehlt</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZD</masterLabel>
+        <translation><!-- ZD --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZE</masterLabel>
+        <translation>Kalkulation fehlt</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZP</masterLabel>
+        <translation><!-- ZP --></translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

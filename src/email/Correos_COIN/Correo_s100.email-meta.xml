@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Header_Simon</letterhead>
+    <name>Correo S100</name>
+    <style>formalLetter</style>
+    <subject>Información Simon 100</subject>
+    <textOnly>Hola {!Contact.FirstName}
+Tal como hemos comentado en la última visita te remito a nuestra página web donde podrás encontrar la nueva serie S100, sus diferentes estéticas e incluso unos videos de instalación y configuración de la serie que están justo al final de la página web.
+
+https://www.simonelectric.com/coleccion-mecanismos/empotrar/simon-100
+
+
+En nuestra área de descargas encontrarás catálogos, tarifas, fichas técnicas, bases para tus presupuestos así como bibliotecas de materiales en Revit, AutoCAD:
+
+https://www.simonelectric.com/descargas
+
+
+Espero que te sea de ayuda y no dudes en contactar conmigo si necesitas cualquier aclaración.
+
+
+Un cordial saludo!
+{!User.FirstName} {!User.LastName}
+{!User.Department}
+{!User.Email}
+{!User.MobilePhone}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

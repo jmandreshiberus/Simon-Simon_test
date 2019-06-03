@@ -1,0 +1,5 @@
+<apex:page showHeader="True" docType="html-5.0" id="dupon" standardStylesheets="true">
+    <apex:pageBlock >
+       <apex:iframe src="https://dupon.simonholding.com/user/{!$User.Id}?key-dupon-ultra=50000$yAOtwATaAwvZDglEjBS2Y2s8N5NnvICItFmQkdgnJ9$74984cb711fc5003ef1e06080de5e124e94c0e82bddfcd7a9523cbd52d52c7c4" scrolling="true" id="theIframe"   height="800px"  />
+    </apex:pageBlock>
+</apex:page>

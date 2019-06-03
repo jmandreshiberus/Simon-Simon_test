@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Cita</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Citas</value>
+    </caseValues>
+    <fields>
+        <label><!-- CampañaId --></label>
+        <name>KS_CampanaId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Campaña --></label>
+        <name>KS_Campana__c</name>
+        <relationshipLabel><!-- Actividades --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Comentarios --></label>
+        <name>KS_Comentarios__c</name>
+    </fields>
+    <fields>
+        <label><!-- Creador original --></label>
+        <name>KS_Creador_original__c</name>
+    </fields>
+    <fields>
+        <label><!-- Indicador de comentarios --></label>
+        <name>KS_Indicador_de_comentarios__c</name>
+    </fields>
+    <fields>
+        <label><!-- Migration_Id --></label>
+        <name>KS_Migration_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Objetivo de la visita --></label>
+        <name>KS_Objetivo_de_la_visita__c</name>
+    </fields>
+    <fields>
+        <label><!-- ObraId --></label>
+        <name>KS_ObraId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Obra --></label>
+        <name>KS_Obra__c</name>
+        <relationshipLabel><!-- Visitas --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- OfertaId --></label>
+        <name>KS_OfertaId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Oferta --></label>
+        <name>KS_Oferta__c</name>
+        <relationshipLabel><!-- Visitas --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Reporte asociado --></label>
+        <name>KS_Reporte_asociado__c</name>
+        <relationshipLabel><!-- Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Tipo de visita --></label>
+        <name>KS_Tipo_de_visita__c</name>
+    </fields>
+    <fields>
+        <label><!-- id CRM Visita --></label>
+        <name>KS_id_CRM_Visita__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tiene Comentario --></label>
+        <name>SI_Tiene_Comentario__c</name>
+    </fields>
+    <fields>
+        <label><!-- Smart Email Id --></label>
+        <name>wbsendit__Smart_Email_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Smart Email Message Id --></label>
+        <name>wbsendit__Smart_Email_Message_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Smart Email Status --></label>
+        <name>wbsendit__Smart_Email_Status__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Cita-Admin</layout>
+        <sections>
+            <label><!-- Campos Personalizados (no sincronizados) --></label>
+            <section>Campos Personalizados (no sincronizados)</section>
+        </sections>
+        <sections>
+            <label><!-- Comentarios --></label>
+            <section>Comentarios</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato de cita</layout>
+        <sections>
+            <label><!-- Comentarios --></label>
+            <section>Comentarios</section>
+        </sections>
+        <sections>
+            <label><!-- Reporte --></label>
+            <section>Reporte</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato de eventos</layout>
+        <sections>
+            <label><!-- Descripción Convocatoria --></label>
+            <section>Descripción Convocatoria</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Crear Reporte (NEW) --></label>
+        <name>Crear_reporte_accion</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Reportar Visita --></label>
+        <name>VF_ReportLauncher</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- RT para eventos --></description>
+        <label><!-- Evento-desactivado --></label>
+        <name>Evento</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- RT para la introducción de Citas --></description>
+        <label><!-- Visita --></label>
+        <name>Visita</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- El objetivo de la visita no puede exceder de los 255 carácteres --></errorMessage>
+        <name>Longitud_Objetivo_de_la_visita</name>
+    </validationRules>
+    <webLinks>
+        <label>Crear reporte (NEW)</label>
+        <name>Crear_reporte</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Crear_reporte_privado --></label>
+        <name>Crear_reporte_privado</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- LaunchNewreport --></label>
+        <name>LaunchNewreport</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Nueva_visita --></label>
+        <name>Nueva_visita</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- VF_ReportLauncher --></label>
+        <name>VF_ReportLauncher</name>
+    </webLinks>
+</CustomObjectTranslation>

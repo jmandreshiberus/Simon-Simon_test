@@ -1,0 +1,963 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Afganistán</masterLabel>
+        <translation>AFGANISTÁN</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Albania</masterLabel>
+        <translation>ALBANIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Alemania</masterLabel>
+        <translation>ALEMANIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Andorra</masterLabel>
+        <translation>ANDORRA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Angola</masterLabel>
+        <translation>ANGOLA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Anguila</masterLabel>
+        <translation>ANGUILA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Antigua República Yugoslava de Macedonia</masterLabel>
+        <translation>ANTIGUA REPÚBLICA YUGOSLAVA DE MACEDONIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Antigua y Barbuda</masterLabel>
+        <translation>ANTIGUA Y BARBUDA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Antártida</masterLabel>
+        <translation>ANTÁRTIDA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Arabia Saudí</masterLabel>
+        <translation>ARABIA SAUDÍ</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Argelia</masterLabel>
+        <translation>ARGELIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Argentina</masterLabel>
+        <translation>ARGENTINA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Armenia</masterLabel>
+        <translation>ARMENIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Aruba</masterLabel>
+        <translation>ARUBA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Australia</masterLabel>
+        <translation>AUSTRALIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Austria</masterLabel>
+        <translation>AUSTRIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Azerbaiyán</masterLabel>
+        <translation>AZERBAIYÁN</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Bahamas</masterLabel>
+        <translation>BAHAMAS</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Bahréin</masterLabel>
+        <translation>BAHRÉIN</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Bangladesh</masterLabel>
+        <translation>BANGLADESH</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Barbados</masterLabel>
+        <translation>BARBADOS</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Belarús</masterLabel>
+        <translation>BELARÚS</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Belice</masterLabel>
+        <translation>BELICE</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Benín</masterLabel>
+        <translation>BENÍN</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Bermuda</masterLabel>
+        <translation>BERMUDA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Bolivia</masterLabel>
+        <translation>BOLIVIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Bonaire, San Eustaquio y Saba</masterLabel>
+        <translation>BONAIRE, SAN EUSTAQUIO Y SABA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Bosnia y Herzegovina</masterLabel>
+        <translation>BOSNIA Y HERZEGOVINA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Botsuana</masterLabel>
+        <translation>BOTSUANA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Brasil</masterLabel>
+        <translation>BRASIL</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Brunéi</masterLabel>
+        <translation>BRUNÉI</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Bulgaria</masterLabel>
+        <translation>BULGARIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Burkina Faso</masterLabel>
+        <translation>BURKINA FASO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Burundi</masterLabel>
+        <translation>BURUNDI</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Bután</masterLabel>
+        <translation>BUTÁN</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Bélgica</masterLabel>
+        <translation>BÉLGICA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Cabo Verde</masterLabel>
+        <translation>CABO VERDE</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Camboya</masterLabel>
+        <translation>CAMBOYA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Camerún</masterLabel>
+        <translation>CAMERÚN</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Canadá</masterLabel>
+        <translation>CANADÁ</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Chad</masterLabel>
+        <translation>CHAD</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Chile</masterLabel>
+        <translation>CHILE</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>China</masterLabel>
+        <translation>CHINA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Chipre</masterLabel>
+        <translation>CHIPRE</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Colombia</masterLabel>
+        <translation>COLOMBIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Comoras</masterLabel>
+        <translation>COMORAS</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Congo</masterLabel>
+        <translation>CONGO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Costa Rica</masterLabel>
+        <translation>COSTA RICA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Costa de Marfil</masterLabel>
+        <translation>COSTA DE MARFIL</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Croacia</masterLabel>
+        <translation>CROACIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Cuba</masterLabel>
+        <translation>CUBA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Curazao</masterLabel>
+        <translation>CURAZAO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Dinamarca</masterLabel>
+        <translation>DINAMARCA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Dominica</masterLabel>
+        <translation>DOMINICA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Ecuador</masterLabel>
+        <translation>ECUADOR</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Egipto</masterLabel>
+        <translation>EGIPTO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>El Salvador</masterLabel>
+        <translation>EL SALVADOR</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Emiratos Árabes Unidos</masterLabel>
+        <translation>EMIRATOS ÁRABES UNIDOS</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Eritrea</masterLabel>
+        <translation>ERITREA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Eslovaquia</masterLabel>
+        <translation>ESLOVAQUIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Eslovenia</masterLabel>
+        <translation>ESLOVENIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>España</masterLabel>
+        <translation>ESPAÑA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Estados Unidos</masterLabel>
+        <translation>ESTADOS UNIDOS</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Estonia</masterLabel>
+        <translation>ESTONIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Etiopía</masterLabel>
+        <translation>ETIOPÍA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Federación de Rusia</masterLabel>
+        <translation>FEDERACIÓN DE RUSIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Filipinas</masterLabel>
+        <translation>FILIPINAS</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Finlandia</masterLabel>
+        <translation>FINLANDIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Fiyi</masterLabel>
+        <translation>FIYI</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Francia</masterLabel>
+        <translation>FRANCIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Gabón</masterLabel>
+        <translation>GABÓN</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Gambia</masterLabel>
+        <translation>GAMBIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Georgia</masterLabel>
+        <translation>GEORGIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Ghana</masterLabel>
+        <translation>GHANA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Gibraltar</masterLabel>
+        <translation>GIBRALTAR</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Granada</masterLabel>
+        <translation>GRANADA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Grecia</masterLabel>
+        <translation>GRECIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Groenlandia</masterLabel>
+        <translation>GROENLANDIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Guadalupe</masterLabel>
+        <translation>GUADALUPE</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Guatemala</masterLabel>
+        <translation>GUATEMALA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Guernesey</masterLabel>
+        <translation>GUERNESEY</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Guinea</masterLabel>
+        <translation>GUINEA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Guinea Ecuatorial</masterLabel>
+        <translation>GUINEA ECUATORIAL</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Guinea-Bisáu</masterLabel>
+        <translation>GUINEA-BISÁU</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Guyana</masterLabel>
+        <translation>GUYANA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Guyana francesa</masterLabel>
+        <translation>GUYANA FRANCESA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Haití</masterLabel>
+        <translation>HAITÍ</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Honduras</masterLabel>
+        <translation>HONDURAS</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Hong Kong</masterLabel>
+        <translation><!-- Hong Kong --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Hungría</masterLabel>
+        <translation>HUNGRÍA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>India</masterLabel>
+        <translation>INDIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Indonesia</masterLabel>
+        <translation>INDONESIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Irak</masterLabel>
+        <translation>IRAK</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Irlanda</masterLabel>
+        <translation>IRLANDA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Isla Bouvet</masterLabel>
+        <translation>ISLA BOUVET</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Isla Norfolk</masterLabel>
+        <translation>ISLA NORFOLK</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Isla de Man</masterLabel>
+        <translation>ISLA DE MAN</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Isla de Navidad</masterLabel>
+        <translation>ISLA DE NAVIDAD</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Islandia</masterLabel>
+        <translation>ISLANDIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Islas Caimán</masterLabel>
+        <translation>ISLAS CAIMÁN</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Islas Cocos</masterLabel>
+        <translation>ISLAS COCOS</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Islas Cook</masterLabel>
+        <translation>ISLAS COOK</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Islas Feroe</masterLabel>
+        <translation>ISLAS FEROE</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Islas Georgia del Sur y Sandwich del Sur</masterLabel>
+        <translation>ISLAS GEORGIA DEL SUR Y SANDWICH DEL SUR</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Islas Gland</masterLabel>
+        <translation>ISLAS GLAND</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Islas Heard y McDonald</masterLabel>
+        <translation>ISLAS HEARD Y MCDONALD</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Islas Malvinas</masterLabel>
+        <translation>ISLAS MALVINAS</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Islas Pitcairn</masterLabel>
+        <translation>ISLAS PITCAIRN</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Islas Salomón</masterLabel>
+        <translation>ISLAS SALOMÓN</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Islas Turcas y Caicos</masterLabel>
+        <translation>ISLAS TURCAS Y CAICOS</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Islas Vírgenes Británicas</masterLabel>
+        <translation>ISLAS VÍRGENES BRITÁNICAS</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Israel</masterLabel>
+        <translation>ISRAEL</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Italia</masterLabel>
+        <translation>ITALIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Jamaica</masterLabel>
+        <translation>JAMAICA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Japón</masterLabel>
+        <translation>JAPÓN</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Jersey</masterLabel>
+        <translation>JERSEY</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Jordania</masterLabel>
+        <translation>JORDANIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Kazajistán</masterLabel>
+        <translation>KAZAJISTÁN</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Kenia</masterLabel>
+        <translation>KENIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Kirguistán</masterLabel>
+        <translation>KIRGUISTÁN</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Kiribati</masterLabel>
+        <translation>KIRIBATI</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Kuwait</masterLabel>
+        <translation>KUWAIT</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Lesotho</masterLabel>
+        <translation>LESOTHO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Letonia</masterLabel>
+        <translation>LETONIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Liberia</masterLabel>
+        <translation>LIBERIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Libia</masterLabel>
+        <translation>LIBIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Liechtenstein</masterLabel>
+        <translation>LIECHTENSTEIN</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Lituania</masterLabel>
+        <translation>LITUANIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Luxemburgo</masterLabel>
+        <translation>LUXEMBURGO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Líbano</masterLabel>
+        <translation>LÍBANO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Macao</masterLabel>
+        <translation>MACAO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Madagascar</masterLabel>
+        <translation>MADAGASCAR</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Malasia</masterLabel>
+        <translation>MALASIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Malawi</masterLabel>
+        <translation>MALAWI</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Maldivas</masterLabel>
+        <translation>MALDIVAS</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mali</masterLabel>
+        <translation>MALI</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Malta</masterLabel>
+        <translation>MALTA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Marruecos</masterLabel>
+        <translation>MARRUECOS</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Martinica</masterLabel>
+        <translation>MARTINICA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mauricio</masterLabel>
+        <translation>MAURICIO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mauritania</masterLabel>
+        <translation>MAURITANIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mayotte</masterLabel>
+        <translation>MAYOTTE</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mongolia</masterLabel>
+        <translation>MONGOLIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Montenegro</masterLabel>
+        <translation>MONTENEGRO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Montserrat</masterLabel>
+        <translation>MONTSERRAT</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mozambique</masterLabel>
+        <translation>MOZAMBIQUE</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Myanmar</masterLabel>
+        <translation>MYANMAR</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>México</masterLabel>
+        <translation>MÉXICO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mónaco</masterLabel>
+        <translation>MÓNACO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Namibia</masterLabel>
+        <translation>NAMIBIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Nauru</masterLabel>
+        <translation>NAURU</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Nepal</masterLabel>
+        <translation>NEPAL</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Nicaragua</masterLabel>
+        <translation>NICARAGUA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Nigeria</masterLabel>
+        <translation>NIGERIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Niue</masterLabel>
+        <translation>NIUE</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Noruega</masterLabel>
+        <translation>NORUEGA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Nueva Caledonia</masterLabel>
+        <translation>NUEVA CALEDONIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Nueva Zelanda</masterLabel>
+        <translation>NUEVA ZELANDA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Níger</masterLabel>
+        <translation>NÍGER</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Omán</masterLabel>
+        <translation>OMÁN</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pakistán</masterLabel>
+        <translation>PAKISTÁN</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Palestina</masterLabel>
+        <translation>PALESTINA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Panamá</masterLabel>
+        <translation>PANAMÁ</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Papúa Nueva Guinea</masterLabel>
+        <translation>PAPÚA NUEVA GUINEA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Paraguay</masterLabel>
+        <translation>PARAGUAY</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Países Bajos</masterLabel>
+        <translation>PAÍSES BAJOS</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Perú</masterLabel>
+        <translation>PERÚ</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Polinesia francesa</masterLabel>
+        <translation>POLINESIA FRANCESA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Polonia</masterLabel>
+        <translation>POLONIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Portugal</masterLabel>
+        <translation>PORTUGAL</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Qatar</masterLabel>
+        <translation>QATAR</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Reino Unido</masterLabel>
+        <translation>REINO UNIDO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>República Bolivariana de Venezuela</masterLabel>
+        <translation>REPÚBLICA BOLIVARIANA DE VENEZUELA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>República Centroafricana</masterLabel>
+        <translation>REPÚBLICA CENTROAFRICANA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>República Checa</masterLabel>
+        <translation>REPÚBLICA CHECA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>República Democrática Popular de Laos</masterLabel>
+        <translation>REPÚBLICA DEMOCRÁTICA POPULAR DE LAOS</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>República Democrática del Congo</masterLabel>
+        <translation>REPÚBLICA DEMOCRÁTICA DEL CONGO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>República Dominicana</masterLabel>
+        <translation>REPÚBLICA DOMINICANA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>República Islámica de Irán</masterLabel>
+        <translation>REPÚBLICA ISLÁMICA DE IRÁN</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>República Popular Democrática de Corea</masterLabel>
+        <translation>REPÚBLICA POPULAR DEMOCRÁTICA DE COREA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>República Unida de Tanzania</masterLabel>
+        <translation>REPÚBLICA UNIDA DE TANZANIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>República de Corea</masterLabel>
+        <translation>REPÚBLICA DE COREA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>República de Moldavia</masterLabel>
+        <translation>REPÚBLICA DE MOLDAVIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>República Árabe Siria</masterLabel>
+        <translation>REPÚBLICA ÁRABE SIRIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Reunión</masterLabel>
+        <translation>REUNIÓN</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Ruanda</masterLabel>
+        <translation>RUANDA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Rumanía</masterLabel>
+        <translation>RUMANÍA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Samoa</masterLabel>
+        <translation>SAMOA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>San Bartolomé</masterLabel>
+        <translation>SAN BARTOLOMÉ</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>San Cristóbal y Nieves</masterLabel>
+        <translation>SAN CRISTÓBAL Y NIEVES</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>San Marino</masterLabel>
+        <translation>SAN MARINO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>San Martín (parte francesa)</masterLabel>
+        <translation>SAN MARTÍN (PARTE FRANCESA)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>San Martín (parte holandesa)</masterLabel>
+        <translation>SAN MARTÍN (PARTE HOLANDESA)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>San Pedro y Miquelón</masterLabel>
+        <translation>SAN PEDRO Y MIQUELÓN</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>San Vicente y las Granadinas</masterLabel>
+        <translation>SAN VICENTE Y LAS GRANADINAS</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Santa Elena, Ascensión y Tristán de Acuña</masterLabel>
+        <translation>SANTA ELENA, ASCENSIÓN Y TRISTÁN DE ACUÑA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Santa Lucía</masterLabel>
+        <translation>SANTA LUCÍA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Santa Sede (Estado de la Ciudad del Vaticano)</masterLabel>
+        <translation>SANTA SEDE (ESTADO DE LA CIUDAD DEL VATICANO)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Santo Tomé y Príncipe</masterLabel>
+        <translation>SANTO TOMÉ Y PRÍNCIPE</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Senegal</masterLabel>
+        <translation>SENEGAL</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Serbia</masterLabel>
+        <translation>SERBIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Seychelles</masterLabel>
+        <translation>SEYCHELLES</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Sierra Leona</masterLabel>
+        <translation>SIERRA LEONA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Singapur</masterLabel>
+        <translation>SINGAPUR</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Somalia</masterLabel>
+        <translation>SOMALIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Sri Lanka</masterLabel>
+        <translation>SRI LANKA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Suazilandia</masterLabel>
+        <translation>SUAZILANDIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Sudáfrica</masterLabel>
+        <translation>SUDÁFRICA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Sudán</masterLabel>
+        <translation>SUDÁN</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Sudán del Sur</masterLabel>
+        <translation>SUDÁN DEL SUR</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Suecia</masterLabel>
+        <translation>SUECIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Suiza</masterLabel>
+        <translation>SUIZA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Surinam</masterLabel>
+        <translation>SURINAM</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Svalbard y Jan Mayen</masterLabel>
+        <translation>SVALBARD Y JAN MAYEN</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Sáhara Occidental</masterLabel>
+        <translation>SÁHARA OCCIDENTAL</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Tailandia</masterLabel>
+        <translation>TAILANDIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Taiwán</masterLabel>
+        <translation>TAIWÁN</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Tayikistán</masterLabel>
+        <translation>TAYIKISTÁN</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Territorio Británico del Océano Índico</masterLabel>
+        <translation>TERRITORIO BRITÁNICO DEL OCÉANO ÍNDICO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Territorios Australes Franceses</masterLabel>
+        <translation>TERRITORIOS AUSTRALES FRANCESES</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Timor Oriental</masterLabel>
+        <translation>TIMOR ORIENTAL</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Togo</masterLabel>
+        <translation>TOGO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Tokelau</masterLabel>
+        <translation>TOKELAU</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Tonga</masterLabel>
+        <translation>TONGA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Trinidad y Tobago</masterLabel>
+        <translation>TRINIDAD Y TOBAGO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Turkmenistán</masterLabel>
+        <translation>TURKMENISTÁN</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Turquía</masterLabel>
+        <translation>TURQUÍA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Tuvalu</masterLabel>
+        <translation>TUVALU</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Túnez</masterLabel>
+        <translation>TÚNEZ</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Ucrania</masterLabel>
+        <translation>UCRANIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Uganda</masterLabel>
+        <translation>UGANDA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Uruguay</masterLabel>
+        <translation>URUGUAY</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Uzbekistán</masterLabel>
+        <translation>UZBEKISTÁN</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Vanuatu</masterLabel>
+        <translation>VANUATU</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Vietnam</masterLabel>
+        <translation>VIETNAM</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Wallis y Futuna</masterLabel>
+        <translation>WALLIS Y FUTUNA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Yemen</masterLabel>
+        <translation>YEMEN</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Yibuti</masterLabel>
+        <translation>YIBUTI</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Zambia</masterLabel>
+        <translation>ZAMBIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Zimbabue</masterLabel>
+        <translation>ZIMBABUE</translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

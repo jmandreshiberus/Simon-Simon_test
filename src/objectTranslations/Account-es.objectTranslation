@@ -1,0 +1,1011 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Dirección</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>shipping_address_account</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Ciudad</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>shipping_city_account</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>País</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>shipping_country_account</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Código de país</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>shipping_country_code_account</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Latitud</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>shipping_latitude_account</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Longitud</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>shipping_longitude_account</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Estado o provincia</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>shipping_state_account</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Código de estado/provincia</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>shipping_state_code_account</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Calle</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>shipping_street_account</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Código postal</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>shipping_zip_account</name>
+    </fields>
+    <fields>
+        <label><!-- Actividad --></label>
+        <name>KS_Actividad__c</name>
+    </fields>
+    <fields>
+        <label><!-- Apellidos (contacto) --></label>
+        <name>KS_Apellidos_contacto__c</name>
+    </fields>
+    <fields>
+        <label><!-- Aprobado --></label>
+        <name>KS_Aprobado__c</name>
+    </fields>
+    <fields>
+        <label><!-- Asociación --></label>
+        <name>KS_Asociacion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing City Difference --></label>
+        <name>KS_BillingCity_Diff__c</name>
+    </fields>
+    <fields>
+        <label><!-- Custom Billing City --></label>
+        <name>KS_BillingCity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Postal Code Difference --></label>
+        <name>KS_BillingPostalCode_Diff__c</name>
+    </fields>
+    <fields>
+        <label><!-- Custom Billing Postal Code --></label>
+        <name>KS_BillingPostalCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Street Complete Difference --></label>
+        <name>KS_BillingStreet_Complete_Diff__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Street Difference --></label>
+        <name>KS_BillingStreet_Diff__c</name>
+    </fields>
+    <fields>
+        <label><!-- Custom Billing Street --></label>
+        <name>KS_BillingStreet__c</name>
+    </fields>
+    <fields>
+        <label><!-- CIF --></label>
+        <name>KS_CIF__c</name>
+    </fields>
+    <fields>
+        <label><!-- CP length --></label>
+        <name>KS_CP_length__c</name>
+    </fields>
+    <fields>
+        <label><!-- Código Postal --></label>
+        <name>KS_C_digo_Postal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Calle --></label>
+        <name>KS_Calle__c</name>
+    </fields>
+    <fields>
+        <label><!-- Canal SAP --></label>
+        <name>KS_Canal_SAP__c</name>
+    </fields>
+    <fields>
+        <label><!-- Canal --></label>
+        <name>KS_Canal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ciudad --></label>
+        <name>KS_Ciudad__c</name>
+    </fields>
+    <fields>
+        <label><!-- CloudExplorer2 --></label>
+        <name>KS_CloudExplorer2__c</name>
+    </fields>
+    <fields>
+        <label><!-- CloudExplorer3 --></label>
+        <name>KS_CloudExplorer3__c</name>
+    </fields>
+    <fields>
+        <label><!-- CloudExplorer --></label>
+        <name>KS_CloudExplorer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Código CNAE --></label>
+        <name>KS_Codigo_CNAE__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comentarios SIMON --></label>
+        <name>KS_Comentarios_SIMON__c</name>
+    </fields>
+    <fields>
+        <label><!-- CountOC-FL31 --></label>
+        <name>KS_CountOC_FL31__c</name>
+    </fields>
+    <fields>
+        <label><!-- CountOC-SI10 --></label>
+        <name>KS_CountOC_SI10__c</name>
+    </fields>
+    <fields>
+        <label><!-- CountOC --></label>
+        <name>KS_CountOC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Descriptivo Cuenta --></label>
+        <name>KS_Descriptivo_Cuenta__c</name>
+    </fields>
+    <fields>
+        <label><!-- Distribuidor Generico --></label>
+        <name>KS_Distribuidor_Generico__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email --></label>
+        <name>KS_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email propietario --></label>
+        <name>KS_Email_propietario__c</name>
+    </fields>
+    <fields>
+        <label><!-- Epígrafe CNAE --></label>
+        <name>KS_Epigrafe_CNAE__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estado --></label>
+        <name>KS_Estado__c</name>
+        <picklistValues>
+            <masterLabel>Activo</masterLabel>
+            <translation><!-- Activo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pasivo</masterLabel>
+            <translation><!-- Pasivo --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Etapa --></label>
+        <name>KS_Estado_candidato__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estado o Provincia --></label>
+        <name>KS_Estado_o_Provincia__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estructura organizativa --></label>
+        <name>KS_Estructura_organizativa__c</name>
+    </fields>
+    <fields>
+        <label><!-- Alcance --></label>
+        <name>KS_Formato_comercial__c</name>
+    </fields>
+    <fields>
+        <label><!-- Grupo de ctas. deudor --></label>
+        <name>KS_Grupo_de_ctas_deudor__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Personal --></label>
+        <name>KS_ID_Personal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Id CRM --></label>
+        <name>KS_Id_CRM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Id Cibor --></label>
+        <name>KS_Id_Cibor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Id SAP --></label>
+        <name>KS_Id_SAP__c</name>
+    </fields>
+    <fields>
+        <label><!-- Id Salesforce --></label>
+        <name>KS_Id_Salesforce__c</name>
+    </fields>
+    <fields>
+        <label><!-- Idioma --></label>
+        <name>KS_Idioma__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inactivo --></label>
+        <name>KS_Inactivo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Infraestructuras/Servicios de valor añad --></label>
+        <name>KS_Infraestructuras_Servicios_de_valor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Levenshtein Distance --></label>
+        <name>KS_Levenshtein_Distance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Migration Id --></label>
+        <name>KS_Migration_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nº de Instalaciones --></label>
+        <name>KS_N_de_Instalaciones__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nº de telefono 2 --></label>
+        <name>KS_N_de_telefono_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nº de telefono 3 --></label>
+        <name>KS_N_de_telefono_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nº identificación fiscal suplementario --></label>
+        <name>KS_N_identificacion_fiscal_suplementario__c</name>
+    </fields>
+    <fields>
+        <label><!-- Núm, portal, piso, puerta y resto domici --></label>
+        <name>KS_N_m_portal_piso_puerta_y_resto_de_di__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nombre Fiscal --></label>
+        <name>KS_Nombre_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nombre (contacto) --></label>
+        <name>KS_Nombre_contacto__c</name>
+    </fields>
+    <fields>
+        <label><!-- NIF --></label>
+        <name>KS_Numero_de_identificacion_fiscal_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- OC Fluvia Export --></label>
+        <name>KS_OC_Fluvia_Export__c</name>
+    </fields>
+    <fields>
+        <label><!-- OC Fluvia Nacional --></label>
+        <name>KS_OC_Fluvia_Nacional__c</name>
+    </fields>
+    <fields>
+        <label><!-- OC Simon Export --></label>
+        <name>KS_OC_Simon_Export__c</name>
+    </fields>
+    <fields>
+        <label><!-- OC Simon Nacional --></label>
+        <name>KS_OC_Simon_Nacional__c</name>
+    </fields>
+    <fields>
+        <label><!-- Marcas comerciales --></label>
+        <name>KS_Organizacion_Ventas__c</name>
+    </fields>
+    <fields>
+        <label><!-- Organizaciones de cuentas --></label>
+        <name>KS_Organizaciones_de_cuentas__c</name>
+    </fields>
+    <fields>
+        <label><!-- País --></label>
+        <name>KS_Pa_s__c</name>
+    </fields>
+    <fields>
+        <label><!-- País --></label>
+        <name>KS_Pais__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pertenece a Asociación --></label>
+        <name>KS_Pertenece_a_Asociacion__c</name>
+        <relationshipLabel><!-- Cuentas --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Petición de borrado --></label>
+        <name>KS_Peticion_borrado__c</name>
+    </fields>
+    <fields>
+        <label><!-- Producto --></label>
+        <name>KS_Producto__c</name>
+    </fields>
+    <fields>
+        <label><!-- Propietario (fx) --></label>
+        <name>KS_Propietario_fx__c</name>
+    </fields>
+    <fields>
+        <label><!-- Responsable FLUVIA --></label>
+        <name>KS_Responsable_FL31__c</name>
+        <relationshipLabel><!-- Cuentas (Responsable FLUVIA) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Responsable LIGHTING --></label>
+        <name>KS_Responsable_IE20__c</name>
+        <relationshipLabel><!-- Cuentas (Responsable LIGHTING) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Responsable SIMON --></label>
+        <name>KS_Responsable_SI10__c</name>
+        <relationshipLabel><!-- Cuentas (Responsable SIMON) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Scoring Actividad Comercial --></label>
+        <name>KS_Scoring_Actividad__c</name>
+    </fields>
+    <fields>
+        <label><!-- Scoring - CI --></label>
+        <name>KS_Scoring_CI__c</name>
+    </fields>
+    <fields>
+        <label><!-- Scoring Negocio --></label>
+        <name>KS_Scoring_Negocio__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sector SAP --></label>
+        <name>KS_Sector_SAP__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sector --></label>
+        <name>KS_Sector__c</name>
+    </fields>
+    <fields>
+        <label><!-- Servicios --></label>
+        <name>KS_Servicios__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping City Difference --></label>
+        <name>KS_ShippingCity_Diff__c</name>
+    </fields>
+    <fields>
+        <label><!-- Custom Shipping City --></label>
+        <name>KS_ShippingCity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Postal Code Difference --></label>
+        <name>KS_ShippingPostalCode_Diff__c</name>
+    </fields>
+    <fields>
+        <label><!-- Custom Shipping Postal Code --></label>
+        <name>KS_ShippingPostalCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Street Complete Difference --></label>
+        <name>KS_ShippingStreet_Complete_Diff__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Street Difference --></label>
+        <name>KS_ShippingStreet_Diff__c</name>
+    </fields>
+    <fields>
+        <label><!-- Custom Shipping Street --></label>
+        <name>KS_ShippingStreet__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subactividad --></label>
+        <name>KS_Subactividad__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tipo --></label>
+        <name>KS_Tipo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tipo de venta --></label>
+        <name>KS_Tipo_de_venta__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tipo de via --></label>
+        <name>KS_Tipo_de_via__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tipo empresa M --></label>
+        <name>KS_Tipo_empresa__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tipo empresa S --></label>
+        <name>KS_Tipo_empresa_single__c</name>
+    </fields>
+    <fields>
+        <label><!-- Trabaja con Simon --></label>
+        <name>KS_Trabaja_con_Simon__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ubicación --></label>
+        <name>KS_Ubicacion__c</name>
+    </fields>
+    <fields>
+        <label><!-- id 18 --></label>
+        <name>KS_id_18__c</name>
+    </fields>
+    <fields>
+        <label><!-- largoId --></label>
+        <name>KS_largoId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tipo de registro (Name) --></label>
+        <name>KS_recordType_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lista Global --></label>
+        <name>Lista_Global__c</name>
+    </fields>
+    <fields>
+        <label><!-- BANT --></label>
+        <name>SI_BANT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Calidad Dirección --></label>
+        <name>SI_CalidadDireccion__c</name>
+        <picklistValues>
+            <masterLabel>A Revisar</masterLabel>
+            <translation><!-- A Revisar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ok</masterLabel>
+            <translation><!-- Ok --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rechazo Postal</masterLabel>
+            <translation><!-- Rechazo Postal --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Causa Pasivado --></label>
+        <name>SI_Causa_Pasivado__c</name>
+        <picklistValues>
+            <masterLabel>Fuera de target</masterLabel>
+            <translation><!-- Fuera de target --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pasivado permanentemente</masterLabel>
+            <translation><!-- Pasivado permanentemente --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pide baja de la BBDD</masterLabel>
+            <translation><!-- Pide baja de la BBDD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sin actividad o trabajo</masterLabel>
+            <translation><!-- Sin actividad o trabajo --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Descripción proyecto --></label>
+        <name>SI_Descripcion_proyecto_cuenta__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Cuenta --></label>
+        <name>SI_Email_Cuenta__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estado Duplicado --></label>
+        <name>SI_EstadoDuplicado__c</name>
+        <picklistValues>
+            <masterLabel>Duplicado 100%</masterLabel>
+            <translation><!-- Duplicado 100% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No duplicado</masterLabel>
+            <translation><!-- No duplicado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nuevo</masterLabel>
+            <translation><!-- Nuevo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Posible Duplicado</masterLabel>
+            <translation><!-- Posible Duplicado --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Mail Válido --></label>
+        <name>SI_Mail_Validado__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Si</masterLabel>
+            <translation><!-- Si --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Scoring IF Simon --></label>
+        <name>SI_Scoring_IF_Simon__c</name>
+        <picklistValues>
+            <masterLabel>AA</masterLabel>
+            <translation><!-- AA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AB</masterLabel>
+            <translation><!-- AB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AC</masterLabel>
+            <translation><!-- AC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BA</masterLabel>
+            <translation><!-- BA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BB</masterLabel>
+            <translation><!-- BB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BC</masterLabel>
+            <translation><!-- BC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA</masterLabel>
+            <translation><!-- CA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB</masterLabel>
+            <translation><!-- CB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CC</masterLabel>
+            <translation><!-- CC --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- address_old --></label>
+        <name>SI_address_old__c</name>
+    </fields>
+    <fields>
+        <label><!-- UCIN External ID --></label>
+        <name>UCIN_External_ID__c</name>
+    </fields>
+    <layouts>
+        <layout>Copia de Formato Candidatos - sys</layout>
+        <sections>
+            <label><!-- Aprobación --></label>
+            <section>Aprobación</section>
+        </sections>
+        <sections>
+            <label><!-- Control Marcas --></label>
+            <section>Control Marcas</section>
+        </sections>
+        <sections>
+            <label><!-- Información adicional (Admin) --></label>
+            <section>Información adicional (Admin)</section>
+        </sections>
+        <sections>
+            <label><!-- Lista Marcas --></label>
+            <section>Lista Marcas</section>
+        </sections>
+        <sections>
+            <label><!-- Scorings --></label>
+            <section>Scorings</section>
+        </sections>
+        <sections>
+            <label><!-- Segmentación --></label>
+            <section>Segmentación</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato Candidatos</layout>
+        <sections>
+            <label><!-- Aprobación --></label>
+            <section>Aprobación</section>
+        </sections>
+        <sections>
+            <label><!-- Creación Marca Comercial --></label>
+            <section>Creación Marca Comercial</section>
+        </sections>
+        <sections>
+            <label><!-- Marcas Comerciales --></label>
+            <section>Marcas Comerciales</section>
+        </sections>
+        <sections>
+            <label><!-- Scorings --></label>
+            <section>Scorings</section>
+        </sections>
+        <sections>
+            <label><!-- Segmentación --></label>
+            <section>Segmentación</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato Candidatos - sys</layout>
+        <sections>
+            <label><!-- Aprobación --></label>
+            <section>Aprobación</section>
+        </sections>
+        <sections>
+            <label><!-- Control Marcas --></label>
+            <section>Control Marcas</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Address --></label>
+            <section>Custom Address</section>
+        </sections>
+        <sections>
+            <label><!-- Información adicional (Admin) --></label>
+            <section>Información adicional (Admin)</section>
+        </sections>
+        <sections>
+            <label><!-- Lista Marcas --></label>
+            <section>Lista Marcas</section>
+        </sections>
+        <sections>
+            <label><!-- Scorings --></label>
+            <section>Scorings</section>
+        </sections>
+        <sections>
+            <label><!-- Segmentación --></label>
+            <section>Segmentación</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato Clientes finales</layout>
+        <sections>
+            <label><!-- Marcas --></label>
+            <section>Marcas</section>
+        </sections>
+        <sections>
+            <label><!-- Segmentación --></label>
+            <section>Segmentación</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato Clientes finales -sys</layout>
+        <sections>
+            <label><!-- Control marcas --></label>
+            <section>Control marcas</section>
+        </sections>
+        <sections>
+            <label><!-- Marcas --></label>
+            <section>Marcas</section>
+        </sections>
+        <sections>
+            <label><!-- Segmentación --></label>
+            <section>Segmentación</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato Distribuidores-CRM</layout>
+        <sections>
+            <label><!-- Marcas --></label>
+            <section>Marcas</section>
+        </sections>
+        <sections>
+            <label><!-- Segmentación --></label>
+            <section>Segmentación</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato Distribuidores-CRM - sys</layout>
+        <sections>
+            <label><!-- Control marcas --></label>
+            <section>Control marcas</section>
+        </sections>
+        <sections>
+            <label><!-- Marcas --></label>
+            <section>Marcas</section>
+        </sections>
+        <sections>
+            <label><!-- Segmentación --></label>
+            <section>Segmentación</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato Distribuidores-SAP</layout>
+        <sections>
+            <label><!-- Marcas --></label>
+            <section>Marcas</section>
+        </sections>
+        <sections>
+            <label><!-- Segmentación --></label>
+            <section>Segmentación</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato Distribuidores-SAP-sys</layout>
+        <sections>
+            <label><!-- Control marcas --></label>
+            <section>Control marcas</section>
+        </sections>
+        <sections>
+            <label><!-- Marcas --></label>
+            <section>Marcas</section>
+        </sections>
+        <sections>
+            <label><!-- Segmentación --></label>
+            <section>Segmentación</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato Instaladores</layout>
+        <sections>
+            <label><!-- Marcas --></label>
+            <section>Marcas</section>
+        </sections>
+        <sections>
+            <label><!-- Segmentación --></label>
+            <section>Segmentación</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato Instaladores - sys</layout>
+        <sections>
+            <label><!-- Control marcas --></label>
+            <section>Control marcas</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Address --></label>
+            <section>Custom Address</section>
+        </sections>
+        <sections>
+            <label><!-- Marcas --></label>
+            <section>Marcas</section>
+        </sections>
+        <sections>
+            <label><!-- Nueva sección --></label>
+            <section>Nueva sección</section>
+        </sections>
+        <sections>
+            <label><!-- Segmentación --></label>
+            <section>Segmentación</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato Nodos Jerárquicos</layout>
+        <sections>
+            <label><!-- Marcas --></label>
+            <section>Marcas</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato asociaciones</layout>
+        <sections>
+            <label><!-- Marcas --></label>
+            <section>Marcas</section>
+        </sections>
+        <sections>
+            <label><!-- Segmentación --></label>
+            <section>Segmentación</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato asociaciones - sys</layout>
+        <sections>
+            <label><!-- Address --></label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label><!-- Control marcas --></label>
+            <section>Control marcas</section>
+        </sections>
+        <sections>
+            <label><!-- Marcas --></label>
+            <section>Marcas</section>
+        </sections>
+        <sections>
+            <label><!-- Segmentación --></label>
+            <section>Segmentación</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato competidores</layout>
+        <sections>
+            <label><!-- Segmentación --></label>
+            <section>Segmentación</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato de cuenta personal</layout>
+        <layoutType>PersonAccount</layoutType>
+        <sections>
+            <label><!-- Clasificación --></label>
+            <section>Clasificación</section>
+        </sections>
+        <sections>
+            <label><!-- Segmentación --></label>
+            <section>Segmentación</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato prescripción</layout>
+        <sections>
+            <label><!-- Marcas --></label>
+            <section>Marcas</section>
+        </sections>
+        <sections>
+            <label><!-- Segmentación --></label>
+            <section>Segmentación</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato prescripción - sys</layout>
+        <sections>
+            <label><!-- Control marcas --></label>
+            <section>Control marcas</section>
+        </sections>
+        <sections>
+            <label><!-- Marcas --></label>
+            <section>Marcas</section>
+        </sections>
+        <sections>
+            <label><!-- Segmentación --></label>
+            <section>Segmentación</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Crear nueva Cita --></label>
+        <name>Nueva_Cita</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Solicitud SAP --></label>
+        <name>SolicitudCuentaSAP</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- Tipologia de cuenta para competidores --></description>
+        <label><!-- Competidor --></label>
+        <name>Competidor</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Tipo de registro, para cuentas de asociaciones --></description>
+        <label><!-- Asociaciones --></label>
+        <name>KS_Asociaciones</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Tipo de registro para albergar clientes finales --></description>
+        <label><!-- Clientes finales --></label>
+        <name>KS_Clientes_finales</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Tipo de registro para albergar distribuidores potenciales --></description>
+        <label><!-- Distribuidores CRM --></label>
+        <name>KS_Distribuidores</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Tipo de registro para albergar clientes distribuidores provenientes de SAP --></description>
+        <label><!-- Distribuidores SAP --></label>
+        <name>KS_Distribuidores_SAP</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Tipo de registro, para cuentas de Instaladores --></description>
+        <label><!-- Instalador --></label>
+        <name>KS_Instalador</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Tipo de registro, para cuentas de tipo Candidatos --></description>
+        <label><!-- Cuenta --></label>
+        <name>KS_Lead</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Tipo de registro, para albergar los nodos jerárquicos de la estructura de SAP --></description>
+        <label><!-- Nodo Jerárquico --></label>
+        <name>KS_Nodo_Jerarquico</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Tipo de registro, para cuentas de prescriptores --></description>
+        <label><!-- Prescriptores --></label>
+        <name>KS_Prescriptores</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Solo el propietario de la cuenta puede modificar el estado. --></errorMessage>
+        <name>Control_CambioEstado</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No puede crear una cuenta de otra tipología que no sea Lead --></errorMessage>
+        <name>LimitarCreacionaLeads</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Necesitas marcar la casilla de OC Simon Nacional --></errorMessage>
+        <name>MarcaComercialSimonObligatoria</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se pueden crear cuentas nuevas, debes seguir el procedimiento de creación de LEADS. --></errorMessage>
+        <name>NoNewAcc</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No puede modificarse el nombre del distribuidor --></errorMessage>
+        <name>No_Modificar_Nombre_SAP</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Debes de indicar los detalles de dirección (Calle, Código Postal) que son necesarios para nuestra organización. --></errorMessage>
+        <name>Obligatoriedad_Direcciones_de_Envio</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- AltavistaNews --></label>
+        <name>AltavistaNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Asignarme_cuenta --></label>
+        <name>Asignarme_cuenta</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleNews --></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- HooversProfile --></label>
+        <name>HooversProfile</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- KS_Direccion --></label>
+        <name>KS_Direccion</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- KS_LeadSendApproval --></label>
+        <name>KS_LeadSendApproval</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- KS_LeadgetApproval --></label>
+        <name>KS_LeadgetApproval</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- KS_Solicitud_de_Jerarquizaci_n --></label>
+        <name>KS_Solicitud_de_Jerarquizaci_n</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- PruebaAssingMe --></label>
+        <name>PruebaAssingMe</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SolicitudCuentaSAP_Boton --></label>
+        <name>SolicitudCuentaSAP_Boton</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooMaps --></label>
+        <name>YahooMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- assign_to_me --></label>
+        <name>assign_to_me</name>
+    </webLinks>
+</CustomObjectTranslation>

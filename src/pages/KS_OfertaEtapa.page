@@ -1,0 +1,50 @@
+<apex:page standardController="Opportunity" extensions="KS_OfertaEtapa_Controller" docType="html-5.0" id="oferta_page" standardStylesheets="true">
+
+    <apex:sectionheader title="{!$ObjectType.Opportunity.label} Edit" subtitle="{!IF(ISNULL(oferta.Name), '{!$Label.ks_btn_new_fem} {!$Label.Oferta}',oferta.Name)}"/>
+    <apex:includeScript value="{!$Resource.KS_jquery1}"/>
+    <apex:form id="oferta_form" styleClass="formulario">
+        
+        <apex:messages />
+        <!--
+        <apex:pageblock mode="maindetail" rendered="{!haveErrorOferta}">
+            <apex:pageBlockSection columns="1" title="{!$Label.oferta_ficha_error}" collapsible="false">
+                <apex:outputText value="{!errorTextOferta}" styleclass="warning"/>
+            </apex:pageBlockSection>
+        </apex:pageblock>        
+        -->
+        <apex:pageblock mode="maindetail">
+        
+            <apex:pageblockbuttons location="bottom">
+                <apex:commandbutton value="{!$Label.ks_btn_guardar}" action="{!editEtapaOferta}"/>
+                <apex:commandbutton value="{!$Label.ks_btn_cancel}" action="{!cancel}"/>
+            </apex:pageblockbuttons>
+            
+            
+            
+            <apex:outputpanel id="fieldPanel">
+                <apex:actionFunction action="{!reload}" name="callReload" reRender="fieldPanel"/>
+                <apex:pageblocksection title="{!$Label.oferta_section_info}" showheader="true" columns="2" collapsible="true">
+                    <apex:inputField value="{!oferta.StageName}"/>
+                    <apex:inputField value="{!oferta.KS_Probabilidad__c}"/>
+                    <apex:inputField value="{!oferta.KS_Subetapa__c}"/>
+                    <apex:inputField value="{!oferta.CloseDate}"/>
+                    <apex:pageBlockSectionItem ></apex:pageBlockSectionItem>
+                    <apex:pageBlockSectionItem ></apex:pageBlockSectionItem>
+                    <apex:inputField value="{!oferta.KS_Contabiliza__c}"/>
+                    <apex:pageBlockSectionItem ></apex:pageBlockSectionItem>
+                    <!--<apex:inputField value="{!oferta.KS_Agente_de_contabilizacion__c}" onchange="callReload();" rendered="{!!prescribeDistribuidor}"/>
+                    <apex:inputField value="{!oferta.KS_Agente_de_contabilizacion__c}" html-disabled="disabled" rendered="{!prescribeDistribuidor}"/>-->
+                    <apex:inputField value="{!oferta.KS_Agente_de_contabilizacion__c}"/>
+                    <apex:pageBlockSectionItem ></apex:pageBlockSectionItem>
+                    <!--<apex:inputField value="{!oferta.KS_Prescrito__c}" rendered="{!!contabilizaDistribuidor}" html-disabled="disabled"/>
+                    <apex:inputField value="{!oferta.KS_Prescrito__c}" rendered="{!contabilizaDistribuidor}" onchange="callReload();"/>-->
+                    <apex:inputField value="{!oferta.KS_Prescrito__c}"/>
+                    <apex:outputField value="{!oferta.KS_Sincronizacion__c}"/>
+                </apex:pageblocksection>
+            </apex:outputpanel>
+        
+        </apex:pageblock>
+        
+    </apex:form>
+    
+</apex:page>

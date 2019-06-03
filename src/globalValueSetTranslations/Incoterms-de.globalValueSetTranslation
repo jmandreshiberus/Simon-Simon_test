@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>CFR</masterLabel>
+        <translation>Kosten und Fracht</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CIF</masterLabel>
+        <translation>Kosten, Versicherung &amp; Fracht</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CIP</masterLabel>
+        <translation>Frachtfrei versichert</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CPT</masterLabel>
+        <translation>Frachtfrei</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DAF</masterLabel>
+        <translation>Geliefert Grenze</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DAP</masterLabel>
+        <translation>Geliefert ab Kai (verzollt)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DAT</masterLabel>
+        <translation>Geliefert unverzollt</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DDP</masterLabel>
+        <translation>Geliefert verzollt</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DDU</masterLabel>
+        <translation>Geliefert unverzollt</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DEQ</masterLabel>
+        <translation>Geliefert ab Kai (verzollt)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DES</masterLabel>
+        <translation>Geliefert ab Schiff</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>EXW</masterLabel>
+        <translation>Ab Werk</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FAS</masterLabel>
+        <translation>Frei Längsseite Seeschiff</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FCA</masterLabel>
+        <translation>Frei Frachtführer</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FH</masterLabel>
+        <translation>Frei Haus</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FOB</masterLabel>
+        <translation>Frei an Bord</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UN</masterLabel>
+        <translation>Unfrei</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZEC</masterLabel>
+        <translation><!-- ZEC --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZEE</masterLabel>
+        <translation><!-- ZEE --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZEI</masterLabel>
+        <translation><!-- ZEI --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZFC</masterLabel>
+        <translation>Frei an Bord</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZFE</masterLabel>
+        <translation>Frei an Bord</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZFG</masterLabel>
+        <translation>Frei an Bord</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZFI</masterLabel>
+        <translation>Frei an Bord</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZFM</masterLabel>
+        <translation>Frei an Bord</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZFU</masterLabel>
+        <translation>Frei an Bord</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZPC</masterLabel>
+        <translation><!-- ZPC --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZPD</masterLabel>
+        <translation><!-- ZPD --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZPP</masterLabel>
+        <translation><!-- ZPP --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZZ</masterLabel>
+        <translation><!-- ZZZ --></translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

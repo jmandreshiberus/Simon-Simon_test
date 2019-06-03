@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Ubicación Obra</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Ubicaciones Obra</value>
+    </caseValues>
+    <fields>
+        <label><!-- Área Fórmula --></label>
+        <name>KS_AreaF__c</name>
+    </fields>
+    <fields>
+        <label><!-- Área --></label>
+        <name>KS_Area__c</name>
+    </fields>
+    <fields>
+        <label><!-- Coordinador --></label>
+        <name>KS_Coordinador__c</name>
+        <relationshipLabel><!-- Ubicaciones Obra (Coordinador) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Delegación Fórmula --></label>
+        <name>KS_DelegacionF__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delegación --></label>
+        <name>KS_Delegacion__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Ubicación --></label>
+        <name>KS_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Org. Ventas Fórmula --></label>
+        <name>KS_MarcaF__c</name>
+    </fields>
+    <fields>
+        <label><!-- Organización de ventas --></label>
+        <name>KS_Marca__c</name>
+    </fields>
+    <fields>
+        <label><!-- Obra --></label>
+        <name>KS_Obra__c</name>
+        <relationshipLabel><!-- Ubicaciones Obra --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Responsable --></label>
+        <name>KS_Responsable__c</name>
+        <relationshipLabel><!-- Ubicaciones Obra (Responsable) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Ubicación --></label>
+        <name>KS_Ubicacion__c</name>
+        <relationshipLabel><!-- Ubicaciones Obra --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Zona Fórmula --></label>
+        <name>KS_ZonaF__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zona --></label>
+        <name>KS_Zona__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Formato Ubicación Obra</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>LF</masterLabel>
+        <translation>Entrega de salida</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LR</masterLabel>
+        <translation>Entrega devoluciones</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBR1</masterLabel>
+        <translation>Entrega de salida</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBR2</masterLabel>
+        <translation>Entrega devoluciones</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBR3</masterLabel>
+        <translation>Entrega de muestras</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBR5</masterLabel>
+        <translation>Entrega de muestras</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBRO</masterLabel>
+        <translation>Entrega devoluciones</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBRP</masterLabel>
+        <translation>Entrega de salida</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBV0</masterLabel>
+        <translation>Entrega Outlet</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZDTR</masterLabel>
+        <translation>Traspaso centr.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZESP</masterLabel>
+        <translation>Sal.Especiales(comp)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZHIC</masterLabel>
+        <translation><!-- ZHIC --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZHID</masterLabel>
+        <translation>Entrega Entrada UM</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZHMD</masterLabel>
+        <translation>Entrada NO SGA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZHOD</masterLabel>
+        <translation>Entrega Salida UM</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZIN1</masterLabel>
+        <translation>Entrega de salida</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZIN2</masterLabel>
+        <translation>Entrega de salida</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZIN3</masterLabel>
+        <translation>Returns Delivery</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZLC0</masterLabel>
+        <translation>Consumo Consigna</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZLCC</masterLabel>
+        <translation>Reposición multisoc.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZLF</masterLabel>
+        <translation>Entrega a Consigna</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZLG</masterLabel>
+        <translation>Entrega gratuita</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZLR</masterLabel>
+        <translation>Devol a Consigna</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZNL</masterLabel>
+        <translation>Traslado Almacenes</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZNL1</masterLabel>
+        <translation>Trasl. Almacen NoPic</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZTC</masterLabel>
+        <translation>Entrega de Consigna</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

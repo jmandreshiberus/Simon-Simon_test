@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Procedimiento para resolver problemas con navegadores tras actualización</description>
+    <internalUseOnly>false</internalUseOnly>
+    <keywords>dakota problemas navegadores cache</keywords>
+    <name>Problemas Con Navegadores</name>
+    <public>false</public>
+</Document>

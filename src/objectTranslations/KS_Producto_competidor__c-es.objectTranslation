@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Producto competidor</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Productos competidores</value>
+    </caseValues>
+    <fields>
+        <label><!-- Competidor --></label>
+        <name>KS_Competidor__c</name>
+        <relationshipLabel><!-- Productos competidores --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Fabricante --></label>
+        <name>KS_Fabricante__c</name>
+    </fields>
+    <fields>
+        <label><!-- Serie --></label>
+        <name>KS_Serie__c</name>
+    </fields>
+    <fields>
+        <label><!-- Solución --></label>
+        <name>KS_Solucion__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Formato Producto competidor</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

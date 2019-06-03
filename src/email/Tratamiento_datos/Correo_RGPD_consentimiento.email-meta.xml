@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Correo RGPD consentimiento</name>
+    <style>none</style>
+    <subject>Información sobre tratamiento de datos de SIMON</subject>
+    <textOnly>Estimado cliente,
+
+Le informamos que sus datos personales (datos de contacto y datos profesionales) serán tratados por SIMON, S.A.U. (en adelante SIMON), con domicilio en Diputación 390-392, 08013, Barcelona, con la finalidad de gestionar la relación comercial existente entre las partes. La base jurídica para dicho tratamiento de datos es el desarrollo de dicha relación.
+
+Gracias a que lo ha autorizado expresamente, sus datos podrán ser tratados con la finalidad de remitirle, por cualquier medio incluyendo el electrónico, información sobre los productos y/o servicios prestados por las empresas de Grupo SIMON. Podrá oponerse, en cualquier momento, mediante correo electrónico a dpo@simonelectric.com
+
+Sus datos serán conservados durante el periodo de vigencia de la relación entre las partes y, una vez finalizada, en caso de ser necesario, se conservarán, debidamente bloqueados, durante todo el tiempo en que resulte necesaria su conservación para atender a los requerimientos legales aplicables.
+
+Sus datos únicamente podrán ser comunicados a las empresas de Grupo Simon con sede en el Espacio Económico Europeo www.simonelectric.com exclusivamente para las finalidades que han sido anteriormente informadas, dado que dicha cesión puede ser necesaria para el desarrollo de la relación comercial en función de los productos o servicios que puedan ser de su interés. Podrá oponerse, en cualquier momento, mediante correo electrónico a dpo@simonelectric.com
+
+Podrá ejercer sus derechos dirigiéndose al Delegado de Protección de Datos, en la dirección postal o electrónica mencionada. También le informamos de la opción de presentar una reclamación ante la Agencia Española de Protección de Datos, en caso de considerar que se ha cometido una infracción de la legislación respecto al tratamiento de sus datos personales.
+
+Reciba un cordial saludo.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

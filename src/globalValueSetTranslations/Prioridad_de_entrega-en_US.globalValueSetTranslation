@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>00</masterLabel>
+        <translation><!-- 00 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>01</masterLabel>
+        <translation>High Priority</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>02</masterLabel>
+        <translation>Priority 2</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>03</masterLabel>
+        <translation>Priority 3</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>04</masterLabel>
+        <translation>Priority 4</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>05</masterLabel>
+        <translation>Priority 5</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>06</masterLabel>
+        <translation>Priority 6</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>07</masterLabel>
+        <translation>Priority 7</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>08</masterLabel>
+        <translation>Priority 8</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>09</masterLabel>
+        <translation>Priority 9</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>10</masterLabel>
+        <translation>Priority 10</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>11</masterLabel>
+        <translation>Priority 11</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>12</masterLabel>
+        <translation>Priority 12</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>13</masterLabel>
+        <translation>Priority 13</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>14</masterLabel>
+        <translation>Priority 14</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>15</masterLabel>
+        <translation>Priority 15</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>16</masterLabel>
+        <translation>Priority 16</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>17</masterLabel>
+        <translation>Priority 17</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>18</masterLabel>
+        <translation>Priority 18</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>19</masterLabel>
+        <translation>Priority 19</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>20</masterLabel>
+        <translation>Priority 20</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>21</masterLabel>
+        <translation>Priority 21</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>22</masterLabel>
+        <translation>Priority 22</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>23</masterLabel>
+        <translation>Priority 23</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>24</masterLabel>
+        <translation>Priority 24</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>25</masterLabel>
+        <translation>Priority 25</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>26</masterLabel>
+        <translation>Priority 26</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>27</masterLabel>
+        <translation>Priority 27</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>28</masterLabel>
+        <translation>Priority 28</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>29</masterLabel>
+        <translation>Priority 29</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>30</masterLabel>
+        <translation>Priority 30</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>99</masterLabel>
+        <translation>Priority 99</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

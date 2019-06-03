@@ -1,0 +1,4339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Customer organization</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Customers organization</value>
+    </caseValues>
+    <fields>
+        <label><!-- Activa --></label>
+        <name>KS_Activa__c</name>
+    </fields>
+    <fields>
+        <label><!-- En Aprobación --></label>
+        <name>KS_AprobacionPendiente__c</name>
+    </fields>
+    <fields>
+        <label><!-- AprobacionRegimenVisitas --></label>
+        <name>KS_AprobacionRegimenVisitas__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cod. Área --></label>
+        <name>KS_Area_Cod__c</name>
+    </fields>
+    <fields>
+        <label><!-- Área --></label>
+        <name>KS_Area__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bloqueo contabilizacion para_sociedad --></label>
+        <name>KS_Bloqueo_contabilizacion_para_sociedad__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bloqueo de entrega para cliente --></label>
+        <name>KS_Bloqueo_de_entrega_para_cliente__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bloqueo de factura para cliente --></label>
+        <name>KS_Bloqueo_de_factura_para_cliente__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bloqueo de pedido para cliente --></label>
+        <name>KS_Bloqueo_de_pedido_para_cliente__c</name>
+    </fields>
+    <fields>
+        <label><!-- Canal Cliente --></label>
+        <name>KS_Canal_Cliente__c</name>
+    </fields>
+    <fields>
+        <label><!-- Canal de distribución --></label>
+        <name>KS_Canal_de_distribucion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Clasificación de Clientes (Análisis AB) --></label>
+        <name>KS_Clasificacion_de_Clientes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Clave de condiciones de pago --></label>
+        <name>KS_Clave_de_condiciones_de_pago__c</name>
+        <picklistValues>
+            <masterLabel>0001</masterLabel>
+            <translation><!-- 0001 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0004</masterLabel>
+            <translation><!-- 0004 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B001</masterLabel>
+            <translation>Payable immediately Due net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B002</masterLabel>
+            <translation>30 days from invoice date</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B003</masterLabel>
+            <translation>45 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B004</masterLabel>
+            <translation>30 &amp; 45 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B005</masterLabel>
+            <translation>28 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B006</masterLabel>
+            <translation>35 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B007</masterLabel>
+            <translation>28 &amp; 35 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B008</masterLabel>
+            <translation>60 days from invoice date</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B009</masterLabel>
+            <translation>30, 45 &amp; 60 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B010</masterLabel>
+            <translation>5 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B011</masterLabel>
+            <translation>75 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B012</masterLabel>
+            <translation>30, 60 &amp; 75 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B013</masterLabel>
+            <translation>7 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B014</masterLabel>
+            <translation>28 &amp; 45 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B015</masterLabel>
+            <translation>30 &amp; 60 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B016</masterLabel>
+            <translation>10 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B017</masterLabel>
+            <translation>90 days from invoice date</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B018</masterLabel>
+            <translation>30, 60 &amp; 90 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B019</masterLabel>
+            <translation>35, 45 &amp; 60 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B020</masterLabel>
+            <translation>42 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B021</masterLabel>
+            <translation>28 &amp; 42 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B022</masterLabel>
+            <translation>28, 35 &amp; 42 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B023</masterLabel>
+            <translation>15 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B024</masterLabel>
+            <translation>35 &amp; 42 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B025</masterLabel>
+            <translation>35 &amp; 45 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B026</masterLabel>
+            <translation>15, 30 &amp; 60 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B027</masterLabel>
+            <translation>12 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B028</masterLabel>
+            <translation>20 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B029</masterLabel>
+            <translation>21 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B030</masterLabel>
+            <translation>55 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B031</masterLabel>
+            <translation>35, 45 &amp; 55 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B032</masterLabel>
+            <translation>40 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B033</masterLabel>
+            <translation>40 &amp; 60 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B034</masterLabel>
+            <translation>50 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B035</masterLabel>
+            <translation>30, 40, 50 &amp; 60 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B036</masterLabel>
+            <translation>70 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B037</masterLabel>
+            <translation>30, 40, 60 &amp; 70 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B038</masterLabel>
+            <translation>100 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B039</masterLabel>
+            <translation>30%Entry 30%Receipt 40% on 21 days</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B040</masterLabel>
+            <translation>30, 40 &amp; 50 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B041</masterLabel>
+            <translation>Payable immediately &amp; on 28 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B042</masterLabel>
+            <translation>50% Good Entry &amp; on 28, 35, 45 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B043</masterLabel>
+            <translation>Payable Immediately &amp; on 30, 60 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B044</masterLabel>
+            <translation>45 &amp; 55 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B045</masterLabel>
+            <translation>On Goods Entry &amp; on 30, 60 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B046</masterLabel>
+            <translation>25 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B047</masterLabel>
+            <translation>120 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B048</masterLabel>
+            <translation>150 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B049</masterLabel>
+            <translation>180 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B050</masterLabel>
+            <translation>210 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B051</masterLabel>
+            <translation>Immediately, 30, 60, 90, 120, 150 &amp; 210 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B052</masterLabel>
+            <translation>Payment Immediately &amp; on 21 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B053</masterLabel>
+            <translation>56 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B054</masterLabel>
+            <translation>Payment Immediately, on 28 &amp; 56 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B055</masterLabel>
+            <translation>30, 45, 60 &amp; 75 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B056</masterLabel>
+            <translation>30, 60, 90, 120, 150 &amp; 180 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B057</masterLabel>
+            <translation>14 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B058</masterLabel>
+            <translation>7 &amp; 14 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B059</masterLabel>
+            <translation>Payment Immediately &amp; on 30 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B060</masterLabel>
+            <translation>Payment Immediately &amp; on 40 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B061</masterLabel>
+            <translation>Payment Immediately, on 45 &amp; 75 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B062</masterLabel>
+            <translation>10 &amp; 30 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B063</masterLabel>
+            <translation>Immediately, 30, 60, 90 &amp; 120 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B064</masterLabel>
+            <translation>30, 45, 60, 75 &amp; 90 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B065</masterLabel>
+            <translation>Payment Immediately &amp; on 35 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B066</masterLabel>
+            <translation>49 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B067</masterLabel>
+            <translation>35 &amp; 49 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B068</masterLabel>
+            <translation>35 &amp; 60 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B069</masterLabel>
+            <translation>40, 70 &amp; 100 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B070</masterLabel>
+            <translation>28 &amp; 56 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B071</masterLabel>
+            <translation>21, 28 &amp; 35 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B072</masterLabel>
+            <translation>28, 42 &amp; 56 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B073</masterLabel>
+            <translation>28, 35 &amp; 45 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B074</masterLabel>
+            <translation>28, 35, 42 &amp; 49 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B075</masterLabel>
+            <translation>60 &amp; 90 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B076</masterLabel>
+            <translation>42 &amp; 56 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B077</masterLabel>
+            <translation>35, 42 &amp; 49 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B078</masterLabel>
+            <translation>28, 45 &amp; 60 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B079</masterLabel>
+            <translation>21, 28, 35 &amp; 42 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B080</masterLabel>
+            <translation>30, 60, 90, 120 &amp; 150 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B081</masterLabel>
+            <translation>28, 35, 42 &amp; 56 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B082</masterLabel>
+            <translation>45 &amp; 60 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B083</masterLabel>
+            <translation>60, 90 &amp; 120 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B084</masterLabel>
+            <translation>91 days from invoice date</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B085</masterLabel>
+            <translation>105 days from invoice date</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B086</masterLabel>
+            <translation>119 days from invoice date</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B087</masterLabel>
+            <translation>91, 105 &amp; 119 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B088</masterLabel>
+            <translation>28, 49 &amp; 70 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B089</masterLabel>
+            <translation>63 days from invoice date</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B090</masterLabel>
+            <translation>35, 42, 49, 56 &amp; 63 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B091</masterLabel>
+            <translation>42, 49, 56, 63 &amp; 70 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B092</masterLabel>
+            <translation>84 days from invoice date</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B093</masterLabel>
+            <translation>28, 42, 56, 70 &amp; 84 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B094</masterLabel>
+            <translation>28, 56 y 84 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B095</masterLabel>
+            <translation>77 days from invoice date</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B096</masterLabel>
+            <translation>49, 56, 63, 70 &amp; 77 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B097</masterLabel>
+            <translation>42, 63 y 84 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B098</masterLabel>
+            <translation>42, 63 y 84 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B099</masterLabel>
+            <translation>35, 70 y 105 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B100</masterLabel>
+            <translation>98 days from invoice date</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B101</masterLabel>
+            <translation>42, 56, 70, 84 &amp; 98 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B102</masterLabel>
+            <translation>63, 91 &amp; 119 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B103</masterLabel>
+            <translation>63, 77, 91, 105 &amp; 119 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B104</masterLabel>
+            <translation>49, 77 &amp; 105 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B105</masterLabel>
+            <translation>49, 63, 77, 91 &amp; 105 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B106</masterLabel>
+            <translation>42, 70 &amp; 98 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B107</masterLabel>
+            <translation>42 &amp; 70 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B108</masterLabel>
+            <translation>42, 49 &amp; 56  days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B109</masterLabel>
+            <translation>42, 56 &amp; 70 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B110</masterLabel>
+            <translation>30, 45, 60, 75, 90, 105 &amp; 120 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B111</masterLabel>
+            <translation>90, 120 &amp; 150 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B112</masterLabel>
+            <translation>14 &amp; 21 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B113</masterLabel>
+            <translation>49, 56 &amp; 63 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B114</masterLabel>
+            <translation>112 days from invoice date</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B115</masterLabel>
+            <translation>77, 84, 91, 98, 105 &amp; 112 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B116</masterLabel>
+            <translation>60, 75, 90, 105 &amp; 120 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B117</masterLabel>
+            <translation>77, 84, 91, 98 &amp; 105 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B118</masterLabel>
+            <translation>45, 60 &amp; 75 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B119</masterLabel>
+            <translation>63, 77 &amp; 91 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B120</masterLabel>
+            <translation>35, 49, 63, 77 &amp; 91 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B121</masterLabel>
+            <translation>49, 70 &amp; 91 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B122</masterLabel>
+            <translation>30, 60, 90 &amp; 120 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B123</masterLabel>
+            <translation>49 &amp; 56 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B124</masterLabel>
+            <translation>135 days from invoice date</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B125</masterLabel>
+            <translation>165 days from invoice date</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B126</masterLabel>
+            <translation>120, 135, 150, 165 &amp; 180 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B127</masterLabel>
+            <translation>35, 42, 49, 56, 63, 70 &amp; 77 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B128</masterLabel>
+            <translation>45, 60, 75, 90 &amp; 105 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B129</masterLabel>
+            <translation>28, 35, 42, 49 &amp; 56 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B130</masterLabel>
+            <translation>147 days from invoice date</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B131</masterLabel>
+            <translation>175 days from invoice date</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B132</masterLabel>
+            <translation>63, 91, 119, 147 &amp; 175 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B133</masterLabel>
+            <translation>60, 90, 120 &amp; 150 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B134</masterLabel>
+            <translation>42, 56, 63, 70 &amp; 84 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B135</masterLabel>
+            <translation>49, 63 &amp; 77 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B136</masterLabel>
+            <translation>56, 63, 70, 77 &amp; 84 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B137</masterLabel>
+            <translation>56, 63 &amp; 70 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B138</masterLabel>
+            <translation>63, 70 &amp; 77 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B139</masterLabel>
+            <translation>60,90,120,150,180 &amp; 210 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B140</masterLabel>
+            <translation>75, 90, 105, 120 &amp; 135 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B141</masterLabel>
+            <translation>75, 90, 105, 120, 135 &amp; 150 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B142</masterLabel>
+            <translation>35, 49 &amp; 63 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B143</masterLabel>
+            <translation>35, 42 &amp; 60 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B144</masterLabel>
+            <translation>90 &amp; 120 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B145</masterLabel>
+            <translation>77, 91 &amp; 105 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B146</masterLabel>
+            <translation>60, 90, 120, 150 &amp; 180 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B147</masterLabel>
+            <translation>28, 56, 84 &amp; 112 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B148</masterLabel>
+            <translation>14 &amp; 30 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B149</masterLabel>
+            <translation>130 days from invoice date</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B150</masterLabel>
+            <translation>75, 90, 105 &amp; 120 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B151</masterLabel>
+            <translation>110 days from invoice date</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B152</masterLabel>
+            <translation>8 days from invoice date</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B153</masterLabel>
+            <translation>34 days from invoice date</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B154</masterLabel>
+            <translation>65 days from invoice date</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B155</masterLabel>
+            <translation>18 days from invoice date</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B156</masterLabel>
+            <translation>14 &amp; 28 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B157</masterLabel>
+            <translation>30 &amp; 40 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B158</masterLabel>
+            <translation>7, 14 &amp; 21 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B168</masterLabel>
+            <translation>70 &amp; 100 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BN16</masterLabel>
+            <translation><!-- BN16 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BN17</masterLabel>
+            <translation><!-- BN17 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C000</masterLabel>
+            <translation>30 days from invoice date</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C001</masterLabel>
+            <translation><!-- C001 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C002</masterLabel>
+            <translation><!-- C002 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C003</masterLabel>
+            <translation><!-- C003 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C004</masterLabel>
+            <translation>15 days from invoice date</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C005</masterLabel>
+            <translation><!-- C005 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C006</masterLabel>
+            <translation><!-- C006 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C007</masterLabel>
+            <translation><!-- C007 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C008</masterLabel>
+            <translation><!-- C008 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C009</masterLabel>
+            <translation><!-- C009 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C010</masterLabel>
+            <translation><!-- C010 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C013</masterLabel>
+            <translation><!-- C013 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C015</masterLabel>
+            <translation><!-- C015 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C017</masterLabel>
+            <translation><!-- C017 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C018</masterLabel>
+            <translation><!-- C018 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C020</masterLabel>
+            <translation><!-- C020 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C022</masterLabel>
+            <translation><!-- C022 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C023</masterLabel>
+            <translation><!-- C023 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C025</masterLabel>
+            <translation><!-- C025 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C026</masterLabel>
+            <translation><!-- C026 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C027</masterLabel>
+            <translation><!-- C027 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C028</masterLabel>
+            <translation><!-- C028 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C029</masterLabel>
+            <translation><!-- C029 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C030</masterLabel>
+            <translation><!-- C030 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C031</masterLabel>
+            <translation><!-- C031 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C032</masterLabel>
+            <translation><!-- C032 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C033</masterLabel>
+            <translation><!-- C033 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C034</masterLabel>
+            <translation><!-- C034 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C035</masterLabel>
+            <translation><!-- C035 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C036</masterLabel>
+            <translation><!-- C036 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C037</masterLabel>
+            <translation><!-- C037 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C038</masterLabel>
+            <translation><!-- C038 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C039</masterLabel>
+            <translation><!-- C039 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C040</masterLabel>
+            <translation><!-- C040 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C041</masterLabel>
+            <translation><!-- C041 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C042</masterLabel>
+            <translation><!-- C042 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C043</masterLabel>
+            <translation><!-- C043 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C044</masterLabel>
+            <translation><!-- C044 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C045</masterLabel>
+            <translation><!-- C045 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C046</masterLabel>
+            <translation>30 days on the 2nd and 17th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C047</masterLabel>
+            <translation>30% in advance and 70% in 60 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C048</masterLabel>
+            <translation><!-- C048 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C049</masterLabel>
+            <translation>40% in advance and 60% payable immediately</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C050</masterLabel>
+            <translation>Payable immediately</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C051</masterLabel>
+            <translation>Payable immediately Due net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C052</masterLabel>
+            <translation>Payment in advance</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C053</masterLabel>
+            <translation><!-- C053 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C054</masterLabel>
+            <translation><!-- C054 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C055</masterLabel>
+            <translation>50% prepaid ant 50% in 60 days</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C056</masterLabel>
+            <translation>40% advanced, 30% sample approv. &amp; 30% T/T 30 days</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C057</masterLabel>
+            <translation>50% prepaid ant 50% in 60 days</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C058</masterLabel>
+            <translation>50% prepaid ant 50% in 60 days</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C059</masterLabel>
+            <translation>Counter reimbursement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C060</masterLabel>
+            <translation>30 and 55 days net, on 30th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C061</masterLabel>
+            <translation>30 and 55 days net, on 15th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C062</masterLabel>
+            <translation>30 and 55 days net, on 15th and 30th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C063</masterLabel>
+            <translation>30 and 70 days net, on 15th and 30th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C064</masterLabel>
+            <translation><!-- C064 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C068</masterLabel>
+            <translation><!-- C068 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C070</masterLabel>
+            <translation><!-- C070 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C071</masterLabel>
+            <translation><!-- C071 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C072</masterLabel>
+            <translation><!-- C072 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C073</masterLabel>
+            <translation><!-- C073 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C074</masterLabel>
+            <translation><!-- C074 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C075</masterLabel>
+            <translation>55 and 85 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C076</masterLabel>
+            <translation>30, 60 and 85 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C079</masterLabel>
+            <translation><!-- C079 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C080</masterLabel>
+            <translation><!-- C080 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C081</masterLabel>
+            <translation><!-- C081 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C082</masterLabel>
+            <translation><!-- C082 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C083</masterLabel>
+            <translation><!-- C083 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C084</masterLabel>
+            <translation><!-- C084 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C085</masterLabel>
+            <translation><!-- C085 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C088</masterLabel>
+            <translation><!-- C088 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C089</masterLabel>
+            <translation>From 30 to 120 days net, on the 25th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C090</masterLabel>
+            <translation><!-- C090 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C091</masterLabel>
+            <translation><!-- C091 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C092</masterLabel>
+            <translation><!-- C092 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C093</masterLabel>
+            <translation>From 30 to 150 days, on 30th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C094</masterLabel>
+            <translation><!-- C094 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C095</masterLabel>
+            <translation><!-- C095 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C096</masterLabel>
+            <translation><!-- C096 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C097</masterLabel>
+            <translation><!-- C097 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C098</masterLabel>
+            <translation><!-- C098 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C099</masterLabel>
+            <translation>45 days net, on 30th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C100</masterLabel>
+            <translation>60 days from invoice date</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C102</masterLabel>
+            <translation><!-- C102 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C103</masterLabel>
+            <translation><!-- C103 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C105</masterLabel>
+            <translation><!-- C105 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C106</masterLabel>
+            <translation><!-- C106 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C108</masterLabel>
+            <translation>60 days, on the 8th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C109</masterLabel>
+            <translation>60 days net, on 9th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C110</masterLabel>
+            <translation><!-- C110 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C112</masterLabel>
+            <translation><!-- C112 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C113</masterLabel>
+            <translation><!-- C113 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C115</masterLabel>
+            <translation><!-- C115 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C116</masterLabel>
+            <translation><!-- C116 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C117</masterLabel>
+            <translation><!-- C117 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C118</masterLabel>
+            <translation><!-- C118 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C119</masterLabel>
+            <translation><!-- C119 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C120</masterLabel>
+            <translation><!-- C120 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C121</masterLabel>
+            <translation><!-- C121 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C122</masterLabel>
+            <translation><!-- C122 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C123</masterLabel>
+            <translation><!-- C123 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C124</masterLabel>
+            <translation><!-- C124 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C125</masterLabel>
+            <translation>60 days net, on the 25th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C126</masterLabel>
+            <translation><!-- C126 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C127</masterLabel>
+            <translation><!-- C127 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C128</masterLabel>
+            <translation><!-- C128 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C130</masterLabel>
+            <translation>60 days net, on 30th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C131</masterLabel>
+            <translation><!-- C131 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C132</masterLabel>
+            <translation>60 days net, on 5th and 20th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C133</masterLabel>
+            <translation><!-- C133 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C134</masterLabel>
+            <translation>60 days net, on the 10th and 25th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C135</masterLabel>
+            <translation><!-- C135 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C136</masterLabel>
+            <translation><!-- C136 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C137</masterLabel>
+            <translation><!-- C137 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C138</masterLabel>
+            <translation><!-- C138 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C139</masterLabel>
+            <translation><!-- C139 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C140</masterLabel>
+            <translation><!-- C140 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C141</masterLabel>
+            <translation><!-- C141 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C142</masterLabel>
+            <translation><!-- C142 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C143</masterLabel>
+            <translation><!-- C143 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C144</masterLabel>
+            <translation><!-- C144 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C145</masterLabel>
+            <translation>60 days net, on 5th and 10th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C146</masterLabel>
+            <translation>60 days net, on 8th and 25th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C147</masterLabel>
+            <translation>60 days net, on 7th and 22th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C148</masterLabel>
+            <translation>60 days net, on 12th and 25th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C149</masterLabel>
+            <translation>60 and 85 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C150</masterLabel>
+            <translation><!-- C150 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C151</masterLabel>
+            <translation><!-- C151 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C152</masterLabel>
+            <translation><!-- C152 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C153</masterLabel>
+            <translation><!-- C153 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C154</masterLabel>
+            <translation><!-- C154 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C155</masterLabel>
+            <translation><!-- C155 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C156</masterLabel>
+            <translation><!-- C156 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C157</masterLabel>
+            <translation><!-- C157 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C158</masterLabel>
+            <translation><!-- C158 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C159</masterLabel>
+            <translation><!-- C159 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C160</masterLabel>
+            <translation>60, 85 and 120 days, on 5th and 20th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C161</masterLabel>
+            <translation><!-- C161 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C162</masterLabel>
+            <translation><!-- C162 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C163</masterLabel>
+            <translation><!-- C163 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C164</masterLabel>
+            <translation><!-- C164 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C165</masterLabel>
+            <translation><!-- C165 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C166</masterLabel>
+            <translation><!-- C166 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C167</masterLabel>
+            <translation>60 and 120 days net, on the 2th and 17th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C168</masterLabel>
+            <translation><!-- C168 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C169</masterLabel>
+            <translation><!-- C169 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C170</masterLabel>
+            <translation><!-- C170 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C171</masterLabel>
+            <translation>60 days net, on the 2nd and 17th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C172</masterLabel>
+            <translation><!-- C172 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C173</masterLabel>
+            <translation>60 and 90 days net, on the 10th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C174</masterLabel>
+            <translation>60 days, on the 1th/16th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C175</masterLabel>
+            <translation><!-- C175 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C180</masterLabel>
+            <translation><!-- C180 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C185</masterLabel>
+            <translation><!-- C185 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C186</masterLabel>
+            <translation><!-- C186 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C188</masterLabel>
+            <translation><!-- C188 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C189</masterLabel>
+            <translation>60 and 90 days net, on the 10th and 25th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C190</masterLabel>
+            <translation>From 60 to 180 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C191</masterLabel>
+            <translation><!-- C191 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C192</masterLabel>
+            <translation>From 60 to 180 days net, on the 8th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C195</masterLabel>
+            <translation><!-- C195 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C196</masterLabel>
+            <translation>60 days net, on the 9th and 25th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C197</masterLabel>
+            <translation>60 to 180 days net, on the 25th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C198</masterLabel>
+            <translation>From 60 to 120 days, on the 10th and 25th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C199</masterLabel>
+            <translation>60 days net, on 6th and 20th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C200</masterLabel>
+            <translation>90 days from invoice date</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C201</masterLabel>
+            <translation><!-- C201 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C202</masterLabel>
+            <translation><!-- C202 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C204</masterLabel>
+            <translation><!-- C204 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C205</masterLabel>
+            <translation><!-- C205 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C207</masterLabel>
+            <translation><!-- C207 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C208</masterLabel>
+            <translation>90 days, on the 8th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C209</masterLabel>
+            <translation><!-- C209 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C210</masterLabel>
+            <translation><!-- C210 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C212</masterLabel>
+            <translation><!-- C212 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C213</masterLabel>
+            <translation><!-- C213 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C215</masterLabel>
+            <translation><!-- C215 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C216</masterLabel>
+            <translation><!-- C216 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C217</masterLabel>
+            <translation><!-- C217 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C218</masterLabel>
+            <translation><!-- C218 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C219</masterLabel>
+            <translation><!-- C219 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C220</masterLabel>
+            <translation><!-- C220 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C221</masterLabel>
+            <translation><!-- C221 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C222</masterLabel>
+            <translation><!-- C222 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C223</masterLabel>
+            <translation>90 days net, on 23th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C224</masterLabel>
+            <translation>90 days, on the 24th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C225</masterLabel>
+            <translation>90 days net, on the 25th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C226</masterLabel>
+            <translation><!-- C226 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C227</masterLabel>
+            <translation><!-- C227 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C228</masterLabel>
+            <translation><!-- C228 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C229</masterLabel>
+            <translation><!-- C229 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C230</masterLabel>
+            <translation><!-- C230 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C232</masterLabel>
+            <translation><!-- C232 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C233</masterLabel>
+            <translation><!-- C233 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C234</masterLabel>
+            <translation><!-- C234 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C235</masterLabel>
+            <translation><!-- C235 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C236</masterLabel>
+            <translation><!-- C236 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C237</masterLabel>
+            <translation><!-- C237 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C238</masterLabel>
+            <translation><!-- C238 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C239</masterLabel>
+            <translation><!-- C239 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C240</masterLabel>
+            <translation><!-- C240 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C241</masterLabel>
+            <translation><!-- C241 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C242</masterLabel>
+            <translation><!-- C242 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C243</masterLabel>
+            <translation><!-- C243 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C244</masterLabel>
+            <translation><!-- C244 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C245</masterLabel>
+            <translation><!-- C245 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C246</masterLabel>
+            <translation>90 days net, on the 10th and 25th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C247</masterLabel>
+            <translation><!-- C247 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C248</masterLabel>
+            <translation><!-- C248 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C249</masterLabel>
+            <translation><!-- C249 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C250</masterLabel>
+            <translation><!-- C250 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C251</masterLabel>
+            <translation><!-- C251 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C252</masterLabel>
+            <translation><!-- C252 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C253</masterLabel>
+            <translation><!-- C253 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C254</masterLabel>
+            <translation><!-- C254 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C255</masterLabel>
+            <translation><!-- C255 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C256</masterLabel>
+            <translation><!-- C256 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C257</masterLabel>
+            <translation><!-- C257 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C258</masterLabel>
+            <translation><!-- C258 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C262</masterLabel>
+            <translation>90 and 120 days, on the 24th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C263</masterLabel>
+            <translation><!-- C263 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C264</masterLabel>
+            <translation><!-- C264 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C265</masterLabel>
+            <translation><!-- C265 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C266</masterLabel>
+            <translation><!-- C266 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C267</masterLabel>
+            <translation><!-- C267 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C268</masterLabel>
+            <translation><!-- C268 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C269</masterLabel>
+            <translation><!-- C269 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C270</masterLabel>
+            <translation><!-- C270 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C271</masterLabel>
+            <translation>90 days net, on the 5th, 15th &amp; 25th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C272</masterLabel>
+            <translation><!-- C272 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C273</masterLabel>
+            <translation><!-- C273 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C274</masterLabel>
+            <translation><!-- C274 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C275</masterLabel>
+            <translation><!-- C275 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C276</masterLabel>
+            <translation><!-- C276 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C277</masterLabel>
+            <translation><!-- C277 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C278</masterLabel>
+            <translation><!-- C278 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C279</masterLabel>
+            <translation><!-- C279 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C280</masterLabel>
+            <translation><!-- C280 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C281</masterLabel>
+            <translation><!-- C281 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C282</masterLabel>
+            <translation><!-- C282 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C283</masterLabel>
+            <translation><!-- C283 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C284</masterLabel>
+            <translation><!-- C284 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C285</masterLabel>
+            <translation><!-- C285 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C286</masterLabel>
+            <translation><!-- C286 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C287</masterLabel>
+            <translation><!-- C287 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C288</masterLabel>
+            <translation><!-- C288 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C289</masterLabel>
+            <translation><!-- C289 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C290</masterLabel>
+            <translation><!-- C290 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C291</masterLabel>
+            <translation><!-- C291 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C292</masterLabel>
+            <translation><!-- C292 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C293</masterLabel>
+            <translation><!-- C293 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C294</masterLabel>
+            <translation><!-- C294 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C295</masterLabel>
+            <translation><!-- C295 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C296</masterLabel>
+            <translation><!-- C296 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C297</masterLabel>
+            <translation><!-- C297 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C298</masterLabel>
+            <translation><!-- C298 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C299</masterLabel>
+            <translation><!-- C299 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C300</masterLabel>
+            <translation><!-- C300 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C301</masterLabel>
+            <translation><!-- C301 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C302</masterLabel>
+            <translation><!-- C302 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C303</masterLabel>
+            <translation><!-- C303 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C304</masterLabel>
+            <translation><!-- C304 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C305</masterLabel>
+            <translation><!-- C305 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C306</masterLabel>
+            <translation><!-- C306 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C307</masterLabel>
+            <translation>From 90 to 150 days net, on 23th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C308</masterLabel>
+            <translation><!-- C308 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C309</masterLabel>
+            <translation><!-- C309 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C310</masterLabel>
+            <translation><!-- C310 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C311</masterLabel>
+            <translation><!-- C311 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C312</masterLabel>
+            <translation><!-- C312 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C314</masterLabel>
+            <translation><!-- C314 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C315</masterLabel>
+            <translation><!-- C315 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C316</masterLabel>
+            <translation><!-- C316 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C317</masterLabel>
+            <translation><!-- C317 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C318</masterLabel>
+            <translation><!-- C318 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C319</masterLabel>
+            <translation><!-- C319 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C320</masterLabel>
+            <translation><!-- C320 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C321</masterLabel>
+            <translation><!-- C321 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C322</masterLabel>
+            <translation><!-- C322 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C323</masterLabel>
+            <translation><!-- C323 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C324</masterLabel>
+            <translation><!-- C324 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C325</masterLabel>
+            <translation><!-- C325 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C326</masterLabel>
+            <translation><!-- C326 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C327</masterLabel>
+            <translation><!-- C327 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C328</masterLabel>
+            <translation><!-- C328 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C329</masterLabel>
+            <translation><!-- C329 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C330</masterLabel>
+            <translation><!-- C330 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C331</masterLabel>
+            <translation><!-- C331 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C332</masterLabel>
+            <translation><!-- C332 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C333</masterLabel>
+            <translation><!-- C333 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C334</masterLabel>
+            <translation><!-- C334 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C335</masterLabel>
+            <translation><!-- C335 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C336</masterLabel>
+            <translation><!-- C336 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C337</masterLabel>
+            <translation><!-- C337 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C338</masterLabel>
+            <translation><!-- C338 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C339</masterLabel>
+            <translation><!-- C339 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C340</masterLabel>
+            <translation><!-- C340 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C341</masterLabel>
+            <translation><!-- C341 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C342</masterLabel>
+            <translation><!-- C342 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C343</masterLabel>
+            <translation>From 90 to 120 days, on 5th, 15th &amp; 25th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C345</masterLabel>
+            <translation><!-- C345 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C346</masterLabel>
+            <translation>From 90 to 210 days net, on 30th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C347</masterLabel>
+            <translation><!-- C347 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C348</masterLabel>
+            <translation><!-- C348 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C349</masterLabel>
+            <translation><!-- C349 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C350</masterLabel>
+            <translation><!-- C350 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C351</masterLabel>
+            <translation><!-- C351 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C352</masterLabel>
+            <translation><!-- C352 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C353</masterLabel>
+            <translation><!-- C353 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C354</masterLabel>
+            <translation><!-- C354 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C355</masterLabel>
+            <translation><!-- C355 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C356</masterLabel>
+            <translation><!-- C356 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C357</masterLabel>
+            <translation><!-- C357 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C358</masterLabel>
+            <translation><!-- C358 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C359</masterLabel>
+            <translation><!-- C359 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C360</masterLabel>
+            <translation><!-- C360 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C361</masterLabel>
+            <translation><!-- C361 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C363</masterLabel>
+            <translation><!-- C363 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C364</masterLabel>
+            <translation><!-- C364 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C365</masterLabel>
+            <translation><!-- C365 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C366</masterLabel>
+            <translation><!-- C366 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C367</masterLabel>
+            <translation><!-- C367 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C372</masterLabel>
+            <translation><!-- C372 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C378</masterLabel>
+            <translation><!-- C378 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C380</masterLabel>
+            <translation><!-- C380 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C382</masterLabel>
+            <translation><!-- C382 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C384</masterLabel>
+            <translation><!-- C384 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C385</masterLabel>
+            <translation><!-- C385 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C387</masterLabel>
+            <translation><!-- C387 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C390</masterLabel>
+            <translation><!-- C390 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C392</masterLabel>
+            <translation><!-- C392 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C393</masterLabel>
+            <translation>90 days net from end of month, on 10th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C394</masterLabel>
+            <translation>105 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C395</masterLabel>
+            <translation>105, 135 and 165 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C396</masterLabel>
+            <translation>105 and 135 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C398</masterLabel>
+            <translation>105 days net, on 10th and 25th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C399</masterLabel>
+            <translation>100 days net, on the 10h</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C400</masterLabel>
+            <translation>120 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C401</masterLabel>
+            <translation><!-- C401 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C405</masterLabel>
+            <translation><!-- C405 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C407</masterLabel>
+            <translation><!-- C407 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C408</masterLabel>
+            <translation>120 days, on the 8th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C409</masterLabel>
+            <translation><!-- C409 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C410</masterLabel>
+            <translation><!-- C410 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C412</masterLabel>
+            <translation><!-- C412 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C415</masterLabel>
+            <translation><!-- C415 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C416</masterLabel>
+            <translation><!-- C416 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C417</masterLabel>
+            <translation><!-- C417 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C418</masterLabel>
+            <translation><!-- C418 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C420</masterLabel>
+            <translation><!-- C420 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C422</masterLabel>
+            <translation><!-- C422 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C423</masterLabel>
+            <translation>120 days net, on 23th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C424</masterLabel>
+            <translation>120 days net, on 24th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C425</masterLabel>
+            <translation>120 days net, on the 25th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C426</masterLabel>
+            <translation><!-- C426 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C427</masterLabel>
+            <translation><!-- C427 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C428</masterLabel>
+            <translation><!-- C428 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C430</masterLabel>
+            <translation><!-- C430 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C431</masterLabel>
+            <translation><!-- C431 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C432</masterLabel>
+            <translation><!-- C432 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C433</masterLabel>
+            <translation>120 days net, on 15th &amp; 30th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C434</masterLabel>
+            <translation><!-- C434 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C435</masterLabel>
+            <translation><!-- C435 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C436</masterLabel>
+            <translation>120 days net, on 5th and 20th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C437</masterLabel>
+            <translation>120 days net, on 15th and 20th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C438</masterLabel>
+            <translation><!-- C438 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C439</masterLabel>
+            <translation>120 days net, on the 10th and 25th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C440</masterLabel>
+            <translation><!-- C440 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C441</masterLabel>
+            <translation><!-- C441 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C442</masterLabel>
+            <translation><!-- C442 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C443</masterLabel>
+            <translation><!-- C443 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C444</masterLabel>
+            <translation>120 days net, on the 5th, 15th &amp; 25th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C445</masterLabel>
+            <translation><!-- C445 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C446</masterLabel>
+            <translation><!-- C446 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C447</masterLabel>
+            <translation><!-- C447 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C448</masterLabel>
+            <translation><!-- C448 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C449</masterLabel>
+            <translation><!-- C449 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C450</masterLabel>
+            <translation><!-- C450 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C451</masterLabel>
+            <translation><!-- C451 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C452</masterLabel>
+            <translation>From 120 to 180 days net, on 15th &amp; 30th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C454</masterLabel>
+            <translation><!-- C454 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C455</masterLabel>
+            <translation>From 120 to 180 days net, on 15th and 20th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C458</masterLabel>
+            <translation><!-- C458 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C462</masterLabel>
+            <translation><!-- C462 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C463</masterLabel>
+            <translation>120 days net, on the 2th and 17th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C470</masterLabel>
+            <translation><!-- C470 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C480</masterLabel>
+            <translation><!-- C480 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C490</masterLabel>
+            <translation><!-- C490 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C491</masterLabel>
+            <translation>120 to 240 days net, on 10th and 20th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C494</masterLabel>
+            <translation>135 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C495</masterLabel>
+            <translation>55 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C500</masterLabel>
+            <translation>150 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C501</masterLabel>
+            <translation><!-- C501 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C505</masterLabel>
+            <translation><!-- C505 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C507</masterLabel>
+            <translation><!-- C507 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C508</masterLabel>
+            <translation>150 days, on the 8th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C509</masterLabel>
+            <translation><!-- C509 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C510</masterLabel>
+            <translation><!-- C510 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C512</masterLabel>
+            <translation><!-- C512 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C515</masterLabel>
+            <translation><!-- C515 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C517</masterLabel>
+            <translation><!-- C517 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C518</masterLabel>
+            <translation><!-- C518 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C520</masterLabel>
+            <translation><!-- C520 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C523</masterLabel>
+            <translation>150 days net, on 23th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C525</masterLabel>
+            <translation>150 days net, on the 25th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C526</masterLabel>
+            <translation><!-- C526 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C527</masterLabel>
+            <translation><!-- C527 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C528</masterLabel>
+            <translation><!-- C528 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C530</masterLabel>
+            <translation><!-- C530 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C535</masterLabel>
+            <translation><!-- C535 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C536</masterLabel>
+            <translation><!-- C536 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C537</masterLabel>
+            <translation><!-- C537 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C540</masterLabel>
+            <translation><!-- C540 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C541</masterLabel>
+            <translation><!-- C541 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C542</masterLabel>
+            <translation><!-- C542 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C543</masterLabel>
+            <translation><!-- C543 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C544</masterLabel>
+            <translation>150 days net, on 15th and 20th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C545</masterLabel>
+            <translation>150 days net, on 15th &amp; 30th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C546</masterLabel>
+            <translation><!-- C546 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C547</masterLabel>
+            <translation><!-- C547 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C548</masterLabel>
+            <translation><!-- C548 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C549</masterLabel>
+            <translation><!-- C549 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C550</masterLabel>
+            <translation><!-- C550 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C552</masterLabel>
+            <translation><!-- C552 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C553</masterLabel>
+            <translation>150, 180 and 210 days, on 25th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C555</masterLabel>
+            <translation><!-- C555 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C560</masterLabel>
+            <translation><!-- C560 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C570</masterLabel>
+            <translation>165 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C600</masterLabel>
+            <translation>180 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C605</masterLabel>
+            <translation><!-- C605 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C607</masterLabel>
+            <translation><!-- C607 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C608</masterLabel>
+            <translation>180 days, on the 8th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C610</masterLabel>
+            <translation><!-- C610 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C615</masterLabel>
+            <translation><!-- C615 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C617</masterLabel>
+            <translation><!-- C617 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C618</masterLabel>
+            <translation><!-- C618 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C620</masterLabel>
+            <translation><!-- C620 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C623</masterLabel>
+            <translation><!-- C623 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C625</masterLabel>
+            <translation>180 days net, on the 25th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C626</masterLabel>
+            <translation><!-- C626 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C627</masterLabel>
+            <translation><!-- C627 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C630</masterLabel>
+            <translation><!-- C630 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C631</masterLabel>
+            <translation><!-- C631 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C632</masterLabel>
+            <translation><!-- C632 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C633</masterLabel>
+            <translation>180 days net, on 15th &amp; 30th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C634</masterLabel>
+            <translation><!-- C634 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C635</masterLabel>
+            <translation><!-- C635 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C636</masterLabel>
+            <translation><!-- C636 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C637</masterLabel>
+            <translation><!-- C637 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C638</masterLabel>
+            <translation><!-- C638 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C639</masterLabel>
+            <translation>180 days net, on 15th and 20th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C640</masterLabel>
+            <translation><!-- C640 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C650</masterLabel>
+            <translation>210 days</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C655</masterLabel>
+            <translation><!-- C655 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C660</masterLabel>
+            <translation><!-- C660 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C662</masterLabel>
+            <translation><!-- C662 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C665</masterLabel>
+            <translation><!-- C665 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C668</masterLabel>
+            <translation><!-- C668 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C670</masterLabel>
+            <translation>210 days on 25th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C675</masterLabel>
+            <translation><!-- C675 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C680</masterLabel>
+            <translation><!-- C680 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C684</masterLabel>
+            <translation><!-- C684 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C685</masterLabel>
+            <translation><!-- C685 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C686</masterLabel>
+            <translation><!-- C686 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C690</masterLabel>
+            <translation><!-- C690 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C694</masterLabel>
+            <translation><!-- C694 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C695</masterLabel>
+            <translation>From 210 to 270 days on 25th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C700</masterLabel>
+            <translation><!-- C700 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C708</masterLabel>
+            <translation>240 days net, on 8th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C710</masterLabel>
+            <translation><!-- C710 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C715</masterLabel>
+            <translation><!-- C715 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C720</masterLabel>
+            <translation><!-- C720 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C723</masterLabel>
+            <translation><!-- C723 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C725</masterLabel>
+            <translation>240 jours net le 25ème du mois</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C727</masterLabel>
+            <translation><!-- C727 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C728</masterLabel>
+            <translation><!-- C728 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C730</masterLabel>
+            <translation><!-- C730 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C740</masterLabel>
+            <translation><!-- C740 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C741</masterLabel>
+            <translation>240 days net, on 10th and 20th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C742</masterLabel>
+            <translation><!-- C742 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C746</masterLabel>
+            <translation><!-- C746 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C750</masterLabel>
+            <translation><!-- C750 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C758</masterLabel>
+            <translation><!-- C758 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C759</masterLabel>
+            <translation><!-- C759 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C760</masterLabel>
+            <translation><!-- C760 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C762</masterLabel>
+            <translation><!-- C762 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C764</masterLabel>
+            <translation><!-- C764 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C765</masterLabel>
+            <translation>270 days on 25th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C767</masterLabel>
+            <translation><!-- C767 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C770</masterLabel>
+            <translation><!-- C770 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C780</masterLabel>
+            <translation><!-- C780 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C799</masterLabel>
+            <translation><!-- C799 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C800</masterLabel>
+            <translation><!-- C800 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C801</masterLabel>
+            <translation><!-- C801 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C802</masterLabel>
+            <translation><!-- C802 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C805</masterLabel>
+            <translation><!-- C805 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C807</masterLabel>
+            <translation><!-- C807 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C808</masterLabel>
+            <translation><!-- C808 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C809</masterLabel>
+            <translation><!-- C809 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C810</masterLabel>
+            <translation><!-- C810 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C820</masterLabel>
+            <translation><!-- C820 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C821</masterLabel>
+            <translation>300 days net, on 10th and 25th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C828</masterLabel>
+            <translation>310 days net, on 10th and 25th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C829</masterLabel>
+            <translation><!-- C829 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C830</masterLabel>
+            <translation><!-- C830 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C832</masterLabel>
+            <translation><!-- C832 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C833</masterLabel>
+            <translation><!-- C833 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C836</masterLabel>
+            <translation><!-- C836 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C840</masterLabel>
+            <translation><!-- C840 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C841</masterLabel>
+            <translation><!-- C841 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C850</masterLabel>
+            <translation><!-- C850 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C859</masterLabel>
+            <translation>360 days</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C862</masterLabel>
+            <translation><!-- C862 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C864</masterLabel>
+            <translation><!-- C864 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C866</masterLabel>
+            <translation><!-- C866 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C868</masterLabel>
+            <translation><!-- C868 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C870</masterLabel>
+            <translation><!-- C870 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C880</masterLabel>
+            <translation><!-- C880 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C881</masterLabel>
+            <translation>360 days net, on 10th and 25th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C918</masterLabel>
+            <translation><!-- C918 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C919</masterLabel>
+            <translation><!-- C919 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C920</masterLabel>
+            <translation><!-- C920 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C921</masterLabel>
+            <translation>From 90 to 180 days, on 5th, 15th &amp; 25th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C930</masterLabel>
+            <translation><!-- C930 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C931</masterLabel>
+            <translation><!-- C931 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C932</masterLabel>
+            <translation><!-- C932 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C933</masterLabel>
+            <translation><!-- C933 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C934</masterLabel>
+            <translation><!-- C934 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C935</masterLabel>
+            <translation><!-- C935 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C936</masterLabel>
+            <translation><!-- C936 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C937</masterLabel>
+            <translation><!-- C937 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C938</masterLabel>
+            <translation><!-- C938 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C939</masterLabel>
+            <translation>240 to 360 days net, on 10th and 25th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C950</masterLabel>
+            <translation>90 to 120 days net, on 1th and 16th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C951</masterLabel>
+            <translation>120 days net, on 1th and 16th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C952</masterLabel>
+            <translation>90,120,150 days net, on 10th and 25th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C954</masterLabel>
+            <translation><!-- C954 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C955</masterLabel>
+            <translation><!-- C955 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA00</masterLabel>
+            <translation>85 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA01</masterLabel>
+            <translation>85 days net, on 1st</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA02</masterLabel>
+            <translation>85 days net, on 2nd</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA03</masterLabel>
+            <translation>85 days net, on 3rd</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA04</masterLabel>
+            <translation>85 days net, on 4th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA05</masterLabel>
+            <translation>85 days net, on 5th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA06</masterLabel>
+            <translation>85 days net, on 6th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA07</masterLabel>
+            <translation>85 days net, on 7th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA08</masterLabel>
+            <translation>85 days net, on 8th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA09</masterLabel>
+            <translation>85 days net, on 9th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA10</masterLabel>
+            <translation>85 days net, on 10th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA11</masterLabel>
+            <translation>85 days net, on 11th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA12</masterLabel>
+            <translation>85 days net, on 12th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA13</masterLabel>
+            <translation>85 days net, on 13th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA14</masterLabel>
+            <translation>85 days net, on 14th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA15</masterLabel>
+            <translation>85 days net, on 15th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA16</masterLabel>
+            <translation>85 days net, on 16th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA17</masterLabel>
+            <translation>85 days net, on 17th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA18</masterLabel>
+            <translation>85 days net, on 18th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA19</masterLabel>
+            <translation>85 days net, on 19th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA20</masterLabel>
+            <translation>85 days net, on 20th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA21</masterLabel>
+            <translation>85 days net, on 21th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA22</masterLabel>
+            <translation>85 days net, on 22th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA23</masterLabel>
+            <translation>85 days net, on 23th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA24</masterLabel>
+            <translation>85 days net, on 24th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA25</masterLabel>
+            <translation>85 days net, on 25th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA26</masterLabel>
+            <translation>85 days net, on 26th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA27</masterLabel>
+            <translation>85 days net, on 27th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA28</masterLabel>
+            <translation>85 days net, on 28th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA29</masterLabel>
+            <translation>85 days net, on 29th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA30</masterLabel>
+            <translation>85 days net, on 30th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA31</masterLabel>
+            <translation>75 days net, on 5th, 10th and 25th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA32</masterLabel>
+            <translation>75 days net, on 10th 20th and 30th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA33</masterLabel>
+            <translation>70 days net, on 10th and 25th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA34</masterLabel>
+            <translation>70 days net, on 15th and 30th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA35</masterLabel>
+            <translation>70 days net, on 1st and 15th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA36</masterLabel>
+            <translation>70 days net, on 5th and 20th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA37</masterLabel>
+            <translation>70 days net, on 1st and 16th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA38</masterLabel>
+            <translation>70 days net, on 2nd and 17th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA39</masterLabel>
+            <translation>65 days net, on 15th and 25th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA40</masterLabel>
+            <translation>65 days net, on 10th and 20th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA41</masterLabel>
+            <translation>65 days net, on 12th and 22th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA42</masterLabel>
+            <translation>65 days net, on 5th and 25th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA43</masterLabel>
+            <translation>65 days net, on 10th and 30th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA44</masterLabel>
+            <translation>65 days net, on 13th and 23th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA45</masterLabel>
+            <translation>65 days net, on 3th and 23th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA46</masterLabel>
+            <translation>65 days net, on 5th and 5th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA47</masterLabel>
+            <translation>85 days net, fortnightly invoicing</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA48</masterLabel>
+            <translation>60 days net, fortnightly invoicing on 5th and 20th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA49</masterLabel>
+            <translation>75 days net,fortnightly invoicing on 15th and 30th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA50</masterLabel>
+            <translation>Girosacme - 76 days net, on 5th, 10th and 25th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA51</masterLabel>
+            <translation>Fortnightly invoicing on 3rd and 16th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA52</masterLabel>
+            <translation>Fortnightly invoicing on 1st and 16th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA53</masterLabel>
+            <translation>Fortnightly invoicing 60 days on 20th and 5th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA54</masterLabel>
+            <translation>Fortnightly invoicing 75 days on 3rd and 18th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA55</masterLabel>
+            <translation>Fortnightly invoicing 60 days on 25rd</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA56</masterLabel>
+            <translation>Fortnightly invoicing 60 days on 25th and 10th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA57</masterLabel>
+            <translation>Fortnightly invoicing 60 days on 25th and 15th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA58</masterLabel>
+            <translation>75 days net, on 8th 18th and 28th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA59</masterLabel>
+            <translation>65 days net, on 8th and 23th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA60</masterLabel>
+            <translation>Fortnightly invoicing 75 days on 2nd and 17th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA61</masterLabel>
+            <translation>85 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA62</masterLabel>
+            <translation>Fortnightly invoicing 55 days on 10th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA63</masterLabel>
+            <translation>Fortnightly invoicing 55 days on 15th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA64</masterLabel>
+            <translation>Fortnightly invoicing 55 days on 18th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA65</masterLabel>
+            <translation>Fortnightly invoicing 55 days on 20th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA66</masterLabel>
+            <translation>Fortnightly invoicing 55 days on 25th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA67</masterLabel>
+            <translation>Fortnightly invoicing 55 days on 30th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA68</masterLabel>
+            <translation>Fortnightly invoicing 55 days on 7th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA69</masterLabel>
+            <translation>Fortnightly invoicing 30 an 85 days</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA70</masterLabel>
+            <translation>Fortnightly invoicing on 8th and 23th next month</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA71</masterLabel>
+            <translation>Fortnightly invoicing on 3th and 18th in 3 months</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA72</masterLabel>
+            <translation>75 days net, on 5th and 20th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA73</masterLabel>
+            <translation>85 days net, on 15th and 30th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA74</masterLabel>
+            <translation><!-- CA74 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA75</masterLabel>
+            <translation>Fortnightly invoicing 30 days on 25th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA76</masterLabel>
+            <translation>85 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA77</masterLabel>
+            <translation>85 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA78</masterLabel>
+            <translation>30 and 55 days net, on 15th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA79</masterLabel>
+            <translation>85 days net,fortnightly invoicing on 10th and 25th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA80</masterLabel>
+            <translation>65 days net, on 5th and 20th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA81</masterLabel>
+            <translation>70 days net, on 12th and 25th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA82</masterLabel>
+            <translation>70 days net, on 2nd and 18th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA83</masterLabel>
+            <translation>65 days net, on 10th and 25th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA84</masterLabel>
+            <translation>70 days net, on 25th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA85</masterLabel>
+            <translation>Fortnightly invoicing payment on 27th, max 75 days</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA86</masterLabel>
+            <translation>75 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA87</masterLabel>
+            <translation>Fortnightly invoicing 75 days on 25th and 10th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA88</masterLabel>
+            <translation>Fortnightly invoicing 75 days</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA89</masterLabel>
+            <translation>70 days net, on 5th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA90</masterLabel>
+            <translation>65 days net, on 5th, 15th and 25th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA91</masterLabel>
+            <translation>75 days net, on 20th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA92</masterLabel>
+            <translation>From 75 to 120 days</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA93</masterLabel>
+            <translation>75 days net, on 10th and 25th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA94</masterLabel>
+            <translation>75, 90 and 120 days net, on 10th and 25th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA95</masterLabel>
+            <translation>85 days net, on 10th and 25th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA96</masterLabel>
+            <translation>75 days net, on 9th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA97</masterLabel>
+            <translation>70 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA98</masterLabel>
+            <translation>70, 120 and 150 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA99</masterLabel>
+            <translation>75, 120 and 150 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAA0</masterLabel>
+            <translation>Fortnightly invoicing 60 days on 7th and 22th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAA1</masterLabel>
+            <translation>105 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAA2</masterLabel>
+            <translation>115 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAA3</masterLabel>
+            <translation>145 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAA4</masterLabel>
+            <translation>85, 115 and 145 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAA5</masterLabel>
+            <translation>105 and 135 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAA6</masterLabel>
+            <translation>85 and 120 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAA7</masterLabel>
+            <translation>75, 105 and 150 days net, on 10th and 25th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAA8</masterLabel>
+            <translation>85 days net, on 5th and 20th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAA9</masterLabel>
+            <translation>30 days net,fortnightly invoicing on 15th and 30th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAB0</masterLabel>
+            <translation>65 days net, on 25th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAB1</masterLabel>
+            <translation>Fortnightly invoicing 90 days on 25th and 10th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAB2</masterLabel>
+            <translation>Fortnightly invoicing 120 days on 25th and 10th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAB3</masterLabel>
+            <translation>Fortnightly inv., from 90to120 days on 25th &amp; 10th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAB4</masterLabel>
+            <translation>75 days net, on 25th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAB5</masterLabel>
+            <translation>From 45 to 75 days net, on the 25th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAB6</masterLabel>
+            <translation>Canarias - 85 days net, on 30th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAB7</masterLabel>
+            <translation>75, 105 and 135 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAB8</masterLabel>
+            <translation>30 and 60days net, on 15th and 30th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAB9</masterLabel>
+            <translation>60days net,on 10th/30th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAC0</masterLabel>
+            <translation>115 days net, on 15th and 30th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAC2</masterLabel>
+            <translation><!-- CAC2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAC3</masterLabel>
+            <translation><!-- CAC3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAC4</masterLabel>
+            <translation>CAC4</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAC5</masterLabel>
+            <translation>CAC5</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAC6</masterLabel>
+            <translation><!-- CAC6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAC7</masterLabel>
+            <translation><!-- CAC7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAC9</masterLabel>
+            <translation>30 days net, end month, 15th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAD0</masterLabel>
+            <translation>60 days net, on 2th and 18th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAD1</masterLabel>
+            <translation><!-- CAD1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAD2</masterLabel>
+            <translation><!-- CAD2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAZ1</masterLabel>
+            <translation><!-- CAZ1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAZ2</masterLabel>
+            <translation><!-- CAZ2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAZZ</masterLabel>
+            <translation><!-- CAZZ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB00</masterLabel>
+            <translation>55 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB01</masterLabel>
+            <translation>55 days net, on 1st</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB02</masterLabel>
+            <translation>55 days net, on 2nd</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB03</masterLabel>
+            <translation>55 days net, on 3rd</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB04</masterLabel>
+            <translation>55 days net, on 4th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB05</masterLabel>
+            <translation>55 days net, on 5th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB06</masterLabel>
+            <translation>55 days net, on 6th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB07</masterLabel>
+            <translation>55 days net, on 7th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB08</masterLabel>
+            <translation>55 days net, on 8th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB09</masterLabel>
+            <translation>55 days net, on 9th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB10</masterLabel>
+            <translation>55 days net, on 10th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB11</masterLabel>
+            <translation>55 days net, on 11th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB12</masterLabel>
+            <translation>55 days net, on 12th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB13</masterLabel>
+            <translation>55 days net, on 13th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB14</masterLabel>
+            <translation>55 days net, on 14th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB15</masterLabel>
+            <translation>55 days net, on 15th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB16</masterLabel>
+            <translation>55 days net, on 16th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB17</masterLabel>
+            <translation>55 days net, on 17th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB18</masterLabel>
+            <translation>55 days net, on 18th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB19</masterLabel>
+            <translation>55 days net, on 19th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB20</masterLabel>
+            <translation>55 days net, on 20th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB21</masterLabel>
+            <translation>55 days net, on 21th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB22</masterLabel>
+            <translation>55 days net, on 22th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB23</masterLabel>
+            <translation>55 days net, on 23th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB24</masterLabel>
+            <translation>55 days net, on 24th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB25</masterLabel>
+            <translation>55 days net, on 25th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB26</masterLabel>
+            <translation>55 days net, on 26th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB27</masterLabel>
+            <translation>55 days net, on 27th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB28</masterLabel>
+            <translation>55 days net, on 28th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB29</masterLabel>
+            <translation>55 days net, on 29th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB30</masterLabel>
+            <translation>55 days net, on 30th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB31</masterLabel>
+            <translation>55 days net, on 10th and 25th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB32</masterLabel>
+            <translation>55 days net, on 15th and 30th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB33</masterLabel>
+            <translation>50 days net, on 30th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB34</masterLabel>
+            <translation>40 days net, on 30th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB35</masterLabel>
+            <translation>30 days net, on 30th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB36</masterLabel>
+            <translation>10 days net, Cash Discount 2%</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB37</masterLabel>
+            <translation>45 days net, on 30th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB38</masterLabel>
+            <translation>45 days net, on 25th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB39</masterLabel>
+            <translation>45 days net, on 10th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB40</masterLabel>
+            <translation>80 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB41</masterLabel>
+            <translation>45 days net, on 20th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB42</masterLabel>
+            <translation>45 days net, on 15</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB43</masterLabel>
+            <translation>50 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB44</masterLabel>
+            <translation>45 days net from the end of month</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB45</masterLabel>
+            <translation>45 days net, on 8th and 23th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB46</masterLabel>
+            <translation>45 days net, on 15th and 30th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB47</masterLabel>
+            <translation>45 days net, on 27th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB48</masterLabel>
+            <translation>45 days net, on 10th and 25th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB49</masterLabel>
+            <translation>50 days net, on 25th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB50</masterLabel>
+            <translation>45 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB51</masterLabel>
+            <translation>45 days net-3%CashDnt 7d 2%CashDnt 15d</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB52</masterLabel>
+            <translation>60 days net-3%CashDnt 7d 2%CashDnt 15d</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB53</masterLabel>
+            <translation>45 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB54</masterLabel>
+            <translation>60 days net, on 5th, 15th &amp; 25th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB55</masterLabel>
+            <translation>85 and 120 days net, on 15th and 30th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB56</masterLabel>
+            <translation>75 days net, on 10th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB57</masterLabel>
+            <translation>Fortnightly inv., 60,90,120 days on 10th &amp; 25th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB58</masterLabel>
+            <translation>Fortnightly invoicing 60 days on 10th and 25th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB59</masterLabel>
+            <translation>Fortnightly invoicing 90 days on 25th and 10th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB60</masterLabel>
+            <translation>Fortnightly invoicing 120 days on 25th and 10th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB61</masterLabel>
+            <translation>75 days net, on 5th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB62</masterLabel>
+            <translation>45 days (fortnight group), on 5th and 20th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB63</masterLabel>
+            <translation>Fortnightly inv., 60,90 days on 10th &amp; 25th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB64</masterLabel>
+            <translation>75 days net, on 15th and 30th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB65</masterLabel>
+            <translation>105 days net, on 15th and 30th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB66</masterLabel>
+            <translation>135 days net, on 15th and 30th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB67</masterLabel>
+            <translation>75,105 &amp; 135 days net, on 15th and 30th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB68</masterLabel>
+            <translation>75 days net, on 23th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB69</masterLabel>
+            <translation>105 days net, on 23th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB70</masterLabel>
+            <translation>135 days net, on 23th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB71</masterLabel>
+            <translation>75, 105 &amp; 135 days net, on 23th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB72</masterLabel>
+            <translation>85 and 115 days net, on 15th and 30th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB73</masterLabel>
+            <translation>115 days net, on 10th and 25th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB74</masterLabel>
+            <translation>145 days net, on 10th and 25th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB75</masterLabel>
+            <translation>85-115-145 days net, 10/25th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB76</masterLabel>
+            <translation><!-- CB76 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB78</masterLabel>
+            <translation>Fortnightly invoicing 30 days on 10th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB79</masterLabel>
+            <translation><!-- CB79 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB80</masterLabel>
+            <translation>30/60/90 days net (17th)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB81</masterLabel>
+            <translation>60 days net end of month, 10th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB82</masterLabel>
+            <translation>90/120/150 days net, on 1st and 16th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB86</masterLabel>
+            <translation>75 days net, on 30th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB87</masterLabel>
+            <translation><!-- CB87 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB88</masterLabel>
+            <translation><!-- CB88 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB89</masterLabel>
+            <translation><!-- CB89 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB91</masterLabel>
+            <translation><!-- CB91 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSON</masterLabel>
+            <translation><!-- CSON --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L001</masterLabel>
+            <translation><!-- L001 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P001</masterLabel>
+            <translation>Immediate payment</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P002</masterLabel>
+            <translation><!-- P002 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P003</masterLabel>
+            <translation><!-- P003 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P004</masterLabel>
+            <translation><!-- P004 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P005</masterLabel>
+            <translation>85 days net, one payment day</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P006</masterLabel>
+            <translation><!-- P006 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P007</masterLabel>
+            <translation>75 days net, one payment day</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P008</masterLabel>
+            <translation>In 15 days</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P009</masterLabel>
+            <translation><!-- P009 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P010</masterLabel>
+            <translation><!-- P010 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P011</masterLabel>
+            <translation><!-- P011 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P012</masterLabel>
+            <translation><!-- P012 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P013</masterLabel>
+            <translation><!-- P013 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P014</masterLabel>
+            <translation>30 days net, on 5th and 20th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P015</masterLabel>
+            <translation>75 days net, 2 payment days</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P016</masterLabel>
+            <translation>85 days net, 2 payment days</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P017</masterLabel>
+            <translation>45 days net, on 5th and 20th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P018</masterLabel>
+            <translation>Immediate Payment, on 5th and 20th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P019</masterLabel>
+            <translation>Immediate payment on 15th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P020</masterLabel>
+            <translation>30 days net, on 15th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P021</masterLabel>
+            <translation>60 days net, on 15th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P022</masterLabel>
+            <translation>90 days net, on 10th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P023</masterLabel>
+            <translation><!-- P023 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P025</masterLabel>
+            <translation><!-- P025 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P026</masterLabel>
+            <translation>30 days from the dt. of Invoice</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P027</masterLabel>
+            <translation>30 days net, end of month</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P028</masterLabel>
+            <translation>45 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P029</masterLabel>
+            <translation>60 days from the dt. of Invoice</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P030</masterLabel>
+            <translation>60 days net, end of month</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P031</masterLabel>
+            <translation>75 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P032</masterLabel>
+            <translation>90 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P033</masterLabel>
+            <translation>90 days net, end of month</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P034</masterLabel>
+            <translation>120 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P035</masterLabel>
+            <translation>120 days net, end of month</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P036</masterLabel>
+            <translation>Down paym 30%, Immediately 30%, 60 days 40%</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P037</masterLabel>
+            <translation>50% advance, 50% in 30 days</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P038</masterLabel>
+            <translation>40% advance 30% on T0 30% after 1 month delivery</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P039</masterLabel>
+            <translation>100% advance</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P040</masterLabel>
+            <translation>30 days PDC</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P041</masterLabel>
+            <translation>Advance against Performa Invoice</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P042</masterLabel>
+            <translation>50% advance &amp; 50% after delivery</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P043</masterLabel>
+            <translation>20% advance rest 15 days PDC</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P044</masterLabel>
+            <translation>Immediate payment after delivery</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P045</masterLabel>
+            <translation>25% with PO, 50% 1 month payroll, 25% UAT approval</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P046</masterLabel>
+            <translation>21, 28 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P049</masterLabel>
+            <translation><!-- P049 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PLSG</masterLabel>
+            <translation>30 days net, on 5th and 20th</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRGA</masterLabel>
+            <translation>Security diposit</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRUE</masterLabel>
+            <translation><!-- PRUE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Y001</masterLabel>
+            <translation><!-- Y001 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Y002</masterLabel>
+            <translation><!-- Y002 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Y011</masterLabel>
+            <translation><!-- Y011 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Y012</masterLabel>
+            <translation><!-- Y012 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Y021</masterLabel>
+            <translation><!-- Y021 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Y022</masterLabel>
+            <translation><!-- Y022 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Y031</masterLabel>
+            <translation><!-- Y031 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Y032</masterLabel>
+            <translation><!-- Y032 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Y035</masterLabel>
+            <translation><!-- Y035 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Y036</masterLabel>
+            <translation><!-- Y036 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Y041</masterLabel>
+            <translation><!-- Y041 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Y042</masterLabel>
+            <translation><!-- Y042 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Y045</masterLabel>
+            <translation><!-- Y045 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Y046</masterLabel>
+            <translation><!-- Y046 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Y051</masterLabel>
+            <translation><!-- Y051 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Y052</masterLabel>
+            <translation><!-- Y052 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Y055</masterLabel>
+            <translation><!-- Y055 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Y056</masterLabel>
+            <translation><!-- Y056 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Y061</masterLabel>
+            <translation><!-- Y061 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Y062</masterLabel>
+            <translation><!-- Y062 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Y065</masterLabel>
+            <translation><!-- Y065 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Y066</masterLabel>
+            <translation><!-- Y066 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Y071</masterLabel>
+            <translation><!-- Y071 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Y072</masterLabel>
+            <translation><!-- Y072 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Cliente Dest. Mercancias --></label>
+        <name>KS_Cliente_Dest_Mercancias__c</name>
+        <relationshipLabel><!-- Clientes Dest. Mercancias --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Cliente Distribución --></label>
+        <name>KS_Cliente_Distribucion__c</name>
+        <relationshipLabel><!-- Marcas Comerciales --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Cliente solicitante --></label>
+        <name>KS_Cliente_solicitante__c</name>
+        <relationshipLabel><!-- Marcas Comerciales --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Gestor de cuenta --></label>
+        <name>KS_Coordinador__c</name>
+        <relationshipLabel><!-- Organizaciones Cliente (Gestor de cuenta) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Delegación --></label>
+        <name>KS_Delegacion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email gestor cuenta --></label>
+        <name>KS_Email_gestor_cuenta__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estado Avisos-automáticos --></label>
+        <name>KS_Estado_Avisos_autom_ticos__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gestor is Owner --></label>
+        <name>KS_Gestor_is_Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gr.cuenta --></label>
+        <name>KS_Gr_cuenta__c</name>
+    </fields>
+    <fields>
+        <label><!-- Grupo de vendedores --></label>
+        <name>KS_Grupo_de_vendedores__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Organizacion Cliente --></label>
+        <name>KS_ID_Organizacion_Cliente__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Personal Gestor --></label>
+        <name>KS_ID_Personal_Gestor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Id CRM Solicitante --></label>
+        <name>KS_Id_CRM_Solicitante__c</name>
+    </fields>
+    <fields>
+        <label><!-- Id Salesforce Destinatario --></label>
+        <name>KS_Id_Salesforce_Destinatario__c</name>
+    </fields>
+    <fields>
+        <label><!-- Id Salesforce Distribuidor --></label>
+        <name>KS_Id_Salesforce_Distribuidor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Id Salesforce Solicitante --></label>
+        <name>KS_Id_Salesforce_Solicitante__c</name>
+    </fields>
+    <fields>
+        <label><!-- Incoterms parte 1 --></label>
+        <name>KS_Incoterms_parte_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Incoterms parte 2 --></label>
+        <name>KS_Incoterms_parte_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lista de precios --></label>
+        <name>KS_Lista_de_precios__c</name>
+    </fields>
+    <fields>
+        <label><!-- Migration Id --></label>
+        <name>KS_Migration_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Modificación --></label>
+        <name>KS_Modificacion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nombre marca --></label>
+        <name>KS_Nombre_marca__c</name>
+    </fields>
+    <fields>
+        <label><!-- Oficinas de ventas --></label>
+        <name>KS_Oficinas_de_ventas__c</name>
+    </fields>
+    <fields>
+        <label><!-- Organización de ventas --></label>
+        <name>KS_Organizacion_de_ventas__c</name>
+    </fields>
+    <fields>
+        <label><!-- Petición borrado para registro maestro --></label>
+        <name>KS_Peticion_borrado_para_reg_maestro__c</name>
+    </fields>
+    <fields>
+        <label><!-- Petición de borrado para cliente --></label>
+        <name>KS_Peticion_de_borrado_para_cliente__c</name>
+    </fields>
+    <fields>
+        <help><!-- Una vez establecida la recurrencia solicite aprobación del registro para que el responsable autorice el régimen de visitas y se generen los avisos automáticos. --></help>
+        <label><!-- Recurrencia (días) --></label>
+        <name>KS_Recurrencia__c</name>
+        <picklistValues>
+            <masterLabel>---</masterLabel>
+            <translation><!-- - - - --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15</masterLabel>
+            <translation><!-- 15 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>180</masterLabel>
+            <translation><!-- 180 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30</masterLabel>
+            <translation><!-- 30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>365</masterLabel>
+            <translation><!-- 365 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>90</masterLabel>
+            <translation><!-- 90 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Responsable --></label>
+        <name>KS_Responsable__c</name>
+        <relationshipLabel><!-- Organizaciones Cliente (Responsable) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Scoring Actividad --></label>
+        <name>KS_Scoring_Actividad__c</name>
+    </fields>
+    <fields>
+        <label><!-- Scoring IF --></label>
+        <name>KS_Scoring_IF__c</name>
+    </fields>
+    <fields>
+        <label><!-- Scoring Negocio --></label>
+        <name>KS_Scoring_Negocio__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sector (Distribuidor) --></label>
+        <name>KS_Sector_Distribuidor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sociedad --></label>
+        <name>KS_Sociedad__c</name>
+    </fields>
+    <fields>
+        <label><!-- Switcher --></label>
+        <name>KS_Switcher__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tipología Distribuidor --></label>
+        <name>KS_Tipologia_Distribuidor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tipologia Solicitante --></label>
+        <name>KS_Tipologia_Solicitante__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zona --></label>
+        <name>KS_Zona__c</name>
+    </fields>
+    <fields>
+        <label><!-- Id 18 Solicitante --></label>
+        <name>KS_id18__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Gestor de Cuenta --></label>
+        <name>SI_ID_GestorCuenta__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID OwnerAcc --></label>
+        <name>SI_ID_OwnerAcc__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID OwnerOC --></label>
+        <name>SI_ID_OwnerOC__c</name>
+    </fields>
+    <layouts>
+        <layout>Formato Org-Cliente</layout>
+        <sections>
+            <label><!-- Datos de calificación --></label>
+            <section>Datos de calificación</section>
+        </sections>
+        <sections>
+            <label><!-- Estructura Geográfica --></label>
+            <section>Estructura Geográfica</section>
+        </sections>
+        <sections>
+            <label><!-- Planificación visitas --></label>
+            <section>Planificación visitas</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato Org-Cliente-sys</layout>
+        <sections>
+            <label><!-- Datos de calificación --></label>
+            <section>Datos de calificación</section>
+        </sections>
+        <sections>
+            <label><!-- Estructura Geográfica --></label>
+            <section>Estructura Geográfica</section>
+        </sections>
+        <sections>
+            <label><!-- Planificación visitas --></label>
+            <section>Planificación visitas</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato Solicitud Marca-Comercial</layout>
+        <sections>
+            <label><!-- Estructura Geográfica --></label>
+            <section>Estructura Geográfica</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Customer organization</nameFieldLabel>
+    <quickActions>
+        <label><!-- Actualizar organización cliente --></label>
+        <name>KS_AdminIsOwner</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- Origen Manual --></description>
+        <label><!-- Organización Cliente --></label>
+        <name>KS_OrgClie_NOSAP</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Origen Webservice --></description>
+        <label><!-- Organización Cliente SAP --></label>
+        <name>KS_OrgClie_SAP</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- RT para solicitudes de marcas comerciales --></description>
+        <label><!-- Solicitud Marca Comercial --></label>
+        <name>KS_Solicitud_Marca_Comercial</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Los registros de marcas comerciales tan sólo pueden ser editados por el usuario Gestor de Cuenta. --></errorMessage>
+        <name>ControlEdicionOrgCliente</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Esta intentando generar una marca comercial que ya existe para este cliente --></errorMessage>
+        <name>EvitaDuplicidadesdeOrgCliente</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- La información provista para la creación de la marca asociada és incompleta. Debe de informarse de la Organización de Ventas, del canal de distribución y del sector de distribución. --></errorMessage>
+        <name>OrgClienteCompleto</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>KAIZENSTEP. ACTIVO. Objeto que contiene los registros de depuración de los WDSLs</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>KS_Campo__c</fullName>
+        <externalId>false</externalId>
+        <label>Campo</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>KS_Clase__c</fullName>
+        <externalId>false</externalId>
+        <label>Clase</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>KS_Codigo__c</fullName>
+        <externalId>false</externalId>
+        <label>Código</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>KS_Descripcion__c</fullName>
+        <externalId>false</externalId>
+        <label>Descripción</label>
+        <length>1000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>KS_Master_Account__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Cuenta Maestra</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Histórico Merge</relationshipLabel>
+        <relationshipName>DebugMergeCuenta</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>KS_Master_Contact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Contacto Maestro</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Histórico Merge</relationshipLabel>
+        <relationshipName>DebugMergeContacto</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>KS_Master_Marca__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Marca Maestra</label>
+        <referenceTo>KS_Organizacion_Cliente__c</referenceTo>
+        <relationshipLabel>Histórico Merge</relationshipLabel>
+        <relationshipName>DebugMergeMarca</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>KS_Master_Owner__c</fullName>
+        <externalId>false</externalId>
+        <label>Propietario Maestro</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>KS_Merge_Actividad__c</fullName>
+        <description>Campo Cuenta</description>
+        <externalId>false</externalId>
+        <label>Cuenta, Actividad</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>KS_Merge_Calle__c</fullName>
+        <description>Campo Cuenta / Contacto</description>
+        <externalId>false</externalId>
+        <label>Dirección, calle</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>KS_Merge_Canal__c</fullName>
+        <description>Campo Cuenta</description>
+        <externalId>false</externalId>
+        <label>Cuenta, Canal</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>KS_Merge_Ciudad__c</fullName>
+        <description>Campo Cuenta / Contacto</description>
+        <externalId>false</externalId>
+        <label>Dirección, ciudad</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>KS_Merge_CodPais__c</fullName>
+        <description>Campo Cuenta / Contacto</description>
+        <externalId>false</externalId>
+        <label>Dirección, país</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>KS_Merge_CodPostal__c</fullName>
+        <description>Campo Cuenta / Contacto</description>
+        <externalId>false</externalId>
+        <label>Dirección, cod. postal</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>KS_Merge_Email__c</fullName>
+        <description>Campo Cuenta / Contacto</description>
+        <externalId>false</externalId>
+        <label>Email</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>KS_Merge_Funcion__c</fullName>
+        <description>Campo Contacto</description>
+        <externalId>false</externalId>
+        <label>Contacto, Función</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>KS_Merge_Idioma__c</fullName>
+        <description>Campo Contacto</description>
+        <externalId>false</externalId>
+        <label>Contacto, Idioma</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>KS_Merge_Provincia__c</fullName>
+        <description>Campo Cuenta / Contacto</description>
+        <externalId>false</externalId>
+        <label>Dirección, provincia</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>KS_Merge_Recurrencia__c</fullName>
+        <externalId>false</externalId>
+        <label>Marca, Recurrencia</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>KS_Merge_Responsable__c</fullName>
+        <externalId>false</externalId>
+        <label>Marca, Responsable</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>KS_Merge_ScoringA__c</fullName>
+        <externalId>false</externalId>
+        <label>Marca, Scoring Actividad</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>KS_Merge_ScoringIF__c</fullName>
+        <externalId>false</externalId>
+        <label>Marca, Scoring IF</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>KS_Merge_ScoringN__c</fullName>
+        <externalId>false</externalId>
+        <label>Marca, Scoring Negocio</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>KS_Merge_Sector__c</fullName>
+        <description>Campo Cuenta</description>
+        <externalId>false</externalId>
+        <label>Cuenta, Sector</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>KS_Merge_Subactividad__c</fullName>
+        <description>Campo Cuenta</description>
+        <externalId>false</externalId>
+        <label>Cuenta, Subactividad</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>KS_Merge_Telf1__c</fullName>
+        <description>Campo Cuenta / Contacto</description>
+        <externalId>false</externalId>
+        <label>Teléfono</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>KS_Merge_Telf2__c</fullName>
+        <description>Campo Cuenta / Contacto</description>
+        <externalId>false</externalId>
+        <label>Teléfono 2 / Móvil</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>KS_Merge_Telf3__c</fullName>
+        <description>Campo Cuenta / Contacto</description>
+        <externalId>false</externalId>
+        <label>Teléfono 3 / Particular</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>KS_Origen_Metodo__c</fullName>
+        <externalId>false</externalId>
+        <label>Método Origen</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>KS_Origen__c</fullName>
+        <externalId>false</externalId>
+        <label>Origen</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>KS_PIN__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>La depuración no se borrará</description>
+        <externalId>false</externalId>
+        <inlineHelpText>La depuración no se borrará</inlineHelpText>
+        <label>PIN</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>KS_Valor__c</fullName>
+        <externalId>false</externalId>
+        <label>Valor</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <gender>Masculine</gender>
+    <label>Depuración</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>RECORDTYPE</columns>
+        <columns>KS_Clase__c</columns>
+        <columns>KS_Descripcion__c</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>KS_Depuraciones_de_HOY</fullName>
+        <columns>NAME</columns>
+        <columns>KS_Campo__c</columns>
+        <columns>KS_Clase__c</columns>
+        <columns>KS_Codigo__c</columns>
+        <columns>KS_Descripcion__c</columns>
+        <columns>KS_Origen_Metodo__c</columns>
+        <columns>KS_Origen__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>CREATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CREATED_DATE</field>
+            <operation>equals</operation>
+            <value>TODAY</value>
+        </filters>
+        <label>Depuraciones de HOY</label>
+        <language>es</language>
+    </listViews>
+    <listViews>
+        <fullName>KS_mergecuenta_de_HOY</fullName>
+        <columns>NAME</columns>
+        <columns>KS_Campo__c</columns>
+        <columns>KS_Clase__c</columns>
+        <columns>KS_Codigo__c</columns>
+        <columns>KS_Descripcion__c</columns>
+        <columns>KS_Origen_Metodo__c</columns>
+        <columns>KS_Origen__c</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CREATED_DATE</field>
+            <operation>equals</operation>
+            <value>THIS_WEEK</value>
+        </filters>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>KS_Debug__c.KS_MERGE_CUENTA</value>
+        </filters>
+        <label>MERGE CUENTA de HOY</label>
+        <language>es</language>
+    </listViews>
+    <listViews>
+        <fullName>Ks_manual</fullName>
+        <columns>NAME</columns>
+        <columns>KS_Campo__c</columns>
+        <columns>KS_Clase__c</columns>
+        <columns>KS_Codigo__c</columns>
+        <columns>KS_Descripcion__c</columns>
+        <columns>KS_Origen_Metodo__c</columns>
+        <columns>KS_Origen__c</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>NAME</field>
+            <operation>contains</operation>
+            <value>102897</value>
+        </filters>
+        <label>0000102897</label>
+        <language>es</language>
+    </listViews>
+    <nameField>
+        <label>Identificador</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Depuraciones</pluralLabel>
+    <recordTypes>
+        <fullName>KS_DEBUG_ERROR</fullName>
+        <active>true</active>
+        <label>ERROR</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>KS_MERGE_CONTACTO</fullName>
+        <active>true</active>
+        <label>KS MERGE CONTACTO</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>KS_MERGE_CUENTA</fullName>
+        <active>true</active>
+        <label>KS MERGE CUENTA</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>KS_MERGE_MARCA</fullName>
+        <active>true</active>
+        <label>KS MERGE MARCA</label>
+    </recordTypes>
+    <searchLayouts>
+        <lookupDialogsAdditionalFields>CREATED_DATE</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>KS_Clase__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>KS_Descripcion__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>KS_Campo__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>KS_Origen_Metodo__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>KS_Codigo__c</lookupDialogsAdditionalFields>
+        <searchResultsAdditionalFields>CREATED_DATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>KS_Clase__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>KS_Descripcion__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>KS_Campo__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>KS_Origen_Metodo__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>KS_Codigo__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

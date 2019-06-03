@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>00</masterLabel>
+        <translation>Domestic Price List</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>01</masterLabel>
+        <translation><!-- 01 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>1</masterLabel>
+        <translation><!-- 1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>10</masterLabel>
+        <translation><!-- 10 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>11</masterLabel>
+        <translation>T. Portugal Año Ant.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>20</masterLabel>
+        <translation><!-- 20 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>B1</masterLabel>
+        <translation><!-- B1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>B2</masterLabel>
+        <translation><!-- B2 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>B3</masterLabel>
+        <translation><!-- B3 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BE</masterLabel>
+        <translation><!-- BE --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E0</masterLabel>
+        <translation><!-- E0 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>EC</masterLabel>
+        <translation>Domestic Price List</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FR</masterLabel>
+        <translation>Tarif FR-SME</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NC</masterLabel>
+        <translation><!-- NC --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PU</masterLabel>
+        <translation>Publicity</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>T0</masterLabel>
+        <translation><!-- T0 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>T1</masterLabel>
+        <translation><!-- T1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>T2</masterLabel>
+        <translation><!-- T2 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>T3</masterLabel>
+        <translation><!-- T3 --></translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

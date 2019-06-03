@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>0001</masterLabel>
+        <translation>Emissor da ordem Nacional</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>0002</masterLabel>
+        <translation>Recebedor da mercadoria</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>0003</masterLabel>
+        <translation><!-- 0003 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>0004</masterLabel>
+        <translation>Recebedor de fatura</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>0012</masterLabel>
+        <translation>Nó de hierarquia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>1</masterLabel>
+        <translation><!-- 1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z001</masterLabel>
+        <translation>Ponto de Venda</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z009</masterLabel>
+        <translation>Exceção Ponto de venda</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z010</masterLabel>
+        <translation>Emissor da ordem Naci. sem NIF</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z011</masterLabel>
+        <translation>Emissor da ordem India</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z012</masterLabel>
+        <translation><!-- Z012 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z013</masterLabel>
+        <translation><!-- Z013 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z014</masterLabel>
+        <translation>Endereços de Cobrança</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z015</masterLabel>
+        <translation>Emissor da ordem India</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZE01</masterLabel>
+        <translation>BR: Clientes Estrangeiros</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZEXT</masterLabel>
+        <translation>Emissor da ordem estrangeiros</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZINT</masterLabel>
+        <translation>Emissor da ordem intragrupo</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

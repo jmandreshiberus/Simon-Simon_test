@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>DIR</masterLabel>
+        <translation><!-- DIR --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ECOM</masterLabel>
+        <translation><!-- ECOM --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>EDI</masterLabel>
+        <translation><!-- EDI --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ESKE</masterLabel>
+        <translation><!-- ESKE --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FAXC</masterLabel>
+        <translation><!-- FAXC --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FAXV</masterLabel>
+        <translation><!-- FAXV --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HOTE</masterLabel>
+        <translation>Datenfernübertragung</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>INT</masterLabel>
+        <translation><!-- INT --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MAIL</masterLabel>
+        <translation><!-- MAIL --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MAIV</masterLabel>
+        <translation><!-- MAIV --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>OBRA</masterLabel>
+        <translation>mündliche</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PTL</masterLabel>
+        <translation><!-- PTL --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>REC</masterLabel>
+        <translation><!-- REC --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>REPO</masterLabel>
+        <translation>schriftlich</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TELC</masterLabel>
+        <translation><!-- TELC --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TELV</masterLabel>
+        <translation><!-- TELV --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VEN</masterLabel>
+        <translation><!-- VEN --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZCAR</masterLabel>
+        <translation><!-- ZCAR --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZINT</masterLabel>
+        <translation><!-- ZINT --></translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

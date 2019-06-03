@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>No definida</fullName>
+        <default>false</default>
+        <label>No definida</label>
+    </customValue>
+    <customValue>
+        <fullName>Solar</fullName>
+        <default>false</default>
+        <label>Solar</label>
+    </customValue>
+    <customValue>
+        <fullName>Interiores</fullName>
+        <default>false</default>
+        <label>Interiores</label>
+    </customValue>
+    <customValue>
+        <fullName>Cimentación</fullName>
+        <default>false</default>
+        <label>Cimentación</label>
+    </customValue>
+    <customValue>
+        <fullName>Últimas instalaciones</fullName>
+        <default>false</default>
+        <label>Últimas instalaciones</label>
+    </customValue>
+    <customValue>
+        <fullName>Derribo</fullName>
+        <default>false</default>
+        <label>Derribo</label>
+    </customValue>
+    <customValue>
+        <fullName>Estructura</fullName>
+        <default>false</default>
+        <label>Estructura</label>
+    </customValue>
+    <customValue>
+        <fullName>Revestimiento exterior</fullName>
+        <default>false</default>
+        <label>Revestimiento exterior</label>
+    </customValue>
+    <customValue>
+        <fullName>Movimiento de tierras</fullName>
+        <default>false</default>
+        <label>Movimiento de tierras</label>
+    </customValue>
+    <customValue>
+        <fullName>En estudio</fullName>
+        <default>false</default>
+        <label>En estudio</label>
+    </customValue>
+    <customValue>
+        <fullName>Redacción</fullName>
+        <default>false</default>
+        <label>Redacción</label>
+    </customValue>
+    <customValue>
+        <fullName>Redactándose</fullName>
+        <default>false</default>
+        <label>Redactándose</label>
+    </customValue>
+    <customValue>
+        <fullName>Anteproyecto</fullName>
+        <default>false</default>
+        <label>Anteproyecto</label>
+    </customValue>
+    <customValue>
+        <fullName>Redactado</fullName>
+        <default>false</default>
+        <label>Redactado</label>
+    </customValue>
+    <customValue>
+        <fullName>Pre.estudio</fullName>
+        <default>false</default>
+        <label>Pre.estudio</label>
+    </customValue>
+    <description>EN USO --&gt; OBRA --&gt; Fases construdatos</description>
+    <masterLabel>Fase construdatos</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

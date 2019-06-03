@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>+</masterLabel>
+        <translation><!-- + --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>0</masterLabel>
+        <translation>SEPA Direct Debit</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>1</masterLabel>
+        <translation>Effet domicilié - Vers.groupé</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>2</masterLabel>
+        <translation>EuroConfirming</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>3</masterLabel>
+        <translation>Virement USD cpte EUR BBVA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>4</masterLabel>
+        <translation>Espèces</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>5</masterLabel>
+        <translation>SEPA Direct Debit</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>6</masterLabel>
+        <translation><!-- 6 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>7</masterLabel>
+        <translation><!-- 7 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>8</masterLabel>
+        <translation><!-- 8 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>9</masterLabel>
+        <translation><!-- 9 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>A</masterLabel>
+        <translation>Chèque - Encaissement</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>B</masterLabel>
+        <translation>Virement National - Vers.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C</masterLabel>
+        <translation>Chèque - Versement</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>D</masterLabel>
+        <translation><!-- D --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E</masterLabel>
+        <translation>Prelevement</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>F</masterLabel>
+        <translation>Virement international</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G</masterLabel>
+        <translation>Effet domicilié national</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>H</masterLabel>
+        <translation>Confirming</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I</masterLabel>
+        <translation>Cheque papier - Versement</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>J</masterLabel>
+        <translation>Virement étranger - Versement</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>K</masterLabel>
+        <translation>TFB Kredietbank Foreign Transf</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>L</masterLabel>
+        <translation>Traite (a payer)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M</masterLabel>
+        <translation>Contrat de crédit</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>N</masterLabel>
+        <translation><!-- N --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>O</masterLabel>
+        <translation>Compensation (dans le group)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>P</masterLabel>
+        <translation>Billet à ordre - Encaissement</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Q</masterLabel>
+        <translation>Virement SEPA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>R</masterLabel>
+        <translation>Reçu</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S</masterLabel>
+        <translation>Dem. d&apos;effets à l&apos;encaissement</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>T</masterLabel>
+        <translation>Virement national</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>U</masterLabel>
+        <translation>Effet domicilié international</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V</masterLabel>
+        <translation>Billet à ordre - Versement</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>W</masterLabel>
+        <translation>Virement USD</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>X</masterLabel>
+        <translation>Virement</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Y</masterLabel>
+        <translation>Virement - Encaissement</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z</masterLabel>
+        <translation>Cash against document</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>1</fullName>
+        <default>false</default>
+        <label>1</label>
+    </customValue>
+    <customValue>
+        <fullName>FL31</fullName>
+        <default>false</default>
+        <label>FL31</label>
+    </customValue>
+    <customValue>
+        <fullName>GI50</fullName>
+        <default>false</default>
+        <label>GI50</label>
+    </customValue>
+    <customValue>
+        <fullName>IE20</fullName>
+        <default>false</default>
+        <label>IE20</label>
+    </customValue>
+    <customValue>
+        <fullName>MA15</fullName>
+        <default>false</default>
+        <label>MA15</label>
+    </customValue>
+    <customValue>
+        <fullName>MA16</fullName>
+        <default>false</default>
+        <label>MA16</label>
+    </customValue>
+    <customValue>
+        <fullName>MX24</fullName>
+        <default>false</default>
+        <label>MX24</label>
+    </customValue>
+    <customValue>
+        <fullName>MX25</fullName>
+        <default>false</default>
+        <label>MX25</label>
+    </customValue>
+    <customValue>
+        <fullName>MX26</fullName>
+        <default>false</default>
+        <label>MX26</label>
+    </customValue>
+    <customValue>
+        <fullName>SI10</fullName>
+        <default>false</default>
+        <label>SI10</label>
+    </customValue>
+    <description>SAP. Uso --&gt; Organizaciones Cliente / Jerarquia Cliente / Producto / Autorizaciones Oferta --&gt; CARGADO</description>
+    <masterLabel>Organizacion de ventas</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

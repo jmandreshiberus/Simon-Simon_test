@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Notificación de creación de Obra</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Header_Simon</letterhead>
+    <name>Obra creada</name>
+    <style>freeForm</style>
+    <subject>Aviso de creación de obra ({!KS_Obra_Ubicacion__c.KS_Obra__c})</subject>
+    <textOnly>A su atención,
+
+El usuario: {!KS_Obra_Ubicacion__c.CreatedBy} ha creado la obra: {!KS_Obra_Ubicacion__c.KS_Obra__c}, cuya ubicación corresponde a su territorio:
+
+Area: {!KS_Obra_Ubicacion__c.KS_Area__c}
+Delegación: {!KS_Obra_Ubicacion__c.KS_Delegacion__c}
+Zona: {!KS_Obra_Ubicacion__c.KS_Zona__c}
+
+Puede ver la obra en cuestión en el siguiente enlace:
+
+https://eu6.salesforce.com/{!KS_Obra_Ubicacion__c.KS_ObraId__c}
+
+Atentamente,</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

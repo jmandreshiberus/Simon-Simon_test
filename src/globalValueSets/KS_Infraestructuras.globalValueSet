@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Showroom</fullName>
+        <default>false</default>
+        <label>Showroom</label>
+    </customValue>
+    <customValue>
+        <fullName>Salas de formación</fullName>
+        <default>false</default>
+        <label>Salas de formación</label>
+    </customValue>
+    <customValue>
+        <fullName>Taller (workshop)</fullName>
+        <default>false</default>
+        <label>Taller (workshop)</label>
+    </customValue>
+    <customValue>
+        <fullName>Ninguno</fullName>
+        <default>false</default>
+        <label>Ninguno</label>
+    </customValue>
+    <customValue>
+        <fullName>Proximidad</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Proximidad</label>
+    </customValue>
+    <customValue>
+        <fullName>Locales comerciales</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Locales comerciales</label>
+    </customValue>
+    <customValue>
+        <fullName>Suelo</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Suelo</label>
+    </customValue>
+    <customValue>
+        <fullName>Edificios oficinas Propios</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Edificios oficinas Propios</label>
+    </customValue>
+    <customValue>
+        <fullName>Edificios oficinas para Alquilar</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Edificios oficinas para Alquilar</label>
+    </customValue>
+    <customValue>
+        <fullName>Ecologico</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Ecologico</label>
+    </customValue>
+    <description>SEGMENTACIÓN. Usado como variable de segmentación en Cuentas</description>
+    <masterLabel>Infraestructuras</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

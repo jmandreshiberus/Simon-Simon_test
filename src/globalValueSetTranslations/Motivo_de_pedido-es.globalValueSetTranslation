@@ -1,0 +1,987 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>001</masterLabel>
+        <translation><!-- 001 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>002</masterLabel>
+        <translation><!-- 002 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>003</masterLabel>
+        <translation><!-- 003 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>004</masterLabel>
+        <translation><!-- 004 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>005</masterLabel>
+        <translation><!-- 005 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>006</masterLabel>
+        <translation><!-- 006 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>007</masterLabel>
+        <translation><!-- 007 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>008</masterLabel>
+        <translation><!-- 008 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>100</masterLabel>
+        <translation><!-- 100 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>101</masterLabel>
+        <translation><!-- 101 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>102</masterLabel>
+        <translation><!-- 102 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>103</masterLabel>
+        <translation><!-- 103 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>104</masterLabel>
+        <translation><!-- 104 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>105</masterLabel>
+        <translation><!-- 105 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>106</masterLabel>
+        <translation><!-- 106 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>107</masterLabel>
+        <translation><!-- 107 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>108</masterLabel>
+        <translation><!-- 108 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>109</masterLabel>
+        <translation><!-- 109 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>110</masterLabel>
+        <translation><!-- 110 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>111</masterLabel>
+        <translation><!-- 111 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>200</masterLabel>
+        <translation><!-- 200 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>300</masterLabel>
+        <translation>Publicidad</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>301</masterLabel>
+        <translation>Pedido REPOSICION</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>302</masterLabel>
+        <translation>Obsequio</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>303</masterLabel>
+        <translation>Muestra cliente</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>304</masterLabel>
+        <translation>Pedido OBRAS</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>305</masterLabel>
+        <translation>Pedido HOTELES</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>306</masterLabel>
+        <translation>Pedido STOCK</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>307</masterLabel>
+        <translation>Pedido IMPLANTACION</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>308</masterLabel>
+        <translation>Pedido CHATARRA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>309</masterLabel>
+        <translation>Pedido FERIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>310</masterLabel>
+        <translation>Pedido Folleto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>311</masterLabel>
+        <translation>Pedido PROGRAMACION</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>312</masterLabel>
+        <translation>Pedido COMPROMISO ENTREGA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>313</masterLabel>
+        <translation>Pedido JUNTA ANDALUCIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>314</masterLabel>
+        <translation>OBRA RETAIL</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>315</masterLabel>
+        <translation>Pedido Cabecera</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>316</masterLabel>
+        <translation>Pedido PVC</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>317</masterLabel>
+        <translation>PROYECTOS</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>318</masterLabel>
+        <translation>Pedido PROFORMA ESTANCA 2007</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>319</masterLabel>
+        <translation>Pedido PROFORMA PASACABLES 2008</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>320</masterLabel>
+        <translation>Pedido PROFORMA TELEBLOCK 2008</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>321</masterLabel>
+        <translation>Pedido APERTURA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>322</masterLabel>
+        <translation>Pedido CLIENTE NUEVO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>323</masterLabel>
+        <translation>Pedido COMPENSACION</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>324</masterLabel>
+        <translation>Pedido ERROR ETIQUETADO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>325</masterLabel>
+        <translation>Pedido ANULADO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>326</masterLabel>
+        <translation>Pernos a cuenta de Columnas</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>327</masterLabel>
+        <translation>Aportaciones No Previstas</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>328</masterLabel>
+        <translation>Prom: 15 DÍAS para GANAR</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>350</masterLabel>
+        <translation>PS: NUEVA CONSTRUCCION</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>351</masterLabel>
+        <translation>PS: MODIFICACION</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>352</masterLabel>
+        <translation>PS: REPARACION</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>353</masterLabel>
+        <translation>Pedido REPELE</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>354</masterLabel>
+        <translation>Pedido BASES PROTECCIÓN</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>355</masterLabel>
+        <translation>Pedido BASES 70&apos;s</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>356</masterLabel>
+        <translation>Pedido PIRÁMIDE</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>357</masterLabel>
+        <translation>Pedido PODIUM</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>358</masterLabel>
+        <translation>Pedido ILUMINACION INTERIOR</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>359</masterLabel>
+        <translation>Pedido CAMBIO TARIFA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>360</masterLabel>
+        <translation>PROMOCIÓN MINICANAL 2011</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>361</masterLabel>
+        <translation>CAMPAÑA CALEFACCION</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>362</masterLabel>
+        <translation>82 DETAIL</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>363</masterLabel>
+        <translation>Pedido Grandes Superficies</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>364</masterLabel>
+        <translation>EXPO CADENA VIRTUAL</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>365</masterLabel>
+        <translation>Piso Modelo</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>366</masterLabel>
+        <translation>Muestras para Representante</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>367</masterLabel>
+        <translation>Montaje de Panel</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>368</masterLabel>
+        <translation>Asistencia Técnica</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>369</masterLabel>
+        <translation>Pedido PROMOMIX</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>370</masterLabel>
+        <translation>Pedido PROMOBOOK</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>372</masterLabel>
+        <translation>Serie 100</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>400</masterLabel>
+        <translation><!-- 400 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>401</masterLabel>
+        <translation><!-- 401 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>402</masterLabel>
+        <translation><!-- 402 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>403</masterLabel>
+        <translation><!-- 403 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>404</masterLabel>
+        <translation><!-- 404 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>405</masterLabel>
+        <translation><!-- 405 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>406</masterLabel>
+        <translation><!-- 406 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>407</masterLabel>
+        <translation><!-- 407 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>408</masterLabel>
+        <translation><!-- 408 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>A00</masterLabel>
+        <translation>DAA1-ABONO POR ANULACION CARGO (NO VTAS)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>A01</masterLabel>
+        <translation>DAA2-ABONO ANUL.CARGO POR COMPRAS A CTA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>A02</masterLabel>
+        <translation>FACTURA RECTIFICATIVA DE IVA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>A03</masterLabel>
+        <translation>DAA3-ABONO POR CARGO ACEPTADO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>A50</masterLabel>
+        <translation>DAC1-CARGO POR VENTAS DE RESIDUOS</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>A51</masterLabel>
+        <translation>DAC2-CARGO POR GASTOS IMPAGADOS</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>A52</masterLabel>
+        <translation>DAC3-CARGO POR VENTA DE INMOVILIZADO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>A53</masterLabel>
+        <translation>DAC4-CARGO SERVICIOS INFORMATICOS</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>A54</masterLabel>
+        <translation>DAC5-CARGO SERV. PRESTADOS DIFERENTES A</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>A55</masterLabel>
+        <translation>DAC6-CARGO POR ALQUILERES</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>A56</masterLabel>
+        <translation>DAC7-CARGO POR REPERCUSION VADOS</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>A57</masterLabel>
+        <translation>DAC8-CARGO POR COMPRAS A CTA DE FILIALES</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>A58</masterLabel>
+        <translation>DAC9-CARGO SERVICIOS DPTO CONTROLLING</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>A59</masterLabel>
+        <translation>DAC10-CARGO SERVICIOS DPTO ADMON</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>A60</masterLabel>
+        <translation>DAC11-CARGO SERVICIOS DPTO RRHH</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>A61</masterLabel>
+        <translation>DAC11-CARGO POR ABONO ACEPTADO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>A62</masterLabel>
+        <translation>Cargo Facturación Utiles</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AD0</masterLabel>
+        <translation>ADMINSTRATION-Residuos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AD1</masterLabel>
+        <translation>ADMINSTRATION-Reparación Moldes</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AD2</masterLabel>
+        <translation>ADMINSTRATION-Servicios Prestados</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AD3</masterLabel>
+        <translation>ADMINSTRATION-Factura Rectificativa IVA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AD4</masterLabel>
+        <translation>ADMINSTRATION-Póliza de Crédito</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AD5</masterLabel>
+        <translation>ADMINSTRATION-Gastos Impagados</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AD6</masterLabel>
+        <translation>ADMINSTRATION-Venta Inmobilizados</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AD7</masterLabel>
+        <translation>ADMINSTRATION-Servicios Informáticos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AD8</masterLabel>
+        <translation>ADMINSTRATION-Alquileres</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AD9</masterLabel>
+        <translation>ADMINSTRATION-Repercusión Vados</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ADA</masterLabel>
+        <translation>ADMINSTRATION-Compras a Cta Filiales</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ADB</masterLabel>
+        <translation>ADMINSTRATION-Servicios Controlling</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ADC</masterLabel>
+        <translation>ADMINSTRATION-Servicios Administración</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ADD</masterLabel>
+        <translation>ADMINSTRATION-Servicios RRHH</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>B00</masterLabel>
+        <translation>CAMBIO DE NOTA FISCAL</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>B01</masterLabel>
+        <translation>CAMBIO DE NOTA FISCAL (EN GARANTIA)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CR0</masterLabel>
+        <translation>CREDIT-Regularizaciones riesgos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>D00</masterLabel>
+        <translation>DELAY-Transporte        </translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>D01</masterLabel>
+        <translation>DELAY-Almacén</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>D02</masterLabel>
+        <translation>DELAY-Gventas</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>D03</masterLabel>
+        <translation>DELAY-Comercial</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>D04</masterLabel>
+        <translation>DELAY-Cliente</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>D05</masterLabel>
+        <translation>DELAY-Marketing</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>D06</masterLabel>
+        <translation><!-- D06 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DP0</masterLabel>
+        <translation>DUPLICITY-Gventas</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DP1</masterLabel>
+        <translation>DUPLICITY-Cliente</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DP2</masterLabel>
+        <translation>DUPLICITY-Comercial</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>EDI</masterLabel>
+        <translation>Procedimiento abonos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>EP0</masterLabel>
+        <translation>PRICE ERROR-Precio no informado en SAP</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>EP1</masterLabel>
+        <translation>PRICE ERROR-Error Introducción</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>EP2</masterLabel>
+        <translation>PRICE ERROR-Error Comercial</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>EP3</masterLabel>
+        <translation>PRICE ERROR-Error Cliente</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>EP4</masterLabel>
+        <translation>PRICE ERROR-Error almacén</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ES0</masterLabel>
+        <translation>STOCK ERROR-Error Cantidad</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ES1</masterLabel>
+        <translation>STOCK ERROR-Cambio Referencia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ES2</masterLabel>
+        <translation>STOCK ERROR-Error Planificación</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ES3</masterLabel>
+        <translation>STOCK ERROR-Error Introducción Gventas</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>F00</masterLabel>
+        <translation>FREE-Publicidad</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>F01</masterLabel>
+        <translation>FREE-Muestra</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>F02</masterLabel>
+        <translation>FREE-Obsequio</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>F03</masterLabel>
+        <translation>FREE-Muestra prototipo</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>F04</masterLabel>
+        <translation>FREE-Pernos a cuenta de columnas</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G00</masterLabel>
+        <translation>AGREEMENT-Regularización Stock</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G01</masterLabel>
+        <translation>AGREEMENT-Error cliente</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G02</masterLabel>
+        <translation>AGREEMENT-Error Delegación</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G03</masterLabel>
+        <translation>AGREEMENT-Roturas / Chatarra</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G04</masterLabel>
+        <translation>AGREEMENT-Problemas de riesgo</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G05</masterLabel>
+        <translation>AGREEMENT-Sobrante de Obra</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G06</masterLabel>
+        <translation>AGREEMENT-Mat.Ret./Ent.(Interc.clientes)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G07</masterLabel>
+        <translation>AGREEMENT-Aportac. Plantilla Condiciones</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G08</masterLabel>
+        <translation>AGREEMENT-Penalización Cliente</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G09</masterLabel>
+        <translation>AGREEMENT-Rappel</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G10</masterLabel>
+        <translation>AGREEMENT-Aportación no prevista</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G11</masterLabel>
+        <translation>AGREEMENT-Anulación Pedido</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G12</masterLabel>
+        <translation>AGREEMENT-Atención comercial</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G13</masterLabel>
+        <translation>AGREEMENT-Mat. Entregado y no facturado</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I00</masterLabel>
+        <translation>Pedido OBRAS IEP</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I01</masterLabel>
+        <translation>Pedido OBRAS IEP - Compromiso Entrega</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I02</masterLabel>
+        <translation>Pedidos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I03</masterLabel>
+        <translation>Pedidos -  Compromiso Entrega</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I04</masterLabel>
+        <translation>DEV:Error interno</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I05</masterLabel>
+        <translation>DEV:Error cliente</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I06</masterLabel>
+        <translation>DEV:Anulación</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I07</masterLabel>
+        <translation>DEV:Incidencia calidad</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I08</masterLabel>
+        <translation>DEV:Atención comercial</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I09</masterLabel>
+        <translation>DEV:Intercambio stock entre clientes</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I10</masterLabel>
+        <translation>DEV:Transporte</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I11</masterLabel>
+        <translation>GRATUITO: Incidencia calidad</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I12</masterLabel>
+        <translation>GRATUITO: Incidencia transporte</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I13</masterLabel>
+        <translation>GRATUITO: Muestra comercial</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I14</masterLabel>
+        <translation>GRATUITO: Muestra prototipo</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I15</masterLabel>
+        <translation>GRATUITO: Obsequio</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I16</masterLabel>
+        <translation>GRATUITO: Regalos promocionales</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I17</masterLabel>
+        <translation>GRATUITO: Consumible delegaciones</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I18</masterLabel>
+        <translation>GRATUITO: Documentación técnica</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I19</masterLabel>
+        <translation>GRATUITO: Publicidad</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I20</masterLabel>
+        <translation>GRATUITO: Incidencias Logistico</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I21</masterLabel>
+        <translation>DEV:Error Comercial</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IC0</masterLabel>
+        <translation>INV.CANCEL:Abono/Cargo correccíon fact.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>POA</masterLabel>
+        <translation>ABONO PÓLIZA DE CRÉDITO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>POC</masterLabel>
+        <translation>CARGO PÓLIZA DE CRÉDITO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Q00</masterLabel>
+        <translation>QUALITY-Defectuosos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Q01</masterLabel>
+        <translation>QUALITY-Por orden de SAT</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Q02</masterLabel>
+        <translation>QUALITY-Reposición en Garantía</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>QBI</masterLabel>
+        <translation><!-- QBI --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>QOI</masterLabel>
+        <translation><!-- QOI --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>R00</masterLabel>
+        <translation>RETURNS-Abono no realizado</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>T00</masterLabel>
+        <translation>TRANSPORT-Perdida bulto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>T01</masterLabel>
+        <translation>TRANSPORT-Expedición Cruzada</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>T02</masterLabel>
+        <translation>TRANSPORT-Portes pagados</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>T03</masterLabel>
+        <translation>TRANSPORT-Rotura Transporte</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V00</masterLabel>
+        <translation>AVP1-ABONO POR DIFERENCIA TARIFA Y/O PRE</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V01</masterLabel>
+        <translation>AVP2-ABONO POR DESCUENTO VARIEDAD</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V02</masterLabel>
+        <translation>AVP7-ABONO POR PORTES PAGADOS</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V03</masterLabel>
+        <translation>AVP3-ABONO POR DESCUENTO PRONTO PAGO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V04</masterLabel>
+        <translation>AVP4-ABONO POR DESCUENTO EXTRA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V05</masterLabel>
+        <translation>DESCUENTO LOGISTICO PLUS</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V06</masterLabel>
+        <translation>AVP6-ABONO POR ERROR DTO.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V07</masterLabel>
+        <translation>AVP8-ABONO POR OBSEQUIO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V08</masterLabel>
+        <translation>AVR1-RAPPEL FINANCIERO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V09</masterLabel>
+        <translation>AVR2-ABONO POR RAPPEL</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V10</masterLabel>
+        <translation>DESCUENTO ECONOMICO PLUS</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V19</masterLabel>
+        <translation>ABONO MAT DEVUELTO (sobrante de obra)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V20</masterLabel>
+        <translation>AVQ1-ABONO MAT DEVUELTO (error/anulación</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V21</masterLabel>
+        <translation>AVQ2-ABONO MAT DEVUELTO (regularización</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V22</masterLabel>
+        <translation>AVQ3-ABONO MAT DEVUELTO (incidencia agen</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V23</masterLabel>
+        <translation>AVQ4-ABONO MAT DEVUELTO (error introducc</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V24</masterLabel>
+        <translation>ERROR ALMACEN</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V25</masterLabel>
+        <translation>AVQ6-ABONO MAT DEVUELTO (demora en entre</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V26</masterLabel>
+        <translation>AVQ7-ABONO MAT DEVUELTO (error delegació</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V27</masterLabel>
+        <translation>AVQ8-ABONO MAT DEVUELTO (material defect</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V28</masterLabel>
+        <translation>AVQ9-ABONO MAT DEVUELTO (roturas)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V29</masterLabel>
+        <translation>AVQ14-ABONO MAT DEVUELTO (cambio colecc)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V30</masterLabel>
+        <translation>AVQ15-ABONO MAT DEVUELTO (sustitución/4)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V31</masterLabel>
+        <translation>AVQ16-AB. MAT DEVUELTO (pacto comercial)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V32</masterLabel>
+        <translation>AVQ17-AB DEVOLUCION (Faltan componentes)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V33</masterLabel>
+        <translation>AVQ18-ABONO MAT DEVUELTO (Pieza Antigua)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V34</masterLabel>
+        <translation>AVQ19-ABONO MAT DEVUELTO (Otros)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V35</masterLabel>
+        <translation>AVQ10-ABONO MAT RETIRADO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V36</masterLabel>
+        <translation>AVQ11-ABONO MAT OMITIDO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V37</masterLabel>
+        <translation>AVQ12-ABONO POR ANULACION FRA.Y/O CARGO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V38</masterLabel>
+        <translation>AVQ13-ABONO POR ROTURA DE MATERIAL</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V39</masterLabel>
+        <translation>AV1-ABONO POR APORTACION PUBLICITARIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V40</masterLabel>
+        <translation>AV2-ABONO POR PAGO CENTRALIZADO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V41</masterLabel>
+        <translation>AV3-ABONO PENALIZACIONES CLIENTE</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V42</masterLabel>
+        <translation>AV4-ABONO POR SERVICIOS PRESTADOS</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V43</masterLabel>
+        <translation>AVQ20-ABONO POR ERROR ETIQUETADO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V44</masterLabel>
+        <translation>DEVOLUCION PROBLEMAS DE RIESGO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V45</masterLabel>
+        <translation>ABONO MATERIAL DEV. (ERROR SAT)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V46</masterLabel>
+        <translation>AVQ14. ABONO MAT DEVUELTO (Promociones)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V47</masterLabel>
+        <translation>Devolución cabeceros hospital</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V48</masterLabel>
+        <translation>DESCUENTO CALIDAD EN EL PAGO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V50</masterLabel>
+        <translation>CVP1-CARGO POR PORTES DEBIDOS</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V51</masterLabel>
+        <translation>CVP2-CARGO POR ANULACION PRONTO PAGO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V52</masterLabel>
+        <translation>CVP3-CARGO POR DIFERENCIAS DE PRECIOS</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V53</masterLabel>
+        <translation>CV4-CARGO POR SERVICIOS PRESTADOS</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V54</masterLabel>
+        <translation>CVR1-CARGO ANULACION ABONO RAPPEL</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V60</masterLabel>
+        <translation>CVQ1-CARGO POR MATERIAL ENTREGADO POR N/</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V61</masterLabel>
+        <translation>CVQ2-CARGO POR ANULACION DE ABONO (VENTA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V62</masterLabel>
+        <translation>CVQ4-CARGO POR MATERIAL SERVIDO Y NO FAC</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V63</masterLabel>
+        <translation>CVQ3-CARGO POR REPARACION / PROYECTOS</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V64</masterLabel>
+        <translation>CVQ5-CARGO POR ERROR ETIQUETADO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V65</masterLabel>
+        <translation>DEVOLUCIÓN CAMPAÑA MOSQUITOS</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VBI</masterLabel>
+        <translation><!-- VBI --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VOI</masterLabel>
+        <translation><!-- VOI --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZAR</masterLabel>
+        <translation><!-- ZAR --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZS1</masterLabel>
+        <translation>Solicitud de devolución Desestimada</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZSD</masterLabel>
+        <translation>Solicitud de devolución</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

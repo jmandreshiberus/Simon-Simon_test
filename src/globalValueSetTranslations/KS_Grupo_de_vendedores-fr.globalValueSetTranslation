@@ -1,0 +1,1743 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>000</masterLabel>
+        <translation>Sans Secteur</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>001</masterLabel>
+        <translation><!-- 001 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>002</masterLabel>
+        <translation><!-- 002 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>003</masterLabel>
+        <translation><!-- 003 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>004</masterLabel>
+        <translation><!-- 004 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>005</masterLabel>
+        <translation><!-- 005 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>006</masterLabel>
+        <translation><!-- 006 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>007</masterLabel>
+        <translation><!-- 007 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>008</masterLabel>
+        <translation><!-- 008 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>009</masterLabel>
+        <translation><!-- 009 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>010</masterLabel>
+        <translation><!-- 010 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>011</masterLabel>
+        <translation><!-- 011 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>012</masterLabel>
+        <translation><!-- 012 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>013</masterLabel>
+        <translation><!-- 013 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>014</masterLabel>
+        <translation><!-- 014 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>015</masterLabel>
+        <translation><!-- 015 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>016</masterLabel>
+        <translation><!-- 016 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>017</masterLabel>
+        <translation><!-- 017 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>018</masterLabel>
+        <translation><!-- 018 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>019</masterLabel>
+        <translation><!-- 019 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>020</masterLabel>
+        <translation><!-- 020 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>021</masterLabel>
+        <translation><!-- 021 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>022</masterLabel>
+        <translation><!-- 022 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>023</masterLabel>
+        <translation><!-- 023 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>024</masterLabel>
+        <translation><!-- 024 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>025</masterLabel>
+        <translation><!-- 025 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>026</masterLabel>
+        <translation><!-- 026 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>027</masterLabel>
+        <translation><!-- 027 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>028</masterLabel>
+        <translation><!-- 028 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>029</masterLabel>
+        <translation><!-- 029 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>030</masterLabel>
+        <translation><!-- 030 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>031</masterLabel>
+        <translation><!-- 031 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>032</masterLabel>
+        <translation><!-- 032 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>033</masterLabel>
+        <translation><!-- 033 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>034</masterLabel>
+        <translation><!-- 034 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>035</masterLabel>
+        <translation><!-- 035 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>036</masterLabel>
+        <translation><!-- 036 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>037</masterLabel>
+        <translation><!-- 037 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>038</masterLabel>
+        <translation><!-- 038 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>039</masterLabel>
+        <translation><!-- 039 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>041</masterLabel>
+        <translation><!-- 041 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>042</masterLabel>
+        <translation><!-- 042 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>045</masterLabel>
+        <translation><!-- 045 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>1</masterLabel>
+        <translation><!-- 1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>100</masterLabel>
+        <translation><!-- 100 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>101</masterLabel>
+        <translation><!-- 101 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>102</masterLabel>
+        <translation><!-- 102 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>103</masterLabel>
+        <translation><!-- 103 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>104</masterLabel>
+        <translation><!-- 104 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>105</masterLabel>
+        <translation><!-- 105 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>106</masterLabel>
+        <translation><!-- 106 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>107</masterLabel>
+        <translation><!-- 107 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>108</masterLabel>
+        <translation><!-- 108 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>109</masterLabel>
+        <translation><!-- 109 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>110</masterLabel>
+        <translation><!-- 110 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>111</masterLabel>
+        <translation><!-- 111 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>112</masterLabel>
+        <translation><!-- 112 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>113</masterLabel>
+        <translation><!-- 113 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>114</masterLabel>
+        <translation><!-- 114 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>115</masterLabel>
+        <translation><!-- 115 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>116</masterLabel>
+        <translation><!-- 116 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>117</masterLabel>
+        <translation><!-- 117 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>118</masterLabel>
+        <translation><!-- 118 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>119</masterLabel>
+        <translation><!-- 119 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>120</masterLabel>
+        <translation><!-- 120 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>121</masterLabel>
+        <translation><!-- 121 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>122</masterLabel>
+        <translation><!-- 122 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>123</masterLabel>
+        <translation><!-- 123 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>124</masterLabel>
+        <translation><!-- 124 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>125</masterLabel>
+        <translation><!-- 125 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>126</masterLabel>
+        <translation><!-- 126 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>127</masterLabel>
+        <translation><!-- 127 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>128</masterLabel>
+        <translation><!-- 128 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>129</masterLabel>
+        <translation><!-- 129 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>130</masterLabel>
+        <translation><!-- 130 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>131</masterLabel>
+        <translation><!-- 131 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>132</masterLabel>
+        <translation><!-- 132 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>133</masterLabel>
+        <translation><!-- 133 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>134</masterLabel>
+        <translation><!-- 134 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>135</masterLabel>
+        <translation><!-- 135 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>136</masterLabel>
+        <translation><!-- 136 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>137</masterLabel>
+        <translation><!-- 137 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>138</masterLabel>
+        <translation><!-- 138 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>139</masterLabel>
+        <translation><!-- 139 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>140</masterLabel>
+        <translation><!-- 140 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>141</masterLabel>
+        <translation><!-- 141 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>142</masterLabel>
+        <translation><!-- 142 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>143</masterLabel>
+        <translation><!-- 143 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>144</masterLabel>
+        <translation><!-- 144 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>145</masterLabel>
+        <translation><!-- 145 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>146</masterLabel>
+        <translation><!-- 146 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>147</masterLabel>
+        <translation><!-- 147 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>148</masterLabel>
+        <translation><!-- 148 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>149</masterLabel>
+        <translation><!-- 149 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>150</masterLabel>
+        <translation><!-- 150 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>151</masterLabel>
+        <translation><!-- 151 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>152</masterLabel>
+        <translation><!-- 152 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>153</masterLabel>
+        <translation><!-- 153 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>154</masterLabel>
+        <translation><!-- 154 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>155</masterLabel>
+        <translation><!-- 155 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>300</masterLabel>
+        <translation><!-- 300 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>500</masterLabel>
+        <translation><!-- 500 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>501</masterLabel>
+        <translation><!-- 501 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>502</masterLabel>
+        <translation><!-- 502 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>503</masterLabel>
+        <translation><!-- 503 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>504</masterLabel>
+        <translation><!-- 504 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>505</masterLabel>
+        <translation><!-- 505 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>506</masterLabel>
+        <translation><!-- 506 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>507</masterLabel>
+        <translation><!-- 507 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>508</masterLabel>
+        <translation><!-- 508 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>509</masterLabel>
+        <translation><!-- 509 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>510</masterLabel>
+        <translation><!-- 510 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>511</masterLabel>
+        <translation><!-- 511 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>512</masterLabel>
+        <translation><!-- 512 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>513</masterLabel>
+        <translation><!-- 513 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>514</masterLabel>
+        <translation><!-- 514 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>520</masterLabel>
+        <translation><!-- 520 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>521</masterLabel>
+        <translation><!-- 521 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>522</masterLabel>
+        <translation><!-- 522 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>523</masterLabel>
+        <translation><!-- 523 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>524</masterLabel>
+        <translation><!-- 524 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>525</masterLabel>
+        <translation><!-- 525 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>526</masterLabel>
+        <translation><!-- 526 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>527</masterLabel>
+        <translation><!-- 527 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>528</masterLabel>
+        <translation><!-- 528 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>529</masterLabel>
+        <translation><!-- 529 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>530</masterLabel>
+        <translation><!-- 530 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>531</masterLabel>
+        <translation><!-- 531 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>532</masterLabel>
+        <translation><!-- 532 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>533</masterLabel>
+        <translation><!-- 533 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>534</masterLabel>
+        <translation><!-- 534 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>535</masterLabel>
+        <translation><!-- 535 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>536</masterLabel>
+        <translation><!-- 536 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>550</masterLabel>
+        <translation><!-- 550 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>560</masterLabel>
+        <translation><!-- 560 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>570</masterLabel>
+        <translation><!-- 570 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>580</masterLabel>
+        <translation><!-- 580 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>590</masterLabel>
+        <translation><!-- 590 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AD</masterLabel>
+        <translation>Andorre</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AE</masterLabel>
+        <translation>Emir.arab.unis</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AF</masterLabel>
+        <translation>Afghanistan</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AG</masterLabel>
+        <translation><!-- AG --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AI</masterLabel>
+        <translation><!-- AI --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AL</masterLabel>
+        <translation>Albanie</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AM</masterLabel>
+        <translation>Arménie</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AN</masterLabel>
+        <translation>Antilles néerl.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AO</masterLabel>
+        <translation>Angole</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AQ</masterLabel>
+        <translation>Antarctique</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AR</masterLabel>
+        <translation>Argentine</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AS</masterLabel>
+        <translation>Samoa, améric.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AT</masterLabel>
+        <translation>Autriche</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AU</masterLabel>
+        <translation>Australie</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AW</masterLabel>
+        <translation><!-- AW --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AZ</masterLabel>
+        <translation>Azerbaïdjan</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>B00</masterLabel>
+        <translation><!-- B00 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>B01</masterLabel>
+        <translation><!-- B01 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>B02</masterLabel>
+        <translation><!-- B02 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>B10</masterLabel>
+        <translation><!-- B10 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>B11</masterLabel>
+        <translation><!-- B11 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>B12</masterLabel>
+        <translation><!-- B12 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>B13</masterLabel>
+        <translation><!-- B13 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>B14</masterLabel>
+        <translation><!-- B14 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>B15</masterLabel>
+        <translation><!-- B15 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>B16</masterLabel>
+        <translation><!-- B16 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>B17</masterLabel>
+        <translation><!-- B17 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>B18</masterLabel>
+        <translation><!-- B18 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>B19</masterLabel>
+        <translation><!-- B19 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>B20</masterLabel>
+        <translation><!-- B20 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>B21</masterLabel>
+        <translation><!-- B21 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>B22</masterLabel>
+        <translation><!-- B22 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>B23</masterLabel>
+        <translation><!-- B23 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>B24</masterLabel>
+        <translation><!-- B24 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>B25</masterLabel>
+        <translation><!-- B25 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>B26</masterLabel>
+        <translation><!-- B26 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>B27</masterLabel>
+        <translation><!-- B27 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>B28</masterLabel>
+        <translation><!-- B28 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>B29</masterLabel>
+        <translation><!-- B29 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>B30</masterLabel>
+        <translation><!-- B30 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>B31</masterLabel>
+        <translation><!-- B31 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>B32</masterLabel>
+        <translation><!-- B32 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>B33</masterLabel>
+        <translation><!-- B33 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>B34</masterLabel>
+        <translation><!-- B34 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>B35</masterLabel>
+        <translation><!-- B35 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>B36</masterLabel>
+        <translation><!-- B36 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BA</masterLabel>
+        <translation>Bosnie-Herz.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BB</masterLabel>
+        <translation>Barbade</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BD</masterLabel>
+        <translation><!-- BD --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BE</masterLabel>
+        <translation>Belgique</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BEL</masterLabel>
+        <translation><!-- BEL --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BF</masterLabel>
+        <translation><!-- BF --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BG</masterLabel>
+        <translation>Bulgarie</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BH</masterLabel>
+        <translation>Bahreïn</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BI</masterLabel>
+        <translation><!-- BI --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BJ</masterLabel>
+        <translation>Bénin</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BM</masterLabel>
+        <translation>Bermudes</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BN</masterLabel>
+        <translation>Brunéi Daruss.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BO</masterLabel>
+        <translation>Bolivie</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BR</masterLabel>
+        <translation>Brésil</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BS</masterLabel>
+        <translation><!-- BS --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BT</masterLabel>
+        <translation>Bhoutan</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BV</masterLabel>
+        <translation>Ile Bouvet</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BW</masterLabel>
+        <translation>Botswana</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BY</masterLabel>
+        <translation>Biélorussie</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BZ</masterLabel>
+        <translation>Bélize</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CA</masterLabel>
+        <translation>Canada</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CC</masterLabel>
+        <translation>Iles Cocos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CD</masterLabel>
+        <translation>Rép. dém. Congo</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CF</masterLabel>
+        <translation>Rép. centrafr.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CG</masterLabel>
+        <translation>Rép. dém. Congo</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CH</masterLabel>
+        <translation>Suisse</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CI</masterLabel>
+        <translation>Côte d&apos;Ivoire</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CK</masterLabel>
+        <translation>Iles Cook</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CL</masterLabel>
+        <translation><!-- CL --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CM</masterLabel>
+        <translation>Cameroun</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CN</masterLabel>
+        <translation>Chine</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CO</masterLabel>
+        <translation>Colombie</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CR</masterLabel>
+        <translation><!-- CR --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CS</masterLabel>
+        <translation>Serbie/Montén.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CU</masterLabel>
+        <translation><!-- CU --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CV</masterLabel>
+        <translation>Cap-Vert</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CX</masterLabel>
+        <translation>Ile Christmas</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CY</masterLabel>
+        <translation>Chypre</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CZ</masterLabel>
+        <translation>Rép. tchèque</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DE</masterLabel>
+        <translation>Allemagne</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DJ</masterLabel>
+        <translation>Djibouti</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DK</masterLabel>
+        <translation>Danemark</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DM</masterLabel>
+        <translation>Dominique</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DO</masterLabel>
+        <translation>Rép.Dominicaine</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DZ</masterLabel>
+        <translation>Algérie</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>EC</masterLabel>
+        <translation>Equateur</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>EE</masterLabel>
+        <translation>Estonie</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>EG</masterLabel>
+        <translation>Egypte</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>EH</masterLabel>
+        <translation>Sahara occ.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ER</masterLabel>
+        <translation>Erythrée</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ES</masterLabel>
+        <translation>Espagne</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ET</masterLabel>
+        <translation>Ethiopie</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FI</masterLabel>
+        <translation>Finlande</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FJ</masterLabel>
+        <translation>Fidji</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FK</masterLabel>
+        <translation>Malouines</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FM</masterLabel>
+        <translation>Micronésie</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FO</masterLabel>
+        <translation>Féroé, Iles</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FR</masterLabel>
+        <translation>France</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GA</masterLabel>
+        <translation>Gabon</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GB</masterLabel>
+        <translation>Royaume-Uni</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GD</masterLabel>
+        <translation>Grenade</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GE</masterLabel>
+        <translation>Géorgie</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GF</masterLabel>
+        <translation>Guyane franç.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GH</masterLabel>
+        <translation><!-- GH --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GI</masterLabel>
+        <translation><!-- GI --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GL</masterLabel>
+        <translation>Groenland</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GM</masterLabel>
+        <translation>Gambie</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GN</masterLabel>
+        <translation>Guinée</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GP</masterLabel>
+        <translation>Guadeloupe</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GQ</masterLabel>
+        <translation>Guinée équator.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GR</masterLabel>
+        <translation>Grèce</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GS</masterLabel>
+        <translation>Iles Sandw. Sud</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GT</masterLabel>
+        <translation><!-- GT --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GU</masterLabel>
+        <translation><!-- GU --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GW</masterLabel>
+        <translation>Guinée-Bissao</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GY</masterLabel>
+        <translation>Guyane</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HK</masterLabel>
+        <translation><!-- HK --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HM</masterLabel>
+        <translation>Il.Heard/McDon.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HN</masterLabel>
+        <translation><!-- HN --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HR</masterLabel>
+        <translation>Croatie</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HT</masterLabel>
+        <translation>Haïti</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HU</masterLabel>
+        <translation>Hongrie</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I01</masterLabel>
+        <translation><!-- I01 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I02</masterLabel>
+        <translation><!-- I02 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I03</masterLabel>
+        <translation><!-- I03 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I04</masterLabel>
+        <translation><!-- I04 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I05</masterLabel>
+        <translation><!-- I05 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I06</masterLabel>
+        <translation><!-- I06 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I07</masterLabel>
+        <translation><!-- I07 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I08</masterLabel>
+        <translation><!-- I08 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I09</masterLabel>
+        <translation><!-- I09 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I10</masterLabel>
+        <translation><!-- I10 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I11</masterLabel>
+        <translation><!-- I11 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I12</masterLabel>
+        <translation><!-- I12 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ID</masterLabel>
+        <translation>Indonésie</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IE</masterLabel>
+        <translation>Irlande</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IL</masterLabel>
+        <translation>Israël</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IN</masterLabel>
+        <translation>Inde</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IO</masterLabel>
+        <translation>TerBritOcéanInd</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IQ</masterLabel>
+        <translation><!-- IQ --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IR</masterLabel>
+        <translation>Iran</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IS</masterLabel>
+        <translation>Islande</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IT</masterLabel>
+        <translation>Italie</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>JM</masterLabel>
+        <translation>Jamaïque</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>JO</masterLabel>
+        <translation>Jordanie</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>JP</masterLabel>
+        <translation>Japon</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KE</masterLabel>
+        <translation>Kenya</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KG</masterLabel>
+        <translation>Kirghizistan</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KH</masterLabel>
+        <translation>Cambodge</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KI</masterLabel>
+        <translation><!-- KI --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KM</masterLabel>
+        <translation>Comores</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KN</masterLabel>
+        <translation>St Chr.&amp; Niévès</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KP</masterLabel>
+        <translation>Corée du Nord</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KR</masterLabel>
+        <translation>Corée du Sud</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KW</masterLabel>
+        <translation>Koweït</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KY</masterLabel>
+        <translation>Iles Caïmans</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KZ</masterLabel>
+        <translation>Kazakhstan</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LA</masterLabel>
+        <translation><!-- LA --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LB</masterLabel>
+        <translation>Liban</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LC</masterLabel>
+        <translation>Sainte-Lucie</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LI</masterLabel>
+        <translation><!-- LI --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LK</masterLabel>
+        <translation><!-- LK --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LR</masterLabel>
+        <translation><!-- LR --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LS</masterLabel>
+        <translation>Lesotho</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LT</masterLabel>
+        <translation>Lituanie</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LU</masterLabel>
+        <translation>Luxembourg</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LV</masterLabel>
+        <translation>Lettonie</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LY</masterLabel>
+        <translation>Libye</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M00</masterLabel>
+        <translation><!-- M00 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M01</masterLabel>
+        <translation><!-- M01 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M02</masterLabel>
+        <translation><!-- M02 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M03</masterLabel>
+        <translation><!-- M03 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M04</masterLabel>
+        <translation><!-- M04 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M05</masterLabel>
+        <translation><!-- M05 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M06</masterLabel>
+        <translation><!-- M06 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M07</masterLabel>
+        <translation><!-- M07 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M08</masterLabel>
+        <translation><!-- M08 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M09</masterLabel>
+        <translation><!-- M09 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M10</masterLabel>
+        <translation><!-- M10 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M11</masterLabel>
+        <translation><!-- M11 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M12</masterLabel>
+        <translation><!-- M12 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MA</masterLabel>
+        <translation>Maroc</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MC</masterLabel>
+        <translation>Monaco</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MD</masterLabel>
+        <translation>Moldavie</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MG</masterLabel>
+        <translation><!-- MG --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MH</masterLabel>
+        <translation>Iles Marshall</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MK</masterLabel>
+        <translation>Macédoine</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ML</masterLabel>
+        <translation>Mali</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MM</masterLabel>
+        <translation><!-- MM --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MN</masterLabel>
+        <translation>Mongolie</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MO</masterLabel>
+        <translation><!-- MO --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MP</masterLabel>
+        <translation>Iles Mariannes</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MQ</masterLabel>
+        <translation>Martinique</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MR</masterLabel>
+        <translation>Mauritanie</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MS</masterLabel>
+        <translation><!-- MS --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MT</masterLabel>
+        <translation>Malte</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MU</masterLabel>
+        <translation>Ile Maurice</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MV</masterLabel>
+        <translation>Maldives</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MW</masterLabel>
+        <translation>Malawi</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MX</masterLabel>
+        <translation>Mexique</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MY</masterLabel>
+        <translation>Malaisie</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MZ</masterLabel>
+        <translation><!-- MZ --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NA</masterLabel>
+        <translation>Namibie</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NC</masterLabel>
+        <translation>Nvlle Calédonie</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NE</masterLabel>
+        <translation>Niger</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NF</masterLabel>
+        <translation>Ile Norfolk</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NG</masterLabel>
+        <translation><!-- NG --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NI</masterLabel>
+        <translation><!-- NI --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NL</masterLabel>
+        <translation>Pays-Bas</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NO</masterLabel>
+        <translation>Norvège</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NP</masterLabel>
+        <translation>Népal</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NR</masterLabel>
+        <translation><!-- NR --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NU</masterLabel>
+        <translation><!-- NU --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NZ</masterLabel>
+        <translation>Nvelle Zélande</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>OM</masterLabel>
+        <translation>Oman</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PA</masterLabel>
+        <translation>Panama</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PE</masterLabel>
+        <translation>Pérou</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PF</masterLabel>
+        <translation>Polynésie fran.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PG</masterLabel>
+        <translation>Pap.Nouv.Guinée</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PH</masterLabel>
+        <translation>Philippines</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PK</masterLabel>
+        <translation>Pakistan</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PL</masterLabel>
+        <translation>Pologne</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PM</masterLabel>
+        <translation>StPierre &amp; Miq.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PN</masterLabel>
+        <translation>Iles Pitcairn</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PR</masterLabel>
+        <translation>Porto Rico</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PS</masterLabel>
+        <translation>Palestine</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PT</masterLabel>
+        <translation><!-- PT --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PW</masterLabel>
+        <translation>Palau</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PY</masterLabel>
+        <translation><!-- PY --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>QA</masterLabel>
+        <translation><!-- QA --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>RE</masterLabel>
+        <translation>Réunion</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>RO</masterLabel>
+        <translation>Roumanie</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>RU</masterLabel>
+        <translation>Féd. de Russie</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>RW</masterLabel>
+        <translation>Rwanda</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SA</masterLabel>
+        <translation>Arabie Saoudite</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SB</masterLabel>
+        <translation>Iles Salomon</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SC</masterLabel>
+        <translation><!-- SC --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SD</masterLabel>
+        <translation>Soudan</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SE</masterLabel>
+        <translation>Suède</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SG</masterLabel>
+        <translation>Singapour</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SH</masterLabel>
+        <translation>Sainte-Hélène</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SI</masterLabel>
+        <translation>Slovénie</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SJ</masterLabel>
+        <translation>Iles Svalbard</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SK</masterLabel>
+        <translation>Slovaquie</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SL</masterLabel>
+        <translation>Sierra Leone</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SM</masterLabel>
+        <translation>Saint-Marin</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SN</masterLabel>
+        <translation>Sénégal</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SO</masterLabel>
+        <translation>Somalie</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SR</masterLabel>
+        <translation><!-- SR --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ST</masterLabel>
+        <translation>Sao Tomé-et-Pr.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SV</masterLabel>
+        <translation><!-- SV --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SY</masterLabel>
+        <translation>Syrie</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SZ</masterLabel>
+        <translation>Swaziland</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TC</masterLabel>
+        <translation>Turks &amp; Caicos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TD</masterLabel>
+        <translation>Tchad</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TF</masterLabel>
+        <translation>TOM</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TG</masterLabel>
+        <translation><!-- TG --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TH</masterLabel>
+        <translation>Thaïlande</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TJ</masterLabel>
+        <translation>Tadjikistan</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TK</masterLabel>
+        <translation>Iles Tokelau</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TL</masterLabel>
+        <translation>Timor oriental</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TM</masterLabel>
+        <translation>Turkménistan</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TN</masterLabel>
+        <translation>Tunisie</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TO</masterLabel>
+        <translation><!-- TO --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TP</masterLabel>
+        <translation><!-- TP --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TR</masterLabel>
+        <translation>Turquie</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TT</masterLabel>
+        <translation>Trinité &amp;Tobago</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TV</masterLabel>
+        <translation><!-- TV --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TW</masterLabel>
+        <translation>Taïwan</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TZ</masterLabel>
+        <translation>Tanzanie</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UA</masterLabel>
+        <translation>Ukraine</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UG</masterLabel>
+        <translation>Ouganda</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UM</masterLabel>
+        <translation>Iles Minor Outl</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>US</masterLabel>
+        <translation>Etats-Unis</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UY</masterLabel>
+        <translation><!-- UY --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UZ</masterLabel>
+        <translation>Ouzbékistan</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VA</masterLabel>
+        <translation>Vatican</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VC</masterLabel>
+        <translation>Saint Vincent</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VE</masterLabel>
+        <translation><!-- VE --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VG</masterLabel>
+        <translation>I. vierges brit</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VI</masterLabel>
+        <translation>I. vierges amér</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VN</masterLabel>
+        <translation>Viêt Nam</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VU</masterLabel>
+        <translation><!-- VU --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>WF</masterLabel>
+        <translation>Wallis &amp; Futuna</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>WS</masterLabel>
+        <translation><!-- WS --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>YE</masterLabel>
+        <translation>Yémen</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>YT</masterLabel>
+        <translation><!-- YT --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>YU</masterLabel>
+        <translation>Serbie-Mtnegro</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZA</masterLabel>
+        <translation>Afrique du Sud</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZM</masterLabel>
+        <translation>Zambie</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZW</masterLabel>
+        <translation>Zimbabwe</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

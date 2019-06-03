@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Listado de Ofertas Simon Pendientes en CRM antiguo</description>
+    <internalUseOnly>false</internalUseOnly>
+    <keywords>CRM OFERTAS SIMON PENDIENTES</keywords>
+    <name>Listado de Ofertas Pendientes en CRM antiguo</name>
+    <public>false</public>
+</Document>

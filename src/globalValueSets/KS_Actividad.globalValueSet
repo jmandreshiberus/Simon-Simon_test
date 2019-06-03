@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Alojamiento Turístico</fullName>
+        <default>false</default>
+        <label>Alojamiento Turístico</label>
+    </customValue>
+    <customValue>
+        <fullName>Arquitectura</fullName>
+        <default>false</default>
+        <label>Arquitectura</label>
+    </customValue>
+    <customValue>
+        <fullName>Bancos y cajas</fullName>
+        <default>false</default>
+        <label>Bancos y cajas</label>
+    </customValue>
+    <customValue>
+        <fullName>Centros comerciales</fullName>
+        <default>false</default>
+        <label>Centros comerciales</label>
+    </customValue>
+    <customValue>
+        <fullName>Compañías de Seguros</fullName>
+        <default>false</default>
+        <label>Compañías de Seguros</label>
+    </customValue>
+    <customValue>
+        <fullName>Consultoras Inmobiliarias</fullName>
+        <default>false</default>
+        <label>Consultoras Inmobiliarias</label>
+    </customValue>
+    <customValue>
+        <fullName>Distribuidor</fullName>
+        <default>false</default>
+        <label>Distribuidor</label>
+    </customValue>
+    <customValue>
+        <fullName>Educación</fullName>
+        <default>false</default>
+        <label>Educación</label>
+    </customValue>
+    <customValue>
+        <fullName>Gran empresa Privada</fullName>
+        <default>false</default>
+        <label>Gran empresa Privada</label>
+    </customValue>
+    <customValue>
+        <fullName>Ingeniería</fullName>
+        <default>false</default>
+        <label>Ingeniería</label>
+    </customValue>
+    <customValue>
+        <fullName>Instalador</fullName>
+        <default>false</default>
+        <label>Instalador</label>
+    </customValue>
+    <customValue>
+        <fullName>Integrador</fullName>
+        <default>false</default>
+        <label>Integrador</label>
+    </customValue>
+    <customValue>
+        <fullName>Interiorista</fullName>
+        <default>false</default>
+        <label>Interiorista</label>
+    </customValue>
+    <customValue>
+        <fullName>Laboratorio</fullName>
+        <default>false</default>
+        <label>Laboratorio</label>
+    </customValue>
+    <customValue>
+        <fullName>Moda y Complementos</fullName>
+        <default>false</default>
+        <label>Moda y Complementos</label>
+    </customValue>
+    <customValue>
+        <fullName>Organismos Oficiales</fullName>
+        <default>false</default>
+        <label>Organismos Oficiales</label>
+    </customValue>
+    <customValue>
+        <fullName>Reformistas</fullName>
+        <default>false</default>
+        <label>Reformistas</label>
+    </customValue>
+    <customValue>
+        <fullName>Restauración</fullName>
+        <default>false</default>
+        <label>Restauración</label>
+    </customValue>
+    <customValue>
+        <fullName>Sanidad</fullName>
+        <default>false</default>
+        <label>Sanidad</label>
+    </customValue>
+    <customValue>
+        <fullName>TEI</fullName>
+        <default>false</default>
+        <label>TEI</label>
+    </customValue>
+    <customValue>
+        <fullName>Alimentación</fullName>
+        <default>false</default>
+        <label>Alimentación</label>
+    </customValue>
+    <customValue>
+        <fullName>Asociacion/Gremio Instaladores</fullName>
+        <default>false</default>
+        <label>Asociacion/Gremio Instaladores</label>
+    </customValue>
+    <customValue>
+        <fullName>Asociacion DME</fullName>
+        <default>false</default>
+        <label>Asociacion DME</label>
+    </customValue>
+    <customValue>
+        <fullName>Asociacion Domoticas</fullName>
+        <default>false</default>
+        <label>Asociacion Domoticas</label>
+    </customValue>
+    <customValue>
+        <fullName>Asociaciones EE y VE</fullName>
+        <default>false</default>
+        <label>Asociaciones EE y VE</label>
+    </customValue>
+    <customValue>
+        <fullName>Asociaciones Prensa</fullName>
+        <default>false</default>
+        <label>Asociaciones Prensa</label>
+    </customValue>
+    <customValue>
+        <fullName>Asociaciones Sectorial</fullName>
+        <default>false</default>
+        <label>Asociaciones Sectorial</label>
+    </customValue>
+    <customValue>
+        <fullName>Asociacion Light Designers e iluminacion</fullName>
+        <default>false</default>
+        <label>Asociacion Light Designers e iluminacion</label>
+    </customValue>
+    <customValue>
+        <fullName>Automoción</fullName>
+        <default>false</default>
+        <label>Automoción</label>
+    </customValue>
+    <customValue>
+        <fullName>Bienestar</fullName>
+        <default>false</default>
+        <label>Bienestar</label>
+    </customValue>
+    <customValue>
+        <fullName>Canal Exclusivo (e-Commerce)</fullName>
+        <default>false</default>
+        <label>Canal Exclusivo (e-Commerce)</label>
+    </customValue>
+    <customValue>
+        <fullName>Colectivos de diseño e Interiorismo</fullName>
+        <default>false</default>
+        <label>Colectivos de diseño e Interiorismo</label>
+    </customValue>
+    <customValue>
+        <fullName>Colectivo VE</fullName>
+        <default>false</default>
+        <label>Colectivo VE</label>
+    </customValue>
+    <customValue>
+        <fullName>Colegios</fullName>
+        <default>false</default>
+        <label>Colegios</label>
+    </customValue>
+    <customValue>
+        <fullName>Construcción y Bricolage</fullName>
+        <default>false</default>
+        <label>Construcción y Bricolage</label>
+    </customValue>
+    <customValue>
+        <fullName>Constructor</fullName>
+        <default>false</default>
+        <label>Constructor</label>
+    </customValue>
+    <customValue>
+        <fullName>Farmacia</fullName>
+        <default>false</default>
+        <label>Farmacia</label>
+    </customValue>
+    <customValue>
+        <fullName>Ferretería</fullName>
+        <default>false</default>
+        <label>Ferretería</label>
+    </customValue>
+    <customValue>
+        <fullName>Grandes Superficies</fullName>
+        <default>false</default>
+        <label>Grandes Superficies</label>
+    </customValue>
+    <customValue>
+        <fullName>Grupo de Compra</fullName>
+        <default>false</default>
+        <label>Grupo de Compra</label>
+    </customValue>
+    <customValue>
+        <fullName>Hogar y decoración</fullName>
+        <default>false</default>
+        <label>Hogar y decoración</label>
+    </customValue>
+    <customValue>
+        <fullName>Light Designer</fullName>
+        <default>false</default>
+        <label>Light Designer</label>
+    </customValue>
+    <customValue>
+        <fullName>Mutuas</fullName>
+        <default>false</default>
+        <label>Mutuas</label>
+    </customValue>
+    <customValue>
+        <fullName>Promotor inmobiliario</fullName>
+        <default>false</default>
+        <label>Promotor inmobiliario</label>
+    </customValue>
+    <customValue>
+        <fullName>Residencias -  3 Edad</fullName>
+        <default>false</default>
+        <label>Residencias -  3 Edad</label>
+    </customValue>
+    <customValue>
+        <fullName>Subdistribuidor</fullName>
+        <default>false</default>
+        <label>Subdistribuidor</label>
+    </customValue>
+    <customValue>
+        <fullName>Tecnología y entretenimiento</fullName>
+        <default>false</default>
+        <label>Tecnología y entretenimiento</label>
+    </customValue>
+    <customValue>
+        <fullName>Fabricante/Competidor</fullName>
+        <default>false</default>
+        <label>Fabricante/Competidor</label>
+    </customValue>
+    <customValue>
+        <fullName>Otros</fullName>
+        <default>false</default>
+        <label>Otros</label>
+    </customValue>
+    <customValue>
+        <fullName>Facility</fullName>
+        <default>false</default>
+        <label>Facility</label>
+    </customValue>
+    <customValue>
+        <fullName>Particular</fullName>
+        <default>false</default>
+        <label>Particular</label>
+    </customValue>
+    <customValue>
+        <fullName>Tienda de Bricolaje</fullName>
+        <default>false</default>
+        <label>Tienda de Bricolaje</label>
+    </customValue>
+    <customValue>
+        <fullName>Retail</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Retail</label>
+    </customValue>
+    <customValue>
+        <fullName>Terciario</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Terciario</label>
+    </customValue>
+    <customValue>
+        <fullName>Consultor Inmobiliario</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Consultor Inmobiliario</label>
+    </customValue>
+    <customValue>
+        <fullName>Hospital</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Hospital</label>
+    </customValue>
+    <customValue>
+        <fullName>Clínica</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Clínica</label>
+    </customValue>
+    <customValue>
+        <fullName>Consejerías de Sanidad</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Consejerías de Sanidad</label>
+    </customValue>
+    <customValue>
+        <fullName>Centros de Salud</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Centros de Salud</label>
+    </customValue>
+    <customValue>
+        <fullName>Centros de Día</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Centros de Día</label>
+    </customValue>
+    <customValue>
+        <fullName>Alojamientos Rurales</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Alojamientos Rurales</label>
+    </customValue>
+    <customValue>
+        <fullName>Hoteles Vacacionales</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Hoteles Vacacionales</label>
+    </customValue>
+    <customValue>
+        <fullName>Hoteles Ciudad</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Hoteles Ciudad</label>
+    </customValue>
+    <customValue>
+        <fullName>Pensiones / Moteles</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Pensiones / Moteles</label>
+    </customValue>
+    <customValue>
+        <fullName>Camping</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Camping</label>
+    </customValue>
+    <customValue>
+        <fullName>Viviendas vacacionales</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Viviendas vacacionales</label>
+    </customValue>
+    <customValue>
+        <fullName>Universidades</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Universidades</label>
+    </customValue>
+    <customValue>
+        <fullName>Escuelas Complementarias</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Escuelas Complementarias</label>
+    </customValue>
+    <customValue>
+        <fullName>Guarderias</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Guarderias</label>
+    </customValue>
+    <customValue>
+        <fullName>Gestor Infraestructuras Edificación (FM)</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Gestor Infraestructuras Edificación (FM)</label>
+    </customValue>
+    <customValue>
+        <fullName>Insurance</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Insurance</label>
+    </customValue>
+    <customValue>
+        <fullName>Fast Food</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Fast Food</label>
+    </customValue>
+    <customValue>
+        <fullName>Panaderias</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Panaderias</label>
+    </customValue>
+    <customValue>
+        <fullName>Lujo</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Lujo</label>
+    </customValue>
+    <customValue>
+        <fullName>Distribuidora</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Distribuidora</label>
+    </customValue>
+    <customValue>
+        <fullName>Supermercados</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Supermercados</label>
+    </customValue>
+    <customValue>
+        <fullName>Fabricante</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Fabricante</label>
+    </customValue>
+    <customValue>
+        <fullName>Actividades  Profesionales</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Actividades  Profesionales</label>
+    </customValue>
+    <customValue>
+        <fullName>Suministros Energeticos</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Suministros Energeticos</label>
+    </customValue>
+    <customValue>
+        <fullName>Transporte y Almacenamiento</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Transporte y Almacenamiento</label>
+    </customValue>
+    <customValue>
+        <fullName>Superficies Comerciales</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Superficies Comerciales</label>
+    </customValue>
+    <customValue>
+        <fullName>Actividades de Informacion y Comunicación</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Actividades de Informacion y Comunicación</label>
+    </customValue>
+    <customValue>
+        <fullName>Actividades de Alquiler</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Actividades de Alquiler</label>
+    </customValue>
+    <customValue>
+        <fullName>Actividades Deportivas</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Actividades Deportivas</label>
+    </customValue>
+    <customValue>
+        <fullName>Actividades recreativas y de entretenimiento</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Actividades recreativas y de entretenimiento</label>
+    </customValue>
+    <customValue>
+        <fullName>Actividades artisticas</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Actividades artisticas</label>
+    </customValue>
+    <customValue>
+        <fullName>Parking</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Parking</label>
+    </customValue>
+    <customValue>
+        <fullName>Espacios Públicos</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Espacios Públicos</label>
+    </customValue>
+    <customValue>
+        <fullName>Ayuntamiento</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Ayuntamiento</label>
+    </customValue>
+    <customValue>
+        <fullName>Diputación</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Diputación</label>
+    </customValue>
+    <customValue>
+        <fullName>Consejo Comarcal</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Consejo Comarcal</label>
+    </customValue>
+    <customValue>
+        <fullName>Area Metropolitana</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Area Metropolitana</label>
+    </customValue>
+    <customValue>
+        <fullName>Consejeria</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Consejeria</label>
+    </customValue>
+    <customValue>
+        <fullName>Ministerios</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Ministerios</label>
+    </customValue>
+    <customValue>
+        <fullName>Ente Publica</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Ente Publica</label>
+    </customValue>
+    <customValue>
+        <fullName>Telecom. / V&amp;D</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Telecom. / V&amp;D</label>
+    </customValue>
+    <customValue>
+        <fullName>Generalista</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Generalista</label>
+    </customValue>
+    <customValue>
+        <fullName>Integradora</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Integradora</label>
+    </customValue>
+    <customValue>
+        <fullName>Seguridad</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Seguridad</label>
+    </customValue>
+    <customValue>
+        <fullName>Grandes instaladoras</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Grandes instaladoras</label>
+    </customValue>
+    <customValue>
+        <fullName>Competencia</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Competencia</label>
+    </customValue>
+    <customValue>
+        <fullName>Residencias y Geriátricos</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Residencias y Geriátricos</label>
+    </customValue>
+    <customValue>
+        <fullName>Prensa y comunicación</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Prensa y comunicación</label>
+    </customValue>
+    <customValue>
+        <fullName>Healthcare</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Healthcare</label>
+    </customValue>
+    <customValue>
+        <fullName>Hoteles</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Hoteles</label>
+    </customValue>
+    <customValue>
+        <fullName>Holding</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Holding</label>
+    </customValue>
+    <customValue>
+        <fullName>Hospitality-Ocio y Trabajo</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Hospitality-Ocio y Trabajo</label>
+    </customValue>
+    <customValue>
+        <fullName>Hospitality-Salud</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Hospitality-Salud</label>
+    </customValue>
+    <customValue>
+        <fullName>Empresa Privada</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Empresa Privada</label>
+    </customValue>
+    <description>SEGMENTACIÓN. Usado como variable de segmentación en cuentas</description>
+    <masterLabel>Actividad</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

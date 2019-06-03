@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Respuesta</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Respuestas</value>
+    </caseValues>
+    <fields>
+        <label><!-- date_eval --></label>
+        <name>date_eval__c</name>
+    </fields>
+    <fields>
+        <label><!-- date_output --></label>
+        <name>date_output__c</name>
+    </fields>
+    <fields>
+        <label><!-- date_start --></label>
+        <name>date_start__c</name>
+    </fields>
+    <fields>
+        <label><!-- date_stop --></label>
+        <name>date_stop__c</name>
+    </fields>
+    <fields>
+        <label><!-- id_candidate --></label>
+        <name>id_candidate__c</name>
+    </fields>
+    <fields>
+        <label><!-- id_similar --></label>
+        <name>id_similar__c</name>
+    </fields>
+    <fields>
+        <label><!-- id_survival --></label>
+        <name>id_survival__c</name>
+    </fields>
+    <fields>
+        <label><!-- id_usuario --></label>
+        <name>id_usuario__c</name>
+    </fields>
+    <fields>
+        <label><!-- is_duplicate --></label>
+        <name>is_duplicate__c</name>
+    </fields>
+    <fields>
+        <label><!-- is_no_duplicate --></label>
+        <name>is_no_duplicate__c</name>
+    </fields>
+    <fields>
+        <label><!-- selected_fields --></label>
+        <name>selected_fields__c</name>
+    </fields>
+    <gender>Feminine</gender>
+</CustomObjectTranslation>

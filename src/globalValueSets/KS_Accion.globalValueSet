@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>3. Dimensiones y corte</fullName>
+        <default>false</default>
+        <label>3. Dimensiones y corte</label>
+    </customValue>
+    <customValue>
+        <fullName>4. Pintado</fullName>
+        <default>false</default>
+        <label>4. Pintado</label>
+    </customValue>
+    <customValue>
+        <fullName>5. Serigrafiado B/N</fullName>
+        <default>false</default>
+        <label>5. Serigrafiado B/N</label>
+    </customValue>
+    <customValue>
+        <fullName>6. Serigrafiado Color</fullName>
+        <default>false</default>
+        <label>6. Serigrafiado Color</label>
+    </customValue>
+    <customValue>
+        <fullName>7. Pintado y serigrafiado B/N</fullName>
+        <default>false</default>
+        <label>7. Pintado y serigrafiado B/N</label>
+    </customValue>
+    <customValue>
+        <fullName>8. Pintado y serigrafiado Color</fullName>
+        <default>false</default>
+        <label>8. Pintado y serigrafiado Color</label>
+    </customValue>
+    <description>NCodificados. Acciones para Componentes de productos No Codificados</description>
+    <masterLabel>Acción</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

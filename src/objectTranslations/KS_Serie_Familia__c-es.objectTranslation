@@ -1,0 +1,824 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Selección Serie</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Selecciones Serie</value>
+    </caseValues>
+    <fields>
+        <label><!-- Familia --></label>
+        <name>KS_Familia__c</name>
+        <picklistValues>
+            <masterLabel>---</masterLabel>
+            <translation><!-- - - - --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C82</masterLabel>
+            <translation>MM DATALECTRIC</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C87</masterLabel>
+            <translation>CONNECT (Cima, K45, Sist.Cabl.Electr)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C88</masterLabel>
+            <translation>CANALIZACION PVC</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C89</masterLabel>
+            <translation>CANALIZACION</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C90</masterLabel>
+            <translation>SISTEMA CABLEADO ESTRUCTURADO</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C91</masterLabel>
+            <translation>BANDEJA + REJILLA METALICA</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COM</masterLabel>
+            <translation>COM</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F00</masterLabel>
+            <translation>Flu Fluvia</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I00</masterLabel>
+            <translation>ILUMINACION INTERIOR</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S01</masterLabel>
+            <translation>PROTECCION G1</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S02</masterLabel>
+            <translation>EMPOTRAR</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S03</masterLabel>
+            <translation>SUPERFICIE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S05</masterLabel>
+            <translation>PROTECCION DOMESTICA</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S06</masterLabel>
+            <translation>PROTECCION G2</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S07</masterLabel>
+            <translation>FUSIBLES</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S08</masterLabel>
+            <translation>INDUSTRIAL</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S10</masterLabel>
+            <translation>MATERIAL DIVERSO</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S11</masterLabel>
+            <translation>SONIDO</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S12</masterLabel>
+            <translation>eMUSIC</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S13</masterLabel>
+            <translation>VITA y VIS</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S14</masterLabel>
+            <translation>VOX</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S15</masterLabel>
+            <translation>LINK-IT</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S16</masterLabel>
+            <translation>Recarga VE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S17</masterLabel>
+            <translation>Healthcare</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S18</masterLabel>
+            <translation>Sistema Control de Iluminación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S19</masterLabel>
+            <translation>Sistemas de Control</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SEG</masterLabel>
+            <translation>SEGURIDAD</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S_C</masterLabel>
+            <translation>COMPONENTES</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Migration Id --></label>
+        <name>KS_Migration_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Org. Ventas --></label>
+        <name>KS_Org_Ventas__c</name>
+        <picklistValues>
+            <masterLabel>FL31</masterLabel>
+            <translation><!-- FL31 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SI10</masterLabel>
+            <translation><!-- SI10 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Serie --></label>
+        <name>KS_Serie__c</name>
+        <picklistValues>
+            <masterLabel>C01</masterLabel>
+            <translation>Ssc CIMA</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C05</masterLabel>
+            <translation>Ssc K45</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C07</masterLabel>
+            <translation>Ssc Sistema Cableado Electrico</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C10</masterLabel>
+            <translation>Dataelectric</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C14</masterLabel>
+            <translation>Ssc Canal PVC</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C15</masterLabel>
+            <translation>Ssc Canal Aluminio</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C16</masterLabel>
+            <translation>Ssc Canal Suelo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C17</masterLabel>
+            <translation>Ssc Sistema Cableado Estructurado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C19</masterLabel>
+            <translation>Ssc Rejilla Metálica</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C21</masterLabel>
+            <translation>Ssc Serie 500</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C22</masterLabel>
+            <translation><!-- C22 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COM</masterLabel>
+            <translation>Serie Com</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F00</masterLabel>
+            <translation>Flu Fluvia</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I10</masterLabel>
+            <translation>Ilu Gama Project</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I11</masterLabel>
+            <translation>Ilu Gama Basic</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L05</masterLabel>
+            <translation>Electrónica de control / general</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L10</masterLabel>
+            <translation>Vending</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L11</masterLabel>
+            <translation>Control accesos / tiempos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L12</masterLabel>
+            <translation>Alarmas remotas /Telecontrol</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L14</masterLabel>
+            <translation>Subcontratación electrónica</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L15</masterLabel>
+            <translation>Componentes</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L61</masterLabel>
+            <translation>PROYECTOR EXT. ALBIS</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L70</masterLabel>
+            <translation>SPOTS  INTERIOR (DRIMO/ASTRIS)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L71</masterLabel>
+            <translation>APLIQUES/DOWNLIGHTS</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LIN</masterLabel>
+            <translation>LINK-IT</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M00</masterLabel>
+            <translation>Metalics</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MAD</masterLabel>
+            <translation>Serie Material Diverso</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S00</masterLabel>
+            <translation>Sve Recarga Básicas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S01</masterLabel>
+            <translation>Sve Recarga Inteligentes</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S02</masterLabel>
+            <translation>Sve Accesorios Recarga (RA)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S04</masterLabel>
+            <translation>Cabecero</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S05</masterLabel>
+            <translation>Serie Sonido</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S06</masterLabel>
+            <translation>Serie E-Music</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S09</masterLabel>
+            <translation>Serie 09 (obsoleta)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S11</masterLabel>
+            <translation>Serie 11</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S12</masterLabel>
+            <translation>Serie 12</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S14</masterLabel>
+            <translation>Serie 14</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S17</masterLabel>
+            <translation>Serie 17</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S22</masterLabel>
+            <translation>Serie 22</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S26</masterLabel>
+            <translation>Serie 26</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S27</masterLabel>
+            <translation>Serie 27</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S28</masterLabel>
+            <translation>Serie 28</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S31</masterLabel>
+            <translation>Serie 31</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S32</masterLabel>
+            <translation>Serie 32</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S33</masterLabel>
+            <translation>Serie Maxlon</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S34</masterLabel>
+            <translation>Serie Sense</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S35</masterLabel>
+            <translation>Sci Scena</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S44</masterLabel>
+            <translation>Serie 44</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S56</masterLabel>
+            <translation>Serie 100</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S68</masterLabel>
+            <translation>Serie 68</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S69</masterLabel>
+            <translation>Serie 69</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S73</masterLabel>
+            <translation>Serie 73</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S75</masterLabel>
+            <translation>Serie 75</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S77</masterLabel>
+            <translation>Serie 77</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S78</masterLabel>
+            <translation>Serie 78</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S79</masterLabel>
+            <translation>Serie 79</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S82</masterLabel>
+            <translation>Serie 82</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S88</masterLabel>
+            <translation>Serie 88</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SEG</masterLabel>
+            <translation>Seguridad</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S_C</masterLabel>
+            <translation>Componentes</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VIS</masterLabel>
+            <translation>Serie Vis</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VIT</masterLabel>
+            <translation>Serie Vit@</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VOX</masterLabel>
+            <translation>Serie Vox</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Subserie --></label>
+        <name>KS_Subserie__c</name>
+        <picklistValues>
+            <masterLabel>ACC</masterLabel>
+            <translation>Sseg Accesos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C01</masterLabel>
+            <translation>Ssc5 Canal PVC</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C02</masterLabel>
+            <translation>Ssc6 Canal Aluminio</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C06</masterLabel>
+            <translation>Ssc1 Cima</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C10</masterLabel>
+            <translation>Ssc3 K45</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C11</masterLabel>
+            <translation>Ssc4 Sistema cableado eléctrico</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C14</masterLabel>
+            <translation>MM Dataelectric</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C17</masterLabel>
+            <translation>Ssc2 Cima PRO</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C18</masterLabel>
+            <translation>Ssc7 Canal Suelo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C19</masterLabel>
+            <translation>Ssc8 Sistema Cableado Estructurado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C21</masterLabel>
+            <translation>Ssc91 Rejilla Metalica</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C23</masterLabel>
+            <translation>Ssc41 Serie 500</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COM</masterLabel>
+            <translation>Serie Com</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F00</masterLabel>
+            <translation>Flu Slim</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F01</masterLabel>
+            <translation>Flu System Slim</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F02</masterLabel>
+            <translation>Flu Flat</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F03</masterLabel>
+            <translation>Flu Cool</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I00</masterLabel>
+            <translation>Ilu Proyector 601</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I01</masterLabel>
+            <translation>Ilu Proyecto Lineal 610</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I02</masterLabel>
+            <translation>Ilu Proyector 620</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I03</masterLabel>
+            <translation>Ilu Downlight 701</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I04</masterLabel>
+            <translation>Ilu Downlight 710</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I05</masterLabel>
+            <translation>Ilu Proyector Suspendido 801</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I06</masterLabel>
+            <translation>Ilum LedFlex 810</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I07</masterLabel>
+            <translation>Ilum Ledstrip 811</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I08</masterLabel>
+            <translation>Ilu Fuentes Alimentación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I09</masterLabel>
+            <translation>Ilu Carril</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I11</masterLabel>
+            <translation>Ilum Downlight 705</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I12</masterLabel>
+            <translation>Ilum Downlight 706</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I13</masterLabel>
+            <translation>Ilum Downlight 725</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I14</masterLabel>
+            <translation>Ilum Luminaria Modular 726</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I15</masterLabel>
+            <translation>Ilum Proyector Suspendido 805</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I16</masterLabel>
+            <translation>Ilum Kit Mini Proyector 820</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I17</masterLabel>
+            <translation>Ilum Luminaria Exposición 821</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I18</masterLabel>
+            <translation>Ilum KitMinibaliza 830</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I19</masterLabel>
+            <translation>Ilum Baliza 850</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I20</masterLabel>
+            <translation>Ilu luminaria modular 720</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I21</masterLabel>
+            <translation>Ilu Proyector 630</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I22</masterLabel>
+            <translation>Ilum 707 luminaria pared</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I23</masterLabel>
+            <translation>Ilum Ledline 815</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I24</masterLabel>
+            <translation>Ilum Baliza 835</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I25</masterLabel>
+            <translation>Ilu Proyector 640</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I26</masterLabel>
+            <translation>Ilu luminaria suspendida 806</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I27</masterLabel>
+            <translation>Ilum Downlight 715</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I28</masterLabel>
+            <translation>Ilu Downlight 735 </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I29</masterLabel>
+            <translation>Ilum luminaria estanca 840</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LIN</masterLabel>
+            <translation>LINK-IT</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M00</masterLabel>
+            <translation>Metalics</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MAD</masterLabel>
+            <translation>Serie Material Diverso</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S01</masterLabel>
+            <translation>Serie 27 Centralización</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S02</masterLabel>
+            <translation>Serie 27 Neos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S03</masterLabel>
+            <translation>Serie 73 Loft</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S04</masterLabel>
+            <translation>Serie 82 Nature</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S05</masterLabel>
+            <translation>Serie 82 Centralización</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S09</masterLabel>
+            <translation>Serie 44 Aqua</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S10</masterLabel>
+            <translation>Serie 27 Escudo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S11</masterLabel>
+            <translation>Serie 27 Play</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S12</masterLabel>
+            <translation>Serie 28 Aluminio</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S13</masterLabel>
+            <translation>Serie 31 Aluminio</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S14</masterLabel>
+            <translation>Serie 14 .</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S15</masterLabel>
+            <translation>Serie Sonido</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S16</masterLabel>
+            <translation>Serie E-Music</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S17</masterLabel>
+            <translation>Serie 17 .</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S19</masterLabel>
+            <translation>Serie 09  (obsoleta)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S21</masterLabel>
+            <translation>Serie 11 .</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S22</masterLabel>
+            <translation>Serie 22  (obsoleta)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S23</masterLabel>
+            <translation>Serie 12 .</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S24</masterLabel>
+            <translation>Serie Simon Vox 2</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S25</masterLabel>
+            <translation>Serie Simon Basic</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S26</masterLabel>
+            <translation>Serie 26 .</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S27</masterLabel>
+            <translation>Serie 27 .</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S28</masterLabel>
+            <translation>Serie 28 .</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S30</masterLabel>
+            <translation>Cab Con Gases</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S31</masterLabel>
+            <translation>Serie 31 .</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S32</masterLabel>
+            <translation>Serie 32 .</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S33</masterLabel>
+            <translation>Serie Maxlon</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S34</masterLabel>
+            <translation>Serie 82 Detail</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S35</masterLabel>
+            <translation>Sci Scena</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S36</masterLabel>
+            <translation>Serie KNX</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S37</masterLabel>
+            <translation>Serie Interface</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S39</masterLabel>
+            <translation>Serie DMX Scena</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S40</masterLabel>
+            <translation>Serie LON</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S41</masterLabel>
+            <translation>Sve RB Autónomas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S42</masterLabel>
+            <translation>Sve Cables</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S44</masterLabel>
+            <translation>Serie 44 .</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S45</masterLabel>
+            <translation>Sve RB Básicas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S46</masterLabel>
+            <translation>Sve RB Inteligentes</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S49</masterLabel>
+            <translation>Sve CK</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S50</masterLabel>
+            <translation>Sve RD</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S56</masterLabel>
+            <translation>Serie 100</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S58</masterLabel>
+            <translation>Sve RB Básicas CIMA</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S68</masterLabel>
+            <translation>Serie 68 .</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S69</masterLabel>
+            <translation>Serie 69 .</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S73</masterLabel>
+            <translation>Serie 73 .</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S75</masterLabel>
+            <translation>Serie 75 .</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S77</masterLabel>
+            <translation>Serie 77 .</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S78</masterLabel>
+            <translation>Serie 78 .</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S79</masterLabel>
+            <translation>Serie 79 .</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S82</masterLabel>
+            <translation>Serie 82 .</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S88</masterLabel>
+            <translation>Serie 88 .</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S_C</masterLabel>
+            <translation>Componentes</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VID</masterLabel>
+            <translation>Sseg Videovigilancia</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VIS</masterLabel>
+            <translation>Serie Vis</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VIT</masterLabel>
+            <translation>Serie Vit@</translation>
+        </picklistValues>
+    </fields>
+    <gender>Feminine</gender>
+</CustomObjectTranslation>

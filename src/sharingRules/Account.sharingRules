@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>DG_Publico</fullName>
+        <accessLevel>Read</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>None</caseAccessLevel>
+            <contactAccessLevel>Read</contactAccessLevel>
+            <opportunityAccessLevel>None</opportunityAccessLevel>
+        </accountSettings>
+        <description>Comparte los Distribuidores Genéricos con todo el mundo</description>
+        <label>DG Publico</label>
+        <sharedTo>
+            <roleAndSubordinates>Simon_Espana</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>KS_Distribuidor_Generico__c</field>
+            <operation>equals</operation>
+            <value>Verdadero</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+</SharingRules>

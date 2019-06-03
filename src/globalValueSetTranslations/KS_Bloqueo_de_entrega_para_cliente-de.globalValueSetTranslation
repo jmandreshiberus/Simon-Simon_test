@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>01</masterLabel>
+        <translation>Kreditlimit</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>02</masterLabel>
+        <translation>Politische Gründe</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>03</masterLabel>
+        <translation>Engpaßmaterial</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>04</masterLabel>
+        <translation>Exportpapiere fehlen</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>05</masterLabel>
+        <translation>Kostenl.Lief.prüfen</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>06</masterLabel>
+        <translation>Kein Druck</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>07</masterLabel>
+        <translation>Mengenänderung</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>08</masterLabel>
+        <translation>Kanban-Lieferung</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>09</masterLabel>
+        <translation>JIT-Lieferung (PAB)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>1</masterLabel>
+        <translation><!-- 1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>11</masterLabel>
+        <translation>Politische Gründe</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>60</masterLabel>
+        <translation>Politische Gründe</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>61</masterLabel>
+        <translation>Engpaßmaterial</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>62</masterLabel>
+        <translation>Engpaßmaterial</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>63</masterLabel>
+        <translation>Engpaßmaterial</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>64</masterLabel>
+        <translation>Engpaßmaterial</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>65</masterLabel>
+        <translation>Engpaßmaterial</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>66</masterLabel>
+        <translation>Engpaßmaterial</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>67</masterLabel>
+        <translation>Politische Gründe</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>68</masterLabel>
+        <translation>Politische Gründe</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>80</masterLabel>
+        <translation><!-- 80 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>81</masterLabel>
+        <translation><!-- 81 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>82</masterLabel>
+        <translation><!-- 82 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>83</masterLabel>
+        <translation><!-- 83 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>84</masterLabel>
+        <translation><!-- 84 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>85</masterLabel>
+        <translation><!-- 85 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>86</masterLabel>
+        <translation><!-- 86 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>87</masterLabel>
+        <translation><!-- 87 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>88</masterLabel>
+        <translation><!-- 88 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>89</masterLabel>
+        <translation>Politische Gründe</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E1</masterLabel>
+        <translation><!-- E1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M0</masterLabel>
+        <translation><!-- M0 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M1</masterLabel>
+        <translation><!-- M1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M2</masterLabel>
+        <translation><!-- M2 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M3</masterLabel>
+        <translation><!-- M3 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M4</masterLabel>
+        <translation><!-- M4 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>P1</masterLabel>
+        <translation><!-- P1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>P2</masterLabel>
+        <translation><!-- P2 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>P3</masterLabel>
+        <translation><!-- P3 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>P4</masterLabel>
+        <translation><!-- P4 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z1</masterLabel>
+        <translation><!-- Z1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z2</masterLabel>
+        <translation><!-- Z2 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z3</masterLabel>
+        <translation><!-- Z3 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z5</masterLabel>
+        <translation><!-- Z5 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z6</masterLabel>
+        <translation><!-- Z6 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z7</masterLabel>
+        <translation><!-- Z7 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z8</masterLabel>
+        <translation><!-- Z8 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZA</masterLabel>
+        <translation><!-- ZA --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB</masterLabel>
+        <translation><!-- ZB --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZC</masterLabel>
+        <translation><!-- ZC --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZO</masterLabel>
+        <translation><!-- ZO --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZP</masterLabel>
+        <translation><!-- ZP --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZR</masterLabel>
+        <translation><!-- ZR --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ</masterLabel>
+        <translation><!-- ZZ --></translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

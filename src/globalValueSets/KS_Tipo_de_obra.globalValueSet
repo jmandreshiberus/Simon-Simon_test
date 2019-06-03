@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Reforma</fullName>
+        <default>false</default>
+        <label>Reforma</label>
+    </customValue>
+    <customValue>
+        <fullName>Nueva</fullName>
+        <default>false</default>
+        <label>Nueva</label>
+    </customValue>
+    <customValue>
+        <fullName>Ampliación</fullName>
+        <default>false</default>
+        <label>Ampliación</label>
+    </customValue>
+    <description>EN USO --&gt; OBRA --&gt; Tipo de obras Construdatos</description>
+    <masterLabel>Tipo de obra</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>CFR</masterLabel>
+        <translation>Coûts et transport</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CIF</masterLabel>
+        <translation>Coûts, assurance et fret</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CIP</masterLabel>
+        <translation>Port et assurance payée</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CPT</masterLabel>
+        <translation>CPT</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DAF</masterLabel>
+        <translation>Livré à la frontière - No Util</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DAP</masterLabel>
+        <translation>Livraison au lieu</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DAT</masterLabel>
+        <translation>Livraison à la terminal</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DDP</masterLabel>
+        <translation>Droits de douane payés</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DDU</masterLabel>
+        <translation>Droits de douane non payés -NO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DEQ</masterLabel>
+        <translation>Livr.sortie quai(droit pay)-NO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DES</masterLabel>
+        <translation>Livraison sortie bateau-No Uti</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>EXW</masterLabel>
+        <translation>Ex-Works</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FAS</masterLabel>
+        <translation>Franco bateau accosté</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FCA</masterLabel>
+        <translation>Franco transport</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FH</masterLabel>
+        <translation>Franco domicile</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FOB</masterLabel>
+        <translation>F.O.B</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UN</masterLabel>
+        <translation>En port du</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZEC</masterLabel>
+        <translation>Ex-Works China</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZEE</masterLabel>
+        <translation>Ex-Works Europa</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZEI</masterLabel>
+        <translation>Ex-Works India</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZFC</masterLabel>
+        <translation>F.O.B Chine/Hong Kong</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZFE</masterLabel>
+        <translation>F.O.B Europe</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZFG</masterLabel>
+        <translation>F.O.B Egypte</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZFI</masterLabel>
+        <translation>F.O.B Inde</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZFM</masterLabel>
+        <translation>F.O.B Maroc</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZFU</masterLabel>
+        <translation>F.O.B États-Unis</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZPC</masterLabel>
+        <translation>Ports Payés pour Client</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZPD</masterLabel>
+        <translation>Ports Dûs</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZPP</masterLabel>
+        <translation>Ports Payés</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZZ</masterLabel>
+        <translation><!-- ZZZ --></translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

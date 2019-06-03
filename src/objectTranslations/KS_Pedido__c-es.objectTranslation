@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Pedido</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Pedidos</value>
+    </caseValues>
+    <fields>
+        <label><!-- ID-OFERTA --></label>
+        <name>ID_OFERTA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bloqueo de clases de facturas --></label>
+        <name>KS_Bloqueo_de_clases_de_facturas__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bloqueo de nota de entrega --></label>
+        <name>KS_Bloqueo_de_nota_de_entrega__c</name>
+    </fields>
+    <fields>
+        <label><!-- Canal de distribucion --></label>
+        <name>KS_Canal_de_distribucion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Clase de documento de ventas --></label>
+        <name>KS_Clase_de_documento_de_ventas__c</name>
+    </fields>
+    <fields>
+        <label><!-- Clase de pedido de cliente --></label>
+        <name>KS_Clase_de_pedido_de_cliente__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comisionista --></label>
+        <name>KS_Comisionista__c</name>
+    </fields>
+    <fields>
+        <label><!-- Condicion de expedición --></label>
+        <name>KS_Condicion_de_expedicion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dest. Factura --></label>
+        <name>KS_Dest_Factura__c</name>
+    </fields>
+    <fields>
+        <label><!-- Destinatario --></label>
+        <name>KS_Destinatario__c</name>
+    </fields>
+    <fields>
+        <label><!-- Documento de ventas --></label>
+        <name>KS_Documento_de_ventas__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estado --></label>
+        <name>KS_Estado__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha --></label>
+        <name>KS_Fecha__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha creación registro en SAP --></label>
+        <name>KS_Fecha_creacion_registro_en_SAP__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha del pedido de compras cliente --></label>
+        <name>KS_Fecha_del_pedido_de_compras_cliente__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha preferente de entrega --></label>
+        <name>KS_Fecha_preferente_de_entrega__c</name>
+    </fields>
+    <fields>
+        <label><!-- Grupo de vendedores --></label>
+        <name>KS_Grupo_de_vendedores__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hora del dia --></label>
+        <name>KS_Hora_del_dia__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hora registrada --></label>
+        <name>KS_Hora_registrada__c</name>
+    </fields>
+    <fields>
+        <label><!-- Migration Id --></label>
+        <name>KS_Migration_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Motivo de pedido --></label>
+        <name>KS_Motivo_de_pedido__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nombre de usuario --></label>
+        <name>KS_Nombre_de_usuario__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nombre del responsable --></label>
+        <name>KS_Nombre_del_responsable__c</name>
+    </fields>
+    <fields>
+        <label><!-- Número Pedido --></label>
+        <name>KS_Numero_Pedido__c</name>
+    </fields>
+    <fields>
+        <label><!-- Número Personal --></label>
+        <name>KS_Numero_Personal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Número de pedido del cliente --></label>
+        <name>KS_Numero_de_pedido_del_cliente__c</name>
+    </fields>
+    <fields>
+        <label><!-- Numero de ticket Attend --></label>
+        <name>KS_Numero_de_ticket_Attend__c</name>
+    </fields>
+    <fields>
+        <label><!-- Obra --></label>
+        <name>KS_Obra__c</name>
+        <relationshipLabel><!-- Pedidos --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Oferta CRM --></label>
+        <name>KS_Oferta_CRM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Oferta --></label>
+        <name>KS_Oferta__c</name>
+        <relationshipLabel><!-- Pedidos --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Oficina de ventas --></label>
+        <name>KS_Oficina_de_ventas__c</name>
+    </fields>
+    <fields>
+        <label><!-- Organización de ventas --></label>
+        <name>KS_Organizacion_de_ventas__c</name>
+    </fields>
+    <fields>
+        <label><!-- Resp. Pago --></label>
+        <name>KS_Resp_Pago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sector --></label>
+        <name>KS_Sector__c</name>
+    </fields>
+    <fields>
+        <label><!-- Solicitante --></label>
+        <name>KS_Solicitante__c</name>
+        <relationshipLabel><!-- Pedidos --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Valor neto del pedido --></label>
+        <name>KS_Valor_neto_del_pedido__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vendedor --></label>
+        <name>KS_Vendedor__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID-Oferta --></label>
+        <name>SI_ID_Oferta__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Formato Pedido</layout>
+        <sections>
+            <label><!-- Información adicional --></label>
+            <section>Información adicional</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato Pedido-sys</layout>
+        <sections>
+            <label><!-- Información adicional --></label>
+            <section>Información adicional</section>
+        </sections>
+        <sections>
+            <label><!-- Otros --></label>
+            <section>Otros</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

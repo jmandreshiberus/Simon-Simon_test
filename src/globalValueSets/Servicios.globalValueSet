@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Obra Nueva</fullName>
+        <default>false</default>
+        <label>Obra Nueva</label>
+    </customValue>
+    <customValue>
+        <fullName>Reformas y ampliaciones</fullName>
+        <default>false</default>
+        <label>Reformas y ampliaciones</label>
+    </customValue>
+    <customValue>
+        <fullName>Mantenimiento</fullName>
+        <default>false</default>
+        <label>Mantenimiento</label>
+    </customValue>
+    <description>SEGMENTACIÓN. Lista de valores usada en segmentación de cuentas</description>
+    <masterLabel>Servicios</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

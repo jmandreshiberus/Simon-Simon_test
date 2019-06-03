@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Distribuidor</fullName>
+        <default>false</default>
+        <label>Distribuidor</label>
+    </customValue>
+    <customValue>
+        <fullName>Instalador</fullName>
+        <default>false</default>
+        <label>Instalador</label>
+    </customValue>
+    <customValue>
+        <fullName>Cliente final</fullName>
+        <default>false</default>
+        <label>Cliente final</label>
+    </customValue>
+    <description>En uso --&gt; Oferta, para indicar el agente donde contabiliza</description>
+    <masterLabel>Contabilizacion</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,35 @@
+<apex:page standardController="KS_Oferta_pendiente__c" extensions="KS_Oferta_Enviada_Controller" docType="html-5.0" id="oferta_page" standardStylesheets="true">
+
+    <apex:messages />
+    <apex:includeScript value="{!$Resource.KS_jquery1}"/>
+    <apex:sectionheader title="{!$ObjectType.KS_Oferta_pendiente__c.label}" subtitle="{!$Label.oferta_enviada_title}"/>
+    <apex:form id="oferta_form" styleClass="formulario">
+    	<apex:pageBlock >
+        	
+            <apex:pageBlockSection columns="1">
+            	<apex:outputfield value="{!ofertaPendiente.KS_Oferta__c}"/>
+                <apex:outputfield value="{!ofertaPendiente.KS_Obra__c}"/>
+            </apex:pageBlockSection>
+            <br/>
+            <apex:pageBlockSection columns="1">
+               <apex:inputField value="{!ofertaPendiente.KS_Cuenta__c}" styleClass="cuenta" required="true" onchange="enableSave"/>
+                <apex:inputField value="{!ofertaPendiente.KS_Contacto__c}"/>
+            </apex:pageBlockSection>
+            <br/>
+            <apex:pageBlockSection columns="1">
+                <apex:inputField value="{!ofertaPendiente.KS_Detalle__c}"/>
+            </apex:pageBlockSection>
+            <apex:pageBlockButtons location="bottom">
+            	<apex:commandbutton value="{!$Label.ks_btn_guardar}" action="{!save}" styleClass="botonGuardar"/>
+                <apex:commandbutton value="{!$Label.ks_btn_cancel}" action="{!cancel}"/>
+            </apex:pageBlockButtons>
+            
+        </apex:pageBlock>
+    </apex:form>
+    <script type="text/javascript">
+    function enableSave() {
+        $('.botonGuardar').toggle($('.cuenta').val() != null);
+    }
+    enableSave();
+    </script>
+</apex:page>

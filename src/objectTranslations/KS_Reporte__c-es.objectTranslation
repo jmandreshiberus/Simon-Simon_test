@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Reporte</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Reportes</value>
+    </caseValues>
+    <fields>
+        <label><!-- Conectividad --></label>
+        <name>Conectividad__c</name>
+    </fields>
+    <fields>
+        <label><!-- Iluminación Indoor --></label>
+        <name>Iluminaci_n_Indoor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Iluminación Outdoor --></label>
+        <name>Iluminacion_Outdoor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Asunto --></label>
+        <name>KS_Asunto__c</name>
+    </fields>
+    <fields>
+        <label><!-- Campaña --></label>
+        <name>KS_Campana__c</name>
+        <relationshipLabel><!-- Reportes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Comentarios --></label>
+        <name>KS_Comentarios__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contacto --></label>
+        <name>KS_Contacto__c</name>
+        <relationshipLabel><!-- Reportes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Cuenta --></label>
+        <name>KS_Cuenta__c</name>
+        <relationshipLabel><!-- Reportes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Fecha de fin --></label>
+        <name>KS_Fecha_de_fin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha de inicio --></label>
+        <name>KS_Fecha_de_inicio__c</name>
+    </fields>
+    <fields>
+        <label><!-- mi --></label>
+        <name>KS_Migration_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Obra --></label>
+        <name>KS_Obra__c</name>
+        <relationshipLabel><!-- Reportes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Oferta --></label>
+        <name>KS_Oferta__c</name>
+        <relationshipLabel><!-- Reportes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Privado --></label>
+        <name>KS_Privado__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tipo de visita --></label>
+        <name>KS_Tipo_de_visita__c</name>
+    </fields>
+    <fields>
+        <label><!-- Objetivo de la visita --></label>
+        <name>KS_objetivo_de_la_visita__c</name>
+    </fields>
+    <fields>
+        <label><!-- Punto Recarga VE --></label>
+        <name>PUNTO_RECARGA_VE__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pequeño Material --></label>
+        <name>Pequenio_Material__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sistemas de Control --></label>
+        <name>Sistemas_de_Control__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Formato Reporte</layout>
+        <sections>
+            <label><!-- Comentarios --></label>
+            <section>Comentarios</section>
+        </sections>
+        <sections>
+            <label><!-- Infor Marketing --></label>
+            <section>Infor Marketing</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

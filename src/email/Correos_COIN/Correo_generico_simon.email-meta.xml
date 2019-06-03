@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Header_Simon</letterhead>
+    <name>Correo Generico Simon</name>
+    <style>formalLetter</style>
+    <subject>Información Descargas Simon</subject>
+    <textOnly>Hola {!Contact.FirstName}
+Tal como hemos comentado en la última visita te remito a nuestra página web donde encontrarás toda la documentación sobre nuestras colecciones de mecanismos, iluminación interior Simon y Fluvia, sistemas de control, puestos de trabajo, puntos de recarga para vehículo eléctrico e iluminación exterior:
+
+https://www.simonelectric.com/productos
+
+
+En nuestra área de descargas encontraras catálogos, tarifas, fichas técnicas, bases para tus presupuestos así como bibliotecas de materiales en Revit, AutoCAD y Dialux:
+
+https://www.simonelectric.com/descargas
+
+
+Espero que te sea de ayuda y no dudes en contactar conmigo si necesitas cualquier aclaración.
+
+
+Un cordial saludo!
+{!User.FirstName} {!User.LastName}
+{!User.Department}
+{!User.Email}
+{!User.MobilePhone}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

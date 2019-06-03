@@ -1,0 +1,16 @@
+<apex:page standardController="Account" extensions="KS_LeadAccountApproval_Controller" docType="html-5.0" id="oferta_page" standardStylesheets="true">
+    <apex:includeScript value="{!$Resource.KS_jquery1}"/>
+    <apex:form >
+        <apex:actionFunction name="metodo" action="{!calcularAprobacion}"/>
+    </apex:form>
+    <script>
+    metodo();
+    if ({!redirect}) {
+        
+        if ({!error}) {
+        } else {
+            location.href = '{!url}';
+        }
+    }
+    </script>
+</apex:page>

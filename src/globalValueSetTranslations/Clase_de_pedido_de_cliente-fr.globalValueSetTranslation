@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>DIR</masterLabel>
+        <translation>EDI</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ECOM</masterLabel>
+        <translation>EDI</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>EDI</masterLabel>
+        <translation><!-- EDI --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ESKE</masterLabel>
+        <translation><!-- ESKE --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FAXC</masterLabel>
+        <translation>Télécopie Client</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FAXV</masterLabel>
+        <translation>Télécopie Vendeur</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HOTE</masterLabel>
+        <translation>Télétraitement</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>INT</masterLabel>
+        <translation>EDI</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MAIL</masterLabel>
+        <translation>E-mail Client</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MAIV</masterLabel>
+        <translation>E-mail Vendeur</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>OBRA</masterLabel>
+        <translation>Oralement</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PTL</masterLabel>
+        <translation><!-- PTL --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>REC</masterLabel>
+        <translation>pièces de rechange</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>REPO</masterLabel>
+        <translation>Par écrit</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TELC</masterLabel>
+        <translation>Téléphone Client</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TELV</masterLabel>
+        <translation>Téléphone Vendeur</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VEN</masterLabel>
+        <translation>EDI</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZCAR</masterLabel>
+        <translation>Charge Commandes</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZINT</masterLabel>
+        <translation>Intersocieté</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

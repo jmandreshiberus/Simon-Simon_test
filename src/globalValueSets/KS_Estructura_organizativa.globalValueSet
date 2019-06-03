@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Ventas</fullName>
+        <default>false</default>
+        <label>Ventas</label>
+    </customValue>
+    <customValue>
+        <fullName>Compras</fullName>
+        <default>false</default>
+        <label>Compras</label>
+    </customValue>
+    <customValue>
+        <fullName>Especialistas iluminación</fullName>
+        <default>false</default>
+        <label>Especialistas iluminación</label>
+    </customValue>
+    <customValue>
+        <fullName>Arquitectura</fullName>
+        <default>false</default>
+        <label>Arquitectura</label>
+    </customValue>
+    <customValue>
+        <fullName>Ingeniería</fullName>
+        <default>false</default>
+        <label>Ingeniería</label>
+    </customValue>
+    <customValue>
+        <fullName>Servicios técnicos</fullName>
+        <default>false</default>
+        <label>Servicios técnicos</label>
+    </customValue>
+    <customValue>
+        <fullName>Mantenimiento</fullName>
+        <default>false</default>
+        <label>Mantenimiento</label>
+    </customValue>
+    <customValue>
+        <fullName>FM</fullName>
+        <default>false</default>
+        <label>FM</label>
+    </customValue>
+    <customValue>
+        <fullName>Especialista Sistemas de Control</fullName>
+        <default>false</default>
+        <label>Especialista Sistemas de Control</label>
+    </customValue>
+    <customValue>
+        <fullName>Especialista en conectividad</fullName>
+        <default>false</default>
+        <label>Especialista en conectividad</label>
+    </customValue>
+    <customValue>
+        <fullName>Jefes de  Obra</fullName>
+        <default>false</default>
+        <label>Jefes de  Obra</label>
+    </customValue>
+    <customValue>
+        <fullName>Operarios</fullName>
+        <default>false</default>
+        <label>Operarios</label>
+    </customValue>
+    <customValue>
+        <fullName>Delineantes</fullName>
+        <default>false</default>
+        <label>Delineantes</label>
+    </customValue>
+    <customValue>
+        <fullName>I+D</fullName>
+        <default>false</default>
+        <label>I+D</label>
+    </customValue>
+    <customValue>
+        <fullName>Interiorismo</fullName>
+        <default>false</default>
+        <label>Interiorismo</label>
+    </customValue>
+    <customValue>
+        <fullName>Imagen corporativa</fullName>
+        <default>false</default>
+        <label>Imagen corporativa</label>
+    </customValue>
+    <customValue>
+        <fullName>Obra</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Obra</label>
+    </customValue>
+    <customValue>
+        <fullName>Autónomo</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Autónomo</label>
+    </customValue>
+    <customValue>
+        <fullName>Control</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Control</label>
+    </customValue>
+    <description>SEGMENTACIÓN. Usado como variable de segmentación en Cuentas</description>
+    <masterLabel>Estructura organizativa</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Resultado</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Resultados</value>
+    </caseValues>
+    <fields>
+        <label><!-- date_output --></label>
+        <name>DR_date_output__c</name>
+    </fields>
+    <fields>
+        <label><!-- id_nou --></label>
+        <name>DR_id_nou__c</name>
+    </fields>
+    <fields>
+        <label><!-- id_registre --></label>
+        <name>DR_id_registre__c</name>
+    </fields>
+    <fields>
+        <label><!-- ca_json --></label>
+        <name>ca_json__c</name>
+    </fields>
+    <fields>
+        <label><!-- co_json --></label>
+        <name>co_json__c</name>
+    </fields>
+    <fields>
+        <label><!-- id_propietari_nou --></label>
+        <name>id_propietari_nou__c</name>
+    </fields>
+    <fields>
+        <label><!-- id_propietari_similar --></label>
+        <name>id_propietari_similar__c</name>
+    </fields>
+    <fields>
+        <label><!-- le_json --></label>
+        <name>le_json__c</name>
+    </fields>
+    <fields>
+        <label><!-- score_features --></label>
+        <name>score_features__c</name>
+    </fields>
+    <fields>
+        <label><!-- tipus --></label>
+        <name>tipus__c</name>
+    </fields>
+    <fields>
+        <label><!-- tipus_id_registre --></label>
+        <name>tipus_id_registre__c</name>
+    </fields>
+    <gender>Masculine</gender>
+</CustomObjectTranslation>

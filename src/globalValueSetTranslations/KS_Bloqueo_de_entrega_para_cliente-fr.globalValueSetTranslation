@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>01</masterLabel>
+        <translation>Crédit excédé</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>02</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>03</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>04</masterLabel>
+        <translation>Doc. export manquent</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>05</masterLabel>
+        <translation>Verif. Couts Livrais</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>06</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>07</masterLabel>
+        <translation>Modific. quantité</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>08</masterLabel>
+        <translation>Livraison Kanban</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>09</masterLabel>
+        <translation>Livraison JAT (PAB)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>1</masterLabel>
+        <translation><!-- 1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>11</masterLabel>
+        <translation>Blocage Ports Dûs</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>60</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>61</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>62</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>63</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>64</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>65</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>66</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>67</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>68</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>80</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>81</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>82</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>83</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>84</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>85</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>86</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>87</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>88</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>89</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E1</masterLabel>
+        <translation><!-- E1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M0</masterLabel>
+        <translation>Invest/Etude</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M1</masterLabel>
+        <translation>Replaceant</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M2</masterLabel>
+        <translation>En Obrservation</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M3</masterLabel>
+        <translation>A Disparaitre</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M4</masterLabel>
+        <translation>Passif</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>P1</masterLabel>
+        <translation>Reserv. pas complete</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>P2</masterLabel>
+        <translation>Reserv. complete</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>P3</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>P4</masterLabel>
+        <translation><!-- P4 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z1</masterLabel>
+        <translation>Entrée Manquante</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z2</masterLabel>
+        <translation>Liberation Magasin</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z3</masterLabel>
+        <translation>Liberation GVentas</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z5</masterLabel>
+        <translation>Acceotation Proforma</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z6</masterLabel>
+        <translation>Manque conf. COMMERC</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z7</masterLabel>
+        <translation>Sans Blocage Disponi</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z8</masterLabel>
+        <translation>Manque conf. CLIENT</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZA</masterLabel>
+        <translation>Réviser Fact. PORTS</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZC</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZO</masterLabel>
+        <translation>Chantier arrêté</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZP</masterLabel>
+        <translation>Ne pas utiliser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZR</masterLabel>
+        <translation>Composants bloqués</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ</masterLabel>
+        <translation>Produit à mesure</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

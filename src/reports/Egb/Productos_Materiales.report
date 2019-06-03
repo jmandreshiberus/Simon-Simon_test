@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>FK_NAME</field>
+    </columns>
+    <columns>
+        <field>FK_$Product2.KS_Nombre_producto__c</field>
+    </columns>
+    <columns>
+        <field>FK_$Product2.KS_Nombre_Producto_ES__c</field>
+    </columns>
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>KS_Organizacion_Producto__c.KS_Superfamilia__c</field>
+    </columns>
+    <columns>
+        <field>KS_Organizacion_Producto__c.KS_Familia__c</field>
+    </columns>
+    <columns>
+        <field>KS_Organizacion_Producto__c.KS_Serie_Gama__c</field>
+    </columns>
+    <columns>
+        <field>KS_Organizacion_Producto__c.KS_Subserie__c</field>
+    </columns>
+    <currency>EUR</currency>
+    <description>Productos con familia, serie y subserie</description>
+    <format>Tabular</format>
+    <name>Productos_Materiales</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$KS_Organizacion_Producto__c@KS_Organizacion_Producto__c.KS_Producto__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>KS_Organizacion_Producto__c.KS_Fecha_de_validez_Estatus_Comercial__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

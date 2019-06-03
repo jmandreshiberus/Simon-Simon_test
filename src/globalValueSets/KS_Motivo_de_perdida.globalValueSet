@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Prescripción inicial competencia</fullName>
+        <default>false</default>
+        <label>Prescripción inicial competencia</label>
+    </customValue>
+    <customValue>
+        <fullName>Precio</fullName>
+        <default>false</default>
+        <label>Precio</label>
+    </customValue>
+    <customValue>
+        <fullName>No tenemos solución alternativa</fullName>
+        <default>false</default>
+        <label>No tenemos solución alternativa</label>
+    </customValue>
+    <description>Uso --&gt; Selector usado en Obras</description>
+    <masterLabel>Motivo de pérdida</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

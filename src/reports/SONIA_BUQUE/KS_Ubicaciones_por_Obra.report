@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>KS_Obra__c$Name</field>
+    </columns>
+    <columns>
+        <field>KS_Obra__c$KS_Sub_Segmento__c</field>
+    </columns>
+    <columns>
+        <field>KS_Obra__c.Ubicaciones_Obra__r$KS_Zona__c</field>
+    </columns>
+    <columns>
+        <field>KS_Obra__c.Ubicaciones_Obra__r$KS_Delegacion__c</field>
+    </columns>
+    <currency>EUR</currency>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>KS_Obra__c.Ubicaciones_Obra__r$KS_Marca__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>KS_Obra__c.Ubicaciones_Obra__r$KS_Area__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Ubicaciones por Obra</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>KS_Obras_y_Ubicaciones__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>KS_Obra__c$KS_Fecha_conversion__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

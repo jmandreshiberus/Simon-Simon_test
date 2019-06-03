@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Ticket</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Tickets</value>
+    </caseValues>
+    <fields>
+        <label><!-- ID 3a Cuenta a eliminar --></label>
+        <name>ID_3a_Cuenta_a_eliminar__c</name>
+    </fields>
+    <fields>
+        <label><!-- Marca OC Fluvia N --></label>
+        <name>Marca_OCFluviaN__c</name>
+    </fields>
+    <fields>
+        <label><!-- Marca OC Simon N --></label>
+        <name>Marca_OCSimonN__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nombre Usuario a Asignar --></label>
+        <name>Nombre_Usuario_a_Asignar__c</name>
+    </fields>
+    <fields>
+        <label><!-- PropietarioActual --></label>
+        <name>PropietarioActual__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ayuda --></label>
+        <name>SI_Ayuda__c</name>
+    </fields>
+    <fields>
+        <label><!-- Causa Pasivado Ticket --></label>
+        <name>SI_Causa_Pasivado_Ticket__c</name>
+        <picklistValues>
+            <masterLabel>Fuera de target</masterLabel>
+            <translation><!-- Fuera de target --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pasivado Permanentemente</masterLabel>
+            <translation><!-- Pasivado Permanentemente --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pide baja de la BBDD</masterLabel>
+            <translation><!-- Pide baja de la BBDD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sin actividad o trabajo</masterLabel>
+            <translation><!-- Sin actividad o trabajo --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Comentario Admin Lista --></label>
+        <name>SI_Comentario_Admin_Lista__c</name>
+        <picklistValues>
+            <masterLabel>He fusionado las cuentas indicadas</masterLabel>
+            <translation><!-- He fusionado las cuentas indicadas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Te he asignado la cuenta indicada</masterLabel>
+            <translation><!-- Te he asignado la cuenta indicada --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Comentario Admin --></label>
+        <name>SI_Comentario_Admin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comentarios sobre la cuenta --></label>
+        <name>SI_ComentariosSobreLaCuenta__c</name>
+    </fields>
+    <fields>
+        <help><!-- Campo para indicar si se quiere mantener algún dato del contacto que desaparecerá. --></help>
+        <label><!-- Comentarios sobre el contacto --></label>
+        <name>SI_Comentarios_sobre_el_contacto__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contacto principal --></label>
+        <name>SI_Contacto_principal__c</name>
+        <relationshipLabel><!-- Tickets --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contacto que desaparecerá --></label>
+        <name>SI_Contacto_que_desaparecer__c</name>
+        <relationshipLabel><!-- Tickets (Contacto que desaparecerá) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Cuenta Principal --></label>
+        <name>SI_Cuenta_Principal__c</name>
+        <relationshipLabel><!-- Tickets (Cuenta Principal) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Solo se inactivaran cuentas SAP --></help>
+        <label><!-- Cuenta a Pasivar SAP --></label>
+        <name>SI_Cuenta_a_Pasivar_SAP__c</name>
+        <relationshipLabel><!-- Tickets (Cuenta a Pasivar SAP) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Cuenta a eliminar --></label>
+        <name>SI_Cuenta_a_eliminar__c</name>
+        <relationshipLabel><!-- Tickets --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Descripción de la incidencia --></label>
+        <name>SI_Descripcion_de_la_incidencia__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estado_Cuenta --></label>
+        <name>SI_Estado_Cuenta__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estado --></label>
+        <name>SI_Estado__c</name>
+        <picklistValues>
+            <masterLabel>Cerrado</masterLabel>
+            <translation><!-- Cerrado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>En curso</masterLabel>
+            <translation><!-- En curso --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pendiente</masterLabel>
+            <translation><!-- Pendiente --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ID Contacto que desaparecerá --></label>
+        <name>SI_IDContactoAEliminar__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Contacto Principal --></label>
+        <name>SI_IDContactoPrincipal__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Cuenta Principal --></label>
+        <name>SI_IDCuenta_Principal__c</name>
+    </fields>
+    <fields>
+        <help><!-- Solo para cuentas que NO son Distribuidor SAP --></help>
+        <label><!-- ID Cuenta a eliminar --></label>
+        <name>SI_IDCuenta_a_eliminar__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Obra a eliminar --></label>
+        <name>SI_IDObra_a_eliminar__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Oferta a eliminar --></label>
+        <name>SI_IDOferta_a_eliminar__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID_SF_Cuenta_Eliminar1 --></label>
+        <name>SI_ID_SF_Cuenta_Eliminar1__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID_SF_Cuenta_Eliminar2 --></label>
+        <name>SI_ID_SF_Cuenta_Eliminar2__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID_SF_Cuenta_Principal --></label>
+        <name>SI_ID_SF_Cuenta_Principal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Motivo de baja --></label>
+        <name>SI_Motivo_de_bajaSAP__c</name>
+    </fields>
+    <fields>
+        <label><!-- Obra a eliminar --></label>
+        <name>SI_Obra_a_eliminar__c</name>
+        <relationshipLabel><!-- Tickets --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Oferta a eliminar --></label>
+        <name>SI_Oferta_a_eliminar__c</name>
+        <relationshipLabel><!-- Tickets --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Para los casos en que existan tres cuentas duplicadas o que se quieran fusionar --></help>
+        <label><!-- Segunda cuenta a eliminar --></label>
+        <name>SI_Tercera_cuenta_a_eliminar__c</name>
+        <relationshipLabel><!-- Tickets (Tercera cuenta a eliminar) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Tipo de cuenta a eliminar --></label>
+        <name>SI_Tipo_de_cuentaEliminar__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tipo de cuenta --></label>
+        <name>SI_Tipo_de_cuenta__c</name>
+        <picklistValues>
+            <masterLabel>Clientes Finales</masterLabel>
+            <translation><!-- Clientes Finales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Distribuidor CRM</masterLabel>
+            <translation><!-- Distribuidor CRM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Distribuidor SAP</masterLabel>
+            <translation><!-- Distribuidor SAP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Instalador</masterLabel>
+            <translation><!-- Instalador --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lead</masterLabel>
+            <translation><!-- Lead --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prescriptor</masterLabel>
+            <translation><!-- Prescriptor --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Usuario a asignar --></label>
+        <name>SI_Usuario_a_asignar__c</name>
+        <relationshipLabel><!-- Tickets --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Tiempo de cierre --></label>
+        <name>Tiempo_de_cierre__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Cambio de propietario</layout>
+        <sections>
+            <label><!-- Cambio de propietario --></label>
+            <section>Cambio de propietario</section>
+        </sections>
+        <sections>
+            <label><!-- Campos --></label>
+            <section>Campos</section>
+        </sections>
+        <sections>
+            <label><!-- Comentario Admin --></label>
+            <section>Comentario Admin</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Cambio de propietario Masivo</layout>
+        <sections>
+            <label><!-- Campos --></label>
+            <section>Campos</section>
+        </sections>
+        <sections>
+            <label><!-- Comentarios Admin --></label>
+            <section>Comentarios Admin</section>
+        </sections>
+        <sections>
+            <label><!-- Otros --></label>
+            <section>Otros</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Cambio de segmentacion</layout>
+        <sections>
+            <label><!-- Cambio de segmentación --></label>
+            <section>Cambio de segmentación</section>
+        </sections>
+        <sections>
+            <label><!-- Campos --></label>
+            <section>Campos</section>
+        </sections>
+        <sections>
+            <label><!-- Comentario Admin --></label>
+            <section>Comentario Admin</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Crear Marca Comercial</layout>
+        <sections>
+            <label><!-- Cambio de segmentación --></label>
+            <section>Cambio de segmentación</section>
+        </sections>
+        <sections>
+            <label><!-- Campos --></label>
+            <section>Campos</section>
+        </sections>
+        <sections>
+            <label><!-- Comentario Admin --></label>
+            <section>Comentario Admin</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Eliminar objetos Formacion</layout>
+        <sections>
+            <label><!-- Campos --></label>
+            <section>Campos</section>
+        </sections>
+        <sections>
+            <label><!-- Comentarios Admin --></label>
+            <section>Comentarios Admin</section>
+        </sections>
+        <sections>
+            <label><!-- Otros --></label>
+            <section>Otros</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato Ticket</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Fusion de contactos</layout>
+        <sections>
+            <label><!-- Campos --></label>
+            <section>Campos</section>
+        </sections>
+        <sections>
+            <label><!-- Comentarios Admin --></label>
+            <section>Comentarios Admin</section>
+        </sections>
+        <sections>
+            <label><!-- Fusión de contactos --></label>
+            <section>Fusión de contactos</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Fusion de cuentas</layout>
+        <sections>
+            <label><!-- Campos --></label>
+            <section>Campos</section>
+        </sections>
+        <sections>
+            <label><!-- Comentarios Admin --></label>
+            <section>Comentarios Admin</section>
+        </sections>
+        <sections>
+            <label><!-- Fusión de cuentas --></label>
+            <section>Fusión de cuentas</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Incidencia</layout>
+        <sections>
+            <label><!-- Campos --></label>
+            <section>Campos</section>
+        </sections>
+        <sections>
+            <label><!-- Comentario Admin --></label>
+            <section>Comentario Admin</section>
+        </sections>
+        <sections>
+            <label><!-- Incidencia --></label>
+            <section>Incidencia</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Otros</layout>
+        <sections>
+            <label><!-- Campos --></label>
+            <section>Campos</section>
+        </sections>
+        <sections>
+            <label><!-- Comentarios Admin --></label>
+            <section>Comentarios Admin</section>
+        </sections>
+        <sections>
+            <label><!-- Otros --></label>
+            <section>Otros</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Pasivar Cuenta</layout>
+        <sections>
+            <label><!-- Campos --></label>
+            <section>Campos</section>
+        </sections>
+        <sections>
+            <label><!-- Comentarios Admin --></label>
+            <section>Comentarios Admin</section>
+        </sections>
+        <sections>
+            <label><!-- Otros --></label>
+            <section>Otros</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Pasivar Cuenta SAP</layout>
+        <sections>
+            <label><!-- Campos --></label>
+            <section>Campos</section>
+        </sections>
+        <sections>
+            <label><!-- Comentario Admin --></label>
+            <section>Comentario Admin</section>
+        </sections>
+        <sections>
+            <label><!-- Pasivar cuentas SAP --></label>
+            <section>Pasivar cuentas SAP</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- Cambio de propietario para 5 o mas cuentas --></description>
+        <label><!-- Cambio de propietario Masivo --></label>
+        <name>Cambio_de_propietario_Masivo</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Crear Marca Comercial --></label>
+        <name>Crear_Marca_Comercial</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Ticket para eliminar objetos creados en la formacion --></description>
+        <label><!-- Eliminar registro FORMACION --></label>
+        <name>Eliminar_registro_FORMACION</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Ticket que sirve para pasivar cuentas que son propiedad de ADMIN SIMON --></description>
+        <label><!-- Pasivar cuenta de ADMIN SIMON --></label>
+        <name>Pasivar_cuenta</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Ticket para solicitar cambio de propietario de cuenta --></description>
+        <label><!-- Cambio de propietario --></label>
+        <name>SI_Cambio_de_propietario</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Ticket para solicitar un cambio de tipo de cuenta para modificar la segmentacion --></description>
+        <label><!-- Cambio de segmentacion --></label>
+        <name>SI_Cambio_de_segmentacion</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Ticket para solicitar fusion de contactos de una cuenta --></description>
+        <label><!-- Fusion de contactos --></label>
+        <name>SI_Fusion_de_contactos</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Ticket para solicitar fusion de cuentas --></description>
+        <label><!-- Fusion de cuentas --></label>
+        <name>SI_Fusion_de_cuentas</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Ticket para abrir una incidencia relacionada con el funcionamiento incorrecto de SF --></description>
+        <label><!-- Incidencia --></label>
+        <name>SI_Incidencia</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Ticket para indicar otra casuistica --></description>
+        <label><!-- Otros --></label>
+        <name>SI_Otros</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Ticket para solicitar pasivar cuenta SAP --></description>
+        <label><!-- Pasivar cuenta SAP --></label>
+        <name>SI_Pasivar_cuenta_SAP</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- La cuenta a pasivar en sap debe ser de tipo Distribuidor SAP --></errorMessage>
+        <name>CuentaPasivaSAP</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Es necesario indicar un campo a eliminar --></errorMessage>
+        <name>Eliminar_OP_ACC_OBRA</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Necesitas indicar el motivo de baja para SAP. --></errorMessage>
+        <name>PasivarSAP_Motivo</name>
+    </validationRules>
+</CustomObjectTranslation>

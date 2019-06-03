@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Producto estocado</fullName>
+        <default>false</default>
+        <label>Producto estocado</label>
+    </customValue>
+    <customValue>
+        <fullName>Principal pequeño material</fullName>
+        <default>false</default>
+        <label>Principal pequeño material</label>
+    </customValue>
+    <customValue>
+        <fullName>Principal producto conectividad</fullName>
+        <default>false</default>
+        <label>Principal producto conectividad</label>
+    </customValue>
+    <customValue>
+        <fullName>Principal producto iluminación interior</fullName>
+        <default>false</default>
+        <label>Principal producto iluminación interior</label>
+    </customValue>
+    <customValue>
+        <fullName>Principal producto iluminación exterior</fullName>
+        <default>false</default>
+        <label>Principal producto iluminación exterior</label>
+    </customValue>
+    <customValue>
+        <fullName>Principal producto sistema de control</fullName>
+        <default>false</default>
+        <label>Principal producto sistema de control</label>
+    </customValue>
+    <description>En Uso --&gt; Usado en lista relacionada de cuentas (relación con producto)</description>
+    <masterLabel>Relación Producto</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Arquitectura</fullName>
+        <default>false</default>
+        <label>Arquitectura</label>
+    </customValue>
+    <customValue>
+        <fullName>Interiorismo</fullName>
+        <default>false</default>
+        <label>Interiorismo</label>
+    </customValue>
+    <customValue>
+        <fullName>Decoración</fullName>
+        <default>false</default>
+        <label>Decoración</label>
+    </customValue>
+    <customValue>
+        <fullName>Diseño</fullName>
+        <default>false</default>
+        <label>Diseño</label>
+    </customValue>
+    <customValue>
+        <fullName>Particular</fullName>
+        <default>false</default>
+        <label>Particular</label>
+    </customValue>
+    <customValue>
+        <fullName>Otros</fullName>
+        <default>false</default>
+        <label>Otros</label>
+    </customValue>
+    <customValue>
+        <fullName>Constructor</fullName>
+        <default>false</default>
+        <label>Constructor</label>
+    </customValue>
+    <customValue>
+        <fullName>Reformista</fullName>
+        <default>false</default>
+        <label>Reformista</label>
+    </customValue>
+    <customValue>
+        <fullName>Light Designer</fullName>
+        <default>false</default>
+        <label>Light Designer</label>
+    </customValue>
+    <description>ACTIVO. Se usa en los LEAD standard como campo sobre el que se mapea la actividad de Hubspot</description>
+    <masterLabel>Actividades Hubspot</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

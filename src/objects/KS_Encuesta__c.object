@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>KAIZENSTEP. DESACTIVADO. Propuesta de encuesta, probablemente BORRAR</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Campana__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Campaña</label>
+        <referenceTo>Campaign</referenceTo>
+        <relationshipLabel>Encuestas</relationshipLabel>
+        <relationshipName>Encuestas</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Cometarios__c</fullName>
+        <externalId>false</externalId>
+        <label>Cometarios</label>
+        <length>10000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>6</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Contacto__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Contacto</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Encuestas</relationshipLabel>
+        <relationshipName>Encuestas</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>KS_Pregunta_1__c</fullName>
+        <externalId>false</externalId>
+        <label>Pregunta 1</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Opción 1</fullName>
+                    <default>false</default>
+                    <label>Opción 1</label>
+                </value>
+                <value>
+                    <fullName>Opción 2</fullName>
+                    <default>false</default>
+                    <label>Opción 2</label>
+                </value>
+                <value>
+                    <fullName>Opción 3</fullName>
+                    <default>false</default>
+                    <label>Opción 3</label>
+                </value>
+                <value>
+                    <fullName>Opción 4</fullName>
+                    <default>false</default>
+                    <label>Opción 4</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>KS_Pregunta_2_opci_n_A__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Pregunta 2 opción A</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>KS_Pregunta_2_opcion_b__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Pregunta 2 opcion b</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Pregunta_3__c</fullName>
+        <externalId>false</externalId>
+        <label>Pregunta 3</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Opción Preg3-A</fullName>
+                    <default>false</default>
+                    <label>Opción Preg3-A</label>
+                </value>
+                <value>
+                    <fullName>Opción Preg3-B</fullName>
+                    <default>false</default>
+                    <label>Opción Preg3-B</label>
+                </value>
+                <value>
+                    <fullName>Opción Preg3-C</fullName>
+                    <default>false</default>
+                    <label>Opción Preg3-C</label>
+                </value>
+                <value>
+                    <fullName>Opción Preg3-D</fullName>
+                    <default>false</default>
+                    <label>Opción Preg3-D</label>
+                </value>
+                <value>
+                    <fullName>Opción Preg3-E</fullName>
+                    <default>false</default>
+                    <label>Opción Preg3-E</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Pregunta_4__c</fullName>
+        <externalId>false</externalId>
+        <label>Pregunta 4</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Opción A-preg4</fullName>
+                    <default>false</default>
+                    <label>Opción A-preg4</label>
+                </value>
+                <value>
+                    <fullName>Opción B-preg4</fullName>
+                    <default>false</default>
+                    <label>Opción B-preg4</label>
+                </value>
+                <value>
+                    <fullName>Opción C-preg4</fullName>
+                    <default>false</default>
+                    <label>Opción C-preg4</label>
+                </value>
+                <value>
+                    <fullName>Opción D-preg4</fullName>
+                    <default>false</default>
+                    <label>Opción D-preg4</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Pregunta_5A__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Pregunta 5A</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Pregunta_5B__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Pregunta 5B</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <gender>Feminine</gender>
+    <label>Encuesta</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>Todos</label>
+    </listViews>
+    <nameField>
+        <displayFormat>ENC-{00000}</displayFormat>
+        <label>id</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Encuestas</pluralLabel>
+    <recordTypes>
+        <fullName>Encuesta_tipo_1</fullName>
+        <active>true</active>
+        <description>Encuesta tipo 1</description>
+        <label>Encuesta tipo 1</label>
+        <picklistValues>
+            <picklist>KS_Pregunta_1__c</picklist>
+            <values>
+                <fullName>Opción 1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Opción 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Opción 3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Opción 4</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Pregunta_3__c</picklist>
+            <values>
+                <fullName>Opción Preg3-A</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Opción Preg3-B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Opción Preg3-C</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Opción Preg3-D</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Opción Preg3-E</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Pregunta_4__c</picklist>
+            <values>
+                <fullName>Opción A-preg4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Opción B-preg4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Opción C-preg4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Opción D-preg4</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Encuesta_tipo_2</fullName>
+        <active>true</active>
+        <description>Encuesta tipo 2</description>
+        <label>Encuesta tipo 2</label>
+        <picklistValues>
+            <picklist>KS_Pregunta_1__c</picklist>
+            <values>
+                <fullName>Opción 1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Opción 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Opción 3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Opción 4</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Pregunta_3__c</picklist>
+            <values>
+                <fullName>Opción Preg3-A</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Opción Preg3-B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Opción Preg3-C</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Opción Preg3-D</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Opción Preg3-E</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Pregunta_4__c</picklist>
+            <values>
+                <fullName>Opción A-preg4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Opción B-preg4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Opción C-preg4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Opción D-preg4</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Encuesta_tipo_3</fullName>
+        <active>true</active>
+        <description>Encuesta tipo 3</description>
+        <label>Encuesta tipo 3</label>
+        <picklistValues>
+            <picklist>KS_Pregunta_1__c</picklist>
+            <values>
+                <fullName>Opción 1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Opción 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Opción 3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Opción 4</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Pregunta_3__c</picklist>
+            <values>
+                <fullName>Opción Preg3-A</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Opción Preg3-B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Opción Preg3-C</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Opción Preg3-D</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Opción Preg3-E</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Pregunta_4__c</picklist>
+            <values>
+                <fullName>Opción A-preg4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Opción B-preg4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Opción C-preg4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Opción D-preg4</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Encuesta_tipo_4</fullName>
+        <active>true</active>
+        <description>Encuesta tipo 4</description>
+        <label>Encuesta tipo 4</label>
+        <picklistValues>
+            <picklist>KS_Pregunta_1__c</picklist>
+            <values>
+                <fullName>Opción 1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Opción 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Opción 3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Opción 4</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Pregunta_3__c</picklist>
+            <values>
+                <fullName>Opción Preg3-A</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Opción Preg3-B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Opción Preg3-C</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Opción Preg3-D</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Opción Preg3-E</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Pregunta_4__c</picklist>
+            <values>
+                <fullName>Opción A-preg4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Opción B-preg4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Opción C-preg4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Opción D-preg4</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>01</masterLabel>
+        <translation>Limite de Crédito</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>02</masterLabel>
+        <translation>Revisão PTL</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>03</masterLabel>
+        <translation><!-- 03 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>04</masterLabel>
+        <translation>Faltam docs exportaç</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>05</masterLabel>
+        <translation>Verif. Custos entreg</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>06</masterLabel>
+        <translation>Sem impressão</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>07</masterLabel>
+        <translation>Modif. Quantidade</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>08</masterLabel>
+        <translation>Fornecimento Kanban</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>09</masterLabel>
+        <translation>FornecimentoJIT(SPR)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>1</masterLabel>
+        <translation><!-- 1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>11</masterLabel>
+        <translation>Bloqueio portes devi</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>60</masterLabel>
+        <translation>EDI-Revisão</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>61</masterLabel>
+        <translation>EDI-Duplicado</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>62</masterLabel>
+        <translation>EDI- Faltam Dados</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>63</masterLabel>
+        <translation>EDI- Faltam Dados</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>64</masterLabel>
+        <translation>EDI- Erro Ponto Oper</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>65</masterLabel>
+        <translation>EDI- EAN incorreto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>66</masterLabel>
+        <translation>EDI- Unid.exped. Inc</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>67</masterLabel>
+        <translation>EDI- Preço excedido</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>68</masterLabel>
+        <translation>EDI- Docto excedido</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>80</masterLabel>
+        <translation>PTL- Faltam EDI1-ZED</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>81</masterLabel>
+        <translation>PTL- Preço Excedido</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>82</masterLabel>
+        <translation>PTL-Docto Excedido</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>83</masterLabel>
+        <translation>PTL-Erro data de ent</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>84</masterLabel>
+        <translation>PTL-Textos Cabeç./Po</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>85</masterLabel>
+        <translation>PTL-Existe obj. Tran</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>86</masterLabel>
+        <translation>PTL-Várias Dir.Entr.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>87</masterLabel>
+        <translation>PTL-Transf.não habit</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>88</masterLabel>
+        <translation>PTL-Mat. Inválido</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>89</masterLabel>
+        <translation>PTL-Falta ped. Clien</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E1</masterLabel>
+        <translation><!-- E1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M0</masterLabel>
+        <translation>Invest/Estudo</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M1</masterLabel>
+        <translation>Substituto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M2</masterLabel>
+        <translation>Em observação</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M3</masterLabel>
+        <translation>Por Desaparecer</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M4</masterLabel>
+        <translation>Passivo</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>P1</masterLabel>
+        <translation>Reserva Incompleta</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>P2</masterLabel>
+        <translation>Reserva Completa</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>P3</masterLabel>
+        <translation>Pendente divisão 2</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>P4</masterLabel>
+        <translation>Pendente divisão 1</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z1</masterLabel>
+        <translation>Pendente entr. Armaz</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z2</masterLabel>
+        <translation>Liber. Por Armazém</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z3</masterLabel>
+        <translation>Liber. Por GVentas</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z5</masterLabel>
+        <translation>Aceitação Proforma</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z6</masterLabel>
+        <translation>Pdte. Liberaç. Comer</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z7</masterLabel>
+        <translation>Sem bloqueio disponí</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z8</masterLabel>
+        <translation>Pdte Confirm.cliente</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZA</masterLabel>
+        <translation>Revisar Fat. Fretes</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB</masterLabel>
+        <translation>Adiantamento</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZC</masterLabel>
+        <translation>Composição Cabeç.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZO</masterLabel>
+        <translation>Obra parada</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZP</masterLabel>
+        <translation>Bloq. Apolice Crédit</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZR</masterLabel>
+        <translation>Repos.peças bloquead</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ</masterLabel>
+        <translation>Artigos Personaliz.</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

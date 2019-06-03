@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>KS_Obra__c.Oportunidades__r$KS_Oferta_ID__c</field>
+    </columns>
+    <columns>
+        <field>KS_Obra__c.Oportunidades__r$StageName</field>
+    </columns>
+    <columns>
+        <field>KS_Obra__c.Oportunidades__r$Name</field>
+    </columns>
+    <columns>
+        <field>KS_Obra__c.Oportunidades__r$Owner</field>
+    </columns>
+    <crossFilters>
+        <criteriaItems>
+            <column>CreatedBy</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Sonia Buque Llobet</value>
+        </criteriaItems>
+        <operation>with</operation>
+        <primaryTableColumn>KS_Obra__c$Id</primaryTableColumn>
+        <relatedTable>Opportunity</relatedTable>
+        <relatedTableJoinColumn>KS_Obra__c</relatedTableJoinColumn>
+    </crossFilters>
+    <currency>EUR</currency>
+    <format>Matrix</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>KS_Obra__c$KS_Id_Obra__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>KS_Obra__c$Name</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>mis ofertas creadas2</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Obras_con_ofertas__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>KS_Obra__c$KS_Fecha_conversion__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

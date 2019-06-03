@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Notificación de cancelación de tarea recurrente</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Header_Simon</letterhead>
+    <name>Notificación cancelacion tarea</name>
+    <style>freeForm</style>
+    <subject>Notificación de creación de tareas recurrentes</subject>
+    <textOnly>A su atención,
+
+Acaban de crearse tareas recurrentes de seguimiento sobre la cuenta: {!KS_Organizacion_Cliente__c.KS_Cliente_Distribucion__c}
+
+Se le serán generadas tareas cada TEXT({!KS_Organizacion_Cliente__c.KS_Recurrencia__c}) días, para agendar visitas al cliente indicado.
+
+Atentamente,</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

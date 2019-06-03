@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>true</sorted>
+    <standardValue>
+        <fullName>0-Candidato</fullName>
+        <default>false</default>
+        <label>0-Candidato</label>
+    </standardValue>
+    <standardValue>
+        <fullName>1-Iniciado</fullName>
+        <default>false</default>
+        <label>1-Iniciado</label>
+    </standardValue>
+    <standardValue>
+        <fullName>2-Colaborador</fullName>
+        <default>false</default>
+        <label>2-Colaborador</label>
+    </standardValue>
+    <standardValue>
+        <fullName>3-Fidelizado</fullName>
+        <default>false</default>
+        <label>3-Fidelizado</label>
+    </standardValue>
+    <standardValue>
+        <fullName>A</fullName>
+        <default>false</default>
+        <label>A</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Abel de Mingo</fullName>
+        <default>false</default>
+        <label>Abel de Mingo</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ASIGNADO</fullName>
+        <default>false</default>
+        <label>ASIGNADO</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Asistencia</fullName>
+        <default>false</default>
+        <label>Asistencia</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Asistente</fullName>
+        <default>false</default>
+        <label>Asistente</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Asistente Espacio 100</fullName>
+        <default>false</default>
+        <label>Asistente Espacio 100</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Asistentes</fullName>
+        <default>false</default>
+        <label>Asistentes</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Asistido</fullName>
+        <default>false</default>
+        <label>Asistido</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Asistió</fullName>
+        <default>false</default>
+        <label>Asistió</label>
+    </standardValue>
+    <standardValue>
+        <fullName>B</fullName>
+        <default>false</default>
+        <label>B</label>
+    </standardValue>
+    <standardValue>
+        <fullName>BJC</fullName>
+        <default>false</default>
+        <label>BJC</label>
+    </standardValue>
+    <standardValue>
+        <fullName>C</fullName>
+        <default>false</default>
+        <label>C</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Cerrado</fullName>
+        <default>false</default>
+        <label>Cerrado</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Confirmado</fullName>
+        <default>false</default>
+        <label>Confirmado</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Confirmado Asistencia Hotel</fullName>
+        <default>false</default>
+        <label>Confirmado Asistencia Hotel</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Con Interés</fullName>
+        <default>false</default>
+        <label>Con Interés</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Contactado</fullName>
+        <default>false</default>
+        <label>Contactado</label>
+    </standardValue>
+    <standardValue>
+        <fullName>D</fullName>
+        <default>false</default>
+        <label>D</label>
+    </standardValue>
+    <standardValue>
+        <fullName>EFAPEL</fullName>
+        <default>false</default>
+        <label>EFAPEL</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ELECTEI</fullName>
+        <default>false</default>
+        <label>ELECTEI</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Entregado</fullName>
+        <default>false</default>
+        <label>Entregado</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Enviada la información</fullName>
+        <default>false</default>
+        <label>Enviada la información</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Enviado</fullName>
+        <default>false</default>
+        <label>Enviado</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Ganados</fullName>
+        <default>false</default>
+        <label>Ganados</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Generado Proyecto</fullName>
+        <default>false</default>
+        <label>Generado Proyecto</label>
+    </standardValue>
+    <standardValue>
+        <fullName>GIRA</fullName>
+        <default>false</default>
+        <label>GIRA</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Interesado</fullName>
+        <default>false</default>
+        <label>Interesado</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Invitado</fullName>
+        <default>false</default>
+        <label>Invitado</label>
+    </standardValue>
+    <standardValue>
+        <fullName>JUNG</fullName>
+        <default>false</default>
+        <label>JUNG</label>
+    </standardValue>
+    <standardValue>
+        <fullName>NINGUNO</fullName>
+        <default>false</default>
+        <label>NINGUNO</label>
+    </standardValue>
+    <standardValue>
+        <fullName>NO Asistido</fullName>
+        <default>false</default>
+        <label>NO Asistido</label>
+    </standardValue>
+    <standardValue>
+        <fullName>No Contactado</fullName>
+        <default>false</default>
+        <label>No Contactado</label>
+    </standardValue>
+    <standardValue>
+        <fullName>No contactod / imposible contactar</fullName>
+        <default>false</default>
+        <label>No contactod / imposible contactar</label>
+    </standardValue>
+    <standardValue>
+        <fullName>No Generado Proyecto</fullName>
+        <default>false</default>
+        <label>No Generado Proyecto</label>
+    </standardValue>
+    <standardValue>
+        <fullName>No interesado</fullName>
+        <default>false</default>
+        <label>No interesado</label>
+    </standardValue>
+    <standardValue>
+        <fullName>No prensentada</fullName>
+        <default>false</default>
+        <label>No prensentada</label>
+    </standardValue>
+    <standardValue>
+        <fullName>No Presentada</fullName>
+        <default>false</default>
+        <label>No Presentada</label>
+    </standardValue>
+    <standardValue>
+        <fullName>No Presentado</fullName>
+        <default>false</default>
+        <label>No Presentado</label>
+    </standardValue>
+    <standardValue>
+        <fullName>NO TIENE E-GUIDE</fullName>
+        <default>false</default>
+        <label>NO TIENE E-GUIDE</label>
+    </standardValue>
+    <standardValue>
+        <fullName>NO VISITADO</fullName>
+        <default>false</default>
+        <label>NO VISITADO</label>
+    </standardValue>
+    <standardValue>
+        <fullName>OBRA GENERADA</fullName>
+        <default>false</default>
+        <label>OBRA GENERADA</label>
+    </standardValue>
+    <standardValue>
+        <fullName>OBRA NO GENERADA</fullName>
+        <default>false</default>
+        <label>OBRA NO GENERADA</label>
+    </standardValue>
+    <standardValue>
+        <fullName>OFERTA GENERADA</fullName>
+        <default>false</default>
+        <label>OFERTA GENERADA</label>
+    </standardValue>
+    <standardValue>
+        <fullName>OFERTA NO GENERADA</fullName>
+        <default>false</default>
+        <label>OFERTA NO GENERADA</label>
+    </standardValue>
+    <standardValue>
+        <fullName>P1- Contactado</fullName>
+        <default>false</default>
+        <label>P1- Contactado</label>
+    </standardValue>
+    <standardValue>
+        <fullName>P1 - Pendiente</fullName>
+        <default>false</default>
+        <label>P1 - Pendiente</label>
+    </standardValue>
+    <standardValue>
+        <fullName>P2 -Contactado</fullName>
+        <default>false</default>
+        <label>P2 -Contactado</label>
+    </standardValue>
+    <standardValue>
+        <fullName>P2 - Pendiente</fullName>
+        <default>false</default>
+        <label>P2 - Pendiente</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Pendiente</fullName>
+        <default>false</default>
+        <label>Pendiente</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Pendiente presentación</fullName>
+        <default>false</default>
+        <label>Pendiente presentación</label>
+    </standardValue>
+    <standardValue>
+        <fullName>PENDIENTE VISITAR</fullName>
+        <default>false</default>
+        <label>PENDIENTE VISITAR</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Perdido</fullName>
+        <default>false</default>
+        <label>Perdido</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Premiado Sorteo</fullName>
+        <default>false</default>
+        <label>Premiado Sorteo</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Presentada</fullName>
+        <default>false</default>
+        <label>Presentada</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Presentado</fullName>
+        <default>false</default>
+        <label>Presentado</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Proforma Aceptada</fullName>
+        <default>false</default>
+        <label>Proforma Aceptada</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Proforma no Aceptada</fullName>
+        <default>false</default>
+        <label>Proforma no Aceptada</label>
+    </standardValue>
+    <standardValue>
+        <fullName>PV de Generacion Valor Iluminación</fullName>
+        <default>false</default>
+        <label>PV de Generacion Valor Iluminación</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Respondida</fullName>
+        <default>false</default>
+        <label>Respondida</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Respondido</fullName>
+        <default>false</default>
+        <label>Respondido</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sin interés</fullName>
+        <default>false</default>
+        <label>Sin interés</label>
+    </standardValue>
+    <standardValue>
+        <fullName>TEI</fullName>
+        <default>false</default>
+        <label>TEI</label>
+    </standardValue>
+    <standardValue>
+        <fullName>TIENE E-GUIDE</fullName>
+        <default>false</default>
+        <label>TIENE E-GUIDE</label>
+    </standardValue>
+    <standardValue>
+        <fullName>VISITADO</fullName>
+        <default>false</default>
+        <label>VISITADO</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Visito Stand Simon</fullName>
+        <default>false</default>
+        <label>Visito Stand Simon</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Visitó stand SIMON</fullName>
+        <default>false</default>
+        <label>Visitó stand SIMON</label>
+    </standardValue>
+</StandardValueSet>

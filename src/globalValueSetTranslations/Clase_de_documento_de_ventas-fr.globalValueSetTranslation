@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>G2</masterLabel>
+        <translation>Demande note crédit</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KL</masterLabel>
+        <translation>Livraison gratuite</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>L2</masterLabel>
+        <translation>Demande note débit</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>RE</masterLabel>
+        <translation>Retours</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TA</masterLabel>
+        <translation>Cde client standard</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZC01</masterLabel>
+        <translation><!-- ZC01 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZC02</masterLabel>
+        <translation><!-- ZC02 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZC03</masterLabel>
+        <translation><!-- ZC03 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZC04</masterLabel>
+        <translation>Prélèvement consign.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZC05</masterLabel>
+        <translation>Prélèvement consign.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZC06</masterLabel>
+        <translation>Retours art.consign.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZG1</masterLabel>
+        <translation><!-- ZG1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZG2</masterLabel>
+        <translation>Note crédit Dif.Prix</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZG3</masterLabel>
+        <translation>Dem. note crédit Int</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZGA</masterLabel>
+        <translation>Dem.note crédit Fin.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZGF</masterLabel>
+        <translation>Dem.note crédit Fin.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZGF2</masterLabel>
+        <translation>D.note crédit RecTVA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZKL</masterLabel>
+        <translation>Livraison gratuite</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZKLI</masterLabel>
+        <translation>Livr. gratuite Inte.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZL1</masterLabel>
+        <translation><!-- ZL1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZL2</masterLabel>
+        <translation>Note débit Dif.Prix</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZL3</masterLabel>
+        <translation><!-- ZL3 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZLF</masterLabel>
+        <translation>Dem. note débit Fin.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZRE</masterLabel>
+        <translation>Retours Client</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZREC</masterLabel>
+        <translation>Retours Ferraille</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZTA</masterLabel>
+        <translation>Cde client standard</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZTA0</masterLabel>
+        <translation>Cde client standard</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZTA1</masterLabel>
+        <translation>Commande Vente</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

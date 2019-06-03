@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Área Centro</fullName>
+        <default>false</default>
+        <label>Área Centro</label>
+    </customValue>
+    <customValue>
+        <fullName>Área Noroeste</fullName>
+        <default>false</default>
+        <label>Área Noroeste</label>
+    </customValue>
+    <customValue>
+        <fullName>Área Noreste</fullName>
+        <default>false</default>
+        <label>Área Noreste</label>
+    </customValue>
+    <customValue>
+        <fullName>Área Catalunya</fullName>
+        <default>false</default>
+        <label>Área Catalunya</label>
+    </customValue>
+    <customValue>
+        <fullName>Área Levante</fullName>
+        <default>false</default>
+        <label>Área Levante</label>
+    </customValue>
+    <customValue>
+        <fullName>Área Sur</fullName>
+        <default>false</default>
+        <label>Área Sur</label>
+    </customValue>
+    <customValue>
+        <fullName>Área Portugal</fullName>
+        <default>false</default>
+        <label>Área Portugal</label>
+    </customValue>
+    <description>Literales para Área</description>
+    <masterLabel>Área LABEL</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

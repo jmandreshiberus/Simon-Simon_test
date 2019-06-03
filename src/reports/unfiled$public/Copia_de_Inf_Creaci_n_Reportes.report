@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_CREATED_NAME</field>
+    </columns>
+    <columns>
+        <field>CUST_CREATED_ALIAS</field>
+    </columns>
+    <columns>
+        <field>KS_Reporte__c.KS_Fecha_de_inicio__c</field>
+    </columns>
+    <columns>
+        <field>CUST_CREATED_DATE</field>
+    </columns>
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>KS_Reporte__c.KS_Tipo_de_visita__c</field>
+    </columns>
+    <columns>
+        <field>KS_Reporte__c.KS_Cuenta__c</field>
+    </columns>
+    <currency>EUR</currency>
+    <format>Tabular</format>
+    <name>Copia de Inf. Creación Reportes</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$KS_Reporte__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>KS_Reporte__c.KS_Fecha_de_inicio__c</dateColumn>
+        <endDate>2017-12-31</endDate>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2017-01-01</startDate>
+    </timeFrameFilter>
+</Report>

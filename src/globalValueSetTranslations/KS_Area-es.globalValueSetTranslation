@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>1010</masterLabel>
+        <translation>Área Centro</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>1020</masterLabel>
+        <translation>Área Noroeste</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>1021</masterLabel>
+        <translation>Área Noreste</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>1030</masterLabel>
+        <translation>Área Catalunya</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>1040</masterLabel>
+        <translation>Área Levante</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>1050</masterLabel>
+        <translation>Área Sur</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>1060</masterLabel>
+        <translation>Área Portugal</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>INTE</masterLabel>
+        <translation><!-- INTE --></translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

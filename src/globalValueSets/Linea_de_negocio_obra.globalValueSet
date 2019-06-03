@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Punto de recarga</fullName>
+        <default>false</default>
+        <label>Punto de recarga</label>
+    </customValue>
+    <customValue>
+        <fullName>Pequeño material</fullName>
+        <default>false</default>
+        <label>Pequeño material</label>
+    </customValue>
+    <customValue>
+        <fullName>Connect</fullName>
+        <default>false</default>
+        <label>Connect</label>
+    </customValue>
+    <customValue>
+        <fullName>Iluminación indoor</fullName>
+        <default>false</default>
+        <label>Iluminación indoor</label>
+    </customValue>
+    <customValue>
+        <fullName>Sistemas de control</fullName>
+        <default>false</default>
+        <label>Sistemas de control</label>
+    </customValue>
+    <customValue>
+        <fullName>Iluminación outdoor</fullName>
+        <default>false</default>
+        <label>Iluminación outdoor</label>
+    </customValue>
+    <masterLabel>Linea de negocio obra</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

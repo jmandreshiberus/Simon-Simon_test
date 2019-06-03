@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Construcción de edificios</fullName>
+        <default>false</default>
+        <label>Construcción de edificios</label>
+    </customValue>
+    <customValue>
+        <fullName>Ingeniería civil</fullName>
+        <default>false</default>
+        <label>Ingeniería civil</label>
+    </customValue>
+    <customValue>
+        <fullName>Actividades de construcción especializada</fullName>
+        <default>false</default>
+        <label>Actividades de construcción especializada</label>
+    </customValue>
+    <customValue>
+        <fullName>Venta y reparación de vehículos de motor y motocicletas</fullName>
+        <default>false</default>
+        <label>Venta y reparación de vehículos de motor y motocicletas</label>
+    </customValue>
+    <customValue>
+        <fullName>Comercio al por mayor e intermediarios del comercio, excepto de vehículos de motor y motocicletas</fullName>
+        <default>false</default>
+        <label>Comercio al por mayor e intermediarios del comercio, excepto de vehículos de motor y motocicletas</label>
+    </customValue>
+    <customValue>
+        <fullName>Comercio al por menor, excepto de vehículos de motor y motocicletas</fullName>
+        <default>false</default>
+        <label>Comercio al por menor, excepto de vehículos de motor y motocicletas</label>
+    </customValue>
+    <customValue>
+        <fullName>Servicios de alojamiento</fullName>
+        <default>false</default>
+        <label>Servicios de alojamiento</label>
+    </customValue>
+    <customValue>
+        <fullName>Servicios de comidas y bebidas</fullName>
+        <default>false</default>
+        <label>Servicios de comidas y bebidas</label>
+    </customValue>
+    <customValue>
+        <fullName>Seguros, reaseguros y fondos de pensiones, excepto Seguridad Social obligatoria</fullName>
+        <default>false</default>
+        <label>Seguros, reaseguros y fondos de pensiones, excepto Seguridad Social obligatoria</label>
+    </customValue>
+    <customValue>
+        <fullName>Actividades auxiliares a los servicios financieros y a los seguros</fullName>
+        <default>false</default>
+        <label>Actividades auxiliares a los servicios financieros y a los seguros</label>
+    </customValue>
+    <customValue>
+        <fullName>Actividades inmobiliarias</fullName>
+        <default>false</default>
+        <label>Actividades inmobiliarias</label>
+    </customValue>
+    <customValue>
+        <fullName>Actividades jurídicas y de contabilidad</fullName>
+        <default>false</default>
+        <label>Actividades jurídicas y de contabilidad</label>
+    </customValue>
+    <customValue>
+        <fullName>Actividades de las sedes centrales, actividades de consultoría de gestión empresarial</fullName>
+        <default>false</default>
+        <label>Actividades de las sedes centrales, actividades de consultoría de gestión empresarial</label>
+    </customValue>
+    <customValue>
+        <fullName>Servicios técnicos de arquitectura e ingeniería, ensayos y análisis técnicos</fullName>
+        <default>false</default>
+        <label>Servicios técnicos de arquitectura e ingeniería, ensayos y análisis técnicos</label>
+    </customValue>
+    <customValue>
+        <fullName>Investigación y desarrollo</fullName>
+        <default>false</default>
+        <label>Investigación y desarrollo</label>
+    </customValue>
+    <customValue>
+        <fullName>Publicidad y estudios de mercado</fullName>
+        <default>false</default>
+        <label>Publicidad y estudios de mercado</label>
+    </customValue>
+    <customValue>
+        <fullName>Otras actividades profesionales, científicas y técnicas</fullName>
+        <default>false</default>
+        <label>Otras actividades profesionales, científicas y técnicas</label>
+    </customValue>
+    <customValue>
+        <fullName>Actividades veterinarias</fullName>
+        <default>false</default>
+        <label>Actividades veterinarias</label>
+    </customValue>
+    <customValue>
+        <fullName>Actividades de alquiler</fullName>
+        <default>false</default>
+        <label>Actividades de alquiler</label>
+    </customValue>
+    <customValue>
+        <fullName>Actividades relacionadas con el empleo</fullName>
+        <default>false</default>
+        <label>Actividades relacionadas con el empleo</label>
+    </customValue>
+    <customValue>
+        <fullName>Actividades de agencias de viajes, operadores turísticos, servicios de reservas y actividades relacionadas con los mismos</fullName>
+        <default>false</default>
+        <label>Actividades de agencias de viajes, operadores turísticos, servicios de reservas y actividades relacionadas con los mismos</label>
+    </customValue>
+    <customValue>
+        <fullName>Actividades de seguridad e investigación</fullName>
+        <default>false</default>
+        <label>Actividades de seguridad e investigación</label>
+    </customValue>
+    <customValue>
+        <fullName>Servicios a edificios y actividades de jardinería</fullName>
+        <default>false</default>
+        <label>Servicios a edificios y actividades de jardinería</label>
+    </customValue>
+    <customValue>
+        <fullName>Actividades administrativas de oficina y otras actividades auxiliares a las empresas</fullName>
+        <default>false</default>
+        <label>Actividades administrativas de oficina y otras actividades auxiliares a las empresas</label>
+    </customValue>
+    <customValue>
+        <fullName>Administración pública y defensa, Seguridad Social obligatoria</fullName>
+        <default>false</default>
+        <label>Administración pública y defensa, Seguridad Social obligatoria</label>
+    </customValue>
+    <customValue>
+        <fullName>Educación</fullName>
+        <default>false</default>
+        <label>Educación</label>
+    </customValue>
+    <customValue>
+        <fullName>Actividades Sanitarias</fullName>
+        <default>false</default>
+        <label>Actividades Sanitarias</label>
+    </customValue>
+    <customValue>
+        <fullName>Asistencia en establecimientos residenciales</fullName>
+        <default>false</default>
+        <label>Asistencia en establecimientos residenciales</label>
+    </customValue>
+    <customValue>
+        <fullName>Actividades de servicio sociales sin alojamiento</fullName>
+        <default>false</default>
+        <label>Actividades de servicio sociales sin alojamiento</label>
+    </customValue>
+    <customValue>
+        <fullName>Actividades de bibliotecas, archivos, museos y otras actividades culturales.</fullName>
+        <default>false</default>
+        <label>Actividades de bibliotecas, archivos, museos y otras actividades culturales.</label>
+    </customValue>
+    <description>NO SE USA. SEGMENTACIÓN. Usado en objetos Leads</description>
+    <masterLabel>Epígrafe CNAE</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

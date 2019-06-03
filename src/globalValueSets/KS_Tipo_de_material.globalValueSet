@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>1</fullName>
+        <default>false</default>
+        <label>1</label>
+    </customValue>
+    <customValue>
+        <fullName>DIEN</fullName>
+        <default>false</default>
+        <label>DIEN</label>
+    </customValue>
+    <customValue>
+        <fullName>FERT</fullName>
+        <default>false</default>
+        <label>FERT</label>
+    </customValue>
+    <customValue>
+        <fullName>HALB</fullName>
+        <default>false</default>
+        <label>HALB</label>
+    </customValue>
+    <customValue>
+        <fullName>ZMKI</fullName>
+        <default>false</default>
+        <label>ZMKI</label>
+    </customValue>
+    <customValue>
+        <fullName>ZMKT</fullName>
+        <default>false</default>
+        <label>ZMKT</label>
+    </customValue>
+    <customValue>
+        <fullName>ZPUB</fullName>
+        <default>false</default>
+        <label>ZPUB</label>
+    </customValue>
+    <customValue>
+        <fullName>ZEMB</fullName>
+        <default>false</default>
+        <label>ZEMB</label>
+    </customValue>
+    <customValue>
+        <fullName>ZMAF</fullName>
+        <default>false</default>
+        <label>ZMAF</label>
+    </customValue>
+    <description>SAP. Uso --&gt; Cliente Distribuidor - Producto --&gt; CARGADO</description>
+    <masterLabel>Tipo de material</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

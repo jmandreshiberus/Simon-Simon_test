@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>CFR</masterLabel>
+        <translation>Costs and freight</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CIF</masterLabel>
+        <translation>Costs, insurance &amp; freight</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CIP</masterLabel>
+        <translation>Carriage and insurance paid to</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CPT</masterLabel>
+        <translation>Carriage paid to</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DAF</masterLabel>
+        <translation>Delivered at frontier</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DAP</masterLabel>
+        <translation>Delivered at place</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DAT</masterLabel>
+        <translation>Delivered at terminal</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DDP</masterLabel>
+        <translation>Delivered Duty Paid</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DDU</masterLabel>
+        <translation>Delivered Duty Unpaid</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DEQ</masterLabel>
+        <translation>Delivered ex quay (duty paid)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DES</masterLabel>
+        <translation>Delivered ex ship</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>EXW</masterLabel>
+        <translation>Ex Works</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FAS</masterLabel>
+        <translation>Free Alongside Ship</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FCA</masterLabel>
+        <translation>Free Carrier</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FH</masterLabel>
+        <translation>Free house</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FOB</masterLabel>
+        <translation>Free on board</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UN</masterLabel>
+        <translation>Not Free</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZEC</masterLabel>
+        <translation>Ex-Works China</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZEE</masterLabel>
+        <translation>Ex-Works Europe</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZEI</masterLabel>
+        <translation>Ex-Works India</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZFC</masterLabel>
+        <translation>Free on board China/HK</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZFE</masterLabel>
+        <translation>Free on board Europe</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZFG</masterLabel>
+        <translation>Free on board Egypt</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZFI</masterLabel>
+        <translation>Free on board India</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZFM</masterLabel>
+        <translation>Free on board Morocco</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZFU</masterLabel>
+        <translation>Free on board USA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZPC</masterLabel>
+        <translation>Carriage paid for Customer</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZPD</masterLabel>
+        <translation>Carriage due</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZPP</masterLabel>
+        <translation>Carriage paid to</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZZ</masterLabel>
+        <translation><!-- ZZZ --></translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

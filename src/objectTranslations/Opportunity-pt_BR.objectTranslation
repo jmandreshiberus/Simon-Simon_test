@@ -1,0 +1,1110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Oferta</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Ofertas</value>
+    </caseValues>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Acesso à oferta</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_access</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Nível de acesso à oferta</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_access_level</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Alerta de oferta</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_alert</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Valor da oferta</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_amount</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Porta-arquivos com base em ofertas</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_based_briefcase</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Data de fechamento da oferta</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>opportunity_close_date</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Oferta encerrada</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>opportunity_closed</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Concorrente de oferta</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_competitor</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Relatório do concorrente da oferta</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_competitor_report</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Contato da oferta</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_contact</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Relatório de contatos da oferta</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_contact_report</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Papel do contato da oferta</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Papéis do contato da oferta</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_contact_role</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Criador da oferta</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_creator</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Moeda da oferta</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_currency</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Descrição da oferta</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>opportunity_description</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Página de Detalhes de Oferta</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>opportunity_detail_page</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Divisão da oferta</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>opportunity_division</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Edição de oferta</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>opportunity_edit</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Campo da oferta</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Campos da oferta</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_field</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Histórico de campos de oferta</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_field_history</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>ID do histórico de campos de oferta</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>opportunity_field_history_id</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Relatório do histórico de campos de oferta</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_field_history_report</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Previsão de oferta</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Previsões de ofertas</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>opportunity_forecast</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Categoria de previsão da oferta</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>opportunity_forecast_category</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Editar previsão de oferta</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_forecast_edit</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Campos da oferta</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_history</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>ID do histórico de ofertas</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_history_id</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Informações do histórico de ofertas</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>opportunity_history_information</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Relatório do histórico da oferta</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_history_report</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>ID da oferta</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_id</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Info da oferta</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>opportunity_info</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Informações da oferta</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>opportunity_information</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Origem do lead da oferta</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>opportunity_lead_source</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Item da oferta</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_line_item</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Campo do item da oferta</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Campos do item da oferta</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_line_item_field</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>ID do item da oferta</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_line_item_id</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Nome da oferta</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Nomes da oferta</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_name</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Proprietário da oferta</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Proprietários da oferta</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_owner</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Alias do proprietário da oferta</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_owner_alias</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Email do proprietário da oferta</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_owner_email</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Relatório de parceiros da oferta</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_partner_report</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Listas de opções de ofertas</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>opportunity_picklists</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Funil de ofertas</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_pipeline</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Tendência do funil de ofertas</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>opportunity_pipeline_trend</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Nome de produto da oferta</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Nomes de produto da oferta</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_product_name</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Quantidade da oferta</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>opportunity_quantity</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Tipo de registro de oferta</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Tipos de registro de oferta</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_record_type</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Relatório de ofertas</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Relatórios de ofertas</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_report</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Relatório da agenda de ofertas</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_schedule_report</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Origem da oferta</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Origens de ofertas</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>opportunity_source</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Fase da oferta</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Fases da oferta</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>opportunity_stage</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Relatório de duração das fases da oferta</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_stage_duration_report</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>ID da fase da oferta</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>opportunity_stage_id</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Nome da fase da oferta</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_stage_name</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Valor da lista de opções de fases da oferta</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_stage_picklist_value</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Status da fase da oferta</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_stage_status</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Status da oferta</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_status</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Equipe de ofertas</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Equipes de ofertas</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>opportunity_team</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Membro da equipe da oferta</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Membros da equipe da oferta</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_team_member</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Campo de Membro da equipe da oferta</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Campos de Membros da equipe da oferta</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_team_member_field</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>ID do membro da equipe da oferta</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_team_member_id</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Ofertas da Equipe de Ofertas e Relatório de Produtos</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Ofertas da Equipe de Ofertas e Relatório de Produtos</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>opportunity_team_product_report</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Relatório da Equipe de Ofertas</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Relatórios da Equipe de Ofertas</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_team_report</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Território da oferta</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Territórios da oferta</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_territory</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Território de Oferta</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Territórios de Ofertas</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_territory2</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Relatório de territórios de ofertas</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_territory_report</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Tendência de ofertas</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Tendências de ofertas</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>opportunity_trend</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Informações sobre as tendências de ofertas</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>opportunity_trend_information</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Relatório de tendências de ofertas</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_trend_report</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Tipo de oferta</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_type</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Modo de exibição de ofertas</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Modos de exibição de ofertas</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_view</name>
+    </fields>
+    <fields>
+        <label><!-- Agente de contabilización --></label>
+        <name>KS_Agente_de_contabilizacion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Aprobado --></label>
+        <name>KS_Aprobado__c</name>
+    </fields>
+    <fields>
+        <label><!-- Área Fórmula --></label>
+        <name>KS_AreaF__c</name>
+    </fields>
+    <fields>
+        <label><!-- Área --></label>
+        <name>KS_Area__c</name>
+    </fields>
+    <fields>
+        <label><!-- KS_COUNT_LineasOferta --></label>
+        <name>KS_COUNT_LineasOferta__c</name>
+    </fields>
+    <fields>
+        <label><!-- Canal --></label>
+        <name>KS_Canal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cliente final Importe PVP --></label>
+        <name>KS_Cliente_final_Importe_PVP__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cliente final MSC en PVP --></label>
+        <name>KS_Cliente_final_MSC_en_PVP__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cliente final / Prescriptor --></label>
+        <name>KS_Cliente_final__c</name>
+        <relationshipLabel><!-- Ofertas (Cliente final) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contabiliza --></label>
+        <name>KS_Contabiliza__c</name>
+    </fields>
+    <fields>
+        <label><!-- Creador Name --></label>
+        <name>KS_Creador_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delegación Fórmula --></label>
+        <name>KS_DelegacionF__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delegación --></label>
+        <name>KS_Delegacion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Descuento total Cliente Final --></label>
+        <name>KS_Descuento_total_Cliente_Final__c</name>
+    </fields>
+    <fields>
+        <label><!-- Descuento total Distribuidor --></label>
+        <name>KS_Descuento_total_Distribuidor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Descuento total Instalador --></label>
+        <name>KS_Descuento_total_Instalador__c</name>
+    </fields>
+    <fields>
+        <label><!-- Distribuidor CRM --></label>
+        <name>KS_Distribuidor_CRM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Distribuidor MSC en PVP --></label>
+        <name>KS_Distribuidor_MSC_en_PVP__c</name>
+    </fields>
+    <fields>
+        <label><!-- Distribuidor --></label>
+        <name>KS_Distribuidor__c</name>
+        <relationshipLabel><!-- Ofertas (Distribuidor) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Distribuidor importe PVP --></label>
+        <name>KS_Distribuidor_importe_PVP__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dto. Volumen --></label>
+        <name>KS_Dto_Volumen__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email responsable --></label>
+        <name>KS_Email_responsable__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estado de aprobación --></label>
+        <name>KS_Estado_de_aprobacion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Funciona --></label>
+        <name>KS_Funciona__c</name>
+    </fields>
+    <fields>
+        <label><!-- Importe neto esperado --></label>
+        <name>KS_Importe_neto_esperado__c</name>
+    </fields>
+    <fields>
+        <label><!-- Importe neto Cliente Final --></label>
+        <name>KS_Importe_total_Cliente_Final__c</name>
+    </fields>
+    <fields>
+        <label><!-- Importe neto Instalador --></label>
+        <name>KS_Importe_total_Instalador_c__c</name>
+    </fields>
+    <fields>
+        <label><!-- Importe neto fichas --></label>
+        <name>KS_Importe_total_fichas__c</name>
+    </fields>
+    <fields>
+        <label><!-- Instalador Importe PVP --></label>
+        <name>KS_Instalador_Importe_PVP__c</name>
+    </fields>
+    <fields>
+        <label><!-- Instalador MSC en PVP --></label>
+        <name>KS_Instalador_MSC_en_PVP__c</name>
+    </fields>
+    <fields>
+        <label><!-- Instalador --></label>
+        <name>KS_Instalador__c</name>
+        <relationshipLabel><!-- Ofertas (Instalador) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Lista de Precios --></label>
+        <name>KS_Lista_de_precios__c</name>
+    </fields>
+    <fields>
+        <label><!-- Margen Cliente final --></label>
+        <name>KS_Margen_Cliente__c</name>
+    </fields>
+    <fields>
+        <label><!-- Margen distribuidor --></label>
+        <name>KS_Margen_Distribuidor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Margen Instalador --></label>
+        <name>KS_Margen_Instalador__c</name>
+    </fields>
+    <fields>
+        <label><!-- Margen Intervinientes --></label>
+        <name>KS_Margen_Intervinientes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Margen Operación --></label>
+        <name>KS_Margen_Operacion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Descuento distribuidor --></label>
+        <name>KS_Margen_distribuidor_pctge__c</name>
+    </fields>
+    <fields>
+        <label><!-- Margen instalador --></label>
+        <name>KS_Margen_instalador_pctge__c</name>
+    </fields>
+    <fields>
+        <label><!-- Migration Id --></label>
+        <name>KS_Migration_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nivel2 --></label>
+        <name>KS_Nivel2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nivel3 --></label>
+        <name>KS_Nivel3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nivel4 --></label>
+        <name>KS_Nivel4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nivel de aprobación (de 4) --></label>
+        <name>KS_Nivel_de_aprobacion_de_4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estado obra --></label>
+        <name>KS_Obra_Estado__c</name>
+    </fields>
+    <fields>
+        <label><!-- Obra --></label>
+        <name>KS_Obra__c</name>
+        <relationshipLabel><!-- Ofertas --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Oferta ID --></label>
+        <name>KS_Oferta_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Oferta Origen (String) --></label>
+        <name>KS_Oferta_Origen_String__c</name>
+    </fields>
+    <fields>
+        <label><!-- Oferta Origen --></label>
+        <name>KS_Oferta_Origen__c</name>
+        <relationshipLabel><!-- Oportunidades --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Marca Comercial --></label>
+        <name>KS_Organizacion_Cliente__c</name>
+        <relationshipLabel><!-- Oportunidades --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Organización de ventas --></label>
+        <name>KS_Organizacion_Ventas__c</name>
+    </fields>
+    <fields>
+        <label><!-- Organización de ventas --></label>
+        <name>KS_Organizacion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Organización de ventas (FÓRMULA) --></label>
+        <name>KS_Organizacion_de_ventas__c</name>
+    </fields>
+    <fields>
+        <label><!-- PVP con MSC para Cliente Final --></label>
+        <name>KS_PVP_con_MSC_para_Cliente_Final__c</name>
+    </fields>
+    <fields>
+        <label><!-- PVP con MSC para Instalador --></label>
+        <name>KS_PVP_con_MSC_para_Instalador__c</name>
+    </fields>
+    <fields>
+        <label><!-- PVP con MSC para Instalador (fx) --></label>
+        <name>KS_PVP_con_MSC_para_Instalador_fx__c</name>
+    </fields>
+    <fields>
+        <label><!-- País Distribuidor --></label>
+        <name>KS_Pais__c</name>
+    </fields>
+    <fields>
+        <label><!-- Prescrito --></label>
+        <name>KS_Prescrito__c</name>
+    </fields>
+    <fields>
+        <label><!-- Probabilidad (%) --></label>
+        <name>KS_Probabilidad__c</name>
+    </fields>
+    <fields>
+        <label><!-- Protegido --></label>
+        <name>KS_Protected__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ref. Proyecto/Equivalente --></label>
+        <name>KS_Referencia__c</name>
+    </fields>
+    <fields>
+        <label><!-- Resp.Conectividad --></label>
+        <name>KS_Resp_Conectividad__c</name>
+        <relationshipLabel><!-- Ofertas (Resp.Conectividad) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Resp.Iluminación --></label>
+        <name>KS_Resp_Iluminacion__c</name>
+        <relationshipLabel><!-- Ofertas (Resp.Iluminación) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Resp. Jefe de Area --></label>
+        <name>KS_Resp_Jefe_de_Area__c</name>
+        <relationshipLabel><!-- Ofertas (Resp. Jefe de Area) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Resp.Negocio Iberia 2 --></label>
+        <name>KS_Resp_Negocio_Iberia_2__c</name>
+        <relationshipLabel><!-- Ofertas (Resp.Negocio Iberia 2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Resp.Sist.Control --></label>
+        <name>KS_Resp_Sist_Control__c</name>
+        <relationshipLabel><!-- Ofertas (Resp.Sist.Control) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Resp.Vehículo Eléctrico --></label>
+        <name>KS_Resp_Vehiculo_Electrico__c</name>
+        <relationshipLabel><!-- Ofertas (Resp.Vehículo Eléctrico) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Resp.Negocio Iberia --></label>
+        <name>KS_Resp_negocio_iberia__c</name>
+        <relationshipLabel><!-- Ofertas (Resp.Negocio Iberia) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Resp.Resto de gamas --></label>
+        <name>KS_Resp_resto_de_gamas__c</name>
+        <relationshipLabel><!-- Ofertas (Resp.Resto de gamas) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sector --></label>
+        <name>KS_Sector__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sincronización --></label>
+        <name>KS_Sincronizacion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subetapa --></label>
+        <name>KS_Subetapa__c</name>
+    </fields>
+    <fields>
+        <label><!-- Submitted for Approval --></label>
+        <name>KS_Submitted_for_Approval__c</name>
+    </fields>
+    <fields>
+        <label><!-- (Control) Suma Dto Ad 2 --></label>
+        <name>KS_Suma_Dto_Ad2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tiempo elaboración --></label>
+        <name>KS_Tiempo_elaboracion__c</name>
+    </fields>
+    <fields>
+        <label><!-- WRONG Distribuidor --></label>
+        <name>KS_WRONG_Distribuidor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zona Fórmula --></label>
+        <name>KS_ZonaF__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zona --></label>
+        <name>KS_Zona__c</name>
+    </fields>
+    <fields>
+        <label><!-- Descuento total operación --></label>
+        <name>KS_descuento_total_operacion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ficha máxima --></label>
+        <name>KS_max_ficha__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ficha mínima --></label>
+        <name>KS_min_ficha__c</name>
+    </fields>
+    <fields>
+        <label><!-- Condición de Obra (TOTAL) --></label>
+        <name>KS_sum_condicion_obra__c</name>
+    </fields>
+    <fields>
+        <label><!-- % MSC Cliente Final --></label>
+        <name>MSC_Cliente_Final__c</name>
+    </fields>
+    <fields>
+        <label><!-- % MSC Distribuidor --></label>
+        <name>MSC_Distribuidor__c</name>
+    </fields>
+    <fields>
+        <label><!-- % MSC Instalador --></label>
+        <name>MSC_Instalador__c</name>
+    </fields>
+    <fields>
+        <label><!-- PVP con MSC para Instalador (fx) --></label>
+        <name>PVP_con_MSC_para_Instalador_fx__c</name>
+    </fields>
+    <fields>
+        <label><!-- PVP con MSC para distribuidor --></label>
+        <name>PVP_con_MSC_para_distribuidor__c</name>
+    </fields>
+    <fields>
+        <label><!-- ImporteNetoxPx --></label>
+        <name>SI_ImporteNeto_probabilidad__c</name>
+    </fields>
+    <fields>
+        <label><!-- ImportesPVPxPx --></label>
+        <name>SI_ImportesPVP_probabilidad__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Format ofertas cliente</layout>
+        <sections>
+            <label><!-- Ficha --></label>
+            <section>Ficha</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato Oportunidades Export</layout>
+        <sections>
+            <label><!-- Ficha --></label>
+            <section>Ficha</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato Oportunidades Export Cliente</layout>
+        <sections>
+            <label><!-- Ficha --></label>
+            <section>Ficha</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato de oportunidades</layout>
+        <sections>
+            <label><!-- Ficha --></label>
+            <section>Ficha</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Oferta --></label>
+        <name>KS_Oferta</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Oferta Export --></label>
+        <name>KS_Oferta_Export</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Oferta Export Cliente --></label>
+        <name>KS_Oferta_Export_Cliente</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Oferta cliente --></label>
+        <name>KS_Oferta_cliente</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- El tipo de cuenta seleccionada tan sólo puede ser Cliente Instalador o Candidato con canal Instalador. --></errorMessage>
+        <name>ControlInstaladoresOfertas</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- La oferta no puede contabilizar si se adjudica a otro distribuidor. Desmarca la opción contabiliza. --></errorMessage>
+        <name>Control_NoContbilizaOtro</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No puede seleccionar un agente de contabilización que no esta informado en la oferta --></errorMessage>
+        <name>Control_contabilizacion</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No puede usarse un distribuidor genérico para contabilizar una oferta --></errorMessage>
+        <name>Control_no_generico</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No puede usarse un distribuidor genérico para generar una oferta de proteccion --></errorMessage>
+        <name>Control_proteccion_no_generico</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Este tipo de oferta requiere obligatóriamente una vinculación con una obra --></errorMessage>
+        <name>Obligatoriedad_de_obra</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede cambiar de marca una oferta con productos añadidos. --></errorMessage>
+        <name>Oferta_Marca_TieneProductos</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- CUSTOM_Oferta --></label>
+        <name>CUSTOM_Oferta</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- KS_Calcular_descuentos --></label>
+        <name>KS_Calcular_descuentos</name>
+    </webLinks>
+</CustomObjectTranslation>

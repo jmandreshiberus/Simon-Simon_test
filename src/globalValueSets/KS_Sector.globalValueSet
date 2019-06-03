@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Residencial</fullName>
+        <default>false</default>
+        <label>Residencial</label>
+    </customValue>
+    <customValue>
+        <fullName>Terciario</fullName>
+        <default>false</default>
+        <label>Terciario</label>
+    </customValue>
+    <customValue>
+        <fullName>Hotelero</fullName>
+        <default>false</default>
+        <label>Hotelero</label>
+    </customValue>
+    <customValue>
+        <fullName>Retail</fullName>
+        <default>false</default>
+        <label>Retail</label>
+    </customValue>
+    <customValue>
+        <fullName>Healthcare</fullName>
+        <default>false</default>
+        <label>Healthcare</label>
+    </customValue>
+    <customValue>
+        <fullName>Otros</fullName>
+        <default>false</default>
+        <label>Otros</label>
+    </customValue>
+    <customValue>
+        <fullName>Edificios administrativos</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Edificios administrativos</label>
+    </customValue>
+    <customValue>
+        <fullName>Industrial (Naves, Fábricas, etc...)</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Industrial (Naves, Fábricas, etc...)</label>
+    </customValue>
+    <customValue>
+        <fullName>Educación</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Educación</label>
+    </customValue>
+    <description>SEGMENTACIÓN. Usado como variable de segmentación en cuentas</description>
+    <masterLabel>Sector</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,29 @@
+<apex:page standardController="Event" extensions="KS_FlowRedirectController">
+    
+    <apex:includeScript value="/support/console/37.0/integration.js"/>
+    <script type="text/javascript">
+    if ({!haveRep}) {
+        if((typeof sforce != 'undefined') && (sforce != null)) {
+            sforce.one.navigateToURL('/{!gotoURL}', true);
+        } else {
+            location.href = '/{!gotoURL}';
+        }
+    }
+    </script>
+    <style type="text/css">
+        .FlowContainer{
+            width:100%;
+        }
+        .report_flow{
+        	width:100%;
+        }
+        textarea{
+            width:100%;
+        }
+    </style>
+    <div class="report_flow">
+        <flow:interview interview="{!report}" name="NewReport" finishLocation="{!redirect}">
+            <apex:param name="idCita" value="{!Event.Id}"/>
+        </flow:interview>        
+    </div>
+</apex:page>

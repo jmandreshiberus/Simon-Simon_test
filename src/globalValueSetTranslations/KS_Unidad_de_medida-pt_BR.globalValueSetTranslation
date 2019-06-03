@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>%</masterLabel>
+        <translation>Porcentagem</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BAR</masterLabel>
+        <translation>Bar</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BOL</masterLabel>
+        <translation>Saco</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CA</masterLabel>
+        <translation>Caixa</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CCM</masterLabel>
+        <translation><!-- CCM --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CDM</masterLabel>
+        <translation><!-- CDM --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CM</masterLabel>
+        <translation>Centímetro</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CM2</masterLabel>
+        <translation>Centímetro quadrado</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CM3</masterLabel>
+        <translation>Centímetro cúbico</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DM</masterLabel>
+        <translation>Decímetro</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DM3</masterLabel>
+        <translation>Decímetro cúbico</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DÍA</masterLabel>
+        <translation>Dias</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G</masterLabel>
+        <translation>Grama</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>H</masterLabel>
+        <translation>Hora</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HRA</masterLabel>
+        <translation>Horas</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KG</masterLabel>
+        <translation>Quilograma</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>L</masterLabel>
+        <translation>Litro</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LC</masterLabel>
+        <translation>Garrafa</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LMI</masterLabel>
+        <translation>Litros/minuto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M</masterLabel>
+        <translation>Metro</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M2</masterLabel>
+        <translation>Metro quadrado</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M3</masterLabel>
+        <translation>Metro cúbico</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MG</masterLabel>
+        <translation>Miligrama</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MM</masterLabel>
+        <translation>Milímetro</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MM2</masterLabel>
+        <translation>Milímetros quadrados</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MM3</masterLabel>
+        <translation>Milímetro cúbico</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MMQ</masterLabel>
+        <translation><!-- MMQ --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PAL</masterLabel>
+        <translation>Palete</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>T</masterLabel>
+        <translation>Tonelada</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UN</masterLabel>
+        <translation>Peça</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBR</masterLabel>
+        <translation><!-- ZBR --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZCE</masterLabel>
+        <translation>Caixa de som</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZCM</masterLabel>
+        <translation>Caixa de múltipla</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZCU</masterLabel>
+        <translation>Caixa de som fator 1000</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZPE</masterLabel>
+        <translation>Palet Europeia</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

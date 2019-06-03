@@ -1,0 +1,1189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Obra</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Obras</value>
+    </caseValues>
+    <fields>
+        <label><!-- Descriptivo Obra --></label>
+        <name>Descriptivo_Obra__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Actividad --></label>
+        <name>KS_Actividad__c</name>
+    </fields>
+    <fields>
+        <label><!-- Autor del proyecto --></label>
+        <name>KS_Autor_del_proyecto__c</name>
+        <relationshipLabel><!-- Obras (Autor del proyecto) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Código Postal --></label>
+        <name>KS_Codigo_Postal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Código postal autor --></label>
+        <name>KS_Codigo_postal_autor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Código postal constructor --></label>
+        <name>KS_Codigo_postal_constructor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Código postal --></label>
+        <name>KS_Codigo_postal_oportunidad__c</name>
+    </fields>
+    <fields>
+        <label><!-- Código postal promotor --></label>
+        <name>KS_Codigo_postal_promotor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Condición de obra --></label>
+        <name>KS_Condicion_de_obra__c</name>
+    </fields>
+    <fields>
+        <label><!-- Constructor --></label>
+        <name>KS_Constructor__c</name>
+        <relationshipLabel><!-- Obras (Constructor) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Coordinador --></label>
+        <name>KS_Coordinador__c</name>
+        <relationshipLabel><!-- Obras (Coordinador) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Descripción / Comentarios --></label>
+        <name>KS_Descripcion_Comentarios_oportunidades__c</name>
+    </fields>
+    <fields>
+        <label><!-- Descripción --></label>
+        <name>KS_Descripcion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dirección --></label>
+        <name>KS_Direccion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dirección del autor del proyecto --></label>
+        <name>KS_Direccion_del_autor_del_proyecto__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dirección del constructor --></label>
+        <name>KS_Direccion_del_constructor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dirección --></label>
+        <name>KS_Direccion_oportunidad__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dirección promotor --></label>
+        <name>KS_Direccion_promotor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Duración (meses) --></label>
+        <name>KS_Duracion_meses__c</name>
+    </fields>
+    <fields>
+        <label><!-- Duración (meses) --></label>
+        <name>KS_Duracion_meses_oportunidades__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email constructor --></label>
+        <name>KS_Email_constructor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email promotor --></label>
+        <name>KS_Email_promotor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fase --></label>
+        <name>KS_Fase__c</name>
+        <picklistValues>
+            <masterLabel>Abandonada / Desestimada</masterLabel>
+            <translation><!-- Abandonada / Desestimada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finalizada</masterLabel>
+            <translation><!-- Finalizada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Obra</masterLabel>
+            <translation><!-- Obra --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parada</masterLabel>
+            <translation><!-- Parada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Proyecto</masterLabel>
+            <translation><!-- Proyecto --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Fase (construdatos) --></label>
+        <name>KS_Fase_construdatos__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha inauguración --></label>
+        <name>KS_Fecha_Inaguracion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha conversión --></label>
+        <name>KS_Fecha_conversion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha de inicio --></label>
+        <name>KS_Fecha_de_inicio__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha de inicio --></label>
+        <name>KS_Fecha_de_inicio_oportunidades__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha de notificación --></label>
+        <name>KS_Fecha_de_notificacion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha de publicación --></label>
+        <name>KS_Fecha_de_publicacion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Id Obra --></label>
+        <name>KS_Id_Obra__c</name>
+    </fields>
+    <fields>
+        <label><!-- Id obra Construdatos --></label>
+        <name>KS_Id_obra_Construdatos__c</name>
+    </fields>
+    <fields>
+        <label><!-- Línea de negocio --></label>
+        <name>KS_L_nea_de_negocio__c</name>
+    </fields>
+    <fields>
+        <label><!-- Marca Ubicación --></label>
+        <name>KS_Marca__c</name>
+    </fields>
+    <fields>
+        <label><!-- Migration Id --></label>
+        <name>KS_Migration_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Motivo de abandono --></label>
+        <name>KS_Motivos__c</name>
+    </fields>
+    <fields>
+        <label><!-- NIF Promotor --></label>
+        <name>KS_NIF_Promotor__c</name>
+    </fields>
+    <fields>
+        <label><!-- NIF autor --></label>
+        <name>KS_NIF_autor__c</name>
+    </fields>
+    <fields>
+        <label><!-- NIF constructor --></label>
+        <name>KS_NIF_constructor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nombre agente --></label>
+        <name>KS_Nombre_agente__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nombre autor del proyecto --></label>
+        <name>KS_Nombre_autor_del_proyecto__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nombre del constructor --></label>
+        <name>KS_Nombre_del_constructor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nombre del promotor --></label>
+        <name>KS_Nombre_del_promotor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Número de viviendas --></label>
+        <name>KS_Numero_de_viviendas__c</name>
+    </fields>
+    <fields>
+        <label><!-- Número de viviendas --></label>
+        <name>KS_Numero_de_viviendas_oportunidades__c</name>
+    </fields>
+    <fields>
+        <label><!-- Obra matriz --></label>
+        <name>KS_Obra_matriz__c</name>
+        <relationshipLabel><!-- Obras --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Obra protegida --></label>
+        <name>KS_Obra_protegida__c</name>
+    </fields>
+    <fields>
+        <label><!-- Origen de la Obra(OLD) --></label>
+        <name>KS_Origen_de_la_Obra__c</name>
+    </fields>
+    <fields>
+        <label><!-- País --></label>
+        <name>KS_Pais__c</name>
+    </fields>
+    <fields>
+        <label><!-- País --></label>
+        <name>KS_Pais_oportunidad__c</name>
+    </fields>
+    <fields>
+        <label><!-- Población --></label>
+        <name>KS_Poblacion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Poblacion autor --></label>
+        <name>KS_Poblacion_autor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Población del constructor --></label>
+        <name>KS_Poblacion_del_constructor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Población --></label>
+        <name>KS_Poblacion_oportunidad__c</name>
+    </fields>
+    <fields>
+        <label><!-- Población promotor --></label>
+        <name>KS_Poblacion_promotor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Prescrito --></label>
+        <name>KS_Prescrito__c</name>
+    </fields>
+    <fields>
+        <label><!-- Presupuesto --></label>
+        <name>KS_Presupuesto__c</name>
+    </fields>
+    <fields>
+        <label><!-- Promotor --></label>
+        <name>KS_Promotor__c</name>
+        <relationshipLabel><!-- Obras --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Provincia --></label>
+        <name>KS_Provincia__c</name>
+    </fields>
+    <fields>
+        <label><!-- Provincia autor --></label>
+        <name>KS_Provincia_autor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Provincia del constructor --></label>
+        <name>KS_Provincia_del_constructor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Provincia --></label>
+        <name>KS_Provincia_oportunidad__c</name>
+    </fields>
+    <fields>
+        <label><!-- Provincia promotor --></label>
+        <name>KS_Provincia_promotor__c</name>
+    </fields>
+    <fields>
+        <label><!-- F. Última Actualización --></label>
+        <name>KS_Proximo_seguimiento__c</name>
+    </fields>
+    <fields>
+        <label><!-- Scoring --></label>
+        <name>KS_Scoring__c</name>
+    </fields>
+    <fields>
+        <label><!-- Segmento --></label>
+        <name>KS_Segmento__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actividad --></label>
+        <name>KS_Segmento_construdatos__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tipo de edificio --></label>
+        <name>KS_Sub_Segmento__c</name>
+    </fields>
+    <fields>
+        <label><!-- Superfície (m2) --></label>
+        <name>KS_Superficie_m2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Superficie (m2) --></label>
+        <name>KS_Superficie_oportunidades__c</name>
+    </fields>
+    <fields>
+        <label><!-- Teléfono autor --></label>
+        <name>KS_Telefono_autor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Teléfono del constructor --></label>
+        <name>KS_Telefono_del_constructor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Teléfono promotor --></label>
+        <name>KS_Telefono_promotor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tipo de edificio --></label>
+        <name>KS_Tipo_de_edificio__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tipo de obra --></label>
+        <name>KS_Tipo_de_obra__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tipo de promotor --></label>
+        <name>KS_Tipo_de_promotor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tipo de proyecto --></label>
+        <name>KS_Tipo_de_proyecto__c</name>
+        <picklistValues>
+            <masterLabel>Ampliación</masterLabel>
+            <translation><!-- Ampliación --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nueva</masterLabel>
+            <translation><!-- Nueva --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reforma</masterLabel>
+            <translation><!-- Reforma --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- URL --></label>
+        <name>KS_URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- URL plataforma contratación --></label>
+        <name>KS_URL_plataforma_contratacion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ubicaciones (COUNT) --></label>
+        <name>KS_Ubicaciones_COUNT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Usuario conversor --></label>
+        <name>KS_Usuario_conversor__c</name>
+        <relationshipLabel><!-- Obras (Usuario conversor) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Website autor --></label>
+        <name>KS_Website_autor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Website constructor --></label>
+        <name>KS_Website_constructor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Website promotor --></label>
+        <name>KS_Website_promotor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Agente más influyente --></label>
+        <lookupFilter>
+            <errorMessage><!-- El interviniente que esta buscando no aparece como interviniente de la obra --></errorMessage>
+        </lookupFilter>
+        <name>KS_agente_mas_influyente__c</name>
+        <relationshipLabel><!-- Obras --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Email autor --></label>
+        <name>KS_email_autor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fluvia Aprobado --></label>
+        <name>KS_hasFluvia_Approv__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fluvia - Aprobación oferta --></label>
+        <name>KS_hasFluvia_Approv_icon__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fluvia Protegido --></label>
+        <name>KS_hasFluvia_Protected__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fluvia - Obra protegida --></label>
+        <name>KS_hasFluvia_Protected_icon__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fluvia --></label>
+        <name>KS_hasFluvia__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fluvia Condición de Obra --></label>
+        <name>KS_hasFluvia_condicion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fluvia - Condición de obra --></label>
+        <name>KS_hasFluvia_condicion_icon__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lighting Aprobado --></label>
+        <name>KS_hasLighting_Approv__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lighting - Aprobación oferta --></label>
+        <name>KS_hasLighting_Approv_icon__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lighting Protegido --></label>
+        <name>KS_hasLighting_Protected__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lighting - Obra protegida --></label>
+        <name>KS_hasLighting_Protected_icon__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lighting --></label>
+        <name>KS_hasLighting__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lighting Condición de Obra --></label>
+        <name>KS_hasLighting_condicion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lighting - Condición de obra --></label>
+        <name>KS_hasLighting_condicion_icon__c</name>
+    </fields>
+    <fields>
+        <label><!-- Simon Aprobado --></label>
+        <name>KS_hasSimon_Approv__c</name>
+    </fields>
+    <fields>
+        <label><!-- Simon - Aprobación oferta --></label>
+        <name>KS_hasSimon_Approv_icon__c</name>
+    </fields>
+    <fields>
+        <label><!-- Simon Protegido --></label>
+        <name>KS_hasSimon_Protected__c</name>
+    </fields>
+    <fields>
+        <label><!-- Simon - Obra protegida --></label>
+        <name>KS_hasSimon_Protected_icon__c</name>
+    </fields>
+    <fields>
+        <label><!-- Simon --></label>
+        <name>KS_hasSimon__c</name>
+    </fields>
+    <fields>
+        <label><!-- Simon Condición de Obra --></label>
+        <name>KS_hasSimon_condicion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Simon - Condición de obra --></label>
+        <name>KS_hasSimon_condicion_icon__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nombre Extendido --></label>
+        <name>Name_Ext__c</name>
+    </fields>
+    <fields>
+        <label><!-- Código Zona Construdatos --></label>
+        <name>SI_Codigo_Zona_Construdatos__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha Alta Construdatos --></label>
+        <name>SI_Fecha_Alta_construdatos__c</name>
+    </fields>
+    <fields>
+        <label><!-- Id Autor Construdatos --></label>
+        <name>SI_Id_Autor_Construdatos__c</name>
+    </fields>
+    <fields>
+        <label><!-- Id Constructor Construdatos --></label>
+        <name>SI_Id_Constructor_Construdatos__c</name>
+    </fields>
+    <fields>
+        <label><!-- Id Construdatos BD Obra --></label>
+        <name>SI_Id_Construdatos_BD_Obra__c</name>
+    </fields>
+    <fields>
+        <label><!-- Id Construdatos BD Proyecto --></label>
+        <name>SI_Id_Construdatos_BD_Proyecto__c</name>
+    </fields>
+    <fields>
+        <label><!-- Id Promotor Construdatos --></label>
+        <name>SI_Id_Promotor_Construdatos__c</name>
+    </fields>
+    <fields>
+        <label><!-- Origen de la Obra --></label>
+        <name>SI_OrigenObra__c</name>
+        <picklistValues>
+            <masterLabel>Carga Manual</masterLabel>
+            <translation><!-- Carga Manual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cliente Final</masterLabel>
+            <translation><!-- Cliente Final --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Construdatos</masterLabel>
+            <translation><!-- Construdatos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Instalador / Distribuidor</masterLabel>
+            <translation><!-- Instalador / Distribuidor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Online</masterLabel>
+            <translation><!-- Online --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prescriptor</masterLabel>
+            <translation><!-- Prescriptor --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tipo de edificio --></label>
+        <name>SI_SubSegmento__c</name>
+        <picklistValues>
+            <masterLabel>Academias de Enseñanza</masterLabel>
+            <translation><!-- Academias de Enseñanza --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Acuarios</masterLabel>
+            <translation><!-- Acuarios --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Agencia de Viajes</masterLabel>
+            <translation><!-- Agencia de Viajes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Albergues</masterLabel>
+            <translation><!-- Albergues --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alojamientos Rurales</masterLabel>
+            <translation><!-- Alojamientos Rurales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alquiler Automóbiles</masterLabel>
+            <translation><!-- Alquiler Automóbiles --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aparcamientos</masterLabel>
+            <translation><!-- Aparcamientos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Apartamentos Turísticos</masterLabel>
+            <translation><!-- Apartamentos Turísticos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Areas de descanso</masterLabel>
+            <translation><!-- Areas de descanso --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Auditorios</masterLabel>
+            <translation><!-- Auditorios --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Balnearios</masterLabel>
+            <translation><!-- Balnearios --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bancos y cajas</masterLabel>
+            <translation><!-- Bancos y cajas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bibliotecas</masterLabel>
+            <translation><!-- Bibliotecas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bodegas</masterLabel>
+            <translation><!-- Bodegas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bolsos</masterLabel>
+            <translation><!-- Bolsos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Camping</masterLabel>
+            <translation><!-- Camping --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Campos de Golf</masterLabel>
+            <translation><!-- Campos de Golf --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Campos de fútbol</masterLabel>
+            <translation><!-- Campos de fútbol --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Casetas modulares</masterLabel>
+            <translation><!-- Casetas modulares --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Casinos</masterLabel>
+            <translation><!-- Casinos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Castillos y Palacios</masterLabel>
+            <translation><!-- Castillos y Palacios --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Centros Comerciales</masterLabel>
+            <translation><!-- Centros Comerciales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Centros Culturales</masterLabel>
+            <translation><!-- Centros Culturales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Centros Invierno</masterLabel>
+            <translation><!-- Centros Invierno --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Centros Penitenciarios</masterLabel>
+            <translation><!-- Centros Penitenciarios --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Centros de Día</masterLabel>
+            <translation><!-- Centros de Día --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Centros de Salud</masterLabel>
+            <translation><!-- Centros de Salud --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cines</masterLabel>
+            <translation><!-- Cines --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clubs deportivos</masterLabel>
+            <translation><!-- Clubs deportivos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clínicas</masterLabel>
+            <translation><!-- Clínicas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clínicas Dentales</masterLabel>
+            <translation><!-- Clínicas Dentales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Comisarias y Cuarteles</masterLabel>
+            <translation><!-- Comisarias y Cuarteles --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Concesionarios Automoción</masterLabel>
+            <translation><!-- Concesionarios Automoción --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Conservatorios</masterLabel>
+            <translation><!-- Conservatorios --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Conventos</masterLabel>
+            <translation><!-- Conventos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deporte</masterLabel>
+            <translation><!-- Deporte --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Edificios Administrativos Públicos</masterLabel>
+            <translation><!-- Edificios Administrativos Públicos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Electrónica</masterLabel>
+            <translation><!-- Electrónica --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Escuelas Complementarias</masterLabel>
+            <translation><!-- Escuelas Complementarias --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Escuelas Primaria (Colegios) / Secundaria (Institutos)</masterLabel>
+            <translation><!-- Escuelas Primaria (Colegios) / Secundaria (Institutos) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Estaciones de Autobuses</masterLabel>
+            <translation><!-- Estaciones de Autobuses --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Estaciones de ferrocarril</masterLabel>
+            <translation><!-- Estaciones de ferrocarril --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Farmacias</masterLabel>
+            <translation><!-- Farmacias --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ferretería</masterLabel>
+            <translation><!-- Ferretería --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fábricas</masterLabel>
+            <translation><!-- Fábricas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gasolineras, Areas de servicio</masterLabel>
+            <translation><!-- Gasolineras, Areas de servicio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Geriátricos y Residencias 3ª Edad</masterLabel>
+            <translation><!-- Geriátricos y Residencias 3ª Edad --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gimnasios</masterLabel>
+            <translation><!-- Gimnasios --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gran Superficie Alimentación</masterLabel>
+            <translation><!-- Gran Superficie Alimentación --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gran Superficie Construcción y Bricolage</masterLabel>
+            <translation><!-- Gran Superficie Construcción y Bricolage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gran cadena restauracion</masterLabel>
+            <translation><!-- Gran cadena restauracion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guarderías</masterLabel>
+            <translation><!-- Guarderías --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hangares</masterLabel>
+            <translation><!-- Hangares --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hospitales</masterLabel>
+            <translation><!-- Hospitales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hoteles</masterLabel>
+            <translation><!-- Hoteles --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Iglesias, Catedrales</masterLabel>
+            <translation><!-- Iglesias, Catedrales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Iluminación Hogar</masterLabel>
+            <translation><!-- Iluminación Hogar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Joyerías</masterLabel>
+            <translation><!-- Joyerías --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jugueterías</masterLabel>
+            <translation><!-- Jugueterías --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Laboratorios</masterLabel>
+            <translation><!-- Laboratorios --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Librería</masterLabel>
+            <translation><!-- Librería --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loft</masterLabel>
+            <translation><!-- Loft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Menaje</masterLabel>
+            <translation><!-- Menaje --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mensajería</masterLabel>
+            <translation><!-- Mensajería --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Muebles</masterLabel>
+            <translation><!-- Muebles --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Museos</masterLabel>
+            <translation><!-- Museos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oficinas</masterLabel>
+            <translation><!-- Oficinas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opticas</masterLabel>
+            <translation><!-- Opticas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pabellones deportivos</masterLabel>
+            <translation><!-- Pabellones deportivos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pabellones, naves y almacenes</masterLabel>
+            <translation><!-- Pabellones, naves y almacenes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Palacios de Congresos</masterLabel>
+            <translation><!-- Palacios de Congresos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paradores</masterLabel>
+            <translation><!-- Paradores --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parking Indoor</masterLabel>
+            <translation><!-- Parking Indoor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parking Outdoor</masterLabel>
+            <translation><!-- Parking Outdoor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parque de Bomberos</masterLabel>
+            <translation><!-- Parque de Bomberos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parques Temáticos y de Ocio</masterLabel>
+            <translation><!-- Parques Temáticos y de Ocio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parques acuáticos</masterLabel>
+            <translation><!-- Parques acuáticos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pensiones / Moteles / Hostales</masterLabel>
+            <translation><!-- Pensiones / Moteles / Hostales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pequeño Comercio Alimentación</masterLabel>
+            <translation><!-- Pequeño Comercio Alimentación --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Perfumerías</masterLabel>
+            <translation><!-- Perfumerías --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Piscinas</masterLabel>
+            <translation><!-- Piscinas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pistas deportivas</masterLabel>
+            <translation><!-- Pistas deportivas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plazas de Toros</masterLabel>
+            <translation><!-- Plazas de Toros --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Psiquiátricos</masterLabel>
+            <translation><!-- Psiquiátricos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recambios Automoción</masterLabel>
+            <translation><!-- Recambios Automoción --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recintos Feriales</masterLabel>
+            <translation><!-- Recintos Feriales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Refinerías</masterLabel>
+            <translation><!-- Refinerías --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Residencias de Estudiantes</masterLabel>
+            <translation><!-- Residencias de Estudiantes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Residencias y Geriátricos</masterLabel>
+            <translation><!-- Residencias y Geriátricos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Restaurantes / Bares</masterLabel>
+            <translation><!-- Restaurantes / Bares --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spass</masterLabel>
+            <translation><!-- Spass --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supermercados</masterLabel>
+            <translation><!-- Supermercados --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Talleres Automoción</masterLabel>
+            <translation><!-- Talleres Automoción --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tanatorios</masterLabel>
+            <translation><!-- Tanatorios --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Teatros</masterLabel>
+            <translation><!-- Teatros --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Telefonía</masterLabel>
+            <translation><!-- Telefonía --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Terminales Aeroportuarias</masterLabel>
+            <translation><!-- Terminales Aeroportuarias --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Terminales de mercancías</masterLabel>
+            <translation><!-- Terminales de mercancías --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Textil</masterLabel>
+            <translation><!-- Textil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Textil Hogar</masterLabel>
+            <translation><!-- Textil Hogar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tiendas y Locales Comerciales</masterLabel>
+            <translation><!-- Tiendas y Locales Comerciales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Torres de Control</masterLabel>
+            <translation><!-- Torres de Control --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Universidades</masterLabel>
+            <translation><!-- Universidades --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Viviendas Alto standing (Chalets, Torres, etc)</masterLabel>
+            <translation><!-- Viviendas Alto standing (Chalets, Torres, etc) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Viviendas Modulares</masterLabel>
+            <translation><!-- Viviendas Modulares --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Viviendas Protección Oficial - VPO</masterLabel>
+            <translation><!-- Viviendas Protección Oficial - VPO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Viviendas Tuteladas</masterLabel>
+            <translation><!-- Viviendas Tuteladas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Viviendas Unifamiliares</masterLabel>
+            <translation><!-- Viviendas Unifamiliares --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Viviendas Vacacionales</masterLabel>
+            <translation><!-- Viviendas Vacacionales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Viviendas Verticales</masterLabel>
+            <translation><!-- Viviendas Verticales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zapaterías</masterLabel>
+            <translation><!-- Zapaterías --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- address_old --></label>
+        <name>SI_address_old__c</name>
+    </fields>
+    <fields>
+        <label><!-- UCIN External ID --></label>
+        <name>UCIN_External_ID__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Formato Construdatos</layout>
+        <sections>
+            <label><!-- Autor del proyecto --></label>
+            <section>Autor del proyecto</section>
+        </sections>
+        <sections>
+            <label><!-- Constructor --></label>
+            <section>Constructor</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Datos Promotor --></label>
+            <section>Datos Promotor</section>
+        </sections>
+        <sections>
+            <label><!-- Dirección de la obra --></label>
+            <section>Dirección de la obra</section>
+        </sections>
+        <sections>
+            <label><!-- Lookups --></label>
+            <section>Lookups</section>
+        </sections>
+        <sections>
+            <label><!-- Simon --></label>
+            <section>Simon</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato Construdatos-sys</layout>
+        <sections>
+            <label><!-- Autor del proyecto --></label>
+            <section>Autor del proyecto</section>
+        </sections>
+        <sections>
+            <label><!-- Constructor --></label>
+            <section>Constructor</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Datos Promotor --></label>
+            <section>Datos Promotor</section>
+        </sections>
+        <sections>
+            <label><!-- Dirección de la obra --></label>
+            <section>Dirección de la obra</section>
+        </sections>
+        <sections>
+            <label><!-- Lookups --></label>
+            <section>Lookups</section>
+        </sections>
+        <sections>
+            <label><!-- Simon --></label>
+            <section>Simon</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato Obra</layout>
+        <sections>
+            <label><!-- Construdatos. Autor del proyecto --></label>
+            <section>Construdatos. Autor del proyecto</section>
+        </sections>
+        <sections>
+            <label><!-- Construdatos. Constructor --></label>
+            <section>Construdatos. Constructor</section>
+        </sections>
+        <sections>
+            <label><!-- Construdatos. Detalles --></label>
+            <section>Construdatos. Detalles</section>
+        </sections>
+        <sections>
+            <label><!-- Construdatos. Dirección de la obra --></label>
+            <section>Construdatos. Dirección de la obra</section>
+        </sections>
+        <sections>
+            <label><!-- Construdatos. Promotor --></label>
+            <section>Construdatos. Promotor</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Dirección de la obra --></label>
+            <section>Dirección de la obra</section>
+        </sections>
+        <sections>
+            <label><!-- Lookups --></label>
+            <section>Lookups</section>
+        </sections>
+        <sections>
+            <label><!-- Ofertas --></label>
+            <section>Ofertas</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato Obra-sys</layout>
+        <sections>
+            <label><!-- Construdatos. Autor del proyecto --></label>
+            <section>Construdatos. Autor del proyecto</section>
+        </sections>
+        <sections>
+            <label><!-- Construdatos. Constructor --></label>
+            <section>Construdatos. Constructor</section>
+        </sections>
+        <sections>
+            <label><!-- Construdatos. Detalles --></label>
+            <section>Construdatos. Detalles</section>
+        </sections>
+        <sections>
+            <label><!-- Construdatos. Dirección de la obra --></label>
+            <section>Construdatos. Dirección de la obra</section>
+        </sections>
+        <sections>
+            <label><!-- Construdatos. Promotor --></label>
+            <section>Construdatos. Promotor</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Dirección de la obra --></label>
+            <section>Dirección de la obra</section>
+        </sections>
+        <sections>
+            <label><!-- Estado --></label>
+            <section>Estado</section>
+        </sections>
+        <sections>
+            <label><!-- Lookups --></label>
+            <section>Lookups</section>
+        </sections>
+        <sections>
+            <label><!-- Marcas presentes --></label>
+            <section>Marcas presentes</section>
+        </sections>
+        <sections>
+            <label><!-- Ofertas --></label>
+            <section>Ofertas</section>
+        </sections>
+        <sections>
+            <label><!-- Segmentación --></label>
+            <section>Segmentación</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Crear Oferta --></label>
+        <name>Crear_Oferta</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- Tipo de registro para alojar las obras provenientes de Construdatos --></description>
+        <label><!-- Construdatos --></label>
+        <name>KS_Construdatos</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Tipo de registro, para registrar las obras sobre las que se va a ofertar o se ha ofertado. --></description>
+        <label><!-- Oportunidades --></label>
+        <name>KS_Oportunidades</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- No puede modificarse la línea de negocio de una obra ya creada. --></errorMessage>
+        <name>Previene_cambio_de_linea_de_negocio</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No puede crearse una obra sin código postal y país como datos mínimos de dirección. --></errorMessage>
+        <name>ValidarDireccionesObra</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Antes de convertir la obra de construdatos, por favor edite los siguientes valores:
+Línea de negocio, Tipo de edifico, Segmento, Scoring, Código Postal, País, Fase --></errorMessage>
+        <name>Validar_cambio_de_Construdato_a_Oportuni</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Convertir --></label>
+        <name>Convertir</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Duplicar --></label>
+        <name>Duplicar</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- KS_Convertir_a_oportunidad --></label>
+        <name>KS_Convertir_a_oportunidad</name>
+    </webLinks>
+</CustomObjectTranslation>

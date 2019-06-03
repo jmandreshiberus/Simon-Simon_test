@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>FK_NAME</field>
+    </columns>
+    <columns>
+        <field>FK_$Account.KS_Canal__c</field>
+    </columns>
+    <columns>
+        <field>CUST_OWNER_NAME</field>
+    </columns>
+    <columns>
+        <field>FK_ACC_ADDR2_STATE_CODE</field>
+    </columns>
+    <columns>
+        <field>KS_Reporte__c.KS_Fecha_de_inicio__c</field>
+    </columns>
+    <currency>EUR</currency>
+    <filter>
+        <criteriaItems>
+            <column>CUST_CREATED_ALIAS</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Apen,Ecuezva,IRVN,Ldel,RCri,Mgar</value>
+        </criteriaItems>
+        <language>es</language>
+    </filter>
+    <format>Tabular</format>
+    <name>REPORTES INST. CENTRO</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$KS_Reporte__c@KS_Reporte__c.KS_Cuenta__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CUST_CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CURFY</interval>
+    </timeFrameFilter>
+</Report>

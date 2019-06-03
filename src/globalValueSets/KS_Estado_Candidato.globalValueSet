@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Datos brutos</fullName>
+        <default>false</default>
+        <label>Datos brutos</label>
+    </customValue>
+    <customValue>
+        <fullName>Datos depurados</fullName>
+        <default>false</default>
+        <label>Datos depurados</label>
+    </customValue>
+    <customValue>
+        <fullName>A explorar</fullName>
+        <default>false</default>
+        <label>A explorar</label>
+    </customValue>
+    <customValue>
+        <fullName>En prospección</fullName>
+        <default>false</default>
+        <label>En prospección</label>
+    </customValue>
+    <customValue>
+        <fullName>En maduración</fullName>
+        <default>false</default>
+        <label>En maduración</label>
+    </customValue>
+    <customValue>
+        <fullName>Oportunidad en curso</fullName>
+        <default>false</default>
+        <label>Oportunidad en curso</label>
+    </customValue>
+    <description>En Uso --&gt; Usado en cuentas de tipo lead para seguimiento etapa Candidato</description>
+    <masterLabel>Estado Candidato</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

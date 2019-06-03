@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Fusion</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Fusiones</value>
+    </caseValues>
+    <fields>
+        <label><!-- KS_Acc_Actividad --></label>
+        <name>KS_Acc_Actividad__c</name>
+    </fields>
+    <fields>
+        <label><!-- KS_Acc_Calle --></label>
+        <name>KS_Acc_Calle__c</name>
+    </fields>
+    <fields>
+        <label><!-- KS_Acc_Canal --></label>
+        <name>KS_Acc_Canal__c</name>
+    </fields>
+    <fields>
+        <label><!-- KS_Acc_Ciudad --></label>
+        <name>KS_Acc_Ciudad__c</name>
+    </fields>
+    <fields>
+        <label><!-- KS_Acc_Codigo_Postal --></label>
+        <name>KS_Acc_Codigo_Postal__c</name>
+    </fields>
+    <fields>
+        <label><!-- KS_Acc_Correo --></label>
+        <name>KS_Acc_Correo__c</name>
+    </fields>
+    <fields>
+        <label><!-- KS_Acc_Estado_Provincia --></label>
+        <name>KS_Acc_Estado_Provincia__c</name>
+    </fields>
+    <fields>
+        <label><!-- KS_Acc_Pais --></label>
+        <name>KS_Acc_Pais__c</name>
+    </fields>
+    <fields>
+        <label><!-- KS_Acc_Sector --></label>
+        <name>KS_Acc_Sector__c</name>
+    </fields>
+    <fields>
+        <label><!-- KS_Acc_Subactividad --></label>
+        <name>KS_Acc_Subactividad__c</name>
+    </fields>
+    <fields>
+        <label><!-- KS_Acc_Telefono_2 --></label>
+        <name>KS_Acc_Telefono_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- KS_Acc_Telefono_3 --></label>
+        <name>KS_Acc_Telefono_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- KS_Acc_Telefono --></label>
+        <name>KS_Acc_Telefono__c</name>
+    </fields>
+    <fields>
+        <label><!-- KS_Accion --></label>
+        <name>KS_Accion__c</name>
+        <picklistValues>
+            <masterLabel>DELETE</masterLabel>
+            <translation><!-- DELETE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MERGE</masterLabel>
+            <translation><!-- MERGE --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- KS_Ctc_Calle --></label>
+        <name>KS_Ctc_Calle__c</name>
+    </fields>
+    <fields>
+        <label><!-- KS_Ctc_Cargo --></label>
+        <name>KS_Ctc_Cargo__c</name>
+    </fields>
+    <fields>
+        <label><!-- KS_Ctc_Ciudad --></label>
+        <name>KS_Ctc_Ciudad__c</name>
+    </fields>
+    <fields>
+        <label><!-- KS_Ctc_Codigo_Postal --></label>
+        <name>KS_Ctc_Codigo_Postal__c</name>
+    </fields>
+    <fields>
+        <label><!-- KS_Ctc_Correo --></label>
+        <name>KS_Ctc_Correo__c</name>
+    </fields>
+    <fields>
+        <label><!-- KS_Ctc_Estado_Provincia --></label>
+        <name>KS_Ctc_Estado_Provincia__c</name>
+    </fields>
+    <fields>
+        <label><!-- KS_Ctc_Funcion_en_empresa --></label>
+        <name>KS_Ctc_Funcion_en_empresa__c</name>
+    </fields>
+    <fields>
+        <label><!-- KS_Ctc_Idioma --></label>
+        <name>KS_Ctc_Idioma__c</name>
+    </fields>
+    <fields>
+        <label><!-- KS_Ctc_Movil --></label>
+        <name>KS_Ctc_Movil__c</name>
+    </fields>
+    <fields>
+        <label><!-- KS_Ctc_Pais --></label>
+        <name>KS_Ctc_Pais__c</name>
+    </fields>
+    <fields>
+        <label><!-- KS_Ctc_Telefono_Particular --></label>
+        <name>KS_Ctc_Telefono_Particular__c</name>
+    </fields>
+    <fields>
+        <label><!-- KS_Ctc_Telefono --></label>
+        <name>KS_Ctc_Telefono__c</name>
+    </fields>
+    <fields>
+        <label><!-- KS_Force_Merge --></label>
+        <name>KS_Force_Merge__c</name>
+    </fields>
+    <fields>
+        <label><!-- KS_Id_Duplicado_2 --></label>
+        <name>KS_Id_Duplicado_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- KS_Id_Duplicado --></label>
+        <name>KS_Id_Duplicado__c</name>
+    </fields>
+    <fields>
+        <label><!-- KS_Id_Principal --></label>
+        <name>KS_Id_Principal__c</name>
+    </fields>
+    <fields>
+        <label><!-- KS_Tipo --></label>
+        <name>KS_Tipo__c</name>
+        <picklistValues>
+            <masterLabel>ACCOUNT</masterLabel>
+            <translation><!-- ACCOUNT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CONTACT</masterLabel>
+            <translation><!-- CONTACT --></translation>
+        </picklistValues>
+    </fields>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Formato Fusion</layout>
+        <sections>
+            <label><!-- CONTACTO --></label>
+            <section>CONTACTO</section>
+        </sections>
+        <sections>
+            <label><!-- CUENTA --></label>
+            <section>CUENTA</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

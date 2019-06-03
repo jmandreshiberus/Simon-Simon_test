@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Esta plantilla se utilizará cuando no podamos contactar por teléfono con el candidato</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Header_Simon</letterhead>
+    <name>Correo No contactado</name>
+    <style>formalLetter</style>
+    <subject>Asesoramiento Gratuito SIMON</subject>
+    <textOnly>Hola {!Contact.FirstName}
+Soy {!User.FirstName}, de Consultoría de Interiorismo de SIMON. Me notifican que nos solicita información gratuita y personalizada a través de nuestro blog Detailerssimon.com. Me encantará ayudarle en su proyecto. Hemos llamado en varias ocasiones pero no hemos conseguido contactar.
+
+
+Necesito que me facilite un horario y un número de teléfono para poder  llamarle, comentar sus necesidades y planificar el asesoramiento más adecuado (muestras, catálogos, una posible visita, etc.)
+
+
+Quedo a la espera de su respuesta para poder seguir adelante con el asesoramiento.
+
+
+Un placer saludarle y poder colaborar.
+{!User.FirstName} {!User.LastName}
+{!User.Department}
+{!User.Email}
+{!User.MobilePhone}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

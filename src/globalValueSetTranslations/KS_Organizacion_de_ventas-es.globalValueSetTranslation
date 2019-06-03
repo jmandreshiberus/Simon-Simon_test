@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>1</masterLabel>
+        <translation><!-- 1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FL31</masterLabel>
+        <translation>Fluvia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GI50</masterLabel>
+        <translation>Simon Brico</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IE20</masterLabel>
+        <translation>Simon Lighting</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MA15</masterLabel>
+        <translation>Simon International</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MA16</masterLabel>
+        <translation>Simon Holding Maroc</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MX24</masterLabel>
+        <translation>Simon-MX24</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MX25</masterLabel>
+        <translation>Simon-MX25</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MX26</masterLabel>
+        <translation>Simon-MX26</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SI10</masterLabel>
+        <translation>Simon-SI10</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

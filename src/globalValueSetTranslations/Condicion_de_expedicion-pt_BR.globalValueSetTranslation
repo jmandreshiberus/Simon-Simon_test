@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>01</masterLabel>
+        <translation>Normal Terrestre</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>02</masterLabel>
+        <translation>Tte. Especial Urgent</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>03</masterLabel>
+        <translation>Seus Meios</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>04</masterLabel>
+        <translation>Seleção Cliente</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>05</masterLabel>
+        <translation>Nossos meios</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>06</masterLabel>
+        <translation><!-- 06 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>07</masterLabel>
+        <translation><!-- 07 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>08</masterLabel>
+        <translation><!-- 08 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>09</masterLabel>
+        <translation>Correio</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>97</masterLabel>
+        <translation>Rem.Industrialização</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>98</masterLabel>
+        <translation>Devoluções Consignaç</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>99</masterLabel>
+        <translation>Devoluções</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>9C</masterLabel>
+        <translation><!-- 9C --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C1</masterLabel>
+        <translation><!-- C1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C2</masterLabel>
+        <translation>Preparação Especial</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CC</masterLabel>
+        <translation>Carga Completa</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GB</masterLabel>
+        <translation>Gran. Sup. Bricolage</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>OF</masterLabel>
+        <translation>Publicidade Escritór</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>OU</masterLabel>
+        <translation><!-- OU --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PU</masterLabel>
+        <translation>Publicidade</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TR</masterLabel>
+        <translation>Transfer. e Atribuiç</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TW</masterLabel>
+        <translation><!-- TW --></translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

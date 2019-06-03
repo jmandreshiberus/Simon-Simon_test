@@ -1,0 +1,999 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>AD</masterLabel>
+        <translation><!-- AD --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AE</masterLabel>
+        <translation>United Arab Emirates</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AF</masterLabel>
+        <translation>Afghanistan</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AG</masterLabel>
+        <translation>Antigua and Barbuda</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AI</masterLabel>
+        <translation>Anguilla</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AL</masterLabel>
+        <translation><!-- AL --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AM</masterLabel>
+        <translation><!-- AM --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AO</masterLabel>
+        <translation><!-- AO --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AQ</masterLabel>
+        <translation>Antarctica</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AR</masterLabel>
+        <translation><!-- AR --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AS</masterLabel>
+        <translation>American Samoa</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AT</masterLabel>
+        <translation><!-- AT --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AU</masterLabel>
+        <translation><!-- AU --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AW</masterLabel>
+        <translation><!-- AW --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AX</masterLabel>
+        <translation>Åland Islands</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AZ</masterLabel>
+        <translation>Azerbaijan</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BA</masterLabel>
+        <translation>Bosnia and Herzegovina</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BB</masterLabel>
+        <translation><!-- BB --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BD</masterLabel>
+        <translation><!-- BD --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BE</masterLabel>
+        <translation>Belgium</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BF</masterLabel>
+        <translation><!-- BF --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BG</masterLabel>
+        <translation><!-- BG --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BH</masterLabel>
+        <translation>Bahrain</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BI</masterLabel>
+        <translation><!-- BI --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BJ</masterLabel>
+        <translation><!-- BJ --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BL</masterLabel>
+        <translation><!-- BL --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BM</masterLabel>
+        <translation>Bermuda</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BN</masterLabel>
+        <translation><!-- BN --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BO</masterLabel>
+        <translation>Bolivia (Plurinational State of)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BQ</masterLabel>
+        <translation>Bonaire, Sint Eustatius and Saba</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BR</masterLabel>
+        <translation>Brazil</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BS</masterLabel>
+        <translation>Bahamas</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BT</masterLabel>
+        <translation>Bhutan</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BV</masterLabel>
+        <translation>Bouvet Island</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BW</masterLabel>
+        <translation><!-- BW --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BY</masterLabel>
+        <translation>Belarus</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BZ</masterLabel>
+        <translation>Belize</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CA</masterLabel>
+        <translation>Canada</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CC</masterLabel>
+        <translation>Cocos (Keeling) Islands</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CD</masterLabel>
+        <translation>Congo (Democratic Republic of the)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CF</masterLabel>
+        <translation>Central African Republic</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CG</masterLabel>
+        <translation>Congo</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CH</masterLabel>
+        <translation>Switzerland</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CI</masterLabel>
+        <translation><!-- CI --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CK</masterLabel>
+        <translation>Cook Islands</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CL</masterLabel>
+        <translation><!-- CL --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CM</masterLabel>
+        <translation>Cameroon</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CN</masterLabel>
+        <translation><!-- CN --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CO</masterLabel>
+        <translation><!-- CO --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CR</masterLabel>
+        <translation><!-- CR --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CU</masterLabel>
+        <translation><!-- CU --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CV</masterLabel>
+        <translation><!-- CV --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CW</masterLabel>
+        <translation><!-- CW --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CX</masterLabel>
+        <translation>Christmas Island</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CY</masterLabel>
+        <translation>Cyprus</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CZ</masterLabel>
+        <translation>Czechia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DE</masterLabel>
+        <translation>Germany</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DJ</masterLabel>
+        <translation><!-- DJ --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DK</masterLabel>
+        <translation>Denmark</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DM</masterLabel>
+        <translation><!-- DM --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DO</masterLabel>
+        <translation>Dominican Republic</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DZ</masterLabel>
+        <translation>Algeria</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>EC</masterLabel>
+        <translation><!-- EC --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>EE</masterLabel>
+        <translation><!-- EE --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>EG</masterLabel>
+        <translation>Egypt</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>EH</masterLabel>
+        <translation>Western Sahara</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ER</masterLabel>
+        <translation><!-- ER --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ES</masterLabel>
+        <translation>Spain</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ET</masterLabel>
+        <translation>Ethiopia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FI</masterLabel>
+        <translation>Finland</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FJ</masterLabel>
+        <translation><!-- FJ --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FK</masterLabel>
+        <translation>Falkland Islands (Malvinas)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FM</masterLabel>
+        <translation>Micronesia (Federated States of)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FO</masterLabel>
+        <translation>Faroe Islands</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FR</masterLabel>
+        <translation>France</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GA</masterLabel>
+        <translation>Gabon</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GB</masterLabel>
+        <translation>United Kingdom of Great Britain and Northern Ireland</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GD</masterLabel>
+        <translation>Grenada</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GE</masterLabel>
+        <translation><!-- GE --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GF</masterLabel>
+        <translation>French Guiana</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GG</masterLabel>
+        <translation><!-- GG --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GH</masterLabel>
+        <translation><!-- GH --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GI</masterLabel>
+        <translation><!-- GI --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GL</masterLabel>
+        <translation>Greenland</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GM</masterLabel>
+        <translation>Gambia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GN</masterLabel>
+        <translation><!-- GN --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GP</masterLabel>
+        <translation><!-- GP --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GQ</masterLabel>
+        <translation>Equatorial Guinea</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GR</masterLabel>
+        <translation>Greece</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GS</masterLabel>
+        <translation>South Georgia and the South Sandwich Islands</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GT</masterLabel>
+        <translation><!-- GT --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GU</masterLabel>
+        <translation><!-- GU --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GW</masterLabel>
+        <translation>Guinea-Bissau</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GY</masterLabel>
+        <translation><!-- GY --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HK</masterLabel>
+        <translation><!-- HK --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HM</masterLabel>
+        <translation>Heard Island and McDonald Islands</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HN</masterLabel>
+        <translation><!-- HN --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HR</masterLabel>
+        <translation>Croatia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HT</masterLabel>
+        <translation>Haiti</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HU</masterLabel>
+        <translation>Hungary</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ID</masterLabel>
+        <translation><!-- ID --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IE</masterLabel>
+        <translation>Ireland</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IL</masterLabel>
+        <translation><!-- IL --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IM</masterLabel>
+        <translation>Isle of Man</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IN</masterLabel>
+        <translation><!-- IN --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IO</masterLabel>
+        <translation>British Indian Ocean Territory</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IQ</masterLabel>
+        <translation><!-- IQ --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IR</masterLabel>
+        <translation>Iran (Islamic Republic of)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IS</masterLabel>
+        <translation>Iceland</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IT</masterLabel>
+        <translation>Italy</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>JE</masterLabel>
+        <translation><!-- JE --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>JM</masterLabel>
+        <translation><!-- JM --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>JO</masterLabel>
+        <translation>Jordan</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>JP</masterLabel>
+        <translation>Japan</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KE</masterLabel>
+        <translation><!-- KE --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KG</masterLabel>
+        <translation>Kyrgyzstan</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KH</masterLabel>
+        <translation>Cambodia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KI</masterLabel>
+        <translation><!-- KI --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KM</masterLabel>
+        <translation>Comoros</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KN</masterLabel>
+        <translation>Saint Kitts and Nevis</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KP</masterLabel>
+        <translation>Korea (Democratic People&apos;s Republic of)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KR</masterLabel>
+        <translation>Korea (Republic of)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KW</masterLabel>
+        <translation><!-- KW --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KY</masterLabel>
+        <translation>Cayman Islands</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KZ</masterLabel>
+        <translation>Kazakhstan</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LA</masterLabel>
+        <translation>Lao People&apos;s Democratic Republic</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LB</masterLabel>
+        <translation>Lebanon</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LC</masterLabel>
+        <translation>Saint Lucia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LI</masterLabel>
+        <translation><!-- LI --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LK</masterLabel>
+        <translation><!-- LK --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LR</masterLabel>
+        <translation><!-- LR --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LS</masterLabel>
+        <translation><!-- LS --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LT</masterLabel>
+        <translation>Lithuania</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LU</masterLabel>
+        <translation>Luxembourg</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LV</masterLabel>
+        <translation>Latvia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LY</masterLabel>
+        <translation>Libya</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MA</masterLabel>
+        <translation>Morocco</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MC</masterLabel>
+        <translation>Monaco</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MD</masterLabel>
+        <translation>Moldova (Republic of)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ME</masterLabel>
+        <translation><!-- ME --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MF</masterLabel>
+        <translation>Saint Martin (French part)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MG</masterLabel>
+        <translation><!-- MG --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MH</masterLabel>
+        <translation>Marshall Islands</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MK</masterLabel>
+        <translation>Macedonia (the former Yugoslav Republic of)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ML</masterLabel>
+        <translation>Mali</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MM</masterLabel>
+        <translation><!-- MM --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MN</masterLabel>
+        <translation><!-- MN --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MO</masterLabel>
+        <translation><!-- MO --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MP</masterLabel>
+        <translation>Northern Mariana Islands</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MQ</masterLabel>
+        <translation><!-- MQ --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MR</masterLabel>
+        <translation><!-- MR --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MS</masterLabel>
+        <translation><!-- MS --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MT</masterLabel>
+        <translation><!-- MT --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MU</masterLabel>
+        <translation>Mauritius</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MV</masterLabel>
+        <translation>Maldives</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MW</masterLabel>
+        <translation><!-- MW --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MX</masterLabel>
+        <translation>Mexico</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MY</masterLabel>
+        <translation>Malaysia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MZ</masterLabel>
+        <translation><!-- MZ --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NA</masterLabel>
+        <translation><!-- NA --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NC</masterLabel>
+        <translation>New Caledonia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NE</masterLabel>
+        <translation>Niger</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NF</masterLabel>
+        <translation>Norfolk Island</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NG</masterLabel>
+        <translation><!-- NG --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NI</masterLabel>
+        <translation><!-- NI --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NL</masterLabel>
+        <translation>Netherlands</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NO</masterLabel>
+        <translation>Norway</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NP</masterLabel>
+        <translation><!-- NP --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NR</masterLabel>
+        <translation><!-- NR --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NU</masterLabel>
+        <translation><!-- NU --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NZ</masterLabel>
+        <translation>New Zealand</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>OM</masterLabel>
+        <translation>Oman</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PA</masterLabel>
+        <translation>Panama</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PE</masterLabel>
+        <translation>Peru</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PF</masterLabel>
+        <translation>French Polynesia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PG</masterLabel>
+        <translation>Papua New Guinea</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PH</masterLabel>
+        <translation>Philippines</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PK</masterLabel>
+        <translation>Pakistan</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PL</masterLabel>
+        <translation>Poland</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PM</masterLabel>
+        <translation>Saint Pierre and Miquelon</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PN</masterLabel>
+        <translation><!-- PN --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PR</masterLabel>
+        <translation><!-- PR --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PS</masterLabel>
+        <translation>Palestine, State of</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PT</masterLabel>
+        <translation><!-- PT --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PW</masterLabel>
+        <translation><!-- PW --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PY</masterLabel>
+        <translation><!-- PY --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>QA</masterLabel>
+        <translation><!-- QA --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>RE</masterLabel>
+        <translation>Réunion</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>RO</masterLabel>
+        <translation>Romania</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>RS</masterLabel>
+        <translation><!-- RS --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>RU</masterLabel>
+        <translation>Russian Federation</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>RW</masterLabel>
+        <translation><!-- RW --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SA</masterLabel>
+        <translation>Saudi Arabia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SB</masterLabel>
+        <translation>Solomon Islands</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SC</masterLabel>
+        <translation><!-- SC --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SD</masterLabel>
+        <translation>Sudan</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SE</masterLabel>
+        <translation>Sweden</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SG</masterLabel>
+        <translation>Singapore</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SH</masterLabel>
+        <translation>Saint Helena, Ascension and Tristan da Cunha</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SI</masterLabel>
+        <translation>Slovenia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SJ</masterLabel>
+        <translation>Svalbard and Jan Mayen</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SK</masterLabel>
+        <translation>Slovakia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SL</masterLabel>
+        <translation>Sierra Leone</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SM</masterLabel>
+        <translation><!-- SM --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SN</masterLabel>
+        <translation><!-- SN --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SO</masterLabel>
+        <translation><!-- SO --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SR</masterLabel>
+        <translation><!-- SR --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SS</masterLabel>
+        <translation>South Sudan</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ST</masterLabel>
+        <translation>Sao Tome and Principe</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SV</masterLabel>
+        <translation><!-- SV --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SX</masterLabel>
+        <translation>Sint Maarten (Dutch part)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SY</masterLabel>
+        <translation>Syrian Arab Republic</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SZ</masterLabel>
+        <translation>Swaziland</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TC</masterLabel>
+        <translation>Turks and Caicos Islands</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TD</masterLabel>
+        <translation><!-- TD --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TF</masterLabel>
+        <translation>French Southern Territories</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TG</masterLabel>
+        <translation><!-- TG --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TH</masterLabel>
+        <translation>Thailand</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TJ</masterLabel>
+        <translation>Tajikistan</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TK</masterLabel>
+        <translation><!-- TK --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TL</masterLabel>
+        <translation><!-- TL --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TM</masterLabel>
+        <translation>Turkmenistan</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TN</masterLabel>
+        <translation>Tunisia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TO</masterLabel>
+        <translation><!-- TO --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TR</masterLabel>
+        <translation>Turkey</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TT</masterLabel>
+        <translation>Trinidad and Tobago</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TV</masterLabel>
+        <translation><!-- TV --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TW</masterLabel>
+        <translation>Taiwan, Province of China[a]</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TZ</masterLabel>
+        <translation>Tanzania, United Republic of</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UA</masterLabel>
+        <translation>Ukraine</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UG</masterLabel>
+        <translation><!-- UG --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UM</masterLabel>
+        <translation>United States Minor Outlying Islands</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>US</masterLabel>
+        <translation>United States of America</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UY</masterLabel>
+        <translation><!-- UY --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UZ</masterLabel>
+        <translation>Uzbekistan</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VA</masterLabel>
+        <translation>Holy See</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VC</masterLabel>
+        <translation>Saint Vincent and the Grenadines</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VE</masterLabel>
+        <translation>Venezuela (Bolivarian Republic of)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VG</masterLabel>
+        <translation>Virgin Islands (British)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VI</masterLabel>
+        <translation>Virgin Islands (U.S.)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VN</masterLabel>
+        <translation><!-- VN --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VU</masterLabel>
+        <translation><!-- VU --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>WF</masterLabel>
+        <translation>Wallis and Futuna</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>WS</masterLabel>
+        <translation><!-- WS --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>YE</masterLabel>
+        <translation><!-- YE --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>YT</masterLabel>
+        <translation><!-- YT --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZA</masterLabel>
+        <translation>South Africa</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZM</masterLabel>
+        <translation><!-- ZM --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZW</masterLabel>
+        <translation><!-- ZW --></translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

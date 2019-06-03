@@ -1,0 +1,260 @@
+<apex:page standardController="KS_Oferta_pendiente__c" extensions="KS_Oferta_PDF_Controller" applyBodyTag="false" renderAs="pdf" showHeader="false" action="{!attachBUILD}">
+
+    <head>
+        <meta http-equiv="content-type" content="charset=UTF-8" />
+        <style>
+            span.totalPages:after {
+            	content: counter(pages);
+            }
+        </style>
+        <title>OFERTA</title>
+    </head>
+    <body>
+        
+        <apex:outputPanel rendered="{!ofertaPendiente!=null}"> 
+            <div width="100%"> 
+            
+                <div class="header" align="center">
+                    <table width="100%" class="tdHeader">  
+                        <tr style="font-size:1em; width:100%; ">
+                            <td width="33%;" rowspan="1" style="text-align:left; border:0; color:#000000; vertical-align:middle;">
+                                <apex:image url="{!$Resource.logosimon}" width="75%" rendered="{!isMarcaSimon}"/>
+                                <apex:image url="{!$Resource.logofluvia}" width="75%" rendered="{!isMarcaFluvia}"/>
+                                <apex:image url="{!$Resource.logosimon}" width="75%" rendered="{!isMarcaDefault}"/>
+                            </td>
+                            <td width="33%;" style="text-align:left; border:0; color:#000000; font-size:0.6em; padding-top:20px; vertical-align:middle;">
+                                
+                                <span>
+                                    <apex:outputText value="{!$Label.oferta_pdf_contacto_1}" rendered="{!isMarcaSimon||isMarcaDefault}"/>
+                                    <apex:outputText value="{!$Label.oferta_pdf_contacto_1fluvia}" rendered="{!isMarcaFluvia}"/>
+                                </span><br/>
+                                <span>
+                                    <apex:outputText value="{!$Label.oferta_pdf_contacto_2}" rendered="{!isMarcaSimon||isMarcaDefault}"/>
+                                    <apex:outputText value="{!$Label.oferta_pdf_contacto_2fluvia}" rendered="{!isMarcaFluvia}"/>
+                                </span><br/>
+                                <span>
+                                    <apex:outputText value="{!$Label.oferta_pdf_contacto_3}" rendered="{!isMarcaSimon||isMarcaDefault}"/>
+                                    <apex:outputText value="{!$Label.oferta_pdf_contacto_3fluvia}" rendered="{!isMarcaFluvia}"/>
+                                </span><br/>
+                                <span>
+                                    <apex:outputText value="{!$Label.oferta_pdf_contacto_4}" rendered="{!isMarcaSimon||isMarcaDefault}"/>
+                                    <apex:outputText value="{!$Label.oferta_pdf_contacto_4fluvia}" rendered="{!isMarcaFluvia}"/>
+                                </span>
+                               
+                            </td>
+                            <td width="33%;" style="text-align:left; border:0; color:#000000; font-size:0.6em; padding-top:30px; vertical-align:middle;">
+                                <strong><apex:outputText value="{!$Label.oferta_pdf_gestionventas_0}"/></strong><br/>
+                                
+                                <span>
+                                    <apex:outputText value="{!$Label.oferta_pdf_gestionventas_1}" rendered="{!isMarcaSimon||isMarcaDefault}"/>
+                                    <apex:outputText value="{!$Label.oferta_pdf_gestionventas_1fluvia}" rendered="{!isMarcaFluvia}"/>
+                                </span><br/>
+                                <span><apex:outputText value="{!$Label.oferta_pdf_gestionventas_2}" rendered="{!isMarcaSimon||isMarcaDefault}"/></span>
+                                
+                            </td>
+                        </tr>
+                    </table>                
+                </div>
+                <br/>
+                <div style="text-align:left;color:#000000;">
+
+                    <table width="100%" style="border-collapse: collapse;border: 1px solid black;">
+                        <tr style="font-size:16px;border: 1px solid black;">
+                            <th width="15%" style="border-style:solid;border-width:0px 1px 1px 0px;padding:5px;">{!$Label.oferta_pdf_field_fecha}:</th>
+                            <td colspan="3" style="border-style:solid;border-width:0px 0px 1px 0px;padding:5px;">{!fechaPDF}</td>
+                            <th width="15%" style="border-style:solid;border-width:0px 0px 1px 1px;padding:5px;">{!$Label.oferta_pdf_field_pages}:</th>
+                            <td colspan="2" style="border-style:solid;border-width:0px 1px 1px 0px;padding:5px;"><span class="totalPages"></span></td>
+                        </tr>
+                        <tr style="font-size:16px;">
+                            <th width="15%" style="border-style:solid;border-width:0px 1px 1px 0px;padding:5px;">{!$Label.oferta_pdf_field_to}:</th>
+                            <td colspan="6" style="border-style:solid;border-width:0px 1px 1px 0px;padding:5px;">{!ofertaPendiente.KS_Contacto_Name__c}</td>
+                        </tr>
+                        <tr style="font-size:16px;">
+                            <th width="15%" style="border-style:solid;border-width:0px 1px 1px 0px;padding:5px;">{!$Label.oferta_pdf_field_company}:</th>
+                            <td colspan="6" style="border-style:solid;border-width:0px 1px 1px 0px;padding:5px;">{!ofertaPendiente.KS_Cliente_Name__c}</td>
+                        </tr>
+                        <tr style="font-size:16px;">
+                            <th width="15%" style="border-style:solid;border-width:0px 1px 1px 0px;padding:5px;">{!$Label.oferta_pdf_field_from}:</th>
+                            <td colspan="6" style="border-style:solid;border-width:0px 1px 1px 0px;padding:5px;">{!ofertaPendiente.KS_Creador_Name__c}</td>
+                        </tr>
+                        <tr style="font-size:16px;">
+                            <th width="15%" style="border-style:solid;border-width:0px 1px 1px 0px;padding:5px;">{!$Label.oferta_pdf_field_asunto}:</th>
+                            <td colspan="6" style="border-style:solid;border-width:0px 1px 1px 0px;padding:5px;">{!ofertaPendiente.KS_Obra_Name__c}</td>
+                        </tr>
+                        <tr style="font-size:16px;">
+                            <th width="15%" style="border-style:solid;border-width:0px 1px 1px 0px;padding:5px;">{!$Label.oferta_pdf_field_adress}:</th>
+                            <td colspan="6" style="border-style:solid;border-width:0px 1px 1px 0px;padding:5px;">{!ofertaPendiente.KS_Cuenta_Direccion__c}</td>
+                        </tr>
+                    </table>
+                    
+                </div>
+                <br/>
+                <div style="text-align:left;color:#000000;">
+                
+                    <table width="100%">
+                    
+                        <tr style="font-size:16px;"> <td width="7%"></td><td>{!$Label.oferta_pdf_info_01}</td> </tr>
+                        <tr><td>&nbsp;</td></tr>
+                        <tr style="font-size:16px;"> <td width="7%"></td><td>{!$Label.oferta_pdf_info_02}</td> </tr>
+                        <tr><td>&nbsp;</td></tr>
+                        <tr><td>&nbsp;</td></tr>
+                        <tr style="font-size:14px;text-align:right;">
+                            <td colspan="2">
+                                <strong>{!$Label.Oferta}:</strong>&nbsp;{!oferta.KS_Oferta_ID__c}&nbsp;-&nbsp;{!fecha}&nbsp;-&nbsp;{!oferta.Name}</td> 
+                        </tr>
+                        
+                    </table>
+                    
+                </div>                
+                <div style="text-align:left;color:#000000;">
+                    
+                	<apex:repeat var="ficha" value="{!fichas}" rendered="{!hasProductos&&hasDetalle}">
+                    
+                        <div width="100%" style="font-size:14px;text-align:right;color:#999999;border-top:1px dashed black;padding:5px;">
+                            <strong>{!nombre[ficha]}</strong>
+                        </div>
+                    	<table width="100%" style="text-align:center;border-collapse: collapse;border: 1px solid black;">
+                            
+                            <thead>
+                            	<tr style="font-size:14px;">
+                                	<th width="15%" style="text-align:left;border-bottom: 1px solid #BBBBBB;padding:2px;">{!$Label.oferta_field_material}</th>
+                                    <th width="30%" style="text-align:left;border-bottom: 1px solid #BBBBBB;padding:2px;">{!$Label.oferta_field_desc}</th>
+                                    <th width="35%" style="text-align:left;border-bottom: 1px solid #BBBBBB;padding:2px;">{!$Label.oferta_field_detalle}</th>
+                                    <th width="5%" style="text-align:right;border-bottom: 1px solid #BBBBBB;padding:2px;">{!$Label.oferta_field_cantidad_min}</th>
+                                    <th width="10%" style="text-align:right;border-bottom: 1px solid #BBBBBB;padding:2px;">{!$Label.PVP} {!$Label.unidad_lower_min}</th>
+                                    <th width="10%" style="text-align:right;border-bottom: 1px solid #BBBBBB;padding:2px;">{!$Label.PVP} {!$Label.total_lower}</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            	<apex:repeat var="producto" value="{!productosOferta[ficha]}">
+                                    <tr style="font-size:12px;">
+                                    
+                                        <td style="text-align:left;border: 1px solid #BBBBBB;padding:2px;">{!producto.KS_Material__c}</td>
+                                        <td style="text-align:left;border: 1px solid #BBBBBB;padding:2px;">{!producto.KS_Descripcion__c}</td>
+                                        <td style="text-align:left;border: 1px solid #BBBBBB;padding:2px;">{!producto.KS_Referencia__c}</td>
+                                        <td style="text-align:right;border: 1px solid #BBBBBB;padding:2px;">{!producto.KS_Cantidad__c}</td>
+                                        <td style="text-align:right;border: 1px solid #BBBBBB;padding:2px;">{!precioUnidad[producto.UnitPrice]}</td>
+                                        <td style="text-align:right;border: 1px solid #BBBBBB;padding:2px;">{!precioCntdad[producto.KS_Bruto_Cantidad__c]}</td>
+                                        
+                                    </tr>
+                                </apex:repeat>
+                                
+                                <tr style="font-size:14px;">
+                                    <td colspan="2">&nbsp;</td>
+                                    <td colspan="2" style="text-align:left;padding:5px;">{!$Label.PVP} {!$Label.unidad}</td>
+                                    <td style="text-align:right;padding:5px;">{!totalImporte[ficha]}</td>
+                                </tr>
+                                <tr style="font-size:14px;">
+                                    <td colspan="2">&nbsp;</td>
+                                    <td colspan="2" style="text-align:left;padding:5px;">{!$Label.unidad_plrl}</td>
+                                    <td style="text-align:right;padding:5px;">{!totalCantidadFicha[ficha]}</td>
+                                </tr>
+                                <tr style="font-size:14px;">
+                                    <td colspan="2">&nbsp;</td>
+                                    <td colspan="2" style="border: 1px solid #000000;text-align:left;padding:5px;background-color:#FFFFAA;">{!$Label.PVP} {!$Label.total}</td>
+                                    <td style="border: 1px solid #000000;text-align:right;padding:5px;background-color:#FFFFAA;">{!totalImporteFicha[ficha]}</td>
+                                </tr>
+                                <tr style="font-size:14px;text-align:left">
+                                    <td colspan="5"><strong>{!$ObjectType.OpportunityLineItem.fields.KS_Comentarios__c.Label}:</strong>&nbsp;{!comentario[ficha]}</td>
+                                </tr>
+                                
+                            </tbody>
+                            
+                        </table>
+                        <br/>
+                    </apex:repeat>
+                    
+                    <apex:repeat var="ficha" value="{!fichas}" rendered="{!hasProductos&&hasDetalle==false}">
+                        
+                        <div width="100%" style="font-size:14px;text-align:right;color:#999999;border-top:1px dashed black;padding:5px;">
+                            <strong>{!$Label.Oferta_Ficha}: </strong><strong>&nbsp;{!nombre[ficha]}</strong>
+                        </div>
+                        <table width="100%" style="text-align:center;border-collapse: collapse;border: 1px solid black;">
+                            
+                            <thead>
+                                <tr style="font-size:14px;">
+                                    <th width="20%" style="text-align:left;border-bottom: 1px solid #BBBBBB;padding:2px;">{!$Label.oferta_field_material}</th>
+                                    <th width="35%" style="text-align:left;border-bottom: 1px solid #BBBBBB;padding:2px;">{!$Label.oferta_field_desc}</th>
+                                    <th width="10%" style="text-align:right;border-bottom: 1px solid #BBBBBB;padding:2px;">{!$Label.oferta_field_cantidad_min}</th>
+                                    <th width="10%" style="text-align:right;border-bottom: 1px solid #BBBBBB;padding:2px;">{!$Label.PVP} {!$Label.unidad_lower_min}</th>
+                                    <th width="10%" style="text-align:right;border-bottom: 1px solid #BBBBBB;padding:2px;">{!$Label.PVP} {!$Label.total_lower}</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <apex:repeat var="producto" value="{!productosOferta[ficha]}">
+                                    <tr style="font-size:12px;">
+                                        
+                                        <td style="text-align:left;border: 1px solid #BBBBBB;padding:2px;">{!producto.KS_Material__c}</td>
+                                        <td style="text-align:left;border: 1px solid #BBBBBB;padding:2px;">{!producto.KS_Descripcion__c}</td>
+                                        <td style="text-align:right;border: 1px solid #BBBBBB;padding:2px;">{!producto.KS_Cantidad__c}</td>
+                                        <td style="text-align:right;border: 1px solid #BBBBBB;padding:2px;">{!precioUnidad[producto.UnitPrice]}</td>
+                                        <td style="text-align:right;border: 1px solid #BBBBBB;padding:2px;">{!precioCntdad[producto.KS_Bruto_Cantidad__c]}</td>
+                                        
+                                    </tr>
+                                </apex:repeat>
+                                
+                                <tr style="font-size:14px;">
+                                    <td colspan="2">&nbsp;</td>
+                                    <td colspan="2" style="text-align:left;padding:5px;">{!$Label.PVP} {!$Label.unidad}</td>
+                                    <td style="text-align:right;padding:5px;">{!totalImporte[ficha]}</td>
+                                </tr>
+                                <tr style="font-size:14px;">
+                                    <td colspan="2">&nbsp;</td>
+                                    <td colspan="2" style="text-align:left;padding:5px;">{!$Label.unidad_plrl}</td>
+                                    <td style="text-align:right;padding:5px;">{!totalCantidadFicha[ficha]}</td>
+                                </tr>
+                                <tr style="font-size:14px;">
+                                    <td colspan="2">&nbsp;</td>
+                                    <td colspan="2" style="border: 1px solid #000000;text-align:left;padding:5px;background-color:#FFFFAA;">{!$Label.PVP} {!$Label.total}</td>
+                                    <td style="border: 1px solid #000000;text-align:right;padding:5px;background-color:#FFFFAA;">{!totalImporteFicha[ficha]}</td>
+                                </tr>
+                                <tr style="font-size:14px;text-align:left">
+                                    <td colspan="5"><strong>{!$ObjectType.OpportunityLineItem.fields.KS_Comentarios__c.Label}:</strong>&nbsp;{!comentario[ficha]}</td>
+                                </tr>
+                                
+                            </tbody>
+                            
+                        </table>
+                        <br/>
+                    </apex:repeat>                    
+                    
+                    <table width="100%" style="text-align:center;border-collapse: collapse;">
+                    
+                        <tbody>
+
+                            <tr>
+                                <td colspan="3" style="border-top:1px solid black;"><br/></td>
+                            </tr>
+                            
+                            <tr style="font-size:14px;text-align:right;">
+                            
+                                <td width="55%"><br/></td>
+                                <td width="20%" style="border: 1px solid #000000;text-align:left;padding:5px;background-color:#FFFFAA;text-transform: uppercase;">{!$Label.total} {!$Label.oferta}</td>
+                                <td width="10%" style="border: 1px solid #000000;text-align:right;padding:5px;background-color:#FFFFAA;">{!importeTotalOferta}</td>
+                            
+                            </tr>
+                        
+                        </tbody>
+                        
+                    </table>
+                    
+                </div>
+                <br/>
+                <div style="text-align:left;color:#000000;">
+                
+                    <table width="100%">
+                    
+                        <tr style="font-size:16px;"> <td width="7%"></td><td>{!$Label.oferta_pdf_info_11}</td> </tr>
+                        <tr style="font-size:16px;"> <td width="7%"></td><td>{!$Label.oferta_pdf_info_12}</td> </tr>
+                        <tr><td>&nbsp;</td></tr>
+                        <tr style="font-size:16px;"> <td width="7%"></td><td>{!$Label.oferta_pdf_info_13}</td> </tr>
+                        <tr style="font-size:16px;"> <td width="7%"></td><td>{!$Label.oferta_pdf_info_14}</td> </tr>
+                        
+                    </table>
+                    
+                </div>
+
+            </div>
+        </apex:outputPanel>        
+    </body>    
+</apex:page>

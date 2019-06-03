@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>0000</masterLabel>
+        <translation>Sim escritório venda</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>0090</masterLabel>
+        <translation><!-- 0090 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>1</masterLabel>
+        <translation><!-- 1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>1010</masterLabel>
+        <translation><!-- 1010 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>1020</masterLabel>
+        <translation><!-- 1020 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>1021</masterLabel>
+        <translation>Área Nordeste</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>1030</masterLabel>
+        <translation><!-- 1030 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>1040</masterLabel>
+        <translation><!-- 1040 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>1050</masterLabel>
+        <translation>Área Sul</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>1060</masterLabel>
+        <translation><!-- 1060 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>5010</masterLabel>
+        <translation>Sul</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>5020</masterLabel>
+        <translation><!-- 5020 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>5030</masterLabel>
+        <translation>Nordeste</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>5040</masterLabel>
+        <translation><!-- 5040 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>5050</masterLabel>
+        <translation><!-- 5050 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>5060</masterLabel>
+        <translation><!-- 5060 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>5210</masterLabel>
+        <translation>Fornecedores</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>5BEL</masterLabel>
+        <translation><!-- 5BEL --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>B000</masterLabel>
+        <translation><!-- B000 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BR01</masterLabel>
+        <translation><!-- BR01 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BR02</masterLabel>
+        <translation><!-- BR02 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BR03</masterLabel>
+        <translation><!-- BR03 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BR04</masterLabel>
+        <translation><!-- BR04 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BR05</masterLabel>
+        <translation><!-- BR05 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BR06</masterLabel>
+        <translation><!-- BR06 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BRDE</masterLabel>
+        <translation><!-- BRDE --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BRNA</masterLabel>
+        <translation><!-- BRNA --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DELE</masterLabel>
+        <translation>DELEGAÇÕES</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FINT</masterLabel>
+        <translation><!-- FINT --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IN01</masterLabel>
+        <translation><!-- IN01 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IN02</masterLabel>
+        <translation>PANJAB</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IN03</masterLabel>
+        <translation>HARYANA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IN04</masterLabel>
+        <translation>UTTARAKHAND</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IN05</masterLabel>
+        <translation>UTTAR PRADESH</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IN06</masterLabel>
+        <translation>RAJASTHAN</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IN07</masterLabel>
+        <translation>DELHI NCR REGION</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IN08</masterLabel>
+        <translation>GUJRAT</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IN09</masterLabel>
+        <translation>GUJRAT</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IN10</masterLabel>
+        <translation>GUJRAT</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IN11</masterLabel>
+        <translation>GUJRAT</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IN12</masterLabel>
+        <translation>GUJRAT</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>INTE</masterLabel>
+        <translation>INTERNATIONAL</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MA00</masterLabel>
+        <translation><!-- MA00 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MA01</masterLabel>
+        <translation>NORTE</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MA02</masterLabel>
+        <translation>ORIENTE</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MA03</masterLabel>
+        <translation>SUL</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ME00</masterLabel>
+        <translation>EUROPA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ME01</masterLabel>
+        <translation>AMERICA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ME02</masterLabel>
+        <translation><!-- ME02 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ME03</masterLabel>
+        <translation>OCEANO ÍNDICO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ME04</masterLabel>
+        <translation>ÁFRICA CENTRAL</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ME05</masterLabel>
+        <translation>ÁFRICA ORIENTAL</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ME06</masterLabel>
+        <translation>ÁFRICA DO NORTE</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ME07</masterLabel>
+        <translation>ÁFRICA OCIDENTAL</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ME08</masterLabel>
+        <translation>ÁFRICA - RESTO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NACI</masterLabel>
+        <translation><!-- NACI --></translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

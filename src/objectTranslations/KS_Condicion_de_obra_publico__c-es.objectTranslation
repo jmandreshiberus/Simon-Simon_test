@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Condición de obra</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Condiciones de obra</value>
+    </caseValues>
+    <fields>
+        <label><!-- Estado de aprobación --></label>
+        <name>KS_Estado_de_aprobacion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estado de aprobación --></label>
+        <name>KS_Estado_de_aprobacion_icon__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Condición --></label>
+        <name>KS_ID_Condicion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Obra --></label>
+        <name>KS_Obra__c</name>
+        <relationshipLabel><!-- Condiciones de obra --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Serie --></label>
+        <name>KS_Serie__c</name>
+    </fields>
+    <fields>
+        <label><!-- Solicitante --></label>
+        <name>KS_Solicitante__c</name>
+        <relationshipLabel><!-- Condiciones de obra --></relationshipLabel>
+    </fields>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Formato Condición de obra</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

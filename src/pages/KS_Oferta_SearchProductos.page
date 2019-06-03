@@ -1,0 +1,262 @@
+<apex:page standardController="Opportunity" extensions="KS_Oferta_SearchProductos_Controller" 
+           docType="html-5.0" id="oferta_prod_page" standardStylesheets="true" showHeader="false" sidebar="false"
+           title="{!$Label.ks_btn_edit} {!oferta.Name}">
+    
+    <apex:includeScript value="{!URLFOR($Resource.oferta_addProductos, 'jquery.min.js')}"/>
+    <apex:includeScript value="{!URLFOR($Resource.oferta_addProductos, 'jquery-ui.min.js')}"/>
+    <apex:includeScript value="{!URLFOR($Resource.oferta_addProductos, 'jquery.ui.touch-punch.min.js')}"/>
+    <apex:stylesheet value="{!URLFOR($Resource.oferta_addProductos, 'css/font-awesome.min.css')}"/>
+
+    <apex:form id="formulario">
+        
+        <apex:actionFunction action="{!selProducto}" name="selProducto"/>
+        <div class="productoLookupDIV">
+            <apex:inputHidden id="selectAddRow" value="{!selectAddRow}"/>
+            <apex:inputHidden id="selectAddProd" value="{!selectAddProd}"/>
+        </div>
+        <script type="text/javascript">
+        function selectID(idProducto) {
+            $(".productoLookupDIV").find(":last-child").prop(
+                "value", idProducto);
+            selProducto();
+        }
+        </script>
+        
+        <style>
+            body { font-family: Arial, Heletica, sans-serif; color: #000000; margin: 0; padding: 0; }
+            p { margin: 0; padding: 0; }
+            .clearfix-KS:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+            * html .clearfix-KS { zoom: 1; } /* IE6 */
+            *:first-child+html .clearfix-KS { zoom: 1; } /* IE7 */
+            input, select, textarea { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+            .body-KS { width: 100%; }
+            .body-KS a { text-decoration: none !important; color: #000000 !important; -webkit-transition: all 300ms ease; -moz-transition: all 300ms ease; -o-transition: all 300ms ease; transition: all 300ms ease; }
+            .body-KS a:hover { text-decoration: none !important; color: #0061a4 !important; }
+            .content-KS { width: 95%; margin: 0 auto; }
+            .top-KS { width: 100%; }
+            .right-KS { float: right; }
+            .left-KS { float: left; }
+            .pc50-KS { width: 50%; }
+            .pc40-KS { width: 40%; }
+            .pc30-KS { width: 30%; }
+            .pc20-KS { width: 20%; }
+            .pc10-KS { width: 10%; }
+            .text1-KS { font-size: 11px; line-height: 14px; }
+            .ayuda-KS { font-size: 11px; line-height: 14px; text-align: right; }
+            .text2-KS { font-size: 16px; font-weight: bold; line-height: 18px; }
+            .input1-KS { width: 300px; border-radius: 2px 2px 2px 2px; -moz-border-radius: 2px 2px 2px 2px; -webkit-border-radius: 2px 2px 2px 2px; border: 1px solid #dddddd; height: 27px; font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #000000; padding: 3px; background-color: #ffffff; font-weight: bold; }
+            input:focus { outline: none; border: 1px solid #8b8b8b !important; }
+            input[type=submit] { width: 150px; height: 35px; color: #0061a4; font-family: Arial, Helvetica, sans-serif; font-size: 12px; -webkit-appearance: none; border: 1px solid #0061a4; background-color: transparent; border-radius: 4px 4px 4px 4px; -moz-border-radius: 4px 4px 4px 4px; -webkit-border-radius: 4px 4px 4px 4px; margin-right: 10px; }
+            input[class=sel-KS] { width: 150px; height: 35px; color: #0061a4; font-family: Arial, Helvetica, sans-serif; font-size: 12px; -webkit-appearance: none; border: 1px solid #0061a4; background-color: transparent; border-radius: 4px 4px 4px 4px; -moz-border-radius: 4px 4px 4px 4px; -webkit-border-radius: 4px 4px 4px 4px; margin-right: 10px; }
+            input[class=guardar-KS] { background-color: #0061a4; color: #ffffff; float: left; -webkit-transition: all 300ms ease; -moz-transition: all 300ms ease; -o-transition: all 300ms ease; transition: all 300ms ease; }
+            input[class=guardar-KS]:hover { background-color: #4c90bf; border-color: #4c90bf }
+            input[class=salir_ficha-KS] { float: left; -webkit-transition: all 300ms ease; -moz-transition: all 300ms ease; -o-transition: all 300ms ease; transition: all 300ms ease; }
+            input[class=salir_ficha-KS]:hover { background-color: #0061a4; color: #ffffff; }
+            .text3-KS { float: left; font-size: 12px; line-height: 35px; }
+            .top3-KS { margin-bottom: 30px; margin-top: 30px; border: 1px solid #cfcfcf; border-top: 4px solid #0061a4; padding: 20px; width: inherit; -webkit-border-top-left-radius: 4px; -webkit-border-top-right-radius: 4px; -moz-border-radius-topleft: 4px; -moz-border-radius-topright: 4px; border-top-left-radius: 4px; border-top-right-radius: 4px; }
+            .top3-KS input { width: 40px; }
+            .top3-KS input[name=competencia] { width: 166px; }
+            .top3-KS textarea { vertical-align: top; border-radius: 2px 2px 2px 2px; -moz-border-radius: 2px 2px 2px 2px; -webkit-border-radius: 2px 2px 2px 2px; border: 1px solid #dddddd; font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #000000; padding: 3px; background-color: #ffffff; }
+            .top3-KS input { border-radius: 2px 2px 2px 2px; -moz-border-radius: 2px 2px 2px 2px; -webkit-border-radius: 2px 2px 2px 2px; border: 1px solid #dddddd; font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #000000; padding: 3px; background-color: #ffffff; }
+            .text4-KS { float: left; font-size: 12px; }
+            .option { width: 100%; margin-top: 10px; font-size: 14px; }
+            .option input { width: 100%; }
+            .option label { width: 100%; position: relative }
+            .option label:after { content: '\f078'; font-family: FontAwesome; font-style: normal; font-weight: normal; text-decoration: inherit; color: #aaa; right: 6px; top: 2px; padding: 0 0 2px; position: absolute; pointer-events: none; }
+            .option select { width: 100%; font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #6e6e6e; font-weight: lighter; padding: 5px 10px; background-color: transparent; border: 1px solid #dddddd; box-shadow: none; border-radius: 2px 2px 2px 2px; background-image: none; -webkit-appearance: none; -webkit-transition: all 500ms ease-in-out; -moz-transition: all 500ms ease-in-out; -o-transition: all 500ms ease-in-out; transition: all 500ms ease-in-out; }
+            select:focus { outline: none; border: 1px solid #6e6e6e !important; }
+            hr { border: 0; height: 1px; background: #c0c0c0; }
+            .top4-KS { height: 3px; background-color: #0061a4; }
+            .icon-KS { width: 50px; text-align: center; margin: 0 auto; top: -14px; position: relative; }
+            .menu1-KS { margin-top: 25px; }
+            .select-all-KS { width: 20px; padding: 7px 10px; border: 1px solid #dddddd; text-align: center; border-radius: 3px; float: left; margin-right: 10px; }
+            .text5-KS { font-size: 12px; line-height: 19px; }
+            .fa-chevron-circle-up { -webkit-transition: all 300ms ease; -moz-transition: all 300ms ease; -o-transition: all 300ms ease; transition: all 300ms ease; }
+            .table-KS { margin-top: 20px; }
+            /*tabla*/
+            .table-KS, .table-KS table { width: 100%; }
+            .table-KS tbody tr { background: #f6f6f6; }
+            .table-KS tbody tr:nth-of-type(odd) { background: #e9e9e9; }
+            .table-KS thead { font-weight: 100 !important; color: #ffffff; background: #0061a4; text-align: left; }
+            .table-KS td, .table-KS th { padding: 5px 5px; }
+            .table-KS td, .table-KS th { font-size: 12px; text-align: center }
+            /*tabla*/
+            input[name=addN] { width: 25px; text-align: right; border-radius: 2px 2px 2px 2px; -moz-border-radius: 2px 2px 2px 2px; -webkit-border-radius: 2px 2px 2px 2px; border: 1px solid #dddddd; font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #000000; padding: 3px; background-color: #ffffff; }
+            input[class=add-KS] { width: 100px !important; margin-left: 20px; padding: 5px 0px; line-height: 14px; color: #000000; border-color: #dddddd; -webkit-transition: all 300ms ease; -moz-transition: all 300ms ease; -o-transition: all 300ms ease; transition: all 300ms ease; }
+            input[class=add-KS]:hover, input[class=add-KS]:focus { color: #ffffff; background-color: #7c7c7c; border: 1px solid #7c7c7c !important; }
+            textarea:focus { outline: none !important; border: 1px solid #7c7c7c; }
+            .delete-sel-KS, .duplicate-KS, .search-KS, .import-KS, .cancel-KS, .sel-KS { width: auto !important; padding: 5px 10px !important; font-size: 12px; color: #000000 !important; border-color: #dddddd !important; -webkit-transition: all 300ms ease; -moz-transition: all 300ms ease; -o-transition: all 300ms ease; transition: all 300ms ease; }
+            .delete-sel-KS:hover, .duplicate-KS:hover, .search-KS:hover, .cancel-KS:hover, .sel-KS:hover, .sel-KS:focus, .cancel-KS:focus, .import-KS:hover, .delete-sel-KS:focus, .duplicate-KS:focus, .search-KS:focus, .import-KS:focus, .refresh:hover, .refresh:focus { color: #ffffff !important; background-color: #8b8b8b !important; border: 1px solid #7c7c7c !important; }
+            .menu-boxes-KS { float: left; }
+            .refresh { width: auto !important; padding: 5px 10px; background: transparent; font-size: 15px; height: 35px; color: #000000 !important; border: 1px solid; border-color: #dddddd !important; -webkit-transition: all 300ms ease; -moz-transition: all 300ms ease; -o-transition: all 300ms ease; transition: all 300ms ease; outline: none; border-radius: 2px 2px 2px 2px; }
+            .abc { font-size: 14px; text-align: right; line-height: 35px; }
+            .btn-option { margin: 20px 0px; }
+            /*LINK*/
+            .clickhere {
+            cursor:pointer;
+            }
+            .clickhere:hover {
+            color:#015BA7;
+            }       
+        </style>
+        
+        <apex:pageBlock title="{!$Label.oferta_ficha_error}" mode="detail" rendered="{!haveErrorFicha}">
+            <apex:pageBlockSection columns="1">
+                <apex:outputText value="{!errorTextFicha}" styleclass="warning"/>
+            </apex:pageBlockSection> 
+        </apex:pageBlock>
+
+        <div class="body-KS">
+            <br/><br/>
+            <div class="content-KS">
+                <div class="top-KS top1-KS clearfix-KS">
+                    <p class="text1-KS">{!$Label.oferta_searchprod_header}</p>
+                    <p class="text2-KS">{!oferta.Name}</p>
+                </div>
+                <div class="top-KS top3-KS clearfix-KS">
+                    <p class="text2-KS">{!$Label.oferta_addprod_searchprod}</p>
+                    <div class="option">
+                        
+                        <apex:inputField value="{!seleccion.KS_Org_Ventas__c}" styleClass="orgventasField"/>
+                        <script type="text/javascript">
+                        $('.orgventasField').hide();
+                        </script>
+                        <table cellpadding="0" cellspacing="0" border="0">
+                            <tr>
+                                <td align="right" valign="middle" width="150">{!$Label.oferta_addprod_searchprod_1}</td>
+                                <td align="center" valign="middle" width="20"></td>
+                                <td align="left" valign="middle" width="150">
+                                    <apex:inputText value="{!searchKey.name}"/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="right" valign="middle" width="150">{!$Label.oferta_addprod_searchprod_2}</td>
+                                <td align="center" valign="middle" width="20"></td>
+                                <td align="left" valign="middle" width="150">
+                                    <apex:inputText value="{!searchKey.code}"/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="right" valign="middle" width="150">{!$Label.oferta_addprod_searchprod_5}</td>
+                                <td align="center" valign="middle" width="20"></td>
+                                <td align="left" valign="middle" width="150">
+                                    <apex:inputField value="{!seleccion.KS_Familia__c}"/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="right" valign="middle" width="150">{!$Label.oferta_addprod_searchprod_3}</td>
+                                <td align="center" valign="middle" width="20"></td>
+                                <td align="left" valign="middle" width="150">
+                                    <apex:inputField value="{!seleccion.KS_Serie__c}"/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="right" valign="middle" width="150">{!$Label.oferta_addprod_searchprod_4}</td>
+                                <td align="center" valign="middle" width="20"></td>
+                                <td align="left" valign="middle" width="150">
+                                    <apex:inputField value="{!seleccion.KS_Subserie__c}"/>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="btn-option clearfix-KS">
+                        <apex:actionFunction action="{!getProductosFilter}" name="callBuscar" />
+                        <apex:actionFunction action="{!Cancel}" name="callCancel" />
+                        <div class="menu-boxes-KS">
+                            <input type="button" class="search-KS" value="Buscar" onclick="callBuscar();"/>
+                        </div>
+                        <div class="menu-boxes-KS">&nbsp;&nbsp;&nbsp;</div>
+                        <div class="menu-boxes-KS">
+                            <input type="button" class="cancel-KS" value="Cancelar" onclick="callCancel();"/>
+                        </div>
+                    </div>
+                    
+                    <apex:outputPanel id="showList" rendered="{!setCon!=NULL}">
+                        <div class="top-KS menu1-KS clearfix-KS">
+                            <div class="left-KS pc50-KS">
+                                <div class="menu-boxes-KS">
+                                    <apex:actionFunction action="{!setCon.first}" name="callRefresh" reRender="showList"/>
+                                    <button type="button" class="refresh" onclick="callRefresh();"><i class="fa fa-refresh" aria-hidden="true"></i></button>
+                                </div>
+                                <div class="menu-boxes-KS">
+                                    &nbsp;&nbsp;&nbsp;
+                                </div>
+                                <div class="menu-boxes-KS">
+                                    <apex:outputPanel rendered="{!setCon.hasPrevious}">
+                                        <apex:actionFunction action="{!saveProdSelect_Previous}" name="callProdSelPrev" reRender="showList"/>
+                                        <input type="button" class="sel-KS" value="{!$Label.ks_btn_prev}" onclick="callProdSelPrev();"/>
+                                    </apex:outputPanel>
+                                </div>
+                                <div class="menu-boxes-KS">
+                                    <apex:outputPanel rendered="{!setCon.hasNext}">
+                                        <apex:actionFunction action="{!saveProdSelect_Next}" name="callProdSelNext" reRender="showList"/>
+                                        <input type="button" class="sel-KS" value="{!$Label.ks_btn_next}" onclick="callProdSelNext();"/>
+                                    </apex:outputPanel>
+                                </div>
+                            </div>
+                            <div class="left-KS pc50-KS abc"> 
+                                <apex:commandLink action="{!getProductosFilter}" value="A" reRender="showList"><apex:param assignTo="{!letraClave}" value="A" /></apex:commandLink> |&nbsp;
+                                <apex:commandLink action="{!getProductosFilter}" value="B" reRender="showList"><apex:param assignTo="{!letraClave}" value="B"/></apex:commandLink> |&nbsp;
+                                <apex:commandLink action="{!getProductosFilter}" value="C" reRender="showList"><apex:param assignTo="{!letraClave}" value="C"/></apex:commandLink> |&nbsp;
+                                <apex:commandLink action="{!getProductosFilter}" value="D" reRender="showList"><apex:param assignTo="{!letraClave}" value="D"/></apex:commandLink> |&nbsp;
+                                <apex:commandLink action="{!getProductosFilter}" value="E" reRender="showList"><apex:param assignTo="{!letraClave}" value="E"/></apex:commandLink> |&nbsp;
+                                <apex:commandLink action="{!getProductosFilter}" value="F" reRender="showList"><apex:param assignTo="{!letraClave}" value="F"/></apex:commandLink> |&nbsp;
+                                <apex:commandLink action="{!getProductosFilter}" value="G" reRender="showList"><apex:param assignTo="{!letraClave}" value="G"/></apex:commandLink> |&nbsp;
+                                <apex:commandLink action="{!getProductosFilter}" value="H" reRender="showList"><apex:param assignTo="{!letraClave}" value="H"/></apex:commandLink> |&nbsp;
+                                <apex:commandLink action="{!getProductosFilter}" value="I" reRender="showList"><apex:param assignTo="{!letraClave}" value="I"/></apex:commandLink> |&nbsp;
+                                <apex:commandLink action="{!getProductosFilter}" value="J" reRender="showList"><apex:param assignTo="{!letraClave}" value="J"/></apex:commandLink> |&nbsp;
+                                <apex:commandLink action="{!getProductosFilter}" value="K" reRender="showList"><apex:param assignTo="{!letraClave}" value="K"/></apex:commandLink> |&nbsp;
+                                <apex:commandLink action="{!getProductosFilter}" value="L" reRender="showList"><apex:param assignTo="{!letraClave}" value="L"/></apex:commandLink> |&nbsp;
+                                <apex:commandLink action="{!getProductosFilter}" value="M" reRender="showList"><apex:param assignTo="{!letraClave}" value="M"/></apex:commandLink> |&nbsp;
+                                <apex:commandLink action="{!getProductosFilter}" value="N" reRender="showList"><apex:param assignTo="{!letraClave}" value="N"/></apex:commandLink> |&nbsp;
+                                <apex:commandLink action="{!getProductosFilter}" value="Ñ" reRender="showList"><apex:param assignTo="{!letraClave}" value="Ñ"/></apex:commandLink> |&nbsp;
+                                <apex:commandLink action="{!getProductosFilter}" value="O" reRender="showList"><apex:param assignTo="{!letraClave}" value="O"/></apex:commandLink> |&nbsp;
+                                <apex:commandLink action="{!getProductosFilter}" value="P" reRender="showList"><apex:param assignTo="{!letraClave}" value="P"/></apex:commandLink> |&nbsp;
+                                <apex:commandLink action="{!getProductosFilter}" value="Q" reRender="showList"><apex:param assignTo="{!letraClave}" value="Q"/></apex:commandLink> |&nbsp;       
+                                <apex:commandLink action="{!getProductosFilter}" value="R" reRender="showList"><apex:param assignTo="{!letraClave}" value="R"/></apex:commandLink> |&nbsp;
+                                <apex:commandLink action="{!getProductosFilter}" value="S" reRender="showList"><apex:param assignTo="{!letraClave}" value="S"/></apex:commandLink> |&nbsp;
+                                <apex:commandLink action="{!getProductosFilter}" value="T" reRender="showList"><apex:param assignTo="{!letraClave}" value="T"/></apex:commandLink> |&nbsp;
+                                <apex:commandLink action="{!getProductosFilter}" value="U" reRender="showList"><apex:param assignTo="{!letraClave}" value="U"/></apex:commandLink> |&nbsp;
+                                <apex:commandLink action="{!getProductosFilter}" value="V" reRender="showList"><apex:param assignTo="{!letraClave}" value="V"/></apex:commandLink> |&nbsp;
+                                <apex:commandLink action="{!getProductosFilter}" value="W" reRender="showList"><apex:param assignTo="{!letraClave}" value="W"/></apex:commandLink> |&nbsp;
+                                <apex:commandLink action="{!getProductosFilter}" value="X" reRender="showList"><apex:param assignTo="{!letraClave}" value="X"/></apex:commandLink> |&nbsp;
+                                <apex:commandLink action="{!getProductosFilter}" value="Y" reRender="showList"><apex:param assignTo="{!letraClave}" value="Y"/></apex:commandLink> |&nbsp;
+                                <apex:commandLink action="{!getProductosFilter}" value="Z" reRender="showList"><apex:param assignTo="{!letraClave}" value="Z"/></apex:commandLink> |&nbsp;
+                                <apex:commandLink action="{!getProductosFilter}" value="{!$Label.ks_btn_todos}" reRender="showList"><apex:param assignTo="{!palabraClave}" value=""/></apex:commandLink>
+                            </div>
+                        </div>
+                        
+                        <div class="table-KS clearfix-KS">
+                            <table border="0" cellspacing="0" cellpadding="0">
+                                <thead>
+                                    <tr>
+                                        <th>{!$ObjectType.Product2.fields.ProductCode.Label}</th>
+                                        <th>{!$ObjectType.Product2.fields.KS_Nombre_producto__c.Label}</th>
+                                        <th>{!$ObjectType.Product2.fields.KS_descripcion_corta__c.Label}</th>
+                                        <th>{!$ObjectType.Product2.fields.KS_Tipo_de_material__c.Label}</th>
+                                        <th>{!$ObjectType.KS_Organizacion_Producto__c.fields.KS_Familia__c.Label}</th>
+                                        <th>{!$ObjectType.KS_Organizacion_Producto__c.fields.KS_Serie_Gama__c.Label}</th>
+                                        <th>{!$ObjectType.KS_Organizacion_Producto__c.fields.KS_Subserie__c.Label}</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="tbody-KS">
+                                    <apex:repeat value="{!productos}" var="prod">
+                                        <tr>
+                                            <td><strong class="clickhere" onclick="selectID('{!prod.product.ID}');">{!prod.product.KS_Id_SAP__c}</strong></td>
+                                            <td><apex:outputField value="{!prod.product.KS_Nombre_producto__c}" styleclass="container" style="width:60px"/></td>
+                                            <td><apex:outputField value="{!prod.product.KS_descripcion_corta__c}" styleclass="container" style="width:60px"/></td>
+                                            <td><apex:outputField value="{!prod.product.KS_Tipo_de_material__c}" styleclass="container" style="width:50px"/></td>
+                                            <td><apex:outputField value="{!prod.orgProduct.KS_Familia__c}" styleclass="container" style="width:50px"/></td>
+                                            <td><apex:outputField value="{!prod.orgProduct.KS_Serie_Gama__c}" styleclass="container" style="width:50px"/></td>
+                                            <td><apex:outputField value="{!prod.orgProduct.KS_Subserie__c}" styleclass="container" style="width:50px"/></td>
+                                        </tr>
+                                    </apex:repeat>
+                                </tbody>
+                            </table>
+                        </div>
+                    </apex:outputPanel>
+                </div>
+            </div>
+        </div>
+    </apex:form>
+</apex:page>

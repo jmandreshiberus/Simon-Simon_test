@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dashboard xmlns="http://soap.sforce.com/2006/04/metadata">
+    <backgroundEndColor>#FFFFFF</backgroundEndColor>
+    <backgroundFadeDirection>Diagonal</backgroundFadeDirection>
+    <backgroundStartColor>#FFFFFF</backgroundStartColor>
+    <dashboardFilters>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Inma Tomas del Pino,Sandra Alegría León,Almudena Ballesteros Navarro,Araceli Montejano Gonzalez,Irene Perez Redondo,Maria Pilar Fernandez Gonzalez,Noelia Cristobal Saez-Bravo,Adriana Tort Medina,Almudena Aquerreta Romeo,Marc Pico Espigo,Meritxell Casals Ausio,Raquel Chefaoui Diaz,Raquel Sotomayor,Vanessa Dueña Asenjo,Beatriz Melania Marín Pradas,Garazi Liras Velez de Guevara,David Ausaberri Araiz,Gloria María Llamas Castellano,Marian Candendo</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>David Dupré Garcia,Adolfo Dalmau,Agustí Blázquez,Agustin Caro Lopez,Iñaki Saracibar Monroy,Juan Luis Garcia,Laura Torrents Jou,Enrique Migoya Calabia,Laura Gamez,Marta Lozano Algar,Victor Manuel Fontela Silvero,Jesus Lujan Guerrero,Jose Garcia Fenoll,Angel Mauro Celdran De Castro Garcia,Francisco Garrigos Belda,Mariano Moreno Santos,Pascual Benito Fernandez,Itziar Garcia Garay,Carlos Luis Garcia Arceo,Carlos Mendez Suarez,David Huarte Cambra,Juan Marchena Lopez,Pedro Talavera Lebrero,Jose Luis Sanchez Jimenez,Cristina Loureiro</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Melcior Selma Lomas,Sergi Cervantes Elías,Francesc Estall Sanz,Angel Jimenez Ortega,Juan Tolosa Caballero,Lorenzo Pérez Padilla,Oscar Lodeiro Mendez,Jose Luis Lopez Jimenez,Paulo Jorge Pereira De Jesus</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>,Jose Neftali Salcedo Martinez,Gonzalo Carrasco,Rafael Criado Pedrajas,Juan Callejas Gil,Iñaki Perez Garcia,Maria Jesus Ramos Varela,Luis Flores Bauer</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>David Dupré Garcia,Iñaki Saracibar Monroy,Maria Guillen Solano,Gabriel Riba Barea,Adriana Tort Medina,Alberto Penalva Comendador,Ivan Ruiz Venega,Luis Angel Del Olmo Cruz,Maria Jose Garcia Maestre,Rafael Criado Pedrajas,Gonzalo Carrasco,Eva Cuezva Horcada,Aingeru Arana Amezaga,Angel Lores Cantero,Cristina Gil Martinez,Ibon Korta Fernandez,Javier Dewisme Prados,Javier Manrique Gonzalez,Luis Francisco Garcia Lahuerta,Alfonso Jimenez Roldan,Ana Ezpeleta Bielsa,Angel Lorenzo Gracia Frau,Francisco Javier Colome Latorre,Jose Miguel Molina Gonzalez,Jose Navarro Rausell,Maria Jose Mateo Belmonte,Mariano Moreno Santos,Pedro Antonio Calatayud Campos,Agustin De Haro Lopez,Andres Pedraza Moyano,Enrique Javier Rodriguez-Valdes Roque,Fernando Manuel Martinez Rodriguez,Isidro Maria Del Pino Moreno,Jorge Martin De La Vega Torres,Jose Manuel Acebal Jimenez,Sebastian Alejo Perez Cabrera,Guillermo Corral Pena,Jose Luis Sousa Grueiro,Juan Campos Fernandez,Luis Aldehuelo Rodriguez,Manuel Martinez Delgado,Sara Serrano Mato,Joao Coelho,Mario Moita,Nuno Miguel Couto Da Costa,Nuno Simoes</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Oriol Terradas Magrans ,Alberto Martos Ferra,Eduardo Mosquera,Lluís Torrecabota Masmitja,Anselmo Santos Morales,Juan Fernando Martin Sanchez,Antonio Rodao Redondo,Carlos Daniel Novoa Lopez,Cristina Gil Martinez,Javier Dewisme Prados,Angel Lorenzo Gracia Frau,Francisco Javier Colome Latorre,Jose Navarro Rausell,Pedro Antonio Calatayud Campos,Alfonso Jimenez Roldan,Jose Miguel Molina Gonzalez,Ana Bascoy Rodriguez,Manuel Martinez Delgado,Sara Serrano Mato,Joao Coelho,Mario Moita,Nuno Miguel Couto Da Costa,Nuno Simoes,Agustin De Haro Lopez,Alejandro Hidalgo Pelegrin,Andres Pedraza Moyano,Enrique Javier Rodriguez-Valdes Roque,Fernando Manuel Martinez Rodriguez,Isidro Maria Del Pino Moreno,Jesus Gonzalez Ramirez,Juan Manuel Gracia Calamonte,Lucas Caballero Diaz,Sebastian Alejo Perez Cabrera</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Enrique Garcia Barea,Manuel Anglada Cabezas,Marc Nogues Cuxart,Marc Paredes Estrach,Anna Visa,David Ausaberri Araiz,Abel De Mingo Gonzalez,Pablo Garzon Velasco,Julian Bollo Del Cerro</values>
+        </dashboardFilterOptions>
+        <name>Propietario de oportunidad</name>
+    </dashboardFilters>
+    <dashboardFilters>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Inma Tomas del Pino,Alberto Penalva Comendador,Angel Jimenez Ortega,Anselmo Santos Morales,Enrique Migoya Calabia,Eva Cuezva Horcada,Gonzalo Carrasco,Ivan Ruiz Venega,Jesus Lujan Guerrero,Juan Carlos Gomez Campdera,Juan Fernando Martin Sanchez,Laura Gamez,Luis Angel Del Olmo Cruz,Maria Jose Garcia Maestre,Marta Lozano Algar,Rafael Criado Pedrajas,Raquel Chefaoui Diaz,Victor Manuel Fontela Silvero,Denisa García González,Noelia Cristobal Saez-Bravo,Irene Perez Redondo</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Beatriz Melania Marín Pradas,Garazi Liras Velez de Guevara,Lorenzo Pérez Padilla,Felipe Iturri Goñi,Iñaki Perez Garcia,Aingeru Arana Amezaga,Angel Lores Cantero,Antonio Rodao Redondo,Carlos Daniel Novoa Lopez,Cristina Gil Martinez,Ibon Korta Fernandez,Itziar Garcia Garay,Javier Dewisme Prados,Javier Manrique Gonzalez,Luis Francisco Garcia Lahuerta,Sandra Alegría León</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Ana Bascoy Rodriguez,Carlos Luis Garcia Arceo,Carlos Mendez Suarez,Guillermo Corral Pena,Jose Andres Carballal Penas,Jose Luis Sousa Grueiro,Juan Campos Fernandez,Luis Aldehuelo Rodriguez,Manuel Martinez Delgado,Maria Jesus Ramos Varela,Oscar Lodeiro Mendez,Rafael Cortina Hevia,Ricardo Tuñas Rodriguez,Sara Serrano Mato,Marian Candendo</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>,Alberto Ibarz Bayona,Alberto Martos Ferra,Eduardo Mosquera,Jose Neftali Salcedo Martinez,Lluís Torrecabota Masmitja,Melcior Selma Lomas,Sergi Cervantes Elías,Oriol Terradas Magrans ,David Dupré Garcia,Adolfo Dalmau,Agustí Blázquez,Agustin Caro Lopez,Francesc Estall Sanz,Gabriel Riba Barea,Iñaki Saracibar Monroy,Juan Luis Garcia,Laura Torrents Jou,Maria Guillen Solano,Marc Pico Espigo,Adriana Tort Medina,Almudena Aquerreta Romeo,Meritxell Casals Ausio</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Alfonso Jimenez Roldan,Ana Ezpeleta Bielsa,Angel Lorenzo Gracia Frau,Angel Mauro Celdran De Castro Garcia,Francisco Garrigos Belda,Francisco Javier Colome Latorre,Jose Garcia Fenoll,Jose Miguel Molina Gonzalez,Jose Navarro Rausell,Jose Salcedo Lopez,Jose Victor Ortiz Muñoz,Juan Callejas Gil,Juan Tolosa Caballero,Maria Jose Mateo Belmonte,Mariano Moreno Santos,Pascual Benito Fernandez,Pedro Antonio Calatayud Campos,Raquel Sotomayor,Vanessa Dueña Asenjo</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Agustin De Haro Lopez,Alejandro Hidalgo Pelegrin,Andres Pedraza Moyano,Antonio Fernandez Flores,David Huarte Cambra,Enrique Javier Rodriguez-Valdes Roque,Fernando Manuel Martinez Rodriguez,Isidro Maria Del Pino Moreno,Jesus Gonzalez Ramirez,Jorge Martin De La Vega Torres,Jose Luis Lopez Jimenez,Jose Luis Sanchez Jimenez,Jose Manuel Acebal Jimenez,José Manuel Vázquez Arcos,Juan Manuel Gracia Calamonte,Juan Marchena Lopez,Lucas Caballero Diaz,Luis Flores Bauer,Mª JOSE GALDÓN,Pedro Talavera Lebrero,Sebastian Alejo Perez Cabrera,Almudena Ballesteros Navarro,Gloria María Llamas Castellano</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Paulo Jorge Pereira De Jesus,Cristina Loureiro,Joao Coelho,Mario Moita,Nuno Miguel Couto Da Costa,Nuno Simoes,Virginia Sanchez</values>
+        </dashboardFilterOptions>
+        <name>Propietario de oportunidad</name>
+    </dashboardFilters>
+    <dashboardType>SpecifiedUser</dashboardType>
+    <isGridLayout>false</isGridLayout>
+    <leftSection>
+        <columnSize>Medium</columnSize>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <dashboardFilterColumns>
+                <column>FULL_NAME</column>
+            </dashboardFilterColumns>
+            <dashboardFilterColumns>
+                <column>FULL_NAME</column>
+            </dashboardFilterColumns>
+            <dashboardTableColumn>
+                <column>FULL_NAME</column>
+                <sortBy>RowLabelAscending</sortBy>
+            </dashboardTableColumn>
+            <dashboardTableColumn>
+                <calculatePercent>false</calculatePercent>
+                <column>RowCount</column>
+                <decimalPlaces>0</decimalPlaces>
+                <showTotal>true</showTotal>
+            </dashboardTableColumn>
+            <decimalPrecision>0</decimalPrecision>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <indicatorHighColor>#54C254</indicatorHighColor>
+            <indicatorLowColor>#C25454</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <report>Marcas_Comerciales/RC_Funnel_Abierto</report>
+            <showPicturesOnTables>true</showPicturesOnTables>
+            <title>Funnel Vencido</title>
+        </components>
+    </leftSection>
+    <middleSection>
+        <columnSize>Medium</columnSize>
+    </middleSection>
+    <rightSection>
+        <columnSize>Medium</columnSize>
+    </rightSection>
+    <runningUser>jlorenzo@simon.es</runningUser>
+    <textColor>#000000</textColor>
+    <title>Funnel Vencido</title>
+    <titleColor>#000000</titleColor>
+    <titleSize>12</titleSize>
+</Dashboard>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>LF</masterLabel>
+        <translation>Entrega</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LR</masterLabel>
+        <translation>Entrega devoluções</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBR1</masterLabel>
+        <translation>Entrega BR</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBR2</masterLabel>
+        <translation>Devoluções BR</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBR3</masterLabel>
+        <translation>Remessa Amostra</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBR5</masterLabel>
+        <translation>Remessa Mostruário</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBRO</masterLabel>
+        <translation>Entrada Cons/Ind</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBRP</masterLabel>
+        <translation>Saída Cons/Ind</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBV0</masterLabel>
+        <translation><!-- ZBV0 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZDTR</masterLabel>
+        <translation>Transferência centr.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZESP</masterLabel>
+        <translation>Saídas espec. (comp)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZHIC</masterLabel>
+        <translation>Recebimento UC Movim</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZHID</masterLabel>
+        <translation>Recebimento UC Movim</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZHMD</masterLabel>
+        <translation>Recebimento UC Movim</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZHOD</masterLabel>
+        <translation>Entrega SM Movimento</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZIN1</masterLabel>
+        <translation>Entrega</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZIN2</masterLabel>
+        <translation>Entrega</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZIN3</masterLabel>
+        <translation>Entrega devoluções</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZLC0</masterLabel>
+        <translation>Entrega</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZLCC</masterLabel>
+        <translation>Reabastec.crosscomp.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZLF</masterLabel>
+        <translation><!-- ZLF --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZLG</masterLabel>
+        <translation><!-- ZLG --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZLR</masterLabel>
+        <translation>Devoluções Consigna</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZNL</masterLabel>
+        <translation>Transf. armazems</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZNL1</masterLabel>
+        <translation>Transf.Armazem NoPic</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZTC</masterLabel>
+        <translation><!-- ZTC --></translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

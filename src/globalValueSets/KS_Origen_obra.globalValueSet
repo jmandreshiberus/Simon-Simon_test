@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Carga Manual</fullName>
+        <default>false</default>
+        <label>Carga Manual</label>
+    </customValue>
+    <customValue>
+        <fullName>Cliente Final</fullName>
+        <default>false</default>
+        <label>Cliente Final</label>
+    </customValue>
+    <customValue>
+        <fullName>Construdatos</fullName>
+        <default>false</default>
+        <label>Construdatos</label>
+    </customValue>
+    <customValue>
+        <fullName>Instalador / Distribuidor</fullName>
+        <default>false</default>
+        <label>Instalador / Distribuidor</label>
+    </customValue>
+    <customValue>
+        <fullName>Online</fullName>
+        <default>true</default>
+        <label>Online</label>
+    </customValue>
+    <customValue>
+        <fullName>Prescriptor</fullName>
+        <default>false</default>
+        <label>Prescriptor</label>
+    </customValue>
+    <description>Uso --&gt; Usado como indicador de origen de la obra</description>
+    <masterLabel>Origen obra</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Notificación de solicitud de aprobación de marca comercial: RECHAZADA</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Header_Simon</letterhead>
+    <name>Notificación de solicitud de aprobación de Marca Comercial. Rechazada</name>
+    <style>freeForm</style>
+    <subject>Notificación de solicitud de aprobación de marca comercial para: {!KS_Organizacion_Cliente__c.KS_Cliente_solicitante__c}, APROBADA</subject>
+    <textOnly>Para su atención,
+
+Su solicitud de aprobación de nueva marca comercial para: {!KS_Organizacion_Cliente__c.KS_Cliente_solicitante__c}, ha sido: RECHAZADA.
+
+Los detalles de dicha su solicitud de marca comercial fueron:
+Fecha de creación: {!KS_Organizacion_Cliente__c.CreatedDate}
+Cliente asociado:{!KS_Organizacion_Cliente__c.KS_Cliente_solicitante__c}
+Organización de Ventas: {!KS_Organizacion_Cliente__c.KS_Organizacion_de_ventas__c}
+Canal: {!KS_Organizacion_Cliente__c.KS_Canal_de_distribucion__c}
+Lista de precios: {!KS_Organizacion_Cliente__c.KS_Lista_de_precios__c}
+
+Puede dirigirse al registro mediante enlace para ver si hay comentarios/motivos del rechazo.
+
+Atentamente,</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>1</masterLabel>
+        <translation><!-- 1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BR17</masterLabel>
+        <translation>Simon Materiais Elétricos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BR18</masterLabel>
+        <translation>Tecnowatt Iluminação LTDA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FL31</masterLabel>
+        <translation>FLUVIA CONCEPT, S.L.U.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GI50</masterLabel>
+        <translation>Simon Brico, SL</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IE20</masterLabel>
+        <translation>Simon Lighting, SA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IN19</masterLabel>
+        <translation>Simon Electric Private Lt</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MA15</masterLabel>
+        <translation>Simon International, S.A.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MA16</masterLabel>
+        <translation>Simon Holding Maroc, SARL</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MX01</masterLabel>
+        <translation>Country Template MX</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MX24</masterLabel>
+        <translation>Simon Electrica S.A de CV</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MX25</masterLabel>
+        <translation>Adminitradora Gotemex</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MX26</masterLabel>
+        <translation>Adminitradora Ofimex</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SI10</masterLabel>
+        <translation>Simon, S.A.</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

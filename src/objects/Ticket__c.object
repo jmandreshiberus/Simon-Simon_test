@@ -1,0 +1,1548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Objeto para la creación de tickets a soporte.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>ID_3a_Cuenta_a_eliminar__c</fullName>
+        <externalId>false</externalId>
+        <formula>SI_Tercera_cuenta_a_eliminar__r.KS_Id_Salesforce__c &amp; &quot; Tipo de Cuenta &quot; &amp;  SI_Tercera_cuenta_a_eliminar__r.RecordType.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>ID 3a Cuenta a eliminar</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Marca_OCFluviaN__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Marca OC Fluvia N</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Marca_OCSimonN__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Marca OC Simon N</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Nombre_Usuario_a_Asignar__c</fullName>
+        <externalId>false</externalId>
+        <formula>SI_Usuario_a_asignar__r.FirstName &amp;&apos; &apos;&amp; SI_Usuario_a_asignar__r.LastName</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Nombre Usuario a Asignar</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PropietarioActual__c</fullName>
+        <externalId>false</externalId>
+        <formula>SI_Cuenta_Principal__r.KS_Propietario_fx__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>PropietarioActual</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SI_Ayuda__c</fullName>
+        <defaultValue>&quot;Indica la descripción de incidencia por ejemplo cambio masivo de usuarios, y en el usuario a asignar indica Admin Simon o vuestro usuario y guarda los cambios.Una vez creado el ticket en la parte inferior aparecerá la opción de adjuntar el fichero Excel/Word con la lista de IDs para cambiar el propietario.&quot;</defaultValue>
+        <description>Campo que ofrece ayuda para la creación de tickets masivos</description>
+        <externalId>false</externalId>
+        <label>Ayuda</label>
+        <length>1000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>6</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SI_Causa_Pasivado_Ticket__c</fullName>
+        <externalId>false</externalId>
+        <label>Causa Pasivado Ticket</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Fuera de target</fullName>
+                    <default>false</default>
+                    <label>Fuera de target</label>
+                </value>
+                <value>
+                    <fullName>Pasivado Permanentemente</fullName>
+                    <default>false</default>
+                    <label>Pasivado Permanentemente</label>
+                </value>
+                <value>
+                    <fullName>Pide baja de la BBDD</fullName>
+                    <default>false</default>
+                    <label>Pide baja de la BBDD</label>
+                </value>
+                <value>
+                    <fullName>Sin actividad o trabajo</fullName>
+                    <default>false</default>
+                    <label>Sin actividad o trabajo</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SI_Comentario_Admin_Lista__c</fullName>
+        <description>Comentario para tickets rutinarios de cambio de propietario y fusion de cuentas.</description>
+        <externalId>false</externalId>
+        <label>Comentario Admin Lista</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Te he asignado la cuenta indicada</fullName>
+                    <default>false</default>
+                    <label>Te he asignado la cuenta indicada</label>
+                </value>
+                <value>
+                    <fullName>He fusionado las cuentas indicadas</fullName>
+                    <default>false</default>
+                    <label>He fusionado las cuentas indicadas</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SI_Comentario_Admin__c</fullName>
+        <description>Campo a rellenar por el técnico encargado del ticket.</description>
+        <externalId>false</externalId>
+        <label>Comentario Admin</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SI_ComentariosSobreLaCuenta__c</fullName>
+        <externalId>false</externalId>
+        <label>Comentarios sobre la cuenta</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SI_Comentarios_sobre_el_contacto__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Campo para indicar si se quiere mantener algún dato del contacto que desaparecerá.</inlineHelpText>
+        <label>Comentarios sobre el contacto</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SI_Contacto_principal__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Campo de contacto principal para Fusiones de contacto</description>
+        <externalId>false</externalId>
+        <label>Contacto principal</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Tickets</relationshipLabel>
+        <relationshipName>Tickets</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SI_Contacto_que_desaparecer__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Contacto que desaparecerá en la Fusion de contacto</description>
+        <externalId>false</externalId>
+        <label>Contacto que desaparecerá</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Tickets (Contacto que desaparecerá)</relationshipLabel>
+        <relationshipName>Tickets1</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SI_Cuenta_Principal__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Campo que mostrara la cuenta desde la que se abre el ticket.</description>
+        <externalId>false</externalId>
+        <label>Cuenta Principal</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Account.KS_Grupo_de_ctas_deudor__c</field>
+                <operation>notEqual</operation>
+                <value>1, Destinatarios mercancías, Nodos de jerarquía, MX: Solicitante Nacional, BR: Clientes Export, BR: Cltes Nacionales (P.Jurid), BR: Cltes Nacionales (P.Físic)</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Tickets (Cuenta Principal)</relationshipLabel>
+        <relationshipName>Tickets2</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SI_Cuenta_a_Pasivar_SAP__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <inlineHelpText>Solo se inactivaran cuentas SAP</inlineHelpText>
+        <label>Cuenta a Pasivar SAP</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Tickets (Cuenta a Pasivar SAP)</relationshipLabel>
+        <relationshipName>Tickets3</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SI_Cuenta_a_eliminar__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Cuenta que desaparecerá en la Fusión de cuenta o en la eliminación de cuenta.</description>
+        <externalId>false</externalId>
+        <label>Cuenta a eliminar</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Tickets</relationshipLabel>
+        <relationshipName>Tickets</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SI_Descripcion_de_la_incidencia__c</fullName>
+        <description>Campo que mostrará el detalle de la incidencia</description>
+        <externalId>false</externalId>
+        <label>Descripción de la incidencia</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SI_Estado_Cuenta__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(SI_Cuenta_Principal__r.KS_Estado__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Estado_Cuenta</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SI_Estado__c</fullName>
+        <externalId>false</externalId>
+        <label>Estado</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Pendiente</fullName>
+                    <default>true</default>
+                    <label>Pendiente</label>
+                </value>
+                <value>
+                    <fullName>En curso</fullName>
+                    <default>false</default>
+                    <label>En curso</label>
+                </value>
+                <value>
+                    <fullName>Cerrado</fullName>
+                    <default>false</default>
+                    <label>Cerrado</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SI_IDContactoAEliminar__c</fullName>
+        <externalId>false</externalId>
+        <formula>SI_Contacto_que_desaparecer__r.KS_Id_CRM_Contacto__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>ID Contacto que desaparecerá</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SI_IDContactoPrincipal__c</fullName>
+        <externalId>false</externalId>
+        <formula>SI_Contacto_principal__r.KS_Id_CRM_Contacto__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>ID Contacto Principal</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SI_IDCuenta_Principal__c</fullName>
+        <externalId>false</externalId>
+        <formula>SI_Cuenta_Principal__r.KS_Id_Salesforce__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>ID Cuenta Principal</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SI_IDCuenta_a_eliminar__c</fullName>
+        <externalId>false</externalId>
+        <formula>SI_Cuenta_a_eliminar__r.KS_Id_Salesforce__c &amp; &quot; Tipo de Cuenta &quot; &amp; SI_Cuenta_a_eliminar__r.RecordType.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Solo para cuentas que NO son Distribuidor SAP</inlineHelpText>
+        <label>ID Cuenta a eliminar</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SI_IDObra_a_eliminar__c</fullName>
+        <externalId>false</externalId>
+        <formula>SI_Obra_a_eliminar__r.KS_Id_Obra__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>ID Obra a eliminar</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SI_IDOferta_a_eliminar__c</fullName>
+        <externalId>false</externalId>
+        <formula>SI_Oferta_a_eliminar__r.KS_Oferta_ID__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>ID Oferta a eliminar</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SI_ID_SF_Cuenta_Eliminar1__c</fullName>
+        <externalId>false</externalId>
+        <formula>SI_Cuenta_a_eliminar__r.Id</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>ID_SF_Cuenta_Eliminar1</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SI_ID_SF_Cuenta_Eliminar2__c</fullName>
+        <externalId>false</externalId>
+        <formula>SI_Tercera_cuenta_a_eliminar__r.Id</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>ID_SF_Cuenta_Eliminar2</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SI_ID_SF_Cuenta_Principal__c</fullName>
+        <externalId>false</externalId>
+        <formula>SI_Cuenta_Principal__r.Id</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>ID_SF_Cuenta_Principal</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SI_Motivo_de_bajaSAP__c</fullName>
+        <externalId>false</externalId>
+        <label>Motivo de baja</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SI_Obra_a_eliminar__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Campo de obra a eliminar</description>
+        <externalId>false</externalId>
+        <label>Obra a eliminar</label>
+        <referenceTo>KS_Obra__c</referenceTo>
+        <relationshipLabel>Tickets</relationshipLabel>
+        <relationshipName>Tickets</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SI_Oferta_a_eliminar__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Campo de oferta a eliminar</description>
+        <externalId>false</externalId>
+        <label>Oferta a eliminar</label>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipLabel>Tickets</relationshipLabel>
+        <relationshipName>Tickets</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SI_Tercera_cuenta_a_eliminar__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>En fusion de cuentas puede darse el caso que haya una tercera cuenta</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Para los casos en que existan tres cuentas duplicadas o que se quieran fusionar</inlineHelpText>
+        <label>Segunda cuenta a eliminar</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Tickets (Tercera cuenta a eliminar)</relationshipLabel>
+        <relationshipName>Tickets1</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SI_Tipo_de_cuentaEliminar__c</fullName>
+        <externalId>false</externalId>
+        <formula>SI_Cuenta_a_Pasivar_SAP__r.KS_recordType_Name__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Tipo de cuenta a eliminar</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SI_Tipo_de_cuenta__c</fullName>
+        <externalId>false</externalId>
+        <label>Tipo de cuenta</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Clientes Finales</fullName>
+                    <default>false</default>
+                    <label>Clientes Finales</label>
+                </value>
+                <value>
+                    <fullName>Distribuidor CRM</fullName>
+                    <default>false</default>
+                    <label>Distribuidor CRM</label>
+                </value>
+                <value>
+                    <fullName>Distribuidor SAP</fullName>
+                    <default>false</default>
+                    <label>Distribuidor SAP</label>
+                </value>
+                <value>
+                    <fullName>Instalador</fullName>
+                    <default>false</default>
+                    <label>Instalador</label>
+                </value>
+                <value>
+                    <fullName>Lead</fullName>
+                    <default>false</default>
+                    <label>Lead</label>
+                </value>
+                <value>
+                    <fullName>Prescriptor</fullName>
+                    <default>false</default>
+                    <label>Prescriptor</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SI_Usuario_a_asignar__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Usuario a asignar</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Tickets</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Tiempo_de_cierre__c</fullName>
+        <externalId>false</externalId>
+        <formula>LastModifiedDate-CreatedDate</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Tiempo de cierre</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <gender>Masculine</gender>
+    <label>Ticket</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>RECORDTYPE</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>SI_Comentario_Admin__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>Todos</label>
+        <language>es</language>
+    </listViews>
+    <listViews>
+        <fullName>Mis_Tickets_Pendientes</fullName>
+        <columns>NAME</columns>
+        <columns>RECORDTYPE</columns>
+        <columns>SI_Estado__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>SI_Comentario_Admin__c</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>SI_Estado__c</field>
+            <operation>equals</operation>
+            <value>Pendiente,En curso</value>
+        </filters>
+        <label>Mis Tickets Pendientes</label>
+        <language>es</language>
+    </listViews>
+    <listViews>
+        <fullName>Pendiente</fullName>
+        <columns>NAME</columns>
+        <columns>SI_Estado__c</columns>
+        <columns>RECORDTYPE</columns>
+        <columns>SI_Descripcion_de_la_incidencia__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>SI_ID_SF_Cuenta_Principal__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>SI_Estado__c</field>
+            <operation>equals</operation>
+            <value>Pendiente,En curso</value>
+        </filters>
+        <label>Pendiente</label>
+        <language>es</language>
+        <sharedTo>
+            <role>Administrador_del_Sistema</role>
+        </sharedTo>
+    </listViews>
+    <nameField>
+        <displayFormat>TI-{00000}</displayFormat>
+        <label>ID de Ticket</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Tickets</pluralLabel>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>Cambio_de_propietario_Masivo</fullName>
+        <active>true</active>
+        <description>Cambio de propietario para 5 o mas cuentas</description>
+        <label>Cambio de propietario Masivo</label>
+        <picklistValues>
+            <picklist>SI_Causa_Pasivado_Ticket__c</picklist>
+            <values>
+                <fullName>Fuera de target</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pasivado Permanentemente</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pide baja de la BBDD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sin actividad o trabajo</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SI_Comentario_Admin_Lista__c</picklist>
+            <values>
+                <fullName>He fusionado las cuentas indicadas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Te he asignado la cuenta indicada</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SI_Estado__c</picklist>
+            <values>
+                <fullName>Cerrado</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>En curso</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pendiente</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SI_Tipo_de_cuenta__c</picklist>
+            <values>
+                <fullName>Clientes Finales</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Distribuidor CRM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Distribuidor SAP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Instalador</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lead</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prescriptor</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Crear_Marca_Comercial</fullName>
+        <active>true</active>
+        <label>Crear Marca Comercial</label>
+        <picklistValues>
+            <picklist>SI_Causa_Pasivado_Ticket__c</picklist>
+            <values>
+                <fullName>Fuera de target</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pasivado Permanentemente</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pide baja de la BBDD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sin actividad o trabajo</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SI_Comentario_Admin_Lista__c</picklist>
+            <values>
+                <fullName>He fusionado las cuentas indicadas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Te he asignado la cuenta indicada</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SI_Estado__c</picklist>
+            <values>
+                <fullName>Cerrado</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>En curso</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pendiente</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SI_Tipo_de_cuenta__c</picklist>
+            <values>
+                <fullName>Clientes Finales</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Distribuidor CRM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Distribuidor SAP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Instalador</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lead</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prescriptor</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Eliminar_registro_FORMACION</fullName>
+        <active>true</active>
+        <description>Ticket para eliminar objetos creados en la formacion</description>
+        <label>Eliminar registro FORMACION</label>
+        <picklistValues>
+            <picklist>SI_Causa_Pasivado_Ticket__c</picklist>
+            <values>
+                <fullName>Fuera de target</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pasivado Permanentemente</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pide baja de la BBDD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sin actividad o trabajo</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SI_Comentario_Admin_Lista__c</picklist>
+            <values>
+                <fullName>He fusionado las cuentas indicadas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Te he asignado la cuenta indicada</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SI_Estado__c</picklist>
+            <values>
+                <fullName>Cerrado</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>En curso</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pendiente</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SI_Tipo_de_cuenta__c</picklist>
+            <values>
+                <fullName>Clientes Finales</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Distribuidor CRM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Distribuidor SAP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Instalador</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lead</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prescriptor</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Pasivar_cuenta</fullName>
+        <active>true</active>
+        <description>Ticket que sirve para pasivar cuentas que son propiedad de ADMIN SIMON</description>
+        <label>Pasivar cuenta de ADMIN SIMON</label>
+        <picklistValues>
+            <picklist>SI_Causa_Pasivado_Ticket__c</picklist>
+            <values>
+                <fullName>Fuera de target</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pasivado Permanentemente</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pide baja de la BBDD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sin actividad o trabajo</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SI_Comentario_Admin_Lista__c</picklist>
+            <values>
+                <fullName>He fusionado las cuentas indicadas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Te he asignado la cuenta indicada</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SI_Estado__c</picklist>
+            <values>
+                <fullName>Cerrado</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>En curso</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pendiente</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SI_Tipo_de_cuenta__c</picklist>
+            <values>
+                <fullName>Clientes Finales</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Distribuidor CRM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Distribuidor SAP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Instalador</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lead</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prescriptor</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>SI_Cambio_de_propietario</fullName>
+        <active>true</active>
+        <description>Ticket para solicitar cambio de propietario de cuenta</description>
+        <label>Cambio de propietario</label>
+        <picklistValues>
+            <picklist>SI_Causa_Pasivado_Ticket__c</picklist>
+            <values>
+                <fullName>Fuera de target</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pasivado Permanentemente</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pide baja de la BBDD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sin actividad o trabajo</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SI_Comentario_Admin_Lista__c</picklist>
+            <values>
+                <fullName>He fusionado las cuentas indicadas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Te he asignado la cuenta indicada</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SI_Estado__c</picklist>
+            <values>
+                <fullName>Cerrado</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>En curso</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pendiente</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SI_Tipo_de_cuenta__c</picklist>
+            <values>
+                <fullName>Clientes Finales</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Distribuidor CRM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Distribuidor SAP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Instalador</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lead</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prescriptor</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>SI_Cambio_de_segmentacion</fullName>
+        <active>true</active>
+        <description>Ticket para solicitar un cambio de tipo de cuenta para modificar la segmentacion</description>
+        <label>Cambio de segmentacion</label>
+        <picklistValues>
+            <picklist>SI_Causa_Pasivado_Ticket__c</picklist>
+            <values>
+                <fullName>Fuera de target</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pasivado Permanentemente</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pide baja de la BBDD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sin actividad o trabajo</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SI_Comentario_Admin_Lista__c</picklist>
+            <values>
+                <fullName>He fusionado las cuentas indicadas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Te he asignado la cuenta indicada</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SI_Estado__c</picklist>
+            <values>
+                <fullName>Cerrado</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>En curso</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pendiente</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SI_Tipo_de_cuenta__c</picklist>
+            <values>
+                <fullName>Clientes Finales</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Distribuidor CRM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Distribuidor SAP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Instalador</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lead</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prescriptor</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>SI_Fusion_de_contactos</fullName>
+        <active>true</active>
+        <description>Ticket para solicitar fusion de contactos de una cuenta</description>
+        <label>Fusion de contactos</label>
+        <picklistValues>
+            <picklist>SI_Causa_Pasivado_Ticket__c</picklist>
+            <values>
+                <fullName>Fuera de target</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pasivado Permanentemente</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pide baja de la BBDD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sin actividad o trabajo</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SI_Comentario_Admin_Lista__c</picklist>
+            <values>
+                <fullName>He fusionado las cuentas indicadas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Te he asignado la cuenta indicada</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SI_Estado__c</picklist>
+            <values>
+                <fullName>Cerrado</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>En curso</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pendiente</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SI_Tipo_de_cuenta__c</picklist>
+            <values>
+                <fullName>Clientes Finales</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Distribuidor CRM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Distribuidor SAP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Instalador</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lead</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prescriptor</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>SI_Fusion_de_cuentas</fullName>
+        <active>true</active>
+        <description>Ticket para solicitar fusion de cuentas</description>
+        <label>Fusion de cuentas</label>
+        <picklistValues>
+            <picklist>SI_Causa_Pasivado_Ticket__c</picklist>
+            <values>
+                <fullName>Fuera de target</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pasivado Permanentemente</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pide baja de la BBDD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sin actividad o trabajo</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SI_Comentario_Admin_Lista__c</picklist>
+            <values>
+                <fullName>He fusionado las cuentas indicadas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Te he asignado la cuenta indicada</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SI_Estado__c</picklist>
+            <values>
+                <fullName>Cerrado</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>En curso</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pendiente</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SI_Tipo_de_cuenta__c</picklist>
+            <values>
+                <fullName>Clientes Finales</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Distribuidor CRM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Distribuidor SAP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Instalador</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lead</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prescriptor</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>SI_Incidencia</fullName>
+        <active>true</active>
+        <description>Ticket para abrir una incidencia relacionada con el funcionamiento incorrecto de SF</description>
+        <label>Incidencia</label>
+        <picklistValues>
+            <picklist>SI_Causa_Pasivado_Ticket__c</picklist>
+            <values>
+                <fullName>Fuera de target</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pasivado Permanentemente</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pide baja de la BBDD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sin actividad o trabajo</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SI_Comentario_Admin_Lista__c</picklist>
+            <values>
+                <fullName>He fusionado las cuentas indicadas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Te he asignado la cuenta indicada</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SI_Estado__c</picklist>
+            <values>
+                <fullName>Cerrado</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>En curso</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pendiente</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SI_Tipo_de_cuenta__c</picklist>
+            <values>
+                <fullName>Clientes Finales</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Distribuidor CRM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Distribuidor SAP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Instalador</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lead</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prescriptor</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>SI_Otros</fullName>
+        <active>true</active>
+        <description>Ticket para indicar otra casuistica</description>
+        <label>Otros</label>
+        <picklistValues>
+            <picklist>SI_Causa_Pasivado_Ticket__c</picklist>
+            <values>
+                <fullName>Fuera de target</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pasivado Permanentemente</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pide baja de la BBDD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sin actividad o trabajo</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SI_Comentario_Admin_Lista__c</picklist>
+            <values>
+                <fullName>He fusionado las cuentas indicadas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Te he asignado la cuenta indicada</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SI_Estado__c</picklist>
+            <values>
+                <fullName>Cerrado</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>En curso</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pendiente</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SI_Tipo_de_cuenta__c</picklist>
+            <values>
+                <fullName>Clientes Finales</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Distribuidor CRM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Distribuidor SAP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Instalador</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lead</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prescriptor</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>SI_Pasivar_cuenta_SAP</fullName>
+        <active>true</active>
+        <description>Ticket para solicitar pasivar cuenta SAP</description>
+        <label>Pasivar cuenta SAP</label>
+        <picklistValues>
+            <picklist>SI_Causa_Pasivado_Ticket__c</picklist>
+            <values>
+                <fullName>Fuera de target</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pasivado Permanentemente</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pide baja de la BBDD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sin actividad o trabajo</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SI_Comentario_Admin_Lista__c</picklist>
+            <values>
+                <fullName>He fusionado las cuentas indicadas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Te he asignado la cuenta indicada</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SI_Estado__c</picklist>
+            <values>
+                <fullName>Cerrado</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>En curso</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pendiente</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SI_Tipo_de_cuenta__c</picklist>
+            <values>
+                <fullName>Clientes Finales</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Distribuidor CRM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Distribuidor SAP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Instalador</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lead</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prescriptor</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <lookupDialogsAdditionalFields>SI_Cuenta_Principal__c</lookupDialogsAdditionalFields>
+        <searchResultsAdditionalFields>SI_Cuenta_Principal__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>CuentaPasivaSAP</fullName>
+        <active>true</active>
+        <description>La cuenta a pasivar en sap debe ser de tipo Distribuidor SAP</description>
+        <errorConditionFormula>AND(
+ SI_Cuenta_a_Pasivar_SAP__c &lt;&gt; NULL, 
+ SI_Tipo_de_cuentaEliminar__c &lt;&gt; &apos;KS_Distribuidores_SAP&apos;
+)</errorConditionFormula>
+        <errorMessage>La cuenta a pasivar en sap debe ser de tipo Distribuidor SAP</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Eliminar_OP_ACC_OBRA</fullName>
+        <active>false</active>
+        <description>Es necesario indicar un campo.</description>
+        <errorConditionFormula>AND(
+ RecordType.Name= &apos;Eliminar oferta/obra/cuenta&apos;,
+ SI_Cuenta_a_eliminar__c =NULL,
+ SI_Obra_a_eliminar__c =NULL,
+ SI_Oferta_a_eliminar__c =NULL,
+ SI_Cuenta_a_Pasivar_SAP__c =NULL
+)</errorConditionFormula>
+        <errorMessage>Es necesario indicar un campo a eliminar</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>PasivarSAP_Motivo</fullName>
+        <active>true</active>
+        <description>Si se indica a pasivar SAP, necesita motivo.</description>
+        <errorConditionFormula>AND(
+ RecordType.Name= &apos;Eliminar oferta/obra/cuenta&apos;,
+ SI_Cuenta_a_Pasivar_SAP__c &lt;&gt; NULL,
+ SI_Motivo_de_bajaSAP__c =Null
+
+)</errorConditionFormula>
+        <errorMessage>Necesitas indicar el motivo de baja para SAP.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

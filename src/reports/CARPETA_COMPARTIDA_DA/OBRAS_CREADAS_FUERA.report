@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>KS_Obra__c.KS_Provincia__c</field>
+    </columns>
+    <columns>
+        <field>KS_Obra__c.KS_Coordinador__c</field>
+    </columns>
+    <currency>EUR</currency>
+    <filter>
+        <criteriaItems>
+            <column>KS_Obra__c.KS_Coordinador__c</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Admin Simon,Jose Manuel Acebal Jimenez,Sebastian Alejo Perez Cabrera,Pedro Talavera Lebrero,Mª JOSE GALDÓN,Juan Marchena Lopez,Jose Luis Sanchez Jimenez,Jose Luis Lopez Jimenez,Jorge Martin De La Vega Torres,Fernando Manuel Martinez Rodriguez,David Huarte Cambra,Almudena Ballesteros Navarro,Agustin De Haro Lopez,Andres Pedraza Moyano,Antonio Fernandez Flores,Araceli Montejano Gonzalez,Enrique Javier Rodriguez-Valdes Roque,Estrella Aranda Agustino,Gloria María Llamas Castellano,Isidro Maria Del Pino Moreno,Jesus Gonzalez Ramirez,Juan Manuel Gracia Calamonte,Lucas Caballero Diaz,Luis Flores Bauer,Alejandro Hidalgo Pelegrin</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>KS_Obra__c.KS_Codigo_Postal__c</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>startsWith</operator>
+            <value>04,06,10,11,14,21,18,23,29,35,38,41</value>
+        </criteriaItems>
+        <language>es</language>
+    </filter>
+    <format>Matrix</format>
+    <groupingsAcross>
+        <dateGranularity>Day</dateGranularity>
+        <field>KS_Obra__c.KS_Prescrito__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsAcross>
+        <dateGranularity>Day</dateGranularity>
+        <field>KS_Obra__c.KS_Fase__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <name>OBRAS CREADAS FUERA TOTAL</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$KS_Obra__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>KS_Obra__c.KS_Proximo_seguimiento__c</dateColumn>
+        <interval>INTERVAL_PREVCUR2FY</interval>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,3197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <choices>
+        <name>ALAVA</name>
+        <choiceText>ALAVA</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>01</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>ALBACETE</name>
+        <choiceText>ALBACETE</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>02</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>ALICANTE</name>
+        <choiceText>ALICANTE</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>03</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>ALMER_A</name>
+        <choiceText>ALMERÍA</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>04</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>ANDORRA_LA_VELLA</name>
+        <choiceText>ANDORRA LA VELLA</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>AD500</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>ASTURIAS</name>
+        <choiceText>ASTURIAS</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>33</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>AVEIRO</name>
+        <choiceText>AVEIRO</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>12</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>BADAJOZ</name>
+        <choiceText>BADAJOZ</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>06</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>BALEARES</name>
+        <choiceText>BALEARES</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>07</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>BARCELONA</name>
+        <choiceText>BARCELONA</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>08</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>BEJA</name>
+        <choiceText>BEJA</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>4</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>BRAGA</name>
+        <choiceText>BRAGA</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>17</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>BRAGAN_A</name>
+        <choiceText>BRAGANÇA</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>14</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>BURGOS</name>
+        <choiceText>BURGOS</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>09</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>C_CERES</name>
+        <choiceText>CÁCERES</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>10</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>C_DIZ</name>
+        <choiceText>CÁDIZ</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>11</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>C_RDOBA</name>
+        <choiceText>CÓRDOBA</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>14</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>CANILLO</name>
+        <choiceText>CANILLO</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>AD100</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>CANTABRIA</name>
+        <choiceText>CANTABRIA</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>39</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>CASTELL_N</name>
+        <choiceText>CASTELLÓN</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>12</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>CASTELO_BRANCO</name>
+        <choiceText>CASTELO BRANCO</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>9</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>CEUTA</name>
+        <choiceText>CEUTA</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>51</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>CIUDAD_REAL</name>
+        <choiceText>CIUDAD REAL</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>13</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>COIMBRA</name>
+        <choiceText>COIMBRA</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>11</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>CORU_A</name>
+        <choiceText>CORUÑA</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>15</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>CUENCA</name>
+        <choiceText>CUENCA</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>16</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>ENCAMP</name>
+        <choiceText>ENCAMP</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>AD200</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>ESCALDES_ENGORDANY</name>
+        <choiceText>ESCALDES-ENGORDANY</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>AD700</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>FARO</name>
+        <choiceText>FARO</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>6</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>GERONA</name>
+        <choiceText>GERONA</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>17</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>GRANADA</name>
+        <choiceText>GRANADA</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>18</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>GUADALAJARA</name>
+        <choiceText>GUADALAJARA</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>19</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>GUARDA</name>
+        <choiceText>GUARDA</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>10</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>GUIP_ZCOA</name>
+        <choiceText>GUIPÚZCOA</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>20</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>HUELVA</name>
+        <choiceText>HUELVA</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>21</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <description>HUESCA</description>
+        <name>HUESCA</name>
+        <choiceText>HUESCA</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>22</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>JAEN</name>
+        <choiceText>JAÉN</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>23</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>L_RIDA</name>
+        <choiceText>LÉRIDA</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>25</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>LA_MASSANA</name>
+        <choiceText>LA MASSANA</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>AD400</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>LA_RIOJA</name>
+        <choiceText>LA RIOJA</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>26</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>LAS_PALMAS</name>
+        <choiceText>LAS PALMAS</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>35</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>LEIRIA</name>
+        <choiceText>LEIRIA</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>2</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>LEON</name>
+        <choiceText>LEÓN</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>24</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>LISBOA</name>
+        <choiceText>LISBOA</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>1</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>LUGO</name>
+        <choiceText>LUGO</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>27</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>M_LAGA</name>
+        <choiceText>MÁLAGA</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>29</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>MADRID</name>
+        <choiceText>MADRID</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>28</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>MELILLA</name>
+        <choiceText>MELILLA</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>52</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>MURCIA</name>
+        <choiceText>MURCIA</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>30</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>NAVARRA</name>
+        <choiceText>NAVARRA</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>31</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>No_disponible</name>
+        <choiceText>No disponible</choiceText>
+        <dataType>String</dataType>
+    </choices>
+    <choices>
+        <name>ORDINO</name>
+        <choiceText>ORDINO</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>AD300</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>ORENSE</name>
+        <choiceText>ORENSE</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>32</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>PaisOrigen</name>
+        <choiceText>{!CapitalizeCurrentCountry}</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <elementReference>Var_BillingCountry</elementReference>
+        </value>
+    </choices>
+    <choices>
+        <name>PALENCIA</name>
+        <choiceText>PALENCIA</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>34</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>PONTEVEDRA</name>
+        <choiceText>PONTEVEDRA</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>36</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>PORTALEGRE</name>
+        <choiceText>PORTALEGRE</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>8</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>PORTO</name>
+        <choiceText>PORTO</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>16</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>preloaded_value_state</name>
+        <choiceText>{!CapitalizeCurrentState}</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <elementReference>Var_BillingState</elementReference>
+        </value>
+    </choices>
+    <choices>
+        <name>SALAMANCA</name>
+        <choiceText>SALAMANCA</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>37</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>SAN_JULI_DE_LOIRA</name>
+        <choiceText>SAN JULIÀ DE LOIRA</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>AD600</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>SANTA_CRUZ_DE_TENERIFE</name>
+        <choiceText>SANTA CRUZ DE TENERIFE</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>38</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>SANTAR_M</name>
+        <choiceText>SANTARÉM</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>3</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>SEGOVIA</name>
+        <choiceText>SEGOVIA</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>40</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>SET_BAL</name>
+        <choiceText>SETÚBAL</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>4</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>SEVILLA</name>
+        <choiceText>SEVILLA</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>41</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>SORIA</name>
+        <choiceText>SORIA</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>42</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>TARRAGONA</name>
+        <choiceText>TARRAGONA</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>43</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>TERUEL</name>
+        <choiceText>TERUEL</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>44</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>TOLEDO</name>
+        <choiceText>TOLEDO</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>45</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>VALENCIA</name>
+        <choiceText>VALENCIA</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>46</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>VALLADOLID</name>
+        <choiceText>VALLADOLID</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>47</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>VIANA_DO_CASTELO</name>
+        <choiceText>VIANA DO CASTELO</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>18</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>ViaOriginal</name>
+        <choiceText>{!CapitalizeTIpodeVia}</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <elementReference>CapitalizeTIpodeVia</elementReference>
+        </value>
+    </choices>
+    <choices>
+        <name>VILA</name>
+        <choiceText>ÁVILA</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>05</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>VILA_REAL</name>
+        <choiceText>VILA REAL</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>15</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>VISEU</name>
+        <choiceText>VISEU</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>13</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>VIZCAYA</name>
+        <choiceText>VIZCAYA</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>48</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>VORA</name>
+        <choiceText>ÉVORA</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>7</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>ZAMORA</name>
+        <choiceText>ZAMORA</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>49</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>ZARAGOZA</name>
+        <choiceText>ZARAGOZA</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>50</stringValue>
+        </value>
+    </choices>
+    <decisions>
+        <description>El usuario confirma (si/no) si quiere realizar la modificación.</description>
+        <name>Decision</name>
+        <label>Se confirma la modificación</label>
+        <locationX>1674</locationX>
+        <locationY>885</locationY>
+        <defaultConnector>
+            <targetReference>error_msg</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>No</defaultConnectorLabel>
+        <rules>
+            <name>Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Confirmar</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>que_pais_es</targetReference>
+            </connector>
+            <label>Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Default_is_Selected</name>
+        <label>Default is Selected</label>
+        <locationX>1362</locationX>
+        <locationY>286</locationY>
+        <defaultConnector>
+            <targetReference>validar_c_digos_postales_0</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>[Default Outcome]</defaultConnectorLabel>
+        <rules>
+            <name>Default_state_is_selected</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>state</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>preloaded_value_state</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>validar_c_digos_postales</targetReference>
+            </connector>
+            <label>Default State is selected</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>default_state_or_country</name>
+        <label>default state or country</label>
+        <locationX>1010</locationX>
+        <locationY>1208</locationY>
+        <defaultConnector>
+            <targetReference>Direcci_n_Custom_0_0_0_0_0</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>[Default Outcome]</defaultConnectorLabel>
+        <rules>
+            <name>default_state_2</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>state</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>preloaded_value_state</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Direcci_n_Custom_0_0_0_0</targetReference>
+            </connector>
+            <label>default state</label>
+        </rules>
+        <rules>
+            <name>default_country</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>PaisLista</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>PaisOrigen</elementReference>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>state</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <elementReference>preloaded_value_state</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Direcci_n_Custom_0_0_0</targetReference>
+            </connector>
+            <label>default country</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Es_o_no_propietario</name>
+        <label>Es o no propietario</label>
+        <locationX>385</locationX>
+        <locationY>384</locationY>
+        <defaultConnector>
+            <targetReference>Error_propietario</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>[Default Outcome]</defaultConnectorLabel>
+        <rules>
+            <name>es</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>QuienInicioElFlow</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>IdPropietario15</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Campos_Direccion</targetReference>
+            </connector>
+            <label>es</label>
+        </rules>
+        <rules>
+            <name>es_un_admin_en_cuenta_de_admin_simon</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>IdPropietario15</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>00558000000MQJd</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>Nombre_Role</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>Admin</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Campos_Direccion</targetReference>
+            </connector>
+            <label>es un admin en cuenta de admin simon</label>
+        </rules>
+        <rules>
+            <name>M_Angels</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>var_AliasUser</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>macoleto</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Campos_Direccion</targetReference>
+            </connector>
+            <label>Mª Angels</label>
+        </rules>
+        <rules>
+            <name>Administradores</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Nombre_Role</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>admin</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Campos_Direccion</targetReference>
+            </connector>
+            <label>Administradores</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>pais_origen</name>
+        <label>pais origen</label>
+        <locationX>999</locationX>
+        <locationY>838</locationY>
+        <defaultConnector>
+            <targetReference>Direcci_n_Custom</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>[Default Outcome]</defaultConnectorLabel>
+        <rules>
+            <name>origen</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>PaisLista</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>PaisOrigen</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Direcci_n_Custom_0</targetReference>
+            </connector>
+            <label>origen</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>que_pais_es</name>
+        <label>que pais es?</label>
+        <locationX>1302</locationX>
+        <locationY>1005</locationY>
+        <defaultConnector>
+            <targetReference>pais_origen</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>no es andorra</defaultConnectorLabel>
+        <rules>
+            <name>andorra</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>PaisLista</leftValueReference>
+                <operator>StartsWith</operator>
+                <rightValue>
+                    <stringValue>and</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Direcci_n_Custom_0_0</targetReference>
+            </connector>
+            <label>andorra</label>
+        </rules>
+        <rules>
+            <name>Portugal</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>getstateport</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>GetStatePort2</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>default_state_or_country</targetReference>
+            </connector>
+            <label>Portugal</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>validar_c_digos_postales</name>
+        <label>validar códigos postales</label>
+        <locationX>1368</locationX>
+        <locationY>642</locationY>
+        <defaultConnector>
+            <targetReference>Error_c_digo_postal</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>[Default Outcome]</defaultConnectorLabel>
+        <rules>
+            <name>pais_espa_a_correcto_default</name>
+            <conditionLogic>(1 OR 2 OR 3 OR 4) AND 5</conditionLogic>
+            <conditions>
+                <leftValueReference>PaisLista</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>&quot;ESPAÑA&quot;</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>PaisLista</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>ESPAÑA</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>PaisLista</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>ES</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>PaisLista</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>&quot;ES&quot;</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>DefaultStateCode2</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Confirmaci_n</targetReference>
+            </connector>
+            <label>pais españa correcto - default</label>
+        </rules>
+        <rules>
+            <name>pa_s_andorra_correcto_default</name>
+            <conditionLogic>(1 OR 2 OR 3 OR 4) AND 5</conditionLogic>
+            <conditions>
+                <leftValueReference>PaisLista</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>&quot;ANDORRA&quot;</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>PaisLista</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>&quot;AD&quot;</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>PaisLista</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>AD</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>PaisLista</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>ANDORRA</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>AndorraState</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Confirmaci_n</targetReference>
+            </connector>
+            <label>país andorra correcto - default</label>
+        </rules>
+        <rules>
+            <name>pais_portugal_correcto_default</name>
+            <conditionLogic>(1 OR 2 OR 3 OR 4) AND 5</conditionLogic>
+            <conditions>
+                <leftValueReference>PaisLista</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>&quot;PORTUGAL&quot;</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>PaisLista</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>&quot;PT&quot;</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>PaisLista</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>PT</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>PaisLista</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>PORTUGAL</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>GetStatePort2</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Confirmaci_n</targetReference>
+            </connector>
+            <label>pais portugal correcto - default</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>validar_c_digos_postales_0</name>
+        <label>validar códigos postales</label>
+        <locationX>1857</locationX>
+        <locationY>289</locationY>
+        <defaultConnector>
+            <targetReference>Error_c_digo_postal</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>[Default Outcome]</defaultConnectorLabel>
+        <rules>
+            <name>pa_s_portugal_correcto_Not_Default</name>
+            <conditionLogic>(1 OR 2 OR 3 OR 4) AND 5</conditionLogic>
+            <conditions>
+                <leftValueReference>PaisLista</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>&quot;PORTUGAL&quot;</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>PaisLista</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>&quot;PT&quot;</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>PaisLista</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>PT</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>PaisLista</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>PORTUGAL</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>getstateport</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Confirmaci_n</targetReference>
+            </connector>
+            <label>país portugal_correcto - Not Default</label>
+        </rules>
+        <rules>
+            <name>pa_s_andorra_correcto_not_default</name>
+            <conditionLogic>(1 OR 2 OR 3 OR 4) AND 5</conditionLogic>
+            <conditions>
+                <leftValueReference>PaisLista</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>&quot;ANDORRA&quot;</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>PaisLista</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>&quot;AD&quot;</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>PaisLista</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>AD</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>PaisLista</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>ANDORRA</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>AndorraState</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Confirmaci_n</targetReference>
+            </connector>
+            <label>país andorra_correcto - Not Default</label>
+        </rules>
+        <rules>
+            <name>pais_espa_a_correcto_not_default_0</name>
+            <conditionLogic>(1 OR 2 OR 3 OR 4 ) AND 5</conditionLogic>
+            <conditions>
+                <leftValueReference>PaisLista</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>&quot;ESPAÑA&quot;</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>PaisLista</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>ESPAÑA</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>PaisLista</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>ES</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>PaisLista</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>&quot;ES&quot;</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>GetStateCode</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Confirmaci_n</targetReference>
+            </connector>
+            <label>pais españa correcto - not default</label>
+        </rules>
+    </decisions>
+    <dynamicChoiceSets>
+        <name>PaisSeleccin</name>
+        <dataType>Picklist</dataType>
+        <displayField xsi:nil="true"/>
+        <object xsi:nil="true"/>
+        <picklistField>KS_Pais__c</picklistField>
+        <picklistObject>Account</picklistObject>
+        <sortOrder>Asc</sortOrder>
+    </dynamicChoiceSets>
+    <dynamicChoiceSets>
+        <name>tipodevialista</name>
+        <dataType>String</dataType>
+        <displayField>KS_Tipo_de_via__c</displayField>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>var_IdCuenta</elementReference>
+            </value>
+        </filters>
+        <object>Account</object>
+        <outputAssignments>
+            <assignToReference>var_Tipovia</assignToReference>
+            <field>KS_Tipo_de_via__c</field>
+        </outputAssignments>
+    </dynamicChoiceSets>
+    <dynamicChoiceSets>
+        <name>TipoViaSelect</name>
+        <dataType>Picklist</dataType>
+        <displayField xsi:nil="true"/>
+        <object xsi:nil="true"/>
+        <picklistField>KS_Tipo_de_via__c</picklistField>
+        <picklistObject>Account</picklistObject>
+    </dynamicChoiceSets>
+    <formulas>
+        <name>AndorraState</name>
+        <dataType>Boolean</dataType>
+        <expression>IF(LEFT({!C_digo_Postal},3)=CASE(UPPER({!state}), 
+&quot;CANILLO&quot;,&quot;AD1&quot;,
+&quot;ENCAMP&quot;,&quot;AD2&quot;,
+&quot;ORDINO&quot;,&quot;AD3&quot;,
+&quot;LA MASSANA&quot;,&quot;AD4&quot;,
+&quot;ANDORRA LA VELLA&quot;,&quot;AD5&quot;,
+&quot;SAN JULIÀ DE LOIRA&quot;,&quot;AD6&quot;,
+&quot;ESCALDES-ENGORDANY&quot;,&quot;AD7&quot;,
+&quot;&quot;),TRUE,FALSE)</expression>
+    </formulas>
+    <formulas>
+        <name>AndorraStateCode</name>
+        <dataType>String</dataType>
+        <expression>IF(LEFT({!C_digo_Postal},3)=CASE(UPPER({!state}), 
+&quot;CANILLO&quot;,&quot;AD1&quot;,
+&quot;ENCAMP&quot;,&quot;AD2&quot;,
+&quot;ORDINO&quot;,&quot;AD3&quot;,
+&quot;LA MASSANA&quot;,&quot;AD4&quot;,
+&quot;ANDORRA LA VELLA&quot;,&quot;AD5&quot;,
+&quot;SAN JULIÀ DE LOIRA&quot;,&quot;AD6&quot;,
+&quot;ESCALDES-ENGORDANY&quot;,&quot;AD7&quot;,
+&quot;&quot;),{!C_digo_Postal},&quot;FALSE&quot;)</expression>
+    </formulas>
+    <formulas>
+        <name>CapitalizeCurrentCountry</name>
+        <dataType>String</dataType>
+        <expression>UPPER({!Var_BillingCountry})</expression>
+    </formulas>
+    <formulas>
+        <name>CapitalizeCurrentState</name>
+        <dataType>String</dataType>
+        <expression>UPPER({!Var_BillingState})</expression>
+    </formulas>
+    <formulas>
+        <name>CapitalizeTIpodeVia</name>
+        <dataType>String</dataType>
+        <expression>UPPER({!var_Tipovia})</expression>
+    </formulas>
+    <formulas>
+        <name>CodigoEstadoProvincia</name>
+        <dataType>String</dataType>
+        <expression>LEFT({!C_digo_Postal}, 2)</expression>
+    </formulas>
+    <formulas>
+        <name>CP_Espanya_1</name>
+        <dataType>Boolean</dataType>
+        <expression>IF(LEFT({!C_digo_Postal},2)={!state},TRUE,FALSE)</expression>
+    </formulas>
+    <formulas>
+        <name>DefaultStateCode</name>
+        <dataType>String</dataType>
+        <expression>IF(LEFT({!C_digo_Postal},2)=CASE(UPPER({!state}), 
+&quot;ALAVA&quot;,&quot;01&quot;,
+&quot;ÁLAVA&quot;,&quot;01&quot;,
+&quot;ALBACETE&quot;,&quot;02&quot;,
+&quot;ALICANTE&quot;,&quot;03&quot;,
+&quot;ALMERÍA&quot;,&quot;04&quot;,
+&quot;ÁVILA&quot;,&quot;05&quot;,
+&quot;BADAJOZ&quot;,&quot;06&quot;,
+&quot;BALEARES&quot;,&quot;07&quot;,
+&quot;BARCELONA&quot;,&quot;08&quot;,
+&quot;BURGOS&quot;,&quot;09&quot;,
+&quot;CÁCERES&quot;,&quot;10&quot;,
+&quot;CÁDIZ&quot;,&quot;11&quot;,
+&quot;CASTELLÓN&quot;,&quot;12&quot;,
+&quot;CIUDAD REAL&quot;,&quot;13&quot;,
+&quot;CÓRDOBA&quot;,&quot;14&quot;,
+&quot;CORUÑA&quot;,&quot;15&quot;,
+&quot;A CORUÑA&quot;,&quot;15&quot;,
+&quot;CUENCA&quot;,&quot;16&quot;,
+&quot;GERONA&quot;,&quot;17&quot;,
+&quot;GIRONA&quot;,&quot;17&quot;,
+&quot;GRANADA&quot;,&quot;18&quot;,
+&quot;GUADALAJARA&quot;,&quot;19&quot;,
+&quot;GUIPÚZCOA&quot;,&quot;20&quot;,
+&quot;HUELVA&quot;,&quot;21&quot;,
+&quot;HUESCA&quot;,&quot;22&quot;,
+&quot;JAÉN&quot;,&quot;23&quot;,
+&quot;LEÓN&quot;,&quot;24&quot;,
+&quot;LLEIDA&quot;,&quot;25&quot;,
+&quot;LÉRIDA&quot;,&quot;25&quot;,
+&quot;LA RIOJA&quot;,&quot;26&quot;,
+&quot;LUGO&quot;,&quot;27&quot;,
+&quot;MADRID&quot;,&quot;28&quot;,
+&quot;MÁLAGA&quot;,&quot;29&quot;,
+&quot;MURCIA&quot;,&quot;30&quot;,
+&quot;NAVARRA&quot;,&quot;31&quot;,
+&quot;ORENSE&quot;,&quot;32&quot;,
+&quot;OURENSE&quot;,&quot;32&quot;,
+&quot;ASTURIAS&quot;,&quot;33&quot;,
+&quot;PALENCIA&quot;,&quot;34&quot;,
+&quot;LAS PALMAS&quot;,&quot;35&quot;,
+&quot;PONTEVEDRA&quot;,&quot;36&quot;,
+&quot;SALAMANCA&quot;,&quot;37&quot;,
+&quot;SANTA CRUZ DE TENERIFE&quot;,&quot;38&quot;,
+&quot;CANTABRIA&quot;,&quot;39&quot;,
+&quot;SEGOVIA&quot;,&quot;40&quot;,
+&quot;SEVILLA&quot;,&quot;41&quot;,
+&quot;SORIA&quot;,&quot;42&quot;,
+&quot;TARRAGONA&quot;,&quot;43&quot;,
+&quot;TERUEL&quot;,&quot;44&quot;,
+&quot;TOLEDO&quot;,&quot;45&quot;,
+&quot;VALENCIA&quot;,&quot;46&quot;,
+&quot;VALLADOLID&quot;,&quot;47&quot;,
+&quot;VIZCAYA&quot;,&quot;48&quot;,
+&quot;BIZKAIA&quot;,&quot;48&quot;,
+&quot;ZAMORA&quot;,&quot;49&quot;,
+&quot;ZARAGOZA&quot;,&quot;50&quot;,
+&quot;CEUTA&quot;,&quot;51&quot;,
+&quot;MELILLA&quot;,&quot;52&quot;,
+&quot;CANILLO&quot;,&quot;AD&quot;,
+&quot;ENCAMP&quot;,&quot;AD&quot;,
+&quot;ORDINO&quot;,&quot;AD&quot;,
+&quot;LA MASSANA&quot;,&quot;AD&quot;,
+&quot;ANDORRA LA VELLA&quot;,&quot;AD&quot;,
+&quot;SAN JULIÀ DE LOIRA&quot;,&quot;AD&quot;,
+&quot;ESCALDES-ENGORDANY&quot;,&quot;AD&quot;,
+&quot;&quot;),LEFT({!C_digo_Postal},2),&quot;FALSE&quot;)</expression>
+    </formulas>
+    <formulas>
+        <name>DefaultStateCode2</name>
+        <dataType>Boolean</dataType>
+        <expression>IF(LEFT({!C_digo_Postal},2)=CASE(UPPER({!state}), 
+&quot;ALAVA&quot;,&quot;01&quot;,
+&quot;ÁLAVA&quot;,&quot;01&quot;,
+&quot;ALBACETE&quot;,&quot;02&quot;,
+&quot;ALICANTE&quot;,&quot;03&quot;,
+&quot;ALMERÍA&quot;,&quot;04&quot;,
+&quot;ÁVILA&quot;,&quot;05&quot;,
+&quot;BADAJOZ&quot;,&quot;06&quot;,
+&quot;BALEARES&quot;,&quot;07&quot;,
+&quot;BARCELONA&quot;,&quot;08&quot;,
+&quot;BURGOS&quot;,&quot;09&quot;,
+&quot;CÁCERES&quot;,&quot;10&quot;,
+&quot;CÁDIZ&quot;,&quot;11&quot;,
+&quot;CASTELLÓN&quot;,&quot;12&quot;,
+&quot;CIUDAD REAL&quot;,&quot;13&quot;,
+&quot;CÓRDOBA&quot;,&quot;14&quot;,
+&quot;CORUÑA&quot;,&quot;15&quot;,
+&quot;A CORUÑA&quot;,&quot;15&quot;,
+&quot;CUENCA&quot;,&quot;16&quot;,
+&quot;GERONA&quot;,&quot;17&quot;,
+&quot;GIRONA&quot;,&quot;17&quot;,
+&quot;GRANADA&quot;,&quot;18&quot;,
+&quot;GUADALAJARA&quot;,&quot;19&quot;,
+&quot;GUIPÚZCOA&quot;,&quot;20&quot;,
+&quot;HUELVA&quot;,&quot;21&quot;,
+&quot;HUESCA&quot;,&quot;22&quot;,
+&quot;JAÉN&quot;,&quot;23&quot;,
+&quot;LEÓN&quot;,&quot;24&quot;,
+&quot;LLEIDA&quot;,&quot;25&quot;,
+&quot;LÉRIDA&quot;,&quot;25&quot;,
+&quot;LA RIOJA&quot;,&quot;26&quot;,
+&quot;LUGO&quot;,&quot;27&quot;,
+&quot;MADRID&quot;,&quot;28&quot;,
+&quot;MÁLAGA&quot;,&quot;29&quot;,
+&quot;MURCIA&quot;,&quot;30&quot;,
+&quot;NAVARRA&quot;,&quot;31&quot;,
+&quot;ORENSE&quot;,&quot;32&quot;,
+&quot;OURENSE&quot;,&quot;32&quot;,
+&quot;ASTURIAS&quot;,&quot;33&quot;,
+&quot;PALENCIA&quot;,&quot;34&quot;,
+&quot;LAS PALMAS&quot;,&quot;35&quot;,
+&quot;PONTEVEDRA&quot;,&quot;36&quot;,
+&quot;SALAMANCA&quot;,&quot;37&quot;,
+&quot;SANTA CRUZ DE TENERIFE&quot;,&quot;38&quot;,
+&quot;CANTABRIA&quot;,&quot;39&quot;,
+&quot;SEGOVIA&quot;,&quot;40&quot;,
+&quot;SEVILLA&quot;,&quot;41&quot;,
+&quot;SORIA&quot;,&quot;42&quot;,
+&quot;TARRAGONA&quot;,&quot;43&quot;,
+&quot;TERUEL&quot;,&quot;44&quot;,
+&quot;TOLEDO&quot;,&quot;45&quot;,
+&quot;VALENCIA&quot;,&quot;46&quot;,
+&quot;VALLADOLID&quot;,&quot;47&quot;,
+&quot;VIZCAYA&quot;,&quot;48&quot;,
+&quot;BIZKAIA&quot;,&quot;48&quot;,
+&quot;ZAMORA&quot;,&quot;49&quot;,
+&quot;ZARAGOZA&quot;,&quot;50&quot;,
+&quot;CEUTA&quot;,&quot;51&quot;,
+&quot;MELILLA&quot;,&quot;52&quot;,
+&quot;CANILLO&quot;,&quot;AD&quot;,
+&quot;ENCAMP&quot;,&quot;AD&quot;,
+&quot;ORDINO&quot;,&quot;AD&quot;,
+&quot;LA MASSANA&quot;,&quot;AD&quot;,
+&quot;ANDORRA LA VELLA&quot;,&quot;AD&quot;,
+&quot;SAN JULIÀ DE LOIRA&quot;,&quot;AD&quot;,
+&quot;ESCALDES-ENGORDANY&quot;,&quot;AD&quot;,
+&quot;&quot;),TRUE,FALSE)</expression>
+    </formulas>
+    <formulas>
+        <name>formulaCP2</name>
+        <dataType>String</dataType>
+        <expression>LEFT({!C_digo_Postal},2)</expression>
+    </formulas>
+    <formulas>
+        <name>GetStateCode</name>
+        <dataType>Boolean</dataType>
+        <expression>IF(LEFT({!C_digo_Postal},2)=CASE(UPPER({!state}), 
+&quot;ALAVA&quot;,&quot;01&quot;,
+&quot;ÁLAVA&quot;,&quot;01&quot;,
+&quot;ALBACETE&quot;,&quot;02&quot;,
+&quot;ALICANTE&quot;,&quot;03&quot;,
+&quot;ALMERÍA&quot;,&quot;04&quot;,
+&quot;ÁVILA&quot;,&quot;05&quot;,
+&quot;BADAJOZ&quot;,&quot;06&quot;,
+&quot;BALEARES&quot;,&quot;07&quot;,
+&quot;BARCELONA&quot;,&quot;08&quot;,
+&quot;BURGOS&quot;,&quot;09&quot;,
+&quot;CÁCERES&quot;,&quot;10&quot;,
+&quot;CÁDIZ&quot;,&quot;11&quot;,
+&quot;CASTELLÓN&quot;,&quot;12&quot;,
+&quot;CIUDAD REAL&quot;,&quot;13&quot;,
+&quot;CÓRDOBA&quot;,&quot;14&quot;,
+&quot;CORUÑA&quot;,&quot;15&quot;,
+&quot;A CORUÑA&quot;,&quot;15&quot;,
+&quot;CUENCA&quot;,&quot;16&quot;,
+&quot;GERONA&quot;,&quot;17&quot;,
+&quot;GIRONA&quot;,&quot;17&quot;,
+&quot;GRANADA&quot;,&quot;18&quot;,
+&quot;GUADALAJARA&quot;,&quot;19&quot;,
+&quot;GUIPÚZCOA&quot;,&quot;20&quot;,
+&quot;HUELVA&quot;,&quot;21&quot;,
+&quot;HUESCA&quot;,&quot;22&quot;,
+&quot;JAÉN&quot;,&quot;23&quot;,
+&quot;LEÓN&quot;,&quot;24&quot;,
+&quot;LÉRIDA&quot;,&quot;25&quot;,
+&quot;LLEIDA&quot;,&quot;25&quot;,
+&quot;LA RIOJA&quot;,&quot;26&quot;,
+&quot;LUGO&quot;,&quot;27&quot;,
+&quot;MADRID&quot;,&quot;28&quot;,
+&quot;MÁLAGA&quot;,&quot;29&quot;,
+&quot;MURCIA&quot;,&quot;30&quot;,
+&quot;NAVARRA&quot;,&quot;31&quot;,
+&quot;ORENSE&quot;,&quot;32&quot;,
+&quot;OURENSE&quot;,&quot;32&quot;,
+&quot;ASTURIAS&quot;,&quot;33&quot;,
+&quot;PALENCIA&quot;,&quot;34&quot;,
+&quot;LAS PALMAS&quot;,&quot;35&quot;,
+&quot;PONTEVEDRA&quot;,&quot;36&quot;,
+&quot;SALAMANCA&quot;,&quot;37&quot;,
+&quot;SANTA CRUZ DE TENERIFE&quot;,&quot;38&quot;,
+&quot;CANTABRIA&quot;,&quot;39&quot;,
+&quot;SEGOVIA&quot;,&quot;40&quot;,
+&quot;SEVILLA&quot;,&quot;41&quot;,
+&quot;SORIA&quot;,&quot;42&quot;,
+&quot;TARRAGONA&quot;,&quot;43&quot;,
+&quot;TERUEL&quot;,&quot;44&quot;,
+&quot;TOLEDO&quot;,&quot;45&quot;,
+&quot;VALENCIA&quot;,&quot;46&quot;,
+&quot;VALLADOLID&quot;,&quot;47&quot;,
+&quot;VIZCAYA&quot;,&quot;48&quot;,
+&quot;BIZKAIA&quot;,&quot;48&quot;,
+&quot;ZAMORA&quot;,&quot;49&quot;,
+&quot;ZARAGOZA&quot;,&quot;50&quot;,
+&quot;CEUTA&quot;,&quot;51&quot;,
+&quot;MELILLA&quot;,&quot;52&quot;,
+&quot;CANILLO&quot;,&quot;AD&quot;,
+&quot;ENCAMP&quot;,&quot;AD&quot;,
+&quot;ORDINO&quot;,&quot;AD&quot;,
+&quot;LA MASSANA&quot;,&quot;AD&quot;,
+&quot;ANDORRA LA VELLA&quot;,&quot;AD&quot;,
+&quot;SAN JULIÀ DE LOIRA&quot;,&quot;AD&quot;,
+&quot;ESCALDES-ENGORDANY&quot;,&quot;AD&quot;,
+&quot;&quot;),TRUE,FALSE)</expression>
+    </formulas>
+    <formulas>
+        <name>getstateport</name>
+        <dataType>Boolean</dataType>
+        <expression>IF({!state}=CASE({!state}, 
+&quot;LISBOA&quot;,&quot;LISBOA&quot;,
+&quot;LEIRIA&quot;,&quot;LEIRIA&quot;,
+&quot;SANTARÉM&quot;,&quot;SANTARÉM&quot;,
+&quot;SETÚBAL&quot;,&quot;SETÚBAL&quot;,
+&quot;BEJA&quot;,&quot;BEJA&quot;,
+&quot;FARO&quot;,&quot;FARO&quot;,
+&quot;ÉVORA&quot;,&quot;ÉVORA&quot;,
+&quot;PORTALEGRE&quot;,&quot;PORTALEGRE&quot;,
+&quot;CASTELO BRANCO&quot;,&quot;CASTELO BRANCO&quot;,
+&quot;GUARDA&quot;,&quot;GUARDA&quot;,
+&quot;COIMBRA&quot;,&quot;COIMBRA&quot;,
+&quot;AVEIRO&quot;,&quot;AVEIRO&quot;,
+&quot;VISEU&quot;,&quot;VISEU&quot;,
+&quot;BRAGANÇA&quot;,&quot;BRAGANÇA&quot;,
+&quot;VILA REAL&quot;,&quot;VILA REAL&quot;,
+&quot;PORTO&quot;,&quot;PORTO&quot;,
+&quot;BRAGA&quot;,&quot;BRAGA&quot;,
+&quot;VIANA DO CASTELO&quot;,&quot;VIANA DO CASTELO&quot;,
+&quot;&quot;),TRUE,FALSE)</expression>
+    </formulas>
+    <formulas>
+        <name>GetStatePort2</name>
+        <dataType>Boolean</dataType>
+        <expression>IF(UPPER({!state})=CASE(UPPER({!Var_BillingState}), 
+&quot;LISBOA&quot;,&quot;LISBOA&quot;,
+&quot;LEIRIA&quot;,&quot;LEIRIA&quot;,
+&quot;SANTARÉM&quot;,&quot;SANTARÉM&quot;,
+&quot;SETÚBAL&quot;,&quot;SETÚBAL&quot;,
+&quot;BEJA&quot;,&quot;BEJA&quot;,
+&quot;FARO&quot;,&quot;FARO&quot;,
+&quot;ÉVORA&quot;,&quot;ÉVORA&quot;,
+&quot;PORTALEGRE&quot;,&quot;PORTALEGRE&quot;,
+&quot;CASTELO BRANCO&quot;,&quot;CASTELO BRANCO&quot;,
+&quot;GUARDA&quot;,&quot;GUARDA&quot;,
+&quot;COIMBRA&quot;,&quot;COIMBRA&quot;,
+&quot;AVEIRO&quot;,&quot;AVEIRO&quot;,
+&quot;VISEU&quot;,&quot;VISEU&quot;,
+&quot;BRAGANÇA&quot;,&quot;BRAGANÇA&quot;,
+&quot;VILA REAL&quot;,&quot;VILA REAL&quot;,
+&quot;PORTO&quot;,&quot;PORTO&quot;,
+&quot;BRAGA&quot;,&quot;BRAGA&quot;,
+&quot;VIANA DO CASTELO&quot;,&quot;VIANA DO CASTELO&quot;,
+&quot;&quot;),TRUE,FALSE)</expression>
+    </formulas>
+    <formulas>
+        <name>id_Perfil15</name>
+        <dataType>String</dataType>
+        <expression>LEFT({!var_PerfilAdmin},15)</expression>
+    </formulas>
+    <formulas>
+        <name>IdPropietario15</name>
+        <dataType>String</dataType>
+        <expression>LEFT({!var_IdPropietario},15)</expression>
+    </formulas>
+    <formulas>
+        <name>Nombre_Role</name>
+        <dataType>String</dataType>
+        <expression>{!$UserRole.DeveloperName}</expression>
+    </formulas>
+    <formulas>
+        <name>NombreState</name>
+        <dataType>String</dataType>
+        <expression>CASE(LEFT({!C_digo_Postal},2), 
+&quot;01&quot;,&quot;ALAVA&quot;,
+&quot;01&quot;,&quot;ÁLAVA&quot;,
+&quot;02&quot;,&quot;ALBACETE&quot;,
+&quot;03&quot;,&quot;ALICANTE&quot;,
+&quot;04&quot;,&quot;ALMERÍA&quot;,
+&quot;05&quot;,&quot;ÁVILA&quot;,
+&quot;06&quot;,&quot;BADAJOZ&quot;,
+&quot;07&quot;,&quot;BALEARES&quot;,
+&quot;08&quot;,&quot;BARCELONA&quot;,
+&quot;09&quot;,&quot;BURGOS&quot;,
+&quot;10&quot;,&quot;CÁCERES&quot;,
+&quot;11&quot;,&quot;CÁDIZ&quot;,
+&quot;12&quot;,&quot;CASTELLÓN&quot;,
+&quot;13&quot;,&quot;CIUDAD REAL&quot;,
+&quot;14&quot;,&quot;CÓRDOBA&quot;,
+&quot;15&quot;,&quot;CORUÑA&quot;,
+&quot;16&quot;,&quot;CUENCA&quot;,
+&quot;17&quot;,&quot;GERONA&quot;,
+&quot;17&quot;,&quot;GIRONA&quot;,
+&quot;18&quot;,&quot;GRANADA&quot;,
+&quot;19&quot;,&quot;GUADALAJARA&quot;,
+&quot;20&quot;,&quot;GUIPÚZCOA&quot;,
+&quot;21&quot;,&quot;HUELVA&quot;,
+&quot;22&quot;,&quot;HUESCA&quot;,
+&quot;23&quot;,&quot;JAÉN&quot;,
+&quot;24&quot;,&quot;LEÓN&quot;,
+&quot;25&quot;,&quot;LLEIDA&quot;,
+&quot;25&quot;,&quot;LÉRIDA&quot;,
+&quot;26&quot;,&quot;LA RIOJA&quot;,
+&quot;27&quot;,&quot;LUGO&quot;,
+&quot;28&quot;,&quot;MADRID&quot;,
+&quot;29&quot;,&quot;MÁLAGA&quot;,
+&quot;30&quot;,&quot;MURCIA&quot;,
+&quot;31&quot;,&quot;NAVARRA&quot;,
+&quot;32&quot;,&quot;ORENSE&quot;,
+&quot;32&quot;,&quot;OURENSE&quot;,
+&quot;33&quot;,&quot;ASTURIAS&quot;,
+&quot;34&quot;,&quot;PALENCIA&quot;,
+&quot;35&quot;,&quot;LAS PALMAS&quot;,
+&quot;36&quot;,&quot;PONTEVEDRA&quot;,
+&quot;37&quot;,&quot;SALAMANCA&quot;,
+&quot;38&quot;,&quot;SANTA CRUZ DE TENERIFE&quot;,
+&quot;39&quot;,&quot;CANTABRIA&quot;,
+&quot;40&quot;,&quot;SEGOVIA&quot;,
+&quot;41&quot;,&quot;SEVILLA&quot;,
+&quot;42&quot;,&quot;SORIA&quot;,
+&quot;43&quot;,&quot;TARRAGONA&quot;,
+&quot;44&quot;,&quot;TERUEL&quot;,
+&quot;45&quot;,&quot;TOLEDO&quot;,
+&quot;46&quot;,&quot;VALENCIA&quot;,
+&quot;47&quot;,&quot;VALLADOLID&quot;,
+&quot;48&quot;,&quot;VIZCAYA&quot;,
+&quot;48&quot;,&quot;BIZKAIA&quot;,
+&quot;49&quot;,&quot;ZAMORA&quot;,
+&quot;50&quot;,&quot;ZARAGOZA&quot;,
+&quot;51&quot;,&quot;CEUTA&quot;,
+&quot;52&quot;,&quot;MELILLA&quot;,
+&quot;AD&quot;,&quot;CANILLO&quot;,
+&quot;AD&quot;,&quot;ENCAMP&quot;,
+&quot;AD&quot;,&quot;ORDINO&quot;,
+&quot;AD&quot;,&quot;LA MASSANA&quot;,
+&quot;AD&quot;,&quot;ANDORRA LA VELLA&quot;,
+&quot;AD&quot;,&quot;SAN JULIÀ DE LOIRA&quot;,
+&quot;AD&quot;,&quot;ESCALDES-ENGORDANY&quot;,&quot;&quot;)</expression>
+    </formulas>
+    <formulas>
+        <name>QuienInicioElFlow</name>
+        <dataType>String</dataType>
+        <expression>{!$User.Id}</expression>
+    </formulas>
+    <formulas>
+        <name>ShippingStreet</name>
+        <dataType>String</dataType>
+        <expression>{!Tipo_de_via}&amp;&quot; &quot;&amp;{!Calle}&amp;&quot;, &quot;&amp;{!N_mero_portal_piso_puerta_y_resto_de_domicilio}</expression>
+    </formulas>
+    <formulas>
+        <name>var_AliasUser</name>
+        <dataType>String</dataType>
+        <expression>{!$User.Alias}</expression>
+    </formulas>
+    <interviewLabel>Direccion {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Direccion</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <recordLookups>
+        <name>cuenta</name>
+        <label>cuenta</label>
+        <locationX>225</locationX>
+        <locationY>381</locationY>
+        <assignNullValuesIfNoRecordsFound>true</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Es_o_no_propietario</targetReference>
+        </connector>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>var_IdCuenta</elementReference>
+            </value>
+        </filters>
+        <object>Account</object>
+        <outputAssignments>
+            <assignToReference>Var_BillingAddress</assignToReference>
+            <field>BillingAddress</field>
+        </outputAssignments>
+        <outputAssignments>
+            <assignToReference>Var_BillingCity</assignToReference>
+            <field>BillingCity</field>
+        </outputAssignments>
+        <outputAssignments>
+            <assignToReference>Var_BillingCountry</assignToReference>
+            <field>BillingCountry</field>
+        </outputAssignments>
+        <outputAssignments>
+            <assignToReference>var_BllingCountryCode</assignToReference>
+            <field>BillingCountryCode</field>
+        </outputAssignments>
+        <outputAssignments>
+            <assignToReference>Var_BillingPostalCode</assignToReference>
+            <field>BillingPostalCode</field>
+        </outputAssignments>
+        <outputAssignments>
+            <assignToReference>Var_BillingState</assignToReference>
+            <field>BillingState</field>
+        </outputAssignments>
+        <outputAssignments>
+            <assignToReference>var_BillingStateCode</assignToReference>
+            <field>BillingStateCode</field>
+        </outputAssignments>
+        <outputAssignments>
+            <assignToReference>Var_BillingStreet</assignToReference>
+            <field>BillingStreet</field>
+        </outputAssignments>
+        <outputAssignments>
+            <assignToReference>Var_BillingCityDiff</assignToReference>
+            <field>KS_BillingCity_Diff__c</field>
+        </outputAssignments>
+        <outputAssignments>
+            <assignToReference>Var_BillingStreetDiff</assignToReference>
+            <field>KS_BillingStreet_Diff__c</field>
+        </outputAssignments>
+        <outputAssignments>
+            <assignToReference>var_Postal</assignToReference>
+            <field>KS_C_digo_Postal__c</field>
+        </outputAssignments>
+        <outputAssignments>
+            <assignToReference>var_Calle</assignToReference>
+            <field>KS_Calle__c</field>
+        </outputAssignments>
+        <outputAssignments>
+            <assignToReference>var_Ciudad</assignToReference>
+            <field>KS_Ciudad__c</field>
+        </outputAssignments>
+        <outputAssignments>
+            <assignToReference>var_EstadoProvincia</assignToReference>
+            <field>KS_Estado_o_Provincia__c</field>
+        </outputAssignments>
+        <outputAssignments>
+            <assignToReference>var_Piso</assignToReference>
+            <field>KS_N_m_portal_piso_puerta_y_resto_de_di__c</field>
+        </outputAssignments>
+        <outputAssignments>
+            <assignToReference>Var_ShippingCityDiff</assignToReference>
+            <field>KS_ShippingCity_Diff__c</field>
+        </outputAssignments>
+        <outputAssignments>
+            <assignToReference>Var_ShippingCityDiff</assignToReference>
+            <field>KS_ShippingStreet_Diff__c</field>
+        </outputAssignments>
+        <outputAssignments>
+            <assignToReference>var_Tipovia</assignToReference>
+            <field>KS_Tipo_de_via__c</field>
+        </outputAssignments>
+        <outputAssignments>
+            <assignToReference>var_IdPropietario</assignToReference>
+            <field>OwnerId</field>
+        </outputAssignments>
+        <outputAssignments>
+            <assignToReference>Var_ShippingCity</assignToReference>
+            <field>ShippingCity</field>
+        </outputAssignments>
+        <outputAssignments>
+            <assignToReference>Var_ShippingCountry</assignToReference>
+            <field>ShippingCountry</field>
+        </outputAssignments>
+        <outputAssignments>
+            <assignToReference>Var_ShippingPostalCode</assignToReference>
+            <field>ShippingPostalCode</field>
+        </outputAssignments>
+        <outputAssignments>
+            <assignToReference>Var_ShippingState</assignToReference>
+            <field>ShippingState</field>
+        </outputAssignments>
+        <outputAssignments>
+            <assignToReference>Var_ShippingStreet</assignToReference>
+            <field>ShippingStreet</field>
+        </outputAssignments>
+    </recordLookups>
+    <recordUpdates>
+        <name>Direcci_n_Custom</name>
+        <label>Dirección Custom</label>
+        <locationX>643</locationX>
+        <locationY>742</locationY>
+        <connector>
+            <targetReference>Shipping_address</targetReference>
+        </connector>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>var_IdCuenta</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>KS_C_digo_Postal__c</field>
+            <value>
+                <elementReference>C_digo_Postal</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>KS_Calle__c</field>
+            <value>
+                <elementReference>Calle</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>KS_Ciudad__c</field>
+            <value>
+                <elementReference>Ciudad</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>KS_Estado_o_Provincia__c</field>
+            <value>
+                <elementReference>NombreState</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>KS_N_m_portal_piso_puerta_y_resto_de_di__c</field>
+            <value>
+                <elementReference>N_mero_portal_piso_puerta_y_resto_de_domicilio</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>KS_Pais__c</field>
+            <value>
+                <elementReference>PaisLista</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>KS_Tipo_de_via__c</field>
+            <value>
+                <elementReference>Tipo_de_via</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Account</object>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Direcci_n_Custom_0</name>
+        <label>Dirección Custom</label>
+        <locationX>467</locationX>
+        <locationY>841</locationY>
+        <connector>
+            <targetReference>Shipping_address_0</targetReference>
+        </connector>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>var_IdCuenta</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>KS_C_digo_Postal__c</field>
+            <value>
+                <elementReference>C_digo_Postal</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>KS_Calle__c</field>
+            <value>
+                <elementReference>Calle</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>KS_Ciudad__c</field>
+            <value>
+                <elementReference>Ciudad</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>KS_Estado_o_Provincia__c</field>
+            <value>
+                <elementReference>NombreState</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>KS_N_m_portal_piso_puerta_y_resto_de_di__c</field>
+            <value>
+                <elementReference>N_mero_portal_piso_puerta_y_resto_de_domicilio</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>KS_Pais__c</field>
+            <value>
+                <elementReference>var_BllingCountryCode</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>KS_Tipo_de_via__c</field>
+            <value>
+                <elementReference>Tipo_de_via</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Account</object>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Direcci_n_Custom_0_0</name>
+        <label>Dirección Custom</label>
+        <locationX>1008</locationX>
+        <locationY>1004</locationY>
+        <connector>
+            <targetReference>Shipping_address_0_0</targetReference>
+        </connector>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>var_IdCuenta</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>KS_C_digo_Postal__c</field>
+            <value>
+                <elementReference>C_digo_Postal</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>KS_Calle__c</field>
+            <value>
+                <elementReference>Calle</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>KS_Ciudad__c</field>
+            <value>
+                <elementReference>Ciudad</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>KS_Estado_o_Provincia__c</field>
+            <value>
+                <elementReference>NombreState</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>KS_N_m_portal_piso_puerta_y_resto_de_di__c</field>
+            <value>
+                <elementReference>N_mero_portal_piso_puerta_y_resto_de_domicilio</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>KS_Pais__c</field>
+            <value>
+                <elementReference>var_BllingCountryCode</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>KS_Tipo_de_via__c</field>
+            <value>
+                <elementReference>Tipo_de_via</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Account</object>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Direcci_n_Custom_0_0_0</name>
+        <label>Dirección Custom</label>
+        <locationX>1018</locationX>
+        <locationY>1497</locationY>
+        <connector>
+            <targetReference>Shipping_address_0_0_0_1</targetReference>
+        </connector>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>var_IdCuenta</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>KS_C_digo_Postal__c</field>
+            <value>
+                <elementReference>C_digo_Postal</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>KS_Calle__c</field>
+            <value>
+                <elementReference>Calle</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>KS_Ciudad__c</field>
+            <value>
+                <elementReference>Ciudad</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>KS_Estado_o_Provincia__c</field>
+            <value>
+                <elementReference>NombreState</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>KS_N_m_portal_piso_puerta_y_resto_de_di__c</field>
+            <value>
+                <elementReference>N_mero_portal_piso_puerta_y_resto_de_domicilio</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>KS_Pais__c</field>
+            <value>
+                <elementReference>var_BllingCountryCode</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>KS_Tipo_de_via__c</field>
+            <value>
+                <elementReference>Tipo_de_via</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Account</object>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Direcci_n_Custom_0_0_0_0</name>
+        <label>Dirección Custom</label>
+        <locationX>742</locationX>
+        <locationY>1201</locationY>
+        <connector>
+            <targetReference>Shipping_address_0_0_0_0</targetReference>
+        </connector>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>var_IdCuenta</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>KS_C_digo_Postal__c</field>
+            <value>
+                <elementReference>C_digo_Postal</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>KS_Calle__c</field>
+            <value>
+                <elementReference>Calle</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>KS_Ciudad__c</field>
+            <value>
+                <elementReference>Ciudad</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>KS_Estado_o_Provincia__c</field>
+            <value>
+                <elementReference>NombreState</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>KS_N_m_portal_piso_puerta_y_resto_de_di__c</field>
+            <value>
+                <elementReference>N_mero_portal_piso_puerta_y_resto_de_domicilio</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>KS_Pais__c</field>
+            <value>
+                <elementReference>var_BllingCountryCode</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>KS_Tipo_de_via__c</field>
+            <value>
+                <elementReference>Tipo_de_via</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Account</object>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Direcci_n_Custom_0_0_0_0_0</name>
+        <label>Dirección Custom</label>
+        <locationX>744</locationX>
+        <locationY>1351</locationY>
+        <connector>
+            <targetReference>Shipping_address_0_0_0</targetReference>
+        </connector>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>var_IdCuenta</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>KS_C_digo_Postal__c</field>
+            <value>
+                <elementReference>C_digo_Postal</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>KS_Calle__c</field>
+            <value>
+                <elementReference>Calle</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>KS_Ciudad__c</field>
+            <value>
+                <elementReference>Ciudad</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>KS_Estado_o_Provincia__c</field>
+            <value>
+                <elementReference>NombreState</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>KS_N_m_portal_piso_puerta_y_resto_de_di__c</field>
+            <value>
+                <elementReference>N_mero_portal_piso_puerta_y_resto_de_domicilio</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>KS_Pais__c</field>
+            <value>
+                <elementReference>var_BllingCountryCode</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>KS_Tipo_de_via__c</field>
+            <value>
+                <elementReference>Tipo_de_via</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Account</object>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Shipping_address</name>
+        <label>pais</label>
+        <locationX>202</locationX>
+        <locationY>734</locationY>
+        <connector>
+            <targetReference>Finalizado</targetReference>
+        </connector>
+        <faultConnector>
+            <targetReference>Error_fault</targetReference>
+        </faultConnector>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>var_IdCuenta</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>BillingCity</field>
+            <value>
+                <elementReference>Ciudad</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>BillingCountryCode</field>
+            <value>
+                <elementReference>PaisLista</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>BillingPostalCode</field>
+            <value>
+                <elementReference>C_digo_Postal</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>BillingStateCode</field>
+            <value>
+                <elementReference>state</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>BillingStreet</field>
+            <value>
+                <elementReference>ShippingStreet</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>ShippingCity</field>
+            <value>
+                <elementReference>Ciudad</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>ShippingCountryCode</field>
+            <value>
+                <elementReference>PaisLista</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>ShippingPostalCode</field>
+            <value>
+                <elementReference>C_digo_Postal</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>ShippingStateCode</field>
+            <value>
+                <elementReference>state</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>ShippingStreet</field>
+            <value>
+                <elementReference>ShippingStreet</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Account</object>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Shipping_address_0</name>
+        <label>pais</label>
+        <locationX>788</locationX>
+        <locationY>946</locationY>
+        <connector>
+            <targetReference>Finalizado</targetReference>
+        </connector>
+        <faultConnector>
+            <targetReference>Error_fault</targetReference>
+        </faultConnector>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>var_IdCuenta</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>BillingCity</field>
+            <value>
+                <elementReference>Ciudad</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>BillingCountryCode</field>
+            <value>
+                <elementReference>var_BllingCountryCode</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>BillingPostalCode</field>
+            <value>
+                <elementReference>C_digo_Postal</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>BillingStateCode</field>
+            <value>
+                <elementReference>DefaultStateCode</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>BillingStreet</field>
+            <value>
+                <elementReference>ShippingStreet</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>ShippingCity</field>
+            <value>
+                <elementReference>Ciudad</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>ShippingCountryCode</field>
+            <value>
+                <elementReference>var_BllingCountryCode</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>ShippingPostalCode</field>
+            <value>
+                <elementReference>C_digo_Postal</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>ShippingStateCode</field>
+            <value>
+                <elementReference>DefaultStateCode</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>ShippingStreet</field>
+            <value>
+                <elementReference>ShippingStreet</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Account</object>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Shipping_address_0_0</name>
+        <label>pais</label>
+        <locationX>713</locationX>
+        <locationY>1081</locationY>
+        <connector>
+            <targetReference>Finalizado</targetReference>
+        </connector>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>var_IdCuenta</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>BillingCity</field>
+            <value>
+                <elementReference>Ciudad</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>BillingCountryCode</field>
+            <value>
+                <elementReference>var_BllingCountryCode</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>BillingPostalCode</field>
+            <value>
+                <elementReference>C_digo_Postal</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>BillingStateCode</field>
+            <value>
+                <elementReference>AndorraStateCode</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>BillingStreet</field>
+            <value>
+                <elementReference>ShippingStreet</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>ShippingCity</field>
+            <value>
+                <elementReference>Ciudad</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>ShippingCountryCode</field>
+            <value>
+                <elementReference>var_BllingCountryCode</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>ShippingPostalCode</field>
+            <value>
+                <elementReference>C_digo_Postal</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>ShippingStateCode</field>
+            <value>
+                <elementReference>AndorraStateCode</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>ShippingStreet</field>
+            <value>
+                <elementReference>ShippingStreet</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Account</object>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Shipping_address_0_0_0</name>
+        <label>pais</label>
+        <locationX>587</locationX>
+        <locationY>1351</locationY>
+        <connector>
+            <targetReference>Finalizado</targetReference>
+        </connector>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>var_IdCuenta</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>BillingCity</field>
+            <value>
+                <elementReference>Ciudad</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>BillingCountryCode</field>
+            <value>
+                <elementReference>PaisLista</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>BillingPostalCode</field>
+            <value>
+                <elementReference>C_digo_Postal</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>BillingStateCode</field>
+            <value>
+                <elementReference>state</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>BillingStreet</field>
+            <value>
+                <elementReference>ShippingStreet</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>ShippingCity</field>
+            <value>
+                <elementReference>Ciudad</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>ShippingCountryCode</field>
+            <value>
+                <elementReference>PaisLista</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>ShippingPostalCode</field>
+            <value>
+                <elementReference>C_digo_Postal</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>ShippingStateCode</field>
+            <value>
+                <elementReference>state</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>ShippingStreet</field>
+            <value>
+                <elementReference>ShippingStreet</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Account</object>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Shipping_address_0_0_0_0</name>
+        <label>pais</label>
+        <locationX>611</locationX>
+        <locationY>1201</locationY>
+        <connector>
+            <targetReference>Finalizado</targetReference>
+        </connector>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>var_IdCuenta</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>BillingCity</field>
+            <value>
+                <elementReference>Ciudad</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>BillingCountryCode</field>
+            <value>
+                <elementReference>var_BllingCountryCode</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>BillingPostalCode</field>
+            <value>
+                <elementReference>C_digo_Postal</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>BillingStateCode</field>
+            <value>
+                <elementReference>var_BillingStateCode</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>BillingStreet</field>
+            <value>
+                <elementReference>ShippingStreet</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>ShippingCity</field>
+            <value>
+                <elementReference>Ciudad</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>ShippingCountryCode</field>
+            <value>
+                <elementReference>var_BllingCountryCode</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>ShippingPostalCode</field>
+            <value>
+                <elementReference>C_digo_Postal</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>ShippingStateCode</field>
+            <value>
+                <elementReference>var_BillingStateCode</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>ShippingStreet</field>
+            <value>
+                <elementReference>ShippingStreet</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Account</object>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Shipping_address_0_0_0_1</name>
+        <label>pais</label>
+        <locationX>591</locationX>
+        <locationY>1497</locationY>
+        <connector>
+            <targetReference>Finalizado</targetReference>
+        </connector>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>var_IdCuenta</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>BillingCity</field>
+            <value>
+                <elementReference>Ciudad</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>BillingCountryCode</field>
+            <value>
+                <elementReference>var_BllingCountryCode</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>BillingPostalCode</field>
+            <value>
+                <elementReference>C_digo_Postal</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>BillingStateCode</field>
+            <value>
+                <elementReference>state</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>BillingStreet</field>
+            <value>
+                <elementReference>ShippingStreet</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>ShippingCity</field>
+            <value>
+                <elementReference>Ciudad</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>ShippingCountryCode</field>
+            <value>
+                <elementReference>var_BllingCountryCode</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>ShippingPostalCode</field>
+            <value>
+                <elementReference>C_digo_Postal</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>ShippingStateCode</field>
+            <value>
+                <elementReference>state</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>ShippingStreet</field>
+            <value>
+                <elementReference>ShippingStreet</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Account</object>
+    </recordUpdates>
+    <screens>
+        <name>Campos_Direccion</name>
+        <label>Campos Dirección</label>
+        <locationX>1026</locationX>
+        <locationY>380</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <connector>
+            <targetReference>Default_is_Selected</targetReference>
+        </connector>
+        <fields>
+            <name>nuevos</name>
+            <fieldText>&lt;DIV ALIGN=&quot;LEFT&quot;&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:18px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;&lt;B&gt;Dirección a Normalizar:&lt;/B&gt;&lt;FONT STYLE=&quot;font-size:12px&quot;&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/DIV&gt;&lt;DIV ALIGN=&quot;LEFT&quot;&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;Datos de dirección de cuenta que deben de modificarse/normalizarse.&lt;/FONT&gt;&lt;/DIV&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>originales</name>
+            <fieldText>&lt;DIV ALIGN=&quot;LEFT&quot;&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:18px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;&lt;B&gt;Dirección actual:&lt;/B&gt;&lt;/FONT&gt;&lt;/DIV&gt;&lt;DIV ALIGN=&quot;LEFT&quot;&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;Actuales datos de dirección de la cuenta (datos mostrados de sólo lectura, los cambios realizados no serán aplicados).&lt;/FONT&gt;&lt;/DIV&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>Tipo_de_via</name>
+            <choiceReferences>TipoViaSelect</choiceReferences>
+            <choiceReferences>ViaOriginal</choiceReferences>
+            <dataType>String</dataType>
+            <defaultSelectedChoiceReference>ViaOriginal</defaultSelectedChoiceReference>
+            <fieldText>Tipo de via</fieldText>
+            <fieldType>DropdownBox</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Tipo_de_via_original</name>
+            <dataType>String</dataType>
+            <defaultValue>
+                <stringValue>No disponible</stringValue>
+            </defaultValue>
+            <fieldText>Tipo de via</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Calle</name>
+            <dataType>String</dataType>
+            <defaultValue>
+                <elementReference>var_Calle</elementReference>
+            </defaultValue>
+            <fieldText>Nombre de la via</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>Calle_original</name>
+            <dataType>String</dataType>
+            <defaultValue>
+                <elementReference>Var_BillingStreet</elementReference>
+            </defaultValue>
+            <fieldText>Calle</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>N_mero_portal_piso_puerta_y_resto_de_domicilio</name>
+            <dataType>String</dataType>
+            <defaultValue>
+                <elementReference>var_Piso</elementReference>
+            </defaultValue>
+            <fieldText>Número, portal, piso, puerta y resto de domicilio</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>N_mero_portal_piso_puerta_y_resto_de_domicilio_original</name>
+            <dataType>String</dataType>
+            <defaultValue>
+                <stringValue>No disponible</stringValue>
+            </defaultValue>
+            <fieldText>Número, portal, piso, puerta y resto de domicilio</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Ciudad</name>
+            <dataType>String</dataType>
+            <defaultValue>
+                <elementReference>var_Ciudad</elementReference>
+            </defaultValue>
+            <fieldText>Ciudad</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>Ciudad_original</name>
+            <dataType>String</dataType>
+            <defaultValue>
+                <elementReference>Var_BillingCity</elementReference>
+            </defaultValue>
+            <fieldText>Ciudad</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>C_digo_Postal</name>
+            <dataType>String</dataType>
+            <defaultValue>
+                <elementReference>var_Postal</elementReference>
+            </defaultValue>
+            <fieldText>Código Postal</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>C_digo_Postal_original</name>
+            <dataType>String</dataType>
+            <defaultValue>
+                <elementReference>Var_BillingPostalCode</elementReference>
+            </defaultValue>
+            <fieldText>Código Postal</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>state</name>
+            <choiceReferences>BARCELONA</choiceReferences>
+            <choiceReferences>ALAVA</choiceReferences>
+            <choiceReferences>ALBACETE</choiceReferences>
+            <choiceReferences>ALICANTE</choiceReferences>
+            <choiceReferences>ALMER_A</choiceReferences>
+            <choiceReferences>VILA</choiceReferences>
+            <choiceReferences>BADAJOZ</choiceReferences>
+            <choiceReferences>BALEARES</choiceReferences>
+            <choiceReferences>BURGOS</choiceReferences>
+            <choiceReferences>C_CERES</choiceReferences>
+            <choiceReferences>C_DIZ</choiceReferences>
+            <choiceReferences>CASTELL_N</choiceReferences>
+            <choiceReferences>CIUDAD_REAL</choiceReferences>
+            <choiceReferences>C_RDOBA</choiceReferences>
+            <choiceReferences>CORU_A</choiceReferences>
+            <choiceReferences>CUENCA</choiceReferences>
+            <choiceReferences>GERONA</choiceReferences>
+            <choiceReferences>GRANADA</choiceReferences>
+            <choiceReferences>GUADALAJARA</choiceReferences>
+            <choiceReferences>GUIP_ZCOA</choiceReferences>
+            <choiceReferences>HUELVA</choiceReferences>
+            <choiceReferences>JAEN</choiceReferences>
+            <choiceReferences>LEON</choiceReferences>
+            <choiceReferences>L_RIDA</choiceReferences>
+            <choiceReferences>LA_RIOJA</choiceReferences>
+            <choiceReferences>LUGO</choiceReferences>
+            <choiceReferences>MADRID</choiceReferences>
+            <choiceReferences>M_LAGA</choiceReferences>
+            <choiceReferences>MURCIA</choiceReferences>
+            <choiceReferences>NAVARRA</choiceReferences>
+            <choiceReferences>ORENSE</choiceReferences>
+            <choiceReferences>ASTURIAS</choiceReferences>
+            <choiceReferences>PALENCIA</choiceReferences>
+            <choiceReferences>LAS_PALMAS</choiceReferences>
+            <choiceReferences>PONTEVEDRA</choiceReferences>
+            <choiceReferences>SALAMANCA</choiceReferences>
+            <choiceReferences>SANTA_CRUZ_DE_TENERIFE</choiceReferences>
+            <choiceReferences>CANTABRIA</choiceReferences>
+            <choiceReferences>SEGOVIA</choiceReferences>
+            <choiceReferences>SEVILLA</choiceReferences>
+            <choiceReferences>SORIA</choiceReferences>
+            <choiceReferences>TARRAGONA</choiceReferences>
+            <choiceReferences>TERUEL</choiceReferences>
+            <choiceReferences>TOLEDO</choiceReferences>
+            <choiceReferences>VALENCIA</choiceReferences>
+            <choiceReferences>VALLADOLID</choiceReferences>
+            <choiceReferences>VIZCAYA</choiceReferences>
+            <choiceReferences>ZAMORA</choiceReferences>
+            <choiceReferences>ZARAGOZA</choiceReferences>
+            <choiceReferences>CEUTA</choiceReferences>
+            <choiceReferences>MELILLA</choiceReferences>
+            <choiceReferences>LISBOA</choiceReferences>
+            <choiceReferences>LEIRIA</choiceReferences>
+            <choiceReferences>SANTAR_M</choiceReferences>
+            <choiceReferences>SET_BAL</choiceReferences>
+            <choiceReferences>BEJA</choiceReferences>
+            <choiceReferences>FARO</choiceReferences>
+            <choiceReferences>VORA</choiceReferences>
+            <choiceReferences>PORTALEGRE</choiceReferences>
+            <choiceReferences>CASTELO_BRANCO</choiceReferences>
+            <choiceReferences>GUARDA</choiceReferences>
+            <choiceReferences>COIMBRA</choiceReferences>
+            <choiceReferences>AVEIRO</choiceReferences>
+            <choiceReferences>VISEU</choiceReferences>
+            <choiceReferences>BRAGAN_A</choiceReferences>
+            <choiceReferences>VILA_REAL</choiceReferences>
+            <choiceReferences>PORTO</choiceReferences>
+            <choiceReferences>BRAGA</choiceReferences>
+            <choiceReferences>VIANA_DO_CASTELO</choiceReferences>
+            <choiceReferences>CANILLO</choiceReferences>
+            <choiceReferences>ENCAMP</choiceReferences>
+            <choiceReferences>ORDINO</choiceReferences>
+            <choiceReferences>LA_MASSANA</choiceReferences>
+            <choiceReferences>ANDORRA_LA_VELLA</choiceReferences>
+            <choiceReferences>SAN_JULI_DE_LOIRA</choiceReferences>
+            <choiceReferences>ESCALDES_ENGORDANY</choiceReferences>
+            <choiceReferences>preloaded_value_state</choiceReferences>
+            <choiceReferences>HUESCA</choiceReferences>
+            <dataType>String</dataType>
+            <defaultSelectedChoiceReference>preloaded_value_state</defaultSelectedChoiceReference>
+            <fieldText>Estado o provincia</fieldText>
+            <fieldType>DropdownBox</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Estado_o_provincia</name>
+            <dataType>String</dataType>
+            <defaultValue>
+                <elementReference>Var_BillingState</elementReference>
+            </defaultValue>
+            <fieldText>Estado o provincia</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>PaisLista</name>
+            <choiceReferences>PaisSeleccin</choiceReferences>
+            <choiceReferences>PaisOrigen</choiceReferences>
+            <dataType>String</dataType>
+            <defaultSelectedChoiceReference>PaisOrigen</defaultSelectedChoiceReference>
+            <fieldText>País</fieldText>
+            <fieldType>DropdownBox</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Pa_s</name>
+            <dataType>String</dataType>
+            <defaultValue>
+                <elementReference>Var_BillingCountry</elementReference>
+            </defaultValue>
+            <fieldText>País</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>RangoComparacion</name>
+            <fieldText>Calculo de desviaciones:
+
+Respecto calle de facturacion: {!Var_BillingStreetDiff}
+Respecto a ciudad de facturación: {!Var_BillingCityDiff}</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>Confirmaci_n</name>
+        <label>Confirmación</label>
+        <locationX>1865</locationX>
+        <locationY>667</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <connector>
+            <targetReference>Decision</targetReference>
+        </connector>
+        <fields>
+            <name>Msg2</name>
+            <fieldText>&lt;DIV ALIGN=&quot;LEFT&quot;&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;Por favor confirme que se van a realizar estos cambios:&lt;FONT STYLE=&quot;font-size:18px&quot;&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/DIV&gt;&lt;DIV ALIGN=&quot;LEFT&quot;&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:18px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;&lt;/FONT&gt;&lt;/DIV&gt;&lt;DIV ALIGN=&quot;LEFT&quot;&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:18px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;&lt;B&gt;Nueva dirección:&lt;/B&gt;&lt;/FONT&gt;&lt;/DIV&gt;&lt;DIV ALIGN=&quot;LEFT&quot;&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;{!Calle},  {!N_mero_portal_piso_puerta_y_resto_de_domicilio}, {!Ciudad} {!C_digo_Postal},&lt;FONT KERNING=&quot;1&quot;&gt;{!state}&lt;/FONT&gt;, {!PaisLista}&lt;/FONT&gt;&lt;/DIV&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>Msg1</name>
+            <fieldText>&lt;DIV ALIGN=&quot;LEFT&quot;&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;&lt;/FONT&gt;&lt;/DIV&gt;&lt;DIV ALIGN=&quot;LEFT&quot;&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:18px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;&lt;B&gt;Dirección anterior:&lt;/B&gt;&lt;/FONT&gt;&lt;/DIV&gt;&lt;DIV ALIGN=&quot;LEFT&quot;&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;{!Var_BillingStreet}, {!Var_BillingCity} {!Var_BillingPostalCode}, {!Var_BillingState},&lt;/FONT&gt;&lt;/DIV&gt;&lt;DIV ALIGN=&quot;LEFT&quot;&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;{!Var_BillingCountry}&lt;/FONT&gt;&lt;/DIV&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>Confirmar</name>
+            <dataType>Boolean</dataType>
+            <defaultValue>
+                <booleanValue>false</booleanValue>
+            </defaultValue>
+            <fieldText>Confirmar</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>Error_c_digo_postal</name>
+        <label>Error código postal</label>
+        <locationX>1626</locationX>
+        <locationY>388</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <connector>
+            <targetReference>Campos_Direccion</targetReference>
+        </connector>
+        <fields>
+            <name>zipcode</name>
+            <fieldText>El código postal introducido no coincide con la provincia seleccionada:
+
+Código Postal: {!C_digo_Postal}
+Provincia: {!state}
+
+Por favor vuelva atrás y corrija los datos,</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>Error_fault</name>
+        <label>Error</label>
+        <locationX>788</locationX>
+        <locationY>536</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <connector>
+            <targetReference>Campos_Direccion</targetReference>
+        </connector>
+        <fields>
+            <name>errorMSG</name>
+            <fieldText>Alguno de los datos facilitados no son correctos. Por favor corrijalos y vuelta a intentar guardar sus cambios.
+
+Error ocurrido:
+{!$Flow.FaultMessage}</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>error_msg</name>
+        <label>error_msg</label>
+        <locationX>1307</locationX>
+        <locationY>783</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <fields>
+            <name>Error</name>
+            <fieldText>No puede procederse a actualizarse la cuenta sin su confirmación.</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>Error_propietario</name>
+        <label>Error</label>
+        <locationX>596</locationX>
+        <locationY>180</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <fields>
+            <name>owner</name>
+            <fieldText>Tiene que ser propietario de la cuenta para poder modificar la dirección.</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>Finalizado</name>
+        <label>Finalizado</label>
+        <locationX>202</locationX>
+        <locationY>1086</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <fields>
+            <name>Final</name>
+            <fieldText>El registro se ha guardado satisfactoriamente.</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <startElementReference>cuenta</startElementReference>
+    <status>Active</status>
+    <variables>
+        <name>Var_BillingAddress</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <value>
+            <stringValue></stringValue>
+        </value>
+    </variables>
+    <variables>
+        <name>Var_BillingCity</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <value>
+            <stringValue></stringValue>
+        </value>
+    </variables>
+    <variables>
+        <name>Var_BillingCityDiff</name>
+        <dataType>Number</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <scale>2</scale>
+    </variables>
+    <variables>
+        <name>Var_BillingCountry</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <value>
+            <stringValue></stringValue>
+        </value>
+    </variables>
+    <variables>
+        <name>Var_BillingPostalCode</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <value>
+            <stringValue></stringValue>
+        </value>
+    </variables>
+    <variables>
+        <name>Var_BillingState</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <value>
+            <stringValue></stringValue>
+        </value>
+    </variables>
+    <variables>
+        <name>var_BillingStateCode</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+    <variables>
+        <name>Var_BillingStreet</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <value>
+            <stringValue></stringValue>
+        </value>
+    </variables>
+    <variables>
+        <name>Var_BillingStreetDiff</name>
+        <dataType>Number</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <scale>2</scale>
+    </variables>
+    <variables>
+        <name>var_BllingCountryCode</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+    <variables>
+        <name>var_Calle</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+    <variables>
+        <name>var_Ciudad</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+    <variables>
+        <name>Var_CurrentCountryStandard</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <value>
+            <stringValue></stringValue>
+        </value>
+    </variables>
+    <variables>
+        <name>var_EstadoProvincia</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+    <variables>
+        <description>Demo Account Id: 0013E00000npphz</description>
+        <name>var_IdCuenta</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <value>
+            <stringValue></stringValue>
+        </value>
+    </variables>
+    <variables>
+        <name>var_IdPropietario</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+    <variables>
+        <name>var_Pais</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+    <variables>
+        <name>var_PerfilAdmin</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+    <variables>
+        <name>var_Piso</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+    <variables>
+        <name>var_Postal</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+    <variables>
+        <name>Var_shippingAddress</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <value>
+            <stringValue></stringValue>
+        </value>
+    </variables>
+    <variables>
+        <name>Var_ShippingCity</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <value>
+            <stringValue></stringValue>
+        </value>
+    </variables>
+    <variables>
+        <name>Var_ShippingCityDiff</name>
+        <dataType>Number</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <scale>2</scale>
+    </variables>
+    <variables>
+        <name>Var_ShippingCountry</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <value>
+            <stringValue></stringValue>
+        </value>
+    </variables>
+    <variables>
+        <name>Var_ShippingPostalCode</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <value>
+            <stringValue></stringValue>
+        </value>
+    </variables>
+    <variables>
+        <name>Var_ShippingState</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <value>
+            <stringValue></stringValue>
+        </value>
+    </variables>
+    <variables>
+        <name>Var_ShippingStreet</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <value>
+            <stringValue></stringValue>
+        </value>
+    </variables>
+    <variables>
+        <name>Var_ShippingStreetDiff</name>
+        <dataType>Number</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <scale>2</scale>
+    </variables>
+    <variables>
+        <name>var_Tipovia</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+</Flow>

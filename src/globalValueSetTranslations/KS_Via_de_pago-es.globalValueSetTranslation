@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>+</masterLabel>
+        <translation>Domic. SEPA DD CORE Agrupada</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>0</masterLabel>
+        <translation>SEPA Direct Debit CORE</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>1</masterLabel>
+        <translation>Giro Nacional - Pago agrupado</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>2</masterLabel>
+        <translation>EuroConfirming- Pagos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>3</masterLabel>
+        <translation>Transferencia USD cta EUR BBVA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>4</masterLabel>
+        <translation>Efectivo</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>5</masterLabel>
+        <translation>SEPA Direct Debit B2B</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>6</masterLabel>
+        <translation>Domic. SEPA DD B2B Agrupada</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>7</masterLabel>
+        <translation>Pago domiciliado</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>8</masterLabel>
+        <translation>Effet domicilié LCR-BOR</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>9</masterLabel>
+        <translation>Effet domicilié groupé LCR-BOR</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>A</masterLabel>
+        <translation>Cheque - Cobros</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>B</masterLabel>
+        <translation>Cobro en Cartera</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C</masterLabel>
+        <translation>Cheque - Pagos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>D</masterLabel>
+        <translation>Customer collection - Domicil.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E</masterLabel>
+        <translation>Domiciliaciones- Pagos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>F</masterLabel>
+        <translation>Transferencia internacional</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G</masterLabel>
+        <translation>Letra de Cambio</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>H</masterLabel>
+        <translation><!-- H --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I</masterLabel>
+        <translation><!-- I --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>J</masterLabel>
+        <translation>Cobro tarjeta - BNDES</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>K</masterLabel>
+        <translation>Giro Domiciliado</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>L</masterLabel>
+        <translation>Letra (a pagar)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M</masterLabel>
+        <translation>Póliza de Crédito</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>N</masterLabel>
+        <translation>Boleto/Duplicata sem Protesto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>O</masterLabel>
+        <translation>Compensación (en el grupo)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>P</masterLabel>
+        <translation>Pagaré</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Q</masterLabel>
+        <translation>Transferencias SEPA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>R</masterLabel>
+        <translation>Boleto impreso</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S</masterLabel>
+        <translation>Boleto DDA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>T</masterLabel>
+        <translation>Transferencia nacional</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>U</masterLabel>
+        <translation>Pago por Transferencia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>V</masterLabel>
+        <translation>Pagaré - Pagos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>W</masterLabel>
+        <translation>Transferencia Internacional</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>X</masterLabel>
+        <translation>Transferencia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Y</masterLabel>
+        <translation>Transferencia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z</masterLabel>
+        <translation>Crédito docum. irrevocable</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

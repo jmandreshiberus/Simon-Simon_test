@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Header_Simon</letterhead>
+    <name>Correo pedir cita</name>
+    <style>formalLetter</style>
+    <subject>Concertar visita Simon</subject>
+    <textOnly>Hola {!Contact.FirstName}
+Con el fin de manteneros informados en relación a las novedades de Simon, y ofreceros asesoramiento en cualquier cuestión de proyecto relacionada con nuestra gama de productos, he intentado ponerme en contacto con vosotros en varias ocasiones pero hasta ahora sin éxito; por lo que me gustaría que me indicarais en qué horario y de qué manera sería posible que contactáramos y concertáramos una cita.
+
+Espero vuestra respuesta y espero ser de ayuda,
+
+Un cordial saludo!
+{!User.FirstName} {!User.LastName}
+{!User.Department}
+{!User.Email}
+{!User.MobilePhone}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

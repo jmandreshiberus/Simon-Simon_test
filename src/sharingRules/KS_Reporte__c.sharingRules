@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>PublicarReportes</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>PublicarReportes</label>
+        <sharedTo>
+            <roleAndSubordinates>Simon_Espana</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>KS_Privado__c</field>
+            <operation>equals</operation>
+            <value>Falso</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+</SharingRules>

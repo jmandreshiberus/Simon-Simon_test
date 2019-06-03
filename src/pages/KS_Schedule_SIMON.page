@@ -1,0 +1,150 @@
+<apex:page extensions="KS_Schedule_SIMON_Controller,KS_MergeToolController" standardController="Account" >
+    
+    <apex:form id="schedule_simon" >
+        <apex:pageBlock >
+            <apex:pageBlockSection columns="2">
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel >LEAD HOUR</apex:outputLabel>
+                    <apex:inputText value="{!statusH}"/>
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel >LEAD MINUTES</apex:outputLabel>
+                    <apex:inputText value="{!statusM}"/>
+                </apex:pageBlockSectionItem>
+            </apex:pageBlockSection>
+            <apex:pageBlockButtons location="bottom">
+                <apex:commandButton action="{!callScheduleLeadAccounts_manual}" value="LEAD ACCOUNT MANUAL" />
+                <apex:commandButton action="{!callScheduleLeadAccounts}" value="LEAD ACCOUNT PROGRAMADO" />
+            </apex:pageBlockButtons>
+        </apex:pageBlock>
+        <apex:pageBlock >
+            <apex:pageBlockSection columns="2">
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel >SCORING HOUR</apex:outputLabel>
+                    <apex:inputText value="{!scorinH}"/>
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel >SCORING MINUTES</apex:outputLabel>
+                    <apex:inputText value="{!scorinM}"/>
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel >MANUAL (LISTA IDs a PROCESAR, formato: "SFID1;SFID2;SFID3")</apex:outputLabel>
+                    <apex:inputText value="{!scorinIDs}"/>
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel >MANUAL (Chunk SIZE)</apex:outputLabel>
+                    <apex:inputText value="{!scorinChunk}"/>
+                </apex:pageBlockSectionItem>                
+            </apex:pageBlockSection>            
+            <apex:pageBlockButtons location="bottom">
+                <apex:commandButton action="{!callScheduleAccScoring_manual}" value="SCORING ACCOUNT MANUAL" />
+                <apex:commandButton action="{!callScheduleAccScoring}" value="SCORING ACCOUNT PROGRAMADO" />
+            </apex:pageBlockButtons>
+        </apex:pageBlock>
+        <apex:pageBlock >
+            <apex:pageBlockSection columns="2">
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel >ATTACH HOUR</apex:outputLabel>
+                    <apex:inputText value="{!attachH}"/>
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel >ATTACH MINUTES</apex:outputLabel>
+                    <apex:inputText value="{!attachM}"/>
+                </apex:pageBlockSectionItem>
+            </apex:pageBlockSection>
+            <apex:pageBlockButtons location="bottom">
+                <apex:commandButton action="{!callScheduleAttach_Manual}" value="AttachmentsToFiles MANUAL" />
+                <apex:commandButton action="{!callScheduleAttach}" value="AttachmentsToFiles PROGRAMADO" />
+            </apex:pageBlockButtons>
+        </apex:pageBlock>
+        <apex:pageBlock >
+            <apex:pageBlockSection columns="2">
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel >NOTES HOUR</apex:outputLabel>
+                    <apex:inputText value="{!cNotesH}"/>
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel >NOTES MINUTES</apex:outputLabel>
+                    <apex:inputText value="{!cNotesM}"/>
+                </apex:pageBlockSectionItem>
+            </apex:pageBlockSection>
+            <apex:pageBlockButtons location="bottom">
+                <apex:commandButton action="{!callScheduleCNotes_Manual}" value="NotesToContentNotes MANUAL" />
+                <apex:commandButton action="{!callScheduleCNotes}" value="NotesToContentNotes PROGRAMADO" />
+            </apex:pageBlockButtons>
+        </apex:pageBlock>
+        <apex:pageBlock >
+            <apex:pageBlockSection columns="2">
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel >MANUAL (LISTA IDs a PROCESAR, formato: "SFID1;SFID2;SFID3")</apex:outputLabel>
+                    <apex:inputText value="{!productIDs}"/>
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel >MANUAL (Chunk SIZE)</apex:outputLabel>
+                    <apex:inputText value="{!productChunk}"/>
+                </apex:pageBlockSectionItem>                
+            </apex:pageBlockSection>
+            <apex:pageBlockButtons location="bottom">
+                <apex:commandButton action="{!callRepairProduct}" value="REPAIR PRODUCT" />
+            </apex:pageBlockButtons>
+        </apex:pageBlock>
+        <apex:pageBlock >
+            <apex:pageBlockSection columns="2">
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel >MANUAL (LISTA IDs a PROCESAR, formato: "SFID1;SFID2;SFID3")</apex:outputLabel>
+                    <apex:inputText value="{!orgClieIDs}"/>
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel >MANUAL (Chunk SIZE)</apex:outputLabel>
+                    <apex:inputText value="{!orgClieChunk}"/>
+                </apex:pageBlockSectionItem>                
+            </apex:pageBlockSection>
+            <apex:pageBlockButtons location="bottom">
+                <apex:commandButton action="{!callScheduleRepairOrgCliente_Manual}" value="REPAIR ORGS CLIENTE" />
+            </apex:pageBlockButtons>
+        </apex:pageBlock>
+        <apex:pageBlock >
+            <apex:pageBlockButtons location="bottom">
+                <apex:commandButton action="{!MergeAccounts}" value="MERGE ACCOUNTS" />
+                <apex:commandButton action="{!MergeContacts}" value="MERGE CONTACTS" />
+                <apex:commandButton action="{!DeleteContacts}" value="DELETE CONTACTS" />
+            </apex:pageBlockButtons>
+        </apex:pageBlock>
+        <apex:pageBlock >
+            <apex:pageBlockSection columns="2">
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel >DIA DEL MES</apex:outputLabel>
+                    <apex:inputText value="{!cConComDia}"/>
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel >HORA DEL DIA</apex:outputLabel>
+                    <apex:inputText value="{!cConComHor}"/>
+                </apex:pageBlockSectionItem>
+            </apex:pageBlockSection>
+            <apex:pageBlockButtons location="bottom">
+                <apex:commandButton action="{!callScheduleDeleteConComerciales_Manual}" 
+                                    value="DELETE CONDICIONES COMERCIALES MANUAL" />
+                <apex:commandButton action="{!callScheduleDeleteConComerciales}" 
+                                    value="DELETE CONDICIONES COMERCIALES PROGRAMADO" />
+            </apex:pageBlockButtons>
+        </apex:pageBlock>
+        <apex:pageBlock >
+            <apex:pageBlockSection columns="2">
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel >MANUAL (LISTA IDs a PROCESAR, formato: "SFID1;SFID2;SFID3")</apex:outputLabel>
+                    <apex:inputTextArea value="{!normalizacionIDs}"/>
+                </apex:pageBlockSectionItem>
+            </apex:pageBlockSection>
+            <apex:pageBlockButtons location="bottom">
+                <apex:commandButton action="{!callBatchNormalizacion_Accounts}" value="NORMALIZACIÓN ACCOUNTS" />
+                <apex:commandButton action="{!callBatchNormalizacion_Contacts}" value="NORMALIZACIÓN CONTACTS" />
+            </apex:pageBlockButtons>
+        </apex:pageBlock>
+        <div>
+            <p>
+                <a href="/08e?setupid=ScheduledJobs">Ver trabajos programados</a>
+            </p>
+        </div>        
+    </apex:form>
+    
+</apex:page>

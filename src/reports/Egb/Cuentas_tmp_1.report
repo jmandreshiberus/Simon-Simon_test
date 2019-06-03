@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_59143430</developerName>
+        <masterLabel>UC</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>USERS.NAME</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Melcior Selma Lomas</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Sergi Cervantes Elías</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Alberto Martos Ferra</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Lluís Torrecabota Masmitja</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Pau Samo Guerra</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Gabriel Riba Barea</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Eduardo Mosquera</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Maria Guillen Solano</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Agustin Caro Lopez</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Juan Luis Garcia</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Laura Torrents Jou</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Adolfo Dalmau</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Agustí Blázquez</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>David Dupré Garcia</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Iñaki Saracibar Monroy</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Francesc Estall Sanz</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Enrique Garcia Barea</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Jose Neftali Salcedo Martinez</sourceValue>
+            </sourceValues>
+            <value>RC</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Meritxell Casals Ausio</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Marc Pico Espigo</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Adriana Tort Medina</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Valentina Sacco</sourceValue>
+            </sourceValues>
+            <value>CI</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Admin Simon</sourceValue>
+            </sourceValues>
+            <value>Sin Asignar</value>
+        </values>
+    </buckets>
+    <chart>
+        <backgroundColor1>#FFFFFF</backgroundColor1>
+        <backgroundColor2>#FFFFFF</backgroundColor2>
+        <backgroundFadeDir>Diagonal</backgroundFadeDir>
+        <chartSummaries>
+            <axisBinding>y</axisBinding>
+            <column>RowCount</column>
+        </chartSummaries>
+        <chartSummaries>
+            <axisBinding>y2</axisBinding>
+            <column>RowCount</column>
+        </chartSummaries>
+        <chartType>VerticalColumnStackedLine</chartType>
+        <enableHoverLabels>true</enableHoverLabels>
+        <expandOthers>true</expandOthers>
+        <groupingColumn>Account.KS_Actividad__c</groupingColumn>
+        <legendPosition>Right</legendPosition>
+        <location>CHART_TOP</location>
+        <secondaryGroupingColumn>BucketField_59143430</secondaryGroupingColumn>
+        <showAxisLabels>true</showAxisLabels>
+        <showPercentage>false</showPercentage>
+        <showTotal>false</showTotal>
+        <showValues>false</showValues>
+        <size>Large</size>
+        <summaryAxisRange>Auto</summaryAxisRange>
+        <textColor>#000000</textColor>
+        <textSize>10</textSize>
+        <title>Universo Cuentas</title>
+        <titleColor>#000000</titleColor>
+        <titleSize>18</titleSize>
+    </chart>
+    <columns>
+        <field>USERS.NAME</field>
+    </columns>
+    <columns>
+        <field>Account.KS_Id_Salesforce__c</field>
+    </columns>
+    <columns>
+        <field>ALIAS</field>
+    </columns>
+    <columns>
+        <field>Account.KS_Id_CRM__c</field>
+    </columns>
+    <columns>
+        <field>Account.KS_Id_SAP__c</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
+        <field>RECORDTYPE</field>
+    </columns>
+    <columns>
+        <field>Account.KS_Subactividad__c</field>
+    </columns>
+    <columns>
+        <field>RATING</field>
+    </columns>
+    <columns>
+        <field>DUE_DATE</field>
+    </columns>
+    <columns>
+        <field>LAST_UPDATE</field>
+    </columns>
+    <columns>
+        <field>ADDRESS1_STATE_CODE</field>
+    </columns>
+    <currency>EUR</currency>
+    <filter>
+        <booleanFilter>(1  OR (3 AND 4) )AND  2</booleanFilter>
+        <criteriaItems>
+            <column>ADDRESS2_COUNTRY_CODE</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>AD</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.KS_Estado__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Pasivo</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ADDRESS2_ZIP</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>startsWith</operator>
+            <value>08,17,25,43</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ADDRESS2_COUNTRY_CODE</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>ES</value>
+        </criteriaItems>
+        <language>es</language>
+    </filter>
+    <format>Matrix</format>
+    <groupingsAcross>
+        <dateGranularity>Day</dateGranularity>
+        <field>Account.KS_Canal__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_59143430</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Account.KS_Actividad__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Cuentas tmp 1</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>AccountList</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

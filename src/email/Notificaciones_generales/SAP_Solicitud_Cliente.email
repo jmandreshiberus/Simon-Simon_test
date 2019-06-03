@@ -1,0 +1,30 @@
+<h1>Solicitud Modificación</h1>
+
+<b>Estado:</b> {!Account.KS_Estado__c}<br/>
+
+<b>Cuenta:</b> {!Account.KS_Id_Salesforce__c} - {!Account.Name}<br/>
+<b>ID SAP:</b> {!Account.KS_Id_SAP__c}<br/>
+<b>NIF:</b> {!Account.KS_Numero_de_identificacion_fiscal_1__c}<br/>
+
+<br/>
+
+<b>Teléfono:</b> {!Account.Phone}<br/>
+<b>Nº de telefono 2:</b> {!Account.KS_N_de_telefono_2__c}<br/>
+<b>Nº de telefono 3:</b> {!Account.KS_N_de_telefono_3__c}<br/>
+<b>Fax:</b> {!Account.Fax}<br/>
+
+<br/>
+
+<b>Actividad:</b> {!Account.KS_Actividad__c}<br/>
+<b>Canal:</b> {!Account.KS_Canal__c}<br/>
+<b>Subactividad:</b> {!Account.KS_Subactividad__c}<br/>
+
+<br/>
+
+<b>Dirección:</b><br/>
+{!Account.ShippingAddress}<br/>
+
+<br/>
+
+<b>Comentarios:</b><br/>
+{!Account.KS_Comentarios_SIMON__c}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Notificación de solicitud de aprobación de regimen de visitas: APROBADA</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Header_Simon</letterhead>
+    <name>Notificación de solicitud de aprobación de regimen de visitas: Aprobado</name>
+    <style>freeForm</style>
+    <subject>Notificación de solicitud de aprobación de regimen de visitas para: {!KS_Organizacion_Cliente__c.KS_Cliente_solicitante__c}, APROBADO</subject>
+    <textOnly>Para su atención,
+
+Su solicitud de aprobación de nueva régimen de visitas para: {!KS_Organizacion_Cliente__c.KS_Cliente_solicitante__c}, ha sido: APROBADA.
+
+Los detalles de dicha su solicitud de régimen de visita fueron:
+Fecha de creación: {!KS_Organizacion_Cliente__c.CreatedDate}
+Cliente:{!KS_Organizacion_Cliente__c.KS_Cliente_solicitante__c}
+Recurrencia: {!KS_Organizacion_Cliente__c.KS_Recurrencia__c}
+
+Para poder ver el registro, aprobado, puede hacerlo mediante este enlace.
+
+Atentamente,</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,3463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Solución prescrita --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Solución prescrita --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Cantidad --></label>
+        <name>KS_Cantidad__c</name>
+    </fields>
+    <fields>
+        <label><!-- Descripción --></label>
+        <name>KS_Descripcion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Descuento neto --></label>
+        <name>KS_Descuento_neto__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dto. Instalador --></label>
+        <name>KS_Dto_Instalador__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dto. adicional 1 --></label>
+        <name>KS_Dto_adicional_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dto. adicional 2 --></label>
+        <name>KS_Dto_adicional_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dto. base 1 --></label>
+        <name>KS_Dto_base_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dto. base 2 --></label>
+        <name>KS_Dto_base_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dto. cliente final --></label>
+        <name>KS_Dto_cliente_final__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dto. logístico --></label>
+        <name>KS_Dto_logistico__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ficha --></label>
+        <name>KS_Ficha__c</name>
+    </fields>
+    <fields>
+        <label><!-- Id Oferta --></label>
+        <name>KS_Id_Oferta__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nombre producto --></label>
+        <name>KS_Nombre_producto__c</name>
+    </fields>
+    <fields>
+        <label><!-- Obra --></label>
+        <name>KS_Obra__c</name>
+        <relationshipLabel><!-- Soluciones prescritas --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Oferta --></label>
+        <name>KS_Oferta__c</name>
+        <relationshipLabel><!-- Soluciones prescritas --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Precio Neto --></label>
+        <name>KS_Precio_Neto__c</name>
+    </fields>
+    <fields>
+        <label><!-- Precio --></label>
+        <name>KS_Precio__c</name>
+    </fields>
+    <fields>
+        <label><!-- Prescrito --></label>
+        <name>KS_Prescrito__c</name>
+    </fields>
+    <fields>
+        <label><!-- Producto --></label>
+        <name>KS_Producto__c</name>
+        <relationshipLabel><!-- Soluciones prescritas --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Serie --></label>
+        <name>KS_Serie_Gama__c</name>
+        <picklistValues>
+            <masterLabel>001</masterLabel>
+            <translation>BM-2</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>002</masterLabel>
+            <translation><!-- 002 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>003</masterLabel>
+            <translation><!-- 003 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>004</masterLabel>
+            <translation><!-- 004 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>005</masterLabel>
+            <translation><!-- 005 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>006</masterLabel>
+            <translation><!-- 006 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>007</masterLabel>
+            <translation><!-- 007 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>008</masterLabel>
+            <translation>COMODITY - INDOOR WATERPROOF LIGHT ACCES</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>009</masterLabel>
+            <translation><!-- 009 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>010</masterLabel>
+            <translation><!-- 010 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>011</masterLabel>
+            <translation><!-- 011 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>012</masterLabel>
+            <translation><!-- 012 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>013</masterLabel>
+            <translation><!-- 013 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>014</masterLabel>
+            <translation><!-- 014 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>015</masterLabel>
+            <translation><!-- 015 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>016</masterLabel>
+            <translation><!-- 016 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>017</masterLabel>
+            <translation><!-- 017 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>018</masterLabel>
+            <translation>IN-20 / IN-40 SEALING SET</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>019</masterLabel>
+            <translation><!-- 019 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>020</masterLabel>
+            <translation>IN-20</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>021</masterLabel>
+            <translation><!-- 021 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>022</masterLabel>
+            <translation>IN-40</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>023</masterLabel>
+            <translation><!-- 023 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>024</masterLabel>
+            <translation><!-- 024 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>025</masterLabel>
+            <translation><!-- 025 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>026</masterLabel>
+            <translation>IN-20 / IN-40 REFLECTOR</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>027</masterLabel>
+            <translation><!-- 027 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>028</masterLabel>
+            <translation><!-- 028 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>029</masterLabel>
+            <translation><!-- 029 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>030</masterLabel>
+            <translation><!-- 030 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>031</masterLabel>
+            <translation><!-- 031 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>032</masterLabel>
+            <translation><!-- 032 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>033</masterLabel>
+            <translation><!-- 033 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>034</masterLabel>
+            <translation>JR + ARM CL-11</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>035</masterLabel>
+            <translation>JR-11</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>036</masterLabel>
+            <translation>JR-12</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>037</masterLabel>
+            <translation><!-- 037 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>038</masterLabel>
+            <translation>JR-9</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>039</masterLabel>
+            <translation><!-- 039 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>040</masterLabel>
+            <translation><!-- 040 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>041</masterLabel>
+            <translation><!-- 041 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>042</masterLabel>
+            <translation><!-- 042 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>043</masterLabel>
+            <translation><!-- 043 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>044</masterLabel>
+            <translation><!-- 044 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>045</masterLabel>
+            <translation>SU-7</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>046</masterLabel>
+            <translation><!-- 046 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>047</masterLabel>
+            <translation><!-- 047 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>048</masterLabel>
+            <translation><!-- 048 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>049</masterLabel>
+            <translation>BD-3</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>050</masterLabel>
+            <translation><!-- 050 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>051</masterLabel>
+            <translation>BD-7</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>052</masterLabel>
+            <translation>BD-9</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>053</masterLabel>
+            <translation>PR-12</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>054</masterLabel>
+            <translation><!-- 054 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>055</masterLabel>
+            <translation><!-- 055 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>056</masterLabel>
+            <translation><!-- 056 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>057</masterLabel>
+            <translation><!-- 057 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>058</masterLabel>
+            <translation><!-- 058 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>059</masterLabel>
+            <translation><!-- 059 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>060</masterLabel>
+            <translation><!-- 060 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>061</masterLabel>
+            <translation><!-- 061 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>062</masterLabel>
+            <translation><!-- 062 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>063</masterLabel>
+            <translation><!-- 063 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>064</masterLabel>
+            <translation><!-- 064 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>065</masterLabel>
+            <translation><!-- 065 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>066</masterLabel>
+            <translation><!-- 066 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>067</masterLabel>
+            <translation><!-- 067 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>068</masterLabel>
+            <translation><!-- 068 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>069</masterLabel>
+            <translation><!-- 069 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>070</masterLabel>
+            <translation><!-- 070 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>071</masterLabel>
+            <translation><!-- 071 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>072</masterLabel>
+            <translation><!-- 072 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>073</masterLabel>
+            <translation><!-- 073 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>074</masterLabel>
+            <translation><!-- 074 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>075</masterLabel>
+            <translation>PROJECT - POLES ACCESORIES</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>076</masterLabel>
+            <translation><!-- 076 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>077</masterLabel>
+            <translation>JR-1</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>078</masterLabel>
+            <translation><!-- 078 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>079</masterLabel>
+            <translation><!-- 079 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>080</masterLabel>
+            <translation><!-- 080 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>081</masterLabel>
+            <translation><!-- 081 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>082</masterLabel>
+            <translation><!-- 082 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>083</masterLabel>
+            <translation><!-- 083 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>084</masterLabel>
+            <translation><!-- 084 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>085</masterLabel>
+            <translation><!-- 085 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>086</masterLabel>
+            <translation><!-- 086 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>087</masterLabel>
+            <translation><!-- 087 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>088</masterLabel>
+            <translation><!-- 088 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>089</masterLabel>
+            <translation><!-- 089 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>090</masterLabel>
+            <translation><!-- 090 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>091</masterLabel>
+            <translation><!-- 091 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>092</masterLabel>
+            <translation><!-- 092 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>093</masterLabel>
+            <translation><!-- 093 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>094</masterLabel>
+            <translation><!-- 094 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>095</masterLabel>
+            <translation><!-- 095 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>096</masterLabel>
+            <translation><!-- 096 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>097</masterLabel>
+            <translation><!-- 097 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>098</masterLabel>
+            <translation><!-- 098 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>099</masterLabel>
+            <translation><!-- 099 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>100</masterLabel>
+            <translation><!-- 100 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>101</masterLabel>
+            <translation><!-- 101 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>102</masterLabel>
+            <translation><!-- 102 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>103</masterLabel>
+            <translation><!-- 103 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>104</masterLabel>
+            <translation><!-- 104 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>105</masterLabel>
+            <translation><!-- 105 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>106</masterLabel>
+            <translation><!-- 106 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>107</masterLabel>
+            <translation><!-- 107 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>108</masterLabel>
+            <translation>EGON IN SEALING SET</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>109</masterLabel>
+            <translation><!-- 109 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>110</masterLabel>
+            <translation>EGON IN/PR</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>111</masterLabel>
+            <translation><!-- 111 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>112</masterLabel>
+            <translation>REFLECTOR EGON IN</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>113</masterLabel>
+            <translation><!-- 113 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>114</masterLabel>
+            <translation><!-- 114 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>115</masterLabel>
+            <translation><!-- 115 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>116</masterLabel>
+            <translation><!-- 116 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>117</masterLabel>
+            <translation><!-- 117 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>118</masterLabel>
+            <translation><!-- 118 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>119</masterLabel>
+            <translation><!-- 119 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>120</masterLabel>
+            <translation><!-- 120 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>121</masterLabel>
+            <translation><!-- 121 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>122</masterLabel>
+            <translation>BR-7</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>123</masterLabel>
+            <translation><!-- 123 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>124</masterLabel>
+            <translation><!-- 124 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>125</masterLabel>
+            <translation><!-- 125 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>126</masterLabel>
+            <translation><!-- 126 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>127</masterLabel>
+            <translation><!-- 127 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>128</masterLabel>
+            <translation>ATIK/FO-5</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>129</masterLabel>
+            <translation>BORA</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>130</masterLabel>
+            <translation><!-- 130 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>131</masterLabel>
+            <translation>ETNA</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>132</masterLabel>
+            <translation><!-- 132 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>134</masterLabel>
+            <translation>HEKA</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>135</masterLabel>
+            <translation>KUMA/FO-8</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>136</masterLabel>
+            <translation><!-- 136 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>137</masterLabel>
+            <translation><!-- 137 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>138</masterLabel>
+            <translation>SPICA/AP-3</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>139</masterLabel>
+            <translation>SYRMA/AP-101</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>140</masterLabel>
+            <translation>AP-1</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>141</masterLabel>
+            <translation><!-- 141 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>142</masterLabel>
+            <translation><!-- 142 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>143</masterLabel>
+            <translation>ZANIAH LX</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>144</masterLabel>
+            <translation>ZANIAH MX</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>145</masterLabel>
+            <translation>BOX M</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>146</masterLabel>
+            <translation>EGON PR SEALING SET</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>147</masterLabel>
+            <translation><!-- 147 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>148</masterLabel>
+            <translation><!-- 148 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>149</masterLabel>
+            <translation><!-- 149 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>150</masterLabel>
+            <translation><!-- 150 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>151</masterLabel>
+            <translation>STIR UP EGON PR / EGON IN / IN-40</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>152</masterLabel>
+            <translation><!-- 152 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>153</masterLabel>
+            <translation>NYOS</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>154</masterLabel>
+            <translation><!-- 154 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>155</masterLabel>
+            <translation><!-- 155 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>156</masterLabel>
+            <translation>PR-17</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>157</masterLabel>
+            <translation><!-- 157 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>158</masterLabel>
+            <translation><!-- 158 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>159</masterLabel>
+            <translation>PR-30</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>160</masterLabel>
+            <translation><!-- 160 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>161</masterLabel>
+            <translation><!-- 161 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>162</masterLabel>
+            <translation>REFLECTOR EGON PR</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>163</masterLabel>
+            <translation><!-- 163 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>164</masterLabel>
+            <translation><!-- 164 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>165</masterLabel>
+            <translation><!-- 165 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>166</masterLabel>
+            <translation>STROMBOLI</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>167</masterLabel>
+            <translation><!-- 167 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>168</masterLabel>
+            <translation>TAOS</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>169</masterLabel>
+            <translation><!-- 169 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>170</masterLabel>
+            <translation><!-- 170 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>171</masterLabel>
+            <translation>STICK</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>172</masterLabel>
+            <translation><!-- 172 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>173</masterLabel>
+            <translation><!-- 173 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>174</masterLabel>
+            <translation><!-- 174 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>175</masterLabel>
+            <translation><!-- 175 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>176</masterLabel>
+            <translation><!-- 176 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>177</masterLabel>
+            <translation><!-- 177 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>178</masterLabel>
+            <translation><!-- 178 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>179</masterLabel>
+            <translation><!-- 179 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>180</masterLabel>
+            <translation><!-- 180 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>181</masterLabel>
+            <translation>TOWER / CL-5</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>182</masterLabel>
+            <translation><!-- 182 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>183</masterLabel>
+            <translation><!-- 183 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>184</masterLabel>
+            <translation><!-- 184 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>185</masterLabel>
+            <translation><!-- 185 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>186</masterLabel>
+            <translation><!-- 186 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>187</masterLabel>
+            <translation><!-- 187 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>188</masterLabel>
+            <translation><!-- 188 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>189</masterLabel>
+            <translation><!-- 189 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>190</masterLabel>
+            <translation><!-- 190 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>191</masterLabel>
+            <translation><!-- 191 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>192</masterLabel>
+            <translation><!-- 192 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>193</masterLabel>
+            <translation><!-- 193 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>194</masterLabel>
+            <translation><!-- 194 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>195</masterLabel>
+            <translation><!-- 195 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>196</masterLabel>
+            <translation><!-- 196 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>197</masterLabel>
+            <translation><!-- 197 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>198</masterLabel>
+            <translation><!-- 198 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>199</masterLabel>
+            <translation><!-- 199 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>200</masterLabel>
+            <translation><!-- 200 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>201</masterLabel>
+            <translation><!-- 201 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>202</masterLabel>
+            <translation><!-- 202 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>203</masterLabel>
+            <translation><!-- 203 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>204</masterLabel>
+            <translation><!-- 204 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>205</masterLabel>
+            <translation><!-- 205 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>206</masterLabel>
+            <translation><!-- 206 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>207</masterLabel>
+            <translation><!-- 207 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>208</masterLabel>
+            <translation><!-- 208 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>209</masterLabel>
+            <translation><!-- 209 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>210</masterLabel>
+            <translation><!-- 210 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>211</masterLabel>
+            <translation><!-- 211 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>212</masterLabel>
+            <translation><!-- 212 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>213</masterLabel>
+            <translation><!-- 213 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>214</masterLabel>
+            <translation><!-- 214 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>215</masterLabel>
+            <translation><!-- 215 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>216</masterLabel>
+            <translation><!-- 216 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>217</masterLabel>
+            <translation><!-- 217 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>218</masterLabel>
+            <translation><!-- 218 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>219</masterLabel>
+            <translation><!-- 219 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>220</masterLabel>
+            <translation><!-- 220 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>221</masterLabel>
+            <translation><!-- 221 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>222</masterLabel>
+            <translation><!-- 222 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>223</masterLabel>
+            <translation><!-- 223 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>224</masterLabel>
+            <translation><!-- 224 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>225</masterLabel>
+            <translation><!-- 225 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>226</masterLabel>
+            <translation><!-- 226 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>227</masterLabel>
+            <translation><!-- 227 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>228</masterLabel>
+            <translation>VIENA/FC-9</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>229</masterLabel>
+            <translation><!-- 229 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>230</masterLabel>
+            <translation><!-- 230 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>231</masterLabel>
+            <translation><!-- 231 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>232</masterLabel>
+            <translation><!-- 232 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>233</masterLabel>
+            <translation><!-- 233 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>234</masterLabel>
+            <translation><!-- 234 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>235</masterLabel>
+            <translation><!-- 235 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>236</masterLabel>
+            <translation><!-- 236 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>237</masterLabel>
+            <translation><!-- 237 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>238</masterLabel>
+            <translation>Support</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>239</masterLabel>
+            <translation><!-- 239 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>240</masterLabel>
+            <translation><!-- 240 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>241</masterLabel>
+            <translation><!-- 241 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>242</masterLabel>
+            <translation><!-- 242 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>243</masterLabel>
+            <translation><!-- 243 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>244</masterLabel>
+            <translation><!-- 244 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>245</masterLabel>
+            <translation><!-- 245 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>246</masterLabel>
+            <translation><!-- 246 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>247</masterLabel>
+            <translation><!-- 247 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>250</masterLabel>
+            <translation><!-- 250 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>251</masterLabel>
+            <translation><!-- 251 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>252</masterLabel>
+            <translation><!-- 252 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>253</masterLabel>
+            <translation>POLE DOOR</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>254</masterLabel>
+            <translation><!-- 254 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>255</masterLabel>
+            <translation><!-- 255 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>256</masterLabel>
+            <translation><!-- 256 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>257</masterLabel>
+            <translation><!-- 257 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>258</masterLabel>
+            <translation><!-- 258 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>259</masterLabel>
+            <translation>HYDRA</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>260</masterLabel>
+            <translation><!-- 260 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>261</masterLabel>
+            <translation><!-- 261 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>262</masterLabel>
+            <translation>LINK</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>263</masterLabel>
+            <translation><!-- 263 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>264</masterLabel>
+            <translation><!-- 264 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>265</masterLabel>
+            <translation><!-- 265 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>266</masterLabel>
+            <translation><!-- 266 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>267</masterLabel>
+            <translation><!-- 267 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>268</masterLabel>
+            <translation><!-- 268 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>269</masterLabel>
+            <translation><!-- 269 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>271</masterLabel>
+            <translation>PR15+</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>272</masterLabel>
+            <translation>PR40+</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>273</masterLabel>
+            <translation><!-- 273 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>274</masterLabel>
+            <translation><!-- 274 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>275</masterLabel>
+            <translation><!-- 275 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>276</masterLabel>
+            <translation><!-- 276 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>277</masterLabel>
+            <translation><!-- 277 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>278</masterLabel>
+            <translation><!-- 278 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>279</masterLabel>
+            <translation><!-- 279 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>280</masterLabel>
+            <translation><!-- 280 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>281</masterLabel>
+            <translation><!-- 281 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>282</masterLabel>
+            <translation><!-- 282 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>283</masterLabel>
+            <translation><!-- 283 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>284</masterLabel>
+            <translation><!-- 284 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>285</masterLabel>
+            <translation><!-- 285 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>286</masterLabel>
+            <translation><!-- 286 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>287</masterLabel>
+            <translation><!-- 287 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>288</masterLabel>
+            <translation><!-- 288 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>289</masterLabel>
+            <translation><!-- 289 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>290</masterLabel>
+            <translation><!-- 290 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>291</masterLabel>
+            <translation><!-- 291 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>292</masterLabel>
+            <translation><!-- 292 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>293</masterLabel>
+            <translation><!-- 293 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>294</masterLabel>
+            <translation><!-- 294 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>295</masterLabel>
+            <translation><!-- 295 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>296</masterLabel>
+            <translation><!-- 296 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>297</masterLabel>
+            <translation><!-- 297 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>298</masterLabel>
+            <translation><!-- 298 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>299</masterLabel>
+            <translation><!-- 299 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>300</masterLabel>
+            <translation><!-- 300 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>301</masterLabel>
+            <translation><!-- 301 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>302</masterLabel>
+            <translation><!-- 302 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>303</masterLabel>
+            <translation><!-- 303 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>304</masterLabel>
+            <translation><!-- 304 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>305</masterLabel>
+            <translation><!-- 305 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>306</masterLabel>
+            <translation>PRAGA</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>307</masterLabel>
+            <translation>BERLIN</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>308</masterLabel>
+            <translation><!-- 308 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>309</masterLabel>
+            <translation>VEGA</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>310</masterLabel>
+            <translation><!-- 310 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>311</masterLabel>
+            <translation><!-- 311 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>312</masterLabel>
+            <translation><!-- 312 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>313</masterLabel>
+            <translation><!-- 313 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>314</masterLabel>
+            <translation><!-- 314 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>315</masterLabel>
+            <translation><!-- 315 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>316</masterLabel>
+            <translation><!-- 316 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>317</masterLabel>
+            <translation><!-- 317 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>318</masterLabel>
+            <translation><!-- 318 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>319</masterLabel>
+            <translation><!-- 319 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>320</masterLabel>
+            <translation><!-- 320 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>321</masterLabel>
+            <translation><!-- 321 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>322</masterLabel>
+            <translation><!-- 322 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>323</masterLabel>
+            <translation><!-- 323 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>324</masterLabel>
+            <translation><!-- 324 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>325</masterLabel>
+            <translation><!-- 325 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>326</masterLabel>
+            <translation><!-- 326 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>327</masterLabel>
+            <translation><!-- 327 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>328</masterLabel>
+            <translation><!-- 328 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>329</masterLabel>
+            <translation><!-- 329 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>330</masterLabel>
+            <translation><!-- 330 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>331</masterLabel>
+            <translation><!-- 331 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>332</masterLabel>
+            <translation><!-- 332 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>333</masterLabel>
+            <translation><!-- 333 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>334</masterLabel>
+            <translation><!-- 334 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>335</masterLabel>
+            <translation><!-- 335 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>336</masterLabel>
+            <translation><!-- 336 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>337</masterLabel>
+            <translation><!-- 337 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>338</masterLabel>
+            <translation><!-- 338 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>339</masterLabel>
+            <translation><!-- 339 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>340</masterLabel>
+            <translation><!-- 340 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>341</masterLabel>
+            <translation><!-- 341 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>342</masterLabel>
+            <translation><!-- 342 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>343</masterLabel>
+            <translation><!-- 343 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>344</masterLabel>
+            <translation><!-- 344 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>345</masterLabel>
+            <translation><!-- 345 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>346</masterLabel>
+            <translation><!-- 346 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>347</masterLabel>
+            <translation><!-- 347 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>348</masterLabel>
+            <translation><!-- 348 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>349</masterLabel>
+            <translation><!-- 349 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>350</masterLabel>
+            <translation><!-- 350 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>351</masterLabel>
+            <translation><!-- 351 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>352</masterLabel>
+            <translation><!-- 352 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>353</masterLabel>
+            <translation><!-- 353 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>354</masterLabel>
+            <translation><!-- 354 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>355</masterLabel>
+            <translation><!-- 355 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>356</masterLabel>
+            <translation><!-- 356 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>357</masterLabel>
+            <translation><!-- 357 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>358</masterLabel>
+            <translation><!-- 358 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>359</masterLabel>
+            <translation><!-- 359 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>360</masterLabel>
+            <translation><!-- 360 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>361</masterLabel>
+            <translation><!-- 361 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>362</masterLabel>
+            <translation><!-- 362 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>363</masterLabel>
+            <translation><!-- 363 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>364</masterLabel>
+            <translation><!-- 364 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>365</masterLabel>
+            <translation><!-- 365 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>366</masterLabel>
+            <translation><!-- 366 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>367</masterLabel>
+            <translation><!-- 367 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>368</masterLabel>
+            <translation><!-- 368 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>369</masterLabel>
+            <translation><!-- 369 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>370</masterLabel>
+            <translation><!-- 370 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>371</masterLabel>
+            <translation><!-- 371 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>372</masterLabel>
+            <translation><!-- 372 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>373</masterLabel>
+            <translation><!-- 373 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>374</masterLabel>
+            <translation><!-- 374 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>375</masterLabel>
+            <translation><!-- 375 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>376</masterLabel>
+            <translation><!-- 376 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>377</masterLabel>
+            <translation><!-- 377 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>378</masterLabel>
+            <translation><!-- 378 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>379</masterLabel>
+            <translation>ES1</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>380</masterLabel>
+            <translation><!-- 380 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>381</masterLabel>
+            <translation>MIZAR</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>382</masterLabel>
+            <translation>ALYA</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>383</masterLabel>
+            <translation><!-- 383 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>384</masterLabel>
+            <translation><!-- 384 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>385</masterLabel>
+            <translation><!-- 385 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>386</masterLabel>
+            <translation><!-- 386 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>387</masterLabel>
+            <translation>LORE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>388</masterLabel>
+            <translation><!-- 388 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>389</masterLabel>
+            <translation><!-- 389 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>390</masterLabel>
+            <translation><!-- 390 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>399</masterLabel>
+            <translation>FOGO SX</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>400</masterLabel>
+            <translation>FOGO MX</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>401</masterLabel>
+            <translation>DEMON SX</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>402</masterLabel>
+            <translation>DEMON MX</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>403</masterLabel>
+            <translation><!-- 403 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>405</masterLabel>
+            <translation><!-- 405 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>406</masterLabel>
+            <translation><!-- 406 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>407</masterLabel>
+            <translation><!-- 407 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>408</masterLabel>
+            <translation><!-- 408 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>409</masterLabel>
+            <translation><!-- 409 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>410</masterLabel>
+            <translation><!-- 410 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>412</masterLabel>
+            <translation><!-- 412 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>413</masterLabel>
+            <translation><!-- 413 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>414</masterLabel>
+            <translation><!-- 414 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>415</masterLabel>
+            <translation><!-- 415 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>416</masterLabel>
+            <translation><!-- 416 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>417</masterLabel>
+            <translation><!-- 417 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>418</masterLabel>
+            <translation><!-- 418 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>419</masterLabel>
+            <translation><!-- 419 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>420</masterLabel>
+            <translation><!-- 420 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>421</masterLabel>
+            <translation><!-- 421 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>422</masterLabel>
+            <translation><!-- 422 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>423</masterLabel>
+            <translation><!-- 423 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>424</masterLabel>
+            <translation><!-- 424 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>425</masterLabel>
+            <translation><!-- 425 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>426</masterLabel>
+            <translation><!-- 426 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>427</masterLabel>
+            <translation><!-- 427 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>428</masterLabel>
+            <translation><!-- 428 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>429</masterLabel>
+            <translation><!-- 429 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>430</masterLabel>
+            <translation><!-- 430 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>431</masterLabel>
+            <translation><!-- 431 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>432</masterLabel>
+            <translation><!-- 432 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>433</masterLabel>
+            <translation><!-- 433 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>434</masterLabel>
+            <translation><!-- 434 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>435</masterLabel>
+            <translation><!-- 435 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>436</masterLabel>
+            <translation><!-- 436 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>437</masterLabel>
+            <translation><!-- 437 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>438</masterLabel>
+            <translation><!-- 438 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>439</masterLabel>
+            <translation><!-- 439 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>440</masterLabel>
+            <translation><!-- 440 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>441</masterLabel>
+            <translation><!-- 441 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>442</masterLabel>
+            <translation>PRAGA-FC9</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>443</masterLabel>
+            <translation><!-- 443 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>444</masterLabel>
+            <translation><!-- 444 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>445</masterLabel>
+            <translation><!-- 445 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>446</masterLabel>
+            <translation><!-- 446 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>447</masterLabel>
+            <translation><!-- 447 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>448</masterLabel>
+            <translation><!-- 448 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>449</masterLabel>
+            <translation><!-- 449 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>450</masterLabel>
+            <translation><!-- 450 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>451</masterLabel>
+            <translation><!-- 451 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>452</masterLabel>
+            <translation><!-- 452 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>453</masterLabel>
+            <translation><!-- 453 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>454</masterLabel>
+            <translation><!-- 454 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>455</masterLabel>
+            <translation><!-- 455 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>456</masterLabel>
+            <translation><!-- 456 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>457</masterLabel>
+            <translation><!-- 457 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>458</masterLabel>
+            <translation><!-- 458 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>459</masterLabel>
+            <translation><!-- 459 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>460</masterLabel>
+            <translation><!-- 460 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>461</masterLabel>
+            <translation><!-- 461 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>462</masterLabel>
+            <translation><!-- 462 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>463</masterLabel>
+            <translation><!-- 463 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>464</masterLabel>
+            <translation>GRUPO ÓPTICO INSTANIUM LED PROJ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>465</masterLabel>
+            <translation><!-- 465 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>466</masterLabel>
+            <translation><!-- 466 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>467</masterLabel>
+            <translation><!-- 467 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>468</masterLabel>
+            <translation><!-- 468 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>469</masterLabel>
+            <translation><!-- 469 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>470</masterLabel>
+            <translation><!-- 470 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>471</masterLabel>
+            <translation><!-- 471 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>472</masterLabel>
+            <translation><!-- 472 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>473</masterLabel>
+            <translation><!-- 473 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>474</masterLabel>
+            <translation><!-- 474 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>475</masterLabel>
+            <translation><!-- 475 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>476</masterLabel>
+            <translation><!-- 476 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>477</masterLabel>
+            <translation><!-- 477 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>478</masterLabel>
+            <translation><!-- 478 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>479</masterLabel>
+            <translation><!-- 479 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>480</masterLabel>
+            <translation><!-- 480 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>481</masterLabel>
+            <translation><!-- 481 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>482</masterLabel>
+            <translation><!-- 482 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>483</masterLabel>
+            <translation><!-- 483 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>484</masterLabel>
+            <translation><!-- 484 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>485</masterLabel>
+            <translation><!-- 485 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>486</masterLabel>
+            <translation><!-- 486 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>487</masterLabel>
+            <translation><!-- 487 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>488</masterLabel>
+            <translation><!-- 488 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>489</masterLabel>
+            <translation><!-- 489 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>490</masterLabel>
+            <translation><!-- 490 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>491</masterLabel>
+            <translation><!-- 491 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>492</masterLabel>
+            <translation><!-- 492 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>493</masterLabel>
+            <translation><!-- 493 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>494</masterLabel>
+            <translation><!-- 494 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>495</masterLabel>
+            <translation><!-- 495 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>496</masterLabel>
+            <translation><!-- 496 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>497</masterLabel>
+            <translation><!-- 497 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>498</masterLabel>
+            <translation><!-- 498 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>499</masterLabel>
+            <translation><!-- 499 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>500</masterLabel>
+            <translation><!-- 500 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>501</masterLabel>
+            <translation><!-- 501 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>502</masterLabel>
+            <translation><!-- 502 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>503</masterLabel>
+            <translation><!-- 503 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>504</masterLabel>
+            <translation><!-- 504 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>505</masterLabel>
+            <translation><!-- 505 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>506</masterLabel>
+            <translation><!-- 506 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>507</masterLabel>
+            <translation><!-- 507 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>508</masterLabel>
+            <translation><!-- 508 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>509</masterLabel>
+            <translation><!-- 509 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>510</masterLabel>
+            <translation><!-- 510 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>511</masterLabel>
+            <translation><!-- 511 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>512</masterLabel>
+            <translation><!-- 512 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>513</masterLabel>
+            <translation><!-- 513 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>514</masterLabel>
+            <translation><!-- 514 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>515</masterLabel>
+            <translation><!-- 515 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>516</masterLabel>
+            <translation><!-- 516 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>517</masterLabel>
+            <translation><!-- 517 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>518</masterLabel>
+            <translation><!-- 518 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>519</masterLabel>
+            <translation><!-- 519 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>520</masterLabel>
+            <translation><!-- 520 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>521</masterLabel>
+            <translation><!-- 521 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>522</masterLabel>
+            <translation><!-- 522 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>523</masterLabel>
+            <translation><!-- 523 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>524</masterLabel>
+            <translation><!-- 524 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>525</masterLabel>
+            <translation><!-- 525 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>526</masterLabel>
+            <translation><!-- 526 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>527</masterLabel>
+            <translation><!-- 527 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>528</masterLabel>
+            <translation><!-- 528 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>529</masterLabel>
+            <translation><!-- 529 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>530</masterLabel>
+            <translation><!-- 530 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>531</masterLabel>
+            <translation><!-- 531 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>532</masterLabel>
+            <translation><!-- 532 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>533</masterLabel>
+            <translation><!-- 533 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>534</masterLabel>
+            <translation><!-- 534 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>535</masterLabel>
+            <translation><!-- 535 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>536</masterLabel>
+            <translation><!-- 536 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>537</masterLabel>
+            <translation><!-- 537 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>538</masterLabel>
+            <translation><!-- 538 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>539</masterLabel>
+            <translation><!-- 539 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>540</masterLabel>
+            <translation><!-- 540 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>541</masterLabel>
+            <translation><!-- 541 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>542</masterLabel>
+            <translation><!-- 542 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>543</masterLabel>
+            <translation><!-- 543 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>544</masterLabel>
+            <translation><!-- 544 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>545</masterLabel>
+            <translation><!-- 545 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>546</masterLabel>
+            <translation><!-- 546 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>547</masterLabel>
+            <translation><!-- 547 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>548</masterLabel>
+            <translation><!-- 548 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>549</masterLabel>
+            <translation><!-- 549 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>550</masterLabel>
+            <translation><!-- 550 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>551</masterLabel>
+            <translation><!-- 551 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>552</masterLabel>
+            <translation><!-- 552 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>553</masterLabel>
+            <translation><!-- 553 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>554</masterLabel>
+            <translation><!-- 554 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>555</masterLabel>
+            <translation><!-- 555 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>556</masterLabel>
+            <translation><!-- 556 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>557</masterLabel>
+            <translation><!-- 557 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>558</masterLabel>
+            <translation><!-- 558 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>559</masterLabel>
+            <translation><!-- 559 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>560</masterLabel>
+            <translation><!-- 560 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>561</masterLabel>
+            <translation><!-- 561 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>562</masterLabel>
+            <translation><!-- 562 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>563</masterLabel>
+            <translation><!-- 563 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>564</masterLabel>
+            <translation><!-- 564 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>565</masterLabel>
+            <translation><!-- 565 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>566</masterLabel>
+            <translation><!-- 566 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>567</masterLabel>
+            <translation><!-- 567 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>577</masterLabel>
+            <translation><!-- 577 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>578</masterLabel>
+            <translation><!-- 578 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>579</masterLabel>
+            <translation><!-- 579 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B00</masterLabel>
+            <translation><!-- B00 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B01</masterLabel>
+            <translation><!-- B01 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B02</masterLabel>
+            <translation><!-- B02 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B03</masterLabel>
+            <translation><!-- B03 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B04</masterLabel>
+            <translation><!-- B04 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B05</masterLabel>
+            <translation><!-- B05 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B06</masterLabel>
+            <translation><!-- B06 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B07</masterLabel>
+            <translation><!-- B07 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B08</masterLabel>
+            <translation><!-- B08 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B09</masterLabel>
+            <translation><!-- B09 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B10</masterLabel>
+            <translation><!-- B10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C01</masterLabel>
+            <translation><!-- C01 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C02</masterLabel>
+            <translation><!-- C02 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C03</masterLabel>
+            <translation><!-- C03 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C04</masterLabel>
+            <translation><!-- C04 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C05</masterLabel>
+            <translation><!-- C05 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C06</masterLabel>
+            <translation><!-- C06 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C07</masterLabel>
+            <translation><!-- C07 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C08</masterLabel>
+            <translation><!-- C08 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C09</masterLabel>
+            <translation><!-- C09 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C10</masterLabel>
+            <translation><!-- C10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C11</masterLabel>
+            <translation><!-- C11 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C12</masterLabel>
+            <translation><!-- C12 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C13</masterLabel>
+            <translation><!-- C13 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C14</masterLabel>
+            <translation><!-- C14 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C15</masterLabel>
+            <translation><!-- C15 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C16</masterLabel>
+            <translation><!-- C16 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C17</masterLabel>
+            <translation><!-- C17 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C18</masterLabel>
+            <translation><!-- C18 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C19</masterLabel>
+            <translation><!-- C19 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C20</masterLabel>
+            <translation><!-- C20 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C21</masterLabel>
+            <translation><!-- C21 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C22</masterLabel>
+            <translation><!-- C22 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COM</masterLabel>
+            <translation><!-- COM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E01</masterLabel>
+            <translation><!-- E01 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E02</masterLabel>
+            <translation><!-- E02 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E03</masterLabel>
+            <translation><!-- E03 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E04</masterLabel>
+            <translation><!-- E04 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E05</masterLabel>
+            <translation><!-- E05 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E06</masterLabel>
+            <translation><!-- E06 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E07</masterLabel>
+            <translation><!-- E07 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E08</masterLabel>
+            <translation><!-- E08 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F00</masterLabel>
+            <translation><!-- F00 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G01</masterLabel>
+            <translation>SOCKETS,  PLUGS AND ADAPTORS</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G02</masterLabel>
+            <translation>MULTISOCKETS</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G03</masterLabel>
+            <translation>EXTENSION CORDS</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G04</masterLabel>
+            <translation>CABLE REELS</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G05</masterLabel>
+            <translation>SURFACE SERIES</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G06</masterLabel>
+            <translation>LIGHTING ITEMS</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G07</masterLabel>
+            <translation>INSTALATION MATERIAL</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G08</masterLabel>
+            <translation>TIMERS, RF AND BELLS</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G09</masterLabel>
+            <translation>MULTIMEDIA</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G10</masterLabel>
+            <translation>LACROSSE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G11</masterLabel>
+            <translation>RADARCARN</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G12</masterLabel>
+            <translation>HOME AUTOMATION</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G13</masterLabel>
+            <translation>REPELLERS</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G14</masterLabel>
+            <translation>THERMAL RADIATORS</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G15</masterLabel>
+            <translation><!-- G15 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G16</masterLabel>
+            <translation><!-- G16 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G17</masterLabel>
+            <translation><!-- G17 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G18</masterLabel>
+            <translation><!-- G18 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G19</masterLabel>
+            <translation><!-- G19 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G20</masterLabel>
+            <translation><!-- G20 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G21</masterLabel>
+            <translation><!-- G21 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G22</masterLabel>
+            <translation><!-- G22 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I00</masterLabel>
+            <translation><!-- I00 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I01</masterLabel>
+            <translation><!-- I01 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I02</masterLabel>
+            <translation><!-- I02 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I03</masterLabel>
+            <translation><!-- I03 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I04</masterLabel>
+            <translation><!-- I04 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I05</masterLabel>
+            <translation><!-- I05 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I06</masterLabel>
+            <translation><!-- I06 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I07</masterLabel>
+            <translation><!-- I07 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I08</masterLabel>
+            <translation><!-- I08 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I09</masterLabel>
+            <translation><!-- I09 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I10</masterLabel>
+            <translation><!-- I10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I11</masterLabel>
+            <translation><!-- I11 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I29</masterLabel>
+            <translation><!-- I29 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IN0</masterLabel>
+            <translation><!-- IN0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IN1</masterLabel>
+            <translation><!-- IN1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L01</masterLabel>
+            <translation><!-- L01 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L02</masterLabel>
+            <translation><!-- L02 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L03</masterLabel>
+            <translation><!-- L03 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L04</masterLabel>
+            <translation><!-- L04 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L05</masterLabel>
+            <translation><!-- L05 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L06</masterLabel>
+            <translation><!-- L06 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L07</masterLabel>
+            <translation><!-- L07 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L08</masterLabel>
+            <translation><!-- L08 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L09</masterLabel>
+            <translation><!-- L09 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L10</masterLabel>
+            <translation><!-- L10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L11</masterLabel>
+            <translation><!-- L11 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L12</masterLabel>
+            <translation><!-- L12 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L13</masterLabel>
+            <translation><!-- L13 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L14</masterLabel>
+            <translation><!-- L14 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L15</masterLabel>
+            <translation><!-- L15 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L50</masterLabel>
+            <translation>LAYNA / BALOON</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L51</masterLabel>
+            <translation>ERYX / TNX (TUNNEL LIGHTING)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L52</masterLabel>
+            <translation><!-- L52 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L60</masterLabel>
+            <translation>EOS / HELIOS</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L61</masterLabel>
+            <translation>ALBIS / IRIS / THERA</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L62</masterLabel>
+            <translation>OPPIS / LIGHTBOX</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L63</masterLabel>
+            <translation>NIX / GRASS</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L64</masterLabel>
+            <translation>NAIDA / FLUID</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L65</masterLabel>
+            <translation>POWER BOX</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L70</masterLabel>
+            <translation>DRIMO / ASTRIS</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L71</masterLabel>
+            <translation>ALKIONE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L72</masterLabel>
+            <translation>LED STIR</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L73</masterLabel>
+            <translation><!-- L73 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L74</masterLabel>
+            <translation>STAR</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L75</masterLabel>
+            <translation><!-- L75 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L76</masterLabel>
+            <translation><!-- L76 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L80</masterLabel>
+            <translation><!-- L80 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L81</masterLabel>
+            <translation><!-- L81 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L82</masterLabel>
+            <translation><!-- L82 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LIN</masterLabel>
+            <translation><!-- LIN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M00</masterLabel>
+            <translation><!-- M00 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M01</masterLabel>
+            <translation><!-- M01 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M02</masterLabel>
+            <translation><!-- M02 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M03</masterLabel>
+            <translation><!-- M03 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M04</masterLabel>
+            <translation><!-- M04 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M05</masterLabel>
+            <translation><!-- M05 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M06</masterLabel>
+            <translation><!-- M06 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M07</masterLabel>
+            <translation><!-- M07 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M08</masterLabel>
+            <translation><!-- M08 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M09</masterLabel>
+            <translation><!-- M09 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M10</masterLabel>
+            <translation><!-- M10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M11</masterLabel>
+            <translation><!-- M11 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M12</masterLabel>
+            <translation><!-- M12 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M13</masterLabel>
+            <translation><!-- M13 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M14</masterLabel>
+            <translation>Série 54</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M15</masterLabel>
+            <translation>Série FLEXA</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MAD</masterLabel>
+            <translation><!-- MAD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PUB</masterLabel>
+            <translation><!-- PUB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S00</masterLabel>
+            <translation><!-- S00 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S01</masterLabel>
+            <translation>Recharge Smart</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S02</masterLabel>
+            <translation><!-- S02 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S03</masterLabel>
+            <translation><!-- S03 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S04</masterLabel>
+            <translation><!-- S04 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S05</masterLabel>
+            <translation><!-- S05 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S06</masterLabel>
+            <translation><!-- S06 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S07</masterLabel>
+            <translation><!-- S07 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S08</masterLabel>
+            <translation><!-- S08 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S09</masterLabel>
+            <translation><!-- S09 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S11</masterLabel>
+            <translation><!-- S11 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S12</masterLabel>
+            <translation><!-- S12 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S14</masterLabel>
+            <translation><!-- S14 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S17</masterLabel>
+            <translation><!-- S17 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S22</masterLabel>
+            <translation><!-- S22 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S24</masterLabel>
+            <translation><!-- S24 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S26</masterLabel>
+            <translation><!-- S26 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S27</masterLabel>
+            <translation><!-- S27 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S28</masterLabel>
+            <translation><!-- S28 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S31</masterLabel>
+            <translation><!-- S31 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S32</masterLabel>
+            <translation><!-- S32 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S33</masterLabel>
+            <translation><!-- S33 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S34</masterLabel>
+            <translation><!-- S34 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S35</masterLabel>
+            <translation><!-- S35 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S38</masterLabel>
+            <translation><!-- S38 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S44</masterLabel>
+            <translation><!-- S44 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S54</masterLabel>
+            <translation><!-- S54 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S56</masterLabel>
+            <translation><!-- S56 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S68</masterLabel>
+            <translation><!-- S68 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S69</masterLabel>
+            <translation><!-- S69 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S73</masterLabel>
+            <translation><!-- S73 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S75</masterLabel>
+            <translation><!-- S75 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S76</masterLabel>
+            <translation><!-- S76 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S77</masterLabel>
+            <translation><!-- S77 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S78</masterLabel>
+            <translation><!-- S78 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S79</masterLabel>
+            <translation><!-- S79 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S82</masterLabel>
+            <translation><!-- S82 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S88</masterLabel>
+            <translation><!-- S88 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SEG</masterLabel>
+            <translation><!-- SEG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SER</masterLabel>
+            <translation><!-- SER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S_C</masterLabel>
+            <translation><!-- S_C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S_N</masterLabel>
+            <translation><!-- S_N --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VIS</masterLabel>
+            <translation><!-- VIS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VIT</masterLabel>
+            <translation><!-- VIT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VOX</masterLabel>
+            <translation><!-- VOX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X01</masterLabel>
+            <translation><!-- X01 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X02</masterLabel>
+            <translation><!-- X02 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X03</masterLabel>
+            <translation><!-- X03 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X04</masterLabel>
+            <translation><!-- X04 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X05</masterLabel>
+            <translation><!-- X05 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X06</masterLabel>
+            <translation><!-- X06 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X07</masterLabel>
+            <translation><!-- X07 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X08</masterLabel>
+            <translation><!-- X08 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X09</masterLabel>
+            <translation>BM</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X10</masterLabel>
+            <translation>COMODITY - INDOOR WATERPROOF LIGHT ACCES</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X11</masterLabel>
+            <translation>IN-20 / IN-40 SEALING SET</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X12</masterLabel>
+            <translation><!-- X12 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X13</masterLabel>
+            <translation><!-- X13 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X14</masterLabel>
+            <translation>IN-20 / IN-40 REFLECTOR</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X15</masterLabel>
+            <translation><!-- X15 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X16</masterLabel>
+            <translation><!-- X16 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X17</masterLabel>
+            <translation>JR + ARM CL-11</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X18</masterLabel>
+            <translation><!-- X18 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X19</masterLabel>
+            <translation><!-- X19 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X20</masterLabel>
+            <translation><!-- X20 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X21</masterLabel>
+            <translation><!-- X21 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X22</masterLabel>
+            <translation><!-- X22 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X23</masterLabel>
+            <translation><!-- X23 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X24</masterLabel>
+            <translation><!-- X24 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X25</masterLabel>
+            <translation><!-- X25 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X26</masterLabel>
+            <translation><!-- X26 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X27</masterLabel>
+            <translation><!-- X27 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X28</masterLabel>
+            <translation><!-- X28 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X29</masterLabel>
+            <translation><!-- X29 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X30</masterLabel>
+            <translation><!-- X30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X31</masterLabel>
+            <translation><!-- X31 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X32</masterLabel>
+            <translation>PROJECT - POLES ACCESORIES</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X33</masterLabel>
+            <translation><!-- X33 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X34</masterLabel>
+            <translation>EGON IN SEALING SET</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X35</masterLabel>
+            <translation>EGON IN/PR</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X36</masterLabel>
+            <translation><!-- X36 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X37</masterLabel>
+            <translation><!-- X37 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X38</masterLabel>
+            <translation><!-- X38 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X39</masterLabel>
+            <translation>ATIK/FO-5</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X40</masterLabel>
+            <translation><!-- X40 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X41</masterLabel>
+            <translation>ETNA</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X42</masterLabel>
+            <translation><!-- X42 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X43</masterLabel>
+            <translation><!-- X43 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X44</masterLabel>
+            <translation><!-- X44 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X45</masterLabel>
+            <translation><!-- X45 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X46</masterLabel>
+            <translation><!-- X46 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X47</masterLabel>
+            <translation><!-- X47 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X48</masterLabel>
+            <translation>ZANIAH</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X49</masterLabel>
+            <translation><!-- X49 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X50</masterLabel>
+            <translation>EGON PR SEALING SET</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X51</masterLabel>
+            <translation>STIR UP EGON PR / EGON IN / IN-40</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X52</masterLabel>
+            <translation><!-- X52 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X53</masterLabel>
+            <translation><!-- X53 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X54</masterLabel>
+            <translation><!-- X54 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X55</masterLabel>
+            <translation><!-- X55 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X56</masterLabel>
+            <translation><!-- X56 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X57</masterLabel>
+            <translation><!-- X57 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X58</masterLabel>
+            <translation>TAOS</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X59</masterLabel>
+            <translation><!-- X59 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X60</masterLabel>
+            <translation><!-- X60 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X61</masterLabel>
+            <translation><!-- X61 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X62</masterLabel>
+            <translation><!-- X62 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X63</masterLabel>
+            <translation>COMODITY - OTHERS ACCESORIES</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X64</masterLabel>
+            <translation>POLE DOOR</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X65</masterLabel>
+            <translation><!-- X65 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X66</masterLabel>
+            <translation>LINK</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X67</masterLabel>
+            <translation><!-- X67 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X68</masterLabel>
+            <translation><!-- X68 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X69</masterLabel>
+            <translation><!-- X69 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X70</masterLabel>
+            <translation><!-- X70 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X71</masterLabel>
+            <translation><!-- X71 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X72</masterLabel>
+            <translation><!-- X72 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X73</masterLabel>
+            <translation><!-- X73 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X74</masterLabel>
+            <translation><!-- X74 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X75</masterLabel>
+            <translation><!-- X75 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X76</masterLabel>
+            <translation><!-- X76 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X77</masterLabel>
+            <translation>FOGO</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X78</masterLabel>
+            <translation>FOGO</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X79</masterLabel>
+            <translation>DEMON</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X80</masterLabel>
+            <translation>LAYNA / BALOON</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X81</masterLabel>
+            <translation>ERYX / TNX (TUNNEL LIGHTING)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X82</masterLabel>
+            <translation>EOS / HELIOS</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X83</masterLabel>
+            <translation>ALBIS / IRIS / THERA</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X84</masterLabel>
+            <translation>OPPIS / LIGHTBOX</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X85</masterLabel>
+            <translation>NIX / GRASS</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X86</masterLabel>
+            <translation>NAIDA / FLUID</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X87</masterLabel>
+            <translation><!-- X87 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X88</masterLabel>
+            <translation>DRIMO / ASTRIS</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X89</masterLabel>
+            <translation><!-- X89 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X90</masterLabel>
+            <translation>LED STIR</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X91</masterLabel>
+            <translation>STAR</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X92</masterLabel>
+            <translation><!-- X92 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X93</masterLabel>
+            <translation><!-- X93 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X94</masterLabel>
+            <translation><!-- X94 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X95</masterLabel>
+            <translation><!-- X95 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X96</masterLabel>
+            <translation><!-- X96 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X97</masterLabel>
+            <translation><!-- X97 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X98</masterLabel>
+            <translation><!-- X98 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X99</masterLabel>
+            <translation><!-- X99 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Y00</masterLabel>
+            <translation><!-- Y00 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Y01</masterLabel>
+            <translation><!-- Y01 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Y02</masterLabel>
+            <translation><!-- Y02 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Y03</masterLabel>
+            <translation><!-- Y03 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Y04</masterLabel>
+            <translation><!-- Y04 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Y05</masterLabel>
+            <translation><!-- Y05 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Subserie --></label>
+        <name>KS_Subserie__c</name>
+    </fields>
+    <layouts>
+        <layout>Formato Solución prescrita</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- id solución --></nameFieldLabel>
+    <startsWith><!-- Consonant --></startsWith>
+</CustomObjectTranslation>

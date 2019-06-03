@@ -1,0 +1,1071 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>KS_Estado_Avisos_autom_ticos_c</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>KS_Estado_Avisos_autom_ticos__c</shortDescription>
+        <value>Avisos automáticos</value>
+    </labels>
+    <labels>
+        <fullName>KS_Recurrencia_c</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>KS_Recurrencia__c</shortDescription>
+        <value>Recurrencia (días)</value>
+    </labels>
+    <labels>
+        <fullName>LOPD_Consiento</fullName>
+        <categories>lopd</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>LOPD_Consiento</shortDescription>
+        <value>Acepto a que mis datos sean tratados por SIMON S.A.U. para gestionar nuestra relación comercial, con la finalidad de enviarme, por cualquier medio incluyendo el electrónico, información sobre los productos y/o servicios prestados por las empresas de Grupo SIMON.</value>
+    </labels>
+    <labels>
+        <fullName>LOPD_Foot_A</fullName>
+        <categories>lopd</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>LOPD_Foot_A</shortDescription>
+        <value>Más información en nuestra</value>
+    </labels>
+    <labels>
+        <fullName>LOPD_Foot_B</fullName>
+        <categories>lopd</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>LOPD_Foot_B</shortDescription>
+        <value>Política de privacidad</value>
+    </labels>
+    <labels>
+        <fullName>LOPD_Head</fullName>
+        <categories>lopd</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>LOPD_Head</shortDescription>
+        <value>Aceptación tratamiento de datos</value>
+    </labels>
+    <labels>
+        <fullName>LOPD_Rechazo</fullName>
+        <categories>lopd</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>LOPD_Rechazo</shortDescription>
+        <value>No deseo que SIMON S.A.U. trate mis datos para enviarme, por cualquier medio incluyendo el electrónico, información sobre los productos y/o servicios prestados por las empresas de Grupo SIMON.</value>
+    </labels>
+    <labels>
+        <fullName>Obra</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Obra</shortDescription>
+        <value>Obras</value>
+    </labels>
+    <labels>
+        <fullName>Oferta</fullName>
+        <categories>oferta</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Oferta</shortDescription>
+        <value>Quote</value>
+    </labels>
+    <labels>
+        <fullName>Oferta_Ficha</fullName>
+        <categories>oferta</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Oferta_Ficha</shortDescription>
+        <value>Block</value>
+    </labels>
+    <labels>
+        <fullName>Oferta_Ficha_of</fullName>
+        <categories>oferta</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Oferta_Ficha_of</shortDescription>
+        <value>Ficha de la oferta</value>
+    </labels>
+    <labels>
+        <fullName>Oferta_Fichas</fullName>
+        <categories>oferta</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Oferta_Fichas</shortDescription>
+        <value>Blocks</value>
+    </labels>
+    <labels>
+        <fullName>PVP</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PVP</shortDescription>
+        <value>RP</value>
+    </labels>
+    <labels>
+        <fullName>Productos</fullName>
+        <categories>misc</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Productos</shortDescription>
+        <value>Products</value>
+    </labels>
+    <labels>
+        <fullName>Totales</fullName>
+        <categories>misc, total</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Totales</shortDescription>
+        <value>Totals</value>
+    </labels>
+    <labels>
+        <fullName>ks_areusure</fullName>
+        <categories>misc</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ks_areusure</shortDescription>
+        <value>Are you sure?</value>
+    </labels>
+    <labels>
+        <fullName>ks_btn_add</fullName>
+        <categories>boton</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ks_btn_add</shortDescription>
+        <value>Add</value>
+    </labels>
+    <labels>
+        <fullName>ks_btn_aprob</fullName>
+        <categories>boton</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>ks_btn_aprob</shortDescription>
+        <value>Enviar para aprobación</value>
+    </labels>
+    <labels>
+        <fullName>ks_btn_aprobtest</fullName>
+        <categories>boton</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>ks_btn_aprobtest</shortDescription>
+        <value>Calcular aprobación</value>
+    </labels>
+    <labels>
+        <fullName>ks_btn_buscar</fullName>
+        <categories>boton</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ks_btn_buscar</shortDescription>
+        <value>Search</value>
+    </labels>
+    <labels>
+        <fullName>ks_btn_calcular</fullName>
+        <categories>boton</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ks_btn_calcular</shortDescription>
+        <value>Calculate</value>
+    </labels>
+    <labels>
+        <fullName>ks_btn_cambiar</fullName>
+        <categories>boton</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ks_btn_cambiar</shortDescription>
+        <value>Change</value>
+    </labels>
+    <labels>
+        <fullName>ks_btn_cancel</fullName>
+        <categories>boton</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ks_btn_cancel</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>ks_btn_compartir</fullName>
+        <categories>boton</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>ks_btn_compartir</shortDescription>
+        <value>Compartir</value>
+    </labels>
+    <labels>
+        <fullName>ks_btn_delete</fullName>
+        <categories>boton</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ks_btn_delete</shortDescription>
+        <value>Delete</value>
+    </labels>
+    <labels>
+        <fullName>ks_btn_duplicar</fullName>
+        <categories>boton</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ks_btn_duplicar</shortDescription>
+        <value>Duplicate</value>
+    </labels>
+    <labels>
+        <fullName>ks_btn_edit</fullName>
+        <categories>boton</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ks_btn_edit</shortDescription>
+        <value>Edit</value>
+    </labels>
+    <labels>
+        <fullName>ks_btn_editEtapa</fullName>
+        <categories>boton</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>ks_btn_editEtapa</shortDescription>
+        <value>Modificar Etapa</value>
+    </labels>
+    <labels>
+        <fullName>ks_btn_generar</fullName>
+        <categories>boton</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ks_btn_generar</shortDescription>
+        <value>Generate</value>
+    </labels>
+    <labels>
+        <fullName>ks_btn_gestion</fullName>
+        <categories>boton</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>ks_btn_gestion</shortDescription>
+        <value>Gestionar</value>
+    </labels>
+    <labels>
+        <fullName>ks_btn_guardar</fullName>
+        <categories>boton</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ks_btn_guardar</shortDescription>
+        <value>Save</value>
+    </labels>
+    <labels>
+        <fullName>ks_btn_import</fullName>
+        <categories>boton</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>ks_btn_import</shortDescription>
+        <value>Importar</value>
+    </labels>
+    <labels>
+        <fullName>ks_btn_new</fullName>
+        <categories>boton</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ks_btn_new</shortDescription>
+        <value>New</value>
+    </labels>
+    <labels>
+        <fullName>ks_btn_new_fem</fullName>
+        <categories>boton</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ks_btn_new_fem</shortDescription>
+        <value>New</value>
+    </labels>
+    <labels>
+        <fullName>ks_btn_next</fullName>
+        <categories>boton</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ks_btn_next</shortDescription>
+        <value>Next</value>
+    </labels>
+    <labels>
+        <fullName>ks_btn_prev</fullName>
+        <categories>boton</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ks_btn_prev</shortDescription>
+        <value>Previous</value>
+    </labels>
+    <labels>
+        <fullName>ks_btn_reset</fullName>
+        <categories>boton</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>ks_btn_reset</shortDescription>
+        <value>Reiniciar</value>
+    </labels>
+    <labels>
+        <fullName>ks_btn_salir</fullName>
+        <categories>boton</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>ks_btn_salir</shortDescription>
+        <value>Salir</value>
+    </labels>
+    <labels>
+        <fullName>ks_btn_select</fullName>
+        <categories>boton</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ks_btn_select</shortDescription>
+        <value>Select</value>
+    </labels>
+    <labels>
+        <fullName>ks_btn_todos</fullName>
+        <categories>boton</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ks_btn_todos</shortDescription>
+        <value>All</value>
+    </labels>
+    <labels>
+        <fullName>ks_btn_unlock</fullName>
+        <categories>boton</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>ks_btn_unlock</shortDescription>
+        <value>Desbloquear</value>
+    </labels>
+    <labels>
+        <fullName>ks_btn_volver</fullName>
+        <categories>boton</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>ks_btn_volver</shortDescription>
+        <value>Volver</value>
+    </labels>
+    <labels>
+        <fullName>ks_descuento</fullName>
+        <categories>misc</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ks_descuento</shortDescription>
+        <value>Discount</value>
+    </labels>
+    <labels>
+        <fullName>ks_guardar_doing</fullName>
+        <categories>boton,doing</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>ks_guardar_doing</shortDescription>
+        <value>Guardando</value>
+    </labels>
+    <labels>
+        <fullName>ks_importante</fullName>
+        <categories>misc</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>ks_importante</shortDescription>
+        <value>Importante</value>
+    </labels>
+    <labels>
+        <fullName>ks_importebruto</fullName>
+        <categories>misc</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ks_importebruto</shortDescription>
+        <value>Gross Amount</value>
+    </labels>
+    <labels>
+        <fullName>ks_importeneto</fullName>
+        <categories>misc</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ks_importeneto</shortDescription>
+        <value>Net Amount</value>
+    </labels>
+    <labels>
+        <fullName>ks_invalidvalor</fullName>
+        <categories>misc</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ks_invalidvalor</shortDescription>
+        <value>Invalid valor for</value>
+    </labels>
+    <labels>
+        <fullName>ks_marcascomerciales</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>ks_marcascomerciales</shortDescription>
+        <value>Marcas Comerciales</value>
+    </labels>
+    <labels>
+        <fullName>ks_navegarto</fullName>
+        <categories>misc</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>ks_navegarto</shortDescription>
+        <value>Navegar a</value>
+    </labels>
+    <labels>
+        <fullName>ks_nombre</fullName>
+        <categories>misc</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>ks_nombre</shortDescription>
+        <value>Nombre</value>
+    </labels>
+    <labels>
+        <fullName>ks_notsaved</fullName>
+        <categories>misc</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>ks_notsaved</shortDescription>
+        <value>Sin guardar</value>
+    </labels>
+    <labels>
+        <fullName>ks_saved</fullName>
+        <categories>misc</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>ks_saved</shortDescription>
+        <value>Guardado</value>
+    </labels>
+    <labels>
+        <fullName>ks_selected</fullName>
+        <categories>misc</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>ks_selected</shortDescription>
+        <value>seleccionados</value>
+    </labels>
+    <labels>
+        <fullName>ks_selectedproducts</fullName>
+        <categories>misc</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ks_selectedproducts</shortDescription>
+        <value>Selected Products</value>
+    </labels>
+    <labels>
+        <fullName>ks_sinregistros</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>ks_sinregistros</shortDescription>
+        <value>No hay registros que mostrar.</value>
+    </labels>
+    <labels>
+        <fullName>ks_territorio</fullName>
+        <categories>misc</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>ks_territorio</shortDescription>
+        <value>Territorio</value>
+    </labels>
+    <labels>
+        <fullName>ks_volver_doing</fullName>
+        <categories>boton,doing</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>ks_volver_doing</shortDescription>
+        <value>Volviendo</value>
+    </labels>
+    <labels>
+        <fullName>oferta_addprod_addprodto</fullName>
+        <categories>oferta, oferta_producto</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>oferta_addprod_addprodto</shortDescription>
+        <value>Add products to</value>
+    </labels>
+    <labels>
+        <fullName>oferta_addprod_header</fullName>
+        <categories>oferta, oferta_producto, cabecera</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>oferta_addprod_header</shortDescription>
+        <value>Modificación de la oferta</value>
+    </labels>
+    <labels>
+        <fullName>oferta_addprod_help</fullName>
+        <categories>oferta, oferta_producto, cabecera, ayuda</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>oferta_addprod_help</shortDescription>
+        <value>Ayuda para esta página</value>
+    </labels>
+    <labels>
+        <fullName>oferta_addprod_importar</fullName>
+        <categories>oferta, oferta_producto, oferta_importar</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>oferta_addprod_importar</shortDescription>
+        <value>Importar lista de referencias</value>
+    </labels>
+    <labels>
+        <fullName>oferta_addprod_importar_1</fullName>
+        <categories>oferta, oferta_producto, oferta_importar</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>oferta_addprod_importar_1</shortDescription>
+        <value>Este importador le permitirá cargar una colección de referencias, usando un formato predeterminado, establecido como:</value>
+    </labels>
+    <labels>
+        <fullName>oferta_addprod_importar_2</fullName>
+        <categories>oferta, oferta_producto, oferta_importar</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>oferta_addprod_importar_2</shortDescription>
+        <value>Código de producto y cantidad son valores obligatorios, pudiendose dejar el valor del dto extra en blanco o 0. Cantidades con valor 0 tampoco serán aceptadas, y toda referencia cuyo código no corresponda exactamente a un producto en tarifa dará error.
+
+A continuación se le ofrece una hoja excel, con una plantilla que le generará la concatenación de valores para que este importador pueda tratar su carga masiva.</value>
+    </labels>
+    <labels>
+        <fullName>oferta_addprod_importar_3</fullName>
+        <categories>oferta, oferta_producto, oferta_importar</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>oferta_addprod_importar_3</shortDescription>
+        <value>Tras copiar la lista de referencias y pulsar el botón &quot;Importar&quot;, Salesforce intentará cargar las referencias indicadas con sus respectivas cantidades y descuentos, en caso de encontrar algún error ya sea de formato o por referencia no encontrada, el proceso NO importará ninguna referencia y mostrará un mensaje de error con los registros que contienen algún error.</value>
+    </labels>
+    <labels>
+        <fullName>oferta_addprod_importar_textarea</fullName>
+        <categories>oferta, oferta_producto, oferta_importar</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>oferta_addprod_importar_textarea</shortDescription>
+        <value>Copiar aquí la lista a importar con el formato indicado</value>
+    </labels>
+    <labels>
+        <fullName>oferta_addprod_searchprod</fullName>
+        <categories>oferta, oferta_producto, search</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>oferta_addprod_searchprod</shortDescription>
+        <value>Search products</value>
+    </labels>
+    <labels>
+        <fullName>oferta_addprod_searchprod_1</fullName>
+        <categories>oferta, oferta_producto, search</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>oferta_addprod_searchprod_1</shortDescription>
+        <value>By keyword</value>
+    </labels>
+    <labels>
+        <fullName>oferta_addprod_searchprod_2</fullName>
+        <categories>oferta, oferta_producto, search</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>oferta_addprod_searchprod_2</shortDescription>
+        <value>Por código</value>
+    </labels>
+    <labels>
+        <fullName>oferta_addprod_searchprod_3</fullName>
+        <categories>oferta, oferta_producto, search</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>oferta_addprod_searchprod_3</shortDescription>
+        <value>Por serie</value>
+    </labels>
+    <labels>
+        <fullName>oferta_addprod_searchprod_4</fullName>
+        <categories>oferta, oferta_producto, search</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>oferta_addprod_searchprod_4</shortDescription>
+        <value>Por subserie</value>
+    </labels>
+    <labels>
+        <fullName>oferta_addprod_searchprod_5</fullName>
+        <categories>oferta, oferta_producto, search</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>oferta_addprod_searchprod_5</shortDescription>
+        <value>Por familia</value>
+    </labels>
+    <labels>
+        <fullName>oferta_alert_delficha</fullName>
+        <categories>oferta, oferta_producto, alert</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>oferta_alert_delficha</shortDescription>
+        <value>¿Está seguro que desea eliminar todos los productos de la ficha actual?</value>
+    </labels>
+    <labels>
+        <fullName>oferta_alert_delprod</fullName>
+        <categories>oferta, oferta_producto, alert</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>oferta_alert_delprod</shortDescription>
+        <value>¿Está seguro que desea eliminar los productos seleccionados?</value>
+    </labels>
+    <labels>
+        <fullName>oferta_alert_errores</fullName>
+        <categories>oferta, oferta_producto, alert</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>oferta_alert_errores</shortDescription>
+        <value>Hay errores pendientes.</value>
+    </labels>
+    <labels>
+        <fullName>oferta_alert_lineas</fullName>
+        <categories>oferta, oferta_producto, alert</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>oferta_alert_lineas</shortDescription>
+        <value>Hay líneas sin producto asignado. Se perderán.</value>
+    </labels>
+    <labels>
+        <fullName>oferta_alert_navegar</fullName>
+        <categories>oferta, oferta_producto, alert</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>oferta_alert_navegar</shortDescription>
+        <value>¿Está seguro que desea navegar a otra ficha?</value>
+    </labels>
+    <labels>
+        <fullName>oferta_enviada_title</fullName>
+        <categories>oferta, oferta_enviada, title</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>oferta_enviada_title</shortDescription>
+        <value>Sent Quote&apos;s new record</value>
+    </labels>
+    <labels>
+        <fullName>oferta_ficha_descuentoDistr</fullName>
+        <categories>oferta, ficha</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>oferta_ficha_descuentoDistr</shortDescription>
+        <value>Descuento Distr.</value>
+    </labels>
+    <labels>
+        <fullName>oferta_ficha_error</fullName>
+        <categories>oferta, seccion, oferta_producto</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>oferta_ficha_error</shortDescription>
+        <value>Error</value>
+    </labels>
+    <labels>
+        <fullName>oferta_ficha_howto</fullName>
+        <categories>oferta, seccion, oferta_producto</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>oferta_ficha_howto</shortDescription>
+        <value>How-to</value>
+    </labels>
+    <labels>
+        <fullName>oferta_ficha_howto_1</fullName>
+        <categories>oferta, seccion, oferta_producto, howto</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>oferta_ficha_howto_1</shortDescription>
+        <value>Change Block: Select a different block in the picklist below &quot;CHANGE BLOCK&quot;.</value>
+    </labels>
+    <labels>
+        <fullName>oferta_ficha_howto_2</fullName>
+        <categories>oferta, seccion, oferta_producto, howto</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>oferta_ficha_howto_2</shortDescription>
+        <value>Delete Product: Mark the corresponding checkbox below &quot;DELETE&quot;</value>
+    </labels>
+    <labels>
+        <fullName>oferta_ficha_howto_3</fullName>
+        <categories>oferta, seccion, oferta_producto, howto</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>oferta_ficha_howto_3</shortDescription>
+        <value>Save Changes: Once you are done, push SAVE button for saving.</value>
+    </labels>
+    <labels>
+        <fullName>oferta_ficha_lineas_more</fullName>
+        <categories>oferta, ficha</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>oferta_ficha_lineas_more</shortDescription>
+        <value>lineas más a la ficha</value>
+    </labels>
+    <labels>
+        <fullName>oferta_ficha_margenDistr</fullName>
+        <categories>oferta, ficha</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>oferta_ficha_margenDistr</shortDescription>
+        <value>Margen Distr.</value>
+    </labels>
+    <labels>
+        <fullName>oferta_ficha_sumaPVP</fullName>
+        <categories>oferta, ficha</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>oferta_ficha_sumaPVP</shortDescription>
+        <value>Suma PVP</value>
+    </labels>
+    <labels>
+        <fullName>oferta_field_cantidad</fullName>
+        <categories>oferta, campo</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>oferta_field_cantidad</shortDescription>
+        <value>Quantity</value>
+    </labels>
+    <labels>
+        <fullName>oferta_field_cantidad_min</fullName>
+        <categories>oferta, campo</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>oferta_field_cantidad_min</shortDescription>
+        <value>Qnt.</value>
+    </labels>
+    <labels>
+        <fullName>oferta_field_desc</fullName>
+        <categories>oferta, campo</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>oferta_field_desc</shortDescription>
+        <value>Description</value>
+    </labels>
+    <labels>
+        <fullName>oferta_field_detalle</fullName>
+        <categories>oferta, campo</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>oferta_field_detalle</shortDescription>
+        <value>Detalle</value>
+    </labels>
+    <labels>
+        <fullName>oferta_field_distribuidor</fullName>
+        <categories>oferta, campo</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>oferta_field_distribuidor</shortDescription>
+        <value>Distribuidor</value>
+    </labels>
+    <labels>
+        <fullName>oferta_field_material</fullName>
+        <categories>oferta, campo</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>oferta_field_material</shortDescription>
+        <value>Material</value>
+    </labels>
+    <labels>
+        <fullName>oferta_min</fullName>
+        <categories>oferta</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>oferta_min</shortDescription>
+        <value>oferta</value>
+    </labels>
+    <labels>
+        <fullName>oferta_pdf_contacto_1</fullName>
+        <categories>oferta_pdf, oferta, pdf, simon</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>oferta_pdf_contacto_1</shortDescription>
+        <value>Diputación, 390 - 392</value>
+    </labels>
+    <labels>
+        <fullName>oferta_pdf_contacto_1fluvia</fullName>
+        <categories>oferta_pdf, oferta, pdf, simon</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>oferta_pdf_contacto_1fluvia</shortDescription>
+        <value>C/ Musgo 3, 2ª planta</value>
+    </labels>
+    <labels>
+        <fullName>oferta_pdf_contacto_2</fullName>
+        <categories>oferta_pdf, oferta, pdf, simon</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>oferta_pdf_contacto_2</shortDescription>
+        <value>08013 BARCELONA</value>
+    </labels>
+    <labels>
+        <fullName>oferta_pdf_contacto_2fluvia</fullName>
+        <categories>oferta_pdf, oferta, pdf, simon</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>oferta_pdf_contacto_2fluvia</shortDescription>
+        <value>028023 MADRID</value>
+    </labels>
+    <labels>
+        <fullName>oferta_pdf_contacto_3</fullName>
+        <categories>oferta_pdf, oferta, pdf, simon</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>oferta_pdf_contacto_3</shortDescription>
+        <value>Tel. (34) 933 440 800 · Fax (34) 933 440 803</value>
+    </labels>
+    <labels>
+        <fullName>oferta_pdf_contacto_3fluvia</fullName>
+        <categories>oferta_pdf, oferta, pdf, simon</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>oferta_pdf_contacto_3fluvia</shortDescription>
+        <value>Tel. 902 027 058</value>
+    </labels>
+    <labels>
+        <fullName>oferta_pdf_contacto_4</fullName>
+        <categories>oferta_pdf, oferta, pdf, simon</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>oferta_pdf_contacto_4</shortDescription>
+        <value>www.simonelectric.com · S.A.T. (34) 902 109 700</value>
+    </labels>
+    <labels>
+        <fullName>oferta_pdf_contacto_4fluvia</fullName>
+        <categories>oferta_pdf, oferta, pdf, simon</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>oferta_pdf_contacto_4fluvia</shortDescription>
+        <value>www.fluvia.com - S.A.T. 902 027 053</value>
+    </labels>
+    <labels>
+        <fullName>oferta_pdf_field_adress</fullName>
+        <categories>oferta_pdf, oferta, pdf, campo</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>oferta_pdf_field_adress</shortDescription>
+        <value>Adress</value>
+    </labels>
+    <labels>
+        <fullName>oferta_pdf_field_asunto</fullName>
+        <categories>oferta_pdf, oferta, pdf, campo</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>oferta_pdf_field_asunto</shortDescription>
+        <value>Subject</value>
+    </labels>
+    <labels>
+        <fullName>oferta_pdf_field_company</fullName>
+        <categories>oferta_pdf, oferta, pdf, campo</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>oferta_pdf_field_company</shortDescription>
+        <value>Company</value>
+    </labels>
+    <labels>
+        <fullName>oferta_pdf_field_fecha</fullName>
+        <categories>oferta_pdf, oferta, pdf, campo</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>oferta_pdf_field_fecha</shortDescription>
+        <value>Date</value>
+    </labels>
+    <labels>
+        <fullName>oferta_pdf_field_from</fullName>
+        <categories>oferta_pdf, oferta, pdf, campo</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>oferta_pdf_field_from</shortDescription>
+        <value>From</value>
+    </labels>
+    <labels>
+        <fullName>oferta_pdf_field_pages</fullName>
+        <categories>oferta_pdf, oferta, pdf, campo</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>oferta_pdf_field_pages</shortDescription>
+        <value>Pages</value>
+    </labels>
+    <labels>
+        <fullName>oferta_pdf_field_to</fullName>
+        <categories>oferta_pdf, oferta, pdf, campo</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>oferta_pdf_field_to</shortDescription>
+        <value>To</value>
+    </labels>
+    <labels>
+        <fullName>oferta_pdf_gestionventas_0</fullName>
+        <categories>oferta_pdf, oferta, pdf, simon</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>oferta_pdf_gestionventas_0</shortDescription>
+        <value>Customer Service</value>
+    </labels>
+    <labels>
+        <fullName>oferta_pdf_gestionventas_1</fullName>
+        <categories>oferta_pdf, oferta, pdf, simon</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>oferta_pdf_gestionventas_1</shortDescription>
+        <value>Tel. (34) 902 444 469</value>
+    </labels>
+    <labels>
+        <fullName>oferta_pdf_gestionventas_1fluvia</fullName>
+        <categories>oferta_pdf, oferta, pdf, simon</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>oferta_pdf_gestionventas_1fluvia</shortDescription>
+        <value>Tel. (34) 902 027 058</value>
+    </labels>
+    <labels>
+        <fullName>oferta_pdf_gestionventas_2</fullName>
+        <categories>oferta_pdf, oferta, pdf, simon</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>oferta_pdf_gestionventas_2</shortDescription>
+        <value>Fax. (34) 902 627 899</value>
+    </labels>
+    <labels>
+        <fullName>oferta_pdf_info_01</fullName>
+        <categories>oferta_pdf, oferta, pdf, info</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>oferta_pdf_info_01</shortDescription>
+        <value>Dear Sirs,</value>
+    </labels>
+    <labels>
+        <fullName>oferta_pdf_info_02</fullName>
+        <categories>oferta_pdf, oferta, pdf, info</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>oferta_pdf_info_02</shortDescription>
+        <value>We are pleased to refer you the following products quote.</value>
+    </labels>
+    <labels>
+        <fullName>oferta_pdf_info_11</fullName>
+        <categories>oferta_pdf, oferta, pdf, info</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>oferta_pdf_info_11</shortDescription>
+        <value>Quote valid for: 1 month.</value>
+    </labels>
+    <labels>
+        <fullName>oferta_pdf_info_12</fullName>
+        <categories>oferta_pdf, oferta, pdf, info</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>oferta_pdf_info_12</shortDescription>
+        <value>Prices excluding VAT.</value>
+    </labels>
+    <labels>
+        <fullName>oferta_pdf_info_13</fullName>
+        <categories>oferta_pdf, oferta, pdf, info</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>oferta_pdf_info_13</shortDescription>
+        <value>For any questions do not hesitate to contact us.</value>
+    </labels>
+    <labels>
+        <fullName>oferta_pdf_info_14</fullName>
+        <categories>oferta_pdf, oferta, pdf, info</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>oferta_pdf_info_14</shortDescription>
+        <value>Without further ado, receive our warm regards.</value>
+    </labels>
+    <labels>
+        <fullName>oferta_searchprod_header</fullName>
+        <categories>oferta, oferta_producto, buscar, cabecera</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>oferta_searchprod_header</shortDescription>
+        <value>Selección de producto</value>
+    </labels>
+    <labels>
+        <fullName>oferta_section_aprob</fullName>
+        <categories>oferta, seccion</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>oferta_section_aprob</shortDescription>
+        <value>Aprobaciones</value>
+    </labels>
+    <labels>
+        <fullName>oferta_section_desc</fullName>
+        <categories>oferta, seccion</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>oferta_section_desc</shortDescription>
+        <value>Description</value>
+    </labels>
+    <labels>
+        <fullName>oferta_section_info</fullName>
+        <categories>oferta, seccion</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>oferta_section_info</shortDescription>
+        <value>Quote Information</value>
+    </labels>
+    <labels>
+        <fullName>oferta_section_infoadd</fullName>
+        <categories>oferta, seccion</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>oferta_section_infoadd</shortDescription>
+        <value>Additional Info</value>
+    </labels>
+    <labels>
+        <fullName>oferta_section_infoother</fullName>
+        <categories>oferta, seccion</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>oferta_section_infoother</shortDescription>
+        <value>Other Information</value>
+    </labels>
+    <labels>
+        <fullName>oferta_section_opdetail</fullName>
+        <categories>oferta, seccion</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>oferta_section_opdetail</shortDescription>
+        <value>Transaction Details</value>
+    </labels>
+    <labels>
+        <fullName>oferta_section_simulation</fullName>
+        <categories>oferta, seccion</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>oferta_section_simulation</shortDescription>
+        <value>Transaction details</value>
+    </labels>
+    <labels>
+        <fullName>oferta_xpress_calc_title</fullName>
+        <categories>oferta_express, oferta</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>oferta_xpress_calc_title</shortDescription>
+        <value>Quotes Calculator</value>
+    </labels>
+    <labels>
+        <fullName>total</fullName>
+        <categories>misc, total</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>total</shortDescription>
+        <value>Total</value>
+    </labels>
+    <labels>
+        <fullName>total_lower</fullName>
+        <categories>misc</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>total_lower</shortDescription>
+        <value>total</value>
+    </labels>
+    <labels>
+        <fullName>unidad</fullName>
+        <categories>misc, unidad</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>unidad</shortDescription>
+        <value>Unit</value>
+    </labels>
+    <labels>
+        <fullName>unidad_lower</fullName>
+        <categories>misc, unidad</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>unidad_lower</shortDescription>
+        <value>unit</value>
+    </labels>
+    <labels>
+        <fullName>unidad_lower_min</fullName>
+        <categories>misc, unidad</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>unidad_lower_min</shortDescription>
+        <value>unit</value>
+    </labels>
+    <labels>
+        <fullName>unidad_plrl</fullName>
+        <categories>misc, unidad</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>unidad_plrl</shortDescription>
+        <value>Units</value>
+    </labels>
+</CustomLabels>

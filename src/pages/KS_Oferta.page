@@ -1,0 +1,707 @@
+<apex:page standardController="Opportunity" extensions="KS_Oferta_Controller" 
+           docType="html-5.0" id="oferta_page" standardStylesheets="true" title="{!oferta.Name}">
+    
+    <apex:messages />
+    <apex:sectionheader title="{!$ObjectType.Opportunity.label} Edit" subtitle="{!IF(ISNULL(oferta.Name), '{!$Label.ks_btn_new_fem} {!$Label.Oferta}',oferta.Name)}"/>
+    <chatter:feedWithFollowers entityId="{!oferta.Id}" rendered="{!not(editOferta)}"/>
+    <apex:includeScript value="{!$Resource.KS_jquery1}"/>
+    <apex:form id="oferta_form" styleClass="formulario">
+        <style type="text/css">
+            .clickhere {
+                cursor:pointer;
+            }
+            .clickhere:hover {
+                color:#015BA7;
+            }
+        </style>
+        <script type="text/javascript">
+        $(".formulario").hide();
+        </script>
+        <apex:pageblock mode="maindetail" rendered="{!haveErrorOferta}">
+            <apex:pageBlockSection columns="1" title="{!$Label.oferta_ficha_error}" collapsible="false">
+                <apex:outputText value="{!errorTextOferta}" styleclass="warning"/>
+            </apex:pageBlockSection>        
+        </apex:pageblock>
+        
+        <apex:pageblock mode="maindetail" rendered="{!not(editOferta)}">
+            <apex:pageblockbuttons location="top">
+                <apex:commandbutton value="{!$Label.ks_btn_edit}" action="{!editMode}"  rendered="{!validUser&&not(locked)}"/>
+                <apex:commandbutton value="{!$Label.ks_btn_editEtapa}" action="{!editEtapaOferta}"  rendered="{!(approval&&not(closed)&&(ownerUser||adminUser))|| adminUser}"/>
+                <apex:commandButton Value="{!$Label.ks_btn_aprobtest}" action="{!testApproval}" rendered="{!not(locked)}" />
+                <apex:commandButton Value="{!$Label.ks_btn_aprob}" action="{!sendApproval}" Id="Aprobacion" rendered="{!not(locked)}" />
+                <apex:commandButton Value="{!$Label.ks_btn_duplicar}" action="{!URLFOR($Action.Opportunity.Clone, Id, [clone='1', cloneli='1'])}" Id="Clonar"/>
+                <apex:commandButton value="{!$Label.ks_btn_compartir}" action="{!URLFOR($Action.Opportunity.Share,Id)}" Id="Compartir"/>
+                <apex:commandbutton value="{!$Label.ks_btn_unlock}" action="{!unlock}"  rendered="{!adminUser&&locked}"/>
+                <!--<apex:commandbutton value="DEMO {!$ObjectType.Product2.label}" action="{!gotoDEMO}" rendered="{!adminUser&&not(locked)}"/>-->
+                <apex:image value="/img/lock_small.gif" alt="Lock" width="16" height="16" title="Lock" rendered="{!locked}" />
+            </apex:pageblockbuttons>
+
+
+            <!-- **********   [Record Type : Oferta ]   **********  -->
+            <apex:outputpanel >
+                <apex:pageblocksection title="{!$Label.oferta_section_info}" showheader="true" columns="2" collapsible="true">
+                    <apex:pageblocksectionitem >
+                    <apex:outputlabel value="{!$ObjectType.Opportunity.fields.OwnerId.Label}"/>
+                    <apex:outputpanel >
+                    <apex:outputfield value="{!oferta.OwnerId}"/>
+                    <apex:outputlink value="/{!id}/a?retURL=/{!id}" rendered="{!NOT(ISNULL(oferta.Id))}"> [Cambiar]</apex:outputlink> 
+                    </apex:outputpanel>
+                    </apex:pageblocksectionitem>
+                    <apex:outputfield value="{!oferta.RecordTypeId}"/>
+                    
+                    <apex:outputfield value="{!oferta.Name}"/>
+                    <apex:outputfield value="{!oferta.KS_Contabiliza__c}"/>
+                    <apex:outputfield value="{!oferta.KS_Referencia__c}"/>
+                    <apex:outputfield value="{!oferta.KS_Agente_de_contabilizacion__c}"/>
+                    <apex:outputfield value="{!oferta.CloseDate}"/>
+                    <apex:outputfield value="{!oferta.KS_Prescrito__c}"/>
+                    <apex:outputfield value="{!oferta.KS_Oferta_ID__c}"/>
+                    <apex:outputfield value="{!oferta.KS_Obra__c}"/>
+                    
+                    <apex:pageblocksectionitem >
+                        <apex:outputLabel value="{!$Label.oferta_field_distribuidor}" for="ofertaDistri"/>
+                        <apex:outputfield value="{!oferta.KS_Distribuidor__c}" id="ofertaDistri"/>
+                    </apex:pageblocksectionitem>
+                    <apex:outputfield value="{!oferta.StageName}"/>
+                    <apex:outputfield value="{!oferta.KS_Instalador__c}"/>
+                    <apex:outputfield value="{!oferta.KS_Subetapa__c}"/>
+                    <apex:outputfield value="{!oferta.KS_Cliente_final__c}"/>
+                    <apex:outputfield value="{!oferta.KS_Probabilidad__c}"/>
+                    <apex:outputfield value="{!oferta.KS_Nivel_de_aprobacion_de_4__c}"/>
+                    <apex:outputfield value="{!oferta.CurrencyIsoCode}"/>
+                    <apex:outputfield value="{!oferta.KS_Estado_de_aprobacion__c}"/>
+                    <apex:outputfield value="{!oferta.CampaignId}"/>
+                    <apex:pageblocksectionitem ></apex:pageblocksectionitem>
+                    <apex:outputfield value="{!oferta.KS_Protected__c}"/>
+                    <apex:outputfield value="{!oferta.KS_Oferta_Origen__c}" rendered="{!oferta.KS_Oferta_Origen__c != null}"/>
+                </apex:pageblocksection>
+                <apex:pageblocksection title="{!$Label.oferta_section_infoadd}" showheader="true" columns="2" collapsible="true">
+                    <apex:outputfield value="{!oferta.KS_Organizacion_Cliente__c}"/>
+                    <apex:outputfield value="{!oferta.KS_Area__c}"/>
+                    <apex:outputfield value="{!oferta.KS_Organizacion__c}"/>
+                    <apex:outputfield value="{!oferta.KS_Delegacion__c}"/>
+                    <apex:pageblocksectionitem >
+                        <apex:outputLabel value="{!$Label.ks_territorio}"/>
+                        <apex:outputText value="{!territorio}"/>
+                    </apex:pageblocksectionitem>
+                    <apex:outputfield value="{!oferta.KS_Zona__c}"/>
+                </apex:pageblocksection>
+                <apex:pageblocksection title="{!$Label.oferta_section_desc}" showheader="true" columns="1" collapsible="true">
+                    <apex:outputfield value="{!oferta.Description}"/>
+                </apex:pageblocksection>
+                <apex:pageblocksection title="{!$Label.oferta_section_simulation}" showheader="true" columns="2" collapsible="true" rendered="{!validUser}">
+                    <apex:outputfield value="{!oferta.Amount}"/>
+                    <apex:outputfield value="{!oferta.KS_descuento_total_operacion__c}"/>                  
+                    
+                </apex:pageblocksection>
+                <apex:pageblocksection title="{!$Label.oferta_section_opdetail}" showheader="true" columns="2" collapsible="true" rendered="{!validUser}">
+
+                    <apex:outputfield value="{!oferta.KS_Importe_total_fichas__c}"/>
+                    <apex:pageblocksectionItem ><br/></apex:pageblocksectionItem>
+                    <apex:outputfield value="{!oferta.KS_Descuento_total_Distribuidor__c}"/>
+                    <apex:outputfield value="{!oferta.KS_Margen_distribuidor_pctge__c}"/>
+                    
+                    <apex:pageBlockSectionItem ></apex:pageBlockSectionItem>
+                    <apex:pageBlockSectionItem ></apex:pageBlockSectionItem>                    
+                    
+                    <apex:outputfield value="{!oferta.KS_Importe_total_Instalador_c__c}"/>
+                    <apex:pageblocksectionItem ><br/></apex:pageblocksectionItem>
+                    <apex:outputfield value="{!oferta.KS_Descuento_total_Instalador__c}"/>
+                    <apex:outputfield value="{!oferta.KS_Margen_instalador_pctge__c}"/>
+                    
+                    <apex:pageBlockSectionItem ></apex:pageBlockSectionItem>
+                    <apex:pageBlockSectionItem ></apex:pageBlockSectionItem>                    
+                    
+                    <apex:outputfield value="{!oferta.KS_Importe_total_Cliente_Final__c}"/>
+                    <apex:pageBlockSectionItem ></apex:pageBlockSectionItem>
+                    <apex:outputfield value="{!oferta.KS_Descuento_total_Cliente_Final__c}"/>
+                     
+                </apex:pageblocksection>
+                 <apex:pageblocksection title="{!$Label.oferta_section_infoother}" showheader="true" columns="2" collapsible="true" >
+                  <apex:outputfield value="{!oferta.KS_Distribuidor_importe_PVP__c}"/>
+                  <apex:pageBlockSectionItem ></apex:pageBlockSectionItem>
+                   <apex:outputfield value="{!oferta.KS_Distribuidor_MSC_en_PVP__c}"/>
+                    <apex:outputfield value="{!oferta.MSC_Distribuidor__c}"/>
+                     <apex:pageBlockSectionItem ></apex:pageBlockSectionItem>
+                    <apex:pageBlockSectionItem ></apex:pageBlockSectionItem> 
+                      <apex:outputfield value="{!oferta.KS_Instalador_Importe_PVP__c}"/>
+                  <apex:pageBlockSectionItem ></apex:pageBlockSectionItem>
+                   <apex:outputfield value="{!oferta.PVP_con_MSC_para_Instalador_fx__c}"/>
+                    <apex:outputfield value="{!oferta.MSC_Instalador__c}"/>
+                     <apex:pageBlockSectionItem ></apex:pageBlockSectionItem>
+                    <apex:pageBlockSectionItem ></apex:pageBlockSectionItem> 
+                <apex:pageBlockSectionItem ></apex:pageBlockSectionItem>
+                    <apex:pageBlockSectionItem ></apex:pageBlockSectionItem> 
+                      <apex:outputfield value="{!oferta.KS_Cliente_final_Importe_PVP__c}"/>
+                  <apex:pageBlockSectionItem ></apex:pageBlockSectionItem>
+                   <apex:outputfield value="{!oferta.KS_Cliente_final_MSC_en_PVP__c}"/>
+                    <apex:outputfield value="{!oferta.MSC_Cliente_Final__c}"/>
+                     <apex:pageBlockSectionItem ></apex:pageBlockSectionItem>
+                    <apex:pageBlockSectionItem ></apex:pageBlockSectionItem> 
+                </apex:pageblocksection>
+                
+            </apex:outputpanel>
+        </apex:pageblock>        
+        
+        <apex:pageblock mode="maindetail" rendered="{!editOferta}">
+            <apex:pageblockbuttons location="top">
+                <apex:commandbutton value="{!$Label.ks_btn_guardar}" action="{!save}" rendered="{!validUser&&not(locked)}"/>
+                <apex:commandbutton value="{!$Label.ks_btn_cancel}" action="{!cancel}"/>
+            </apex:pageblockbuttons>
+
+            <!-- **********   [Record Type : Oferta ]   **********  -->
+            <apex:outputpanel id="fieldPanel">
+                <apex:actionFunction action="{!reload}" name="callReload" reRender="fieldPanel"/>
+                
+                <apex:pageblocksection title="{!$Label.oferta_section_info}" showheader="true" columns="2" collapsible="true">
+                    <apex:outputfield value="{!oferta.OwnerId}"/>
+                    <apex:pageBlockSectionItem ></apex:pageBlockSectionItem>
+                    <apex:inputfield value="{!oferta.Name}" required="true"/>
+                    <apex:inputfield value="{!oferta.KS_Contabiliza__c}" required="false"/>
+                    <apex:inputfield value="{!oferta.KS_Referencia__c}"/>
+                    
+                    <!--<apex:inputField value="{!oferta.KS_Agente_de_contabilizacion__c}" onchange="callReload();" rendered="{!!prescribeDistribuidor}"/>
+                    <apex:inputField value="{!oferta.KS_Agente_de_contabilizacion__c}" html-disabled="disabled" rendered="{!prescribeDistribuidor}"/>-->
+                    <apex:inputField value="{!oferta.KS_Agente_de_contabilizacion__c}"/>
+                    
+                    <apex:inputfield value="{!oferta.CloseDate}" required="true"/>
+                    
+                    <!--<apex:inputField value="{!oferta.KS_Prescrito__c}" rendered="{!!contabilizaDistribuidor}" html-disabled="disabled"/>
+                    <apex:inputField value="{!oferta.KS_Prescrito__c}" rendered="{!contabilizaDistribuidor}" onchange="callReload();"/>-->
+                    <apex:inputField value="{!oferta.KS_Prescrito__c}"/>
+                    
+                    <apex:outputfield value="{!oferta.KS_Oferta_ID__c}"/>
+                    <apex:inputfield value="{!oferta.KS_Obra__c}" required="false"/>
+                    <apex:outputfield value="{!oferta.RecordTypeId}"/>
+                    <apex:pageblocksectionitem >
+                        <apex:outputLabel value="{!$Label.oferta_field_distribuidor}" for="ofertaDistri"/>
+                        <apex:inputfield value="{!oferta.KS_Distribuidor__c}" required="true" id="ofertaDistri"/>
+                    </apex:pageblocksectionitem>
+                    <apex:inputfield value="{!oferta.StageName}" required="true"/>
+                    <apex:inputfield value="{!oferta.KS_Instalador__c}" required="false"/>
+                    <apex:inputfield value="{!oferta.KS_Subetapa__c}" required="false"/>
+                    <apex:inputfield value="{!oferta.KS_Cliente_final__c}" required="false"/>
+                    <apex:inputfield value="{!oferta.KS_Probabilidad__c}" required="true"/>
+                    <apex:pageBlockSectionItem rendered="{!not(adminUser)}" ></apex:pageBlockSectionItem>
+                    <apex:outputfield value="{!oferta.KS_Nivel_de_aprobacion_de_4__c}" rendered="{!adminUser}"/>
+                    <apex:inputfield value="{!oferta.CurrencyIsoCode}" required="true"/>
+                    <apex:pageBlockSectionItem rendered="{!not(adminUser)}" ></apex:pageBlockSectionItem>
+                    <apex:outputfield value="{!oferta.KS_Estado_de_aprobacion__c}" rendered="{!adminUser}"/>
+                    <apex:inputfield value="{!oferta.CampaignId}"/>
+                    <apex:pageblocksectionitem ></apex:pageblocksectionitem>
+                    <apex:inputfield value="{!oferta.KS_Protected__c}"/>   
+                    <apex:pageBlockSectionItem />
+                </apex:pageblocksection>
+                <apex:pageblocksection title="{!$Label.oferta_section_infoadd}" showheader="true" columns="2" collapsible="true">
+                    <apex:inputfield value="{!oferta.KS_Organizacion_Cliente__c}" required="true"/>
+                    <apex:pageBlockSectionItem ></apex:pageBlockSectionItem>
+                </apex:pageblocksection>
+                <apex:pageblocksection title="{!$Label.oferta_section_desc}" showheader="true" columns="1" collapsible="true">
+                    <apex:inputfield value="{!oferta.Description}" required="false"/>
+                </apex:pageblocksection>
+                <apex:pageblocksection title="{!$Label.oferta_section_simulation}" showheader="true" columns="2" collapsible="true" rendered="{!validUser}">
+                    <apex:outputfield value="{!oferta.Amount}"/>
+                   <apex:outputfield value="{!oferta.KS_descuento_total_operacion__c}"/>
+                  
+                </apex:pageblocksection>
+                <apex:pageblocksection title="{!$Label.oferta_section_opdetail}" showheader="true" columns="2" collapsible="true" rendered="{!validUser}">
+                    
+
+                    <apex:outputfield value="{!oferta.KS_Importe_total_fichas__c}"/>
+                    <apex:pageblocksectionItem ><br/></apex:pageblocksectionItem>
+                    <apex:outputfield value="{!oferta.KS_Descuento_total_Distribuidor__c}"/>
+                    <apex:outputfield value="{!oferta.KS_Margen_distribuidor_pctge__c}"/>
+                    
+                    <apex:pageBlockSectionItem ></apex:pageBlockSectionItem>
+                    <apex:pageBlockSectionItem ></apex:pageBlockSectionItem>                    
+                    
+                    <apex:outputfield value="{!oferta.KS_Importe_total_Instalador_c__c}"/>
+                    <apex:pageblocksectionItem ><br/></apex:pageblocksectionItem>
+                    <apex:outputfield value="{!oferta.KS_Descuento_total_Instalador__c}"/>
+                    <apex:outputfield value="{!oferta.KS_Margen_instalador_pctge__c}"/>
+                    
+                    <apex:pageBlockSectionItem ></apex:pageBlockSectionItem>
+                    <apex:pageBlockSectionItem ></apex:pageBlockSectionItem>                    
+                    
+                    <apex:outputfield value="{!oferta.KS_Importe_total_Cliente_Final__c}"/>
+                    <apex:pageBlockSectionItem ></apex:pageBlockSectionItem>
+                    <apex:outputfield value="{!oferta.KS_Descuento_total_Cliente_Final__c}"/>
+                  
+                   
+                </apex:pageblocksection>
+            </apex:outputpanel>
+        </apex:pageblock>
+        
+        <apex:pageBlock mode="detail" tabStyle="OpportunityLineItem" title="{!$Label.Oferta_Fichas}">
+
+            <apex:pageBlockButtons location="top">
+                <apex:commandbutton value="{!$Label.ks_btn_new_fem} {!$Label.Oferta_Ficha}" onclick="selectFicha('0');"  action="{!gotoDEMO}" rendered="{!not(haveEdit)&&validUser&&not(locked)}"/>
+                 <!--
+                <apex:commandButton value="{!$Label.ks_btn_guardar}" action="{!saveFichas}" rendered="{!haveEdit&&validUser&&not(locked)}"/>
+                <apex:commandButton value="{!$Label.ks_btn_cancel}" action="{!cancelFichas}" rendered="{!haveEdit}"/>
+                <apex:commandbutton value="{!$Label.ks_btn_new_fem} {!$Label.Oferta_Ficha}" onclick="selectFicha('0');"  action="{!gotoDEMO}" rendered="{!not(haveEdit)&&(adminUser||groupValid)&&not(locked)}"/>
+                <apex:commandButton value="{!$Label.ks_btn_new_fem}" action="{!addproducts}" rendered="{!not(haveEdit)&&validUser&&not(locked)}"/>-->
+                <apex:commandButton value="{!$Label.ks_btn_calcular} {!$ObjectType.KS_Condicion_Comercial__c.Label}" action="{!calculateCondicionesComerciales}" rendered="{!not(haveEdit)&&validUser&&not(closed)}"/>
+            </apex:pageBlockButtons>
+
+            <apex:pageBlockSection columns="1" title="{!$Label.oferta_ficha_error}"  rendered="{!haveErrorFicha}">
+                <apex:outputText value="{!errorTextFicha}" styleclass="warning"/>
+            </apex:pageBlockSection>
+            
+            <apex:pageBlockSection columns="1" title="{!$Label.oferta_ficha_howto}" rendered="{!haveEdit}" collapsible="true">
+                <apex:pageBlockSectionItem >
+                    {!$Label.oferta_ficha_howto_1}
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem >
+                    {!$Label.oferta_ficha_howto_2}
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem >
+                    {!$Label.oferta_ficha_howto_3}
+                </apex:pageBlockSectionItem>
+            </apex:pageBlockSection>
+            
+            <div class="fichaInput"><apex:inputHidden value="{!fichaToEdit}"/></div>
+            <script type="text/javascript">
+            function selectFicha(fichaName) {
+                $(".fichaInput").find("input").val(fichaName);//alert($(".fichaInput").find("input").val());
+            }
+            function selectFichaAREUSURE(fichaName) {
+                if (window.confirm("{!$Label.ks_areusure}")) {
+                    $(".fichaInput").find("input").val(fichaName);
+                } else {
+                    $(".fichaInput").find("input").val("");
+                }
+            }            
+            </script>
+            
+            <apex:repeat var="ficha" value="{!fichas}" rendered="{!hasProductos}">
+                
+                <apex:pageBlock title="{!fichaNombres[ficha]}" mode="detail" rendered="{!not(isEdit[ficha])}">
+                    <!--{!$Label.Oferta_Ficha}:-->
+                    <apex:pageBlockButtons location="top">
+                        <apex:commandbutton value="{!$Label.ks_btn_gestion} {!$Label.Oferta_Ficha}" onclick="selectFicha('{!ficha}');" action="{!gotoDEMO}" rendered="{!validUser&&not(locked)}"/>
+                        <!--<apex:commandbutton value="{!$Label.ks_btn_gestion} {!$Label.Oferta_Ficha}" onclick="selectFicha('{!ficha}');" action="{!gotoDEMO}" rendered="{!(adminUser||groupValid)&&not(locked)}"/>
+                        <apex:commandButton value="{!$Label.ks_btn_edit}" onclick="selectFicha('{!ficha}');" action="{!enableEdit}" rendered="{!validUser&&not(locked)}"/>
+                        <apex:commandButton value="{!$Label.ks_btn_add}" action="{!addProductsToFicha}" onclick="selectFicha('{!ficha}')" rendered="{!validUser&&not(locked)}"/>
+                        <apex:commandButton value="{!$Label.ks_btn_duplicar}" action="{!duplicar}" onclick="selectFicha('{!ficha}')" rendered="{!validUser&&not(locked)}"/>
+                        <apex:commandButton value="{!$Label.ks_btn_delete}" action="{!deleteFicha}" onclick="selectFichaAREUSURE('{!ficha}')" rendered="{!validUser&&not(locked)}"/>-->
+                    </apex:pageBlockButtons>
+                    
+                    <table class="list ficha{!ficha}" border="0" cellpadding="0" cellspacing="0">
+                        <thead>
+                            <tr class="headerRow">
+                                <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.OpportunityLineItem.fields.KS_Material__c.Label}</span></th>
+                                <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.OpportunityLineItem.fields.UnitPrice.Label}</span></th>
+                                <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.OpportunityLineItem.fields.Quantity.Label}</span></th>
+                                <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.OpportunityLineItem.fields.KS_Nombre__c.Label}</span></th>
+                                <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.OpportunityLineItem.fields.KS_Referencia__c.Label}</span></th>                                
+                                <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.OpportunityLineItem.fields.KS_Dto_base_1__c.Label}</span></th>
+                                <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.OpportunityLineItem.fields.KS_Dto_base_2__c.Label}</span></th>
+                                <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.OpportunityLineItem.fields.KS_Dto_Campaign__c.Label}</span></th>
+                                <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.OpportunityLineItem.fields.KS_Dto_adicional_2__c.Label}</span></th>
+                                <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.OpportunityLineItem.fields.KS_Dto_Instalador__c.Label}</span></th>
+                                <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.OpportunityLineItem.fields.KS_Dto_cliente_final__c.Label}</span></th>
+                                <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.OpportunityLineItem.fields.KS_Dto_Logistico__c.Label}</span></th>
+                                <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.OpportunityLineItem.fields.KS_Prescrito__c.Label}</span></th>
+                                <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.OpportunityLineItem.fields.KS_Material_sin_cargo__c.Label}</span></th>
+                                <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.OpportunityLineItem.fields.KS_Destinatario__c.Label}</span></th>
+                                <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.OpportunityLineItem.fields.KS_Aprobacion__c.Label}</span></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <apex:repeat var="producto" value="{!productosOferta[ficha]}">
+                                <tr class="dataRow">
+                                    <td class="dataCell" width="6%">
+                                        <strong class="clickhere" onclick="gotoID('{!producto.KS_Producto__c}');">{!producto.KS_Material__c}</strong>
+                                    </td>
+                                    <td class="dataCell" width="4%"><apex:outputField value="{!producto.UnitPrice}"/></td>
+                                    <td class="dataCell" width="4%"><apex:outputField value="{!producto.KS_Cantidad__c}"/></td>
+                                    <td class="dataCell" width="20%"><apex:outputField value="{!producto.KS_Nombre__c}"/></td>
+                                    <td class="dataCell" width="22%"><apex:outputField value="{!producto.KS_Referencia__c}"/></td>                                    
+                                    <td class="dataCell" width="2,5%"><apex:outputText value="{!descuentosOferta[producto.ID].dtb1}" rendered="{!not(producto.KS_Material_sin_cargo__c)&&validUser}"/></td>
+                                    <td class="dataCell" width="2,5%"><apex:outputText value="{!descuentosOferta[producto.ID].dtb2}" rendered="{!not(producto.KS_Material_sin_cargo__c)&&validUser}"/></td>
+                                    <td class="dataCell" width="4%"><apex:outputText value="{!descuentosOferta[producto.ID].dta1}" rendered="{!not(producto.KS_Material_sin_cargo__c)&&validUser}"/></td>
+                                    <td class="dataCell" width="2,5%"><apex:outputField value="{!producto.KS_Dto_adicional_2__c}"/></td><!-- rendered="{!not(producto.KS_Material_sin_cargo__c)||producto.KS_Dest_Distribuidor__c}"/></td>-->
+                                    <td class="dataCell" width="4%"><apex:outputField value="{!producto.KS_Dto_Instalador__c}"/></td><!-- rendered="{!not(producto.KS_Material_sin_cargo__c)||producto.KS_Dest_Instalador__c}"/></td>-->
+                                    <td class="dataCell" width="4%"><apex:outputField value="{!producto.KS_Dto_cliente_final__c}"/></td><!-- rendered="{!not(producto.KS_Material_sin_cargo__c)||producto.KS_Dest_ClieFinal__c}"/></td>-->
+                                    <td class="dataCell" width="4%"><apex:outputField value="{!producto.KS_Dto_Logistico__c}" rendered="{!not(producto.KS_Material_sin_cargo__c)}"/></td>
+                                    <td class="dataCell" width="4%"><apex:outputField value="{!producto.KS_Prescrito__c}"/></td>
+                                    <td class="dataCell" width="4%"><apex:outputField value="{!producto.KS_Material_sin_cargo__c}"/></td>
+                                    <td class="dataCell" width="5%"><apex:outputField value="{!producto.KS_Destinatario__c}"/></td>
+                                    <td class="dataCell" width="4%"><apex:outputField value="{!producto.KS_Aprobacion__c}"/></td>
+                                </tr>
+                            </apex:repeat>
+                        </tbody>
+                        <tfoot>
+                            <tr class="dataRow">
+                                <th class="labelcol" style="border-width:3px 0 0 0;">{!$Label.Totales}:</th>
+                                <td class="datacol" style="border-width:3px 0 0 0;"><strong><apex:outputText value="{!totalImporte[ficha]}"/></strong></td>
+                                <td class="datacol" style="border-width:3px 0 0 0;" colspan="2">
+                                    <strong><apex:outputText value="{!totalCantidad[ficha]}"/></strong>
+                                </td>
+                                <td colspan="12" style="border-width:3px 0 0 0;"></td>
+                            </tr>
+                            <tr class="dataRow">
+                                <th class="labelcol" style="border-width:3px 0 0 0;" colspan="2">{!$ObjectType.OpportunityLineItem.fields.KS_Cantidad_Ficha__c.Label}:</th>
+                                <td class="datacol" style="border-width:3px 0 0 0;" colspan="2">
+                                    <span>x<apex:outputText style="width:20%;" value="{!totalCantidadFicha[ficha]}"/></span>
+                                </td>
+                                <td colspan="12" style="border-width:3px 0 0 0;"></td>
+                            </tr>
+                            <tr class="dataRow">
+                                <th class="labelcol" style="border-width:3px 0 0 0;" colspan="2">{!$ObjectType.OpportunityLineItem.fields.KS_Competencia__c.Label}:</th>
+                                <td class="datacol" style="border-width:3px 0 0 0;" colspan="1">
+                                    <span><apex:outputField style="width:20%;" value="{!fichaCompetencia[ficha].KS_Competidor__c}"/></span>
+                                </td>
+                                <td colspan="13" style="border-width:3px 0 0 0;"></td>
+                            </tr>
+                            <tr class="dataRow">
+                                <th class="labelcol" style="border-width:3px 0 0 0;" colspan="2">{!$ObjectType.OpportunityLineItem.fields.KS_Comentarios__c.Label}:</th>
+                                <td class="datacol" style="border-width:3px 0 0 0;" colspan="14">
+                                    <span><apex:outputText style="width:20%;" value="{!fichaComentarios[ficha]}"/></span>
+                                </td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                    
+                </apex:pageBlock>
+                
+                <apex:pageBlock title="FICHA {!ficha}" mode="detail" rendered="{!isEdit[ficha]}">
+                    
+                    <apex:pageBlockButtons rendered="{!haveEdit&&validUser}" location="top">
+                        <apex:commandButton value="{!$Label.ks_btn_guardar}" action="{!save}"/>
+                        <apex:commandButton value="{!$Label.ks_btn_cancel}" action="{!cancelFichas}"/>
+                    </apex:pageBlockButtons>
+                    
+                    <div style="width:100%;display:inline;">
+                        <table class="list ficha{!ficha}" border="0" cellpadding="0" cellspacing="0">
+                            <thead>
+                                <tr class="headerRow">
+                                    <th class="headerRow" scope="col" colspan="1" width="7%">
+                                        <span style="text-transform: uppercase;">{!$Label.ks_btn_delete}&nbsp;</span>
+                                        <span>(<input class="borrartodos{!ficha}" type="checkbox" onclick="marcarTodos(this, 'borrar', '{!ficha}')"/>)</span>                                    
+                                    </th>
+                                    <th class="headerRow" scope="col" colspan="1" width="7%"><span style="text-transform: uppercase;">{!$Label.ks_btn_cambiar} {!$Label.Oferta_Ficha}</span></th>
+                                    <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.OpportunityLineItem.fields.KS_Material__c.Label}</span></th>
+                                    <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.OpportunityLineItem.fields.KS_Nombre__c.Label}</span></th>
+                                    <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.OpportunityLineItem.fields.KS_Referencia__c.Label}</span></th>
+                                    <th class="headerRow" scope="col" colspan="1" width="7%"><span>{!$ObjectType.OpportunityLineItem.fields.Quantity.Label}</span></th>
+                                    <th class="headerRow" scope="col" colspan="1" width="7%"><span>{!$ObjectType.OpportunityLineItem.fields.KS_Dto_adicional_2__c.Label}</span></th>
+                                    <th class="headerRow" scope="col" colspan="1" width="7%"><span>{!$ObjectType.OpportunityLineItem.fields.KS_Dto_Instalador__c.Label}</span></th>
+                                    <th class="headerRow" scope="col" colspan="1" width="7%"><span>{!$ObjectType.OpportunityLineItem.fields.KS_Dto_cliente_final__c.Label}</span></th>
+                                    <th class="headerRow" scope="col" colspan="1" width="7%">
+                                        <div>
+                                            <span>{!$ObjectType.OpportunityLineItem.fields.KS_Prescrito__c.Label}&nbsp;</span>
+                                            <span>(<input class="prescritotodos{!ficha}" type="checkbox" onclick="marcarTodos(this, 'prescrito', '{!ficha}')"/>)</span>
+                                        </div>
+                                    </th>
+                                    <th class="headerRow" scope="col" colspan="1" width="7%">
+                                        <div>
+                                            <span>{!$ObjectType.OpportunityLineItem.fields.KS_Material_sin_cargo__c.Label}&nbsp;</span>
+                                            <span>(<input class="sincargotodos{!ficha}" type="checkbox" onclick="marcarTodos(this, 'sincargo', '{!ficha}')"/>)</span>
+                                        </div>
+                                    </th>
+                                    <th class="headerRow" scope="col" colspan="1" width="7%"><span>{!$ObjectType.OpportunityLineItem.fields.KS_Destinatario__c.Label}</span></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <apex:repeat var="producto" value="{!productosOferta[ficha]}">
+                                    <tr class="dataRow">
+                                        <td class="dataCell" width="5%">
+                                            <apex:inputCheckbox value="{!isDelete[producto.ID]}" style="width:50%;"
+                                                             styleclass="borrar{!ficha}" onclick="marcarGlobal('borrar', 'borrartodos', '{!ficha}')"/>
+                                        </td>
+                                        <td class="dataCell" width="10%">
+                                            <apex:inputHidden value="{!producto.KS_Ficha__c}"/>
+                                            <apex:selectList value="{!producto.KS_Ficha__c}" size="1"><!--onchange="changeTipo(this)"-->
+                                                <apex:selectOptions value="{!fichaSelect}"/>
+                                            </apex:selectList>
+                                        </td>
+                                        <td class="dataCell" width="10%">
+                                            <strong class="clickhere" onclick="gotoID('{!producto.KS_Producto__c}');">{!producto.KS_Material__c}</strong>
+                                        </td>
+                                        <td class="dataCell" width="20%"><apex:outputField value="{!producto.KS_Nombre__c}"/></td>
+                                        <td class="dataCell" width="20%"><apex:inputField value="{!producto.KS_Referencia__c}" style="width:98%;"/></td>
+                                        <td class="dataCell" width="10%"><apex:inputField value="{!producto.KS_Cantidad__c}" style="width:50%;"/></td>
+                                        <td class="dataCell" width="1%"><apex:inputField value="{!producto.KS_Dto_adicional_2__c}" style="width:50%;" styleclass="descuento descuentoAdi2"/></td>
+                                        <td class="dataCell" width="5%"><apex:inputField value="{!producto.KS_Dto_Instalador__c}" style="width:50%;" styleclass="descuento descuentoInst"/></td>
+                                        <td class="dataCell" width="5%"><apex:inputField value="{!producto.KS_Dto_cliente_final__c}" style="width:50%;" styleclass="descuento descuentoClFn"/></td>
+                                        <td class="dataCell" width="5%">
+                                            <apex:inputField value="{!producto.KS_Prescrito__c}" style="width:50%;"
+                                                             styleclass="prescrito{!ficha}" onclick="marcarGlobal('prescrito', 'prescritotodos', '{!ficha}')"/>
+                                        </td>
+                                        <td class="dataCell" width="5%">
+                                            <apex:inputField value="{!producto.KS_Material_sin_cargo__c}" style="width:50%;"
+                                                             styleclass="sincargo{!ficha} sincargo" onchange="sinCargoCheck(this);"
+                                                             onclick="marcarGlobal('sincargo', 'sincargotodos', '{!ficha}');"/></td>
+                                        <td class="dataCell" width="5%"><apex:inputField styleclass="selectDestino" value="{!producto.KS_Destinatario__c}" onchange="sinCargo(this);" style="width:75%;"/></td>
+                                        
+                                    </tr>
+                                </apex:repeat>
+                                <script type="text/javascript">
+                                $(".prescritotodos{!ficha}").prop('checked', true);
+                                $(".prescrito{!ficha}").each(function(){
+                                    var ischecked = this.checked;
+                                    if (!ischecked) { $(".prescritotodos{!ficha}").prop('checked', false); }
+                                });
+                                $(".sincargotodos{!ficha}").prop('checked', true);
+                                $(".sincargo{!ficha}").each(function(){
+                                    var ischecked = this.checked;
+                                    if (!ischecked) { $(".sincargotodos{!ficha}").prop('checked', false); }
+                                });
+                                </script>
+                            </tbody>
+                            <tfoot>
+                                <tr class="dataRow">
+                                    <th class="labelcol" style="border-width:3px 0 0 0;" colspan="2">{!$ObjectType.OpportunityLineItem.fields.KS_Cantidad_Ficha__c.Label}:</th>
+                                    <td class="datacol" style="border-width:3px 0 0 0;" colspan="1" >
+                                        <span>x<apex:inputText style="width:20%;" maxlength="10" value="{!totalCantidadFicha[ficha]}"/></span>
+                                    </td>
+                                    <td colspan="9" style="border-width:3px 0 0 0;"></td>
+                                </tr>
+                                <tr class="dataRow">
+                                    <th class="labelcol" style="border-width:3px 0 0 0;" colspan="2">{!$ObjectType.OpportunityLineItem.fields.KS_Competencia__c.Label}:</th>
+                                    <td class="datacol" style="border-width:3px 0 0 0;" colspan="1">
+                                        <apex:inputField value="{!fichaCompetencia[ficha].KS_Competidor__c}"/>
+                                    </td>
+                                    <td colspan="9" style="border-width:3px 0 0 0;"></td>
+                                </tr>
+                                <tr class="dataRow">
+                                    <th class="labelcol" style="border-width:3px 0 0 0;" colspan="2">{!$ObjectType.OpportunityLineItem.fields.KS_Comentarios__c.Label}:</th>
+                                    <td class="datacol" style="border-width:3px 0 0 0;" colspan="10">
+                                        <span><apex:inputTextarea style="width:20%;" value="{!fichaComentarios[ficha]}" styleClass="comentarios{!ficha}"/></span>
+                                    </td>
+                                </tr>                                
+                            </tfoot>                            
+                        </table>    
+                    </div>
+
+                </apex:pageBlock>
+            </apex:repeat>
+        </apex:pageBlock>
+      
+        <apex:pageblock mode="maindetail" rendered="{!not(editOferta)}">
+            <apex:pageblocksection title="{!$Label.oferta_section_aprob}" showheader="true" columns="2" collapsible="true">
+                <apex:outputfield value="{!oferta.KS_Nivel2__c}"/>
+                <apex:outputfield value="{!oferta.KS_Nivel3__c}"/>
+                <apex:outputfield value="{!oferta.KS_Nivel4__c}"/>
+                <apex:outputfield value="{!oferta.KS_Aprobado__c}"/> 
+                <apex:outputfield value="{!oferta.KS_Resp_Jefe_de_Area__c}"/>
+                <apex:outputfield value="{!oferta.KS_Resp_Iluminacion__c}"/>
+                <apex:outputfield value="{!oferta.KS_Resp_Conectividad__c}"/>
+                <apex:outputfield value="{!oferta.KS_Resp_Sist_Control__c}"/>
+                <apex:outputfield value="{!oferta.KS_Resp_Vehiculo_Electrico__c}"/>
+                <apex:outputfield value="{!oferta.KS_Resp_resto_de_gamas__c}"/>
+                <apex:outputfield value="{!oferta.KS_Resp_negocio_iberia__c}"/> 
+                <apex:outputfield value="{!oferta.KS_Resp_Negocio_Iberia_2__c}"/> 
+                <apex:outputfield value="{!oferta.KS_Submitted_for_Approval__c}"/>                                         
+            </apex:pageblocksection>
+        </apex:pageblock>
+        
+        <apex:pageblock mode="maindetail" rendered="{!editOferta}">
+            <apex:pageblocksection title="{!$Label.oferta_section_aprob}" showheader="true" columns="2" collapsible="true">
+                <apex:inputfield value="{!oferta.KS_Nivel2__c}"/>
+                <apex:inputfield value="{!oferta.KS_Nivel3__c}"/>
+                <apex:inputfield value="{!oferta.KS_Nivel4__c}"/>
+                <apex:pageBlockSectionItem ></apex:pageBlockSectionItem> 
+                <apex:inputfield value="{!oferta.KS_Resp_Jefe_de_Area__c}"/>
+                <apex:inputfield value="{!oferta.KS_Resp_Iluminacion__c}"/>
+                <apex:inputfield value="{!oferta.KS_Resp_Conectividad__c}"/>
+                <apex:inputfield value="{!oferta.KS_Resp_Sist_Control__c}"/>
+                <apex:inputfield value="{!oferta.KS_Resp_Vehiculo_Electrico__c}"/>
+                <apex:inputfield value="{!oferta.KS_Resp_resto_de_gamas__c}"/>
+                <apex:inputfield value="{!oferta.KS_Resp_negocio_iberia__c}"/>
+                <apex:inputfield value="{!oferta.KS_Resp_Negocio_Iberia_2__c}"/>
+                <apex:inputfield value="{!oferta.KS_Submitted_for_Approval__c}"/> 
+            </apex:pageblocksection>      
+        </apex:pageblock>        
+        
+    </apex:form>
+    
+
+    <div class="relatedList_aprobaciones">
+        <apex:relatedList list="ProcessSteps"/>
+    </div>
+    <!--<apex:facet name="header">Historial de aprobaciones</apex:facet>
+    </apex:relatedList> -->
+    <div class="relatedList_destinatarios">
+        <apex:relatedList list="Destinatarios__r"/>    
+    </div>
+    <apex:relatedList list="Condiciones_de_Obra__r"/>
+    <apex:relatedList list="Proyectos__r"/>
+    <apex:relatedList list="OpenActivities"/>
+    <apex:relatedList list="ActivityHistories"/>
+    <div class="relatedList_attach">
+        <apex:relatedList list="AttachedContentDocuments"/>
+    </div>
+    <!--<apex:relatedList subject="{!Opportunity}" list="CombinedAttachments"/>-->
+    <apex:relatedList list="AttachedContentNotes"/>
+    <apex:relatedList list="OpportunityHistories"/>
+    
+    
+    <script type="text/javascript">
+    function newOfertaPendiente(where) {
+        //$(where).html('HERE');
+        var inputPendientes = $('<input/>').attr({ type: 'button', name:'relatedList_destinatarios_btn', value:'{!$Label.ks_btn_generar} PDF', class:'btn'});
+        $(inputPendientes).click(function(){
+            window.open('/apex/KS_Oferta_Enviada?oferta={!oferta.Id}');
+        });
+        $(where).append(inputPendientes);
+    }
+    var destinatarioHeader = 
+        $('.relatedList_destinatarios').children('.bRelatedList').children('.listRelatedObject')
+        .children('.bPageBlock').children('.pbHeader').children('table')
+        .children('tbody').children('tr').children('.pbButton');
+    if ({!approval}||{!oferta.KS_Suma_Dto_Ad2__c==0}) {
+        newOfertaPendiente(destinatarioHeader);
+    }
+    
+    var aprobacionesHeader = 
+        $('.relatedList_aprobaciones').children('.bRelatedList').children('.relatedProcessHistory')
+        .children('.bPageBlock').children('.pbHeader').children('table')
+        .children('tbody').children('tr').children('.pbButton').children('input');
+    $(aprobacionesHeader).css('visibility', 'hidden');
+    
+    var attachmentIcon = 
+        $('.relatedList_attach').children('.bRelatedList').children('.listRelatedObject')
+        .children('.bPageBlock').children('.pbHeader').children('table')
+        .children('tbody').children('tr').children('.pbTitle').children('.relatedListIcon');
+    $(attachmentIcon).parent().children('h3').css('margin', '0 0 0 0');
+    $(attachmentIcon).remove();
+    </script>
+    
+    <script type="text/javascript">
+    function marcarTodos(checkput, className, ficha) {
+        var clase = '.'+className+ficha;
+        var ischecked = checkput.checked;
+        $(clase).each(function(){
+            if (ischecked != this.checked) {
+                $(this).trigger( "click" );
+            }
+        });
+    }
+    function marcarGlobal(singleCheckN, globalCheckN, ficha) {
+        var claseS = '.'+singleCheckN+ficha;
+        var claseG = '.'+globalCheckN+ficha;
+        $(claseG).prop('checked', true);
+        $(claseS).each(function(){
+            var ischecked = this.checked;
+            if (!ischecked) { $(claseG).prop('checked', false); }
+        });
+    } 
+    function sinCargoCheck(checkput) {
+        
+        var isChecked = checkput.checked;
+        //alert($(checkput).parent().parent().find(".descuento"));
+        if (!isChecked) {
+            $(checkput).parent().parent().find(".descuento").each(function(){
+                $(this).show();
+                $(this).prop('readonly', false);      
+                $(this).val('');
+            });
+        }
+        
+    }
+    function sinCargo(select) {
+        
+        var selected = $(select).find(":selected").html();
+        var ischecked = selected!='--Ninguno--' && selected!='' && selected != null;
+        
+        var dist = false; var distInput;
+        var inst = false; var instInput;
+        var clfn = false; var clfnInput;
+        
+        //alert(ischecked);
+        $(select).parent().parent().parent().find(".descuento").each(function(){
+            
+            if ($(this).hasClass('descuentoAdi2')) {
+                distInput = this;
+            } else if ($(this).hasClass('descuentoInst')) {
+                instInput = this;
+            } else if ($(this).hasClass('descuentoClFn')) {
+                clfnInput = this;
+            }
+            
+            var hasClass = false;
+            //alert(selected + ' =?= ' + $(this).attr('class'));
+            if ( selected == 'Distribuidor' && $(this).hasClass('descuentoAdi2') ) { 
+                hasClass = true; dist = true;
+            }
+            if ( selected == 'Instalador' && $(this).hasClass('descuentoInst') ) { 
+                hasClass = true; inst = true;
+            }
+            if ( selected == 'Cliente final' && $(this).hasClass('descuentoClFn') ) { 
+                hasClass = true; clfn = true;
+            }
+            //alert( (ischecked&&hasClass) || !ischecked );
+            /*$(this).toggle( (ischecked&&hasClass) || !ischecked);
+            $(this).prop('readonly', ischecked);
+            
+            if (ischecked&&hasClass) {
+                $(this).val('100');
+            } else if (ischecked) {
+                $(this).val('');
+            }*/
+        });
+        
+        if (dist&&ischecked) {
+            
+            $(distInput).val('100'); $(distInput).prop('readonly', true);
+            //$(instInput).val(''); $(instInput).prop('readonly', false);
+            //$(clfnInput).val(''); $(clfnInput).prop('readonly', false);
+            if ($(instInput).prop('readonly') == true) {
+                $(instInput).val(''); $(instInput).prop('readonly', false);
+            }
+            if ($(clfnInput).prop('readonly') == true) {
+                $(clfnInput).val(''); $(clfnInput).prop('readonly', false);
+            }            
+            
+        } else if (inst&&ischecked) {
+            
+            $(distInput).val('100'); $(distInput).prop('readonly', true);
+            $(instInput).val('100'); $(instInput).prop('readonly', true);
+            //$(clfnInput).val(''); $(clfnInput).prop('readonly', false);
+            if ($(clfnInput).prop('readonly') == true) {
+                $(clfnInput).val(''); $(clfnInput).prop('readonly', false);
+            }            
+            
+        } else if (clfn&&ischecked) {
+            
+            $(distInput).val('100'); $(distInput).prop('readonly', true);
+            $(instInput).val('100'); $(instInput).prop('readonly', true);
+            $(clfnInput).val('100'); $(clfnInput).prop('readonly', true);
+            
+        } else if (!ischecked || (!dist&&!inst&&!clfn) ) {
+            
+            if ($(distInput).prop('readonly') == true) {
+                $(distInput).val(''); $(distInput).prop('readonly', false);
+            }
+            if ($(instInput).prop('readonly') == true) {
+                $(instInput).val(''); $(instInput).prop('readonly', false);
+            }
+            if ($(clfnInput).prop('readonly') == true) {
+                $(clfnInput).val(''); $(clfnInput).prop('readonly', false);
+            }
+        }
+    }
+    if ({!redirectToAdd}) {
+        var url = "/apex/KS_ProductosOfertaAdd?id={!oferta.Id}"
+        if ({!addToFicha}) { url+= "&ficha={!fichaToEdit}"; }
+        location.href = url;
+    } else {
+        $(".formulario").show();
+    }
+    if ({!haveEdit}) { $(".comentarios{!fichaToEdit}")[0].focus(); }
+    function gotoID(id) {
+        window.open('/'+id,'_blank');
+    }
+    selectFicha(""); // reset de ficha seleccionada, lo hará al acabar de cargar la VF
+
+    $(".selectDestino").each(function(){
+        sinCargo(this);
+    });
+    function setFocusOnLoad() {}
+    //$($(".opportunityLineItemBlock").find(".pbHeader")[0]).hide();
+    </script>
+        
+</apex:page>

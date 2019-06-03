@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Homologación</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Homologaciones</value>
+    </caseValues>
+    <fields>
+        <label><!-- Cliente --></label>
+        <name>KS_Cliente__c</name>
+        <relationshipLabel><!-- Homologaciones --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Fecha que indentifica la tarifa que se usará para el cálculo de la tarifa --></help>
+        <label><!-- Fecha cálculo tarifa --></label>
+        <name>KS_Fecha_calculo_tarifa__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha de caducidad --></label>
+        <name>KS_Fecha_de_caducidad__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nombre de la Homologación --></label>
+        <name>KS_Nombre_de_la_homologacion__c</name>
+    </fields>
+    <fields>
+        <label><!-- PVP Tarifa --></label>
+        <name>KS_PVP_Tarifa__c</name>
+    </fields>
+    <fields>
+        <label><!-- PVP manual --></label>
+        <name>KS_PVP_manual__c</name>
+    </fields>
+    <fields>
+        <label><!-- Producto --></label>
+        <name>KS_Producto__c</name>
+        <relationshipLabel><!-- Homologaciones --></relationshipLabel>
+    </fields>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Formato Homologación</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- La fecha de tarifa debe de ser igual o inferior al día de hoy --></errorMessage>
+        <name>Control_Fecha_tarifa</name>
+    </validationRules>
+</CustomObjectTranslation>

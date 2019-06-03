@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Contact$Name</field>
+    </columns>
+    <columns>
+        <field>Contact$Email</field>
+    </columns>
+    <description>Shows all Contacts that are not on a subscriber list.</description>
+    <filter>
+        <criteriaItems>
+            <column>Contact.wbsendit__Subscriptions__r$Name</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value></value>
+        </criteriaItems>
+        <language>es</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Contacts not on a Subscriber List</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>wbsendit__Contacts_Subscriber_List_Members__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>false</showGrandTotal>
+    <showSubTotals>false</showSubTotals>
+    <sortColumn>Contact$Name</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>Contact$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

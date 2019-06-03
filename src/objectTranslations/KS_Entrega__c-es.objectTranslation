@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Entrega</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Entregas</value>
+    </caseValues>
+    <fields>
+        <label><!-- Cantidad total de bultos de entrega --></label>
+        <name>KS_Cantidad_total_de_bultos_de_entrega__c</name>
+    </fields>
+    <fields>
+        <label><!-- Clase de entrega --></label>
+        <name>KS_Clase_de_entrega__c</name>
+    </fields>
+    <fields>
+        <label><!-- Condición de expedición --></label>
+        <name>KS_Condicion_de_expedicion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Destinatario --></label>
+        <name>KS_Destinatario__c</name>
+    </fields>
+    <fields>
+        <label><!-- ¿Entrega completa por pedido? --></label>
+        <name>KS_Entrega_completa_por_pedido__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estado --></label>
+        <name>KS_Estado__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha de creación del registro --></label>
+        <name>KS_Fecha_de_creacion_del_registro__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha de entrega --></label>
+        <name>KS_Fecha_de_entrega__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha movimiento de mercancías real --></label>
+        <name>KS_Fecha_movimiento_de_mercancias_real__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha prevista para movimiento --></label>
+        <name>KS_Fecha_prevista_para_movimiento__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hora registrada --></label>
+        <name>KS_Hora_registrada__c</name>
+    </fields>
+    <fields>
+        <label><!-- Incoterms parte 1 --></label>
+        <name>KS_Incoterms_parte_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Incoterms parte 2 --></label>
+        <name>KS_Incoterms_parte_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Migration Id --></label>
+        <name>KS_Migration_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Número Entrega --></label>
+        <name>KS_Numero_Entrega__c</name>
+    </fields>
+    <fields>
+        <label><!-- Número Personal --></label>
+        <name>KS_Numero_Personal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Organización de ventas --></label>
+        <name>KS_Organizacion_de_ventas__c</name>
+    </fields>
+    <fields>
+        <label><!-- Peso neto --></label>
+        <name>KS_Peso_neto__c</name>
+    </fields>
+    <fields>
+        <label><!-- Peso total --></label>
+        <name>KS_Peso_total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Prioridad de entrega --></label>
+        <name>KS_Prioridad_de_entrega__c</name>
+    </fields>
+    <fields>
+        <label><!-- Solicitante --></label>
+        <name>KS_Solicitante__c</name>
+        <relationshipLabel><!-- Entregas --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Transportista --></label>
+        <name>KS_Transportista__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unidad de peso --></label>
+        <name>KS_Unidad_de_peso__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unidad de volumen --></label>
+        <name>KS_Unidad_de_volumen__c</name>
+    </fields>
+    <fields>
+        <label><!-- Volumen --></label>
+        <name>KS_Volumen__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Formato Entrega</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

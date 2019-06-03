@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <name>Area1021-AreaNoresteFL31</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.KS_Organizaciones_de_cuentas__c</field>
+        <operation>contains</operation>
+        <value>FL31-10-70-1021</value>
+    </ruleItems>
+</Territory2Rule>

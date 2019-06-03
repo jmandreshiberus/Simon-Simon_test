@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Promotor</fullName>
+        <default>false</default>
+        <label>Promotor</label>
+    </customValue>
+    <customValue>
+        <fullName>Ingeniería</fullName>
+        <default>false</default>
+        <label>Ingeniería</label>
+    </customValue>
+    <customValue>
+        <fullName>Arquitectura</fullName>
+        <default>false</default>
+        <label>Arquitectura</label>
+    </customValue>
+    <customValue>
+        <fullName>Interiorista</fullName>
+        <default>false</default>
+        <label>Interiorista</label>
+    </customValue>
+    <customValue>
+        <fullName>Constructor</fullName>
+        <default>false</default>
+        <label>Constructor</label>
+    </customValue>
+    <customValue>
+        <fullName>Cliente Final</fullName>
+        <default>false</default>
+        <label>Cliente Final</label>
+    </customValue>
+    <customValue>
+        <fullName>Instalador</fullName>
+        <default>false</default>
+        <label>Instalador</label>
+    </customValue>
+    <customValue>
+        <fullName>Otros</fullName>
+        <default>false</default>
+        <label>Otros</label>
+    </customValue>
+    <description>Uso --&gt; Usado para person accounts</description>
+    <masterLabel>Tipo de profesional</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

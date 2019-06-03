@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Promoción de novedades</fullName>
+        <default>true</default>
+        <label>Promoción de novedades</label>
+    </customValue>
+    <customValue>
+        <fullName>Negociación / Pedidos</fullName>
+        <default>false</default>
+        <label>Negociación / Pedidos</label>
+    </customValue>
+    <customValue>
+        <fullName>Prospección Comercial</fullName>
+        <default>false</default>
+        <label>Prospección Comercial</label>
+    </customValue>
+    <customValue>
+        <fullName>Seguimiento Oportunidad</fullName>
+        <default>false</default>
+        <label>Seguimiento Oportunidad</label>
+    </customValue>
+    <customValue>
+        <fullName>Visita de Obra</fullName>
+        <default>false</default>
+        <label>Visita de Obra</label>
+    </customValue>
+    <customValue>
+        <fullName>Incidencias</fullName>
+        <default>false</default>
+        <label>Incidencias</label>
+    </customValue>
+    <customValue>
+        <fullName>Reunión / Evento interno</fullName>
+        <default>false</default>
+        <label>Reunión / Evento interno</label>
+    </customValue>
+    <customValue>
+        <fullName>Evento Externo</fullName>
+        <default>false</default>
+        <label>Evento Externo</label>
+    </customValue>
+    <customValue>
+        <fullName>Llamada Telefónica</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Llamada Telefónica</label>
+    </customValue>
+    <customValue>
+        <fullName>Curso de producto</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Curso de producto</label>
+    </customValue>
+    <customValue>
+        <fullName>Día Promo.  Distib.</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Día Promo.  Distib.</label>
+    </customValue>
+    <customValue>
+        <fullName>Reunión Gerencia</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Reunión Gerencia</label>
+    </customValue>
+    <customValue>
+        <fullName>Descuento Oferta</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Descuento Oferta</label>
+    </customValue>
+    <customValue>
+        <fullName>Otros</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Otros</label>
+    </customValue>
+    <customValue>
+        <fullName>Oportunidad negocio</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Oportunidad negocio</label>
+    </customValue>
+    <customValue>
+        <fullName>Ejecución Pedidos</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Ejecución Pedidos</label>
+    </customValue>
+    <customValue>
+        <fullName>ConstruDatos</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ConstruDatos</label>
+    </customValue>
+    <customValue>
+        <fullName>Animación PV</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Animación PV</label>
+    </customValue>
+    <customValue>
+        <fullName>e-mail</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>e-mail</label>
+    </customValue>
+    <customValue>
+        <fullName>Entrega Factura</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Entrega Factura</label>
+    </customValue>
+    <customValue>
+        <fullName>Gestión Morosidad</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Gestión Morosidad</label>
+    </customValue>
+    <customValue>
+        <fullName>Palco  F.C.BARCELONA</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Palco  F.C.BARCELONA</label>
+    </customValue>
+    <customValue>
+        <fullName>Piso Muestra</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Piso Muestra</label>
+    </customValue>
+    <customValue>
+        <fullName>Prospect. ILUM. INTE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Prospect. ILUM. INTE</label>
+    </customValue>
+    <customValue>
+        <fullName>Showroom</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Showroom</label>
+    </customValue>
+    <customValue>
+        <fullName>Soporte MKT</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Soporte MKT</label>
+    </customValue>
+    <customValue>
+        <fullName>MQL/SQL</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MQL/SQL</label>
+    </customValue>
+    <customValue>
+        <fullName>Devolucio</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Devolucio</label>
+    </customValue>
+    <customValue>
+        <fullName>Presentacion de prod</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Presentacion de prod</label>
+    </customValue>
+    <customValue>
+        <fullName>Entrega muestras</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Entrega muestras</label>
+    </customValue>
+    <customValue>
+        <fullName>Pedidos</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Pedidos</label>
+    </customValue>
+    <customValue>
+        <fullName>Promoción</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Promoción</label>
+    </customValue>
+    <customValue>
+        <fullName>Cortesía</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Cortesía</label>
+    </customValue>
+    <customValue>
+        <fullName>Negociación</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Negociación</label>
+    </customValue>
+    <customValue>
+        <fullName>Evento Social</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Evento Social</label>
+    </customValue>
+    <customValue>
+        <fullName>Proyecto</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Proyecto</label>
+    </customValue>
+    <description>En Uso --&gt; En el objeto de Visitas (citas)</description>
+    <masterLabel>Tipo de visita</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

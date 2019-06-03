@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>1</masterLabel>
+        <translation><!-- 1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C001</masterLabel>
+        <translation>CONNECT</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I001</masterLabel>
+        <translation>ILUMINACIÓN INTERIOR</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S001</masterLabel>
+        <translation>SIMON</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

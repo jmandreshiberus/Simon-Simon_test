@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>CUST_ID</field>
+    </columns>
+    <columns>
+        <field>HubSpot_Inc__HubSpot_Intelligence__c.HubSpot_Inc__Portal_ID__c</field>
+    </columns>
+    <columns>
+        <field>HubSpot_Inc__HubSpot_Intelligence__c.HubSpot_Inc__Lead__c</field>
+    </columns>
+    <columns>
+        <field>HubSpot_Inc__HubSpot_Intelligence__c.HubSpot_Inc__Conversion_Events__c</field>
+    </columns>
+    <currency>EUR</currency>
+    <description>18-01-17</description>
+    <format>Tabular</format>
+    <name>Hubspot report</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$HubSpot_Inc__HubSpot_Intelligence__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>HubSpot_Inc__HubSpot_Intelligence__c.HubSpot_Inc__First_Conversion_Date__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

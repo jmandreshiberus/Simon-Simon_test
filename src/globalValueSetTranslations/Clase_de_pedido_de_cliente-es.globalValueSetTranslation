@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>DIR</masterLabel>
+        <translation><!-- DIR --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ECOM</masterLabel>
+        <translation>e-Commerce</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>EDI</masterLabel>
+        <translation><!-- EDI --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ESKE</masterLabel>
+        <translation><!-- ESKE --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FAXC</masterLabel>
+        <translation>Fax Cliente</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FAXV</masterLabel>
+        <translation>Fax Vendedor</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HOTE</masterLabel>
+        <translation><!-- HOTE --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>INT</masterLabel>
+        <translation>EDI-INTRAGRUP</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MAIL</masterLabel>
+        <translation>Mail Cliente</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MAIV</masterLabel>
+        <translation>Mail Vendedor</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>OBRA</masterLabel>
+        <translation><!-- OBRA --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PTL</masterLabel>
+        <translation><!-- PTL --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>REC</masterLabel>
+        <translation>Recambios</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>REPO</masterLabel>
+        <translation><!-- REPO --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TELC</masterLabel>
+        <translation>Teléfono Cliente</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TELV</masterLabel>
+        <translation>Teléfono Vendedor</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VEN</masterLabel>
+        <translation><!-- VEN --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZCAR</masterLabel>
+        <translation>Cargas Pedidos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZINT</masterLabel>
+        <translation>Intercompañía</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

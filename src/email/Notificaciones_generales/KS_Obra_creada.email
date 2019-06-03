@@ -1,0 +1,6 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[A su atención,<br><br>El usuario: {!KS_Obra_Ubicacion__c.CreatedBy} ha creado la obra: {!KS_Obra_Ubicacion__c.KS_Obra__c}, cuya ubicación corresponde a su territorio:<br><br>Area: {!KS_Obra_Ubicacion__c.KS_Area__c}<br>Delegación: {!KS_Obra_Ubicacion__c.KS_Delegacion__c}<br>Zona: {!KS_Obra_Ubicacion__c.KS_Zona__c}<br><br>Puede ver la obra en cuestión en el siguiente enlace: <br><br><a href="https://eu6.salesforce.com/{!KS_Obra_Ubicacion__c.KS_ObraId__c}">https://eu6.salesforce.com/{!KS_Obra_Ubicacion__c.KS_ObraId__c}</a><br><br>Atentamente, <br><br>]]></td>
+</tr>
+</table>

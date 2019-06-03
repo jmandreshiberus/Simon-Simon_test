@@ -1,0 +1,151 @@
+<apex:page standardController="Account" extensions="KS_MarcasCliente_Controller" docType="html-5.0" id="acc_page" standardStylesheets="true">
+
+    <apex:includeScript value="{!$Resource.KS_jquery1}"/>
+    <style type="text/css">
+        .clickhere {
+        cursor:pointer;
+        }
+        .clickhere:hover {
+        color:#015BA7;
+        }
+    </style>    
+    <apex:form id="acc_form" styleClass="formulario">
+        
+        <apex:pageBlock mode="detail" title="{!$Label.ks_marcascomerciales}" rendered="{!!haveMarcas}">
+            <apex:facet name="header">
+                <apex:panelGrid columns="2">
+                    <div class="pbTitle" style="padding-left:5px;padding-top:5px;">
+                        <img src="/img/icon/computer24.png" class="relatedListIcon" />
+                        <h3 class="mainTitle">&nbsp;{!$Label.ks_marcascomerciales}</h3>
+                    </div>
+                </apex:panelGrid>
+            </apex:facet>
+            <table class="list" border="0" cellspacing="0" cellpadding="0">
+                <tbody>
+                    <tr class="headerRow">
+                        <th scope="col" class="noRowsHeader" style="font-weight:normal;font-size: 1em;">{!$Label.ks_sinregistros}</th>
+                    </tr>
+                </tbody>
+            </table>
+        </apex:pageBlock>
+        
+        <apex:pageBlock mode="detail" title="{!$Label.ks_marcascomerciales}" rendered="{!haveMarcas}">
+        
+            <table class="list" border="0" cellpadding="0" cellspacing="0" width="100%">
+            
+                <thead>
+                    <tr class="headerRow">
+                        <!--<th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.KS_Organizacion_Cliente__c.fields.Name.Label}</span></th>-->
+                        <th class="headerRow" scope="col" colspan="1"></th>
+                        <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.KS_Organizacion_Cliente__c.fields.KS_Organizacion_de_ventas__c.Label}</span></th>
+                        <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.KS_Organizacion_Cliente__c.fields.KS_Lista_de_precios__c.Label}</span></th>
+                        <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.KS_Organizacion_Cliente__c.fields.KS_Canal_de_distribucion__c.Label}</span></th>
+                        <!--<th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.KS_Organizacion_Cliente__c.fields.KS_Sector_Distribuidor__c.Label}</span></th>-->
+                        <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.KS_Organizacion_Cliente__c.fields.KS_Area__c.Label}</span></th>
+                        <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.KS_Organizacion_Cliente__c.fields.KS_Delegacion__c.Label}</span></th>
+                        <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.KS_Organizacion_Cliente__c.fields.KS_Zona__c.Label}</span></th>
+                        <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.KS_Organizacion_Cliente__c.fields.KS_Scoring_IF__c.Label}</span></th>
+                        <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.KS_Organizacion_Cliente__c.fields.KS_Scoring_Negocio__c.Label}</span></th>
+                        <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.KS_Organizacion_Cliente__c.fields.KS_Scoring_Actividad__c.Label}</span></th>
+                        <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.KS_Organizacion_Cliente__c.fields.KS_Coordinador__c.Label}</span></th>
+                        <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.KS_Organizacion_Cliente__c.fields.KS_Recurrencia__c.Label}</span></th>
+                        <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.KS_Organizacion_Cliente__c.fields.KS_Estado_Avisos_autom_ticos__c.Label}</span></th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <apex:repeat var="marca" value="{!marcas}" rendered="{!haveMarcas}">
+                        <tr class="dataRow">
+                            <!--<td class="dataCell" width="12%"><apex:outputField value="{!marca.Name}"/></td>-->
+                            <td class="dataCell lookUpColumna" width="3%">
+                                <img class="clickhere lookupIcon" onclick="gotoID('{!marca.ID}');" style="border-style: none;"/>&nbsp;
+                                <apex:outputField value="{!marca.Name}" rendered="{!isAdmin}"/>
+                            </td>
+                            <td class="dataCell" width="8%"><apex:outputField value="{!marca.KS_Organizacion_de_ventas__c}"/></td>
+                            <td class="dataCell" width="8%"><apex:outputField value="{!marca.KS_Lista_de_precios__c}"/></td>
+                            <td class="dataCell" width="8%"><apex:outputField value="{!marca.KS_Canal_de_distribucion__c}"/></td>
+                            <!--<td class="dataCell" width="8%"><apex:outputField value="{!marca.KS_Sector_Distribuidor__c}"/></td>-->
+                            <td class="dataCell" width="8%"><apex:outputField value="{!marca.KS_Area__c}"/></td>
+                            <td class="dataCell" width="8%"><apex:outputField value="{!marca.KS_Delegacion__c}"/></td>
+                            <td class="dataCell" width="8%"><apex:outputField value="{!marca.KS_Zona__c}"/></td>
+                            <td class="dataCell" width="8%"><apex:outputField value="{!marca.KS_Scoring_IF__c}"/></td>
+                            <td class="dataCell" width="8%"><apex:outputField value="{!marca.KS_Scoring_Negocio__c}"/></td>
+                            <td class="dataCell" width="8%"><apex:outputField value="{!marca.KS_Scoring_Actividad__c}"/></td>
+                            <td class="dataCell" width="9%"><apex:outputField value="{!marca.KS_Coordinador__c}"/></td>
+                            <td class="dataCell" width="7%"><apex:outputField value="{!marca.KS_Recurrencia__c}"/></td>
+                            <td class="dataCell" width="7%"><apex:outputField value="{!marca.KS_Estado_Avisos_autom_ticos__c}"/></td>
+                        </tr>
+                    </apex:repeat>
+                </tbody>
+                
+            </table>        
+        </apex:pageBlock>
+        
+        <apex:pageBlock mode="detail" rendered="{!haveCondiciones}" title="{!$ObjectType.KS_Condicion_Comercial__c.Label}">
+        
+            <table class="list" border="0" cellpadding="0" cellspacing="0">
+            
+                <thead>
+                    <tr class="headerRow">
+                        <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.KS_Condicion_Comercial__c.fields.KS_Condicion__c.Label}</span></th>
+                        <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.KS_Condicion_Comercial__c.fields.KS_Organizacion_Ventas__c.Label}</span></th>
+                        <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.KS_Condicion_Comercial__c.fields.KS_Canal__c.Label}</span></th>
+                        <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.KS_Condicion_Comercial__c.fields.KS_Sector__c.Label}</span></th>
+                        <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.KS_Condicion_Comercial__c.fields.KS_Tarifa__c.Label}</span></th>
+                        <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.KS_Condicion_Comercial__c.fields.KS_Familia__c.Label}</span></th>
+                        <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.KS_Condicion_Comercial__c.fields.KS_Serie_single__c.Label}</span></th>
+                        <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.KS_Condicion_Comercial__c.fields.KS_Subserie__c.Label}</span></th>
+                        <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.KS_Condicion_Comercial__c.fields.KS_Importe__c.Label}</span></th>
+                        <th class="headerRow" scope="col" colspan="1"><span>{!$ObjectType.KS_Condicion_Comercial__c.fields.KS_Porcentaje__c.Label}</span></th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <apex:repeat var="cc" value="{!condiciones}">
+                        <tr class="dataRow">
+                            <td class="dataCell" width="8%"><apex:outputText value="{!cc.condicion}"/></td>
+                            <td class="dataCell" width="8%"><apex:outputText value="{!cc.orgVentas}"/></td>
+                            <td class="dataCell" width="8%"><apex:outputText value="{!cc.canal}"/></td>
+                            <td class="dataCell" width="8%"><apex:outputText value="{!cc.sector}"/></td>
+                            <td class="dataCell" width="8%"><apex:outputText value="{!cc.tarifa}"/></td>
+                            <td class="dataCell" width="8%"><apex:outputText value="{!cc.familia}"/></td>
+                            <td class="dataCell" width="8%"><apex:outputText value="{!cc.serie}"/></td>
+                            <td class="dataCell" width="8%"><apex:outputText value="{!cc.subserie}"/></td>
+                            <td class="dataCell" width="8%"><apex:outputText value="{!cc.importe}"/></td>
+                            <td class="dataCell" width="8%"><apex:outputText value="{!cc.porcentaje}"/></td>
+                        </tr>
+                    </apex:repeat>
+                </tbody>
+                
+            </table>
+        
+        </apex:pageBlock>        
+        
+    </apex:form> 
+    
+    <script type="text/javascript">
+    function gotoID(id) {
+        window.open('/'+id,'_blank');
+    }   
+    
+    $('.formulario').each(function() { // Intento de seleccionar una caja superior que permita ampliar el width, se corta en el #document
+        //alert($(this).html());
+        //alert('hola');
+        $(this).css("width", "100%"); // form
+        $(this).parent().css("width", "100%"); // body
+        $(this).parent().parent().css("width", "100%"); // html
+        // $(this).parent().parent().parent().css("width", "100%"); // #document
+        $(this).parent().parent().parent().parent().css("width", "100%"); // iframe
+        $(this).parent().parent().parent().parent().parent().css("width", "100%"); // td
+        //alert( $( "iframe[title='KS_MarcasCliente']" ).prop("nodeName") ); < tampoco funciona
+    });
+    
+    if ({!isAdmin}) {
+        
+        $('.lookUpColumna').each(function() {
+            
+            $(this).css("width", "7%");
+        });
+    }
+    </script>
+</apex:page>

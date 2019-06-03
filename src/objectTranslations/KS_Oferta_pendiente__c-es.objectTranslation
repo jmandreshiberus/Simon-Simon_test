@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Registro de ofertas enviadas</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Registros de ofertas enviadas</value>
+    </caseValues>
+    <fields>
+        <label><!-- Nombre Cliente --></label>
+        <name>KS_Cliente_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contacto Name --></label>
+        <name>KS_Contacto_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contacto --></label>
+        <name>KS_Contacto__c</name>
+        <relationshipLabel><!-- Registros de ofertas enviadas --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Creador Name --></label>
+        <name>KS_Creador_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cuenta Dirección --></label>
+        <name>KS_Cuenta_Direccion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cuenta --></label>
+        <name>KS_Cuenta__c</name>
+        <relationshipLabel><!-- Registros de ofertas enviadas --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Imprimir detalles --></label>
+        <name>KS_Detalle__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha de impresión --></label>
+        <name>KS_Fecha_de_impresion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Migration Id --></label>
+        <name>KS_Migration_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Obra Name --></label>
+        <name>KS_Obra_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Obra --></label>
+        <name>KS_Obra__c</name>
+        <relationshipLabel><!-- Registros de ofertas enviadas --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Oferta --></label>
+        <name>KS_Oferta__c</name>
+        <relationshipLabel><!-- Registros de ofertas enviadas --></relationshipLabel>
+    </fields>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Formato Destinatario</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Código</nameFieldLabel>
+    <webLinks>
+        <label><!-- Generar_PDF --></label>
+        <name>Generar_PDF</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>CFR</masterLabel>
+        <translation>Custos e frete</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CIF</masterLabel>
+        <translation>Custo, seguro &amp; frete</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CIP</masterLabel>
+        <translation>Seguro com frete pago</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CPT</masterLabel>
+        <translation>Frete pago</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DAF</masterLabel>
+        <translation>Entregue na fronteira- NO USAR</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DAP</masterLabel>
+        <translation>Entrega no cais(direitos pag.)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DAT</masterLabel>
+        <translation>Entregue sem desembaraço alf.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DDP</masterLabel>
+        <translation>Entregue desalfandegado</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DDU</masterLabel>
+        <translation>Entr sem desemb alf.- NO USAR</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DEQ</masterLabel>
+        <translation>Ent no cais(dir pag.)- NO USAR</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DES</masterLabel>
+        <translation>Entregue no navio- NO USAR</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>EXW</masterLabel>
+        <translation>Na fábrica</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FAS</masterLabel>
+        <translation>Posto ao lado do navio</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FCA</masterLabel>
+        <translation>Transportador livre</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FH</masterLabel>
+        <translation>Franco domicílio- NO USAR</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FOB</masterLabel>
+        <translation><!-- FOB --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UN</masterLabel>
+        <translation>Porte/frete a pagar</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZEC</masterLabel>
+        <translation>Na fábrica China</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZEE</masterLabel>
+        <translation>Na fábrica Europa</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZEI</masterLabel>
+        <translation>Na fábrica Índia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZFC</masterLabel>
+        <translation><!-- ZFC --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZFE</masterLabel>
+        <translation><!-- ZFE --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZFG</masterLabel>
+        <translation>FOB - Franco a bordo Egito</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZFI</masterLabel>
+        <translation>FOB - Franco a bordo Índia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZFM</masterLabel>
+        <translation>FOB - Franco a bordo Marrocos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZFU</masterLabel>
+        <translation>FOB - Franco a bordo EUA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZPC</masterLabel>
+        <translation>Frete pago pelo Cliente</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZPD</masterLabel>
+        <translation>Frete Devido</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZPP</masterLabel>
+        <translation>Frete pago</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZZ</masterLabel>
+        <translation><!-- ZZZ --></translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

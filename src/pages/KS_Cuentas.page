@@ -1,0 +1,148 @@
+<apex:page standardController="Account" extensions="KS_Cuentas_Controller" docType="html-5.0" id="acc_page" standardStylesheets="true">
+    
+    <apex:includeScript value="{!$Resource.KS_jquery1}"/>
+    <apex:stylesheet value="{!URLFOR($Resource.bootstrapSF1, 'css/bootstrap.min.css')}"/>
+    <apex:stylesheet value="{!URLFOR($Resource.bootstrapSF1, 'css/bootstrap-namespaced.min.css')}"/>
+    <apex:stylesheet value="{!$Resource.bootstrapSF1_custom}"/>
+    
+    <apex:form id="acc_form" styleClass="formulario">
+        
+        <style type="text/css">
+            .clickhere {
+                cursor:pointer;
+            }
+            .clickhere:hover {
+                color:#015BA7;
+            }
+            body {
+            	font-size: 120%;
+            }
+        </style>
+        
+        <div class="container-fluid kaizen-container">
+            
+            <br/>
+            <div class="row form-group" style="width:100%;">
+                <div class="col-md-1 col-xs-1 col-sm-1"></div>
+                <div class="col-md-3 col-xs-3 col-sm-3">
+                    <label for="nameIP">{!$ObjectType.Account.fields.Name.Label}</label>
+                    &nbsp;<apex:inputText value="{!filtro.name}" id="nameIP"/>
+                </div>
+                <div class="col-md-8 col-xs-8 col-sm-8"></div>
+            </div>
+            <div class="row form-group" style="width:100%;">
+                <div class="col-md-1 col-xs-1 col-sm-1"></div>
+                <div class="col-md-3 col-xs-3 col-sm-3">
+                    <label for="idsapIP">{!$ObjectType.Account.fields.KS_Id_SAP__c.Label}</label>
+                    &nbsp;<apex:inputText value="{!filtro.idsap}" id="idsapIP"/>
+                </div>
+                <div class="col-md-8 col-xs-8 col-sm-8"></div>
+            </div>
+            <div class="row form-group" style="width:100%;">
+                <div class="col-md-1 col-xs-1 col-sm-1"></div>
+                <div class="col-md-3 col-xs-3 col-sm-3">
+                    <label for="codpostIP">{!$ObjectType.Account.fields.ShippingPostalCode.Label}</label>
+                    &nbsp;<apex:inputText value="{!filtro.codpost}" id="codpostIP"/>
+                </div>
+                <div class="col-md-8 col-xs-8 col-sm-8"></div>
+            </div>
+            <br/>
+            <div class="row form-group" style="width:100%;">
+                <div class="col-md-1 col-xs-1 col-sm-1">
+                    <apex:actionFunction action="{!getCuentasFilter}" name="buscarCuentas"/>
+                    <input type="button" value="{!$Label.ks_btn_buscar}" class="btn btnBuscar" onclick='buscar(this);'/>
+                </div>
+                <div class="col-md-11 col-xs-11 col-sm-11"></div>
+            </div>
+            
+        </div>
+        
+        <div class="container-fluid kaizen-container">
+            
+            <br/>
+            <div class="row">
+                
+                <div class="col-md-2 col-xs-2 col-sm-2">
+                    <apex:actionFunction action="{!gotoPrevious}" name="gotoPreviousF"/>
+                    <input type="button" value="{!$Label.ks_btn_prev}" class="btn btnPrev" onclick='gotoPreviousF();'/>
+                    <apex:actionFunction action="{!gotoNext}" name="gotoNextF"/>
+                    <input type="button" value="{!$Label.ks_btn_next}" class="btn btnNext" onclick='gotoNextF();'/>
+                </div>
+                <script type="text/javascript">
+                $(".btnPrev").toggle({!setCon.hasPrevious});
+                $(".btnNext").toggle({!setCon.hasNext});
+                </script>
+                <div class="col-md-10 col-xs-10 col-sm-10"></div>
+                
+            </div>
+            
+            <div class="row" id="showList">
+                
+                <div class="col-xs-12 col-sm-12 col-md-12 table-responsive">
+                    
+                    <!--<table class="list" border="0" cellpadding="0" cellspacing="0">-->
+                    <table class="table table-hover table-condensed">
+                        
+                        <thead>
+                            <tr class="headerRow text-uppercase">
+                                <th class="headerRow text-uppercase" scope="col" colspan="1"><span>{!$ObjectType.Account.fields.KS_Id_Salesforce__c.Label}</span></th>
+                                <th class="headerRow text-uppercase" scope="col" colspan="1"><span>{!$ObjectType.Account.fields.KS_Id_SAP__c.Label}</span></th>
+                                <th class="headerRow text-uppercase" scope="col" colspan="1"><span>{!$ObjectType.Account.fields.Name.Label}</span></th>
+                                <th class="headerRow text-uppercase" scope="col" colspan="1"><span>{!$ObjectType.Account.fields.ShippingAddress.Label}</span></th>
+                                <th class="headerRow text-uppercase" scope="col" colspan="1"><span>{!$ObjectType.Account.fields.ShippingState.Label}</span></th>
+                                <th class="headerRow text-uppercase" scope="col" colspan="1"><span>{!$ObjectType.Account.fields.ShippingPostalCode.Label}</span></th>
+                                <th class="headerRow text-uppercase" scope="col" colspan="1"><span>{!$ObjectType.Account.fields.Phone.Label}</span></th>
+                            </tr>
+                        </thead> 
+                        
+                        <tbody>
+                            <apex:repeat var="cuenta" value="{!cuentas}">
+                                <tr>
+                                    <td class="dataCell" width="8%">
+                                        <strong class="clickhere" onclick="gotoID('{!cuenta.url}');">{!cuenta.idsf}</strong>
+                                    </td>
+                                    <td class="dataCell" width="8%"><apex:outputText value="{!cuenta.idsap}"/></td>
+                                    <td class="dataCell" width="8%"><apex:outputText value="{!cuenta.name}"/></td>
+                                    <td class="dataCell" width="8%"><apex:outputText value="{!cuenta.direccion}"/></td>
+                                    <td class="dataCell" width="8%"><apex:outputText value="{!cuenta.provincia}"/></td>
+                                    <td class="dataCell" width="8%"><apex:outputText value="{!cuenta.codpost}"/></td>
+                                    <td class="dataCell" width="8%"><apex:outputText value="{!cuenta.telefon}"/></td>
+                                </tr>
+                            </apex:repeat>
+                        </tbody>
+                        
+                    </table>
+                    
+                </div>
+            </div>
+        </div>
+        
+    </apex:form>
+    <script type="text/javascript">
+    function gotoID(id) {
+        var URL = '/'+id;
+        goto(URL);
+    }
+    function goto(URL) {
+        if ((typeof sforce != 'undefined') && (sforce != null) ) {
+            sforce.one.navigateToURL(URL, true);
+        } else {
+            //location.href = URL;
+            window.open(URL,'_blank');
+        }
+    }
+    function disableBttn(bttn, msg) {
+        var btn = bttn;
+        setTimeout(function(){ 
+            btn.disabled = 'disabled';
+            // Use the Salesforce CSS style to make the button appear disabled
+            btn.className = 'btnDisabled';
+            btn.value = msg;
+        }, 50);
+    }
+    function buscar(boton) {
+        disableBttn(boton, 'Buscando...');
+        buscarCuentas();
+    }
+    </script> 
+</apex:page>

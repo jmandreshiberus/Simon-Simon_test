@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Compras</fullName>
+        <default>false</default>
+        <label>Compras</label>
+    </customValue>
+    <customValue>
+        <fullName>Gerencia</fullName>
+        <default>false</default>
+        <label>Gerencia</label>
+    </customValue>
+    <customValue>
+        <fullName>Ventas</fullName>
+        <default>false</default>
+        <label>Ventas</label>
+    </customValue>
+    <customValue>
+        <fullName>Servicios Técnicos</fullName>
+        <default>false</default>
+        <label>Servicios Técnicos</label>
+    </customValue>
+    <customValue>
+        <fullName>Especialista de Producto</fullName>
+        <default>false</default>
+        <label>Especialista de Producto</label>
+    </customValue>
+    <customValue>
+        <fullName>Marketing</fullName>
+        <default>false</default>
+        <label>Marketing</label>
+    </customValue>
+    <customValue>
+        <fullName>Administración</fullName>
+        <default>false</default>
+        <label>Administración</label>
+    </customValue>
+    <customValue>
+        <fullName>Logística</fullName>
+        <default>false</default>
+        <label>Logística</label>
+    </customValue>
+    <customValue>
+        <fullName>Calidad</fullName>
+        <default>false</default>
+        <label>Calidad</label>
+    </customValue>
+    <customValue>
+        <fullName>Operario</fullName>
+        <default>false</default>
+        <label>Operario</label>
+    </customValue>
+    <customValue>
+        <fullName>Arquitecto</fullName>
+        <default>false</default>
+        <label>Arquitecto</label>
+    </customValue>
+    <customValue>
+        <fullName>Interiorista</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Interiorista</label>
+    </customValue>
+    <customValue>
+        <fullName>Otros</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Otros</label>
+    </customValue>
+    <customValue>
+        <fullName>Fabricante</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Fabricante</label>
+    </customValue>
+    <customValue>
+        <fullName>Tienda</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Tienda</label>
+    </customValue>
+    <customValue>
+        <fullName>Proyectos</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Proyectos</label>
+    </customValue>
+    <customValue>
+        <fullName>Dueño</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Dueño</label>
+    </customValue>
+    <description>SEGMENTACIÓN. Usado en objeto Contactos</description>
+    <masterLabel>Función en empresa</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

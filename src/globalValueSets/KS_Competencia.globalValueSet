@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Sin competidor</fullName>
+        <default>false</default>
+        <label>Sin competidor</label>
+    </customValue>
+    <customValue>
+        <fullName>Competidor 1</fullName>
+        <default>false</default>
+        <label>Competidor 1</label>
+    </customValue>
+    <customValue>
+        <fullName>Competidor 2</fullName>
+        <default>false</default>
+        <label>Competidor 2</label>
+    </customValue>
+    <customValue>
+        <fullName>Competidor 3</fullName>
+        <default>false</default>
+        <label>Competidor 3</label>
+    </customValue>
+    <customValue>
+        <fullName>Competidor 4</fullName>
+        <default>false</default>
+        <label>Competidor 4</label>
+    </customValue>
+    <description>EN USO --&gt; Fichas y Productos de Competidor</description>
+    <masterLabel>Competencia</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

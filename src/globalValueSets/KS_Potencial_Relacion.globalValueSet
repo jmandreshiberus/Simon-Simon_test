@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>*</fullName>
+        <default>true</default>
+        <label>*</label>
+    </customValue>
+    <customValue>
+        <fullName>**</fullName>
+        <default>false</default>
+        <label>**</label>
+    </customValue>
+    <customValue>
+        <fullName>***</fullName>
+        <default>false</default>
+        <label>***</label>
+    </customValue>
+    <customValue>
+        <fullName>****</fullName>
+        <default>false</default>
+        <label>****</label>
+    </customValue>
+    <customValue>
+        <fullName>*****</fullName>
+        <default>false</default>
+        <label>*****</label>
+    </customValue>
+    <customValue>
+        <fullName>(NO USAR)</fullName>
+        <default>false</default>
+        <label>(NO USAR)</label>
+    </customValue>
+    <customValue>
+        <fullName>A</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>A</label>
+    </customValue>
+    <customValue>
+        <fullName>C</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>C</label>
+    </customValue>
+    <description>SEGMENTACIÓN. Usado como variable de segmentación Cuentas</description>
+    <masterLabel>Potencial Relacion</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>01</masterLabel>
+        <translation>standard</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>02</masterLabel>
+        <translation>Abholung</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>03</masterLabel>
+        <translation><!-- 03 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>04</masterLabel>
+        <translation><!-- 04 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>05</masterLabel>
+        <translation><!-- 05 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>06</masterLabel>
+        <translation><!-- 06 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>07</masterLabel>
+        <translation>standard</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>08</masterLabel>
+        <translation>standard</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>09</masterLabel>
+        <translation><!-- 09 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>97</masterLabel>
+        <translation><!-- 97 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>98</masterLabel>
+        <translation><!-- 98 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>99</masterLabel>
+        <translation><!-- 99 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>9C</masterLabel>
+        <translation><!-- 9C --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C1</masterLabel>
+        <translation><!-- C1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C2</masterLabel>
+        <translation><!-- C2 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CC</masterLabel>
+        <translation><!-- CC --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GB</masterLabel>
+        <translation><!-- GB --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>OF</masterLabel>
+        <translation>standard</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>OU</masterLabel>
+        <translation><!-- OU --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PU</masterLabel>
+        <translation>standard</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TR</masterLabel>
+        <translation>standard</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TW</masterLabel>
+        <translation><!-- TW --></translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

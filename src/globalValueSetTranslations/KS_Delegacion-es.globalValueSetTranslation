@@ -1,0 +1,1111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>000</masterLabel>
+        <translation><!-- 000 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>002</masterLabel>
+        <translation>Madrid</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>005</masterLabel>
+        <translation>Valladolid</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>006</masterLabel>
+        <translation>Barcelona</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>007</masterLabel>
+        <translation>Girona</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>008</masterLabel>
+        <translation>Lleida</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>009</masterLabel>
+        <translation>Tarragona</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>010</masterLabel>
+        <translation>Valencia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>011</masterLabel>
+        <translation>Albacete</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>012</masterLabel>
+        <translation>Alicante</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>013</masterLabel>
+        <translation>Baleares</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>015</masterLabel>
+        <translation>Burgos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>017</masterLabel>
+        <translation>León</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>018</masterLabel>
+        <translation>Asturias</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>019</masterLabel>
+        <translation>Aragón</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>020</masterLabel>
+        <translation>Extremadura</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>021</masterLabel>
+        <translation>Salamanca</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>023</masterLabel>
+        <translation><!-- 023 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>024</masterLabel>
+        <translation>Las Palmas</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>025</masterLabel>
+        <translation>Tenerife</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>026</masterLabel>
+        <translation>Vizcaya</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>027</masterLabel>
+        <translation>Cantabria</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>028</masterLabel>
+        <translation>La Rioja</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>029</masterLabel>
+        <translation>Navarra</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>030</masterLabel>
+        <translation>A Coruña</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>031</masterLabel>
+        <translation>Pontevedra</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>032</masterLabel>
+        <translation>Sevilla</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>033</masterLabel>
+        <translation>Cádiz</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>034</masterLabel>
+        <translation>Córdoba</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>035</masterLabel>
+        <translation>Granada</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>036</masterLabel>
+        <translation>Almería</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>037</masterLabel>
+        <translation>Toledo</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>038</masterLabel>
+        <translation>Castellón</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>039</masterLabel>
+        <translation>Murcia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>042</masterLabel>
+        <translation>Lisboa</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>045</masterLabel>
+        <translation>Málaga</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AE</masterLabel>
+        <translation><!-- AE --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AF</masterLabel>
+        <translation><!-- AF --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AG</masterLabel>
+        <translation><!-- AG --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AI</masterLabel>
+        <translation><!-- AI --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AL</masterLabel>
+        <translation><!-- AL --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AM</masterLabel>
+        <translation><!-- AM --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AN</masterLabel>
+        <translation><!-- AN --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AO</masterLabel>
+        <translation><!-- AO --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AQ</masterLabel>
+        <translation><!-- AQ --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AR</masterLabel>
+        <translation><!-- AR --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AS</masterLabel>
+        <translation><!-- AS --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AT</masterLabel>
+        <translation><!-- AT --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AU</masterLabel>
+        <translation><!-- AU --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AW</masterLabel>
+        <translation><!-- AW --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AZ</masterLabel>
+        <translation><!-- AZ --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BA</masterLabel>
+        <translation><!-- BA --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BB</masterLabel>
+        <translation><!-- BB --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BD</masterLabel>
+        <translation><!-- BD --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BE</masterLabel>
+        <translation><!-- BE --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BF</masterLabel>
+        <translation><!-- BF --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BG</masterLabel>
+        <translation><!-- BG --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BH</masterLabel>
+        <translation><!-- BH --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BI</masterLabel>
+        <translation><!-- BI --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BJ</masterLabel>
+        <translation><!-- BJ --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BM</masterLabel>
+        <translation><!-- BM --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BN</masterLabel>
+        <translation><!-- BN --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BO</masterLabel>
+        <translation><!-- BO --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BR</masterLabel>
+        <translation><!-- BR --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BS</masterLabel>
+        <translation><!-- BS --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BT</masterLabel>
+        <translation><!-- BT --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BV</masterLabel>
+        <translation><!-- BV --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BW</masterLabel>
+        <translation><!-- BW --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BY</masterLabel>
+        <translation><!-- BY --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BZ</masterLabel>
+        <translation><!-- BZ --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CA</masterLabel>
+        <translation><!-- CA --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CC</masterLabel>
+        <translation><!-- CC --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CD</masterLabel>
+        <translation><!-- CD --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CF</masterLabel>
+        <translation><!-- CF --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CG</masterLabel>
+        <translation><!-- CG --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CH</masterLabel>
+        <translation><!-- CH --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CI</masterLabel>
+        <translation><!-- CI --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CK</masterLabel>
+        <translation><!-- CK --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CL</masterLabel>
+        <translation><!-- CL --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CM</masterLabel>
+        <translation><!-- CM --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CN</masterLabel>
+        <translation><!-- CN --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CO</masterLabel>
+        <translation><!-- CO --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CR</masterLabel>
+        <translation><!-- CR --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CS</masterLabel>
+        <translation><!-- CS --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CU</masterLabel>
+        <translation><!-- CU --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CV</masterLabel>
+        <translation><!-- CV --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CX</masterLabel>
+        <translation><!-- CX --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CY</masterLabel>
+        <translation><!-- CY --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CZ</masterLabel>
+        <translation><!-- CZ --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DE</masterLabel>
+        <translation><!-- DE --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DJ</masterLabel>
+        <translation><!-- DJ --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DK</masterLabel>
+        <translation><!-- DK --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DM</masterLabel>
+        <translation><!-- DM --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DO</masterLabel>
+        <translation><!-- DO --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DZ</masterLabel>
+        <translation><!-- DZ --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>EC</masterLabel>
+        <translation><!-- EC --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>EE</masterLabel>
+        <translation><!-- EE --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>EG</masterLabel>
+        <translation><!-- EG --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>EH</masterLabel>
+        <translation><!-- EH --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ER</masterLabel>
+        <translation><!-- ER --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ES</masterLabel>
+        <translation><!-- ES --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ET</masterLabel>
+        <translation><!-- ET --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FDT</masterLabel>
+        <translation><!-- FDT --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FI</masterLabel>
+        <translation><!-- FI --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FJ</masterLabel>
+        <translation><!-- FJ --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FK</masterLabel>
+        <translation><!-- FK --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FM</masterLabel>
+        <translation><!-- FM --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FO</masterLabel>
+        <translation><!-- FO --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FR</masterLabel>
+        <translation><!-- FR --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GA</masterLabel>
+        <translation><!-- GA --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GB</masterLabel>
+        <translation><!-- GB --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GD</masterLabel>
+        <translation><!-- GD --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GE</masterLabel>
+        <translation><!-- GE --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GF</masterLabel>
+        <translation><!-- GF --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GH</masterLabel>
+        <translation><!-- GH --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GI</masterLabel>
+        <translation><!-- GI --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GL</masterLabel>
+        <translation><!-- GL --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GM</masterLabel>
+        <translation><!-- GM --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GN</masterLabel>
+        <translation><!-- GN --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GP</masterLabel>
+        <translation><!-- GP --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GQ</masterLabel>
+        <translation><!-- GQ --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GR</masterLabel>
+        <translation><!-- GR --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GS</masterLabel>
+        <translation><!-- GS --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GT</masterLabel>
+        <translation><!-- GT --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GU</masterLabel>
+        <translation><!-- GU --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GW</masterLabel>
+        <translation><!-- GW --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GY</masterLabel>
+        <translation><!-- GY --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HK</masterLabel>
+        <translation><!-- HK --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HM</masterLabel>
+        <translation><!-- HM --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HN</masterLabel>
+        <translation><!-- HN --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HR</masterLabel>
+        <translation><!-- HR --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HT</masterLabel>
+        <translation><!-- HT --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HU</masterLabel>
+        <translation><!-- HU --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ID</masterLabel>
+        <translation><!-- ID --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IE</masterLabel>
+        <translation><!-- IE --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IL</masterLabel>
+        <translation><!-- IL --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IN</masterLabel>
+        <translation><!-- IN --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IO</masterLabel>
+        <translation><!-- IO --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IQ</masterLabel>
+        <translation><!-- IQ --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IR</masterLabel>
+        <translation><!-- IR --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IS</masterLabel>
+        <translation><!-- IS --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IT</masterLabel>
+        <translation><!-- IT --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>JM</masterLabel>
+        <translation><!-- JM --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>JO</masterLabel>
+        <translation><!-- JO --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>JP</masterLabel>
+        <translation><!-- JP --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KE</masterLabel>
+        <translation><!-- KE --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KG</masterLabel>
+        <translation><!-- KG --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KH</masterLabel>
+        <translation><!-- KH --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KI</masterLabel>
+        <translation><!-- KI --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KM</masterLabel>
+        <translation><!-- KM --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KN</masterLabel>
+        <translation><!-- KN --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KP</masterLabel>
+        <translation><!-- KP --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KR</masterLabel>
+        <translation><!-- KR --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KW</masterLabel>
+        <translation><!-- KW --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KY</masterLabel>
+        <translation><!-- KY --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KZ</masterLabel>
+        <translation><!-- KZ --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LA</masterLabel>
+        <translation><!-- LA --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LB</masterLabel>
+        <translation><!-- LB --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LC</masterLabel>
+        <translation><!-- LC --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LI</masterLabel>
+        <translation><!-- LI --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LK</masterLabel>
+        <translation><!-- LK --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LR</masterLabel>
+        <translation><!-- LR --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LS</masterLabel>
+        <translation><!-- LS --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LT</masterLabel>
+        <translation><!-- LT --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LU</masterLabel>
+        <translation><!-- LU --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LV</masterLabel>
+        <translation><!-- LV --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LY</masterLabel>
+        <translation><!-- LY --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MA</masterLabel>
+        <translation><!-- MA --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MC</masterLabel>
+        <translation><!-- MC --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MD</masterLabel>
+        <translation><!-- MD --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MG</masterLabel>
+        <translation><!-- MG --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MH</masterLabel>
+        <translation><!-- MH --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MK</masterLabel>
+        <translation><!-- MK --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ML</masterLabel>
+        <translation><!-- ML --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MM</masterLabel>
+        <translation><!-- MM --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MN</masterLabel>
+        <translation><!-- MN --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MO</masterLabel>
+        <translation><!-- MO --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MP</masterLabel>
+        <translation><!-- MP --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MQ</masterLabel>
+        <translation><!-- MQ --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MR</masterLabel>
+        <translation><!-- MR --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MS</masterLabel>
+        <translation><!-- MS --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MT</masterLabel>
+        <translation><!-- MT --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MU</masterLabel>
+        <translation><!-- MU --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MV</masterLabel>
+        <translation><!-- MV --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MW</masterLabel>
+        <translation><!-- MW --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MX</masterLabel>
+        <translation><!-- MX --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MY</masterLabel>
+        <translation><!-- MY --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MZ</masterLabel>
+        <translation><!-- MZ --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NA</masterLabel>
+        <translation><!-- NA --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NC</masterLabel>
+        <translation><!-- NC --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NE</masterLabel>
+        <translation><!-- NE --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NF</masterLabel>
+        <translation><!-- NF --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NG</masterLabel>
+        <translation><!-- NG --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NI</masterLabel>
+        <translation><!-- NI --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NL</masterLabel>
+        <translation><!-- NL --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NO</masterLabel>
+        <translation><!-- NO --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NP</masterLabel>
+        <translation><!-- NP --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NR</masterLabel>
+        <translation><!-- NR --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NU</masterLabel>
+        <translation><!-- NU --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NZ</masterLabel>
+        <translation><!-- NZ --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>OM</masterLabel>
+        <translation><!-- OM --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PA</masterLabel>
+        <translation><!-- PA --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PE</masterLabel>
+        <translation><!-- PE --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PF</masterLabel>
+        <translation><!-- PF --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PG</masterLabel>
+        <translation><!-- PG --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PH</masterLabel>
+        <translation><!-- PH --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PK</masterLabel>
+        <translation><!-- PK --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PL</masterLabel>
+        <translation><!-- PL --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PM</masterLabel>
+        <translation><!-- PM --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PN</masterLabel>
+        <translation><!-- PN --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PR</masterLabel>
+        <translation><!-- PR --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PS</masterLabel>
+        <translation><!-- PS --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PT</masterLabel>
+        <translation><!-- PT --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PW</masterLabel>
+        <translation><!-- PW --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PY</masterLabel>
+        <translation><!-- PY --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>QA</masterLabel>
+        <translation><!-- QA --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>RE</masterLabel>
+        <translation><!-- RE --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>RO</masterLabel>
+        <translation><!-- RO --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>RU</masterLabel>
+        <translation><!-- RU --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>RW</masterLabel>
+        <translation><!-- RW --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SA</masterLabel>
+        <translation><!-- SA --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SB</masterLabel>
+        <translation><!-- SB --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SC</masterLabel>
+        <translation><!-- SC --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SD</masterLabel>
+        <translation><!-- SD --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SE</masterLabel>
+        <translation><!-- SE --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SG</masterLabel>
+        <translation><!-- SG --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SH</masterLabel>
+        <translation><!-- SH --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SI</masterLabel>
+        <translation><!-- SI --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SJ</masterLabel>
+        <translation><!-- SJ --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SK</masterLabel>
+        <translation><!-- SK --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SL</masterLabel>
+        <translation><!-- SL --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SM</masterLabel>
+        <translation><!-- SM --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SN</masterLabel>
+        <translation><!-- SN --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SO</masterLabel>
+        <translation><!-- SO --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SR</masterLabel>
+        <translation><!-- SR --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ST</masterLabel>
+        <translation><!-- ST --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SV</masterLabel>
+        <translation><!-- SV --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SY</masterLabel>
+        <translation><!-- SY --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SZ</masterLabel>
+        <translation><!-- SZ --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TC</masterLabel>
+        <translation><!-- TC --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TD</masterLabel>
+        <translation><!-- TD --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TF</masterLabel>
+        <translation><!-- TF --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TG</masterLabel>
+        <translation><!-- TG --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TH</masterLabel>
+        <translation><!-- TH --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TJ</masterLabel>
+        <translation><!-- TJ --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TK</masterLabel>
+        <translation><!-- TK --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TL</masterLabel>
+        <translation><!-- TL --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TM</masterLabel>
+        <translation><!-- TM --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TN</masterLabel>
+        <translation><!-- TN --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TO</masterLabel>
+        <translation><!-- TO --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TP</masterLabel>
+        <translation><!-- TP --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TR</masterLabel>
+        <translation><!-- TR --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TT</masterLabel>
+        <translation><!-- TT --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TV</masterLabel>
+        <translation><!-- TV --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TW</masterLabel>
+        <translation><!-- TW --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TZ</masterLabel>
+        <translation><!-- TZ --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UA</masterLabel>
+        <translation><!-- UA --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UG</masterLabel>
+        <translation><!-- UG --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UM</masterLabel>
+        <translation><!-- UM --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>US</masterLabel>
+        <translation><!-- US --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UY</masterLabel>
+        <translation><!-- UY --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UZ</masterLabel>
+        <translation><!-- UZ --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VA</masterLabel>
+        <translation><!-- VA --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VC</masterLabel>
+        <translation><!-- VC --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VE</masterLabel>
+        <translation><!-- VE --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VG</masterLabel>
+        <translation><!-- VG --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VI</masterLabel>
+        <translation><!-- VI --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VN</masterLabel>
+        <translation><!-- VN --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VU</masterLabel>
+        <translation><!-- VU --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>WF</masterLabel>
+        <translation><!-- WF --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>WS</masterLabel>
+        <translation><!-- WS --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>YE</masterLabel>
+        <translation><!-- YE --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>YT</masterLabel>
+        <translation><!-- YT --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>YU</masterLabel>
+        <translation><!-- YU --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZA</masterLabel>
+        <translation><!-- ZA --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZM</masterLabel>
+        <translation><!-- ZM --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZW</masterLabel>
+        <translation><!-- ZW --></translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

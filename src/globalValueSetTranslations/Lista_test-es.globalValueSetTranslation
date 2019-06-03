@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Test 1</masterLabel>
+        <translation>Lista de testeo 1</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Test 10</masterLabel>
+        <translation>Lista de testeo 2</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Test 2</masterLabel>
+        <translation><!-- Test 2 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Test 3</masterLabel>
+        <translation><!-- Test 3 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Test 4</masterLabel>
+        <translation><!-- Test 4 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Test 5</masterLabel>
+        <translation><!-- Test 5 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Test 6</masterLabel>
+        <translation><!-- Test 6 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Test 7</masterLabel>
+        <translation><!-- Test 7 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Test 8</masterLabel>
+        <translation><!-- Test 8 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Test 9</masterLabel>
+        <translation><!-- Test 9 --></translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

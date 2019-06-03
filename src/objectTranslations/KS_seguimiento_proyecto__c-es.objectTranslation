@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Seguimiento proyecto</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Seguimiento proyectos</value>
+    </caseValues>
+    <fields>
+        <label><!-- Comentarios --></label>
+        <name>KS_Comentarios__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comercial --></label>
+        <name>KS_Comercial__c</name>
+        <relationshipLabel><!-- Seguimiento proyectos --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Descripción obra --></label>
+        <name>KS_Descripcion_obra__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estado --></label>
+        <name>KS_Estado__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha de entrada --></label>
+        <name>KS_Fecha_de_entrada__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha de salida --></label>
+        <name>KS_Fecha_de_salida__c</name>
+    </fields>
+    <fields>
+        <label><!-- Horas --></label>
+        <name>KS_Horas__c</name>
+    </fields>
+    <fields>
+        <label><!-- Marca --></label>
+        <name>KS_Marca__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mes --></label>
+        <name>KS_Mes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mod --></label>
+        <name>KS_Mod__c</name>
+    </fields>
+    <fields>
+        <label><!-- PVP --></label>
+        <name>KS_PVP__c</name>
+    </fields>
+    <fields>
+        <label><!-- Prescriptor --></label>
+        <name>KS_Prescriptor__c</name>
+        <relationshipLabel><!-- Seguimiento proyectos --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Proyectista --></label>
+        <name>KS_Proyectista__c</name>
+        <relationshipLabel><!-- Seguimiento proyectos (Proyectista) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Proyecto --></label>
+        <name>KS_Proyecto__c</name>
+        <relationshipLabel><!-- Seguimiento proyectos --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Scena P.V.P. --></label>
+        <name>KS_Scena_P_V_P__c</name>
+    </fields>
+    <fields>
+        <label><!-- Scena --></label>
+        <name>KS_Scena__c</name>
+    </fields>
+    <fields>
+        <label><!-- Solicita --></label>
+        <name>KS_Solicita__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tipo de edificación --></label>
+        <name>KS_Tipo_de_edificacion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Viabilidad --></label>
+        <name>KS_Viabilidad__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zona --></label>
+        <name>KS_Zona__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Formato Seguimiento proyecto</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

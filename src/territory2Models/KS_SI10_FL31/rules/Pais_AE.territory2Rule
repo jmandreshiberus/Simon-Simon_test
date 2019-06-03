@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <name>Pais_AE</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.ShippingPostalCode</field>
+        <operation>equals</operation>
+        <value>AE</value>
+    </ruleItems>
+</Territory2Rule>

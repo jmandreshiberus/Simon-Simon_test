@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Intercurrent</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Intercurrents</value>
+    </caseValues>
+    <fields>
+        <label><!-- Actividad --></label>
+        <name>KS_Actividad__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contacto --></label>
+        <name>KS_Contacto__c</name>
+        <relationshipLabel><!-- Intervinientes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Correo electrónico empresa --></label>
+        <name>KS_Correo_electronico_empresa__c</name>
+    </fields>
+    <fields>
+        <label><!-- Correo electrónico personal --></label>
+        <name>KS_Correo_electronico_personal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dirección --></label>
+        <name>KS_Direccion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Id Obra --></label>
+        <name>KS_Id_Obra__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cuenta --></label>
+        <name>KS_Interviniente__c</name>
+        <relationshipLabel><!-- Intervinientes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- NIF --></label>
+        <name>KS_NIF__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nombre de la cuenta --></label>
+        <name>KS_Nombre_de_la_cuenta__c</name>
+    </fields>
+    <fields>
+        <label><!-- Obra --></label>
+        <name>KS_Obra__c</name>
+        <relationshipLabel><!-- Intervinientes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Origen --></label>
+        <name>KS_Origen__c</name>
+    </fields>
+    <fields>
+        <label><!-- Relación --></label>
+        <name>KS_Relacion__c</name>
+    </fields>
+    <fields>
+        <help><!-- Veces que sale el interviniente en las Ofertas --></help>
+        <label><!-- Repeticiones --></label>
+        <name>KS_Repeticiones__c</name>
+    </fields>
+    <fields>
+        <label><!-- Teléfono --></label>
+        <name>KS_Telefono__c</name>
+    </fields>
+    <fields>
+        <label><!-- UCIN External ID --></label>
+        <name>UCIN_External_ID__c</name>
+    </fields>
+    <layouts>
+        <layout>Formato Interviniente</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>ID</nameFieldLabel>
+    <recordTypes>
+        <label><!-- Interviniente Automático --></label>
+        <name>KS_Interviniente_Automatico</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Interviniente Manual --></label>
+        <name>KS_Interviniente_Manual</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

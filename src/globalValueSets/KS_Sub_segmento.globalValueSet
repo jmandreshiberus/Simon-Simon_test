@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Academias de Enseñanza</fullName>
+        <default>false</default>
+        <label>Academias de Enseñanza</label>
+    </customValue>
+    <customValue>
+        <fullName>Acuarios</fullName>
+        <default>false</default>
+        <label>Acuarios</label>
+    </customValue>
+    <customValue>
+        <fullName>Agencia de Viajes</fullName>
+        <default>false</default>
+        <label>Agencia de Viajes</label>
+    </customValue>
+    <customValue>
+        <fullName>Albergues</fullName>
+        <default>false</default>
+        <label>Albergues</label>
+    </customValue>
+    <customValue>
+        <fullName>Alojamientos Rurales</fullName>
+        <default>false</default>
+        <label>Alojamientos Rurales</label>
+    </customValue>
+    <customValue>
+        <fullName>Alquiler Automóbiles</fullName>
+        <default>false</default>
+        <label>Alquiler Automóbiles</label>
+    </customValue>
+    <customValue>
+        <fullName>Aparcamientos</fullName>
+        <default>false</default>
+        <label>Aparcamientos</label>
+    </customValue>
+    <customValue>
+        <fullName>Apartamentos Turísticos</fullName>
+        <default>false</default>
+        <label>Apartamentos Turísticos</label>
+    </customValue>
+    <customValue>
+        <fullName>Areas de descanso</fullName>
+        <default>false</default>
+        <label>Areas de descanso</label>
+    </customValue>
+    <customValue>
+        <fullName>Auditorios</fullName>
+        <default>false</default>
+        <label>Auditorios</label>
+    </customValue>
+    <customValue>
+        <fullName>Balnearios</fullName>
+        <default>false</default>
+        <label>Balnearios</label>
+    </customValue>
+    <customValue>
+        <fullName>Bancos y cajas</fullName>
+        <default>false</default>
+        <label>Bancos y cajas</label>
+    </customValue>
+    <customValue>
+        <fullName>Bibliotecas</fullName>
+        <default>false</default>
+        <label>Bibliotecas</label>
+    </customValue>
+    <customValue>
+        <fullName>Bodegas</fullName>
+        <default>false</default>
+        <label>Bodegas</label>
+    </customValue>
+    <customValue>
+        <fullName>Bolsos</fullName>
+        <default>false</default>
+        <label>Bolsos</label>
+    </customValue>
+    <customValue>
+        <fullName>Camping</fullName>
+        <default>false</default>
+        <label>Camping</label>
+    </customValue>
+    <customValue>
+        <fullName>Campos de fútbol</fullName>
+        <default>false</default>
+        <label>Campos de fútbol</label>
+    </customValue>
+    <customValue>
+        <fullName>Campos de Golf</fullName>
+        <default>false</default>
+        <label>Campos de Golf</label>
+    </customValue>
+    <customValue>
+        <fullName>Casetas modulares</fullName>
+        <default>false</default>
+        <label>Casetas modulares</label>
+    </customValue>
+    <customValue>
+        <fullName>Casinos</fullName>
+        <default>false</default>
+        <label>Casinos</label>
+    </customValue>
+    <customValue>
+        <fullName>Castillos y Palacios</fullName>
+        <default>false</default>
+        <label>Castillos y Palacios</label>
+    </customValue>
+    <customValue>
+        <fullName>Centros Comerciales</fullName>
+        <default>false</default>
+        <label>Centros Comerciales</label>
+    </customValue>
+    <customValue>
+        <fullName>Centros Culturales</fullName>
+        <default>false</default>
+        <label>Centros Culturales</label>
+    </customValue>
+    <customValue>
+        <fullName>Centros de Día</fullName>
+        <default>false</default>
+        <label>Centros de Día</label>
+    </customValue>
+    <customValue>
+        <fullName>Centros de Salud</fullName>
+        <default>false</default>
+        <label>Centros de Salud</label>
+    </customValue>
+    <customValue>
+        <fullName>Centros Invierno</fullName>
+        <default>false</default>
+        <label>Centros Invierno</label>
+    </customValue>
+    <customValue>
+        <fullName>Centros Penitenciarios</fullName>
+        <default>false</default>
+        <label>Centros Penitenciarios</label>
+    </customValue>
+    <customValue>
+        <fullName>Cines</fullName>
+        <default>false</default>
+        <label>Cines</label>
+    </customValue>
+    <customValue>
+        <fullName>Clínicas</fullName>
+        <default>false</default>
+        <label>Clínicas</label>
+    </customValue>
+    <customValue>
+        <fullName>Clínicas Dentales</fullName>
+        <default>false</default>
+        <label>Clínicas Dentales</label>
+    </customValue>
+    <customValue>
+        <fullName>Clubs deportivos</fullName>
+        <default>false</default>
+        <label>Clubs deportivos</label>
+    </customValue>
+    <customValue>
+        <fullName>Comisarias y Cuarteles</fullName>
+        <default>false</default>
+        <label>Comisarias y Cuarteles</label>
+    </customValue>
+    <customValue>
+        <fullName>Concesionarios Automoción</fullName>
+        <default>false</default>
+        <label>Concesionarios Automoción</label>
+    </customValue>
+    <customValue>
+        <fullName>Conservatorios</fullName>
+        <default>false</default>
+        <label>Conservatorios</label>
+    </customValue>
+    <customValue>
+        <fullName>Conventos</fullName>
+        <default>false</default>
+        <label>Conventos</label>
+    </customValue>
+    <customValue>
+        <fullName>Deporte</fullName>
+        <default>false</default>
+        <label>Deporte</label>
+    </customValue>
+    <customValue>
+        <fullName>Edificios Administrativos Públicos</fullName>
+        <default>false</default>
+        <label>Edificios Administrativos Públicos</label>
+    </customValue>
+    <customValue>
+        <fullName>Electrónica</fullName>
+        <default>false</default>
+        <label>Electrónica</label>
+    </customValue>
+    <customValue>
+        <fullName>Escuelas Complementarias</fullName>
+        <default>false</default>
+        <label>Escuelas Complementarias</label>
+    </customValue>
+    <customValue>
+        <fullName>Escuelas Primaria (Colegios) / Secundaria (Institutos)</fullName>
+        <default>false</default>
+        <label>Escuelas Primaria (Colegios) / Secundaria (Institutos)</label>
+    </customValue>
+    <customValue>
+        <fullName>Estaciones de Autobuses</fullName>
+        <default>false</default>
+        <label>Estaciones de Autobuses</label>
+    </customValue>
+    <customValue>
+        <fullName>Estaciones de ferrocarril</fullName>
+        <default>false</default>
+        <label>Estaciones de ferrocarril</label>
+    </customValue>
+    <customValue>
+        <fullName>Fábricas</fullName>
+        <default>false</default>
+        <label>Fábricas</label>
+    </customValue>
+    <customValue>
+        <fullName>Farmacias</fullName>
+        <default>false</default>
+        <label>Farmacias</label>
+    </customValue>
+    <customValue>
+        <fullName>Ferretería</fullName>
+        <default>false</default>
+        <label>Ferretería</label>
+    </customValue>
+    <customValue>
+        <fullName>Gasolineras, Areas de servicio</fullName>
+        <default>false</default>
+        <label>Gasolineras, Areas de servicio</label>
+    </customValue>
+    <customValue>
+        <fullName>Geriátricos y Residencias 3ª Edad</fullName>
+        <default>false</default>
+        <label>Geriátricos y Residencias 3ª Edad</label>
+    </customValue>
+    <customValue>
+        <fullName>Gimnasios</fullName>
+        <default>false</default>
+        <label>Gimnasios</label>
+    </customValue>
+    <customValue>
+        <fullName>Gran cadena restauracion</fullName>
+        <default>false</default>
+        <label>Gran cadena restauracion</label>
+    </customValue>
+    <customValue>
+        <fullName>Gran Superficie Alimentación</fullName>
+        <default>false</default>
+        <label>Gran Superficie Alimentación</label>
+    </customValue>
+    <customValue>
+        <fullName>Gran Superficie Construcción y Bricolage</fullName>
+        <default>false</default>
+        <label>Gran Superficie Construcción y Bricolage</label>
+    </customValue>
+    <customValue>
+        <fullName>Guarderías</fullName>
+        <default>false</default>
+        <label>Guarderías</label>
+    </customValue>
+    <customValue>
+        <fullName>Hangares</fullName>
+        <default>false</default>
+        <label>Hangares</label>
+    </customValue>
+    <customValue>
+        <fullName>Hospitales</fullName>
+        <default>false</default>
+        <label>Hospitales</label>
+    </customValue>
+    <customValue>
+        <fullName>Hoteles</fullName>
+        <default>false</default>
+        <label>Hoteles</label>
+    </customValue>
+    <customValue>
+        <fullName>Iglesias, Catedrales</fullName>
+        <default>false</default>
+        <label>Iglesias, Catedrales</label>
+    </customValue>
+    <customValue>
+        <fullName>Iluminación Hogar</fullName>
+        <default>false</default>
+        <label>Iluminación Hogar</label>
+    </customValue>
+    <customValue>
+        <fullName>Joyerías</fullName>
+        <default>false</default>
+        <label>Joyerías</label>
+    </customValue>
+    <customValue>
+        <fullName>Jugueterías</fullName>
+        <default>false</default>
+        <label>Jugueterías</label>
+    </customValue>
+    <customValue>
+        <fullName>Laboratorios</fullName>
+        <default>false</default>
+        <label>Laboratorios</label>
+    </customValue>
+    <customValue>
+        <fullName>Librería</fullName>
+        <default>false</default>
+        <label>Librería</label>
+    </customValue>
+    <customValue>
+        <fullName>Loft</fullName>
+        <default>false</default>
+        <label>Loft</label>
+    </customValue>
+    <customValue>
+        <fullName>Menaje</fullName>
+        <default>false</default>
+        <label>Menaje</label>
+    </customValue>
+    <customValue>
+        <fullName>Mensajería</fullName>
+        <default>false</default>
+        <label>Mensajería</label>
+    </customValue>
+    <customValue>
+        <fullName>Muebles</fullName>
+        <default>false</default>
+        <label>Muebles</label>
+    </customValue>
+    <customValue>
+        <fullName>Museos</fullName>
+        <default>false</default>
+        <label>Museos</label>
+    </customValue>
+    <customValue>
+        <fullName>Oficinas</fullName>
+        <default>false</default>
+        <label>Oficinas</label>
+    </customValue>
+    <customValue>
+        <fullName>Opticas</fullName>
+        <default>false</default>
+        <label>Opticas</label>
+    </customValue>
+    <customValue>
+        <fullName>Pabellones, naves y almacenes</fullName>
+        <default>false</default>
+        <label>Pabellones, naves y almacenes</label>
+    </customValue>
+    <customValue>
+        <fullName>Pabellones deportivos</fullName>
+        <default>false</default>
+        <label>Pabellones deportivos</label>
+    </customValue>
+    <customValue>
+        <fullName>Palacios de Congresos</fullName>
+        <default>false</default>
+        <label>Palacios de Congresos</label>
+    </customValue>
+    <customValue>
+        <fullName>Paradores</fullName>
+        <default>false</default>
+        <label>Paradores</label>
+    </customValue>
+    <customValue>
+        <fullName>Parking Indoor</fullName>
+        <default>false</default>
+        <label>Parking Indoor</label>
+    </customValue>
+    <customValue>
+        <fullName>Parking Outdoor</fullName>
+        <default>false</default>
+        <label>Parking Outdoor</label>
+    </customValue>
+    <customValue>
+        <fullName>Parque de Bomberos</fullName>
+        <default>false</default>
+        <label>Parque de Bomberos</label>
+    </customValue>
+    <customValue>
+        <fullName>Parques acuáticos</fullName>
+        <default>false</default>
+        <label>Parques acuáticos</label>
+    </customValue>
+    <customValue>
+        <fullName>Parques Temáticos y de Ocio</fullName>
+        <default>false</default>
+        <label>Parques Temáticos y de Ocio</label>
+    </customValue>
+    <customValue>
+        <fullName>Pensiones / Moteles / Hostales</fullName>
+        <default>false</default>
+        <label>Pensiones / Moteles / Hostales</label>
+    </customValue>
+    <customValue>
+        <fullName>Pequeño Comercio Alimentación</fullName>
+        <default>false</default>
+        <label>Pequeño Comercio Alimentación</label>
+    </customValue>
+    <customValue>
+        <fullName>Perfumerías</fullName>
+        <default>false</default>
+        <label>Perfumerías</label>
+    </customValue>
+    <customValue>
+        <fullName>Piscinas</fullName>
+        <default>false</default>
+        <label>Piscinas</label>
+    </customValue>
+    <customValue>
+        <fullName>Pistas deportivas</fullName>
+        <default>false</default>
+        <label>Pistas deportivas</label>
+    </customValue>
+    <customValue>
+        <fullName>Plazas de Toros</fullName>
+        <default>false</default>
+        <label>Plazas de Toros</label>
+    </customValue>
+    <customValue>
+        <fullName>Psiquiátricos</fullName>
+        <default>false</default>
+        <label>Psiquiátricos</label>
+    </customValue>
+    <customValue>
+        <fullName>Recambios Automoción</fullName>
+        <default>false</default>
+        <label>Recambios Automoción</label>
+    </customValue>
+    <customValue>
+        <fullName>Recintos Feriales</fullName>
+        <default>false</default>
+        <label>Recintos Feriales</label>
+    </customValue>
+    <customValue>
+        <fullName>Refinerías</fullName>
+        <default>false</default>
+        <label>Refinerías</label>
+    </customValue>
+    <customValue>
+        <fullName>Residencias de Estudiantes</fullName>
+        <default>false</default>
+        <label>Residencias de Estudiantes</label>
+    </customValue>
+    <customValue>
+        <fullName>Residencias y Geriátricos</fullName>
+        <default>false</default>
+        <label>Residencias y Geriátricos</label>
+    </customValue>
+    <customValue>
+        <fullName>Restaurantes / Bares</fullName>
+        <default>false</default>
+        <label>Restaurantes / Bares</label>
+    </customValue>
+    <customValue>
+        <fullName>Spass</fullName>
+        <default>false</default>
+        <label>Spass</label>
+    </customValue>
+    <customValue>
+        <fullName>Supermercados</fullName>
+        <default>false</default>
+        <label>Supermercados</label>
+    </customValue>
+    <customValue>
+        <fullName>Talleres Automoción</fullName>
+        <default>false</default>
+        <label>Talleres Automoción</label>
+    </customValue>
+    <customValue>
+        <fullName>Tanatorios</fullName>
+        <default>false</default>
+        <label>Tanatorios</label>
+    </customValue>
+    <customValue>
+        <fullName>Teatros</fullName>
+        <default>false</default>
+        <label>Teatros</label>
+    </customValue>
+    <customValue>
+        <fullName>Telefonía</fullName>
+        <default>false</default>
+        <label>Telefonía</label>
+    </customValue>
+    <customValue>
+        <fullName>Terminales Aeroportuarias</fullName>
+        <default>false</default>
+        <label>Terminales Aeroportuarias</label>
+    </customValue>
+    <customValue>
+        <fullName>Terminales de mercancías</fullName>
+        <default>false</default>
+        <label>Terminales de mercancías</label>
+    </customValue>
+    <customValue>
+        <fullName>Textil</fullName>
+        <default>false</default>
+        <label>Textil</label>
+    </customValue>
+    <customValue>
+        <fullName>Textil Hogar</fullName>
+        <default>false</default>
+        <label>Textil Hogar</label>
+    </customValue>
+    <customValue>
+        <fullName>Tiendas y Locales Comerciales</fullName>
+        <default>false</default>
+        <label>Tiendas y Locales Comerciales</label>
+    </customValue>
+    <customValue>
+        <fullName>Torres de Control</fullName>
+        <default>false</default>
+        <label>Torres de Control</label>
+    </customValue>
+    <customValue>
+        <fullName>Universidades</fullName>
+        <default>false</default>
+        <label>Universidades</label>
+    </customValue>
+    <customValue>
+        <fullName>Viviendas Alto standing (Chalets, Torres, etc)</fullName>
+        <default>false</default>
+        <label>Viviendas Alto standing (Chalets, Torres, etc)</label>
+    </customValue>
+    <customValue>
+        <fullName>Viviendas Modulares</fullName>
+        <default>false</default>
+        <label>Viviendas Modulares</label>
+    </customValue>
+    <customValue>
+        <fullName>Viviendas Protección Oficial - VPO</fullName>
+        <default>false</default>
+        <label>Viviendas Protección Oficial - VPO</label>
+    </customValue>
+    <customValue>
+        <fullName>Viviendas Tuteladas</fullName>
+        <default>false</default>
+        <label>Viviendas Tuteladas</label>
+    </customValue>
+    <customValue>
+        <fullName>Viviendas Unifamiliares</fullName>
+        <default>false</default>
+        <label>Viviendas Unifamiliares</label>
+    </customValue>
+    <customValue>
+        <fullName>Viviendas Vacacionales</fullName>
+        <default>false</default>
+        <label>Viviendas Vacacionales</label>
+    </customValue>
+    <customValue>
+        <fullName>Viviendas Verticales</fullName>
+        <default>false</default>
+        <label>Viviendas Verticales</label>
+    </customValue>
+    <customValue>
+        <fullName>Zapaterías</fullName>
+        <default>false</default>
+        <label>Zapaterías</label>
+    </customValue>
+    <customValue>
+        <fullName>Apartahotel</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Apartahotel</label>
+    </customValue>
+    <customValue>
+        <fullName>Hotel</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Hotel</label>
+    </customValue>
+    <customValue>
+        <fullName>Panaderia</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Panaderia</label>
+    </customValue>
+    <customValue>
+        <fullName>Perfumeria</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Perfumeria</label>
+    </customValue>
+    <customValue>
+        <fullName>Comercio</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Comercio</label>
+    </customValue>
+    <customValue>
+        <fullName>Centro de atencion Primaria</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Centro de atencion Primaria</label>
+    </customValue>
+    <customValue>
+        <fullName>Nave Industrial</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Nave Industrial</label>
+    </customValue>
+    <customValue>
+        <fullName>Sede Corporativa</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Sede Corporativa</label>
+    </customValue>
+    <customValue>
+        <fullName>Adosados</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Adosados</label>
+    </customValue>
+    <customValue>
+        <fullName>Torre</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Torre</label>
+    </customValue>
+    <customValue>
+        <fullName>Vivienda</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Vivienda</label>
+    </customValue>
+    <customValue>
+        <fullName>Chalet</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Chalet</label>
+    </customValue>
+    <description>Uso --&gt; Sub-segmento vinculado con las Obras</description>
+    <masterLabel>Sub-segmento</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

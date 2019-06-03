@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>01</masterLabel>
+        <translation>Standard-Ports Payés</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>02</masterLabel>
+        <translation>Transport Urgent</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>03</masterLabel>
+        <translation>Ses moyens-Ports Dûs</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>04</masterLabel>
+        <translation>Reprise Client</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>05</masterLabel>
+        <translation>Notre transport</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>06</masterLabel>
+        <translation>Ports Dûs Automatiq.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>07</masterLabel>
+        <translation>Standard-Ports Payés</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>08</masterLabel>
+        <translation>Standard-Ports Payés</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>09</masterLabel>
+        <translation><!-- 09 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>97</masterLabel>
+        <translation><!-- 97 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>98</masterLabel>
+        <translation>Retours Consigne</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>99</masterLabel>
+        <translation>Retous Client</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>9C</masterLabel>
+        <translation>Retous Client</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C1</masterLabel>
+        <translation><!-- C1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C2</masterLabel>
+        <translation><!-- C2 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CC</masterLabel>
+        <translation><!-- CC --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GB</masterLabel>
+        <translation><!-- GB --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>OF</masterLabel>
+        <translation>Publicité Bureau</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>OU</masterLabel>
+        <translation><!-- OU --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PU</masterLabel>
+        <translation>Publicité</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TR</masterLabel>
+        <translation>Transfert/Sous-trait</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TW</masterLabel>
+        <translation><!-- TW --></translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

@@ -1,0 +1,246 @@
+<apex:page standardController="Contact" extensions="KS_RGProteccionDatos_Controller" showHeader="false" showQuickActionVfHeader="false"
+           docType="html-5.0" id="rgpd_page" standardStylesheets="true" title="Tratamiento de datos">
+    
+    <apex:includeScript value="{!$Resource.KS_jquery1}"/>
+    <apex:stylesheet value="{!URLFOR($Resource.bootstrapSF1, 'css/bootstrap.min.css')}"/>
+    <apex:stylesheet value="{!URLFOR($Resource.bootstrapSF1, 'css/bootstrap-namespaced.min.css')}"/>
+    <apex:stylesheet value="{!$Resource.bootstrapSF1_custom}"/>
+    <style>
+        input {
+            border: 1px solid #d8dde6;
+        }
+        /* The switch - the box around the slider */
+        .switch {
+            position: relative;
+            display: inline-block;
+            width: 47px;
+            height: 21px;
+        }
+        
+        /* Hide default HTML checkbox */
+        .switch input {display:none;}
+        
+        /* The slider */
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #ccc;
+            -webkit-transition: .4s;
+            transition: .4s;
+        }
+        
+        .slider:before {
+            position: absolute;
+            content: "";
+            height: 15px;
+            width: 15px;
+            left: 3px;
+            bottom: 3px;
+            background-color: white;
+            -webkit-transition: .4s;
+            transition: .4s;
+        }
+        
+        input:checked + .slider {
+            background-color: #2196F3;
+        }
+        
+        input:focus + .slider {
+            box-shadow: 0 0 1px #2196F3;
+        }
+        
+        input:checked + .slider:before {
+            -webkit-transform: translateX(26px);
+            -ms-transform: translateX(26px);
+            transform: translateX(26px);
+        }
+        
+        /* Rounded sliders */
+        .slider.round {
+            border-radius: 34px;
+        }
+        
+        .slider.round:before {
+            border-radius: 50%;
+        }
+    </style>
+    
+    <apex:form id="rgpd_form" >
+        
+        <script type="text/javascript">
+        function gotoURL(URL) {
+            
+            if (!hostReachable()) {alert("ERROR: Sin conexión, no puede completarse la solicitud.");return;}
+            
+            if ((typeof sforce != 'undefined') && (sforce != null) ) {
+                sforce.one.navigateToURL(URL, true);
+            } else {
+                location.href = URL;
+            }
+        }
+        function nada() {return;}
+        function hostReachable() {
+            
+            // Handle IE and more capable browsers
+            var xhr = new ( window.ActiveXObject || XMLHttpRequest )( "Microsoft.XMLHTTP" );
+            var status;
+            
+            // Open new request as a HEAD to the root hostname with a random param to bust the cache
+            var gohere = window.location.hostname;
+            xhr.open( "HEAD", gohere, false );
+            
+            // Issue request and handle response
+            try {
+                xhr.send();
+                return ( xhr.status >= 200 && (xhr.status < 300 || xhr.status === 304) );
+            } catch (error) {
+                return false;
+            }
+        }
+        function disableBttnDoIt(bttn, msg) {
+            var btn = bttn;
+            setTimeout(function(){ 
+                btn.disabled = 'disabled';
+                // Use the Salesforce CSS style to make the button appear disabled
+                btn.className = 'btnDisabled';
+                btn.value = msg;
+            }, 50);
+        }
+        function disableBttn(clss, msg) {
+            $('.'+clss).each(function() {
+                disableBttnDoIt(this,msg);
+            });
+        }
+        
+        if ({!guardado}) {
+            gotoURL('{!returnURL}');
+        }  
+        </script>
+        
+        <br/>
+        <div id="rgpd_block" class="container-fluid kaizen-container">
+            
+            <div class="row form-group">
+                              
+                <div name="HEAD" class="col-xs-12 col-sm-12 col-md-12 kaizen-header" style="padding-top:5px;background-color:#0061a0;align-items:center;">
+                    <h1 style="vertical-align:middle;height:100%;">
+                        <span style="color:white;">
+                            <b style="vertical-align:-webkit-baseline-middle;">{!$Label.LOPD_Head}</b>
+                            <img src="{!$Resource.simon_logo}" alt="SIMON" height="44px;" style="margin-bottom:5px;float:right;"/>
+                        </span>
+                    </h1>
+                    <br/>
+                </div>
+                
+                <br/><br/>
+                
+                <div class="col-xs-12 col-sm-12 col-md-12 kaizen-header" style="margin-bottom:10px;">
+                    <br/>
+                    <h2 style="color:red;">{!errorMSG}</h2>
+                    <br/>
+                </div>
+                
+                <div class="col-xs-12 col-sm-12 col-md-1"></div>
+                <div class="col-xs-12 col-sm-12 col-md-2"><apex:outputLabel style="font-size:1.2em;" value="{!$ObjectType.Lead.fields.FirstName.Label}" /></div>
+                <div class="col-xs-12 col-sm-12 col-md-3"><apex:inputField value="{!con.FirstName}" style="width:75%;"/></div>
+                
+                <div class="col-xs-12 col-sm-12 col-md-2"><apex:outputLabel style="font-size:1.2em;" value="{!$ObjectType.Lead.fields.LastName.Label}" /></div>
+                <div class="col-xs-12 col-sm-12 col-md-3"><apex:inputField value="{!con.LastName}" style="width:75%;"/></div>
+                <div class="col-xs-12 col-sm-12 col-md-1"></div>
+                
+                <div class="col-xs-12 col-sm-12 col-md-12">&nbsp;</div>
+                
+                <div class="col-xs-12 col-sm-12 col-md-1"></div>
+                <div class="col-xs-12 col-sm-12 col-md-2"><apex:outputLabel style="font-size:1.2em;" value="{!$ObjectType.Lead.fields.Email.Label}" /></div>
+                <div class="col-xs-12 col-sm-12 col-md-3"><apex:inputField value="{!con.Email}" style="width:75%;"/></div>
+                
+                <div class="col-xs-12 col-sm-12 col-md-2"><apex:outputLabel style="font-size:1.2em;" value="{!$ObjectType.Lead.fields.SI_Telefono_Movil__c.Label}" /></div>
+                <div class="col-xs-12 col-sm-12 col-md-3"><apex:inputField value="{!con.SI_Telofono_Movil__c}" style="width:75%;"/></div>
+                <div class="col-xs-12 col-sm-12 col-md-1"></div>
+                
+                <div class="col-xs-12 col-sm-12 col-md-12">&nbsp;</div>
+                <div class="col-xs-12 col-sm-12 col-md-12">&nbsp;</div>
+                
+                <div class="col-xs-12 col-sm-12 col-md-12">&nbsp;</div>
+                
+                <div class="col-xs-12 col-sm-12 col-md-1"></div>
+                <div class="col-xs-12 col-sm-12 col-md-2">
+                    <label class="switch">
+                        <apex:inputField value="{!con.SI_Consiente_tratamiento_de_datos__c}"/>
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6">
+                    <!--<apex:outputLabel value="{!$ObjectType.Lead.fields.KS_Consentimiento__c.Label}" />-->
+                    <span style="font-size:1.1em;">
+                        {!$Label.LOPD_Consiento}
+                    </span>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-3">&nbsp;</div>
+                
+                <div class="col-xs-12 col-sm-12 col-md-12">&nbsp;</div>
+                
+                <div class="col-xs-12 col-sm-12 col-md-1"></div>
+                <div class="col-xs-12 col-sm-12 col-md-2">
+                    <label class="switch">
+                        <apex:inputField value="{!con.SI_Rechaza_comunicaciones__c}"/>
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6">
+                    <!--<apex:outputLabel value="{!$ObjectType.Lead.fields.KS_RechazoComunicaciones__c.Label}" />-->
+                    <span style="font-size:1.1em;">
+                        {!$Label.LOPD_Rechazo}
+                    </span>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-3">&nbsp;</div>
+                
+            </div>
+            
+            <div class="row form-group">
+                <div class="col-xs-3 col-sm-3 col-md-3"></div>
+                <div class="col-xs-4 col-sm-4 col-md-4">
+                    <apex:actionFunction action="{!save}" name="callguardar"/>
+                    <input type="button" value="Guardar" class="btn btnBuscar" onclick='guardar(this);'/>
+                    <script type="text/javascript">
+                    function guardar(boton) {
+                        disableBttn('btnGuardar', 'Guardando');
+                        callguardar();
+                    }
+                    </script>
+                </div>
+                <div class="col-xs-5 col-sm-5 col-md-5">
+                    <apex:actionFunction action="{!cancel}" name="callcancelar"/>
+                    <input type="button" value="Volver" class="btn btnVolver" onclick='volver(this);'/>
+                    <script type="text/javascript">
+                    function volver(boton) {
+                        disableBttn('btnVolver', 'Volviendo');
+                        gotoURL('{!returnURL}');
+                    }
+                    </script>
+                </div>
+            </div>
+
+            <div class="row form-group align-bottom">
+                
+                <div name="FOOT" class="col-xs-12 col-sm-12 col-md-12 kaizen-header" 
+                     style="padding-top:5px;background-color:#0061a0;margin-bottom:-15px;">
+                    <h3 style="">
+                        <span class="align-middle" style="color:white;">
+                            <img src="{!$Resource.simon_logo}" alt="SIMON" height="33px;" style="margin-bottom:8px;"/>
+                            <a style="color:white;font-size:0.8em;" href="javascript:void(0);" onclick="window.open('https://www.simonelectric.com/aviso-legal')">
+                                {!$Label.LOPD_Foot_A}&nbsp;<u>{!$Label.LOPD_Foot_B}</u>
+                            </a>
+                        </span>
+                    </h3>
+                </div>
+
+            </div>
+        </div>
+    </apex:form>
+    
+</apex:page>

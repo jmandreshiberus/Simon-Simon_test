@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dashboard xmlns="http://soap.sforce.com/2006/04/metadata">
+    <backgroundEndColor>#FFFFFF</backgroundEndColor>
+    <backgroundFadeDirection>Diagonal</backgroundFadeDirection>
+    <backgroundStartColor>#FFFFFF</backgroundStartColor>
+    <dashboardFilters>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>THIS_MONTH</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>LAST_MONTH</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>THIS_QUARTER</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>THIS_YEAR</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>LAST_N_MONTHS:2</values>
+        </dashboardFilterOptions>
+        <name>Fecha de creación</name>
+    </dashboardFilters>
+    <dashboardFilters>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Meritxell Lazaro Talegon,Sandra Ortiz,Sonia Buque Llobet</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Meritxell Lazaro Talegon</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Sandra Ortiz</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Sonia Buque Llobet</values>
+        </dashboardFilterOptions>
+        <name>Creador Name</name>
+    </dashboardFilters>
+    <dashboardType>SpecifiedUser</dashboardType>
+    <isGridLayout>false</isGridLayout>
+    <leftSection>
+        <columnSize>Medium</columnSize>
+        <components>
+            <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <chartSummary>
+                <axisBinding>y</axisBinding>
+                <column>RowCount</column>
+            </chartSummary>
+            <componentType>BarGrouped</componentType>
+            <dashboardFilterColumns>
+                <column>CREATED_DATE</column>
+            </dashboardFilterColumns>
+            <dashboardFilterColumns>
+                <column>Opportunity.KS_Creador_Name__c</column>
+            </dashboardFilterColumns>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>true</enableHover>
+            <expandOthers>false</expandOthers>
+            <groupingColumn>CREATED</groupingColumn>
+            <groupingColumn>CREATED_DATE</groupingColumn>
+            <header>Proyectos - Entregados</header>
+            <legendPosition>Bottom</legendPosition>
+            <report>PROYECTOS_ILUMINACION/PJ_Generaci_n_Semanal</report>
+            <showPercentage>false</showPercentage>
+            <showValues>true</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>Generación Semanal</title>
+            <useReportChart>false</useReportChart>
+        </components>
+    </leftSection>
+    <middleSection>
+        <columnSize>Medium</columnSize>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <dashboardFilterColumns>
+                <column>CREATED_DATE</column>
+            </dashboardFilterColumns>
+            <dashboardFilterColumns>
+                <column>Opportunity.KS_Creador_Name__c</column>
+            </dashboardFilterColumns>
+            <dashboardTableColumn>
+                <column>CREATED</column>
+                <sortBy>RowLabelAscending</sortBy>
+            </dashboardTableColumn>
+            <dashboardTableColumn>
+                <calculatePercent>false</calculatePercent>
+                <column>CREATED_DATE</column>
+                <decimalPlaces>0</decimalPlaces>
+                <showTotal>false</showTotal>
+            </dashboardTableColumn>
+            <dashboardTableColumn>
+                <calculatePercent>false</calculatePercent>
+                <column>RowCount</column>
+                <decimalPlaces>0</decimalPlaces>
+                <showTotal>true</showTotal>
+            </dashboardTableColumn>
+            <dashboardTableColumn>
+                <aggregateType>Sum</aggregateType>
+                <calculatePercent>false</calculatePercent>
+                <column>AMOUNT</column>
+                <decimalPlaces>0</decimalPlaces>
+                <showTotal>true</showTotal>
+            </dashboardTableColumn>
+            <decimalPrecision>0</decimalPrecision>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <header>Proyectos - Entregados</header>
+            <indicatorHighColor>#54C254</indicatorHighColor>
+            <indicatorLowColor>#C25454</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <report>PROYECTOS_ILUMINACION/PJ_Generaci_n_Semanal</report>
+            <showPicturesOnTables>true</showPicturesOnTables>
+            <title>Generacion Semanal</title>
+        </components>
+    </middleSection>
+    <rightSection>
+        <columnSize>Medium</columnSize>
+    </rightSection>
+    <runningUser>jlorenzo@simon.es</runningUser>
+    <textColor>#000000</textColor>
+    <title>PJ Created Weekly</title>
+    <titleColor>#000000</titleColor>
+    <titleSize>12</titleSize>
+</Dashboard>

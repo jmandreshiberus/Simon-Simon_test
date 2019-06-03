@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApprovalProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>false</active>
+    <allowRecall>true</allowRecall>
+    <allowedSubmitters>
+        <type>owner</type>
+    </allowedSubmitters>
+    <approvalPageFields>
+        <field>Name</field>
+        <field>Owner</field>
+    </approvalPageFields>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>KS_Responsable_IE20__c</name>
+                <type>relatedUserField</type>
+            </approver>
+            <approver>
+                <name>KS_Responsable_SI10__c</name>
+                <type>relatedUserField</type>
+            </approver>
+            <approver>
+                <name>KS_Responsable_FL31__c</name>
+                <type>relatedUserField</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <label>Paso 1</label>
+        <name>Paso_1</name>
+    </approvalStep>
+    <emailTemplate>Aprobaciones_Candidatos/Aprobacion_Candidatos_ESP</emailTemplate>
+    <enableMobileDeviceAccess>false</enableMobileDeviceAccess>
+    <entryCriteria>
+        <booleanFilter>1 OR 2 OR 3 OR 4</booleanFilter>
+        <criteriaItems>
+            <field>Account.KS_Estado_candidato__c</field>
+            <operation>equals</operation>
+            <value>A explorar</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.KS_Estado_candidato__c</field>
+            <operation>equals</operation>
+            <value>En prospeccion</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.KS_Estado_candidato__c</field>
+            <operation>equals</operation>
+            <value>En maduracion</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.KS_Estado_candidato__c</field>
+            <operation>equals</operation>
+            <value>Con Oportunidad en curso</value>
+        </criteriaItems>
+    </entryCriteria>
+    <finalApprovalActions>
+        <action>
+            <name>Aprobar_Candidato</name>
+            <type>FieldUpdate</type>
+        </action>
+        <action>
+            <name>Notificacion_Aprobacion_Candidato_ESP</name>
+            <type>Alert</type>
+        </action>
+    </finalApprovalActions>
+    <finalApprovalRecordLock>false</finalApprovalRecordLock>
+    <finalRejectionActions>
+        <action>
+            <name>Notificacion_de_rechazado_Candidato_ESP</name>
+            <type>Alert</type>
+        </action>
+    </finalRejectionActions>
+    <finalRejectionRecordLock>false</finalRejectionRecordLock>
+    <initialSubmissionActions>
+        <action>
+            <name>Notificacion_Solicitud_Aprobacion_Candidato_ESP</name>
+            <type>Alert</type>
+        </action>
+    </initialSubmissionActions>
+    <label>Aprobacion Candidato ESP</label>
+    <recordEditability>AdminOrCurrentApprover</recordEditability>
+    <showApprovalHistory>true</showApprovalHistory>
+</ApprovalProcess>

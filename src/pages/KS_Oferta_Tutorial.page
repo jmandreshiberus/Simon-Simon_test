@@ -1,0 +1,42 @@
+<apex:page docType="html-5.0" id="oferta_prod_page" standardStylesheets="true" showHeader="true" sidebar="false"
+           title="VIDEOTUTORIALES OFERTA">
+    
+    <apex:includeScript value="{!URLFOR($Resource.oferta_addProductos, 'jquery.min.js')}"/>
+    <apex:includeScript value="{!URLFOR($Resource.oferta_addProductos, 'jquery-ui.min.js')}"/>
+    <apex:includeScript value="{!URLFOR($Resource.oferta_addProductos, 'jquery.ui.touch-punch.min.js')}"/>
+    <apex:stylesheet value="{!URLFOR($Resource.oferta_addProductos, 'css/font-awesome.min.css')}"/>    
+    
+    <div width="90%">
+
+        <b>Contraseña:</b> Piloto
+        
+        <br/><br/>
+        <div width="75%">
+            <table>
+                <tr><th COLSPAN="2">VIDEOTUTORIAL</th></tr>
+                
+                <tr><td COLSPAN="2"><a href="" style="cursor:pointer;" onclick="window.open('https://vimeo.com/219830687');"><u>01 Conceptos básicos</u></a></td></tr>
+                <tr><td COLSPAN="2"><a href="" style="cursor:pointer;" onclick="window.open('https://vimeo.com/219830702');"><u>02 Buscador y edición</u></a></td></tr>
+                <tr><td COLSPAN="2"><a href="" style="cursor:pointer;" onclick="window.open('https://vimeo.com/219830716');"><u>03 Edición avanzada y descuentos</u></a></td></tr>
+                <tr><td COLSPAN="2"><a href="" style="cursor:pointer;" onclick="window.open('https://vimeo.com/219830727');"><u>04 Importador de Referencias</u></a></td></tr>
+                <tr><td COLSPAN="2"><a href="" style="cursor:pointer;" onclick="window.open('https://vimeo.com/219830675');"><u>05 Gestión de Fichas</u></a></td></tr>
+                <tr><td COLSPAN="2"><a href="" style="cursor:pointer;" onclick="window.open('https://vimeo.com/219830678');"><u>06 Aprobaciones y Dto Logístico</u></a></td></tr>
+                
+                
+            </table>
+        </div>
+        <br/>
+        <div width="75%">
+            <table>
+                <tr><th COLSPAN="2">VIDEOTUTORIAL EN DETALLE</th></tr>
+                
+                <tr><td COLSPAN="2"><a href="" style="cursor:pointer;" onclick="window.open('https://vimeo.com/219368373');"><u>01 Introducción Referencias Fichas</u></a></td></tr>
+                <tr><td COLSPAN="2"><a href="" style="cursor:pointer;" onclick="window.open('https://vimeo.com/219481117');"><u>02 Importador Referencias</u></a></td></tr>
+                <tr><td COLSPAN="2"><a href="" style="cursor:pointer;" onclick="window.open('https://vimeo.com/219481137');"><u>03 Gestión de Fichas</u></a></td></tr>
+                <tr><td COLSPAN="2"><a href="" style="cursor:pointer;" onclick="window.open('https://vimeo.com/219481105');"><u>04 Aprobaciones y Cálculo Dto. Logístico</u></a></td></tr>
+
+            </table>
+        </div> 
+        
+    </div>
+</apex:page>

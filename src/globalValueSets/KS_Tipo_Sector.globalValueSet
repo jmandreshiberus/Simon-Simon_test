@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>1</fullName>
+        <default>false</default>
+        <label>1</label>
+    </customValue>
+    <customValue>
+        <fullName>2</fullName>
+        <default>false</default>
+        <label>2</label>
+    </customValue>
+    <customValue>
+        <fullName>3</fullName>
+        <default>false</default>
+        <label>3</label>
+    </customValue>
+    <customValue>
+        <fullName>10</fullName>
+        <default>false</default>
+        <label>10</label>
+    </customValue>
+    <customValue>
+        <fullName>20</fullName>
+        <default>false</default>
+        <label>20</label>
+    </customValue>
+    <customValue>
+        <fullName>30</fullName>
+        <default>false</default>
+        <label>30</label>
+    </customValue>
+    <customValue>
+        <fullName>40</fullName>
+        <default>false</default>
+        <label>40</label>
+    </customValue>
+    <customValue>
+        <fullName>50</fullName>
+        <default>false</default>
+        <label>50</label>
+    </customValue>
+    <customValue>
+        <fullName>60</fullName>
+        <default>false</default>
+        <label>60</label>
+    </customValue>
+    <customValue>
+        <fullName>70</fullName>
+        <default>false</default>
+        <label>70</label>
+    </customValue>
+    <description>SAP. Uso --&gt; Organizaciones Cliente - Jerarquia Cliente - Producto --&gt; CARGADO</description>
+    <masterLabel>Tipo Sector (SAP)</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

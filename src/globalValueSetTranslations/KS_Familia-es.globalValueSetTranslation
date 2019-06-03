@@ -1,0 +1,959 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>1</masterLabel>
+        <translation><!-- 1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>B00</masterLabel>
+        <translation>Conjuntos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>B01</masterLabel>
+        <translation>Interruptores</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>B02</masterLabel>
+        <translation>Tomadas</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>B03</masterLabel>
+        <translation>Placas</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>B04</masterLabel>
+        <translation>Soportes</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>B05</masterLabel>
+        <translation>Diversos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>B06</masterLabel>
+        <translation>Relés</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C00</masterLabel>
+        <translation>***Cajas Cima pared superficio</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C01</masterLabel>
+        <translation>***Cajas Cima Pro pared empotrar</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C02</masterLabel>
+        <translation>***Cajas Cima pared empotrar</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C03</masterLabel>
+        <translation>***Cajas Cima Pro pared superficio</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C04</masterLabel>
+        <translation>***Torretas Cima</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C05</masterLabel>
+        <translation>***Minicolumnas Cima</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C06</masterLabel>
+        <translation>***Cajas de suelo Cima</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C07</masterLabel>
+        <translation>***Registros Cima</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C08</masterLabel>
+        <translation>***Columnas Cima</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C09</masterLabel>
+        <translation>*Acces genéricos envolventes/marcos cima</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C10</masterLabel>
+        <translation>***Bases electricas Cima</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C11</masterLabel>
+        <translation>***Placas Cima para VDM</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C12</masterLabel>
+        <translation>***Placas Cima adaptadoras</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C13</masterLabel>
+        <translation>***Placas Cima para proteccion</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C14</masterLabel>
+        <translation>***PLacas Cima varias</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C15</masterLabel>
+        <translation>***Teleblock K45</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C16</masterLabel>
+        <translation>***Ofiblock K45</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C17</masterLabel>
+        <translation>***Ofiblock Plus K45</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C18</masterLabel>
+        <translation>***Ofiblock compact K45</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C19</masterLabel>
+        <translation>***Estancas K45</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C20</masterLabel>
+        <translation>***Torretas antivanladilicas K45</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C21</masterLabel>
+        <translation>*Cajas superficie / empotrar serie R K45</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C22</masterLabel>
+        <translation>***Minicolumnas K45</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C23</masterLabel>
+        <translation>***Columnas K45</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C24</masterLabel>
+        <translation>***Accesiruis genericos envolventes K45</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C25</masterLabel>
+        <translation>***Bases de enchufe K45</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C26</masterLabel>
+        <translation>***Mecanismos basicos K45</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C27</masterLabel>
+        <translation>***Placas K45 para VDM</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C28</masterLabel>
+        <translation>***Placas K45 para fibra optica</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C29</masterLabel>
+        <translation>***Placas K45 para multimedia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C30</masterLabel>
+        <translation>***Placas K45 adaptadoras</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C31</masterLabel>
+        <translation>***Placas K45 para proteccion</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C32</masterLabel>
+        <translation>***Placas K45 para conex. rápida</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C33</masterLabel>
+        <translation>***Placas K45 varias</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C34</masterLabel>
+        <translation>***Canal pasacables PVC</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C35</masterLabel>
+        <translation>***Canal pasacables aluminio</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C36</masterLabel>
+        <translation>***Canal K45 PVC</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C37</masterLabel>
+        <translation>***Canal K45 aluminio</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C38</masterLabel>
+        <translation>***Canal cablomax K45 de aluminio</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C39</masterLabel>
+        <translation>***Canal cablomax K45 PVC</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C40</masterLabel>
+        <translation>***Accesorios comunies canalización</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C41</masterLabel>
+        <translation>***Minicanal de PVC</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C42</masterLabel>
+        <translation>***Minicanal Aluminio</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C43</masterLabel>
+        <translation>***Canal DCS</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C44</masterLabel>
+        <translation>***Polytrack</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C45</masterLabel>
+        <translation>***Canal fluidos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C46</masterLabel>
+        <translation>***Organizador de cableado</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C47</masterLabel>
+        <translation>***Rejilla metálica Rejitel</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C48</masterLabel>
+        <translation>***Accesorios Rejitek y bandeja metálica</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C49</masterLabel>
+        <translation>***Conectores VDM</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C50</masterLabel>
+        <translation>***Placas Cima con conectores VDM</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C51</masterLabel>
+        <translation>***Placas K45  con conectores VDM</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C52</masterLabel>
+        <translation>***Placas Cima con conectores mutimedia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C53</masterLabel>
+        <translation>***Placas K45 con conectores multimedia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C54</masterLabel>
+        <translation>***Cableado estructurado</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C55</masterLabel>
+        <translation>***Latiguillos VDM</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C56</masterLabel>
+        <translation>***Armarios Rack</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C57</masterLabel>
+        <translation>***Paneles VDM</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C58</masterLabel>
+        <translation>***Electroblock</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C59</masterLabel>
+        <translation>***Accesorios VDM</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C60</masterLabel>
+        <translation>***Conexión rápida bases</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C61</masterLabel>
+        <translation>***Conexión rápida envolventes</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C62</masterLabel>
+        <translation>***Conexión rápida latiguillos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C63</masterLabel>
+        <translation>***Conexión ráoida accesorios</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C64</masterLabel>
+        <translation>***Conexión rápida placas con conectores</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C65</masterLabel>
+        <translation>****Electrobanda</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C66</masterLabel>
+        <translation>****Protección</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C67</masterLabel>
+        <translation>****Suelo técnico</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C68</masterLabel>
+        <translation>****Otros</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C69</masterLabel>
+        <translation>****Especial gama CIMA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C70</masterLabel>
+        <translation>****Basis</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C71</masterLabel>
+        <translation>****Especial Gama canalización</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C72</masterLabel>
+        <translation>****Especial gama telecomunicaciones</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C73</masterLabel>
+        <translation>****Especial gama K45</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C74</masterLabel>
+        <translation>****Especial gama R</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C75</masterLabel>
+        <translation>****Especial sistema cableado eléctrico</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C76</masterLabel>
+        <translation>****Especial seguridad puesto trabajo</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C77</masterLabel>
+        <translation>****Especial gama suelo técnico</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C78</masterLabel>
+        <translation>****Especial MM Dataeléctric</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C79</masterLabel>
+        <translation>****Especial Simon</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C80</masterLabel>
+        <translation>****Especial Electro Liaison</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C81</masterLabel>
+        <translation>****Especial gama cima pro</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C82</masterLabel>
+        <translation>MM DATALECTRIC</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C83</masterLabel>
+        <translation>SIMON</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C84</masterLabel>
+        <translation>ELECTROLIAISON</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C85</masterLabel>
+        <translation>******Bandeja Metálica</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C86</masterLabel>
+        <translation>******Cajas de suelo Cima Mec. inclinado</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C87</masterLabel>
+        <translation>CONNECT (Cima, K45, Sist.Cabl.Electr)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C88</masterLabel>
+        <translation>CANALIZACION PVC</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C89</masterLabel>
+        <translation>CANALIZACION</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C90</masterLabel>
+        <translation>SISTEMA CABLEADO ESTRUCTURADO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C91</masterLabel>
+        <translation>BANDEJA + REJILLA METALICA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C92</masterLabel>
+        <translation>SUELO TECNICO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C93</masterLabel>
+        <translation>BASIS</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C99</masterLabel>
+        <translation>ELECTRAPLAN</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>COM</masterLabel>
+        <translation>COM</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E01</masterLabel>
+        <translation>Reguladores 300W</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E02</masterLabel>
+        <translation>Reguladores 500W</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E03</masterLabel>
+        <translation>Reguladores 1000W</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E04</masterLabel>
+        <translation>Fluorescentes</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E05</masterLabel>
+        <translation>Pastilla REM</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E06</masterLabel>
+        <translation>Pastilla REL</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E07</masterLabel>
+        <translation>Reguladores 500W</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E08</masterLabel>
+        <translation>Auxiliares</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E09</masterLabel>
+        <translation>Reguladores 1000W</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E10</masterLabel>
+        <translation>Rele</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E11</masterLabel>
+        <translation>Triac</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E12</masterLabel>
+        <translation>Temporizado</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E13</masterLabel>
+        <translation>Tarjetero</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E14</masterLabel>
+        <translation>Pasen y Esperen</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E15</masterLabel>
+        <translation>Interruptor de 2 Posiciones</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E16</masterLabel>
+        <translation>Temporizados</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E17</masterLabel>
+        <translation>Emisores</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E18</masterLabel>
+        <translation>Receptores</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E19</masterLabel>
+        <translation>Emisor/Receptor</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E20</masterLabel>
+        <translation>Emisores</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E21</masterLabel>
+        <translation>Receptores</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E22</masterLabel>
+        <translation>Central de Telecontrol</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E23</masterLabel>
+        <translation>Accesorios</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E24</masterLabel>
+        <translation>Comunicaciones</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E25</masterLabel>
+        <translation>Seguridad</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E26</masterLabel>
+        <translation>Alimentacion</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E27</masterLabel>
+        <translation>Entradas/Salidas</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E28</masterLabel>
+        <translation>Regulacion</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E29</masterLabel>
+        <translation>Comunicaciones</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E30</masterLabel>
+        <translation>Teclas</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E31</masterLabel>
+        <translation>Infrarojos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E32</masterLabel>
+        <translation>Visualizadores</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E33</masterLabel>
+        <translation>Accesorios</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E34</masterLabel>
+        <translation>Royalties</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E35</masterLabel>
+        <translation>Software</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E36</masterLabel>
+        <translation>Bulbo Luminoso</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E37</masterLabel>
+        <translation>Teclas</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E38</masterLabel>
+        <translation>Multimecanismos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E39</masterLabel>
+        <translation>Marco</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E40</masterLabel>
+        <translation>Puntos de Luz (balizas circulares)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E41</masterLabel>
+        <translation>Balizamiento</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E42</masterLabel>
+        <translation>Mecanismos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E43</masterLabel>
+        <translation>Botoneras</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E44</masterLabel>
+        <translation>Relojes Digitales</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E45</masterLabel>
+        <translation>Estaciones Meteorogicas</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E47</masterLabel>
+        <translation>Timbres Electrónicos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E48</masterLabel>
+        <translation>SimonCom</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E49</masterLabel>
+        <translation>Placas Circuitos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E50</masterLabel>
+        <translation>Regulación - Escenas</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E51</masterLabel>
+        <translation>ST: Dimmer</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E52</masterLabel>
+        <translation>ST: Complementos Electrónicos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E53</masterLabel>
+        <translation>Rm5: Musicam PC</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E54</masterLabel>
+        <translation>Rm6: Musicam II</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E55</masterLabel>
+        <translation>Rms</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E56</masterLabel>
+        <translation>Sensores</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E57</masterLabel>
+        <translation>Pilotos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E58</masterLabel>
+        <translation>Concentradores Planta</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E59</masterLabel>
+        <translation>Concentradores Zona</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E60</masterLabel>
+        <translation>Paneles</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E61</masterLabel>
+        <translation>Puentes de Alimentación</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E62</masterLabel>
+        <translation>Almed V1.0</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E63</masterLabel>
+        <translation>Timbre digital</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E64</masterLabel>
+        <translation>Elvatel</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E65</masterLabel>
+        <translation>Elvatel Accesorios</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E66</masterLabel>
+        <translation>Televen Accesorios</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E67</masterLabel>
+        <translation>Televen LC</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E68</masterLabel>
+        <translation>Upgrade Televen</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E69</masterLabel>
+        <translation>Pasarela Televen</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E70</masterLabel>
+        <translation>ZigBee</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E71</masterLabel>
+        <translation>Vox</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E72</masterLabel>
+        <translation>Vit@</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E73</masterLabel>
+        <translation>Pequeño Material</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E74</masterLabel>
+        <translation>Radio Frecuencia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E75</masterLabel>
+        <translation>Regulación</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E76</masterLabel>
+        <translation>Serv. Consultoria Electrónica</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E77</masterLabel>
+        <translation>Clientes Externos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E78</masterLabel>
+        <translation>Industrializaciones Simon</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E79</masterLabel>
+        <translation>Industrializaciones E2S</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E80</masterLabel>
+        <translation>Industrializaciones Subcontratacion</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E81</masterLabel>
+        <translation>VS Resto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E82</masterLabel>
+        <translation>VS Phuc</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E83</masterLabel>
+        <translation>VS Ceasa</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E84</masterLabel>
+        <translation>VS Diprotech</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E85</masterLabel>
+        <translation>VS Ditel</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E86</masterLabel>
+        <translation>VS Siemens VDO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E87</masterLabel>
+        <translation>VS LPG</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E88</masterLabel>
+        <translation>VS Adasa</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E89</masterLabel>
+        <translation>VS Irco</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E90</masterLabel>
+        <translation>VS Fema</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E91</masterLabel>
+        <translation>VS GPS uSaT</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E92</masterLabel>
+        <translation>VS AKO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E93</masterLabel>
+        <translation>VS CONECTIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E94</masterLabel>
+        <translation>Venta Componentes Intra-holding</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E95</masterLabel>
+        <translation>Venta Componentes Extra-Holding</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E96</masterLabel>
+        <translation>Elvatel Comercializados</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E97</masterLabel>
+        <translation>Comercializados Televen</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E98</masterLabel>
+        <translation>Comercializados Infralogic</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E99</masterLabel>
+        <translation>Reparaciones Intra-Holding</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>EC1</masterLabel>
+        <translation>Reparaciones Extra-holding</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>F00</masterLabel>
+        <translation>Flu Fluvia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G01</masterLabel>
+        <translation>Gilma</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G02</masterLabel>
+        <translation>Simon Retractil</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G03</masterLabel>
+        <translation>Simon Blister</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G04</masterLabel>
+        <translation>Simon Componentes</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G05</masterLabel>
+        <translation>COATI</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G06</masterLabel>
+        <translation>MAQUINARIA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I00</masterLabel>
+        <translation>ILUMINACION INTERIOR</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I01</masterLabel>
+        <translation>ILUMINACION EXTERIOR</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IE1</masterLabel>
+        <translation>A</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IE2</masterLabel>
+        <translation>B</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IE3</masterLabel>
+        <translation>C</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IN0</masterLabel>
+        <translation>HAUSMANN</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IN1</masterLabel>
+        <translation>INDIOS</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S01</masterLabel>
+        <translation>PROTECCION G1</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S02</masterLabel>
+        <translation>EMPOTRAR</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S03</masterLabel>
+        <translation>SUPERFICIE</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S04</masterLabel>
+        <translation>**(NO USAR) ESTANCO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S05</masterLabel>
+        <translation>PROTECCION DOMESTICA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S06</masterLabel>
+        <translation>PROTECCION G2</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S07</masterLabel>
+        <translation>FUSIBLES</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S08</masterLabel>
+        <translation>INDUSTRIAL</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S09</masterLabel>
+        <translation>**(NO USAR) Domótica</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S10</masterLabel>
+        <translation>MATERIAL DIVERSO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S11</masterLabel>
+        <translation>SONIDO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S12</masterLabel>
+        <translation>eMUSIC</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S13</masterLabel>
+        <translation>VITA y VIS</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S14</masterLabel>
+        <translation>VOX</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S15</masterLabel>
+        <translation>LINK-IT</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S16</masterLabel>
+        <translation>Recarga VE</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S17</masterLabel>
+        <translation>Healthcare</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S18</masterLabel>
+        <translation>Sistema Control de Iluminación</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S19</masterLabel>
+        <translation>Sistemas de Control</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SEG</masterLabel>
+        <translation>SEGURIDAD</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SER</masterLabel>
+        <translation>Servicios</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S_C</masterLabel>
+        <translation>COMPONENTES</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

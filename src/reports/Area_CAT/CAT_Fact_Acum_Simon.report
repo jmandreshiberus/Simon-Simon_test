@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_81646229</developerName>
+        <masterLabel>Area</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>CUST_OWNER_NAME</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Melcior Selma Lomas</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Sergi Cervantes Elías</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Alberto Martos Ferra</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Lluís Torrecabota Masmitja</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Pau Samo Guerra</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Gabriel Riba Barea</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Eduardo Mosquera</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Admin Simon</sourceValue>
+            </sourceValues>
+            <value>CAT</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Angel Lores Cantero</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Antonio Rodao Redondo</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Cristina Gil Martinez</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Ibon Korta Fernandez</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Javier Dewisme Prados</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Lorenzo Pérez Padilla</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Luis Francisco Garcia Lahuerta</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Javier Manrique Gonzalez</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Carlos Daniel Novoa Lopez</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Felipe Iturri Goñi</sourceValue>
+            </sourceValues>
+            <value>NORESTE</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>CUST_OWNER_NAME</field>
+    </columns>
+    <columns>
+        <field>FK_NAME</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>KS_Factura__c.KS_Valor_neto_en_moneda_de_documento__c.CONVERT</field>
+    </columns>
+    <currency>EUR</currency>
+    <filter>
+        <criteriaItems>
+            <column>KS_Factura__c.KS_Organizacion_de_ventas__c</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>SI10</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FK_ACC_ADDR2_ZIP</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>25,43,08,17</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>BucketField_81646229</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>CAT</value>
+        </criteriaItems>
+        <language>es</language>
+    </filter>
+    <format>Matrix</format>
+    <groupingsAcross>
+        <dateGranularity>Month</dateGranularity>
+        <field>KS_Factura__c.KS_Fecha_de_factura_para_el_indice__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>KS_Factura__c.KS_Organizacion_de_ventas__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>KS_Factura__c.KS_Destinatario__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>CAT - Fact. Acum. Simon</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$KS_Factura__c@KS_Factura__c.KS_Solicitante__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>KS_Factura__c.KS_Fecha_de_factura_para_el_indice__c</dateColumn>
+        <interval>INTERVAL_CURFY</interval>
+    </timeFrameFilter>
+</Report>

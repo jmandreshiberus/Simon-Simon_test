@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dashboard xmlns="http://soap.sforce.com/2006/04/metadata">
+    <backgroundEndColor>#FFFFFF</backgroundEndColor>
+    <backgroundFadeDirection>Diagonal</backgroundFadeDirection>
+    <backgroundStartColor>#FFFFFF</backgroundStartColor>
+    <dashboardFilters>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Ana Bascoy Rodriguez</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Carlos Luis Garcia Arceo</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Carlos Mendez Suarez</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Guillermo Corral Pena</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Jose Andres Carballal Penas</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Jose Luis Sousa Grueiro</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Juan Campos Fernandez</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Luis Aldehuelo Rodriguez</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Manuel Martinez Delgado</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Maria Jesus Ramos Varela</values>
+        </dashboardFilterOptions>
+        <name>Propietario de oportunidad</name>
+    </dashboardFilters>
+    <dashboardFilters>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Oscar Lodeiro Mendez</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Rafael Cortina Hevia</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Ricardo Tuñas Rodriguez</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Sara Serrano Mato</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Marian Candendo</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Ana Bascoy Rodriguez,Carlos Luis Garcia Arceo,Carlos Mendez Suarez,Guillermo Corral Pena,Jose Andres Carballal Penas,Jose Luis Sousa Grueiro,Juan Campos Fernandez,Luis Aldehuelo Rodriguez,Manuel Martinez Delgado,Maria Jesus Ramos Varela,Oscar Lodeiro Mendez,Rafael Cortina Hevia,Ricardo Tuñas Rodriguez,Sara Serrano Mato,Marian Candendo</values>
+        </dashboardFilterOptions>
+        <name>Propietario de oportunidad</name>
+    </dashboardFilters>
+    <dashboardType>SpecifiedUser</dashboardType>
+    <isGridLayout>false</isGridLayout>
+    <leftSection>
+        <columnSize>Medium</columnSize>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <dashboardFilterColumns>
+                <column>FULL_NAME</column>
+            </dashboardFilterColumns>
+            <dashboardFilterColumns>
+                <column>FULL_NAME</column>
+            </dashboardFilterColumns>
+            <dashboardTableColumn>
+                <column>RECORDTYPE</column>
+                <sortBy>RowLabelAscending</sortBy>
+            </dashboardTableColumn>
+            <dashboardTableColumn>
+                <aggregateType>Sum</aggregateType>
+                <calculatePercent>false</calculatePercent>
+                <column>AMOUNT</column>
+                <showTotal>true</showTotal>
+            </dashboardTableColumn>
+            <dashboardTableColumn>
+                <calculatePercent>false</calculatePercent>
+                <column>RowCount</column>
+                <showTotal>true</showTotal>
+            </dashboardTableColumn>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <header>Funnel - Generación Año Actual y Anterior</header>
+            <indicatorHighColor>#54C254</indicatorHighColor>
+            <indicatorLowColor>#C25454</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <report>Marcas_Comerciales/RC_Funnel_Generacion_2017_1</report>
+            <showPicturesOnTables>true</showPicturesOnTables>
+            <title>Ofertas Abiertas sin Obra</title>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>BarStacked</componentType>
+            <dashboardFilterColumns>
+                <column>FULL_NAME</column>
+            </dashboardFilterColumns>
+            <dashboardFilterColumns>
+                <column>FULL_NAME</column>
+            </dashboardFilterColumns>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>true</enableHover>
+            <expandOthers>false</expandOthers>
+            <header>Funnel - Generación Año Actual</header>
+            <legendPosition>Bottom</legendPosition>
+            <report>Segmentos/RC_Funnel_Generacion_2017</report>
+            <showPercentage>false</showPercentage>
+            <showValues>false</showValues>
+            <sortBy>RowLabelDescending</sortBy>
+            <title>Ofertas Generadas Año Actual</title>
+            <useReportChart>false</useReportChart>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <dashboardFilterColumns>
+                <column>FULL_NAME</column>
+            </dashboardFilterColumns>
+            <dashboardFilterColumns>
+                <column>FULL_NAME</column>
+            </dashboardFilterColumns>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <header>Funnel - Cierre Año Actual</header>
+            <indicatorHighColor>#54C254</indicatorHighColor>
+            <indicatorLowColor>#C25454</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <report>Marcas_Comerciales/RC_Funnel_Ofertas_Enviadas</report>
+            <showPicturesOnTables>true</showPicturesOnTables>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>Ofertas Enviadas x F.Cierre</title>
+        </components>
+    </leftSection>
+    <middleSection>
+        <columnSize>Medium</columnSize>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <dashboardFilterColumns>
+                <column>FULL_NAME</column>
+            </dashboardFilterColumns>
+            <dashboardFilterColumns>
+                <column>FULL_NAME</column>
+            </dashboardFilterColumns>
+            <dashboardTableColumn>
+                <column>FULL_NAME</column>
+            </dashboardTableColumn>
+            <dashboardTableColumn>
+                <aggregateType>Sum</aggregateType>
+                <calculatePercent>false</calculatePercent>
+                <column>AMOUNT</column>
+                <showTotal>true</showTotal>
+            </dashboardTableColumn>
+            <dashboardTableColumn>
+                <calculatePercent>false</calculatePercent>
+                <column>RowCount</column>
+                <showTotal>false</showTotal>
+            </dashboardTableColumn>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <header>Funnel Revisión Mensual</header>
+            <indicatorHighColor>#54C254</indicatorHighColor>
+            <indicatorLowColor>#C25454</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <report>Marcas_Comerciales/RC_Funnel_Revision_Mensual</report>
+            <showPicturesOnTables>true</showPicturesOnTables>
+            <title>Ofertas x F.Cierre</title>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <dashboardFilterColumns>
+                <column>FULL_NAME</column>
+            </dashboardFilterColumns>
+            <dashboardFilterColumns>
+                <column>FULL_NAME</column>
+            </dashboardFilterColumns>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <header>Funnel - Cierre Año Actual</header>
+            <indicatorHighColor>#54C254</indicatorHighColor>
+            <indicatorLowColor>#C25454</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <report>Marcas_Comerciales/RC_Funnel_Px</report>
+            <showPicturesOnTables>true</showPicturesOnTables>
+            <sortBy>RowLabelDescending</sortBy>
+            <title>Probabilidad de Cierre</title>
+        </components>
+    </middleSection>
+    <rightSection>
+        <columnSize>Medium</columnSize>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>BarGrouped</componentType>
+            <dashboardFilterColumns>
+                <column>FULL_NAME</column>
+            </dashboardFilterColumns>
+            <dashboardFilterColumns>
+                <column>FULL_NAME</column>
+            </dashboardFilterColumns>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>true</enableHover>
+            <expandOthers>false</expandOthers>
+            <header>Funnel - Cierre Año Actual</header>
+            <legendPosition>Bottom</legendPosition>
+            <report>Marcas_Comerciales/RC_Funnel_Ganadas_Perdidas</report>
+            <showPercentage>false</showPercentage>
+            <showValues>true</showValues>
+            <sortBy>RowLabelDescending</sortBy>
+            <title>Ofertas Ganadas/Perdidas</title>
+            <useReportChart>false</useReportChart>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>ColumnStacked</componentType>
+            <dashboardFilterColumns>
+                <column>FULL_NAME</column>
+            </dashboardFilterColumns>
+            <dashboardFilterColumns>
+                <column>FULL_NAME</column>
+            </dashboardFilterColumns>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>false</enableHover>
+            <expandOthers>false</expandOthers>
+            <header>Funnel de Oportunidades en Curso</header>
+            <legendPosition>Bottom</legendPosition>
+            <report>Marcas_Comerciales/RC_Funnel_Oportunidades_en_curso</report>
+            <showPercentage>false</showPercentage>
+            <showValues>false</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>Ofertas - Importe x Px</title>
+            <useReportChart>false</useReportChart>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <chartSummary>
+                <aggregate>Sum</aggregate>
+                <axisBinding>y</axisBinding>
+                <column>TOTAL_PRICE</column>
+            </chartSummary>
+            <componentType>Donut</componentType>
+            <dashboardFilterColumns>
+                <column>FULL_NAME</column>
+            </dashboardFilterColumns>
+            <dashboardFilterColumns>
+                <column>FULL_NAME</column>
+            </dashboardFilterColumns>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>true</enableHover>
+            <expandOthers>true</expandOthers>
+            <groupingColumn>STAGE_NAME</groupingColumn>
+            <header>Funnel - Cierre Año Actual</header>
+            <legendPosition>Bottom</legendPosition>
+            <report>Marcas_Comerciales/RC_Funnel_JP_G_P_Mensual</report>
+            <showPercentage>true</showPercentage>
+            <showTotal>true</showTotal>
+            <showValues>true</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>Año Actual - Ganadas/Perdidas</title>
+            <useReportChart>false</useReportChart>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <chartSummary>
+                <aggregate>Sum</aggregate>
+                <axisBinding>y</axisBinding>
+                <column>TOTAL_PRICE</column>
+            </chartSummary>
+            <componentType>BarGrouped</componentType>
+            <dashboardFilterColumns>
+                <column>FULL_NAME</column>
+            </dashboardFilterColumns>
+            <dashboardFilterColumns>
+                <column>FULL_NAME</column>
+            </dashboardFilterColumns>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>true</enableHover>
+            <expandOthers>false</expandOthers>
+            <groupingColumn>CLOSE_DATE</groupingColumn>
+            <groupingColumn>STAGE_NAME</groupingColumn>
+            <header>Funnel - Cierre Año Actual</header>
+            <legendPosition>Bottom</legendPosition>
+            <report>Marcas_Comerciales/RC_Funnel_JP_G_P_Mensual</report>
+            <showPercentage>false</showPercentage>
+            <showValues>true</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>Año Actual - Ganadas/Perdidas</title>
+            <useReportChart>false</useReportChart>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <chartSummary>
+                <aggregate>Sum</aggregate>
+                <axisBinding>y</axisBinding>
+                <column>TOTAL_PRICE</column>
+            </chartSummary>
+            <componentType>Donut</componentType>
+            <dashboardFilterColumns>
+                <column>FULL_NAME</column>
+            </dashboardFilterColumns>
+            <dashboardFilterColumns>
+                <column>FULL_NAME</column>
+            </dashboardFilterColumns>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>true</enableHover>
+            <expandOthers>false</expandOthers>
+            <groupingColumn>CREATED_DATE</groupingColumn>
+            <header>Funnel - Cierre Año Actual</header>
+            <legendPosition>Bottom</legendPosition>
+            <report>Marcas_Comerciales/RC_Funnel_JP_G_P_Mensual</report>
+            <showPercentage>true</showPercentage>
+            <showTotal>true</showTotal>
+            <showValues>true</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>Ofertas G/P - Año Creación</title>
+            <useReportChart>false</useReportChart>
+        </components>
+    </rightSection>
+    <runningUser>jlorenzo@simon.es</runningUser>
+    <textColor>#000000</textColor>
+    <title>NO Funnel</title>
+    <titleColor>#000000</titleColor>
+    <titleSize>12</titleSize>
+</Dashboard>

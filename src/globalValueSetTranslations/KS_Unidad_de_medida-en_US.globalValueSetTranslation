@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>%</masterLabel>
+        <translation>Percentage</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BAR</masterLabel>
+        <translation>bar</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BOL</masterLabel>
+        <translation>Bag</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CA</masterLabel>
+        <translation>Crate</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CCM</masterLabel>
+        <translation><!-- CCM --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CDM</masterLabel>
+        <translation><!-- CDM --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CM</masterLabel>
+        <translation>Centimeter</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CM2</masterLabel>
+        <translation>Square centimeter</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CM3</masterLabel>
+        <translation>Cubic centimeter</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DM</masterLabel>
+        <translation>Decimeter</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DM3</masterLabel>
+        <translation>Cubic decimeter</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DÍA</masterLabel>
+        <translation>Days</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G</masterLabel>
+        <translation>Gram</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>H</masterLabel>
+        <translation>Hour</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HRA</masterLabel>
+        <translation>Hours</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KG</masterLabel>
+        <translation>Kilogram</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>L</masterLabel>
+        <translation>Liter</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LC</masterLabel>
+        <translation>Bottle</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LMI</masterLabel>
+        <translation>Liter/Minute</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M</masterLabel>
+        <translation>Meter</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M2</masterLabel>
+        <translation><!-- M2 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M3</masterLabel>
+        <translation><!-- M3 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MG</masterLabel>
+        <translation>Milligram</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MM</masterLabel>
+        <translation>Millimeter</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MM2</masterLabel>
+        <translation>Square meter</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MM3</masterLabel>
+        <translation>Cubic meter</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MMQ</masterLabel>
+        <translation><!-- MMQ --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PAL</masterLabel>
+        <translation>Pallet</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>T</masterLabel>
+        <translation>Tonne</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UN</masterLabel>
+        <translation>items</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZBR</masterLabel>
+        <translation><!-- ZBR --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZCE</masterLabel>
+        <translation>Exhib. Box</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZCM</masterLabel>
+        <translation>Mult. Box</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZCU</masterLabel>
+        <translation><!-- ZCU --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZPE</masterLabel>
+        <translation>European Pallet</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>G2</masterLabel>
+        <translation>Credit Memo Request</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KL</masterLabel>
+        <translation>Deliv.Free of Charge</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>L2</masterLabel>
+        <translation>Debit Memo Request</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>RE</masterLabel>
+        <translation>Returns</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TA</masterLabel>
+        <translation>Standard Order</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZC01</masterLabel>
+        <translation><!-- ZC01 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZC02</masterLabel>
+        <translation><!-- ZC02 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZC03</masterLabel>
+        <translation><!-- ZC03 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZC04</masterLabel>
+        <translation>Consignment Issue</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZC05</masterLabel>
+        <translation>Consignment Issue</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZC06</masterLabel>
+        <translation>Consignment Returns</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZG1</masterLabel>
+        <translation>Credit Mem.Dis.Perio</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZG2</masterLabel>
+        <translation>Credit MemoPrice dif</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZG3</masterLabel>
+        <translation>Internal Credit Memo</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZGA</masterLabel>
+        <translation>Credit Memo Financ.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZGF</masterLabel>
+        <translation>Credit Memo Financ.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZGF2</masterLabel>
+        <translation>Credit Memo IVA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZKL</masterLabel>
+        <translation>Deliv.Free of Charge</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZKLI</masterLabel>
+        <translation>Deliv.Free of Charge</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZL1</masterLabel>
+        <translation>Debit Memo Dis.Perio</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZL2</masterLabel>
+        <translation>Debit Memo Price Dif</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZL3</masterLabel>
+        <translation>Debit Memo Inv.Perio</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZLF</masterLabel>
+        <translation>Debit Memo Financial</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZRE</masterLabel>
+        <translation>Returns</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZREC</masterLabel>
+        <translation>Returns Scrap</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZTA</masterLabel>
+        <translation>Standard Order</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZTA0</masterLabel>
+        <translation>Standard Order</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZTA1</masterLabel>
+        <translation>Standard Order</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

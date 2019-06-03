@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>USERS.NAME</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
+        <field>Account.KS_Id_Salesforce__c</field>
+    </columns>
+    <crossFilters>
+        <operation>without</operation>
+        <primaryTableColumn>ACCOUNT_ID</primaryTableColumn>
+        <relatedTable>KS_Organizacion_Cliente__c</relatedTable>
+        <relatedTableJoinColumn>KS_Cliente_Distribucion__c</relatedTableJoinColumn>
+    </crossFilters>
+    <currency>EUR</currency>
+    <filter>
+        <criteriaItems>
+            <column>RECORDTYPE</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Account.KS_Distribuidores_SAP</value>
+        </criteriaItems>
+        <language>es</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Distribuidores sin Marca</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>AccountList</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>
